@@ -4,8 +4,8 @@
 
 ```text
 mcporter 0.9.0 — Listing 2 server(s) (per-server timeout: 30s)
-- xiaohongshu (13 tools, 0.1s)
-- exa (2 tools, 1.0s)
+- xiaohongshu (13 tools, 0.2s)
+- exa (2 tools, 1.6s)
 ✔ Listed 2 servers (2 healthy).
 ```
 
@@ -35,15 +35,17 @@ Add a `.claude-plugin/plugin.json` to a skill folder and it loads as a plugin na
 ...
 Live change detection covers `SKILL.md` text only. For a skill folder that is also a plugin, changes to `hooks/`, `.mcp.json`, `agents/`, and `output-styles/` need `/reload-plugins` to take effect.
 ...
-| `disable-model-invocation` |
+disable-model-invocation` |
 ...
 | `${CLAUDE_PROJECT_DIR}` | The project root directory. This is the same path hooks and MCP servers receive as `CLAUDE_PROJECT_DIR`. Use this to reference project-local scripts or files, such as `${CLAUDE_PROJECT_DIR}/.claude/hooks/helper.sh`, independent of where the skill is installed. |
 ...
+skill. You can
+...
 it directly, and
 ...
-can load it automatically when relevant to your conversation. Two frontmatter
+can load it automatically when relevant to your conversation. Two front
 ...
-With `context: fork`, you write the
+: fork`, you write the
 ...
 in your skill and pick an
 ...
@@ -59,21 +61,19 @@ small, so a for
 ...
 skill using `
 ...
-: Explore` sees only the SKILL.
+: Explore` sees only the SKILL.md content and the agent's
 ...
-content and the agent's
-...
-. For the inverse, where you define a
+. For the inverse, where you
 ...
 uses skills as reference
 ...
+, see [Subagents](/
+...
 /sub-agents#
 ...
--skills-into-subagents).
+-skills-into-subagents
 ...
 The `skillOverrides` setting controls skill visibility from your settings instead of the skill's own frontmatter. Use it for skills whose SKILL.md you don't want to edit, such as ones checked into a shared project repo or provided by an MCP server. The `/skills` menu writes it for you: highlight a skill and press `Space` to cycle states, then `Enter` to save to `.claude/settings.local.json`.
-...
-## Share skills
 
 ---
 
@@ -84,9 +84,9 @@ Author: N/A
 Highlights:
 # Connect Claude Code to tools via MCP
 ...
-> Learn how
+to your tools with the
 ...
-Code to your tools with the Model Context Protocol.
+Context Protocol.
 ...
 Claude Code can connect to hundreds of external tools and data sources through the Model Context Protocol (MCP), an open source standard for AI-tool integrations. MCP servers give Claude Code access to your tools, databases, and APIs.
 ...
@@ -98,7 +98,9 @@ You can also have Claude scaffold a server for you with the official `mcp-server
 ...
 ## Run the build skill
 ...
-Claude asks about your use case and scaffolds a remote HTTP or local stdio server.
+Claude asks about your use case and scaffolds a remote HTTP
+...
+local stdio server.
 ...
 ## Installing MCP servers
 ...
@@ -112,27 +114,29 @@ Plugins can bundle MCP servers, automatically providing tools and integrations w
 ...
 Plugin MCP features:
 ...
-- Automatic lifecycle
-...
-to connect or disconnect
+connect or disconnect
 ...
 ## MCP installation scopes
 ...
 MCP servers can be configured
 ...
-three scopes. The scope
+three scopes. The scope you choose controls which projects the server
+...
+in and whether the
 ...
 shared with your team. Administrators can also
 ...
 enterprise level via managed configuration.
 ...
+in a `.m
+...
 json` file at your
 ...
 directory. This file
 ...
-. When you add
+checked into version control,
 ...
-server, Claude Code automatically
+. When you add
 ...
 or updates this file with the appropriate configuration structure.
 ...
@@ -150,9 +154,71 @@ If you're building an MCP server, the server instructions field becomes more use
 ...
 ### Configure tool search
 ...
-enabled by default: MCP tools are deferred and discovered on demand. Claude Code disables it by default on Google Cloud's Agent Platform. It is also disabled when `ANTHROPIC_BASE_URL` points to a non-first-party host, since most proxies don't forward `tool_reference` blocks. Set `ENABLE_TOOL_SEARCH` explicitly to override either fallback.
+enabled by default: MCP tools
+...
+deferred and discovered on demand. Claude Code disables it by default on Google Cloud's Agent Platform. It is also disabled when `ANTHROPIC_BASE_URL` points to a non-first-party host, since most proxies don't forward `tool_reference` blocks. Set `ENABLE_TOOL_SEARCH` explicitly to override either fallback.
 ...
 ## Use MCP prompts as commands
+
+---
+
+Title: Connect to MCP servers - Claude Code Docs
+URL: https://code.claude.com/docs/en/mcp-quickstart
+Published: N/A
+Author: N/A
+Highlights:
+The Model Context Protocol (MCP) lets Claude Code use tools beyond its built-in set, such as searching an issue tracker, querying a database, or controlling a web browser. These tools come from MCP servers, which run on your machine or as hosted services.
+...
+This guide walks you through connecting one MCP server end to end with the Claude Code CLI. By the end, you'll have a server connected and responding, know where its configuration lives on disk, and know how to fix the most common connection errors.
+...
+You can also add MCP servers from other surfaces, including the desktop app, VS Code, and the web. See Connect from other surfaces.
+...
+The `claude mcp add` command writes the server's details to a configuration file. By default it registers the server at `local` scope: private to you, active only in the current project. Pass `--scope user` to register it once for all your projects, or `--scope project` to share it with teammates. Change server scope walks through both.
+...
+cp add` command
+...
+one of three scopes, stored across two files, depending on the `--scope` flag. You don't need to edit
+...
+directly, but knowing where they are helps with
+...
+and version control.
+...
+A local stdio server is a program Claude
+...
+starts as a subprocess on your machine, rather than a service it reaches over
+...
+URL. Use one for tools that need access to local resources like
+...
+browser, your filesystem
+...
+: it gives
+...
+Hosted services like Sentry, Linear, and Notion run their
+...
+servers behind OAuth: you add the server's URL, then sign in through your browser.
+...
+repository, where
+...
+Connect from other
+...
+This guide uses the `claude mcp` CLI commands, but every Claude Code surface can connect to MCP servers:
+...
+- Claude Code desktop app: add servers through the Connectors UI.
+- Claude Desktop chat app: a separate app from Claude Code. To copy servers from its `claude_desktop_config.json` into the CLI, run `claude mcp add-from-claude-desktop` on macOS or WSL.
+- VS Code: see Connect to external tools with MCP.
+- Claude Code on the web: reads `.mcp.json` from your repository. See Edit .mcp.json directly.
+- Claude.ai: connectors you add at claude.ai/customize/connectors load automatically in the CLI when you sign in with that account. See Use MCP servers from Claude.ai.
+...
+With one server connected
+...
+MCP enables:
+...
+- Find more MCP servers in the Anthropic Directory
+- Share servers with your team using installation scopes
+- Manage MCP access for an organization with managed settings and policy controls
+- Reference MCP resources in prompts with @ mentions
+- Run MCP prompts as commands from the `/` menu
+- Build your own server with the MCP SDK
 
 ---
 
@@ -163,9 +229,7 @@ Author: N/A
 Highlights:
 The curated lists are the entry point. awesome-claude-skills(45/100, 43,585 stars) from Composio is the most popular. awesome-claude-code(27,790 stars) is the broadest, covering skills, hooks, slash-commands, and agent orchestrators. claude-skills(61/100, 6,484 stars) offers 66 specialized skills for full-stack developers — the most opinionated and immediately useful of the three.
 ...
-in`.claude/skills
-...
-"when asked to
+that live in`.claude/skills/
 ...
 extend what Claude Code can perceive and act on. The ecosystem has hundreds, but the practical stack for daily use comes down to five
 ...
@@ -191,90 +255,12 @@ n8n-mcp(14,908 stars, 257,296 downloads/month) bridges Claude Code to workflow a
 
 ---
 
-Title: Claude Skills vs. MCP: A Tale of Two AI Customization Philosophies
-URL: https://subramanya.ai/2025/10/30/claude-skills-vs-mcp-a-tale-of-two-ai-customization-philosophies/
-Published: 2025-10-30T00:00:00.000Z
-Author: Subramanya N
-Highlights:
-Claude Skills vs MCP explained: key differences, use cases, architecture tradeoffs, progressive disclosure, and how the two work together.
-
----
-
 Title: Agent Skills - Claude Platform Docs
 URL: https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview
 Published: N/A
 Author: N/A
 Highlights:
 Skills run in a code execution environment where Claude has filesystem access, bash commands, and code execution capabilities.
-
----
-
-Title: anthropics/skills: Public repository for Agent Skills - GitHub
-URL: https://github.com/anthropics/skills
-Published: 2025-09-22T15:53:31.000Z
-Author: N/A
-Highlights:
-This repository contains skills that demonstrate what's possible with Claude's skills system. These skills range from creative applications (art, music, design) ...
-
----
-
-Title: jeffjacobsen/mcpskill
-URL: https://github.com/jeffjacobsen/mcpskill
-Published: 2025-10-22T15:14:34.000Z
-Author: N/A
-Highlights:
-Direct MCP Wrapper for Claude Code Skills
-...
-# MCPSkill - Direct MCP Wrapper for Claude Code Skills
-...
-A lightweight Python wrapper that enables Claude Code to interact with MCP (Model Context Protocol) servers through skills, without loading tool definitions into context.
-...
-MCPSkill provides a simple bridge between Claude Code's skill system and MCP servers. Instead of loading all MCP tools into Claude's context (which uses tokens), MCPSkill exposes MCP servers through a skill that Claude can invoke when needed.
-...
-- **Zero Context Usage**: MCP tool definitions don't load into Claude Code's context
-- **Auto-Activation**: Claude Code automatically invokes the skill when relevant
-- **Simple Configuration**: Just point to an MCP server, no LLM orchestration needed
-- **Fast Execution**: Direct passthrough to MCP servers (no intermediate LLM)
-- **Minimal Dependencies**: Only requires `mcp`, `pydantic`, and `pyyaml`
-...
-```
-┌─────────────────────────┐
-...
-│     Claude Code         │  ← Auto-invokes skill when user mentions MCP
-...
-│  (0 tools in context)   │     keywords (filesystem, database, etc.)
-...
-- You want Claude Code to access MCP servers without loading tool schemas
-- The MCP server has simple, well-documented tools
-- You want minimal latency and no extra API costs
-- You're working with standard MCP servers (filesystem, SQLite, etc.)
-...
-skill is located at `.claude/skills/mcp-orchestrator/` in this repository.
-...
-Once installed, Claude Code will automatically activate the skill when you make relevant requests.
-...
-MCPSkill is a simplified version of MCProxy, optimized for Claude Code skills:
-...
-| Feature | MCProxy (Full) | MCPSkill (Simplified) |
-| --- | --- | --- |
-| **MCP Server Mode** | ✅ Yes | ❌ No |
-| **Intermediate LLM** | ✅ Yes (configurable) | ❌ No |
-| **Claude Code Skills** | ✅ Yes | ✅ Yes (optimized) |
-| **Token Usage** | Minimal (0 in context) | Minimal (0 in context) |
-| **Latency** | Medium (2 hops) | Low (1 hop) |
-| **API Cost** | Medium (double LLM) | Low (no extra LLM) |
-| **Configuration** | Complex (LLM settings) | Simple (just MCP config) |
-| **Use Case** | Complex orchestration | Simple direct access |
-...
-**A**: Claude Code can load MCP servers directly, but this puts all tool definitions in context (using tokens). MCPSkill wraps MCP servers in a skill that Claude auto-invokes only when needed, keeping your context clean.
-...
-don't need
-...
-create multiple config files
-...
-skill folder with different names
-...
-Use the full MCProxy package which includes an intermediate LLM for intelligent tool routing. MCPSkill is optimized for simple, direct access.
 
 ---
 
@@ -333,7 +319,7 @@ Connect to hosted MCP servers with OAuth support. Best for cloud services.
 ...
 ### OAuth (SSE/HTTP)
 ...
-### Token-Based (
+### Token-Based (Headers)
 ...
 ### Environment Variables (stdio
 ...
@@ -355,11 +341,12 @@ Connect to hosted MCP servers with OAuth support. Best for cloud services.
 ...
 | Type | Transport | Best For | Auth |
 |------|-----------|----------|------|
-| stdio | Process | Local tools, custom servers |
+| stdio | Process | Local tools, custom servers | Env
 ...
 |
-| SSE | HTTP | Hosted services, cloud APIs | OAuth |
-| HTTP | REST | API back
+| SSE | HTTP | Hosted services,
+...
+### Configuration Checklist
 ...
 ## Implementation Workflow
 ...
@@ -379,12 +366,86 @@ Focus on stdio for custom/local servers, SSE for hosted services with OAuth.
 
 ---
 
+Title: claude-code-skills
+URL: https://www.npmjs.com/package/claude-code-skills
+Published: 2026-04-21T18:32:27.000Z
+Author: claude-code-skills contributors
+Highlights:
+Categorized, deterministically-ranked SKILL.md catalog AND MCP server for Claude Code (and any agent that speaks MCP). 1128 curated skills across 17 categories — frontend, backend, video editing, AI video generation, UI design, motion graphics, 3D, devops
+...
+A categorized, deterministically-ranked catalog of `SKILL.md` files for Claude
+Code. Ships as one npm package — `claude-code-skills` — that exposes an MCP
+server **and** a CLI. Zero LLM calls in the hot path. Zero backend. Zero API
+keys.
+...
+├── @claude-code-skills/ingest               build index.json from skill-packs/* + _research/*
+├── @claude-code-skills/mcp                  MCP stdio server (5 tools, see below)
+│
+└── skill-packs/                             ← first-party SKILL.md content
+    ├── @claude-code-skills/pack-frontend          shadcn/Radix, Tailwind v4, Next 15, Astro 5
+    ├── @claude-code-skills/pack-backend           Hono, Drizzle, BullMQ, Zod-contract APIs
+    ├── @claude-code-skills/pack-video             FFmpeg, Remotion, word-level subtitles
+    ├── @claude
+...
+skills/pack-
+...
+├── @claude
+...
+├── @
+...
+The MCP server exposes six tools. The LLM is expected to **browse**, not query
+a black-box ranker:
+...
+| Tool | Purpose |
+| --- | --- |
+| `list_categories` | First call. Returns 16 categories with id, title, description, count, sample skills. |
+| `list_skills` | Pass `category= ` to see all skills in that category. |
+| `get_skill` | Full metadata for one skill: tags, recommended_npm, source repo, license. |
+| `search_skill` | Fall-back free-text query. Deterministic BM25 + tag/framework boost. No LLM. |
+| `install_skill` | Writes the SKILL.md to `.claude/skills/ /`. Verifies Ed25519 signature when present. |
+| `list_installed` | What's already on disk. |
+...
+The intended flow is **`list_categories` → pick → `list_skills` → pick →
+`install_skill`**. `search_skill` is a convenience for free-text intent;
+ranking is a pure function — same input always produces the same output.
+...
+## Categories (
+...
+, and a list of recommended open
+...
+packages. See `packages/categories/data/categories.json`.
+...
+## Register the MCP server with Claude Code
+...
+```bash
+claude mcp add claude-code-skills -- npx -y claude-code-skills mcp
+```
+...
+Then ask Claude anything that touches a topic in the catalog. Claude calls
+`list_categories`, picks the relevant one, and either lists or installs.
+...
+- **Deterministic ranker.** BM25 over (name + description + tags + category)
+...
+with multiplicative boosts for
+...
+and trust tier.
+...
+same ranking.
+...
+**Cross-vendor by design.**
+...
+.md is a multi-vendor
+...
+(agentskills.io). The MCP tools work with any client that speaks MCP.
+
+---
+
 Title: epm // ADR-0017: Claude Code Skills Over MCP for Ecosystem Knowledge
 URL: https://epm.dev/docs/adr/0017-skills-over-mcp
 Published: N/A
 Author: N/A
 Highlights:
-017: Claude Code Skills Over MCP for Ecosystem Knowledge
+// ADR-0017: Claude Code Skills Over MCP for Ecosystem Knowledge
 ...
 # ADR-0017: Claude Code Skills Over MCP for Ecosystem Knowledge
 ...
@@ -395,6 +456,8 @@ MCP servers — a background process the agent connects to over a local socket. 
 Claude Code skills — plain Markdown files in`~/.claude/commands/`. When a user invokes`/eps`, Claude reads the file as a system prompt injection. No process, no socket, no background daemon.
 ...
 `eps_mcp` was the original approach. It worked, but it had problems:
+...
+searching a live database
 ...
 The EPS philosophy prefers simple, debuggable, inspectable solutions. A Markdown file sitting in`~/.claude/commands/` is all three. An MCP binary is none of them.
 ...
@@ -418,74 +481,69 @@ Negative: - Skills cannot query live state (e.g., "what services are currently r
 
 ---
 
-Title: claude-code-skills
-URL: https://www.npmjs.com/package/claude-code-skills
-Published: 2026-04-21T18:32:27.000Z
-Author: claude-code-skills contributors
+Title: Agent Skills or MCP in the era of Claude Code?
+URL: https://www.youtube.com/watch?v=pvxNcQTcIy4
+Published: 2026-03-10T11:01:33.000Z
+Author: Confluent Developer
 Highlights:
-Categorized, deterministically-ranked SKILL.md catalog AND MCP server for Claude Code (and any agent that speaks MCP). 1128 curated skills across 17 categories — frontend, backend, video editing, AI video generation, UI design, motion graphics, 3D, devops
+MCPs provide access to a set of tools, Skills describe how to use these tools, a skill can describe how to use a suite of tools from a MCP to ...
+
+---
+
+Title: jeffjacobsen/mcpskill
+URL: https://github.com/jeffjacobsen/mcpskill
+Published: 2025-10-22T15:14:34.000Z
+Author: N/A
+Highlights:
+Direct MCP Wrapper for Claude Code Skills
 ...
-A categorized, deterministically-ranked catalog of `SKILL.md` files for Claude
-Code. Ships as one npm package — `claude-code-skills` — that exposes an MCP
-server **and** a CLI. Zero LLM calls in the hot path. Zero backend. Zero API
-keys.
+# MCPSkill - Direct MCP Wrapper for Claude Code Skills
 ...
-├── @claude-code-skills/ingest               build index.json from skill-packs/* + _research/*
-├── @claude-code-skills/mcp                  MCP stdio server (5 tools, see below)
-│
-└── skill-packs/                             ← first-party SKILL.md content
-    ├── @claude-code-skills/pack-frontend          shad
+A lightweight Python wrapper that enables Claude Code to interact with MCP (Model Context Protocol) servers through skills, without loading tool definitions into context.
 ...
-/Radix, Tailwind v4, Next 15, Astro 5
-    ├── @claude-code-skills/pack-backend           Hono, Drizzle, BullMQ, Zod-contract APIs
-    ├── @claude-code-skills/pack-video             FFmpeg, Remotion, word-level subtitles
-    ├── @cla
+MCPSkill provides a simple bridge between Claude Code's skill system and MCP servers. Instead of loading all MCP tools into Claude's context (which uses tokens), MCPSkill exposes MCP servers through a skill that Claude can invoke when needed.
 ...
-skills/pack
+- **Zero Context Usage**: MCP tool definitions don't load into Claude Code's context
+- **Auto-Activation**: Claude Code automatically invokes the skill when relevant
+- **Simple Configuration**: Just point to an MCP server, no LLM orchestration needed
+- **Fast Execution**: Direct passthrough to MCP servers (no intermediate LLM)
+- **Minimal Dependencies**: Only requires `mcp`, `pydantic`, and `pyyaml`
 ...
-├── @
-...
-The MCP server exposes six tools. The LLM is expected to **browse**, not query
-a black-box ranker:
-...
-| Tool | Purpose |
-| --- | --- |
-| `list_categories` | First call. Returns 16 categories with id, title, description, count, sample skills. |
-| `list_skills` | Pass `category= ` to see all skills in that category. |
-| `get_skill` | Full metadata for one skill: tags, recommended_npm, source repo, license. |
-| `search_skill` | Fall-back free-text query. Deterministic BM25 + tag/framework boost. No LLM. |
-| `install_skill` | Writes the SKILL.md to `.claude/skills/ /`. Verifies Ed25519 signature when present. |
-| `list_installed` | What's already on disk. |
-...
-The intended flow is **`list_categories` → pick → `list_skills` → pick →
-`install_skill`**. `search_skill` is a convenience for free-text intent;
-ranking is a pure function — same input always produces the same output.
-...
-, and a
-...
-packages. See `packages/categories/data/categories.json
-...
-## Register the MCP server with Claude Code
-...
-```bash
-claude mcp add claude-code-skills -- npx -y claude-code-skills mcp
 ```
+┌─────────────────────────┐
+│     Claude Code         │  ← Auto-invokes skill when user mentions MCP
 ...
-Then ask Claude anything that touches a topic in the catalog. Claude calls
-`list_categories`, picks the relevant one, and either lists or installs.
+│  (0 tools in context)   │     keywords (filesystem, database, etc.)
 ...
-- **Deterministic ranker.** BM25 over (name + description + tags + category)
+- You want Claude Code to access MCP servers without loading tool schemas
+- The MCP server has simple, well-documented tools
+- You want minimal latency and no extra API costs
+- You're working with standard MCP servers (filesystem, SQLite, etc.)
 ...
-with multiplicative boosts for
+skill is located at `.claude/skills/mcp-orchestrator/` in this repository.
 ...
-overlap, framework match (
+Once installed, Claude Code will automatically activate the skill when you make relevant requests.
 ...
-and trust tier. Same query always returns the
- same ranking.
+MCPSkill is a simplified version of MCProxy, optimized for Claude Code skills:
 ...
-- **Cross-vendor by design.** SKILL.md is a multi-vendor format
+| Feature | MCProxy (Full) | MCPSkill (Simplified) |
+| --- | --- | --- |
+| **MCP Server Mode** | ✅ Yes | ❌ No |
+| **Intermediate LLM** | ✅ Yes (configurable) | ❌ No |
+| **Claude Code Skills** | ✅ Yes | ✅ Yes (optimized) |
+| **Token Usage** | Minimal (0 in context) | Minimal (0 in context) |
+| **Latency** | Medium (2 hops) | Low (1 hop) |
+| **API Cost** | Medium (double LLM) | Low (no extra LLM) |
+| **Configuration** | Complex (LLM settings) | Simple (just MCP config) |
+| **Use Case** | Complex orchestration | Simple direct access |
 ...
-(agentskills.io). The MCP tools work with any client that speaks MCP.
+**A**: Claude Code can load MCP servers directly, but this puts all tool definitions in context (using tokens). MCPSkill wraps MCP servers in a skill that Claude auto-invokes only when needed, keeping your context clean.
+...
+don't
+...
+create multiple config files and copy
+...
+A**: Use the full MCProxy package which includes an intermediate LLM for intelligent tool routing. MCPSkill is optimized for simple, direct access.
 ```
 
 ## Status
