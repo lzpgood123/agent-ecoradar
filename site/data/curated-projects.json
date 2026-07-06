@@ -42,7 +42,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 19,
     "recommendation_level": "try-now",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=19, categories=skills-prompts."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=19, categories=skills-prompts.",
+    "i18n": {
+      "zh": {
+        "name": "JuliusBrussee/caveman",
+        "summary": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman"
+      },
+      "en": {
+        "name": "JuliusBrussee/caveman",
+        "summary": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman"
+      }
+    }
   },
   {
     "id": "github-blader-humanizer",
@@ -87,7 +97,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 18,
     "recommendation_level": "try-now",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=18, categories=skills-prompts."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=18, categories=skills-prompts.",
+    "i18n": {
+      "zh": {
+        "name": "blader/humanizer",
+        "summary": "Claude Code skill that removes signs of AI-generated writing from text"
+      },
+      "en": {
+        "name": "blader/humanizer",
+        "summary": "Claude Code skill that removes signs of AI-generated writing from text"
+      }
+    }
   },
   {
     "id": "github-alirezarezvani-claude-skills",
@@ -137,7 +157,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 18,
     "recommendation_level": "try-now",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=18, categories=skills-prompts, testing-review-ci, agent-harness."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=18, categories=skills-prompts, testing-review-ci, agent-harness.",
+    "i18n": {
+      "zh": {
+        "name": "alirezarezvani/claude-skills",
+        "summary": "337 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, complian"
+      },
+      "en": {
+        "name": "alirezarezvani/claude-skills",
+        "summary": "337 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, complian"
+      }
+    }
   },
   {
     "id": "github-op7418-humanizer-zh",
@@ -182,7 +212,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 18,
     "recommendation_level": "try-now",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=18, categories=skills-prompts."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=18, categories=skills-prompts.",
+    "i18n": {
+      "zh": {
+        "name": "op7418/Humanizer-zh",
+        "summary": "Humanizer 的汉化版本，Claude Code Skills，旨在消除文本中 AI 生成的痕迹。"
+      },
+      "en": {
+        "name": "op7418/Humanizer-zh",
+        "summary": "Humanizer 的汉化版本，Claude Code Skills，旨在消除文本中 AI 生成的痕迹。"
+      }
+    }
   },
   {
     "id": "github-virgiliojr94-book-to-skill",
@@ -227,7 +267,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 17,
     "recommendation_level": "try-now",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=skills-prompts."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=skills-prompts.",
+    "i18n": {
+      "zh": {
+        "name": "virgiliojr94/book-to-skill",
+        "summary": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work."
+      },
+      "en": {
+        "name": "virgiliojr94/book-to-skill",
+        "summary": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work."
+      }
+    }
   },
   {
     "id": "github-simoneavogadro-android-reverse-engineering-skill",
@@ -272,7 +322,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 17,
     "recommendation_level": "try-now",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=skills-prompts."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=skills-prompts.",
+    "i18n": {
+      "zh": {
+        "name": "SimoneAvogadro/android-reverse-engineering-skill",
+        "summary": "Claude Code skill to support Android app's reverse engineering"
+      },
+      "en": {
+        "name": "SimoneAvogadro/android-reverse-engineering-skill",
+        "summary": "Claude Code skill to support Android app's reverse engineering"
+      }
+    }
   },
   {
     "id": "github-trailofbits-skills",
@@ -317,7 +377,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 17,
     "recommendation_level": "try-now",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=skills-prompts."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=skills-prompts.",
+    "i18n": {
+      "zh": {
+        "name": "trailofbits/skills",
+        "summary": "Trail of Bits Claude Code skills for security research, vulnerability detection, and audit workflows"
+      },
+      "en": {
+        "name": "trailofbits/skills",
+        "summary": "Trail of Bits Claude Code skills for security research, vulnerability detection, and audit workflows"
+      }
+    }
   },
   {
     "id": "github-zarazhangrui-codebase-to-course",
@@ -362,7 +432,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 17,
     "recommendation_level": "try-now",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=skills-prompts."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=skills-prompts.",
+    "i18n": {
+      "zh": {
+        "name": "zarazhangrui/codebase-to-course",
+        "summary": "A Claude Code skill that turns any codebase into a beautiful, interactive single-page HTML course for non-technical vibe coders."
+      },
+      "en": {
+        "name": "zarazhangrui/codebase-to-course",
+        "summary": "A Claude Code skill that turns any codebase into a beautiful, interactive single-page HTML course for non-technical vibe coders."
+      }
+    }
   },
   {
     "id": "github-opencoworkai-open-cowork",
@@ -409,7 +489,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 17,
     "recommendation_level": "try-now",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=mcp-acp-a2a, skills-prompts, agent-harness."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=mcp-acp-a2a, skills-prompts, agent-harness.",
+    "i18n": {
+      "zh": {
+        "name": "OpenCoworkAI/open-cowork",
+        "summary": "Open-source AI agent desktop app for Windows & macOS. One-click install Claude Code, MCP tools, and Skills — with sandbox isolation, multi-model support, and Feishu/Slack integration."
+      },
+      "en": {
+        "name": "OpenCoworkAI/open-cowork",
+        "summary": "Open-source AI agent desktop app for Windows & macOS. One-click install Claude Code, MCP tools, and Skills — with sandbox isolation, multi-model support, and Feishu/Slack integration."
+      }
+    }
   },
   {
     "id": "github-steipete-claude-code-mcp",
@@ -455,7 +545,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 17,
     "recommendation_level": "try-now",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=mcp-acp-a2a, agent-harness."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=mcp-acp-a2a, agent-harness.",
+    "i18n": {
+      "zh": {
+        "name": "steipete/claude-code-mcp",
+        "summary": "Claude Code as one-shot MCP server to have an agent in your agent."
+      },
+      "en": {
+        "name": "steipete/claude-code-mcp",
+        "summary": "Claude Code as one-shot MCP server to have an agent in your agent."
+      }
+    }
   },
   {
     "id": "github-sanjeed5-awesome-cursor-rules-mdc",
@@ -500,7 +600,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 17,
     "recommendation_level": "try-now",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=rules-instructions."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=rules-instructions.",
+    "i18n": {
+      "zh": {
+        "name": "sanjeed5/awesome-cursor-rules-mdc",
+        "summary": "Curated list of awesome Cursor Rules .mdc files"
+      },
+      "en": {
+        "name": "sanjeed5/awesome-cursor-rules-mdc",
+        "summary": "Curated list of awesome Cursor Rules .mdc files"
+      }
+    }
   },
   {
     "id": "github-flyeric0212-cursor-rules",
@@ -545,7 +655,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 17,
     "recommendation_level": "try-now",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=rules-instructions."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=rules-instructions.",
+    "i18n": {
+      "zh": {
+        "name": "flyeric0212/cursor-rules",
+        "summary": "整理和收集来自不同项目的Cursor规则文件，提供多种编程语言和框架的规则支持。"
+      },
+      "en": {
+        "name": "flyeric0212/cursor-rules",
+        "summary": "整理和收集来自不同项目的Cursor规则文件，提供多种编程语言和框架的规则支持。"
+      }
+    }
   },
   {
     "id": "github-sceneview-sceneview",
@@ -591,7 +711,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 17,
     "recommendation_level": "try-now",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=mcp-acp-a2a, rules-instructions."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=mcp-acp-a2a, rules-instructions.",
+    "i18n": {
+      "zh": {
+        "name": "sceneview/sceneview",
+        "summary": "3D & AR SDK for Android (Jetpack Compose + Filament), iOS (SwiftUI + RealityKit), and Web. AI-first: llms.txt, MCP server, Copilot/Cursor rules. The only Compose-native 3D library."
+      },
+      "en": {
+        "name": "sceneview/sceneview",
+        "summary": "3D & AR SDK for Android (Jetpack Compose + Filament), iOS (SwiftUI + RealityKit), and Web. AI-first: llms.txt, MCP server, Copilot/Cursor rules. The only Compose-native 3D library."
+      }
+    }
   },
   {
     "id": "github-instructa-ai-prompts",
@@ -637,7 +767,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 17,
     "recommendation_level": "try-now",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=rules-instructions, testing-review-ci."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=rules-instructions, testing-review-ci.",
+    "i18n": {
+      "zh": {
+        "name": "instructa/ai-prompts",
+        "summary": "Curated AI Prompts for Cursor Rules, Cline, Windsurf and Github Copilot"
+      },
+      "en": {
+        "name": "instructa/ai-prompts",
+        "summary": "Curated AI Prompts for Cursor Rules, Cline, Windsurf and Github Copilot"
+      }
+    }
   },
   {
     "id": "github-glitternetwork-pinme",
@@ -682,7 +822,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 17,
     "recommendation_level": "try-now",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=skills-prompts."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=skills-prompts.",
+    "i18n": {
+      "zh": {
+        "name": "glitternetwork/pinme",
+        "summary": "Deploy Your Frontend in a Single Command. Claude Code Skills supported."
+      },
+      "en": {
+        "name": "glitternetwork/pinme",
+        "summary": "Deploy Your Frontend in a Single Command. Claude Code Skills supported."
+      }
+    }
   },
   {
     "id": "github-taishi-i-awesome-chatgpt-repositories",
@@ -728,7 +878,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 17,
     "recommendation_level": "try-now",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=skills-prompts."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=skills-prompts.",
+    "i18n": {
+      "zh": {
+        "name": "taishi-i/awesome-ChatGPT-repositories",
+        "summary": "A curated list of open source GitHub repositories related to ChatGPT, the OpenAI API, and Codex. Searchable via Claude Code skills."
+      },
+      "en": {
+        "name": "taishi-i/awesome-ChatGPT-repositories",
+        "summary": "A curated list of open source GitHub repositories related to ChatGPT, the OpenAI API, and Codex. Searchable via Claude Code skills."
+      }
+    }
   },
   {
     "id": "github-nowork-studio-notfair",
@@ -773,7 +933,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 17,
     "recommendation_level": "try-now",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=skills-prompts."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=skills-prompts.",
+    "i18n": {
+      "zh": {
+        "name": "nowork-studio/NotFair",
+        "summary": "Open-source Claude Code skills for SEO, GEO, Google Ads, Meta Ads"
+      },
+      "en": {
+        "name": "nowork-studio/NotFair",
+        "summary": "Open-source Claude Code skills for SEO, GEO, Google Ads, Meta Ads"
+      }
+    }
   },
   {
     "id": "github-elementalsouls-claude-bughunter",
@@ -819,7 +989,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 17,
     "recommendation_level": "try-now",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=skills-prompts, testing-review-ci."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=skills-prompts, testing-review-ci.",
+    "i18n": {
+      "zh": {
+        "name": "elementalsouls/Claude-BugHunter",
+        "summary": "A Claude Code skill bundle for bug hunting and external red-team work — 71 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices."
+      },
+      "en": {
+        "name": "elementalsouls/Claude-BugHunter",
+        "summary": "A Claude Code skill bundle for bug hunting and external red-team work — 71 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices."
+      }
+    }
   },
   {
     "id": "github-lackeyjb-playwright-skill",
@@ -864,7 +1044,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 17,
     "recommendation_level": "try-now",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=skills-prompts."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=skills-prompts.",
+    "i18n": {
+      "zh": {
+        "name": "lackeyjb/playwright-skill",
+        "summary": "Claude Code Skill for browser automation with Playwright. Model-invoked - Claude autonomously writes and executes custom automation for testing and validation."
+      },
+      "en": {
+        "name": "lackeyjb/playwright-skill",
+        "summary": "Claude Code Skill for browser automation with Playwright. Model-invoked - Claude autonomously writes and executes custom automation for testing and validation."
+      }
+    }
   },
   {
     "id": "github-dominikmartn-nothing-design-skill",
@@ -909,7 +1099,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 17,
     "recommendation_level": "try-now",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=skills-prompts."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=skills-prompts.",
+    "i18n": {
+      "zh": {
+        "name": "dominikmartn/nothing-design-skill",
+        "summary": "A Claude Code skill for generating UI in the Nothing design language. Monochrome, typographic, industrial."
+      },
+      "en": {
+        "name": "dominikmartn/nothing-design-skill",
+        "summary": "A Claude Code skill for generating UI in the Nothing design language. Monochrome, typographic, industrial."
+      }
+    }
   },
   {
     "id": "github-agentchengfeng-chengfeng-videocut-skills",
@@ -955,7 +1155,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 17,
     "recommendation_level": "try-now",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=skills-prompts, agent-harness."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=skills-prompts, agent-harness.",
+    "i18n": {
+      "zh": {
+        "name": "Agentchengfeng/chengfeng-videocut-skills",
+        "summary": "用 Claude Code Skills 做的视频剪辑 Agent"
+      },
+      "en": {
+        "name": "Agentchengfeng/chengfeng-videocut-skills",
+        "summary": "用 Claude Code Skills 做的视频剪辑 Agent"
+      }
+    }
   },
   {
     "id": "github-tradermonty-claude-trading-skills",
@@ -1000,7 +1210,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 17,
     "recommendation_level": "try-now",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=skills-prompts."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=skills-prompts.",
+    "i18n": {
+      "zh": {
+        "name": "tradermonty/claude-trading-skills",
+        "summary": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development."
+      },
+      "en": {
+        "name": "tradermonty/claude-trading-skills",
+        "summary": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development."
+      }
+    }
   },
   {
     "id": "github-yctimlin-mcp-excalidraw",
@@ -1048,7 +1268,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 17,
     "recommendation_level": "try-now",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=mcp-acp-a2a, skills-prompts, testing-review-ci, agent-harness."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=mcp-acp-a2a, skills-prompts, testing-review-ci, agent-harness.",
+    "i18n": {
+      "zh": {
+        "name": "yctimlin/mcp_excalidraw",
+        "summary": "MCP server and Claude Code skill for Excalidraw — programmatic canvas toolkit to create, edit, and export diagrams via AI agents with real-time canvas sync."
+      },
+      "en": {
+        "name": "yctimlin/mcp_excalidraw",
+        "summary": "MCP server and Claude Code skill for Excalidraw — programmatic canvas toolkit to create, edit, and export diagrams via AI agents with real-time canvas sync."
+      }
+    }
   },
   {
     "id": "github-p4nda0s-reverse-skills",
@@ -1093,7 +1323,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 17,
     "recommendation_level": "try-now",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=skills-prompts."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=skills-prompts.",
+    "i18n": {
+      "zh": {
+        "name": "P4nda0s/reverse-skills",
+        "summary": "Reverse engineering skills for Claude Code | 逆向工程 Claude Code Skills 插件"
+      },
+      "en": {
+        "name": "P4nda0s/reverse-skills",
+        "summary": "Reverse engineering skills for Claude Code | 逆向工程 Claude Code Skills 插件"
+      }
+    }
   },
   {
     "id": "github-skills-directory-skill-codex",
@@ -1140,7 +1380,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 17,
     "recommendation_level": "try-now",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=skills-prompts, testing-review-ci."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=skills-prompts, testing-review-ci.",
+    "i18n": {
+      "zh": {
+        "name": "skills-directory/skill-codex",
+        "summary": "A claude code skill to delegate prompts to codex"
+      },
+      "en": {
+        "name": "skills-directory/skill-codex",
+        "summary": "A claude code skill to delegate prompts to codex"
+      }
+    }
   },
   {
     "id": "github-onvoyage-ai-gtm-engineer-skills",
@@ -1187,7 +1437,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 17,
     "recommendation_level": "try-now",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=skills-prompts, testing-review-ci, benchmark-evaluation."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=17, categories=skills-prompts, testing-review-ci, benchmark-evaluation.",
+    "i18n": {
+      "zh": {
+        "name": "onvoyage-ai/gtm-engineer-skills",
+        "summary": "Claude Code skill for improving website AEO (AI Engine Optimization) and GEO (Generative Engine Optimization) scores — 16 foundational checks, 6 intelligence dimensions, framework-specific fixes"
+      },
+      "en": {
+        "name": "onvoyage-ai/gtm-engineer-skills",
+        "summary": "Claude Code skill for improving website AEO (AI Engine Optimization) and GEO (Generative Engine Optimization) scores — 16 foundational checks, 6 intelligence dimensions, framework-specific fixes"
+      }
+    }
   },
   {
     "id": "github-iansinnott-obsidian-claude-code-mcp",
@@ -1234,7 +1494,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 16,
     "recommendation_level": "watch",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=16, categories=mcp-acp-a2a, context-engineering, testing-review-ci."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=16, categories=mcp-acp-a2a, context-engineering, testing-review-ci.",
+    "i18n": {
+      "zh": {
+        "name": "iansinnott/obsidian-claude-code-mcp",
+        "summary": "Connect Claude Code and other AI tools to your Obsidian notes using Model Context Protocol (MCP)"
+      },
+      "en": {
+        "name": "iansinnott/obsidian-claude-code-mcp",
+        "summary": "Connect Claude Code and other AI tools to your Obsidian notes using Model Context Protocol (MCP)"
+      }
+    }
   },
   {
     "id": "github-undeadpickle-claude-code-mcpinstall",
@@ -1279,7 +1549,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 16,
     "recommendation_level": "watch",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=16, categories=mcp-acp-a2a."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=16, categories=mcp-acp-a2a.",
+    "i18n": {
+      "zh": {
+        "name": "undeadpickle/claude-code-mcpinstall",
+        "summary": "Easy guide to installing Claude Code MCPs globally on your machine."
+      },
+      "en": {
+        "name": "undeadpickle/claude-code-mcpinstall",
+        "summary": "Easy guide to installing Claude Code MCPs globally on your machine."
+      }
+    }
   },
   {
     "id": "github-auchenberg-claude-code-mcp",
@@ -1324,7 +1604,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 16,
     "recommendation_level": "watch",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=16, categories=mcp-acp-a2a."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=16, categories=mcp-acp-a2a.",
+    "i18n": {
+      "zh": {
+        "name": "auchenberg/claude-code-mcp",
+        "summary": "claude-code-mcp"
+      },
+      "en": {
+        "name": "auchenberg/claude-code-mcp",
+        "summary": "claude-code-mcp"
+      }
+    }
   },
   {
     "id": "github-mverab-egeoagents",
@@ -1370,7 +1660,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 16,
     "recommendation_level": "watch",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=16, categories=mcp-acp-a2a, agent-harness."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=16, categories=mcp-acp-a2a, agent-harness.",
+    "i18n": {
+      "zh": {
+        "name": "mverab/eGEOagents",
+        "summary": "Open-source Generative Engine Optimization (GEO) & Answer Engine Optimization (AEO) toolkit — optimize content to rank in ChatGPT, Perplexity, Gemini & Claude. AI SEO / LLM SEO. CLI, Claude Code, MCP."
+      },
+      "en": {
+        "name": "mverab/eGEOagents",
+        "summary": "Open-source Generative Engine Optimization (GEO) & Answer Engine Optimization (AEO) toolkit — optimize content to rank in ChatGPT, Perplexity, Gemini & Claude. AI SEO / LLM SEO. CLI, Claude Code, MCP."
+      }
+    }
   },
   {
     "id": "github-grahama1970-claude-code-mcp-enhanced",
@@ -1416,7 +1716,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 16,
     "recommendation_level": "watch",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=16, categories=mcp-acp-a2a, testing-review-ci."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=16, categories=mcp-acp-a2a, testing-review-ci.",
+    "i18n": {
+      "zh": {
+        "name": "grahama1970/claude-code-mcp-enhanced",
+        "summary": "Enhanced Claude Code MCP server with orchestration capabilities, reliability improvements, and self-contained execution patterns"
+      },
+      "en": {
+        "name": "grahama1970/claude-code-mcp-enhanced",
+        "summary": "Enhanced Claude Code MCP server with orchestration capabilities, reliability improvements, and self-contained execution patterns"
+      }
+    }
   },
   {
     "id": "github-willccbb-claude-code-mcp",
@@ -1461,7 +1771,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 16,
     "recommendation_level": "watch",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=16, categories=mcp-acp-a2a."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=16, categories=mcp-acp-a2a.",
+    "i18n": {
+      "zh": {
+        "name": "willccbb/claude-code-mcp",
+        "summary": "Letting Claude Code develop his own MCP tools :)"
+      },
+      "en": {
+        "name": "willccbb/claude-code-mcp",
+        "summary": "Letting Claude Code develop his own MCP tools :)"
+      }
+    }
   },
   {
     "id": "github-sven-li-sankyuu-presentation-skills",
@@ -1507,7 +1827,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 16,
     "recommendation_level": "watch",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=16, categories=skills-prompts, testing-review-ci."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=16, categories=skills-prompts, testing-review-ci.",
+    "i18n": {
+      "zh": {
+        "name": "Sven-LI-sankyuu/presentation-skills",
+        "summary": "面向 Codex CLI 的演示工作流 skills 集合，包括商业级可编辑 PPT 协作与网页 demo 配音视频合成等可复盘、可复用流程。A Codex CLI skill collection for reusable presentation workflows, covering editable PPT diagram collaboration and end-to-end web demo video synthesis."
+      },
+      "en": {
+        "name": "Sven-LI-sankyuu/presentation-skills",
+        "summary": "面向 Codex CLI 的演示工作流 skills 集合，包括商业级可编辑 PPT 协作与网页 demo 配音视频合成等可复盘、可复用流程。A Codex CLI skill collection for reusable presentation workflows, covering editable PPT diagram collaboration and end-to-end web demo video synthesis."
+      }
+    }
   },
   {
     "id": "github-jmerta-codex-skills",
@@ -1552,7 +1882,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 16,
     "recommendation_level": "watch",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=16, categories=skills-prompts."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=16, categories=skills-prompts.",
+    "i18n": {
+      "zh": {
+        "name": "jMerta/codex-skills",
+        "summary": "Codex CLI skills catalog"
+      },
+      "en": {
+        "name": "jMerta/codex-skills",
+        "summary": "Codex CLI skills catalog"
+      }
+    }
   },
   {
     "id": "github-gemini-cli-extensions-conductor",
@@ -1597,7 +1937,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 16,
     "recommendation_level": "watch",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=16, categories=benchmark-evaluation."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=16, categories=benchmark-evaluation.",
+    "i18n": {
+      "zh": {
+        "name": "gemini-cli-extensions/conductor",
+        "summary": "Conductor is a Gemini CLI extension that allows you to specify, plan, and implement software features."
+      },
+      "en": {
+        "name": "gemini-cli-extensions/conductor",
+        "summary": "Conductor is a Gemini CLI extension that allows you to specify, plan, and implement software features."
+      }
+    }
   },
   {
     "id": "github-jduncan-rva-skill-porter",
@@ -1643,7 +1993,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 16,
     "recommendation_level": "watch",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=16, categories=skills-prompts."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=16, categories=skills-prompts.",
+    "i18n": {
+      "zh": {
+        "name": "jduncan-rva/skill-porter",
+        "summary": "Universal tool to convert Claude Code skills to Gemini CLI extensions and vice versa"
+      },
+      "en": {
+        "name": "jduncan-rva/skill-porter",
+        "summary": "Universal tool to convert Claude Code skills to Gemini CLI extensions and vice versa"
+      }
+    }
   },
   {
     "id": "github-neekchaw-riper-5",
@@ -1688,7 +2048,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 16,
     "recommendation_level": "watch",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=16, categories=tutorial-case-study."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=16, categories=tutorial-case-study.",
+    "i18n": {
+      "zh": {
+        "name": "NeekChaw/RIPER-5",
+        "summary": "神级Cursor Rule"
+      },
+      "en": {
+        "name": "NeekChaw/RIPER-5",
+        "summary": "神级Cursor Rule"
+      }
+    }
   },
   {
     "id": "github-rayfernando1337-llm-cursor-rules",
@@ -1733,7 +2103,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 16,
     "recommendation_level": "watch",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=16, categories=rules-instructions."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=16, categories=rules-instructions.",
+    "i18n": {
+      "zh": {
+        "name": "RayFernando1337/llm-cursor-rules",
+        "summary": "My go-to rules for using Cursor and LLMs in software development."
+      },
+      "en": {
+        "name": "RayFernando1337/llm-cursor-rules",
+        "summary": "My go-to rules for using Cursor and LLMs in software development."
+      }
+    }
   },
   {
     "id": "github-thehimel-cursor-rules-and-prompts",
@@ -1779,7 +2159,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 16,
     "recommendation_level": "watch",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=16, categories=rules-instructions, testing-review-ci."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=16, categories=rules-instructions, testing-review-ci.",
+    "i18n": {
+      "zh": {
+        "name": "thehimel/cursor-rules-and-prompts",
+        "summary": "A comprehensive, open-source collection of rules and prompts designed to guide Cursor AI in generating better, more consistent code. Enhance code quality, enforce coding standards, and streamline development workflows automatically."
+      },
+      "en": {
+        "name": "thehimel/cursor-rules-and-prompts",
+        "summary": "A comprehensive, open-source collection of rules and prompts designed to guide Cursor AI in generating better, more consistent code. Enhance code quality, enforce coding standards, and streamline development workflows automatically."
+      }
+    }
   },
   {
     "id": "github-anklebreaker-studio-unity-mcp-plugin",
@@ -1825,7 +2215,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 16,
     "recommendation_level": "watch",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=16, categories=mcp-acp-a2a, testing-review-ci."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=16, categories=mcp-acp-a2a, testing-review-ci.",
+    "i18n": {
+      "zh": {
+        "name": "AnkleBreaker-Studio/unity-mcp-plugin",
+        "summary": "Unity MCP Plugin (UPM) — Editor bridge for AI-assisted game development. Enables Claude, Cursor & MCP-compatible AI to control Unity Editor with 268 tools: scenes, GameObjects, components, builds, profiling, Shader Graph, Amplify Shader Edi"
+      },
+      "en": {
+        "name": "AnkleBreaker-Studio/unity-mcp-plugin",
+        "summary": "Unity MCP Plugin (UPM) — Editor bridge for AI-assisted game development. Enables Claude, Cursor & MCP-compatible AI to control Unity Editor with 268 tools: scenes, GameObjects, components, builds, profiling, Shader Graph, Amplify Shader Edi"
+      }
+    }
   },
   {
     "id": "exa-https-qoder-com",
@@ -1870,7 +2270,17 @@
     "ranking_scope": "learning-resource",
     "total_score": 13,
     "recommendation_level": "reference",
-    "curation_note": "Auto-selected by scoring rules: source=exa, score=13, categories=skills-prompts, testing-review-ci, agent-harness."
+    "curation_note": "Auto-selected by scoring rules: source=exa, score=13, categories=skills-prompts, testing-review-ci, agent-harness.",
+    "i18n": {
+      "zh": {
+        "name": "Qoder / QoderWork GitHub projects open source extensions",
+        "summary": "Exa result for: Qoder / QoderWork GitHub projects open source extensions"
+      },
+      "en": {
+        "name": "Qoder / QoderWork GitHub projects open source extensions",
+        "summary": "Exa result for: Qoder / QoderWork GitHub projects open source extensions"
+      }
+    }
   },
   {
     "id": "exa-https-hermes-agent-nousresearch-com-docs",
@@ -1915,7 +2325,17 @@
     "ranking_scope": "learning-resource",
     "total_score": 13,
     "recommendation_level": "reference",
-    "curation_note": "Auto-selected by scoring rules: source=exa, score=13, categories=skills-prompts, testing-review-ci, agent-harness."
+    "curation_note": "Auto-selected by scoring rules: source=exa, score=13, categories=skills-prompts, testing-review-ci, agent-harness.",
+    "i18n": {
+      "zh": {
+        "name": "Hermes Agent tutorial workflow agentic coding case study",
+        "summary": "Exa result for: Hermes Agent tutorial workflow agentic coding case study"
+      },
+      "en": {
+        "name": "Hermes Agent tutorial workflow agentic coding case study",
+        "summary": "Exa result for: Hermes Agent tutorial workflow agentic coding case study"
+      }
+    }
   },
   {
     "id": "exa-https-github-com-qoderai-qoder-action",
@@ -1960,7 +2380,17 @@
     "ranking_scope": "learning-resource",
     "total_score": 13,
     "recommendation_level": "reference",
-    "curation_note": "Auto-selected by scoring rules: source=exa, score=13, categories=skills-prompts, testing-review-ci, agent-harness."
+    "curation_note": "Auto-selected by scoring rules: source=exa, score=13, categories=skills-prompts, testing-review-ci, agent-harness.",
+    "i18n": {
+      "zh": {
+        "name": "Qoder / QoderWork GitHub projects open source extensions",
+        "summary": "Exa result for: Qoder / QoderWork GitHub projects open source extensions"
+      },
+      "en": {
+        "name": "Qoder / QoderWork GitHub projects open source extensions",
+        "summary": "Exa result for: Qoder / QoderWork GitHub projects open source extensions"
+      }
+    }
   },
   {
     "id": "exa-https-github-com-tianhao909-qoderwork-e-signature",
@@ -2005,7 +2435,17 @@
     "ranking_scope": "learning-resource",
     "total_score": 13,
     "recommendation_level": "reference",
-    "curation_note": "Auto-selected by scoring rules: source=exa, score=13, categories=skills-prompts, testing-review-ci, agent-harness."
+    "curation_note": "Auto-selected by scoring rules: source=exa, score=13, categories=skills-prompts, testing-review-ci, agent-harness.",
+    "i18n": {
+      "zh": {
+        "name": "Qoder / QoderWork GitHub projects open source extensions",
+        "summary": "Exa result for: Qoder / QoderWork GitHub projects open source extensions"
+      },
+      "en": {
+        "name": "Qoder / QoderWork GitHub projects open source extensions",
+        "summary": "Exa result for: Qoder / QoderWork GitHub projects open source extensions"
+      }
+    }
   },
   {
     "id": "exa-https-www-npmjs-com-package-docx",
@@ -2050,7 +2490,17 @@
     "ranking_scope": "learning-resource",
     "total_score": 13,
     "recommendation_level": "reference",
-    "curation_note": "Auto-selected by scoring rules: source=exa, score=13, categories=skills-prompts, testing-review-ci, agent-harness."
+    "curation_note": "Auto-selected by scoring rules: source=exa, score=13, categories=skills-prompts, testing-review-ci, agent-harness.",
+    "i18n": {
+      "zh": {
+        "name": "Qoder / QoderWork GitHub projects open source extensions",
+        "summary": "Exa result for: Qoder / QoderWork GitHub projects open source extensions"
+      },
+      "en": {
+        "name": "Qoder / QoderWork GitHub projects open source extensions",
+        "summary": "Exa result for: Qoder / QoderWork GitHub projects open source extensions"
+      }
+    }
   },
   {
     "id": "exa-https-www-npmjs-com-package-word-extractor",
@@ -2095,7 +2545,17 @@
     "ranking_scope": "learning-resource",
     "total_score": 13,
     "recommendation_level": "reference",
-    "curation_note": "Auto-selected by scoring rules: source=exa, score=13, categories=skills-prompts, testing-review-ci, agent-harness."
+    "curation_note": "Auto-selected by scoring rules: source=exa, score=13, categories=skills-prompts, testing-review-ci, agent-harness.",
+    "i18n": {
+      "zh": {
+        "name": "Qoder / QoderWork GitHub projects open source extensions",
+        "summary": "Exa result for: Qoder / QoderWork GitHub projects open source extensions"
+      },
+      "en": {
+        "name": "Qoder / QoderWork GitHub projects open source extensions",
+        "summary": "Exa result for: Qoder / QoderWork GitHub projects open source extensions"
+      }
+    }
   },
   {
     "id": "exa-https-www-npmjs-com-package-canvas",
@@ -2140,7 +2600,17 @@
     "ranking_scope": "learning-resource",
     "total_score": 13,
     "recommendation_level": "reference",
-    "curation_note": "Auto-selected by scoring rules: source=exa, score=13, categories=skills-prompts, testing-review-ci, agent-harness."
+    "curation_note": "Auto-selected by scoring rules: source=exa, score=13, categories=skills-prompts, testing-review-ci, agent-harness.",
+    "i18n": {
+      "zh": {
+        "name": "Qoder / QoderWork GitHub projects open source extensions",
+        "summary": "Exa result for: Qoder / QoderWork GitHub projects open source extensions"
+      },
+      "en": {
+        "name": "Qoder / QoderWork GitHub projects open source extensions",
+        "summary": "Exa result for: Qoder / QoderWork GitHub projects open source extensions"
+      }
+    }
   },
   {
     "id": "exa-https-github-com-qoderai",
@@ -2185,7 +2655,17 @@
     "ranking_scope": "learning-resource",
     "total_score": 13,
     "recommendation_level": "reference",
-    "curation_note": "Auto-selected by scoring rules: source=exa, score=13, categories=skills-prompts, testing-review-ci, agent-harness."
+    "curation_note": "Auto-selected by scoring rules: source=exa, score=13, categories=skills-prompts, testing-review-ci, agent-harness.",
+    "i18n": {
+      "zh": {
+        "name": "Qoder / QoderWork GitHub projects open source extensions",
+        "summary": "Exa result for: Qoder / QoderWork GitHub projects open source extensions"
+      },
+      "en": {
+        "name": "Qoder / QoderWork GitHub projects open source extensions",
+        "summary": "Exa result for: Qoder / QoderWork GitHub projects open source extensions"
+      }
+    }
   },
   {
     "id": "exa-https-github-com-virgoshuyu-task-time-estimator",
@@ -2230,7 +2710,17 @@
     "ranking_scope": "learning-resource",
     "total_score": 13,
     "recommendation_level": "reference",
-    "curation_note": "Auto-selected by scoring rules: source=exa, score=13, categories=skills-prompts, testing-review-ci, agent-harness."
+    "curation_note": "Auto-selected by scoring rules: source=exa, score=13, categories=skills-prompts, testing-review-ci, agent-harness.",
+    "i18n": {
+      "zh": {
+        "name": "Qoder / QoderWork GitHub projects open source extensions",
+        "summary": "Exa result for: Qoder / QoderWork GitHub projects open source extensions"
+      },
+      "en": {
+        "name": "Qoder / QoderWork GitHub projects open source extensions",
+        "summary": "Exa result for: Qoder / QoderWork GitHub projects open source extensions"
+      }
+    }
   },
   {
     "id": "exa-https-github-com-block-goose-blob-58f3cc9e-documentation-docs-tutorials-rpi-md",
@@ -2275,7 +2765,17 @@
     "ranking_scope": "learning-resource",
     "total_score": 13,
     "recommendation_level": "reference",
-    "curation_note": "Auto-selected by scoring rules: source=exa, score=13, categories=context-engineering, testing-review-ci, agent-harness."
+    "curation_note": "Auto-selected by scoring rules: source=exa, score=13, categories=context-engineering, testing-review-ci, agent-harness.",
+    "i18n": {
+      "zh": {
+        "name": "Goose tutorial workflow agentic coding case study",
+        "summary": "Exa result for: Goose tutorial workflow agentic coding case study"
+      },
+      "en": {
+        "name": "Goose tutorial workflow agentic coding case study",
+        "summary": "Exa result for: Goose tutorial workflow agentic coding case study"
+      }
+    }
   },
   {
     "id": "exa-https-raw-githubusercontent-com-block-goose-refs-heads-main-documentation-src-pages-recipes-data",
@@ -2320,7 +2820,17 @@
     "ranking_scope": "learning-resource",
     "total_score": 13,
     "recommendation_level": "reference",
-    "curation_note": "Auto-selected by scoring rules: source=exa, score=13, categories=context-engineering, testing-review-ci, agent-harness."
+    "curation_note": "Auto-selected by scoring rules: source=exa, score=13, categories=context-engineering, testing-review-ci, agent-harness.",
+    "i18n": {
+      "zh": {
+        "name": "Goose tutorial workflow agentic coding case study",
+        "summary": "Exa result for: Goose tutorial workflow agentic coding case study"
+      },
+      "en": {
+        "name": "Goose tutorial workflow agentic coding case study",
+        "summary": "Exa result for: Goose tutorial workflow agentic coding case study"
+      }
+    }
   },
   {
     "id": "exa-https-www-kdnuggets-com-free-agentic-coding-with-goose",
@@ -2365,7 +2875,17 @@
     "ranking_scope": "learning-resource",
     "total_score": 13,
     "recommendation_level": "reference",
-    "curation_note": "Auto-selected by scoring rules: source=exa, score=13, categories=context-engineering, testing-review-ci, agent-harness."
+    "curation_note": "Auto-selected by scoring rules: source=exa, score=13, categories=context-engineering, testing-review-ci, agent-harness.",
+    "i18n": {
+      "zh": {
+        "name": "Goose tutorial workflow agentic coding case study",
+        "summary": "Exa result for: Goose tutorial workflow agentic coding case study"
+      },
+      "en": {
+        "name": "Goose tutorial workflow agentic coding case study",
+        "summary": "Exa result for: Goose tutorial workflow agentic coding case study"
+      }
+    }
   },
   {
     "id": "exa-https-terminalskills-io-use-cases-build-extensible-ai-agent-with-goose",
@@ -2410,7 +2930,17 @@
     "ranking_scope": "learning-resource",
     "total_score": 13,
     "recommendation_level": "reference",
-    "curation_note": "Auto-selected by scoring rules: source=exa, score=13, categories=context-engineering, testing-review-ci, agent-harness."
+    "curation_note": "Auto-selected by scoring rules: source=exa, score=13, categories=context-engineering, testing-review-ci, agent-harness.",
+    "i18n": {
+      "zh": {
+        "name": "Goose tutorial workflow agentic coding case study",
+        "summary": "Exa result for: Goose tutorial workflow agentic coding case study"
+      },
+      "en": {
+        "name": "Goose tutorial workflow agentic coding case study",
+        "summary": "Exa result for: Goose tutorial workflow agentic coding case study"
+      }
+    }
   },
   {
     "id": "exa-https-www-agentupdate-ai-tutorial-hermes-agent-tutorial-lesson-14",
@@ -2455,7 +2985,17 @@
     "ranking_scope": "learning-resource",
     "total_score": 13,
     "recommendation_level": "reference",
-    "curation_note": "Auto-selected by scoring rules: source=exa, score=13, categories=skills-prompts, testing-review-ci, agent-harness."
+    "curation_note": "Auto-selected by scoring rules: source=exa, score=13, categories=skills-prompts, testing-review-ci, agent-harness.",
+    "i18n": {
+      "zh": {
+        "name": "Hermes Agent tutorial workflow agentic coding case study",
+        "summary": "Exa result for: Hermes Agent tutorial workflow agentic coding case study"
+      },
+      "en": {
+        "name": "Hermes Agent tutorial workflow agentic coding case study",
+        "summary": "Exa result for: Hermes Agent tutorial workflow agentic coding case study"
+      }
+    }
   },
   {
     "id": "exa-http-localhost-8000-todos",
@@ -2500,7 +3040,17 @@
     "ranking_scope": "learning-resource",
     "total_score": 13,
     "recommendation_level": "reference",
-    "curation_note": "Auto-selected by scoring rules: source=exa, score=13, categories=skills-prompts, testing-review-ci, agent-harness."
+    "curation_note": "Auto-selected by scoring rules: source=exa, score=13, categories=skills-prompts, testing-review-ci, agent-harness.",
+    "i18n": {
+      "zh": {
+        "name": "Hermes Agent tutorial workflow agentic coding case study",
+        "summary": "Exa result for: Hermes Agent tutorial workflow agentic coding case study"
+      },
+      "en": {
+        "name": "Hermes Agent tutorial workflow agentic coding case study",
+        "summary": "Exa result for: Hermes Agent tutorial workflow agentic coding case study"
+      }
+    }
   },
   {
     "id": "github-ricky-theseus-daisywriter",
@@ -2547,7 +3097,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 15,
     "recommendation_level": "watch",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=15, categories=skills-prompts."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=15, categories=skills-prompts.",
+    "i18n": {
+      "zh": {
+        "name": "ricky-theseus/DaisyWriter",
+        "summary": "AI-powered writing toolkit — Web novels, Short stories, Tech blogs, Publishing automation. An OpenCode/Claude Code/Codex CLI skill collection."
+      },
+      "en": {
+        "name": "ricky-theseus/DaisyWriter",
+        "summary": "AI-powered writing toolkit — Web novels, Short stories, Tech blogs, Publishing automation. An OpenCode/Claude Code/Codex CLI skill collection."
+      }
+    }
   },
   {
     "id": "github-waynesutton-promptstack",
@@ -2594,7 +3154,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 15,
     "recommendation_level": "watch",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=15, categories=rules-instructions, testing-review-ci."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=15, categories=rules-instructions, testing-review-ci.",
+    "i18n": {
+      "zh": {
+        "name": "waynesutton/promptstack",
+        "summary": "A searchable collection of AI prompts and code gen cursor rules, for bolt.new, loveable, windsurf, trae, to enhance your workflow for developers."
+      },
+      "en": {
+        "name": "waynesutton/promptstack",
+        "summary": "A searchable collection of AI prompts and code gen cursor rules, for bolt.new, loveable, windsurf, trae, to enhance your workflow for developers."
+      }
+    }
   },
   {
     "id": "github-yinqd3-workbuddy-skills",
@@ -2640,7 +3210,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 15,
     "recommendation_level": "watch",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=15, categories=skills-prompts, agent-harness."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=15, categories=skills-prompts, agent-harness.",
+    "i18n": {
+      "zh": {
+        "name": "yinqd3/workbuddy-skills",
+        "summary": "A curated collection of WorkBuddy agent skills — academic pipeline, frontend slides, PPTX generator, tool-call repair, and more."
+      },
+      "en": {
+        "name": "yinqd3/workbuddy-skills",
+        "summary": "A curated collection of WorkBuddy agent skills — academic pipeline, frontend slides, PPTX generator, tool-call repair, and more."
+      }
+    }
   },
   {
     "id": "github-cosmicstack-labs-mercury-agent-skills",
@@ -2686,7 +3266,17 @@
     "ranking_scope": "ecosystem",
     "total_score": 16,
     "recommendation_level": "watch",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=16, categories=skills-prompts, agent-harness."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=16, categories=skills-prompts, agent-harness.",
+    "i18n": {
+      "zh": {
+        "name": "cosmicstack-labs/mercury-agent-skills",
+        "summary": "A curated registry of reusable Mercury Agent, Open Claw or Hermes Agent skills designed for real developer workflows, persistent memory, and token-efficient execution."
+      },
+      "en": {
+        "name": "cosmicstack-labs/mercury-agent-skills",
+        "summary": "A curated registry of reusable Mercury Agent, Open Claw or Hermes Agent skills designed for real developer workflows, persistent memory, and token-efficient execution."
+      }
+    }
   },
   {
     "id": "github-davidbb-l-cinema-manager",
@@ -2732,6 +3322,16 @@
     "ranking_scope": "ecosystem",
     "total_score": 16,
     "recommendation_level": "watch",
-    "curation_note": "Auto-selected by scoring rules: source=github, score=16, categories=skills-prompts, agent-harness."
+    "curation_note": "Auto-selected by scoring rules: source=github, score=16, categories=skills-prompts, agent-harness.",
+    "i18n": {
+      "zh": {
+        "name": "DavidBB-L/cinema-manager",
+        "summary": "Hermes Agent skill - Movie/TV resource search + Quark cloud drive auto-save"
+      },
+      "en": {
+        "name": "DavidBB-L/cinema-manager",
+        "summary": "Hermes Agent skill - Movie/TV resource search + Quark cloud drive auto-save"
+      }
+    }
   }
 ]

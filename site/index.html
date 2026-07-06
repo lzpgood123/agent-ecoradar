@@ -1,1 +1,70 @@
-<!doctype html><html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Search in Coding</title><link rel="stylesheet" href="styles.css"></head><body><header><h1>Search in Coding</h1><p>AI Coding Agent 生态追踪器：终端 Agent、AI IDE、MCP、Skills、Rules、Context Engineering</p><nav><a href="reports/final-delivery-report.md">Final Report</a><a href="reports/curated-top-projects.md">Curated Top</a><a href="reports/source-quality-audit.md">Source Audit</a></nav></header><main><section id="metrics" class="metrics"></section><section><h2>官方目标工具</h2><div id="official" class="cards"></div></section><section><h2>生态项目榜</h2><p class="hint">默认排除 official seed tools；优先展示 curated / verified 项目。</p><div class="controls"><input id="q" placeholder="搜索项目、工具、分类"><select id="tool"><option value="">全部工具</option></select><select id="cat"><option value="">全部分类</option></select><select id="source"><option value="">全部来源</option></select><select id="review"><option value="">全部审核状态</option><option value="reviewed">reviewed</option><option value="unreviewed">unreviewed</option><option value="rejected">rejected</option></select><label><input id="curatedOnly" type="checkbox"> 只看 curated</label></div><table><thead><tr><th>名称</th><th>来源</th><th>质量</th><th>分类</th><th>工具</th><th>分数</th><th>链接</th></tr></thead><tbody id="rows"></tbody></table></section></main><script src="app.js"></script></body></html>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Search in Coding</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="topbar">
+      <div>
+        <h1>Search in Coding</h1>
+        <p data-i18n="subtitle">AI Coding Agent 生态追踪器：终端 Agent、AI IDE、MCP、Skills、Rules、Context Engineering</p>
+      </div>
+      <div class="lang-switch" aria-label="Language switcher">
+        <button id="langZh" type="button">中文</button>
+        <button id="langEn" type="button">English</button>
+      </div>
+    </div>
+    <nav>
+      <a href="reports/final-delivery-report.md" data-i18n="navFinal">最终报告</a>
+      <a href="reports/curated-top-projects.md" data-i18n="navCurated">推荐榜</a>
+      <a href="reports/source-quality-audit.md" data-i18n="navAudit">来源审计</a>
+    </nav>
+  </header>
+  <main>
+    <section id="metrics" class="metrics"></section>
+
+    <section>
+      <h2 data-i18n="officialTitle">官方目标工具</h2>
+      <div id="official" class="cards"></div>
+    </section>
+
+    <section>
+      <h2 data-i18n="rankingTitle">生态项目榜</h2>
+      <p class="hint" data-i18n="rankingHint">默认排除 official seed tools；优先展示自动推荐 / verified 项目。</p>
+      <div class="controls">
+        <input id="q" data-i18n-placeholder="searchPlaceholder" placeholder="搜索项目、工具、分类">
+        <select id="tool"><option value="" data-i18n="allTools">全部工具</option></select>
+        <select id="cat"><option value="" data-i18n="allCategories">全部分类</option></select>
+        <select id="source"><option value="" data-i18n="allSources">全部来源</option></select>
+        <select id="review">
+          <option value="" data-i18n="allStates">全部状态</option>
+          <option value="auto-reviewed">auto-reviewed</option>
+          <option value="unreviewed">unreviewed</option>
+          <option value="auto-rejected">auto-rejected</option>
+          <option value="rejected">rejected</option>
+        </select>
+        <label><input id="curatedOnly" type="checkbox"> <span data-i18n="curatedOnly">只看自动推荐</span></label>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th data-i18n="thName">名称</th>
+            <th data-i18n="thSource">来源</th>
+            <th data-i18n="thQuality">质量</th>
+            <th data-i18n="thCategory">分类</th>
+            <th data-i18n="thTools">工具</th>
+            <th data-i18n="thScore">分数</th>
+            <th data-i18n="thLink">链接</th>
+          </tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

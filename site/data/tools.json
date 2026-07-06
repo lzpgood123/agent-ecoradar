@@ -31,7 +31,15 @@
       "subagents"
     ],
     "source_doc": "/root/workspace/ai-coding-agents/claude_code_introduction.md",
-    "tracking_priority": "high"
+    "tracking_priority": "high",
+    "i18n": {
+      "zh": {
+        "name": "Claude Code"
+      },
+      "en": {
+        "name": "Claude Code"
+      }
+    }
   },
   {
     "id": "codex-cli",
@@ -65,7 +73,15 @@
       "policy-engine"
     ],
     "source_doc": "/root/workspace/ai-coding-agents/OpenAI_Codex_CLI_介绍.md",
-    "tracking_priority": "high"
+    "tracking_priority": "high",
+    "i18n": {
+      "zh": {
+        "name": "OpenAI Codex CLI"
+      },
+      "en": {
+        "name": "OpenAI Codex CLI"
+      }
+    }
   },
   {
     "id": "antigravity-cli",
@@ -100,7 +116,15 @@
       "plugins"
     ],
     "source_doc": "/root/workspace/ai-coding-agents/antigravity-gemini-cli-introduction.md",
-    "tracking_priority": "high"
+    "tracking_priority": "high",
+    "i18n": {
+      "zh": {
+        "name": "Antigravity CLI / Gemini CLI"
+      },
+      "en": {
+        "name": "Antigravity CLI / Gemini CLI"
+      }
+    }
   },
   {
     "id": "opencode",
@@ -132,7 +156,15 @@
       "subagents"
     ],
     "source_doc": "/root/workspace/ai-coding-agents/OpenCode_CLI_介绍.md",
-    "tracking_priority": "high"
+    "tracking_priority": "high",
+    "i18n": {
+      "zh": {
+        "name": "OpenCode"
+      },
+      "en": {
+        "name": "OpenCode"
+      }
+    }
   },
   {
     "id": "goose",
@@ -165,7 +197,15 @@
       "local-inference"
     ],
     "source_doc": "/root/workspace/ai-coding-agents/goose-ai-coding-agent-intro.md",
-    "tracking_priority": "high"
+    "tracking_priority": "high",
+    "i18n": {
+      "zh": {
+        "name": "Goose"
+      },
+      "en": {
+        "name": "Goose"
+      }
+    }
   },
   {
     "id": "qoder",
@@ -197,7 +237,15 @@
       "mcp"
     ],
     "source_doc": "/root/workspace/ai-coding-agents/QoderWork_Qoder_介绍.md",
-    "tracking_priority": "medium"
+    "tracking_priority": "medium",
+    "i18n": {
+      "zh": {
+        "name": "Qoder / QoderWork"
+      },
+      "en": {
+        "name": "Qoder / QoderWork"
+      }
+    }
   },
   {
     "id": "trae",
@@ -230,7 +278,15 @@
       "mcp"
     ],
     "source_doc": "/root/workspace/ai-coding-agents/trae_introduction.md",
-    "tracking_priority": "high"
+    "tracking_priority": "high",
+    "i18n": {
+      "zh": {
+        "name": "Trae / Trae Work"
+      },
+      "en": {
+        "name": "Trae / Trae Work"
+      }
+    }
   },
   {
     "id": "workbuddy-codebuddy",
@@ -263,7 +319,15 @@
       "skills"
     ],
     "source_doc": "/root/workspace/ai-coding-agents/Workbuddy_AI_Coding_Agent_介绍.md",
-    "tracking_priority": "medium"
+    "tracking_priority": "medium",
+    "i18n": {
+      "zh": {
+        "name": "WorkBuddy / CodeBuddy"
+      },
+      "en": {
+        "name": "WorkBuddy / CodeBuddy"
+      }
+    }
   },
   {
     "id": "cursor",
@@ -298,7 +362,15 @@
       "bugbot"
     ],
     "source_doc": "/root/workspace/ai-coding-agents/cursor-ai-editor-intro.md",
-    "tracking_priority": "high"
+    "tracking_priority": "high",
+    "i18n": {
+      "zh": {
+        "name": "Cursor"
+      },
+      "en": {
+        "name": "Cursor"
+      }
+    }
   },
   {
     "id": "hermes-agent",
@@ -335,6 +407,14 @@
       "self-improvement"
     ],
     "source_doc": "/root/workspace/ai-coding-agents/hermes_agent_introduction.md",
-    "tracking_priority": "high"
+    "tracking_priority": "high",
+    "i18n": {
+      "zh": {
+        "name": "Hermes Agent"
+      },
+      "en": {
+        "name": "Hermes Agent"
+      }
+    }
   }
 ]
