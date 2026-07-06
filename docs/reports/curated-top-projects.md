@@ -49,18 +49,18 @@ Official tools are excluded.
 | 43 | Forlives/21-day-self-interview | github | watch | 16 | skills-prompts, agent-harness | https://github.com/Forlives/21-day-self-interview |
 | 44 | Mindrally/skills | github | watch | 16 | skills-prompts, rules-instructions | https://github.com/Mindrally/skills |
 | 45 | alchaincyf/cursor-rules-huasheng | github | watch | 16 | rules-instructions | https://github.com/alchaincyf/cursor-rules-huasheng |
-| 46 | Qoder / QoderWork GitHub projects open source extensions | exa | reference | 13 | skills-prompts, testing-review-ci, agent-harness | https://qoder.com |
-| 47 | Qoder / QoderWork GitHub projects open source extensions | exa | reference | 13 | skills-prompts, testing-review-ci, agent-harness | https://github.com/tianhao909/qoderwork-e-signature |
-| 48 | Qoder / QoderWork GitHub projects open source extensions | exa | reference | 13 | skills-prompts, testing-review-ci, agent-harness | https://www.npmjs.com/package/docx |
-| 49 | Qoder / QoderWork GitHub projects open source extensions | exa | reference | 13 | skills-prompts, testing-review-ci, agent-harness | https://www.npmjs.com/package/word-extractor |
-| 50 | Qoder / QoderWork GitHub projects open source extensions | exa | reference | 13 | skills-prompts, testing-review-ci, agent-harness | https://www.npmjs.com/package/canvas |
-| 51 | Qoder / QoderWork GitHub projects open source extensions | exa | reference | 13 | skills-prompts, testing-review-ci, agent-harness | https://github.com/qoderAI |
-| 52 | Qoder / QoderWork GitHub projects open source extensions | exa | reference | 13 | skills-prompts, testing-review-ci, agent-harness | https://github.com/VirgoShuyu/task-time-estimator |
-| 53 | Goose tutorial workflow agentic coding case study | exa | reference | 13 | context-engineering, testing-review-ci, agent-harness | https://github.com/block/goose/blob/58f3cc9e/documentation/docs/tutorials/rpi.md |
-| 54 | Goose tutorial workflow agentic coding case study | exa | reference | 13 | context-engineering, testing-review-ci, agent-harness | https://raw.githubusercontent.com/block/goose/refs/heads/main/documentation/src/pages/recipes/data/recipes/rpi-implement.yaml |
-| 55 | Goose tutorial workflow agentic coding case study | exa | reference | 13 | context-engineering, testing-review-ci, agent-harness | https://www.kdnuggets.com/free-agentic-coding-with-goose |
-| 56 | Goose tutorial workflow agentic coding case study | exa | reference | 13 | context-engineering, testing-review-ci, agent-harness | https://terminalskills.io/use-cases/build-extensible-ai-agent-with-goose |
-| 57 | Qoder / QoderWork context engineering codebase indexing rules prompts | exa | reference | 13 | rules-instructions, context-engineering, testing-review-ci, benchmark-evaluation | https://docs.qoder.com/user-guide/rules |
-| 58 | Qoder / QoderWork context engineering codebase indexing rules prompts | exa | reference | 13 | rules-instructions, context-engineering, testing-review-ci, benchmark-evaluation | https://docs.qoder.com/user-guide/indexing |
-| 59 | Antigravity CLI / Gemini CLI GitHub projects open source extensions | exa | reference | 13 | context-engineering, testing-review-ci, agent-harness, terminal-agent | https://github.com/ACN1987/oh-my-antigravity |
-| 60 | Antigravity CLI / Gemini CLI GitHub projects open source extensions | exa | reference | 13 | context-engineering, testing-review-ci, agent-harness, terminal-agent | https://github.com/Joonghyun-Lee-Frieren/oh-my-antigravity |
+| 46 | Qoder / QoderWork GitHub projects open source extensions | exa | reference | 13 | skills-prompts, testing-review-ci, agent-harness | https://github.com/tianhao909/qoderwork-e-signature |
+| 47 | Qoder / QoderWork GitHub projects open source extensions | exa | reference | 13 | skills-prompts, testing-review-ci, agent-harness | https://www.npmjs.com/package/docx |
+| 48 | Qoder / QoderWork GitHub projects open source extensions | exa | reference | 13 | skills-prompts, testing-review-ci, agent-harness | https://www.npmjs.com/package/word-extractor |
+| 49 | Qoder / QoderWork GitHub projects open source extensions | exa | reference | 13 | skills-prompts, testing-review-ci, agent-harness | https://www.npmjs.com/package/canvas |
+| 50 | Qoder / QoderWork GitHub projects open source extensions | exa | reference | 13 | skills-prompts, testing-review-ci, agent-harness | https://github.com/qoderAI |
+| 51 | Qoder / QoderWork GitHub projects open source extensions | exa | reference | 13 | skills-prompts, testing-review-ci, agent-harness | https://github.com/VirgoShuyu/task-time-estimator |
+| 52 | Goose tutorial workflow agentic coding case study | exa | reference | 13 | context-engineering, testing-review-ci, agent-harness | https://github.com/block/goose/blob/58f3cc9e/documentation/docs/tutorials/rpi.md |
+| 53 | Goose tutorial workflow agentic coding case study | exa | reference | 13 | context-engineering, testing-review-ci, agent-harness | https://raw.githubusercontent.com/block/goose/refs/heads/main/documentation/src/pages/recipes/data/recipes/rpi-implement.yaml |
+| 54 | Goose tutorial workflow agentic coding case study | exa | reference | 13 | context-engineering, testing-review-ci, agent-harness | https://www.kdnuggets.com/free-agentic-coding-with-goose |
+| 55 | Goose tutorial workflow agentic coding case study | exa | reference | 13 | context-engineering, testing-review-ci, agent-harness | https://terminalskills.io/use-cases/build-extensible-ai-agent-with-goose |
+| 56 | Qoder / QoderWork context engineering codebase indexing rules prompts | exa | reference | 13 | rules-instructions, context-engineering, testing-review-ci, benchmark-evaluation | https://docs.qoder.com/user-guide/rules |
+| 57 | Qoder / QoderWork context engineering codebase indexing rules prompts | exa | reference | 13 | rules-instructions, context-engineering, testing-review-ci, benchmark-evaluation | https://docs.qoder.com/user-guide/indexing |
+| 58 | Antigravity CLI / Gemini CLI GitHub projects open source extensions | exa | reference | 13 | context-engineering, testing-review-ci, agent-harness, terminal-agent | https://github.com/ACN1987/oh-my-antigravity |
+| 59 | Antigravity CLI / Gemini CLI GitHub projects open source extensions | exa | reference | 13 | context-engineering, testing-review-ci, agent-harness, terminal-agent | https://github.com/Joonghyun-Lee-Frieren/oh-my-antigravity |
+| 60 | Antigravity CLI / Gemini CLI GitHub projects open source extensions | exa | reference | 13 | context-engineering, testing-review-ci, agent-harness, terminal-agent | https://img.shields.io/badge/Gemini-Extension-0d8a83 |

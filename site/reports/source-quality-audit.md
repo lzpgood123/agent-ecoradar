@@ -1,7 +1,7 @@
 # Source Quality Audit — 2026-07-06
 
-- Verified records: 437
-- Fallback records: 146
+- Verified records: 439
+- Fallback records: 147
 - Unverified records: 0
 - Rejected/noisy records: 25
 
@@ -19,13 +19,13 @@ Fallback records are discovery leads, not Exa results. They are marked `fallback
 - [GOOGLEFINANCE - Google Docs Editors Help](https://support.google.com/docs/answer/3093281?hl=en) — Low confidence, fallback/noisy, duplicate, or weak direct relevance for final curated set.
 - [Google Sheets function list - Google Docs Editors Help](https://support.google.com/docs/table/25273?hl=en) — Low confidence, fallback/noisy, duplicate, or weak direct relevance for final curated set.
 - [Set default search engine and site search shortcuts](https://support.google.com/chrome/answer/95426?hl=en&co=GENIE.Platform%3DDesktop) — Low confidence, fallback/noisy, duplicate, or weak direct relevance for final curated set.
-- [hermes-agent/README.zh-CN.md at main - GitHub](https://github.com/NousResearch/hermes-agent/blob/main/README.zh-CN.md) — Low confidence, fallback/noisy, duplicate, or weak direct relevance for final curated set.
-- [Hermes Agent 完整指南：从安装到进阶玩法，一篇搞定](https://zhuanlan.zhihu.com/p/2027128115831260939) — Low confidence, fallback/noisy, duplicate, or weak direct relevance for final curated set.
-- [Hermes Agent — 有记忆的开源 AI 智能体，越用越聪明](https://hermes-agent.org/zh/) — Low confidence, fallback/noisy, duplicate, or weak direct relevance for final curated set.
-- [下载 | Qoder - 智能体编程平台](https://qoder.com/zh/download) — Low confidence, fallback/noisy, duplicate, or weak direct relevance for final curated set.
-- [Qoder - The Agentic Platform](https://qoder.com/) — Low confidence, fallback/noisy, duplicate, or weak direct relevance for final curated set.
-- [Qoder，面向真实软件的智能体编程平台](https://www.aliyun.com/product/qoder) — Low confidence, fallback/noisy, duplicate, or weak direct relevance for final curated set.
-- [Qoder CN - 智能体平台](https://qoder.com.cn/desktop) — Low confidence, fallback/noisy, duplicate, or weak direct relevance for final curated set.
-- [实测阿里 Qoder，但我还是失望了 - 知乎](https://zhuanlan.zhihu.com/p/1945974913195311572) — Low confidence, fallback/noisy, duplicate, or weak direct relevance for final curated set.
+- [WorkBuddy](https://www.workbuddy.cn/app) — Low confidence, fallback/noisy, duplicate, or weak direct relevance for final curated set.
+- [千问 - 阿里Qwen大模型打造的AI对话助手](https://qianwen.aigc.cn/) — Low confidence, fallback/noisy, duplicate, or weak direct relevance for final curated set.
+- [AI工具集官网 | 1000+ AI工具集合，国内外AI工具集导航大全](https://ai-bot.cn/) — Low confidence, fallback/noisy, duplicate, or weak direct relevance for final curated set.
 - [AI工具箱官网 | 3000 + 免费 AI 工具集合 | AI软件一站式导航网站](https://ai-kit.cn/) — Low confidence, fallback/noisy, duplicate, or weak direct relevance for final curated set.
 - [Baidu - 文心一言](https://yiyan.baidu.com/) — Low confidence, fallback/noisy, duplicate, or weak direct relevance for final curated set.
+- [AI网站汇总（免费chatgpt）（70个持续增加中） - 知乎](https://zhuanlan.zhihu.com/p/622871383) — Low confidence, fallback/noisy, duplicate, or weak direct relevance for final curated set.
+- [OpenAI 官网入口地址：如何轻松找到](https://apifox.com/apiskills/openai-official-portal/) — Low confidence, fallback/noisy, duplicate, or weak direct relevance for final curated set.
+- [OpenAI](https://openai.smapply.org/) — Low confidence, fallback/noisy, duplicate, or weak direct relevance for final curated set.
+- [OpenAI_百度百科](https://baike.baidu.com/item/OpenAI/19758408) — Low confidence, fallback/noisy, duplicate, or weak direct relevance for final curated set.
+- [OpenAI - GitHub](https://github.com/openai/) — Low confidence, fallback/noisy, duplicate, or weak direct relevance for final curated set.

@@ -6,7 +6,7 @@
 - Total records: 105
 - Curated records: 30
 - Extension points: skills, hooks, slash-commands, mcp, subagents
-- Main categories: testing-review-ci(59), skills-prompts(53), agent-harness(33), mcp-acp-a2a(33), rules-instructions(16), context-engineering(10)
+- Main categories: testing-review-ci(54), skills-prompts(48), agent-harness(38), mcp-acp-a2a(28), rules-instructions(11), context-engineering(10)
 - Recommended records:
   - [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) — try-now — score 19
   - [blader/humanizer](https://github.com/blader/humanizer) — try-now — score 18
@@ -16,10 +16,10 @@
 
 ## OpenAI Codex CLI
 
-- Total records: 60
+- Total records: 56
 - Curated records: 5
 - Extension points: skills, slash-commands, execution-policy, hooks, github-pr
-- Main categories: skills-prompts(33), agent-harness(26), testing-review-ci(24), rules-instructions(17), mcp-acp-a2a(14), context-engineering(12)
+- Main categories: skills-prompts(34), agent-harness(25), testing-review-ci(19), mcp-acp-a2a(14), rules-instructions(12), context-engineering(7)
 - Recommended records:
   - [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) — try-now — score 18
   - [taishi-i/awesome-ChatGPT-repositories](https://github.com/taishi-i/awesome-ChatGPT-repositories) — try-now — score 17
@@ -29,10 +29,10 @@
 
 ## Antigravity CLI / Gemini CLI
 
-- Total records: 60
-- Curated records: 5
+- Total records: 61
+- Curated records: 6
 - Extension points: plugins, skills, mcp, a2a, hooks, subagents
-- Main categories: agent-harness(33), testing-review-ci(31), context-engineering(23), rules-instructions(14), mcp-acp-a2a(11), terminal-agent(11)
+- Main categories: agent-harness(34), testing-review-ci(32), context-engineering(23), rules-instructions(15), mcp-acp-a2a(12), skills-prompts(11)
 - Recommended records:
   - [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) — try-now — score 18
   - [gemini-cli-extensions/conductor](https://github.com/gemini-cli-extensions/conductor) — try-now — score 16
@@ -42,18 +42,18 @@
 
 ## OpenCode
 
-- Total records: 52
+- Total records: 55
 - Curated records: 0
 - Extension points: commands, agents, mcp, lsp, sourcegraph
-- Main categories: agent-harness(24), mcp-acp-a2a(23), testing-review-ci(22), skills-prompts(11), rules-instructions(7), benchmark-evaluation(7)
+- Main categories: mcp-acp-a2a(28), testing-review-ci(26), agent-harness(25), skills-prompts(16), rules-instructions(12), benchmark-evaluation(7)
 - Recommended records:
 
 ## Goose
 
-- Total records: 35
+- Total records: 31
 - Curated records: 4
 - Extension points: mcp extensions, recipes, subagents, acp, local models
-- Main categories: testing-review-ci(29), agent-harness(21), rules-instructions(15), context-engineering(14), mcp-acp-a2a(7), skills-prompts(7)
+- Main categories: testing-review-ci(29), agent-harness(17), rules-instructions(15), context-engineering(14), mcp-acp-a2a(7), skills-prompts(7)
 - Recommended records:
   - [Goose tutorial workflow agentic coding case study](https://github.com/block/goose/blob/58f3cc9e/documentation/docs/tutorials/rpi.md) — reference — score 13
   - [Goose tutorial workflow agentic coding case study](https://raw.githubusercontent.com/block/goose/refs/heads/main/documentation/src/pages/recipes/data/recipes/rpi-implement.yaml) — reference — score 13
@@ -62,39 +62,39 @@
 
 ## Qoder / QoderWork
 
-- Total records: 50
-- Curated records: 9
+- Total records: 54
+- Curated records: 8
 - Extension points: skills, plugins, mcp, repo-wiki
-- Main categories: agent-harness(30), testing-review-ci(27), skills-prompts(23), mcp-acp-a2a(14), tutorial-case-study(8), context-engineering(7)
+- Main categories: testing-review-ci(31), agent-harness(30), skills-prompts(27), mcp-acp-a2a(19), rules-instructions(10), tutorial-case-study(8)
 - Recommended records:
-  - [Qoder / QoderWork GitHub projects open source extensions](https://qoder.com) — reference — score 13
   - [Qoder / QoderWork GitHub projects open source extensions](https://github.com/tianhao909/qoderwork-e-signature) — reference — score 13
   - [Qoder / QoderWork GitHub projects open source extensions](https://www.npmjs.com/package/docx) — reference — score 13
   - [Qoder / QoderWork GitHub projects open source extensions](https://www.npmjs.com/package/word-extractor) — reference — score 13
   - [Qoder / QoderWork GitHub projects open source extensions](https://www.npmjs.com/package/canvas) — reference — score 13
+  - [Qoder / QoderWork GitHub projects open source extensions](https://github.com/qoderAI) — reference — score 13
 
 ## Trae / Trae Work
 
-- Total records: 25
+- Total records: 24
 - Curated records: 0
 - Extension points: mcp, skills, agent-system, online-search
-- Main categories: testing-review-ci(18), mcp-acp-a2a(11), skills-prompts(11), rules-instructions(8), agent-harness(6), context-engineering(3)
+- Main categories: testing-review-ci(17), mcp-acp-a2a(11), skills-prompts(11), rules-instructions(8), agent-harness(6), context-engineering(3)
 - Recommended records:
 
 ## WorkBuddy / CodeBuddy
 
-- Total records: 53
+- Total records: 52
 - Curated records: 0
 - Extension points: mcp, skills, connectors, craft-agent
-- Main categories: testing-review-ci(33), agent-harness(30), skills-prompts(24), mcp-acp-a2a(19), terminal-agent(10), rules-instructions(9)
+- Main categories: agent-harness(32), testing-review-ci(28), skills-prompts(25), mcp-acp-a2a(20), terminal-agent(10), rules-instructions(4)
 - Recommended records:
 
 ## Cursor
 
-- Total records: 68
+- Total records: 69
 - Curated records: 11
 - Extension points: rules, skills, mcp, hooks, cloud-agents, bugbot
-- Main categories: rules-instructions(36), testing-review-ci(33), mcp-acp-a2a(30), agent-harness(27), skills-prompts(15), context-engineering(12)
+- Main categories: testing-review-ci(34), rules-instructions(32), agent-harness(31), mcp-acp-a2a(26), skills-prompts(16), context-engineering(12)
 - Recommended records:
   - [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) — try-now — score 18
   - [sanjeed5/awesome-cursor-rules-mdc](https://github.com/sanjeed5/awesome-cursor-rules-mdc) — try-now — score 17
@@ -104,10 +104,10 @@
 
 ## Hermes Agent
 
-- Total records: 45
+- Total records: 48
 - Curated records: 3
 - Extension points: skills, cron, memory, delegation, tools, mcp
-- Main categories: agent-harness(44), testing-review-ci(29), skills-prompts(26), rules-instructions(10), context-engineering(8), mcp-acp-a2a(4)
+- Main categories: agent-harness(47), testing-review-ci(32), skills-prompts(29), rules-instructions(13), context-engineering(8), mcp-acp-a2a(7)
 - Recommended records:
   - [cosmicstack-labs/mercury-agent-skills](https://github.com/cosmicstack-labs/mercury-agent-skills) — watch — score 16
   - [DavidBB-L/cinema-manager](https://github.com/DavidBB-L/cinema-manager) — watch — score 16
