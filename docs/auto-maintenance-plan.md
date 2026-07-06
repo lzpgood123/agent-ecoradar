@@ -8,11 +8,11 @@
 
 - 每天收集 GitHub + Exa 信息；
 - 每天分析、归一化、评分；
-- 自动维护 curated / rejected；
+- 自动维护 auto-curated / auto-rejected；
 - 自动生成报告与站点；
 - 自动部署到 `https://coding.lzpgood.online/`；
 - 自动把 raw 数据、归一化数据、报告、站点数据和版本记录提交到 GitHub 总仓库；
-- 导入和站点构建时保留 `i18n.zh/en` 展示结构，正式站点支持中英切换；
+- 导入阶段即持久化 `i18n.zh/en` 展示结构，站点构建阶段防御性补齐，正式站点支持中英切换；
 - 每周发布一次正式更新；
 - 用户也可以随时要求立即更新。
 
@@ -23,7 +23,7 @@
 每天运行：
 
 ```bash
-python3 scripts/update_tracker.py --github-limit 20 --exa-limit 3
+python3 scripts/update_tracker.py --github-limit 20 --exa-limit 3 --deploy
 ```
 
 流程：
@@ -45,7 +45,7 @@ python3 scripts/update_tracker.py --github-limit 20 --exa-limit 3
 每周一运行一次更偏发布的更新：
 
 ```bash
-python3 scripts/update_tracker.py --github-limit 50 --exa-limit 5
+python3 scripts/update_tracker.py --github-limit 50 --exa-limit 5 --deploy
 ```
 
 并生成周报，提交到 GitHub。
@@ -63,7 +63,7 @@ Hermes 执行：
 ```bash
 cd "/root/workspace/search in coding"
 git pull --ff-only origin main
-python3 scripts/update_tracker.py --github-limit 50 --exa-limit 5
+python3 scripts/update_tracker.py --github-limit 50 --exa-limit 5 --deploy
 git status --short
 # 如有变化则提交推送
 ```

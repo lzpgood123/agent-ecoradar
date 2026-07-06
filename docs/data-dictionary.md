@@ -12,8 +12,10 @@
 - `ranking_scope`: `official`, `ecosystem`, `learning-resource`, `excluded`.
 - `category`: taxonomy labels.
 - `target_tools`: target tool ids.
-- `review_state`: `reviewed`, `unreviewed`, `rejected`.
-- `recommendation_level`: curated recommendation such as `try-now`, `watch`, `reference`.
+- `review_state`: auto-maintenance state: `auto-indexed`, `auto-curated`, or `auto-rejected`.
+- `recommendation_level`: auto-curated recommendation such as `try-now`, `watch`, `reference`, or `experimental`.
+- `i18n`: bilingual display fields: `i18n.zh.name`, `i18n.zh.summary`, `i18n.en.name`, `i18n.en.summary`.
+- `score_reason`: explainable scoring components loaded from `config/scoring.yaml`.
 
 ## Source quality
 

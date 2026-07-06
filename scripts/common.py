@@ -61,7 +61,7 @@ def infer_ranking_scope(p):
     kind=p.get('record_kind') or infer_record_kind(p)
     if kind=='official-tool': return 'official'
     if kind in ('tutorial','article','fallback-result'): return 'learning-resource'
-    if p.get('review_state')=='rejected': return 'excluded'
+    if p.get('review_state') in ('rejected', 'auto-rejected'): return 'excluded'
     return 'ecosystem'
 
 def normalize_project_fields(p):
@@ -70,7 +70,7 @@ def normalize_project_fields(p):
     p.setdefault('concepts', [])
     p.setdefault('summary', p.get('name',''))
     p.setdefault('why_it_matters', '')
-    p.setdefault('review_state', 'unreviewed')
+    p.setdefault('review_state', 'auto-indexed')
     p['record_kind']=p.get('record_kind') or infer_record_kind(p)
     p['source_quality']=p.get('source_quality') or infer_source_quality(p)
     p['ranking_scope']=p.get('ranking_scope') or infer_ranking_scope(p)
@@ -78,8 +78,14 @@ def normalize_project_fields(p):
         tags=p.setdefault('tags', [])
         if 'fallback-not-exa' not in tags: tags.append('fallback-not-exa')
         p['source_quality']='fallback'
+    if p.get('review_state') == 'unreviewed':
+        p['review_state'] = 'auto-indexed'
+    if p.get('review_state') == 'reviewed':
+        p['review_state'] = 'auto-curated'
+    if p.get('review_state') == 'rejected':
+        p['review_state'] = 'auto-rejected'
     if p['record_kind']=='official-tool':
         p['ranking_scope']='official'
         p['source_quality']='verified'
-        p['review_state']='reviewed'
+        p['review_state']='auto-curated'
     return p

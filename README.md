@@ -98,9 +98,9 @@ Search in Coding 不是普通 awesome list，而是一个**持续自动更新的
 |---|---|
 | `data/raw/` | GitHub / Exa / fallback web 原始采集快照，保留来源证据 |
 | `data/projects.yaml` | 全量归一化索引库，GitHub 总仓库的核心数据 |
-| `data/curated-projects.yaml` | 自动评分推荐集，不再依赖人工审核 |
-| `data/rejected-projects.yaml` | 自动低质、噪声、弱相关或低可信记录 |
-| `data/scores.yaml` | 每条记录的评分结果 |
+| `data/curated-projects.yaml` | `auto-curated` 自动评分推荐集，不再依赖人工审核 |
+| `data/rejected-projects.yaml` | `auto-rejected` 自动低质、噪声、弱相关或低可信记录 |
+| `data/scores.yaml` | 每条记录的评分结果与 `score_reason` |
 | `data/seed-tools.yaml` | 目标 AI Coding 工具清单 |
 | `data/queries.yaml` | GitHub / Exa 搜索 query 配置 |
 | `docs/tool-index.md` | 按 AI 工具组织的分类索引 |
@@ -142,7 +142,7 @@ flowchart TD
 
 ### GitHub Actions
 
-- `Update Data`：在 GitHub 环境中收集/分析/提交数据，使用 `--skip-deploy`，不写服务器。
+- `Update Data`：在 GitHub 环境中收集/分析/提交数据；默认不部署服务器。
 - `Publish Site`：发布 GitHub Pages 预览。
 
 ---
@@ -171,7 +171,7 @@ flowchart TD
 ```bash
 cd "/root/workspace/search in coding"
 git pull --ff-only origin main
-python3 scripts/update_tracker.py --github-limit 50 --exa-limit 5
+python3 scripts/update_tracker.py --github-limit 50 --exa-limit 5 --deploy
 git status --short
 ```
 

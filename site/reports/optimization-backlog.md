@@ -57,7 +57,7 @@ curated: 60
 rejected: 25
 duplicate_urls: 5
 missing_summary: 0
-missing_i18n in data/projects.yaml: 618
+missing_i18n in data/projects.yaml: 0 after implementation
 missing_i18n in site/data/projects.json: 0
 ```
 
@@ -96,8 +96,8 @@ official-tool: 10
 ### review_state 分布
 
 ```text
-auto-reviewed: 70
-unreviewed: 523
+auto-curated: 70
+auto-indexed: 523
 auto-rejected: 25
 ```
 
@@ -149,7 +149,7 @@ missing_i18n in data/projects.yaml = 0
 ### P0-2：GitHub Actions 与服务器部署职责进一步隔离
 
 **问题**  
-目前已给 GitHub Actions 加了 `--skip-deploy`，这是正确的。但 `update_tracker.py` 默认部署，GitHub workflow 依赖调用者记得加参数。
+已改为 `update_tracker.py` 默认不部署，服务器 cron 显式传 `--deploy`。
 
 **影响**
 
@@ -222,14 +222,7 @@ excluded
 **问题**  
 `agent-harness` 和 `testing-review-ci` 记录过多，说明 keyword matching 太粗。
 
-当前 `normalize.py` 里类似：
-
-```python
-('agent', 'agent-harness')
-('review', 'testing-review-ci')
-```
-
-这会把大量只出现 agent/review 字样的记录误分类。
+已将分类规则收紧为短语匹配，避免只凭单个 `agent` / `review` 归类。
 
 **建议**
 
@@ -551,3 +544,35 @@ ecosystem-tracker-template
 5. 将评分权重外置到 config/scoring.yaml。
 完成后运行完整验证、部署正式站点、提交并推送。
 ```
+---
+
+## 9. 第一批优化执行结果 — 2026-07-06
+
+本轮 Goal 执行已完成第一批优化：
+
+- `data/projects.yaml`、`data/curated-projects.yaml`、`data/rejected-projects.yaml` 已持久化 `i18n.zh/en`。
+- `scripts/update_tracker.py` 已改为默认不部署，只有显式 `--deploy` 才同步到 `/var/www/coding.lzpgood.online`。
+- Hermes daily / weekly cron 已更新为显式 `--deploy`。
+- `review_state` 已改为自动维护语义：`auto-indexed` / `auto-curated` / `auto-rejected`。
+- `scripts/normalize.py` 已收紧分类规则，避免仅凭 `agent` / `review` 过度归类。
+- 新增 `config/scoring.yaml`，`scripts/score.py` 与 `scripts/finalize_data.py` 已读取配置。
+- `scripts/quality_gate.py` 已增加 i18n、review_state、scoring config 等检查。
+
+执行后关键指标：
+
+```text
+missing_i18n in data/projects.yaml: 0
+review_state: auto-curated=70, auto-indexed=523, auto-rejected=25
+agent-harness: 62
+testing-review-ci: 56
+quality_gate: PASS
+production deploy: PASS
+```
+
+剩余下一批建议：
+
+1. 增加 weekly diff / change detection。
+2. 增加站点详情展开面板。
+3. 对 Top curated 做真实中英摘要增强。
+4. 增加 pytest 测试集。
+5. 设计 raw 数据归档策略。

@@ -4,63 +4,63 @@ Official tools are excluded.
 
 | # | Name | Source | Level | Score | Categories | URL |
 |---:|---|---|---|---:|---|---|
-| 1 | JuliusBrussee/caveman | github | try-now | 19 | skills-prompts | https://github.com/JuliusBrussee/caveman |
-| 2 | blader/humanizer | github | try-now | 18 | skills-prompts | https://github.com/blader/humanizer |
-| 3 | alirezarezvani/claude-skills | github | try-now | 18 | skills-prompts, testing-review-ci, agent-harness | https://github.com/alirezarezvani/claude-skills |
-| 4 | op7418/Humanizer-zh | github | try-now | 18 | skills-prompts | https://github.com/op7418/Humanizer-zh |
-| 5 | virgiliojr94/book-to-skill | github | try-now | 17 | skills-prompts | https://github.com/virgiliojr94/book-to-skill |
-| 6 | SimoneAvogadro/android-reverse-engineering-skill | github | try-now | 17 | skills-prompts | https://github.com/SimoneAvogadro/android-reverse-engineering-skill |
-| 7 | trailofbits/skills | github | try-now | 17 | skills-prompts | https://github.com/trailofbits/skills |
-| 8 | zarazhangrui/codebase-to-course | github | try-now | 17 | skills-prompts | https://github.com/zarazhangrui/codebase-to-course |
-| 9 | OpenCoworkAI/open-cowork | github | try-now | 17 | mcp-acp-a2a, skills-prompts, agent-harness | https://github.com/OpenCoworkAI/open-cowork |
-| 10 | steipete/claude-code-mcp | github | try-now | 17 | mcp-acp-a2a, agent-harness | https://github.com/steipete/claude-code-mcp |
-| 11 | sanjeed5/awesome-cursor-rules-mdc | github | try-now | 17 | rules-instructions | https://github.com/sanjeed5/awesome-cursor-rules-mdc |
-| 12 | flyeric0212/cursor-rules | github | try-now | 17 | rules-instructions | https://github.com/flyeric0212/cursor-rules |
-| 13 | sceneview/sceneview | github | try-now | 17 | mcp-acp-a2a, rules-instructions | https://github.com/sceneview/sceneview |
-| 14 | instructa/ai-prompts | github | try-now | 17 | rules-instructions, testing-review-ci | https://github.com/instructa/ai-prompts |
-| 15 | glitternetwork/pinme | github | try-now | 17 | skills-prompts | https://github.com/glitternetwork/pinme |
-| 16 | taishi-i/awesome-ChatGPT-repositories | github | try-now | 17 | skills-prompts | https://github.com/taishi-i/awesome-ChatGPT-repositories |
-| 17 | nowork-studio/NotFair | github | try-now | 17 | skills-prompts | https://github.com/nowork-studio/NotFair |
-| 18 | elementalsouls/Claude-BugHunter | github | try-now | 17 | skills-prompts, testing-review-ci | https://github.com/elementalsouls/Claude-BugHunter |
-| 19 | lackeyjb/playwright-skill | github | try-now | 17 | skills-prompts | https://github.com/lackeyjb/playwright-skill |
-| 20 | dominikmartn/nothing-design-skill | github | try-now | 17 | skills-prompts | https://github.com/dominikmartn/nothing-design-skill |
-| 21 | Agentchengfeng/chengfeng-videocut-skills | github | try-now | 17 | skills-prompts, agent-harness | https://github.com/Agentchengfeng/chengfeng-videocut-skills |
-| 22 | tradermonty/claude-trading-skills | github | try-now | 17 | skills-prompts | https://github.com/tradermonty/claude-trading-skills |
-| 23 | yctimlin/mcp_excalidraw | github | try-now | 17 | mcp-acp-a2a, skills-prompts, testing-review-ci, agent-harness | https://github.com/yctimlin/mcp_excalidraw |
-| 24 | P4nda0s/reverse-skills | github | try-now | 17 | skills-prompts | https://github.com/P4nda0s/reverse-skills |
-| 25 | skills-directory/skill-codex | github | try-now | 17 | skills-prompts, testing-review-ci | https://github.com/skills-directory/skill-codex |
-| 26 | onvoyage-ai/gtm-engineer-skills | github | try-now | 17 | skills-prompts, testing-review-ci, benchmark-evaluation | https://github.com/onvoyage-ai/gtm-engineer-skills |
-| 27 | iansinnott/obsidian-claude-code-mcp | github | watch | 16 | mcp-acp-a2a, context-engineering, testing-review-ci | https://github.com/iansinnott/obsidian-claude-code-mcp |
-| 28 | undeadpickle/claude-code-mcpinstall | github | watch | 16 | mcp-acp-a2a | https://github.com/undeadpickle/claude-code-mcpinstall |
-| 29 | auchenberg/claude-code-mcp | github | watch | 16 | mcp-acp-a2a | https://github.com/auchenberg/claude-code-mcp |
-| 30 | mverab/eGEOagents | github | watch | 16 | mcp-acp-a2a, agent-harness | https://github.com/mverab/eGEOagents |
-| 31 | grahama1970/claude-code-mcp-enhanced | github | watch | 16 | mcp-acp-a2a, testing-review-ci | https://github.com/grahama1970/claude-code-mcp-enhanced |
-| 32 | willccbb/claude-code-mcp | github | watch | 16 | mcp-acp-a2a | https://github.com/willccbb/claude-code-mcp |
-| 33 | Sven-LI-sankyuu/presentation-skills | github | watch | 16 | skills-prompts, testing-review-ci | https://github.com/Sven-LI-sankyuu/presentation-skills |
-| 34 | jMerta/codex-skills | github | watch | 16 | skills-prompts | https://github.com/jMerta/codex-skills |
-| 35 | gemini-cli-extensions/conductor | github | watch | 16 | benchmark-evaluation | https://github.com/gemini-cli-extensions/conductor |
-| 36 | jduncan-rva/skill-porter | github | watch | 16 | skills-prompts | https://github.com/jduncan-rva/skill-porter |
-| 37 | NeekChaw/RIPER-5 | github | watch | 16 | tutorial-case-study | https://github.com/NeekChaw/RIPER-5 |
-| 38 | RayFernando1337/llm-cursor-rules | github | watch | 16 | rules-instructions | https://github.com/RayFernando1337/llm-cursor-rules |
-| 39 | thehimel/cursor-rules-and-prompts | github | watch | 16 | rules-instructions, testing-review-ci | https://github.com/thehimel/cursor-rules-and-prompts |
-| 40 | AnkleBreaker-Studio/unity-mcp-plugin | github | watch | 16 | mcp-acp-a2a, testing-review-ci | https://github.com/AnkleBreaker-Studio/unity-mcp-plugin |
-| 41 | cosmicstack-labs/mercury-agent-skills | github | watch | 16 | skills-prompts, agent-harness | https://github.com/cosmicstack-labs/mercury-agent-skills |
-| 42 | DavidBB-L/cinema-manager | github | watch | 16 | skills-prompts, agent-harness | https://github.com/DavidBB-L/cinema-manager |
-| 43 | ricky-theseus/DaisyWriter | github | watch | 15 | skills-prompts | https://github.com/ricky-theseus/DaisyWriter |
-| 44 | waynesutton/promptstack | github | watch | 15 | rules-instructions, testing-review-ci | https://github.com/waynesutton/promptstack |
-| 45 | yinqd3/workbuddy-skills | github | watch | 15 | skills-prompts, agent-harness | https://github.com/yinqd3/workbuddy-skills |
-| 46 | Qoder / QoderWork GitHub projects open source extensions | exa | reference | 13 | skills-prompts, testing-review-ci, agent-harness | https://qoder.com |
-| 47 | Hermes Agent tutorial workflow agentic coding case study | exa | reference | 13 | skills-prompts, testing-review-ci, agent-harness | https://hermes-agent.nousresearch.com/docs/ |
-| 48 | Qoder / QoderWork GitHub projects open source extensions | exa | reference | 13 | skills-prompts, testing-review-ci, agent-harness | https://github.com/QoderAI/qoder-action |
-| 49 | Qoder / QoderWork GitHub projects open source extensions | exa | reference | 13 | skills-prompts, testing-review-ci, agent-harness | https://github.com/tianhao909/qoderwork-e-signature |
-| 50 | Qoder / QoderWork GitHub projects open source extensions | exa | reference | 13 | skills-prompts, testing-review-ci, agent-harness | https://www.npmjs.com/package/docx |
-| 51 | Qoder / QoderWork GitHub projects open source extensions | exa | reference | 13 | skills-prompts, testing-review-ci, agent-harness | https://www.npmjs.com/package/word-extractor |
-| 52 | Qoder / QoderWork GitHub projects open source extensions | exa | reference | 13 | skills-prompts, testing-review-ci, agent-harness | https://www.npmjs.com/package/canvas |
-| 53 | Qoder / QoderWork GitHub projects open source extensions | exa | reference | 13 | skills-prompts, testing-review-ci, agent-harness | https://github.com/qoderAI |
-| 54 | Qoder / QoderWork GitHub projects open source extensions | exa | reference | 13 | skills-prompts, testing-review-ci, agent-harness | https://github.com/VirgoShuyu/task-time-estimator |
-| 55 | Goose tutorial workflow agentic coding case study | exa | reference | 13 | context-engineering, testing-review-ci, agent-harness | https://github.com/block/goose/blob/58f3cc9e/documentation/docs/tutorials/rpi.md |
-| 56 | Goose tutorial workflow agentic coding case study | exa | reference | 13 | context-engineering, testing-review-ci, agent-harness | https://raw.githubusercontent.com/block/goose/refs/heads/main/documentation/src/pages/recipes/data/recipes/rpi-iterate.yaml |
-| 57 | Goose tutorial workflow agentic coding case study | exa | reference | 13 | context-engineering, testing-review-ci, agent-harness | https://www.kdnuggets.com/free-agentic-coding-with-goose |
-| 58 | Goose tutorial workflow agentic coding case study | exa | reference | 13 | context-engineering, testing-review-ci, agent-harness | https://terminalskills.io/use-cases/build-extensible-ai-agent-with-goose |
-| 59 | Hermes Agent tutorial workflow agentic coding case study | exa | reference | 13 | skills-prompts, testing-review-ci, agent-harness | https://www.agentupdate.ai/tutorial/hermes-agent-tutorial/lesson-14/ |
-| 60 | Hermes Agent tutorial workflow agentic coding case study | exa | reference | 13 | skills-prompts, testing-review-ci, agent-harness | http://localhost:8000/todos/` |
+| 1 | alirezarezvani/claude-skills | github | try-now | 18 | skills-prompts, ai-ide | https://github.com/alirezarezvani/claude-skills |
+| 2 | op7418/Humanizer-zh | github | try-now | 18 | skills-prompts | https://github.com/op7418/Humanizer-zh |
+| 3 | JuliusBrussee/caveman | github | watch | 18 | tutorial-case-study | https://github.com/JuliusBrussee/caveman |
+| 4 | trailofbits/skills | github | try-now | 17 | skills-prompts | https://github.com/trailofbits/skills |
+| 5 | OpenCoworkAI/open-cowork | github | try-now | 17 | mcp-acp-a2a, skills-prompts | https://github.com/OpenCoworkAI/open-cowork |
+| 6 | steipete/claude-code-mcp | github | try-now | 17 | mcp-acp-a2a | https://github.com/steipete/claude-code-mcp |
+| 7 | sanjeed5/awesome-cursor-rules-mdc | github | try-now | 17 | rules-instructions, ai-ide | https://github.com/sanjeed5/awesome-cursor-rules-mdc |
+| 8 | flyeric0212/cursor-rules | github | try-now | 17 | rules-instructions, ai-ide | https://github.com/flyeric0212/cursor-rules |
+| 9 | sceneview/sceneview | github | try-now | 17 | mcp-acp-a2a, rules-instructions, ai-ide | https://github.com/sceneview/sceneview |
+| 10 | instructa/ai-prompts | github | try-now | 17 | skills-prompts, rules-instructions, ai-ide | https://github.com/instructa/ai-prompts |
+| 11 | glitternetwork/pinme | github | try-now | 17 | skills-prompts | https://github.com/glitternetwork/pinme |
+| 12 | taishi-i/awesome-ChatGPT-repositories | github | try-now | 17 | skills-prompts | https://github.com/taishi-i/awesome-ChatGPT-repositories |
+| 13 | nowork-studio/NotFair | github | try-now | 17 | skills-prompts | https://github.com/nowork-studio/NotFair |
+| 14 | elementalsouls/Claude-BugHunter | github | try-now | 17 | skills-prompts | https://github.com/elementalsouls/Claude-BugHunter |
+| 15 | Agentchengfeng/chengfeng-videocut-skills | github | try-now | 17 | skills-prompts | https://github.com/Agentchengfeng/chengfeng-videocut-skills |
+| 16 | tradermonty/claude-trading-skills | github | try-now | 17 | skills-prompts | https://github.com/tradermonty/claude-trading-skills |
+| 17 | yctimlin/mcp_excalidraw | github | try-now | 17 | mcp-acp-a2a | https://github.com/yctimlin/mcp_excalidraw |
+| 18 | P4nda0s/reverse-skills | github | try-now | 17 | skills-prompts | https://github.com/P4nda0s/reverse-skills |
+| 19 | skills-directory/skill-codex | github | try-now | 17 | skills-prompts | https://github.com/skills-directory/skill-codex |
+| 20 | onvoyage-ai/gtm-engineer-skills | github | try-now | 17 | skills-prompts | https://github.com/onvoyage-ai/gtm-engineer-skills |
+| 21 | iansinnott/obsidian-claude-code-mcp | github | try-now | 16 | mcp-acp-a2a | https://github.com/iansinnott/obsidian-claude-code-mcp |
+| 22 | undeadpickle/claude-code-mcpinstall | github | try-now | 16 | mcp-acp-a2a | https://github.com/undeadpickle/claude-code-mcpinstall |
+| 23 | auchenberg/claude-code-mcp | github | try-now | 16 | mcp-acp-a2a | https://github.com/auchenberg/claude-code-mcp |
+| 24 | mverab/eGEOagents | github | try-now | 16 | mcp-acp-a2a | https://github.com/mverab/eGEOagents |
+| 25 | grahama1970/claude-code-mcp-enhanced | github | try-now | 16 | mcp-acp-a2a | https://github.com/grahama1970/claude-code-mcp-enhanced |
+| 26 | willccbb/claude-code-mcp | github | try-now | 16 | mcp-acp-a2a | https://github.com/willccbb/claude-code-mcp |
+| 27 | Sven-LI-sankyuu/presentation-skills | github | try-now | 16 | skills-prompts | https://github.com/Sven-LI-sankyuu/presentation-skills |
+| 28 | jMerta/codex-skills | github | try-now | 16 | skills-prompts | https://github.com/jMerta/codex-skills |
+| 29 | harish-garg/gemini-cli-prompt-library | github | try-now | 16 | skills-prompts | https://github.com/harish-garg/gemini-cli-prompt-library |
+| 30 | jduncan-rva/skill-porter | github | try-now | 16 | skills-prompts | https://github.com/jduncan-rva/skill-porter |
+| 31 | RayFernando1337/llm-cursor-rules | github | try-now | 16 | rules-instructions, ai-ide | https://github.com/RayFernando1337/llm-cursor-rules |
+| 32 | thehimel/cursor-rules-and-prompts | github | try-now | 16 | skills-prompts, rules-instructions, ai-ide | https://github.com/thehimel/cursor-rules-and-prompts |
+| 33 | AnkleBreaker-Studio/unity-mcp-plugin | github | try-now | 16 | mcp-acp-a2a, ai-ide | https://github.com/AnkleBreaker-Studio/unity-mcp-plugin |
+| 34 | cosmicstack-labs/mercury-agent-skills | github | try-now | 16 | skills-prompts | https://github.com/cosmicstack-labs/mercury-agent-skills |
+| 35 | DavidBB-L/cinema-manager | github | try-now | 16 | skills-prompts | https://github.com/DavidBB-L/cinema-manager |
+| 36 | Forlives/21-day-self-interview | github | try-now | 16 | skills-prompts | https://github.com/Forlives/21-day-self-interview |
+| 37 | Mindrally/skills | github | try-now | 16 | skills-prompts, rules-instructions, ai-ide | https://github.com/Mindrally/skills |
+| 38 | alchaincyf/cursor-rules-huasheng | github | try-now | 16 | rules-instructions, ai-ide | https://github.com/alchaincyf/cursor-rules-huasheng |
+| 39 | Aaronontheweb/dotnet-cursor-rules | github | try-now | 16 | rules-instructions, ai-ide | https://github.com/Aaronontheweb/dotnet-cursor-rules |
+| 40 | madebyaris/advance-minimax-m3-cursor-rules | github | try-now | 16 | rules-instructions, ai-ide | https://github.com/madebyaris/advance-minimax-m3-cursor-rules |
+| 41 | brookslybrand/react-router-cursor-rules | github | try-now | 16 | rules-instructions, ai-ide | https://github.com/brookslybrand/react-router-cursor-rules |
+| 42 | BlueBirdBack/godot-cursorrules | github | try-now | 16 | rules-instructions, ai-ide | https://github.com/BlueBirdBack/godot-cursorrules |
+| 43 | hxrshxz/fluid-cloudnative-custom-agent-workflows | github | try-now | 15 | skills-prompts | https://github.com/hxrshxz/fluid-cloudnative-custom-agent-workflows |
+| 44 | waynesutton/promptstack | github | try-now | 15 | skills-prompts, rules-instructions, ai-ide | https://github.com/waynesutton/promptstack |
+| 45 | yinqd3/workbuddy-skills | github | try-now | 15 | skills-prompts, ai-ide | https://github.com/yinqd3/workbuddy-skills |
+| 46 | Hermes Agent tutorial workflow agentic coding case study | exa | reference | 13 | skills-prompts | https://hermes-agent.nousresearch.com/docs/ |
+| 47 | Qoder / QoderWork GitHub projects open source extensions | exa | reference | 13 | skills-prompts, testing-review-ci, agent-harness | https://github.com/VirgoShuyu/task-time-estimator |
+| 48 | Goose tutorial workflow agentic coding case study | exa | reference | 13 | context-engineering | https://github.com/block/goose/blob/58f3cc9e/documentation/docs/tutorials/rpi.md |
+| 49 | Goose tutorial workflow agentic coding case study | exa | reference | 13 | context-engineering | https://raw.githubusercontent.com/block/goose/refs/heads/main/documentation/src/pages/recipes/data/recipes/rpi-implement.yaml |
+| 50 | Goose tutorial workflow agentic coding case study | exa | reference | 13 | context-engineering | https://www.kdnuggets.com/free-agentic-coding-with-goose |
+| 51 | Goose tutorial workflow agentic coding case study | exa | reference | 13 | context-engineering | https://terminalskills.io/use-cases/build-extensible-ai-agent-with-goose |
+| 52 | Hermes Agent tutorial workflow agentic coding case study | exa | reference | 13 | skills-prompts | https://www.agentupdate.ai/tutorial/hermes-agent-tutorial/lesson-14/ |
+| 53 | Hermes Agent tutorial workflow agentic coding case study | exa | reference | 13 | skills-prompts | http://localhost:8000/todos/` |
+| 54 | Hermes Agent tutorial workflow agentic coding case study | exa | reference | 13 | skills-prompts | https://markaicode.com/hermes-agent-workflows-python/ |
+| 55 | Qoder / QoderWork context engineering codebase indexing rules prompts | exa | reference | 13 | skills-prompts, rules-instructions, context-engineering, ai-ide | https://docs.qoder.com/user-guide/rules |
+| 56 | Qoder / QoderWork context engineering codebase indexing rules prompts | exa | reference | 13 | skills-prompts, rules-instructions, context-engineering, ai-ide | https://docs.qoder.com/user-guide/indexing |
+| 57 | Antigravity CLI / Gemini CLI GitHub projects open source extensions | exa | reference | 13 | context-engineering, testing-review-ci, agent-harness, terminal-agent | https://github.com/Joonghyun-Lee-Frieren/oh-my-gemini-cli |
+| 58 | OpenAI Codex CLI tutorial workflow agentic coding case study | exa | reference | 13 | mcp-acp-a2a | https://developers.openai.com/cookbook/examples/codex/codex_mcp_agents_sdk/building_consistent_workflows_codex_cli_agents_sdk |
+| 59 | OpenAI Codex CLI tutorial workflow agentic coding case study | exa | reference | 13 | mcp-acp-a2a | https://www.datacamp.com/tutorial/open-ai-codex-cli-tutorial |
+| 60 | OpenAI Codex CLI tutorial workflow agentic coding case study | exa | reference | 13 | mcp-acp-a2a, benchmark-evaluation, agent-harness | https://raw.githubusercontent.com/openai/openai-cookbook/main/examples/codex/code_modernization.md |

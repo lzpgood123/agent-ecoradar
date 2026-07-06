@@ -54,10 +54,10 @@ GitHub Actions 是仓库侧自动化，负责：
 3. 发布 GitHub Pages 预览；
 4. 不部署到服务器 `/var/www`。
 
-因此 GitHub Actions 调用 `scripts/update_tracker.py` 时必须使用：
+因此 GitHub Actions 调用 `scripts/update_tracker.py` 时不需要部署参数；部署默认关闭。服务器 Hermes cron 显式使用：
 
 ```bash
---skip-deploy
+--deploy
 ```
 
 ## 手动立即更新
@@ -67,7 +67,7 @@ GitHub Actions 是仓库侧自动化，负责：
 ```bash
 cd "/root/workspace/search in coding"
 git pull --ff-only origin main
-python3 scripts/update_tracker.py --github-limit 50 --exa-limit 5
+python3 scripts/update_tracker.py --github-limit 50 --exa-limit 5 --deploy
 git status --short
 ```
 
