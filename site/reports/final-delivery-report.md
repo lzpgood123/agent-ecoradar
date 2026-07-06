@@ -6,26 +6,26 @@ Search in Coding final-delivery package is built with quality gates, curated dat
 
 ## Metrics
 
-- Normalized records: 578
+- Normalized records: 583
 - Curated records: 60
 - Rejected/noisy records: 25
 - GitHub records: 259
-- Fallback web records: 147
+- Fallback web records: 146
 - Official seed records: 10
-- Exa records: 162
+- Exa records: 168
 
 ## Source counts
 
-- exa: 162
-- fallback-web: 147
+- exa: 168
+- fallback-web: 146
 - github: 259
 - official-seed: 10
 
 ## Record kinds
 
-- article: 162
+- article: 168
 - ecosystem-project: 259
-- fallback-result: 106
+- fallback-result: 105
 - official-tool: 10
 - tutorial: 41
 
@@ -33,36 +33,36 @@ Search in Coding final-delivery package is built with quality gates, curated dat
 
 - ecosystem: 259
 - excluded: 25
-- learning-resource: 284
+- learning-resource: 289
 - official: 10
 
 ## Tool coverage
 
-- antigravity-cli: 64
-- claude-code: 104
+- antigravity-cli: 65
+- claude-code: 105
 - codex-cli: 60
-- cursor: 72
+- cursor: 69
 - general-ai-coding: 58
-- goose: 39
+- goose: 40
 - hermes-agent: 48
-- opencode: 53
+- opencode: 56
 - qoder: 55
 - trae: 25
 - workbuddy-codebuddy: 53
 
 ## Category coverage
 
-- agent-harness: 328
+- agent-harness: 329
 - ai-ide: 4
-- benchmark-evaluation: 35
-- context-engineering: 105
-- mcp-acp-a2a: 162
+- benchmark-evaluation: 36
+- context-engineering: 110
+- mcp-acp-a2a: 165
 - official-tool: 10
 - persistent-agent: 1
-- rules-instructions: 130
+- rules-instructions: 129
 - skills-prompts: 184
-- terminal-agent: 28
-- testing-review-ci: 316
+- terminal-agent: 35
+- testing-review-ci: 320
 - tutorial-case-study: 25
 
 ## Top ecosystem projects (official tools excluded)

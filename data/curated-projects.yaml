@@ -2144,20 +2144,20 @@
   },
   {
     "id": "exa-https-github-com-block-goose-blob-58f3cc9e-documentation-docs-tutorials-rpi-md",
-    "name": "Goose context engineering codebase indexing rules prompts",
+    "name": "Goose tutorial workflow agentic coding case study",
     "url": "https://github.com/block/goose/blob/58f3cc9e/documentation/docs/tutorials/rpi.md",
     "repo": null,
     "source_type": "exa",
     "category": [
-      "rules-instructions",
       "context-engineering",
-      "testing-review-ci"
+      "testing-review-ci",
+      "agent-harness"
     ],
     "target_tools": [
       "goose"
     ],
     "concepts": [],
-    "summary": "Exa result for: Goose context engineering codebase indexing rules prompts",
+    "summary": "Exa result for: Goose tutorial workflow agentic coding case study",
     "why_it_matters": "Semantic web discovery result for AI coding ecosystem tracking.",
     "status": "unknown",
     "license": null,
@@ -2178,7 +2178,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: Feature: Tree-sitter Indexer · Pull Request #3389 · block/goose\nURL: https://github.com/block/goose/pull/3389\nPublished: 2025-07-13T05:21:52.000Z\nAuthor: dcieslak19973\nHighlights:\n- **New Feature:** Adds experimental Tree-sitter-based code indexing to Goose CLI, supporting Rust, Python, JavaScript, TypeScript, Go, C++, Java, C#, and Swift.\n- **New Command:** `goose repo` index for indexing repositories and generating a .goose-repo-index.jsonl file with extracted code entities (classes, functions, relationships, docstrings, etc.).\n- **New Module:** `repo.rs` implements the indexer.\n- **New Documentation:** `tree-sitter-indexing.md` details supported languages, extracted entities, and upgrade guidance.\n...\n- **New Subcommand:** Adds Repo subcommand to Goose CLI, with an index action for repository indexing.\n- **Refactoring:** Updates CLI argument parsing to support new subcommands and options.\n...\n- **Entity Extraction:** Richer extraction for Go, Python, and C++ (fields, generics",
+    "notes": "Title: documentation/docs/tutorials/rpi.md at 58f3cc9e · block/goose\nURL: https://github.com/block/goose/blob/58f3cc9e/documentation/docs/tutorials/rpi.md\nPublished: N/A\nAuthor: N/A\nHighlights:\n```md\n---\n...\ntitle: Research → Plan → Implement Pattern\n...\ndescription: How to use RPI, a context engineering technique, on complex software projects\n...\nThis tutorial walks through how RPI works via a real demonstration. By the end, you should be able to run this same workflow on your own codebase.\n...\nIn goose, we use a structured RPI workflow using recipes to systematically tackle complex codebase changes. The workflow consists of slash commands that guide goose through disciplined phases of work:\n...\n1. `research_codebase` – Document what exists today. No opinions.\n2. `create_plan` - Design the change with clear phases and success criteria.\n3. `implement_plan` - Execute the plan step by step with verification.\n4. `iterate_plan` – (optional) Adjust the plan if necessary.\n...\n## Session 2: P",
     "review_state": "reviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -2189,20 +2189,20 @@
   },
   {
     "id": "exa-https-raw-githubusercontent-com-block-goose-refs-heads-main-documentation-src-pages-recipes-data",
-    "name": "Goose context engineering codebase indexing rules prompts",
-    "url": "https://raw.githubusercontent.com/block/goose/refs/heads/main/documentation/src/pages/recipes/data/recipes/rpi-research.yaml",
+    "name": "Goose tutorial workflow agentic coding case study",
+    "url": "https://raw.githubusercontent.com/block/goose/refs/heads/main/documentation/src/pages/recipes/data/recipes/rpi-implement.yaml",
     "repo": null,
     "source_type": "exa",
     "category": [
-      "rules-instructions",
       "context-engineering",
-      "testing-review-ci"
+      "testing-review-ci",
+      "agent-harness"
     ],
     "target_tools": [
       "goose"
     ],
     "concepts": [],
-    "summary": "Exa result for: Goose context engineering codebase indexing rules prompts",
+    "summary": "Exa result for: Goose tutorial workflow agentic coding case study",
     "why_it_matters": "Semantic web discovery result for AI coding ecosystem tracking.",
     "status": "unknown",
     "license": null,
@@ -2223,7 +2223,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: Feature: Tree-sitter Indexer · Pull Request #3389 · block/goose\nURL: https://github.com/block/goose/pull/3389\nPublished: 2025-07-13T05:21:52.000Z\nAuthor: dcieslak19973\nHighlights:\n- **New Feature:** Adds experimental Tree-sitter-based code indexing to Goose CLI, supporting Rust, Python, JavaScript, TypeScript, Go, C++, Java, C#, and Swift.\n- **New Command:** `goose repo` index for indexing repositories and generating a .goose-repo-index.jsonl file with extracted code entities (classes, functions, relationships, docstrings, etc.).\n- **New Module:** `repo.rs` implements the indexer.\n- **New Documentation:** `tree-sitter-indexing.md` details supported languages, extracted entities, and upgrade guidance.\n...\n- **New Subcommand:** Adds Repo subcommand to Goose CLI, with an index action for repository indexing.\n- **Refactoring:** Updates CLI argument parsing to support new subcommands and options.\n...\n- **Entity Extraction:** Richer extraction for Go, Python, and C++ (fields, generics",
+    "notes": "Title: documentation/docs/tutorials/rpi.md at 58f3cc9e · block/goose\nURL: https://github.com/block/goose/blob/58f3cc9e/documentation/docs/tutorials/rpi.md\nPublished: N/A\nAuthor: N/A\nHighlights:\n```md\n---\n...\ntitle: Research → Plan → Implement Pattern\n...\ndescription: How to use RPI, a context engineering technique, on complex software projects\n...\nThis tutorial walks through how RPI works via a real demonstration. By the end, you should be able to run this same workflow on your own codebase.\n...\nIn goose, we use a structured RPI workflow using recipes to systematically tackle complex codebase changes. The workflow consists of slash commands that guide goose through disciplined phases of work:\n...\n1. `research_codebase` – Document what exists today. No opinions.\n2. `create_plan` - Design the change with clear phases and success criteria.\n3. `implement_plan` - Execute the plan step by step with verification.\n4. `iterate_plan` – (optional) Adjust the plan if necessary.\n...\n## Session 2: P",
     "review_state": "reviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -2423,7 +2423,8 @@
     "category": [
       "context-engineering",
       "testing-review-ci",
-      "agent-harness"
+      "agent-harness",
+      "terminal-agent"
     ],
     "target_tools": [
       "antigravity-cli"
@@ -2450,7 +2451,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: ACN1987/oh-my-antigravity\nURL: https://github.com/ACN1987/oh-my-antigravity\nPublished: 2026-05-23T05:50:03.000Z\nAuthor: N/A\nHighlights:\n# Repository: ACN1987/oh-my-antigravity (fork of [Joonghyun-Lee-Frieren/oh-my-antigravity](https://github.com/Joonghyun-Lee-Frieren/oh-my-antigravity))\n...\nContext-engineering-powered multi-agent team workflow pack for Antigravity CLI.\n...\n# oh-my-antigravity (OmA)\n...\n[![Gemini Extension](https://img.shields.io/badge/Gemini-Extension-0d8a83)](https://geminicli.com/extensions/?name=Joonghyun-Lee-Frierenoh-my-antigravity)\n...\n> [!IMPORTANT]\n> **Antigravity CLI:** Gemini CLI will be replaced by Antigravity CLI on June 18th.\n> \n> If you previously installed `oh-my-gemini-cli` in Gemini CLI, Antigravity CLI will ask whether to import plugins during installation. Check that option to bring your plugin over.\n> \n> You can also install OmA directly with:\n> \n> ```bash\n> agy plugin install https://github.com/Joonghyun-Lee-Frieren/oh-my-antigravity\n> ```\n.",
+    "notes": "Title: Antigravity CLI\nURL: https://github.com/google-antigravity/antigravity-cli\nPublished: 2026-05-13T17:38:00.000Z\nAuthor: N/A\nHighlights:\nAntigravity CLI brings the reasoning, execution, and orchestration capabilities of Antigravity agent harness directly into your terminal.\n\n---\n\nTitle: Joonghyun-Lee-Frieren/oh-my-antigravity\nURL: https://github.com/Joonghyun-Lee-Frieren/oh-my-gemini-cli\nPublished: N/A\nAuthor: N/A\nHighlights:\nContext-engineering-powered multi-agent team workflow pack for Antigravity CLI.\n...\n- agent-skills\n- agentic-ai\n- agentic-workflow\n- antigravity\n- antigravity-cli\n- antigravity-ide\n- antigravity-plugin\n- gemini\n- gemini-cli\n- gemini-cli-extensions\n- geminicli\n- multi-agent\n- oh-my-antigravity\n- oh-my-gemini-cli\n- plugins\n- skills\n...\n# oh-my-antigravity (OmA)\n...\n[![Gemini Extension](https://img.shields.io/badge/Gemini-Extension-0d8a83)](https://geminicli.com/extensions/?name=Joonghyun-Lee-Frierenoh-my-antigravity)\n...\n> [!IMPORTANT]\n> **Antigravity CLI:** Ge",
     "review_state": "reviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -2468,7 +2469,8 @@
     "category": [
       "context-engineering",
       "testing-review-ci",
-      "agent-harness"
+      "agent-harness",
+      "terminal-agent"
     ],
     "target_tools": [
       "antigravity-cli"
@@ -2495,7 +2497,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: ACN1987/oh-my-antigravity\nURL: https://github.com/ACN1987/oh-my-antigravity\nPublished: 2026-05-23T05:50:03.000Z\nAuthor: N/A\nHighlights:\n# Repository: ACN1987/oh-my-antigravity (fork of [Joonghyun-Lee-Frieren/oh-my-antigravity](https://github.com/Joonghyun-Lee-Frieren/oh-my-antigravity))\n...\nContext-engineering-powered multi-agent team workflow pack for Antigravity CLI.\n...\n# oh-my-antigravity (OmA)\n...\n[![Gemini Extension](https://img.shields.io/badge/Gemini-Extension-0d8a83)](https://geminicli.com/extensions/?name=Joonghyun-Lee-Frierenoh-my-antigravity)\n...\n> [!IMPORTANT]\n> **Antigravity CLI:** Gemini CLI will be replaced by Antigravity CLI on June 18th.\n> \n> If you previously installed `oh-my-gemini-cli` in Gemini CLI, Antigravity CLI will ask whether to import plugins during installation. Check that option to bring your plugin over.\n> \n> You can also install OmA directly with:\n> \n> ```bash\n> agy plugin install https://github.com/Joonghyun-Lee-Frieren/oh-my-antigravity\n> ```\n.",
+    "notes": "Title: Antigravity CLI\nURL: https://github.com/google-antigravity/antigravity-cli\nPublished: 2026-05-13T17:38:00.000Z\nAuthor: N/A\nHighlights:\nAntigravity CLI brings the reasoning, execution, and orchestration capabilities of Antigravity agent harness directly into your terminal.\n\n---\n\nTitle: Joonghyun-Lee-Frieren/oh-my-antigravity\nURL: https://github.com/Joonghyun-Lee-Frieren/oh-my-gemini-cli\nPublished: N/A\nAuthor: N/A\nHighlights:\nContext-engineering-powered multi-agent team workflow pack for Antigravity CLI.\n...\n- agent-skills\n- agentic-ai\n- agentic-workflow\n- antigravity\n- antigravity-cli\n- antigravity-ide\n- antigravity-plugin\n- gemini\n- gemini-cli\n- gemini-cli-extensions\n- geminicli\n- multi-agent\n- oh-my-antigravity\n- oh-my-gemini-cli\n- plugins\n- skills\n...\n# oh-my-antigravity (OmA)\n...\n[![Gemini Extension](https://img.shields.io/badge/Gemini-Extension-0d8a83)](https://geminicli.com/extensions/?name=Joonghyun-Lee-Frierenoh-my-antigravity)\n...\n> [!IMPORTANT]\n> **Antigravity CLI:** Ge",
     "review_state": "reviewed",
     "record_kind": "article",
     "source_quality": "verified",

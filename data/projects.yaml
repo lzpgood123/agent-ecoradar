@@ -6500,51 +6500,61 @@
     "total_score": 10
   },
   {
-    "id": "web-https-antigravity-google",
-    "name": "Google Antigravity",
+    "id": "official-antigravity-cli",
+    "name": "Antigravity CLI / Gemini CLI",
     "url": "https://antigravity.google/",
-    "repo": null,
-    "source_type": "fallback-web",
+    "repo": "google-gemini/gemini-cli",
+    "source_type": "official-seed",
     "category": [
-      "mcp-acp-a2a",
-      "skills-prompts",
-      "rules-instructions",
-      "testing-review-ci",
-      "agent-harness"
+      "official-tool",
+      "terminal-agent"
     ],
     "target_tools": [
       "antigravity-cli"
     ],
-    "concepts": [],
-    "summary": "Build production-ready applications with confidence with thoroughly designed artifacts and comprehensive verification tests. Google Antigravity empowers the next era of enterprise builders. Streamline UX development by leveraging browser-in",
-    "why_it_matters": "Fallback web discovery result because Exa/mcporter was unavailable in this environment.",
-    "status": "unknown",
+    "concepts": [
+      "multi-agent",
+      "a2a",
+      "mcp",
+      "plugins"
+    ],
+    "summary": "Official seed profile for Antigravity CLI / Gemini CLI",
+    "why_it_matters": "Primary target tool for the Search in Coding tracker.",
+    "status": "active",
     "license": null,
     "stars": null,
     "forks": null,
-    "last_updated": null,
+    "last_updated": "2026-07-06",
     "first_seen": "2026-07-06",
     "last_seen": "2026-07-06",
     "maturity": "unknown",
-    "integration_surfaces": [],
+    "integration_surfaces": [
+      "plugins",
+      "skills",
+      "mcp",
+      "a2a",
+      "hooks",
+      "subagents"
+    ],
     "languages": [],
     "tags": [
-      "fallback-not-exa"
+      "target-tool",
+      "official-seed"
     ],
     "score": {
-      "ecosystem_value": 4,
-      "activity": 1,
-      "adoption": 1,
-      "practicality": 2,
-      "novelty": 2,
-      "confidence": 2
+      "ecosystem_value": 5,
+      "activity": 3,
+      "adoption": 3,
+      "practicality": 5,
+      "novelty": 3,
+      "confidence": 5
     },
-    "notes": "Antigravity CLI / Gemini CLI ecosystem extensions plugins MCP skills rules best practices",
-    "review_state": "unreviewed",
-    "record_kind": "fallback-result",
-    "source_quality": "fallback",
-    "ranking_scope": "learning-resource",
-    "total_score": 12
+    "notes": "",
+    "review_state": "reviewed",
+    "record_kind": "official-tool",
+    "source_quality": "verified",
+    "ranking_scope": "official",
+    "total_score": 24
   },
   {
     "id": "web-https-zhuanlan-zhihu-com-p-1991480465891287872",
@@ -9918,7 +9928,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: l3aro/vscode-opencode-connector\nURL: https://github.com/l3aro/vscode-opencode-connector\nPublished: 2026-02-12T18:00:03.000Z\nAuthor: N/A\nHighlights:\n# Repository: l3aro/vscode-opencode-connector\n...\nIntegrates the OpenCode TUI directly into your vscode-based IDE workflow.\n...\n# OpenCode Connector\n...\n**This extension integrates the OpenCode TUI directly into your VS Code workflow.**\n...\ngreat editor (\n...\n| Command | Description | Keyboard Shortcut |\n| --- | --- | --- |\n| `OpenCode: Add to Prompt` | Send the current file reference (e.g., `@src/main.ts#L10-L20`) to the TUI | `Ctrl+Shift+A` / `Cmd+Shift+A` |\n| `OpenCode: Add Selection to Prompt` | Send the selected code range (e.g., `@src/main.ts#L10-L20`) to the TUI | Right-click in editor |\n| `OpenCode: Select Files to Add` | Open a file picker to select multiple files to add to the prompt | `Ctrl+Shift+Alt+A` / `Cmd+Shift+Alt+A` |\n| `OpenCode: Open in OpenCode` | Open an OpenCode instance for the current workspace as an editor t",
+    "notes": "Title: l3aro/vscode-opencode-connector\nURL: https://github.com/l3aro/vscode-opencode-connector\nPublished: 2026-02-12T18:00:03.000Z\nAuthor: N/A\nHighlights:\n# Repository: l3aro/vscode-opencode-connector\n...\nIntegrates the OpenCode TUI directly into your vscode-based IDE workflow.\n...\n# OpenCode Connector\n...\n**This extension integrates the OpenCode TUI directly into your VS Code workflow.**\n...\nchoose between a great editor (\n...\n(OpenCode\n...\n| Command | Description | Keyboard Shortcut |\n| --- | --- | --- |\n| `OpenCode: Add to Prompt` | Send the current file reference (e.g., `@src/main.ts#L10-L20`) to the TUI | `Ctrl+Shift+A` / `Cmd+Shift+A` |\n| `OpenCode: Add Selection to Prompt` | Send the selected code range (e.g., `@src/main.ts#L10-L20`) to the TUI | Right-click in editor |\n| `OpenCode: Select Files to Add` | Open a file picker to select multiple files to add to the prompt | `Ctrl+Shift+Alt+A` / `Cmd+Shift+Alt+A` |\n| `OpenCode: Open in OpenCode` | Open an OpenCode instance for the c",
     "review_state": "unreviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -18621,20 +18631,20 @@
   },
   {
     "id": "exa-https-github-com-block-goose-blob-58f3cc9e-documentation-docs-tutorials-rpi-md",
-    "name": "Goose context engineering codebase indexing rules prompts",
+    "name": "Goose tutorial workflow agentic coding case study",
     "url": "https://github.com/block/goose/blob/58f3cc9e/documentation/docs/tutorials/rpi.md",
     "repo": null,
     "source_type": "exa",
     "category": [
-      "rules-instructions",
       "context-engineering",
-      "testing-review-ci"
+      "testing-review-ci",
+      "agent-harness"
     ],
     "target_tools": [
       "goose"
     ],
     "concepts": [],
-    "summary": "Exa result for: Goose context engineering codebase indexing rules prompts",
+    "summary": "Exa result for: Goose tutorial workflow agentic coding case study",
     "why_it_matters": "Semantic web discovery result for AI coding ecosystem tracking.",
     "status": "unknown",
     "license": null,
@@ -18655,7 +18665,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: Feature: Tree-sitter Indexer · Pull Request #3389 · block/goose\nURL: https://github.com/block/goose/pull/3389\nPublished: 2025-07-13T05:21:52.000Z\nAuthor: dcieslak19973\nHighlights:\n- **New Feature:** Adds experimental Tree-sitter-based code indexing to Goose CLI, supporting Rust, Python, JavaScript, TypeScript, Go, C++, Java, C#, and Swift.\n- **New Command:** `goose repo` index for indexing repositories and generating a .goose-repo-index.jsonl file with extracted code entities (classes, functions, relationships, docstrings, etc.).\n- **New Module:** `repo.rs` implements the indexer.\n- **New Documentation:** `tree-sitter-indexing.md` details supported languages, extracted entities, and upgrade guidance.\n...\n- **New Subcommand:** Adds Repo subcommand to Goose CLI, with an index action for repository indexing.\n- **Refactoring:** Updates CLI argument parsing to support new subcommands and options.\n...\n- **Entity Extraction:** Richer extraction for Go, Python, and C++ (fields, generics",
+    "notes": "Title: documentation/docs/tutorials/rpi.md at 58f3cc9e · block/goose\nURL: https://github.com/block/goose/blob/58f3cc9e/documentation/docs/tutorials/rpi.md\nPublished: N/A\nAuthor: N/A\nHighlights:\n```md\n---\n...\ntitle: Research → Plan → Implement Pattern\n...\ndescription: How to use RPI, a context engineering technique, on complex software projects\n...\nThis tutorial walks through how RPI works via a real demonstration. By the end, you should be able to run this same workflow on your own codebase.\n...\nIn goose, we use a structured RPI workflow using recipes to systematically tackle complex codebase changes. The workflow consists of slash commands that guide goose through disciplined phases of work:\n...\n1. `research_codebase` – Document what exists today. No opinions.\n2. `create_plan` - Design the change with clear phases and success criteria.\n3. `implement_plan` - Execute the plan step by step with verification.\n4. `iterate_plan` – (optional) Adjust the plan if necessary.\n...\n## Session 2: P",
     "review_state": "reviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -18664,20 +18674,20 @@
   },
   {
     "id": "exa-https-raw-githubusercontent-com-block-goose-refs-heads-main-documentation-src-pages-recipes-data",
-    "name": "Goose context engineering codebase indexing rules prompts",
-    "url": "https://raw.githubusercontent.com/block/goose/refs/heads/main/documentation/src/pages/recipes/data/recipes/rpi-research.yaml",
+    "name": "Goose tutorial workflow agentic coding case study",
+    "url": "https://raw.githubusercontent.com/block/goose/refs/heads/main/documentation/src/pages/recipes/data/recipes/rpi-implement.yaml",
     "repo": null,
     "source_type": "exa",
     "category": [
-      "rules-instructions",
       "context-engineering",
-      "testing-review-ci"
+      "testing-review-ci",
+      "agent-harness"
     ],
     "target_tools": [
       "goose"
     ],
     "concepts": [],
-    "summary": "Exa result for: Goose context engineering codebase indexing rules prompts",
+    "summary": "Exa result for: Goose tutorial workflow agentic coding case study",
     "why_it_matters": "Semantic web discovery result for AI coding ecosystem tracking.",
     "status": "unknown",
     "license": null,
@@ -18698,7 +18708,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: Feature: Tree-sitter Indexer · Pull Request #3389 · block/goose\nURL: https://github.com/block/goose/pull/3389\nPublished: 2025-07-13T05:21:52.000Z\nAuthor: dcieslak19973\nHighlights:\n- **New Feature:** Adds experimental Tree-sitter-based code indexing to Goose CLI, supporting Rust, Python, JavaScript, TypeScript, Go, C++, Java, C#, and Swift.\n- **New Command:** `goose repo` index for indexing repositories and generating a .goose-repo-index.jsonl file with extracted code entities (classes, functions, relationships, docstrings, etc.).\n- **New Module:** `repo.rs` implements the indexer.\n- **New Documentation:** `tree-sitter-indexing.md` details supported languages, extracted entities, and upgrade guidance.\n...\n- **New Subcommand:** Adds Repo subcommand to Goose CLI, with an index action for repository indexing.\n- **Refactoring:** Updates CLI argument parsing to support new subcommands and options.\n...\n- **Entity Extraction:** Richer extraction for Go, Python, and C++ (fields, generics",
+    "notes": "Title: documentation/docs/tutorials/rpi.md at 58f3cc9e · block/goose\nURL: https://github.com/block/goose/blob/58f3cc9e/documentation/docs/tutorials/rpi.md\nPublished: N/A\nAuthor: N/A\nHighlights:\n```md\n---\n...\ntitle: Research → Plan → Implement Pattern\n...\ndescription: How to use RPI, a context engineering technique, on complex software projects\n...\nThis tutorial walks through how RPI works via a real demonstration. By the end, you should be able to run this same workflow on your own codebase.\n...\nIn goose, we use a structured RPI workflow using recipes to systematically tackle complex codebase changes. The workflow consists of slash commands that guide goose through disciplined phases of work:\n...\n1. `research_codebase` – Document what exists today. No opinions.\n2. `create_plan` - Design the change with clear phases and success criteria.\n3. `implement_plan` - Execute the plan step by step with verification.\n4. `iterate_plan` – (optional) Adjust the plan if necessary.\n...\n## Session 2: P",
     "review_state": "reviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -19056,7 +19066,8 @@
     "category": [
       "context-engineering",
       "testing-review-ci",
-      "agent-harness"
+      "agent-harness",
+      "terminal-agent"
     ],
     "target_tools": [
       "antigravity-cli"
@@ -19083,7 +19094,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: ACN1987/oh-my-antigravity\nURL: https://github.com/ACN1987/oh-my-antigravity\nPublished: 2026-05-23T05:50:03.000Z\nAuthor: N/A\nHighlights:\n# Repository: ACN1987/oh-my-antigravity (fork of [Joonghyun-Lee-Frieren/oh-my-antigravity](https://github.com/Joonghyun-Lee-Frieren/oh-my-antigravity))\n...\nContext-engineering-powered multi-agent team workflow pack for Antigravity CLI.\n...\n# oh-my-antigravity (OmA)\n...\n[![Gemini Extension](https://img.shields.io/badge/Gemini-Extension-0d8a83)](https://geminicli.com/extensions/?name=Joonghyun-Lee-Frierenoh-my-antigravity)\n...\n> [!IMPORTANT]\n> **Antigravity CLI:** Gemini CLI will be replaced by Antigravity CLI on June 18th.\n> \n> If you previously installed `oh-my-gemini-cli` in Gemini CLI, Antigravity CLI will ask whether to import plugins during installation. Check that option to bring your plugin over.\n> \n> You can also install OmA directly with:\n> \n> ```bash\n> agy plugin install https://github.com/Joonghyun-Lee-Frieren/oh-my-antigravity\n> ```\n.",
+    "notes": "Title: Antigravity CLI\nURL: https://github.com/google-antigravity/antigravity-cli\nPublished: 2026-05-13T17:38:00.000Z\nAuthor: N/A\nHighlights:\nAntigravity CLI brings the reasoning, execution, and orchestration capabilities of Antigravity agent harness directly into your terminal.\n\n---\n\nTitle: Joonghyun-Lee-Frieren/oh-my-antigravity\nURL: https://github.com/Joonghyun-Lee-Frieren/oh-my-gemini-cli\nPublished: N/A\nAuthor: N/A\nHighlights:\nContext-engineering-powered multi-agent team workflow pack for Antigravity CLI.\n...\n- agent-skills\n- agentic-ai\n- agentic-workflow\n- antigravity\n- antigravity-cli\n- antigravity-ide\n- antigravity-plugin\n- gemini\n- gemini-cli\n- gemini-cli-extensions\n- geminicli\n- multi-agent\n- oh-my-antigravity\n- oh-my-gemini-cli\n- plugins\n- skills\n...\n# oh-my-antigravity (OmA)\n...\n[![Gemini Extension](https://img.shields.io/badge/Gemini-Extension-0d8a83)](https://geminicli.com/extensions/?name=Joonghyun-Lee-Frierenoh-my-antigravity)\n...\n> [!IMPORTANT]\n> **Antigravity CLI:** Ge",
     "review_state": "reviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -19099,7 +19110,8 @@
     "category": [
       "context-engineering",
       "testing-review-ci",
-      "agent-harness"
+      "agent-harness",
+      "terminal-agent"
     ],
     "target_tools": [
       "antigravity-cli"
@@ -19126,7 +19138,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: ACN1987/oh-my-antigravity\nURL: https://github.com/ACN1987/oh-my-antigravity\nPublished: 2026-05-23T05:50:03.000Z\nAuthor: N/A\nHighlights:\n# Repository: ACN1987/oh-my-antigravity (fork of [Joonghyun-Lee-Frieren/oh-my-antigravity](https://github.com/Joonghyun-Lee-Frieren/oh-my-antigravity))\n...\nContext-engineering-powered multi-agent team workflow pack for Antigravity CLI.\n...\n# oh-my-antigravity (OmA)\n...\n[![Gemini Extension](https://img.shields.io/badge/Gemini-Extension-0d8a83)](https://geminicli.com/extensions/?name=Joonghyun-Lee-Frierenoh-my-antigravity)\n...\n> [!IMPORTANT]\n> **Antigravity CLI:** Gemini CLI will be replaced by Antigravity CLI on June 18th.\n> \n> If you previously installed `oh-my-gemini-cli` in Gemini CLI, Antigravity CLI will ask whether to import plugins during installation. Check that option to bring your plugin over.\n> \n> You can also install OmA directly with:\n> \n> ```bash\n> agy plugin install https://github.com/Joonghyun-Lee-Frieren/oh-my-antigravity\n> ```\n.",
+    "notes": "Title: Antigravity CLI\nURL: https://github.com/google-antigravity/antigravity-cli\nPublished: 2026-05-13T17:38:00.000Z\nAuthor: N/A\nHighlights:\nAntigravity CLI brings the reasoning, execution, and orchestration capabilities of Antigravity agent harness directly into your terminal.\n\n---\n\nTitle: Joonghyun-Lee-Frieren/oh-my-antigravity\nURL: https://github.com/Joonghyun-Lee-Frieren/oh-my-gemini-cli\nPublished: N/A\nAuthor: N/A\nHighlights:\nContext-engineering-powered multi-agent team workflow pack for Antigravity CLI.\n...\n- agent-skills\n- agentic-ai\n- agentic-workflow\n- antigravity\n- antigravity-cli\n- antigravity-ide\n- antigravity-plugin\n- gemini\n- gemini-cli\n- gemini-cli-extensions\n- geminicli\n- multi-agent\n- oh-my-antigravity\n- oh-my-gemini-cli\n- plugins\n- skills\n...\n# oh-my-antigravity (OmA)\n...\n[![Gemini Extension](https://img.shields.io/badge/Gemini-Extension-0d8a83)](https://geminicli.com/extensions/?name=Joonghyun-Lee-Frierenoh-my-antigravity)\n...\n> [!IMPORTANT]\n> **Antigravity CLI:** Ge",
     "review_state": "reviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -19142,7 +19154,8 @@
     "category": [
       "context-engineering",
       "testing-review-ci",
-      "agent-harness"
+      "agent-harness",
+      "terminal-agent"
     ],
     "target_tools": [
       "antigravity-cli"
@@ -19169,7 +19182,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: ACN1987/oh-my-antigravity\nURL: https://github.com/ACN1987/oh-my-antigravity\nPublished: 2026-05-23T05:50:03.000Z\nAuthor: N/A\nHighlights:\n# Repository: ACN1987/oh-my-antigravity (fork of [Joonghyun-Lee-Frieren/oh-my-antigravity](https://github.com/Joonghyun-Lee-Frieren/oh-my-antigravity))\n...\nContext-engineering-powered multi-agent team workflow pack for Antigravity CLI.\n...\n# oh-my-antigravity (OmA)\n...\n[![Gemini Extension](https://img.shields.io/badge/Gemini-Extension-0d8a83)](https://geminicli.com/extensions/?name=Joonghyun-Lee-Frierenoh-my-antigravity)\n...\n> [!IMPORTANT]\n> **Antigravity CLI:** Gemini CLI will be replaced by Antigravity CLI on June 18th.\n> \n> If you previously installed `oh-my-gemini-cli` in Gemini CLI, Antigravity CLI will ask whether to import plugins during installation. Check that option to bring your plugin over.\n> \n> You can also install OmA directly with:\n> \n> ```bash\n> agy plugin install https://github.com/Joonghyun-Lee-Frieren/oh-my-antigravity\n> ```\n.",
+    "notes": "Title: Antigravity CLI\nURL: https://github.com/google-antigravity/antigravity-cli\nPublished: 2026-05-13T17:38:00.000Z\nAuthor: N/A\nHighlights:\nAntigravity CLI brings the reasoning, execution, and orchestration capabilities of Antigravity agent harness directly into your terminal.\n\n---\n\nTitle: Joonghyun-Lee-Frieren/oh-my-antigravity\nURL: https://github.com/Joonghyun-Lee-Frieren/oh-my-gemini-cli\nPublished: N/A\nAuthor: N/A\nHighlights:\nContext-engineering-powered multi-agent team workflow pack for Antigravity CLI.\n...\n- agent-skills\n- agentic-ai\n- agentic-workflow\n- antigravity\n- antigravity-cli\n- antigravity-ide\n- antigravity-plugin\n- gemini\n- gemini-cli\n- gemini-cli-extensions\n- geminicli\n- multi-agent\n- oh-my-antigravity\n- oh-my-gemini-cli\n- plugins\n- skills\n...\n# oh-my-antigravity (OmA)\n...\n[![Gemini Extension](https://img.shields.io/badge/Gemini-Extension-0d8a83)](https://geminicli.com/extensions/?name=Joonghyun-Lee-Frierenoh-my-antigravity)\n...\n> [!IMPORTANT]\n> **Antigravity CLI:** Ge",
     "review_state": "unreviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -19185,7 +19198,8 @@
     "category": [
       "context-engineering",
       "testing-review-ci",
-      "agent-harness"
+      "agent-harness",
+      "terminal-agent"
     ],
     "target_tools": [
       "antigravity-cli"
@@ -19212,7 +19226,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: ACN1987/oh-my-antigravity\nURL: https://github.com/ACN1987/oh-my-antigravity\nPublished: 2026-05-23T05:50:03.000Z\nAuthor: N/A\nHighlights:\n# Repository: ACN1987/oh-my-antigravity (fork of [Joonghyun-Lee-Frieren/oh-my-antigravity](https://github.com/Joonghyun-Lee-Frieren/oh-my-antigravity))\n...\nContext-engineering-powered multi-agent team workflow pack for Antigravity CLI.\n...\n# oh-my-antigravity (OmA)\n...\n[![Gemini Extension](https://img.shields.io/badge/Gemini-Extension-0d8a83)](https://geminicli.com/extensions/?name=Joonghyun-Lee-Frierenoh-my-antigravity)\n...\n> [!IMPORTANT]\n> **Antigravity CLI:** Gemini CLI will be replaced by Antigravity CLI on June 18th.\n> \n> If you previously installed `oh-my-gemini-cli` in Gemini CLI, Antigravity CLI will ask whether to import plugins during installation. Check that option to bring your plugin over.\n> \n> You can also install OmA directly with:\n> \n> ```bash\n> agy plugin install https://github.com/Joonghyun-Lee-Frieren/oh-my-antigravity\n> ```\n.",
+    "notes": "Title: Antigravity CLI\nURL: https://github.com/google-antigravity/antigravity-cli\nPublished: 2026-05-13T17:38:00.000Z\nAuthor: N/A\nHighlights:\nAntigravity CLI brings the reasoning, execution, and orchestration capabilities of Antigravity agent harness directly into your terminal.\n\n---\n\nTitle: Joonghyun-Lee-Frieren/oh-my-antigravity\nURL: https://github.com/Joonghyun-Lee-Frieren/oh-my-gemini-cli\nPublished: N/A\nAuthor: N/A\nHighlights:\nContext-engineering-powered multi-agent team workflow pack for Antigravity CLI.\n...\n- agent-skills\n- agentic-ai\n- agentic-workflow\n- antigravity\n- antigravity-cli\n- antigravity-ide\n- antigravity-plugin\n- gemini\n- gemini-cli\n- gemini-cli-extensions\n- geminicli\n- multi-agent\n- oh-my-antigravity\n- oh-my-gemini-cli\n- plugins\n- skills\n...\n# oh-my-antigravity (OmA)\n...\n[![Gemini Extension](https://img.shields.io/badge/Gemini-Extension-0d8a83)](https://geminicli.com/extensions/?name=Joonghyun-Lee-Frierenoh-my-antigravity)\n...\n> [!IMPORTANT]\n> **Antigravity CLI:** Ge",
     "review_state": "unreviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -19228,7 +19242,8 @@
     "category": [
       "context-engineering",
       "testing-review-ci",
-      "agent-harness"
+      "agent-harness",
+      "terminal-agent"
     ],
     "target_tools": [
       "antigravity-cli"
@@ -19255,7 +19270,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: ACN1987/oh-my-antigravity\nURL: https://github.com/ACN1987/oh-my-antigravity\nPublished: 2026-05-23T05:50:03.000Z\nAuthor: N/A\nHighlights:\n# Repository: ACN1987/oh-my-antigravity (fork of [Joonghyun-Lee-Frieren/oh-my-antigravity](https://github.com/Joonghyun-Lee-Frieren/oh-my-antigravity))\n...\nContext-engineering-powered multi-agent team workflow pack for Antigravity CLI.\n...\n# oh-my-antigravity (OmA)\n...\n[![Gemini Extension](https://img.shields.io/badge/Gemini-Extension-0d8a83)](https://geminicli.com/extensions/?name=Joonghyun-Lee-Frierenoh-my-antigravity)\n...\n> [!IMPORTANT]\n> **Antigravity CLI:** Gemini CLI will be replaced by Antigravity CLI on June 18th.\n> \n> If you previously installed `oh-my-gemini-cli` in Gemini CLI, Antigravity CLI will ask whether to import plugins during installation. Check that option to bring your plugin over.\n> \n> You can also install OmA directly with:\n> \n> ```bash\n> agy plugin install https://github.com/Joonghyun-Lee-Frieren/oh-my-antigravity\n> ```\n.",
+    "notes": "Title: Antigravity CLI\nURL: https://github.com/google-antigravity/antigravity-cli\nPublished: 2026-05-13T17:38:00.000Z\nAuthor: N/A\nHighlights:\nAntigravity CLI brings the reasoning, execution, and orchestration capabilities of Antigravity agent harness directly into your terminal.\n\n---\n\nTitle: Joonghyun-Lee-Frieren/oh-my-antigravity\nURL: https://github.com/Joonghyun-Lee-Frieren/oh-my-gemini-cli\nPublished: N/A\nAuthor: N/A\nHighlights:\nContext-engineering-powered multi-agent team workflow pack for Antigravity CLI.\n...\n- agent-skills\n- agentic-ai\n- agentic-workflow\n- antigravity\n- antigravity-cli\n- antigravity-ide\n- antigravity-plugin\n- gemini\n- gemini-cli\n- gemini-cli-extensions\n- geminicli\n- multi-agent\n- oh-my-antigravity\n- oh-my-gemini-cli\n- plugins\n- skills\n...\n# oh-my-antigravity (OmA)\n...\n[![Gemini Extension](https://img.shields.io/badge/Gemini-Extension-0d8a83)](https://geminicli.com/extensions/?name=Joonghyun-Lee-Frierenoh-my-antigravity)\n...\n> [!IMPORTANT]\n> **Antigravity CLI:** Ge",
     "review_state": "unreviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -19271,7 +19286,8 @@
     "category": [
       "context-engineering",
       "testing-review-ci",
-      "agent-harness"
+      "agent-harness",
+      "terminal-agent"
     ],
     "target_tools": [
       "antigravity-cli"
@@ -19298,7 +19314,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: ACN1987/oh-my-antigravity\nURL: https://github.com/ACN1987/oh-my-antigravity\nPublished: 2026-05-23T05:50:03.000Z\nAuthor: N/A\nHighlights:\n# Repository: ACN1987/oh-my-antigravity (fork of [Joonghyun-Lee-Frieren/oh-my-antigravity](https://github.com/Joonghyun-Lee-Frieren/oh-my-antigravity))\n...\nContext-engineering-powered multi-agent team workflow pack for Antigravity CLI.\n...\n# oh-my-antigravity (OmA)\n...\n[![Gemini Extension](https://img.shields.io/badge/Gemini-Extension-0d8a83)](https://geminicli.com/extensions/?name=Joonghyun-Lee-Frierenoh-my-antigravity)\n...\n> [!IMPORTANT]\n> **Antigravity CLI:** Gemini CLI will be replaced by Antigravity CLI on June 18th.\n> \n> If you previously installed `oh-my-gemini-cli` in Gemini CLI, Antigravity CLI will ask whether to import plugins during installation. Check that option to bring your plugin over.\n> \n> You can also install OmA directly with:\n> \n> ```bash\n> agy plugin install https://github.com/Joonghyun-Lee-Frieren/oh-my-antigravity\n> ```\n.",
+    "notes": "Title: Antigravity CLI\nURL: https://github.com/google-antigravity/antigravity-cli\nPublished: 2026-05-13T17:38:00.000Z\nAuthor: N/A\nHighlights:\nAntigravity CLI brings the reasoning, execution, and orchestration capabilities of Antigravity agent harness directly into your terminal.\n\n---\n\nTitle: Joonghyun-Lee-Frieren/oh-my-antigravity\nURL: https://github.com/Joonghyun-Lee-Frieren/oh-my-gemini-cli\nPublished: N/A\nAuthor: N/A\nHighlights:\nContext-engineering-powered multi-agent team workflow pack for Antigravity CLI.\n...\n- agent-skills\n- agentic-ai\n- agentic-workflow\n- antigravity\n- antigravity-cli\n- antigravity-ide\n- antigravity-plugin\n- gemini\n- gemini-cli\n- gemini-cli-extensions\n- geminicli\n- multi-agent\n- oh-my-antigravity\n- oh-my-gemini-cli\n- plugins\n- skills\n...\n# oh-my-antigravity (OmA)\n...\n[![Gemini Extension](https://img.shields.io/badge/Gemini-Extension-0d8a83)](https://geminicli.com/extensions/?name=Joonghyun-Lee-Frierenoh-my-antigravity)\n...\n> [!IMPORTANT]\n> **Antigravity CLI:** Ge",
     "review_state": "unreviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -19314,7 +19330,8 @@
     "category": [
       "context-engineering",
       "testing-review-ci",
-      "agent-harness"
+      "agent-harness",
+      "terminal-agent"
     ],
     "target_tools": [
       "antigravity-cli"
@@ -19341,7 +19358,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: ACN1987/oh-my-antigravity\nURL: https://github.com/ACN1987/oh-my-antigravity\nPublished: 2026-05-23T05:50:03.000Z\nAuthor: N/A\nHighlights:\n# Repository: ACN1987/oh-my-antigravity (fork of [Joonghyun-Lee-Frieren/oh-my-antigravity](https://github.com/Joonghyun-Lee-Frieren/oh-my-antigravity))\n...\nContext-engineering-powered multi-agent team workflow pack for Antigravity CLI.\n...\n# oh-my-antigravity (OmA)\n...\n[![Gemini Extension](https://img.shields.io/badge/Gemini-Extension-0d8a83)](https://geminicli.com/extensions/?name=Joonghyun-Lee-Frierenoh-my-antigravity)\n...\n> [!IMPORTANT]\n> **Antigravity CLI:** Gemini CLI will be replaced by Antigravity CLI on June 18th.\n> \n> If you previously installed `oh-my-gemini-cli` in Gemini CLI, Antigravity CLI will ask whether to import plugins during installation. Check that option to bring your plugin over.\n> \n> You can also install OmA directly with:\n> \n> ```bash\n> agy plugin install https://github.com/Joonghyun-Lee-Frieren/oh-my-antigravity\n> ```\n.",
+    "notes": "Title: Antigravity CLI\nURL: https://github.com/google-antigravity/antigravity-cli\nPublished: 2026-05-13T17:38:00.000Z\nAuthor: N/A\nHighlights:\nAntigravity CLI brings the reasoning, execution, and orchestration capabilities of Antigravity agent harness directly into your terminal.\n\n---\n\nTitle: Joonghyun-Lee-Frieren/oh-my-antigravity\nURL: https://github.com/Joonghyun-Lee-Frieren/oh-my-gemini-cli\nPublished: N/A\nAuthor: N/A\nHighlights:\nContext-engineering-powered multi-agent team workflow pack for Antigravity CLI.\n...\n- agent-skills\n- agentic-ai\n- agentic-workflow\n- antigravity\n- antigravity-cli\n- antigravity-ide\n- antigravity-plugin\n- gemini\n- gemini-cli\n- gemini-cli-extensions\n- geminicli\n- multi-agent\n- oh-my-antigravity\n- oh-my-gemini-cli\n- plugins\n- skills\n...\n# oh-my-antigravity (OmA)\n...\n[![Gemini Extension](https://img.shields.io/badge/Gemini-Extension-0d8a83)](https://geminicli.com/extensions/?name=Joonghyun-Lee-Frierenoh-my-antigravity)\n...\n> [!IMPORTANT]\n> **Antigravity CLI:** Ge",
     "review_state": "unreviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -19357,7 +19374,8 @@
     "category": [
       "context-engineering",
       "testing-review-ci",
-      "agent-harness"
+      "agent-harness",
+      "terminal-agent"
     ],
     "target_tools": [
       "antigravity-cli"
@@ -19384,7 +19402,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: ACN1987/oh-my-antigravity\nURL: https://github.com/ACN1987/oh-my-antigravity\nPublished: 2026-05-23T05:50:03.000Z\nAuthor: N/A\nHighlights:\n# Repository: ACN1987/oh-my-antigravity (fork of [Joonghyun-Lee-Frieren/oh-my-antigravity](https://github.com/Joonghyun-Lee-Frieren/oh-my-antigravity))\n...\nContext-engineering-powered multi-agent team workflow pack for Antigravity CLI.\n...\n# oh-my-antigravity (OmA)\n...\n[![Gemini Extension](https://img.shields.io/badge/Gemini-Extension-0d8a83)](https://geminicli.com/extensions/?name=Joonghyun-Lee-Frierenoh-my-antigravity)\n...\n> [!IMPORTANT]\n> **Antigravity CLI:** Gemini CLI will be replaced by Antigravity CLI on June 18th.\n> \n> If you previously installed `oh-my-gemini-cli` in Gemini CLI, Antigravity CLI will ask whether to import plugins during installation. Check that option to bring your plugin over.\n> \n> You can also install OmA directly with:\n> \n> ```bash\n> agy plugin install https://github.com/Joonghyun-Lee-Frieren/oh-my-antigravity\n> ```\n.",
+    "notes": "Title: Antigravity CLI\nURL: https://github.com/google-antigravity/antigravity-cli\nPublished: 2026-05-13T17:38:00.000Z\nAuthor: N/A\nHighlights:\nAntigravity CLI brings the reasoning, execution, and orchestration capabilities of Antigravity agent harness directly into your terminal.\n\n---\n\nTitle: Joonghyun-Lee-Frieren/oh-my-antigravity\nURL: https://github.com/Joonghyun-Lee-Frieren/oh-my-gemini-cli\nPublished: N/A\nAuthor: N/A\nHighlights:\nContext-engineering-powered multi-agent team workflow pack for Antigravity CLI.\n...\n- agent-skills\n- agentic-ai\n- agentic-workflow\n- antigravity\n- antigravity-cli\n- antigravity-ide\n- antigravity-plugin\n- gemini\n- gemini-cli\n- gemini-cli-extensions\n- geminicli\n- multi-agent\n- oh-my-antigravity\n- oh-my-gemini-cli\n- plugins\n- skills\n...\n# oh-my-antigravity (OmA)\n...\n[![Gemini Extension](https://img.shields.io/badge/Gemini-Extension-0d8a83)](https://geminicli.com/extensions/?name=Joonghyun-Lee-Frierenoh-my-antigravity)\n...\n> [!IMPORTANT]\n> **Antigravity CLI:** Ge",
     "review_state": "unreviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -19443,7 +19461,8 @@
     "category": [
       "context-engineering",
       "testing-review-ci",
-      "agent-harness"
+      "agent-harness",
+      "terminal-agent"
     ],
     "target_tools": [
       "antigravity-cli"
@@ -19470,7 +19489,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: ACN1987/oh-my-antigravity\nURL: https://github.com/ACN1987/oh-my-antigravity\nPublished: 2026-05-23T05:50:03.000Z\nAuthor: N/A\nHighlights:\n# Repository: ACN1987/oh-my-antigravity (fork of [Joonghyun-Lee-Frieren/oh-my-antigravity](https://github.com/Joonghyun-Lee-Frieren/oh-my-antigravity))\n...\nContext-engineering-powered multi-agent team workflow pack for Antigravity CLI.\n...\n# oh-my-antigravity (OmA)\n...\n[![Gemini Extension](https://img.shields.io/badge/Gemini-Extension-0d8a83)](https://geminicli.com/extensions/?name=Joonghyun-Lee-Frierenoh-my-antigravity)\n...\n> [!IMPORTANT]\n> **Antigravity CLI:** Gemini CLI will be replaced by Antigravity CLI on June 18th.\n> \n> If you previously installed `oh-my-gemini-cli` in Gemini CLI, Antigravity CLI will ask whether to import plugins during installation. Check that option to bring your plugin over.\n> \n> You can also install OmA directly with:\n> \n> ```bash\n> agy plugin install https://github.com/Joonghyun-Lee-Frieren/oh-my-antigravity\n> ```\n.",
+    "notes": "Title: Antigravity CLI\nURL: https://github.com/google-antigravity/antigravity-cli\nPublished: 2026-05-13T17:38:00.000Z\nAuthor: N/A\nHighlights:\nAntigravity CLI brings the reasoning, execution, and orchestration capabilities of Antigravity agent harness directly into your terminal.\n\n---\n\nTitle: Joonghyun-Lee-Frieren/oh-my-antigravity\nURL: https://github.com/Joonghyun-Lee-Frieren/oh-my-gemini-cli\nPublished: N/A\nAuthor: N/A\nHighlights:\nContext-engineering-powered multi-agent team workflow pack for Antigravity CLI.\n...\n- agent-skills\n- agentic-ai\n- agentic-workflow\n- antigravity\n- antigravity-cli\n- antigravity-ide\n- antigravity-plugin\n- gemini\n- gemini-cli\n- gemini-cli-extensions\n- geminicli\n- multi-agent\n- oh-my-antigravity\n- oh-my-gemini-cli\n- plugins\n- skills\n...\n# oh-my-antigravity (OmA)\n...\n[![Gemini Extension](https://img.shields.io/badge/Gemini-Extension-0d8a83)](https://geminicli.com/extensions/?name=Joonghyun-Lee-Frierenoh-my-antigravity)\n...\n> [!IMPORTANT]\n> **Antigravity CLI:** Ge",
     "review_state": "unreviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -19593,7 +19612,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: l3aro/vscode-opencode-connector\nURL: https://github.com/l3aro/vscode-opencode-connector\nPublished: 2026-02-12T18:00:03.000Z\nAuthor: N/A\nHighlights:\n# Repository: l3aro/vscode-opencode-connector\n...\nIntegrates the OpenCode TUI directly into your vscode-based IDE workflow.\n...\n# OpenCode Connector\n...\n**This extension integrates the OpenCode TUI directly into your VS Code workflow.**\n...\ngreat editor (\n...\n| Command | Description | Keyboard Shortcut |\n| --- | --- | --- |\n| `OpenCode: Add to Prompt` | Send the current file reference (e.g., `@src/main.ts#L10-L20`) to the TUI | `Ctrl+Shift+A` / `Cmd+Shift+A` |\n| `OpenCode: Add Selection to Prompt` | Send the selected code range (e.g., `@src/main.ts#L10-L20`) to the TUI | Right-click in editor |\n| `OpenCode: Select Files to Add` | Open a file picker to select multiple files to add to the prompt | `Ctrl+Shift+Alt+A` / `Cmd+Shift+Alt+A` |\n| `OpenCode: Open in OpenCode` | Open an OpenCode instance for the current workspace as an editor t",
+    "notes": "Title: l3aro/vscode-opencode-connector\nURL: https://github.com/l3aro/vscode-opencode-connector\nPublished: 2026-02-12T18:00:03.000Z\nAuthor: N/A\nHighlights:\n# Repository: l3aro/vscode-opencode-connector\n...\nIntegrates the OpenCode TUI directly into your vscode-based IDE workflow.\n...\n# OpenCode Connector\n...\n**This extension integrates the OpenCode TUI directly into your VS Code workflow.**\n...\nchoose between a great editor (\n...\n(OpenCode\n...\n| Command | Description | Keyboard Shortcut |\n| --- | --- | --- |\n| `OpenCode: Add to Prompt` | Send the current file reference (e.g., `@src/main.ts#L10-L20`) to the TUI | `Ctrl+Shift+A` / `Cmd+Shift+A` |\n| `OpenCode: Add Selection to Prompt` | Send the selected code range (e.g., `@src/main.ts#L10-L20`) to the TUI | Right-click in editor |\n| `OpenCode: Select Files to Add` | Open a file picker to select multiple files to add to the prompt | `Ctrl+Shift+Alt+A` / `Cmd+Shift+Alt+A` |\n| `OpenCode: Open in OpenCode` | Open an OpenCode instance for the c",
     "review_state": "unreviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -19634,7 +19653,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: l3aro/vscode-opencode-connector\nURL: https://github.com/l3aro/vscode-opencode-connector\nPublished: 2026-02-12T18:00:03.000Z\nAuthor: N/A\nHighlights:\n# Repository: l3aro/vscode-opencode-connector\n...\nIntegrates the OpenCode TUI directly into your vscode-based IDE workflow.\n...\n# OpenCode Connector\n...\n**This extension integrates the OpenCode TUI directly into your VS Code workflow.**\n...\ngreat editor (\n...\n| Command | Description | Keyboard Shortcut |\n| --- | --- | --- |\n| `OpenCode: Add to Prompt` | Send the current file reference (e.g., `@src/main.ts#L10-L20`) to the TUI | `Ctrl+Shift+A` / `Cmd+Shift+A` |\n| `OpenCode: Add Selection to Prompt` | Send the selected code range (e.g., `@src/main.ts#L10-L20`) to the TUI | Right-click in editor |\n| `OpenCode: Select Files to Add` | Open a file picker to select multiple files to add to the prompt | `Ctrl+Shift+Alt+A` / `Cmd+Shift+Alt+A` |\n| `OpenCode: Open in OpenCode` | Open an OpenCode instance for the current workspace as an editor t",
+    "notes": "Title: l3aro/vscode-opencode-connector\nURL: https://github.com/l3aro/vscode-opencode-connector\nPublished: 2026-02-12T18:00:03.000Z\nAuthor: N/A\nHighlights:\n# Repository: l3aro/vscode-opencode-connector\n...\nIntegrates the OpenCode TUI directly into your vscode-based IDE workflow.\n...\n# OpenCode Connector\n...\n**This extension integrates the OpenCode TUI directly into your VS Code workflow.**\n...\nchoose between a great editor (\n...\n(OpenCode\n...\n| Command | Description | Keyboard Shortcut |\n| --- | --- | --- |\n| `OpenCode: Add to Prompt` | Send the current file reference (e.g., `@src/main.ts#L10-L20`) to the TUI | `Ctrl+Shift+A` / `Cmd+Shift+A` |\n| `OpenCode: Add Selection to Prompt` | Send the selected code range (e.g., `@src/main.ts#L10-L20`) to the TUI | Right-click in editor |\n| `OpenCode: Select Files to Add` | Open a file picker to select multiple files to add to the prompt | `Ctrl+Shift+Alt+A` / `Cmd+Shift+Alt+A` |\n| `OpenCode: Open in OpenCode` | Open an OpenCode instance for the c",
     "review_state": "unreviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -19675,7 +19694,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: l3aro/vscode-opencode-connector\nURL: https://github.com/l3aro/vscode-opencode-connector\nPublished: 2026-02-12T18:00:03.000Z\nAuthor: N/A\nHighlights:\n# Repository: l3aro/vscode-opencode-connector\n...\nIntegrates the OpenCode TUI directly into your vscode-based IDE workflow.\n...\n# OpenCode Connector\n...\n**This extension integrates the OpenCode TUI directly into your VS Code workflow.**\n...\ngreat editor (\n...\n| Command | Description | Keyboard Shortcut |\n| --- | --- | --- |\n| `OpenCode: Add to Prompt` | Send the current file reference (e.g., `@src/main.ts#L10-L20`) to the TUI | `Ctrl+Shift+A` / `Cmd+Shift+A` |\n| `OpenCode: Add Selection to Prompt` | Send the selected code range (e.g., `@src/main.ts#L10-L20`) to the TUI | Right-click in editor |\n| `OpenCode: Select Files to Add` | Open a file picker to select multiple files to add to the prompt | `Ctrl+Shift+Alt+A` / `Cmd+Shift+Alt+A` |\n| `OpenCode: Open in OpenCode` | Open an OpenCode instance for the current workspace as an editor t",
+    "notes": "Title: l3aro/vscode-opencode-connector\nURL: https://github.com/l3aro/vscode-opencode-connector\nPublished: 2026-02-12T18:00:03.000Z\nAuthor: N/A\nHighlights:\n# Repository: l3aro/vscode-opencode-connector\n...\nIntegrates the OpenCode TUI directly into your vscode-based IDE workflow.\n...\n# OpenCode Connector\n...\n**This extension integrates the OpenCode TUI directly into your VS Code workflow.**\n...\nchoose between a great editor (\n...\n(OpenCode\n...\n| Command | Description | Keyboard Shortcut |\n| --- | --- | --- |\n| `OpenCode: Add to Prompt` | Send the current file reference (e.g., `@src/main.ts#L10-L20`) to the TUI | `Ctrl+Shift+A` / `Cmd+Shift+A` |\n| `OpenCode: Add Selection to Prompt` | Send the selected code range (e.g., `@src/main.ts#L10-L20`) to the TUI | Right-click in editor |\n| `OpenCode: Select Files to Add` | Open a file picker to select multiple files to add to the prompt | `Ctrl+Shift+Alt+A` / `Cmd+Shift+Alt+A` |\n| `OpenCode: Open in OpenCode` | Open an OpenCode instance for the c",
     "review_state": "unreviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -19891,7 +19910,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: Best practices – Codex | OpenAI Developers\nURL: https://developers.openai.com/codex/learn/best-practices\nPublished: N/A\nAuthor: N/A\nHighlights:\nA useful way to think about this: start with the right task context, use `AGENTS.md` for durable guidance, configure Codex to match your workflow, connect external systems\n...\nMCP, turn repeated work into skills, and automate stable\n...\nA good default is to include four things in your prompt:\n...\n- Goal: What are you trying to change or build?\n- Context: Which files, folders, docs, examples, or errors matter for this task? You can @ mention certain files as context.\n- Constraints: What standards, architecture, safety requirements, or conventions should Codex follow?\n- Done when: What should be true before the task is complete, such as tests passing, behavior changing, or a bug no longer reproducing?\n...\nThink of `AGENTS.md` as an open-format README for agents. It loads into context automatically and is the best place to encode how you an",
+    "notes": "Title: Best practices – Codex | OpenAI Developers\nURL: https://developers.openai.com/codex/learn/best-practices\nPublished: N/A\nAuthor: N/A\nHighlights:\nA useful way to think about this: start with the right task context, use `AGENTS.md` for durable guidance, configure Codex to match your workflow, connect\n...\nMCP, turn repeated work into skills, and automate stable\n...\nA good default is to include four things in your prompt:\n...\n- Goal: What are you trying to change or build?\n- Context: Which files, folders, docs, examples, or errors matter for this task? You can @ mention certain files as context.\n- Constraints: What standards, architecture, safety requirements, or conventions should Codex follow?\n- Done when: What should be true before the task is complete, such as tests passing, behavior changing, or a bug no longer reproducing?\n...\nThink of `AGENTS.md` as an open-format README for agents. It loads into context automatically and is the best place to encode how you and your team want ",
     "review_state": "unreviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -19936,7 +19955,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: Best practices – Codex | OpenAI Developers\nURL: https://developers.openai.com/codex/learn/best-practices\nPublished: N/A\nAuthor: N/A\nHighlights:\nIf you’re new to Codex or coding agents in general, this guide will help you get better results faster. It covers the core habits that make Codex more effective across the CLI, IDE extension, and the Codex app, from prompting and planning to validation, MCP, skills, and automations.\n...\nA useful way to think about this: start with the right task context, use `AGENTS.md` for durable guidance, configure Codex to match your workflow, connect external systems with MCP, turn repeated work into skills, and automate stable workflows.\n...\nThink of `AGENTS.md` as an open-format README for agents. It loads into context automatically and is the best place\n...\nyou and your team\n...\nConfiguration is one of the main ways to make Codex behave more consistently across sessions and surfaces. For example, you can set defaults for model choice, reasoning e",
+    "notes": "Title: Best practices – Codex | OpenAI Developers\nURL: https://developers.openai.com/codex/learn/best-practices\nPublished: N/A\nAuthor: N/A\nHighlights:\nIf you’re new to Codex or coding agents in general, this guide will help you get better results faster. It covers the core habits that make Codex more effective across the CLI, IDE extension, and the Codex app, from prompting and planning to validation, MCP, skills, and automations.\n...\nA useful way to think about this: start with the right task context, use `AGENTS.md` for durable guidance, configure Codex to match your workflow, connect external systems with MCP, turn repeated work into skills, and automate stable workflows.\n...\nThink of `AGENTS.md` as an open-format README for agents. It loads into context automatically and is the best place to encode how you and your team\n...\na repository.\n...\nConfiguration is one of the main ways to make Codex behave more consistently across sessions and surfaces. For example, you can set defaults f",
     "review_state": "unreviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -19980,7 +19999,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: Ecosystem | OpenCode\nURL: https://opencode.ai/docs/ecosystem/\nPublished: N/A\nAuthor: N/A\nHighlights:\n| Name | Description |\n| --- | --- |\n| opencode-daytona | Automatically run OpenCode sessions in isolated Daytona sandboxes with git sync and live previews |\n| opencode-helicone-session | Automatically inject Helicone session headers for request grouping |\n| opencode-type-inject | Auto-inject TypeScript/Svelte types into file reads with lookup tools |\n...\ncredits |\n...\nigravity OAuth\n...\n, with support for Google Search, and more robust API handling |\n...\n| oh-my-opencode | Background agents, pre-built LSP/AST/MCP tools, curated agents, Claude Code compatible |\n...\n| opencode-skillful | Allow OpenCode agents to lazy load prompts on demand with skill discovery and injection |\n...\n| @openspoon/subtask2 | Extend opencode /commands into a powerful orchestration system with granular flow control |\n...\n| opencode-conductor | Protocol-Driven Workflow: Automation of the Context -> Spec -",
+    "notes": "Title: Ecosystem | OpenCode\nURL: https://opencode.ai/docs/ecosystem/\nPublished: N/A\nAuthor: N/A\nHighlights:\n| Name | Description |\n| --- | --- |\n| opencode-daytona | Automatically run OpenCode sessions in isolated Daytona sandboxes with git sync and live previews |\n| opencode-helicone-session | Automatically inject Helicone session headers for request grouping |\n| opencode-type-inject | Auto-inject TypeScript/Svelte types into file reads with lookup tools |\n...\nPlus/Pro\n...\ncredits |\n...\nclones and auto-assigned ports\n...\nigravity OAuth\n...\n, with support for Google Search, and more robust API handling |\n...\n| oh-my-opencode | Background agents, pre-built LSP/AST/MCP tools, curated agents, Claude Code compatible |\n...\n| opencode-skillful | Allow OpenCode agents to lazy load prompts on demand with skill discovery and injection |\n...\n| @openspoon/subtask2 | Extend opencode /commands into a powerful orchestration system with granular flow control |\n...\n| opencode-conductor | Protocol-Driv",
     "review_state": "unreviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -20243,13 +20262,12 @@
     "repo": null,
     "source_type": "exa",
     "category": [
-      "testing-review-ci",
-      "agent-harness",
-      "terminal-agent"
+      "mcp-acp-a2a",
+      "context-engineering",
+      "testing-review-ci"
     ],
     "target_tools": [
-      "codex-cli",
-      "cursor"
+      "codex-cli"
     ],
     "concepts": [],
     "summary": "Exa result for: OpenAI Codex CLI GitHub projects open source extensions",
@@ -20266,19 +20284,19 @@
     "languages": [],
     "tags": [],
     "score": {
-      "ecosystem_value": 3,
+      "ecosystem_value": 4,
       "activity": 1,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: openai/codex: Lightweight coding agent that runs in your terminal\nURL: https://github.com/openai/codex\nPublished: 2025-04-13T05:37:54.000Z\nAuthor: N/A\nHighlights:\nCodex CLI is a coding agent from OpenAI that runs locally on your computer. Codex CLI splash. If you want Codex in your code editor (VS Code, Cursor, ...\n\n---\n\nTitle: avometre/Codexpp\nURL: https://github.com/avometre/codexpp\nPublished: N/A\nAuthor: N/A\nHighlights:\n# avometre/Codexpp\n...\nCodexpp is an extension framework that turns the OpenAI Codex CLI into a structured, persona-driven workflow engine built for repeatable delivery. It delivers reusable slash commands, persona-driven guidance, and automatic MCP (Model Context Protocol) setup to make Codex sessions more productive and consistent.\n...\n- **Slash Commands:** TOML-based definitions surface as `cx:*` commands inside Codex CLI.\n- **Persona Mode:** Apply roles such as `system-architect`, `implementation-engineer`, or `code-reviewer` with a single flag.\n- **Automa",
+    "notes": "Title: avometre/Codexpp\nURL: https://github.com/avometre/codexpp\nPublished: N/A\nAuthor: N/A\nHighlights:\n# avometre/Codexpp\n...\nCodexpp is an extension framework that turns the OpenAI Codex CLI into a structured, persona-driven workflow engine built for repeatable delivery. It delivers reusable slash commands, persona-driven guidance, and automatic MCP (Model Context Protocol) setup to make Codex sessions more productive and consistent.\n...\n- **Slash Commands:** TOML-based definitions surface as `cx:*` commands inside Codex CLI.\n- **Persona Mode:** Apply roles such as `system-architect`, `implementation-engineer`, or `code-reviewer` with a single flag.\n- **Automatic Integration:** `codexpp codex install` wires commands, prompt files, and MCP profiles into Codex CLI.\n- **Prompt Templates:** Markdown-based prompts (YAML front matter + sectioned output) power every `cx:*` command and are auto-synchronized into Codex CLI.\n- **Template Validation:** Prompt placeholders are validated before e",
     "review_state": "unreviewed",
     "record_kind": "article",
     "source_quality": "verified",
     "ranking_scope": "learning-resource",
-    "total_score": 12
+    "total_score": 13
   },
   {
     "id": "exa-https-github-com-avometre-codexpp",
@@ -20287,13 +20305,12 @@
     "repo": null,
     "source_type": "exa",
     "category": [
-      "testing-review-ci",
-      "agent-harness",
-      "terminal-agent"
+      "mcp-acp-a2a",
+      "context-engineering",
+      "testing-review-ci"
     ],
     "target_tools": [
-      "codex-cli",
-      "cursor"
+      "codex-cli"
     ],
     "concepts": [],
     "summary": "Exa result for: OpenAI Codex CLI GitHub projects open source extensions",
@@ -20310,19 +20327,19 @@
     "languages": [],
     "tags": [],
     "score": {
-      "ecosystem_value": 3,
+      "ecosystem_value": 4,
       "activity": 1,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: openai/codex: Lightweight coding agent that runs in your terminal\nURL: https://github.com/openai/codex\nPublished: 2025-04-13T05:37:54.000Z\nAuthor: N/A\nHighlights:\nCodex CLI is a coding agent from OpenAI that runs locally on your computer. Codex CLI splash. If you want Codex in your code editor (VS Code, Cursor, ...\n\n---\n\nTitle: avometre/Codexpp\nURL: https://github.com/avometre/codexpp\nPublished: N/A\nAuthor: N/A\nHighlights:\n# avometre/Codexpp\n...\nCodexpp is an extension framework that turns the OpenAI Codex CLI into a structured, persona-driven workflow engine built for repeatable delivery. It delivers reusable slash commands, persona-driven guidance, and automatic MCP (Model Context Protocol) setup to make Codex sessions more productive and consistent.\n...\n- **Slash Commands:** TOML-based definitions surface as `cx:*` commands inside Codex CLI.\n- **Persona Mode:** Apply roles such as `system-architect`, `implementation-engineer`, or `code-reviewer` with a single flag.\n- **Automa",
+    "notes": "Title: avometre/Codexpp\nURL: https://github.com/avometre/codexpp\nPublished: N/A\nAuthor: N/A\nHighlights:\n# avometre/Codexpp\n...\nCodexpp is an extension framework that turns the OpenAI Codex CLI into a structured, persona-driven workflow engine built for repeatable delivery. It delivers reusable slash commands, persona-driven guidance, and automatic MCP (Model Context Protocol) setup to make Codex sessions more productive and consistent.\n...\n- **Slash Commands:** TOML-based definitions surface as `cx:*` commands inside Codex CLI.\n- **Persona Mode:** Apply roles such as `system-architect`, `implementation-engineer`, or `code-reviewer` with a single flag.\n- **Automatic Integration:** `codexpp codex install` wires commands, prompt files, and MCP profiles into Codex CLI.\n- **Prompt Templates:** Markdown-based prompts (YAML front matter + sectioned output) power every `cx:*` command and are auto-synchronized into Codex CLI.\n- **Template Validation:** Prompt placeholders are validated before e",
     "review_state": "unreviewed",
     "record_kind": "article",
     "source_quality": "verified",
     "ranking_scope": "learning-resource",
-    "total_score": 12
+    "total_score": 13
   },
   {
     "id": "exa-https-github-com-openai-codex-plugin-cc",
@@ -20331,13 +20348,12 @@
     "repo": null,
     "source_type": "exa",
     "category": [
-      "testing-review-ci",
-      "agent-harness",
-      "terminal-agent"
+      "mcp-acp-a2a",
+      "context-engineering",
+      "testing-review-ci"
     ],
     "target_tools": [
-      "codex-cli",
-      "cursor"
+      "codex-cli"
     ],
     "concepts": [],
     "summary": "Exa result for: OpenAI Codex CLI GitHub projects open source extensions",
@@ -20354,19 +20370,19 @@
     "languages": [],
     "tags": [],
     "score": {
-      "ecosystem_value": 3,
+      "ecosystem_value": 4,
       "activity": 1,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: openai/codex: Lightweight coding agent that runs in your terminal\nURL: https://github.com/openai/codex\nPublished: 2025-04-13T05:37:54.000Z\nAuthor: N/A\nHighlights:\nCodex CLI is a coding agent from OpenAI that runs locally on your computer. Codex CLI splash. If you want Codex in your code editor (VS Code, Cursor, ...\n\n---\n\nTitle: avometre/Codexpp\nURL: https://github.com/avometre/codexpp\nPublished: N/A\nAuthor: N/A\nHighlights:\n# avometre/Codexpp\n...\nCodexpp is an extension framework that turns the OpenAI Codex CLI into a structured, persona-driven workflow engine built for repeatable delivery. It delivers reusable slash commands, persona-driven guidance, and automatic MCP (Model Context Protocol) setup to make Codex sessions more productive and consistent.\n...\n- **Slash Commands:** TOML-based definitions surface as `cx:*` commands inside Codex CLI.\n- **Persona Mode:** Apply roles such as `system-architect`, `implementation-engineer`, or `code-reviewer` with a single flag.\n- **Automa",
+    "notes": "Title: avometre/Codexpp\nURL: https://github.com/avometre/codexpp\nPublished: N/A\nAuthor: N/A\nHighlights:\n# avometre/Codexpp\n...\nCodexpp is an extension framework that turns the OpenAI Codex CLI into a structured, persona-driven workflow engine built for repeatable delivery. It delivers reusable slash commands, persona-driven guidance, and automatic MCP (Model Context Protocol) setup to make Codex sessions more productive and consistent.\n...\n- **Slash Commands:** TOML-based definitions surface as `cx:*` commands inside Codex CLI.\n- **Persona Mode:** Apply roles such as `system-architect`, `implementation-engineer`, or `code-reviewer` with a single flag.\n- **Automatic Integration:** `codexpp codex install` wires commands, prompt files, and MCP profiles into Codex CLI.\n- **Prompt Templates:** Markdown-based prompts (YAML front matter + sectioned output) power every `cx:*` command and are auto-synchronized into Codex CLI.\n- **Template Validation:** Prompt placeholders are validated before e",
     "review_state": "unreviewed",
     "record_kind": "article",
     "source_quality": "verified",
     "ranking_scope": "learning-resource",
-    "total_score": 12
+    "total_score": 13
   },
   {
     "id": "exa-https-hermes-agent-nousresearch-com-docs-guides-use-mcp-with-hermes",
@@ -20803,7 +20819,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: fractalswift/opencode-context-manager\nURL: https://github.com/fractalswift/opencode-context-manager\nPublished: 2026-01-05T14:55:40.000Z\nAuthor: N/A\nHighlights:\nNo more wasting the first 20% of your session context asking the agent to explore your repo, and no more repeating yourself every session\n...\nThe agent will know\n...\nThis doesn't take many\n...\naway from your context as the structure is already summarized in markdown\n...\nThe Context Manager scans your repository and creates/updates **modular context files** in `.opencode/context/`. It always creates `repo-structure.md` with core project info, and optionally creates additional files for components, hooks, API endpoints, etc. based on what it discovers.\n...\nOnce installed, context files are **automatically included in every prompt**, giving the AI persistent knowledge about your project.\n...\n- **Dependencies & imports**: Symbol-level tracking (which functions imported from where)\n- **Project capabilities**: Database/ORM, aut",
+    "notes": "Title: frap129/opencode-rules\nURL: https://github.com/frap129/opencode-rules\nPublished: 2025-11-02T22:04:32.000Z\nAuthor: N/A\nHighlights:\nA lightweight OpenCode plugin that discovers and injects markdown rule files into AI agent system prompts, enabling flexible behavior customization without per-project configuration.\n...\nopencode-rules automatically loads rule files from standard directories and integrates them into AI agent prompts, allowing you to:\n...\nthat apply across all projects\n...\n- **Dual-format support**: Load rules from both `.md` and `.mdc` files\n...\n- **Conditional rules**: Apply rules based on file paths, prompt keywords, or available tools\n...\n- **Runtime filtering**: Filter rules by model, agent, command, project type, git branch, OS, and CI\n...\n- **Branch glob patterns**: Match branches using glob patterns (e.g., `\n...\n/*`, `release/**`)\n...\n- **Matching modes**: Use `match: any` (default) for OR logic or `match: all` for AND logic\n...\n- **Keyword matching**: Apply ru",
     "review_state": "unreviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -20847,7 +20863,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: fractalswift/opencode-context-manager\nURL: https://github.com/fractalswift/opencode-context-manager\nPublished: 2026-01-05T14:55:40.000Z\nAuthor: N/A\nHighlights:\nNo more wasting the first 20% of your session context asking the agent to explore your repo, and no more repeating yourself every session\n...\nThe agent will know\n...\nThis doesn't take many\n...\naway from your context as the structure is already summarized in markdown\n...\nThe Context Manager scans your repository and creates/updates **modular context files** in `.opencode/context/`. It always creates `repo-structure.md` with core project info, and optionally creates additional files for components, hooks, API endpoints, etc. based on what it discovers.\n...\nOnce installed, context files are **automatically included in every prompt**, giving the AI persistent knowledge about your project.\n...\n- **Dependencies & imports**: Symbol-level tracking (which functions imported from where)\n- **Project capabilities**: Database/ORM, aut",
+    "notes": "Title: frap129/opencode-rules\nURL: https://github.com/frap129/opencode-rules\nPublished: 2025-11-02T22:04:32.000Z\nAuthor: N/A\nHighlights:\nA lightweight OpenCode plugin that discovers and injects markdown rule files into AI agent system prompts, enabling flexible behavior customization without per-project configuration.\n...\nopencode-rules automatically loads rule files from standard directories and integrates them into AI agent prompts, allowing you to:\n...\nthat apply across all projects\n...\n- **Dual-format support**: Load rules from both `.md` and `.mdc` files\n...\n- **Conditional rules**: Apply rules based on file paths, prompt keywords, or available tools\n...\n- **Runtime filtering**: Filter rules by model, agent, command, project type, git branch, OS, and CI\n...\n- **Branch glob patterns**: Match branches using glob patterns (e.g., `\n...\n/*`, `release/**`)\n...\n- **Matching modes**: Use `match: any` (default) for OR logic or `match: all` for AND logic\n...\n- **Keyword matching**: Apply ru",
     "review_state": "unreviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -21366,7 +21382,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: GitHub - aaif-goose/goose: an open source, extensible AI agent that ...\nURL: https://github.com/aaif-goose/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you ...\n\n---\n\nTitle: aaif-goose/goose\nURL: https://github.com/Block/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\n# Repository: aaif-\n...\n/goose\n...\nan open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM\n...\n_your native open source AI agent — desktop app, CLI, and API — for code, workflows, and everything in between_\n\n \n  \n  \n  \n \n \n \n\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you need to get done.\n...\nA native desktop app for macOS, Linux, and Windows. A full CLI for t",
+    "notes": "Title: GitHub - aaif-goose/goose: an open source, extensible AI agent that ...\nURL: https://github.com/aaif-goose/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you ...\n\n---\n\nTitle: aaif-goose/goose\nURL: https://github.com/Block/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\n# Repository: aa\n...\nan open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM\n...\n_your native open source AI agent — desktop app, CLI, and API — for code, workflows, and everything in between_\n\n \n  \n  \n  \n \n \n \n\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you need to get done.\n...\nA native desktop app for macOS, Linux, and Windows. A full CLI for terminal workfl",
     "review_state": "unreviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -21895,7 +21911,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: Google Antigravity Documentation\nURL: https://antigravity.google/docs/cli/plugins\nPublished: N/A\nAuthor: N/A\nHighlights:\nExtend agent capabilities, install third-party extension bundles, package custom workflow skills, and interface with Model Context Protocol (MCP) servers.\n...\nAntigravity CLI is designed for limitless customization. You can augment the shared agent harness by installing structured package modules called Plugins or creating localized markdown blueprints called Skills.\n...\nPlugins are namespaced bundles that package custom skills, background subagents, linting rules, Model Context Protocol definitions, and event hooks into a single deployable asset.\n...\n```\n~/.gemini/antigravity-cli/\n...\n/<plugin_name>/\n...\n├── plugin.json                 # Required package marker file\n├── mcp_config.json             # Optional Model Context Protocol servers\n├── hooks.json                  # Optional pre/post tool event hooks\n├── skills/                     # Optional specialize",
+    "notes": "Title: Google Antigravity Documentation\nURL: https://antigravity.google/docs/cli/plugins\nPublished: N/A\nAuthor: N/A\nHighlights:\nExtend agent capabilities, install third-party extension bundles, package custom workflow skills, and interface with Model Context Protocol (MCP) servers.\n...\nAntigravity CLI is designed for limitless customization. You can augment the shared agent harness by installing structured package modules called Plugins or creating localized markdown blueprints called Skills.\n...\nPlugins are namespaced bundles that package custom skills, background subagents, linting rules, Model Context Protocol definitions, and event hooks into a single deployable asset.\n...\n```\n~/.gemini/antigravity-cli/\n...\n_name>/\n...\n├── plugin.json                 # Required package marker file\n├── mcp_config.json             # Optional Model Context Protocol servers\n├── hooks.json                  # Optional pre/post tool event hooks\n├── skills/                     # Optional specialized skills",
     "review_state": "unreviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -21941,7 +21957,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: Google Antigravity Documentation\nURL: https://antigravity.google/docs/cli/plugins\nPublished: N/A\nAuthor: N/A\nHighlights:\nExtend agent capabilities, install third-party extension bundles, package custom workflow skills, and interface with Model Context Protocol (MCP) servers.\n...\nAntigravity CLI is designed for limitless customization. You can augment the shared agent harness by installing structured package modules called Plugins or creating localized markdown blueprints called Skills.\n...\nPlugins are namespaced bundles that package custom skills, background subagents, linting rules, Model Context Protocol definitions, and event hooks into a single deployable asset.\n...\n```\n~/.gemini/antigravity-cli/\n...\n/<plugin_name>/\n...\n├── plugin.json                 # Required package marker file\n├── mcp_config.json             # Optional Model Context Protocol servers\n├── hooks.json                  # Optional pre/post tool event hooks\n├── skills/                     # Optional specialize",
+    "notes": "Title: Google Antigravity Documentation\nURL: https://antigravity.google/docs/cli/plugins\nPublished: N/A\nAuthor: N/A\nHighlights:\nExtend agent capabilities, install third-party extension bundles, package custom workflow skills, and interface with Model Context Protocol (MCP) servers.\n...\nAntigravity CLI is designed for limitless customization. You can augment the shared agent harness by installing structured package modules called Plugins or creating localized markdown blueprints called Skills.\n...\nPlugins are namespaced bundles that package custom skills, background subagents, linting rules, Model Context Protocol definitions, and event hooks into a single deployable asset.\n...\n```\n~/.gemini/antigravity-cli/\n...\n_name>/\n...\n├── plugin.json                 # Required package marker file\n├── mcp_config.json             # Optional Model Context Protocol servers\n├── hooks.json                  # Optional pre/post tool event hooks\n├── skills/                     # Optional specialized skills",
     "review_state": "unreviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -22834,7 +22850,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: Google Antigravity CLI: Orchestrating Parallel AI Agents | DataCamp\nURL: https://www.datacamp.com/tutorial/antigravity-cli\nPublished: 2026-05-22T09:30:00.000Z\nAuthor: N/A\nHighlights:\nIn this tutorial, we'll explore what's new in the Antigravity 2.0 ecosystem, then walk through a demo that showcases its most powerful capability, called dynamic subagents. We'll point the Antigravity CLI at a raw sales CSV, give it a single goal in natural language, and watch it spin up parallel subagents to clean, analyze, and visualize the data, producing a complete interactive HTML dashboard with no code.\n...\nFor terminal-native developers and automation workflows, the Antigravity CLI (invoked as `agy`) delivers the same agent harness in a lightweight, scriptable interface.\n...\nIt's the successor to Gemini CLI, and it's what we'll use in this tutorial. You point it at your data, describe your goal in plain English, and it handles everything else, including deciding how to decompose the task into",
+    "notes": "Title: Migrating to Antigravity CLI. Moving your agentic coding pipeline… | by Giovanni Galloro | Google Cloud - Community | Jun, 2026 | Medium\nURL: https://medium.com/google-cloud/migrating-to-antigravity-cli-a841c6964f37\nPublished: 2026-06-02T19:42:15.000Z\nAuthor: Giovanni Galloro\nHighlights:\nThis article guides you through migrating your existing agentic coding workflow from Gemini CLI to Antigravity CLI.\n\n---\n\nTitle: Google Antigravity CLI: Orchestrating Parallel AI Agents | DataCamp\nURL: https://www.datacamp.com/tutorial/antigravity-cli\nPublished: 2026-05-22T09:30:00.000Z\nAuthor: N/A\nHighlights:\nIn this tutorial, we'll explore what's new in the Antigravity 2.0 ecosystem, then walk through a demo that showcases its most powerful capability, called dynamic subagents. We'll point the Antigravity CLI at a raw sales CSV, give it a single goal in natural language, and watch it spin up parallel subagents to clean, analyze, and visualize the data, producing a complete interactive HTML das",
     "review_state": "unreviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -22875,7 +22891,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: Google Antigravity CLI: Orchestrating Parallel AI Agents | DataCamp\nURL: https://www.datacamp.com/tutorial/antigravity-cli\nPublished: 2026-05-22T09:30:00.000Z\nAuthor: N/A\nHighlights:\nIn this tutorial, we'll explore what's new in the Antigravity 2.0 ecosystem, then walk through a demo that showcases its most powerful capability, called dynamic subagents. We'll point the Antigravity CLI at a raw sales CSV, give it a single goal in natural language, and watch it spin up parallel subagents to clean, analyze, and visualize the data, producing a complete interactive HTML dashboard with no code.\n...\nFor terminal-native developers and automation workflows, the Antigravity CLI (invoked as `agy`) delivers the same agent harness in a lightweight, scriptable interface.\n...\nIt's the successor to Gemini CLI, and it's what we'll use in this tutorial. You point it at your data, describe your goal in plain English, and it handles everything else, including deciding how to decompose the task into",
+    "notes": "Title: Migrating to Antigravity CLI. Moving your agentic coding pipeline… | by Giovanni Galloro | Google Cloud - Community | Jun, 2026 | Medium\nURL: https://medium.com/google-cloud/migrating-to-antigravity-cli-a841c6964f37\nPublished: 2026-06-02T19:42:15.000Z\nAuthor: Giovanni Galloro\nHighlights:\nThis article guides you through migrating your existing agentic coding workflow from Gemini CLI to Antigravity CLI.\n\n---\n\nTitle: Google Antigravity CLI: Orchestrating Parallel AI Agents | DataCamp\nURL: https://www.datacamp.com/tutorial/antigravity-cli\nPublished: 2026-05-22T09:30:00.000Z\nAuthor: N/A\nHighlights:\nIn this tutorial, we'll explore what's new in the Antigravity 2.0 ecosystem, then walk through a demo that showcases its most powerful capability, called dynamic subagents. We'll point the Antigravity CLI at a raw sales CSV, give it a single goal in natural language, and watch it spin up parallel subagents to clean, analyze, and visualize the data, producing a complete interactive HTML das",
     "review_state": "unreviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -23125,7 +23141,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: GitHub - aaif-goose/goose: an open source, extensible AI agent that ...\nURL: https://github.com/aaif-goose/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you ...\n\n---\n\nTitle: aaif-goose/goose\nURL: https://github.com/Block/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\n# Repository: aaif-\n...\n/goose\n...\nan open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM\n...\n_your native open source AI agent — desktop app, CLI, and API — for code, workflows, and everything in between_\n\n \n  \n  \n  \n \n \n \n\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you need to get done.\n...\nA native desktop app for macOS, Linux, and Windows. A full CLI for t",
+    "notes": "Title: GitHub - aaif-goose/goose: an open source, extensible AI agent that ...\nURL: https://github.com/aaif-goose/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you ...\n\n---\n\nTitle: aaif-goose/goose\nURL: https://github.com/Block/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\n# Repository: aa\n...\nan open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM\n...\n_your native open source AI agent — desktop app, CLI, and API — for code, workflows, and everything in between_\n\n \n  \n  \n  \n \n \n \n\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you need to get done.\n...\nA native desktop app for macOS, Linux, and Windows. A full CLI for terminal workfl",
     "review_state": "unreviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -23167,7 +23183,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: GitHub - aaif-goose/goose: an open source, extensible AI agent that ...\nURL: https://github.com/aaif-goose/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you ...\n\n---\n\nTitle: aaif-goose/goose\nURL: https://github.com/Block/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\n# Repository: aaif-\n...\n/goose\n...\nan open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM\n...\n_your native open source AI agent — desktop app, CLI, and API — for code, workflows, and everything in between_\n\n \n  \n  \n  \n \n \n \n\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you need to get done.\n...\nA native desktop app for macOS, Linux, and Windows. A full CLI for t",
+    "notes": "Title: GitHub - aaif-goose/goose: an open source, extensible AI agent that ...\nURL: https://github.com/aaif-goose/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you ...\n\n---\n\nTitle: aaif-goose/goose\nURL: https://github.com/Block/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\n# Repository: aa\n...\nan open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM\n...\n_your native open source AI agent — desktop app, CLI, and API — for code, workflows, and everything in between_\n\n \n  \n  \n  \n \n \n \n\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you need to get done.\n...\nA native desktop app for macOS, Linux, and Windows. A full CLI for terminal workfl",
     "review_state": "unreviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -23209,7 +23225,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: GitHub - aaif-goose/goose: an open source, extensible AI agent that ...\nURL: https://github.com/aaif-goose/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you ...\n\n---\n\nTitle: aaif-goose/goose\nURL: https://github.com/Block/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\n# Repository: aaif-\n...\n/goose\n...\nan open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM\n...\n_your native open source AI agent — desktop app, CLI, and API — for code, workflows, and everything in between_\n\n \n  \n  \n  \n \n \n \n\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you need to get done.\n...\nA native desktop app for macOS, Linux, and Windows. A full CLI for t",
+    "notes": "Title: GitHub - aaif-goose/goose: an open source, extensible AI agent that ...\nURL: https://github.com/aaif-goose/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you ...\n\n---\n\nTitle: aaif-goose/goose\nURL: https://github.com/Block/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\n# Repository: aa\n...\nan open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM\n...\n_your native open source AI agent — desktop app, CLI, and API — for code, workflows, and everything in between_\n\n \n  \n  \n  \n \n \n \n\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you need to get done.\n...\nA native desktop app for macOS, Linux, and Windows. A full CLI for terminal workfl",
     "review_state": "unreviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -23251,7 +23267,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: GitHub - aaif-goose/goose: an open source, extensible AI agent that ...\nURL: https://github.com/aaif-goose/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you ...\n\n---\n\nTitle: aaif-goose/goose\nURL: https://github.com/Block/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\n# Repository: aaif-\n...\n/goose\n...\nan open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM\n...\n_your native open source AI agent — desktop app, CLI, and API — for code, workflows, and everything in between_\n\n \n  \n  \n  \n \n \n \n\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you need to get done.\n...\nA native desktop app for macOS, Linux, and Windows. A full CLI for t",
+    "notes": "Title: GitHub - aaif-goose/goose: an open source, extensible AI agent that ...\nURL: https://github.com/aaif-goose/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you ...\n\n---\n\nTitle: aaif-goose/goose\nURL: https://github.com/Block/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\n# Repository: aa\n...\nan open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM\n...\n_your native open source AI agent — desktop app, CLI, and API — for code, workflows, and everything in between_\n\n \n  \n  \n  \n \n \n \n\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you need to get done.\n...\nA native desktop app for macOS, Linux, and Windows. A full CLI for terminal workfl",
     "review_state": "unreviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -23293,7 +23309,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: GitHub - aaif-goose/goose: an open source, extensible AI agent that ...\nURL: https://github.com/aaif-goose/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you ...\n\n---\n\nTitle: aaif-goose/goose\nURL: https://github.com/Block/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\n# Repository: aaif-\n...\n/goose\n...\nan open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM\n...\n_your native open source AI agent — desktop app, CLI, and API — for code, workflows, and everything in between_\n\n \n  \n  \n  \n \n \n \n\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you need to get done.\n...\nA native desktop app for macOS, Linux, and Windows. A full CLI for t",
+    "notes": "Title: GitHub - aaif-goose/goose: an open source, extensible AI agent that ...\nURL: https://github.com/aaif-goose/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you ...\n\n---\n\nTitle: aaif-goose/goose\nURL: https://github.com/Block/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\n# Repository: aa\n...\nan open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM\n...\n_your native open source AI agent — desktop app, CLI, and API — for code, workflows, and everything in between_\n\n \n  \n  \n  \n \n \n \n\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you need to get done.\n...\nA native desktop app for macOS, Linux, and Windows. A full CLI for terminal workfl",
     "review_state": "unreviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -23335,7 +23351,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: GitHub - aaif-goose/goose: an open source, extensible AI agent that ...\nURL: https://github.com/aaif-goose/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you ...\n\n---\n\nTitle: aaif-goose/goose\nURL: https://github.com/Block/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\n# Repository: aaif-\n...\n/goose\n...\nan open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM\n...\n_your native open source AI agent — desktop app, CLI, and API — for code, workflows, and everything in between_\n\n \n  \n  \n  \n \n \n \n\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you need to get done.\n...\nA native desktop app for macOS, Linux, and Windows. A full CLI for t",
+    "notes": "Title: GitHub - aaif-goose/goose: an open source, extensible AI agent that ...\nURL: https://github.com/aaif-goose/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you ...\n\n---\n\nTitle: aaif-goose/goose\nURL: https://github.com/Block/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\n# Repository: aa\n...\nan open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM\n...\n_your native open source AI agent — desktop app, CLI, and API — for code, workflows, and everything in between_\n\n \n  \n  \n  \n \n \n \n\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you need to get done.\n...\nA native desktop app for macOS, Linux, and Windows. A full CLI for terminal workfl",
     "review_state": "unreviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -23377,7 +23393,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: GitHub - aaif-goose/goose: an open source, extensible AI agent that ...\nURL: https://github.com/aaif-goose/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you ...\n\n---\n\nTitle: aaif-goose/goose\nURL: https://github.com/Block/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\n# Repository: aaif-\n...\n/goose\n...\nan open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM\n...\n_your native open source AI agent — desktop app, CLI, and API — for code, workflows, and everything in between_\n\n \n  \n  \n  \n \n \n \n\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you need to get done.\n...\nA native desktop app for macOS, Linux, and Windows. A full CLI for t",
+    "notes": "Title: GitHub - aaif-goose/goose: an open source, extensible AI agent that ...\nURL: https://github.com/aaif-goose/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you ...\n\n---\n\nTitle: aaif-goose/goose\nURL: https://github.com/Block/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\n# Repository: aa\n...\nan open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM\n...\n_your native open source AI agent — desktop app, CLI, and API — for code, workflows, and everything in between_\n\n \n  \n  \n  \n \n \n \n\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you need to get done.\n...\nA native desktop app for macOS, Linux, and Windows. A full CLI for terminal workfl",
     "review_state": "unreviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -23419,7 +23435,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: GitHub - aaif-goose/goose: an open source, extensible AI agent that ...\nURL: https://github.com/aaif-goose/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you ...\n\n---\n\nTitle: aaif-goose/goose\nURL: https://github.com/Block/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\n# Repository: aaif-\n...\n/goose\n...\nan open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM\n...\n_your native open source AI agent — desktop app, CLI, and API — for code, workflows, and everything in between_\n\n \n  \n  \n  \n \n \n \n\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you need to get done.\n...\nA native desktop app for macOS, Linux, and Windows. A full CLI for t",
+    "notes": "Title: GitHub - aaif-goose/goose: an open source, extensible AI agent that ...\nURL: https://github.com/aaif-goose/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you ...\n\n---\n\nTitle: aaif-goose/goose\nURL: https://github.com/Block/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\n# Repository: aa\n...\nan open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM\n...\n_your native open source AI agent — desktop app, CLI, and API — for code, workflows, and everything in between_\n\n \n  \n  \n  \n \n \n \n\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you need to get done.\n...\nA native desktop app for macOS, Linux, and Windows. A full CLI for terminal workfl",
     "review_state": "unreviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -23461,7 +23477,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: GitHub - aaif-goose/goose: an open source, extensible AI agent that ...\nURL: https://github.com/aaif-goose/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you ...\n\n---\n\nTitle: aaif-goose/goose\nURL: https://github.com/Block/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\n# Repository: aaif-\n...\n/goose\n...\nan open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM\n...\n_your native open source AI agent — desktop app, CLI, and API — for code, workflows, and everything in between_\n\n \n  \n  \n  \n \n \n \n\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you need to get done.\n...\nA native desktop app for macOS, Linux, and Windows. A full CLI for t",
+    "notes": "Title: GitHub - aaif-goose/goose: an open source, extensible AI agent that ...\nURL: https://github.com/aaif-goose/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you ...\n\n---\n\nTitle: aaif-goose/goose\nURL: https://github.com/Block/goose\nPublished: 2024-08-23T19:03:36.000Z\nAuthor: N/A\nHighlights:\n# Repository: aa\n...\nan open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM\n...\n_your native open source AI agent — desktop app, CLI, and API — for code, workflows, and everything in between_\n\n \n  \n  \n  \n \n \n \n\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you need to get done.\n...\nA native desktop app for macOS, Linux, and Windows. A full CLI for terminal workfl",
     "review_state": "unreviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -23507,7 +23523,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: Best practices – Codex | OpenAI Developers\nURL: https://developers.openai.com/codex/learn/best-practices\nPublished: N/A\nAuthor: N/A\nHighlights:\nA useful way to think about this: start with the right task context, use `AGENTS.md` for durable guidance, configure Codex to match your workflow, connect external systems\n...\nMCP, turn repeated work into skills, and automate stable\n...\nA good default is to include four things in your prompt:\n...\n- Goal: What are you trying to change or build?\n- Context: Which files, folders, docs, examples, or errors matter for this task? You can @ mention certain files as context.\n- Constraints: What standards, architecture, safety requirements, or conventions should Codex follow?\n- Done when: What should be true before the task is complete, such as tests passing, behavior changing, or a bug no longer reproducing?\n...\nThink of `AGENTS.md` as an open-format README for agents. It loads into context automatically and is the best place to encode how you an",
+    "notes": "Title: Best practices – Codex | OpenAI Developers\nURL: https://developers.openai.com/codex/learn/best-practices\nPublished: N/A\nAuthor: N/A\nHighlights:\nA useful way to think about this: start with the right task context, use `AGENTS.md` for durable guidance, configure Codex to match your workflow, connect\n...\nMCP, turn repeated work into skills, and automate stable\n...\nA good default is to include four things in your prompt:\n...\n- Goal: What are you trying to change or build?\n- Context: Which files, folders, docs, examples, or errors matter for this task? You can @ mention certain files as context.\n- Constraints: What standards, architecture, safety requirements, or conventions should Codex follow?\n- Done when: What should be true before the task is complete, such as tests passing, behavior changing, or a bug no longer reproducing?\n...\nThink of `AGENTS.md` as an open-format README for agents. It loads into context automatically and is the best place to encode how you and your team want ",
     "review_state": "unreviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -23680,7 +23696,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: Effective context engineering for AI agents\nURL: https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents\nPublished: 2025-09-29T00:00:00.000Z\nAuthor: N/A\nHighlights:\nIn Claude Code, for example, we implement this by passing the message history to the model to summarize and compress the most critical details.\n\n---\n\nTitle: Context Engineering for Claude Code (2026) | Claude Code Guides\nURL: https://claudecodeguides.com/context-engineering-claude-code-complete-guide-2026/\nPublished: 2026-04-22T00:00:00.000Z\nAuthor: Michael Lip\nHighlights:\n1. Audit CLAUDE.md size – if it exceeds 500 tokens, split into a lean root file and`.claude/` subdirectory files that load on demand.\n2. Run`/compact` before starting any new task within an existing session – clears 60-80% of stale context.\n3. Specify file paths and line numbers in prompts – eliminates search-and-read discovery cycles that cost 1,000-3,000 tokens each.\n4. Remove unused MCP tool definitions – each definitio",
+    "notes": "Title: Effective context engineering for AI agents - Anthropic\nURL: https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents\nPublished: 2025-09-29T00:00:00.000Z\nAuthor: N/A\nHighlights:\nIn Claude Code, for example, we implement this by passing the message history to the model to summarize and compress the most critical details.\n\n---\n\nTitle: Context Engineering for Claude Code (2026) | Claude Code Guides\nURL: https://claudecodeguides.com/context-engineering-claude-code-complete-guide-2026/\nPublished: 2026-04-22T00:00:00.000Z\nAuthor: Michael Lip\nHighlights:\n1. Audit CLAUDE.md size – if it exceeds 500 tokens, split into a lean root file and`.claude/` subdirectory files that load on demand.\n2. Run`/compact` before starting any new task within an existing session – clears 60-80% of stale context.\n3. Specify file paths and line numbers in prompts – eliminates search-and-read discovery cycles that cost 1,000-3,000 tokens each.\n4. Remove unused MCP tool definitions – ea",
     "review_state": "unreviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -24423,7 +24439,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: Effective context engineering for AI agents\nURL: https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents\nPublished: 2025-09-29T00:00:00.000Z\nAuthor: N/A\nHighlights:\nIn Claude Code, for example, we implement this by passing the message history to the model to summarize and compress the most critical details.\n\n---\n\nTitle: Context Engineering for Claude Code (2026) | Claude Code Guides\nURL: https://claudecodeguides.com/context-engineering-claude-code-complete-guide-2026/\nPublished: 2026-04-22T00:00:00.000Z\nAuthor: Michael Lip\nHighlights:\n1. Audit CLAUDE.md size – if it exceeds 500 tokens, split into a lean root file and`.claude/` subdirectory files that load on demand.\n2. Run`/compact` before starting any new task within an existing session – clears 60-80% of stale context.\n3. Specify file paths and line numbers in prompts – eliminates search-and-read discovery cycles that cost 1,000-3,000 tokens each.\n4. Remove unused MCP tool definitions – each definitio",
+    "notes": "Title: Effective context engineering for AI agents - Anthropic\nURL: https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents\nPublished: 2025-09-29T00:00:00.000Z\nAuthor: N/A\nHighlights:\nIn Claude Code, for example, we implement this by passing the message history to the model to summarize and compress the most critical details.\n\n---\n\nTitle: Context Engineering for Claude Code (2026) | Claude Code Guides\nURL: https://claudecodeguides.com/context-engineering-claude-code-complete-guide-2026/\nPublished: 2026-04-22T00:00:00.000Z\nAuthor: Michael Lip\nHighlights:\n1. Audit CLAUDE.md size – if it exceeds 500 tokens, split into a lean root file and`.claude/` subdirectory files that load on demand.\n2. Run`/compact` before starting any new task within an existing session – clears 60-80% of stale context.\n3. Specify file paths and line numbers in prompts – eliminates search-and-read discovery cycles that cost 1,000-3,000 tokens each.\n4. Remove unused MCP tool definitions – ea",
     "review_state": "unreviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -24467,7 +24483,7 @@
       "novelty": 2,
       "confidence": 3
     },
-    "notes": "Title: Effective context engineering for AI agents\nURL: https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents\nPublished: 2025-09-29T00:00:00.000Z\nAuthor: N/A\nHighlights:\nIn Claude Code, for example, we implement this by passing the message history to the model to summarize and compress the most critical details.\n\n---\n\nTitle: Context Engineering for Claude Code (2026) | Claude Code Guides\nURL: https://claudecodeguides.com/context-engineering-claude-code-complete-guide-2026/\nPublished: 2026-04-22T00:00:00.000Z\nAuthor: Michael Lip\nHighlights:\n1. Audit CLAUDE.md size – if it exceeds 500 tokens, split into a lean root file and`.claude/` subdirectory files that load on demand.\n2. Run`/compact` before starting any new task within an existing session – clears 60-80% of stale context.\n3. Specify file paths and line numbers in prompts – eliminates search-and-read discovery cycles that cost 1,000-3,000 tokens each.\n4. Remove unused MCP tool definitions – each definitio",
+    "notes": "Title: Effective context engineering for AI agents - Anthropic\nURL: https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents\nPublished: 2025-09-29T00:00:00.000Z\nAuthor: N/A\nHighlights:\nIn Claude Code, for example, we implement this by passing the message history to the model to summarize and compress the most critical details.\n\n---\n\nTitle: Context Engineering for Claude Code (2026) | Claude Code Guides\nURL: https://claudecodeguides.com/context-engineering-claude-code-complete-guide-2026/\nPublished: 2026-04-22T00:00:00.000Z\nAuthor: Michael Lip\nHighlights:\n1. Audit CLAUDE.md size – if it exceeds 500 tokens, split into a lean root file and`.claude/` subdirectory files that load on demand.\n2. Run`/compact` before starting any new task within an existing session – clears 60-80% of stale context.\n3. Specify file paths and line numbers in prompts – eliminates search-and-read discovery cycles that cost 1,000-3,000 tokens each.\n4. Remove unused MCP tool definitions – ea",
     "review_state": "unreviewed",
     "record_kind": "article",
     "source_quality": "verified",
@@ -25234,60 +25250,261 @@
     "total_score": 13
   },
   {
-    "id": "official-antigravity-cli",
-    "name": "Antigravity CLI / Gemini CLI",
-    "url": "https://antigravity.google/",
-    "repo": "google-gemini/gemini-cli",
-    "source_type": "official-seed",
+    "id": "exa-https-github-com-google-antigravity-antigravity-cli",
+    "name": "Antigravity CLI / Gemini CLI GitHub projects open source extensions",
+    "url": "https://github.com/google-antigravity/antigravity-cli",
+    "repo": null,
+    "source_type": "exa",
     "category": [
-      "official-tool",
+      "context-engineering",
+      "testing-review-ci",
+      "agent-harness",
       "terminal-agent"
     ],
     "target_tools": [
       "antigravity-cli"
     ],
-    "concepts": [
-      "multi-agent",
-      "a2a",
-      "mcp",
-      "plugins"
-    ],
-    "summary": "Official seed profile for Antigravity CLI / Gemini CLI",
-    "why_it_matters": "Primary target tool for the Search in Coding tracker.",
-    "status": "active",
+    "concepts": [],
+    "summary": "Exa result for: Antigravity CLI / Gemini CLI GitHub projects open source extensions",
+    "why_it_matters": "Semantic web discovery result for AI coding ecosystem tracking.",
+    "status": "unknown",
     "license": null,
     "stars": null,
     "forks": null,
-    "last_updated": "2026-07-06",
+    "last_updated": null,
     "first_seen": "2026-07-06",
     "last_seen": "2026-07-06",
     "maturity": "unknown",
-    "integration_surfaces": [
-      "plugins",
-      "skills",
-      "mcp",
-      "a2a",
-      "hooks",
-      "subagents"
-    ],
+    "integration_surfaces": [],
     "languages": [],
-    "tags": [
-      "target-tool",
-      "official-seed"
-    ],
+    "tags": [],
     "score": {
-      "ecosystem_value": 5,
-      "activity": 3,
-      "adoption": 3,
-      "practicality": 5,
-      "novelty": 3,
-      "confidence": 5
+      "ecosystem_value": 4,
+      "activity": 1,
+      "adoption": 1,
+      "practicality": 2,
+      "novelty": 2,
+      "confidence": 3
     },
-    "notes": "",
-    "review_state": "reviewed",
-    "record_kind": "official-tool",
+    "notes": "Title: Antigravity CLI\nURL: https://github.com/google-antigravity/antigravity-cli\nPublished: 2026-05-13T17:38:00.000Z\nAuthor: N/A\nHighlights:\nAntigravity CLI brings the reasoning, execution, and orchestration capabilities of Antigravity agent harness directly into your terminal.\n\n---\n\nTitle: Joonghyun-Lee-Frieren/oh-my-antigravity\nURL: https://github.com/Joonghyun-Lee-Frieren/oh-my-gemini-cli\nPublished: N/A\nAuthor: N/A\nHighlights:\nContext-engineering-powered multi-agent team workflow pack for Antigravity CLI.\n...\n- agent-skills\n- agentic-ai\n- agentic-workflow\n- antigravity\n- antigravity-cli\n- antigravity-ide\n- antigravity-plugin\n- gemini\n- gemini-cli\n- gemini-cli-extensions\n- geminicli\n- multi-agent\n- oh-my-antigravity\n- oh-my-gemini-cli\n- plugins\n- skills\n...\n# oh-my-antigravity (OmA)\n...\n[![Gemini Extension](https://img.shields.io/badge/Gemini-Extension-0d8a83)](https://geminicli.com/extensions/?name=Joonghyun-Lee-Frierenoh-my-antigravity)\n...\n> [!IMPORTANT]\n> **Antigravity CLI:** Ge",
+    "review_state": "unreviewed",
+    "record_kind": "article",
     "source_quality": "verified",
-    "ranking_scope": "official"
+    "ranking_scope": "learning-resource",
+    "total_score": 13
+  },
+  {
+    "id": "exa-https-github-com-shiyong-tan-opencodegui",
+    "name": "OpenCode GitHub projects open source extensions",
+    "url": "https://github.com/Shiyong-Tan/OpenCodeGUI",
+    "repo": null,
+    "source_type": "exa",
+    "category": [
+      "testing-review-ci"
+    ],
+    "target_tools": [
+      "opencode"
+    ],
+    "concepts": [],
+    "summary": "Exa result for: OpenCode GitHub projects open source extensions",
+    "why_it_matters": "Semantic web discovery result for AI coding ecosystem tracking.",
+    "status": "unknown",
+    "license": null,
+    "stars": null,
+    "forks": null,
+    "last_updated": null,
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "maturity": "unknown",
+    "integration_surfaces": [],
+    "languages": [],
+    "tags": [],
+    "score": {
+      "ecosystem_value": 3,
+      "activity": 1,
+      "adoption": 1,
+      "practicality": 2,
+      "novelty": 2,
+      "confidence": 3
+    },
+    "notes": "Title: l3aro/vscode-opencode-connector\nURL: https://github.com/l3aro/vscode-opencode-connector\nPublished: 2026-02-12T18:00:03.000Z\nAuthor: N/A\nHighlights:\n# Repository: l3aro/vscode-opencode-connector\n...\nIntegrates the OpenCode TUI directly into your vscode-based IDE workflow.\n...\n# OpenCode Connector\n...\n**This extension integrates the OpenCode TUI directly into your VS Code workflow.**\n...\nchoose between a great editor (\n...\n(OpenCode\n...\n| Command | Description | Keyboard Shortcut |\n| --- | --- | --- |\n| `OpenCode: Add to Prompt` | Send the current file reference (e.g., `@src/main.ts#L10-L20`) to the TUI | `Ctrl+Shift+A` / `Cmd+Shift+A` |\n| `OpenCode: Add Selection to Prompt` | Send the selected code range (e.g., `@src/main.ts#L10-L20`) to the TUI | Right-click in editor |\n| `OpenCode: Select Files to Add` | Open a file picker to select multiple files to add to the prompt | `Ctrl+Shift+Alt+A` / `Cmd+Shift+Alt+A` |\n| `OpenCode: Open in OpenCode` | Open an OpenCode instance for the c",
+    "review_state": "unreviewed",
+    "record_kind": "article",
+    "source_quality": "verified",
+    "ranking_scope": "learning-resource",
+    "total_score": 12
+  },
+  {
+    "id": "exa-https-opencode-school-lessons-plugins",
+    "name": "OpenCode ecosystem extensions plugins MCP skills rules best practices",
+    "url": "https://opencode.school/lessons/plugins/",
+    "repo": null,
+    "source_type": "exa",
+    "category": [
+      "mcp-acp-a2a",
+      "skills-prompts",
+      "rules-instructions",
+      "testing-review-ci"
+    ],
+    "target_tools": [
+      "opencode"
+    ],
+    "concepts": [],
+    "summary": "Exa result for: OpenCode ecosystem extensions plugins MCP skills rules best practices",
+    "why_it_matters": "Semantic web discovery result for AI coding ecosystem tracking.",
+    "status": "unknown",
+    "license": null,
+    "stars": null,
+    "forks": null,
+    "last_updated": null,
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "maturity": "unknown",
+    "integration_surfaces": [],
+    "languages": [],
+    "tags": [],
+    "score": {
+      "ecosystem_value": 4,
+      "activity": 1,
+      "adoption": 1,
+      "practicality": 2,
+      "novelty": 2,
+      "confidence": 3
+    },
+    "notes": "Title: Ecosystem | OpenCode\nURL: https://opencode.ai/docs/ecosystem/\nPublished: N/A\nAuthor: N/A\nHighlights:\n| Name | Description |\n| --- | --- |\n| opencode-daytona | Automatically run OpenCode sessions in isolated Daytona sandboxes with git sync and live previews |\n| opencode-helicone-session | Automatically inject Helicone session headers for request grouping |\n| opencode-type-inject | Auto-inject TypeScript/Svelte types into file reads with lookup tools |\n...\nPlus/Pro\n...\ncredits |\n...\nclones and auto-assigned ports\n...\nigravity OAuth\n...\n, with support for Google Search, and more robust API handling |\n...\n| oh-my-opencode | Background agents, pre-built LSP/AST/MCP tools, curated agents, Claude Code compatible |\n...\n| opencode-skillful | Allow OpenCode agents to lazy load prompts on demand with skill discovery and injection |\n...\n| @openspoon/subtask2 | Extend opencode /commands into a powerful orchestration system with granular flow control |\n...\n| opencode-conductor | Protocol-Driv",
+    "review_state": "unreviewed",
+    "record_kind": "article",
+    "source_quality": "verified",
+    "ranking_scope": "learning-resource",
+    "total_score": 13
+  },
+  {
+    "id": "exa-https-docs-anthropic-com-en-docs-cla",
+    "name": "Claude Code GitHub projects open source extensions",
+    "url": "https://docs.anthropic.com/en/docs/cla",
+    "repo": null,
+    "source_type": "exa",
+    "category": [
+      "testing-review-ci",
+      "benchmark-evaluation",
+      "agent-harness"
+    ],
+    "target_tools": [
+      "claude-code",
+      "opencode"
+    ],
+    "concepts": [],
+    "summary": "Exa result for: Claude Code GitHub projects open source extensions",
+    "why_it_matters": "Semantic web discovery result for AI coding ecosystem tracking.",
+    "status": "unknown",
+    "license": null,
+    "stars": null,
+    "forks": null,
+    "last_updated": null,
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "maturity": "unknown",
+    "integration_surfaces": [],
+    "languages": [],
+    "tags": [],
+    "score": {
+      "ecosystem_value": 3,
+      "activity": 1,
+      "adoption": 1,
+      "practicality": 2,
+      "novelty": 2,
+      "confidence": 3
+    },
+    "notes": "Title: nodnarbnitram/claude-code-extensions\nURL: https://github.com/nodnarbnitram/claude-code-extensions\nPublished: 2025-09-29T21:34:19.000Z\nAuthor: N/A\nHighlights:\nThese are a collection of extension for Claude Code that can typically also be used in opencode.\n...\n# Claude Code Extensions\n...\n> A comprehensive collection of production-ready agents, hooks, commands, and output styles for [Claude Code](https://claude.ai/code)\n...\nSupercharge your Claude Code experience with **60+ specialized agents**, **18 skills**, **8 lifecycle hooks**, **11 slash commands**, and powerful automation tools—all ready to install and customize.\n...\n## 📦 Available Plugins\n...\nThe repository now provides **21 self-contained plugins** for Claude Code marketplace installs:\n...\n| Plugin | Description | What's Included |\n| --- | --- | --- |\n| **cce-core** | Essential foundation | 13 agents (core, orchestrators, universal), 8 hooks, 2 skills, 8 commands |\n| **cce-kubernetes** | Kubernetes operations | 6 K8s heal",
+    "review_state": "unreviewed",
+    "record_kind": "article",
+    "source_quality": "verified",
+    "ranking_scope": "learning-resource",
+    "total_score": 12
+  },
+  {
+    "id": "exa-https-github-com-aaif-goose-goose-issues-4042",
+    "name": "Goose context engineering codebase indexing rules prompts",
+    "url": "https://github.com/aaif-goose/goose/issues/4042",
+    "repo": null,
+    "source_type": "exa",
+    "category": [
+      "rules-instructions",
+      "context-engineering",
+      "testing-review-ci"
+    ],
+    "target_tools": [
+      "goose"
+    ],
+    "concepts": [],
+    "summary": "Exa result for: Goose context engineering codebase indexing rules prompts",
+    "why_it_matters": "Semantic web discovery result for AI coding ecosystem tracking.",
+    "status": "unknown",
+    "license": null,
+    "stars": null,
+    "forks": null,
+    "last_updated": null,
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "maturity": "unknown",
+    "integration_surfaces": [],
+    "languages": [],
+    "tags": [],
+    "score": {
+      "ecosystem_value": 4,
+      "activity": 1,
+      "adoption": 1,
+      "practicality": 2,
+      "novelty": 2,
+      "confidence": 3
+    },
+    "notes": "Title: Feature: Tree-sitter Indexer · Pull Request #3389 · block/goose\nURL: https://github.com/block/goose/pull/3389\nPublished: 2025-07-13T05:21:52.000Z\nAuthor: dcieslak19973\nHighlights:\n- **New Feature:** Adds experimental Tree-sitter-based code indexing to Goose CLI, supporting Rust, Python, JavaScript, TypeScript, Go, C++, Java, C#, and Swift.\n- **New Command:** `goose repo` index for indexing repositories and generating a .goose-repo-index.jsonl file with extracted code entities (classes, functions, relationships, docstrings, etc.).\n- **New Module:** `repo.rs` implements the indexer.\n- **New Documentation:** `tree-sitter-indexing.md` details supported languages, extracted entities, and upgrade guidance.\n...\n- **New Subcommand:** Adds Repo subcommand to Goose CLI, with an index action for repository indexing.\n- **Refactoring:** Updates CLI argument parsing to support new subcommands and options.\n...\n- **Entity Extraction:** Richer extraction for Go, Python, and C++ (fields, generics",
+    "review_state": "unreviewed",
+    "record_kind": "article",
+    "source_quality": "verified",
+    "ranking_scope": "learning-resource",
+    "total_score": 13
+  },
+  {
+    "id": "exa-https-medium-com-google-cloud-migrating-to-antigravity-cli-a841c6964f37",
+    "name": "Antigravity CLI / Gemini CLI tutorial workflow agentic coding case study",
+    "url": "https://medium.com/google-cloud/migrating-to-antigravity-cli-a841c6964f37",
+    "repo": null,
+    "source_type": "exa",
+    "category": [
+      "agent-harness"
+    ],
+    "target_tools": [
+      "antigravity-cli"
+    ],
+    "concepts": [],
+    "summary": "Exa result for: Antigravity CLI / Gemini CLI tutorial workflow agentic coding case study",
+    "why_it_matters": "Semantic web discovery result for AI coding ecosystem tracking.",
+    "status": "unknown",
+    "license": null,
+    "stars": null,
+    "forks": null,
+    "last_updated": null,
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "maturity": "unknown",
+    "integration_surfaces": [],
+    "languages": [],
+    "tags": [],
+    "score": {
+      "ecosystem_value": 3,
+      "activity": 1,
+      "adoption": 1,
+      "practicality": 2,
+      "novelty": 2,
+      "confidence": 3
+    },
+    "notes": "Title: Migrating to Antigravity CLI. Moving your agentic coding pipeline… | by Giovanni Galloro | Google Cloud - Community | Jun, 2026 | Medium\nURL: https://medium.com/google-cloud/migrating-to-antigravity-cli-a841c6964f37\nPublished: 2026-06-02T19:42:15.000Z\nAuthor: Giovanni Galloro\nHighlights:\nThis article guides you through migrating your existing agentic coding workflow from Gemini CLI to Antigravity CLI.\n\n---\n\nTitle: Google Antigravity CLI: Orchestrating Parallel AI Agents | DataCamp\nURL: https://www.datacamp.com/tutorial/antigravity-cli\nPublished: 2026-05-22T09:30:00.000Z\nAuthor: N/A\nHighlights:\nIn this tutorial, we'll explore what's new in the Antigravity 2.0 ecosystem, then walk through a demo that showcases its most powerful capability, called dynamic subagents. We'll point the Antigravity CLI at a raw sales CSV, give it a single goal in natural language, and watch it spin up parallel subagents to clean, analyze, and visualize the data, producing a complete interactive HTML das",
+    "review_state": "unreviewed",
+    "record_kind": "article",
+    "source_quality": "verified",
+    "ranking_scope": "learning-resource",
+    "total_score": 12
   },
   {
     "id": "official-opencode",
@@ -25342,7 +25559,8 @@
     "review_state": "reviewed",
     "record_kind": "official-tool",
     "source_quality": "verified",
-    "ranking_scope": "official"
+    "ranking_scope": "official",
+    "total_score": 24
   },
   {
     "id": "official-qoder",
@@ -25396,7 +25614,8 @@
     "review_state": "reviewed",
     "record_kind": "official-tool",
     "source_quality": "verified",
-    "ranking_scope": "official"
+    "ranking_scope": "official",
+    "total_score": 24
   },
   {
     "id": "official-trae",
@@ -25450,6 +25669,7 @@
     "review_state": "reviewed",
     "record_kind": "official-tool",
     "source_quality": "verified",
-    "ranking_scope": "official"
+    "ranking_scope": "official",
+    "total_score": 24
   }
 ]
