@@ -603,3 +603,23 @@ production deploy: PASS
 - 使用真实 LLM/人工校订翻译替代规则化摘要。
 - 使用 embedding 做更强语义去重。
 - 将大型 raw archive 移到 GitHub Release assets。
+---
+
+## 11. P3-1 语义去重后续设计 — 2026-07-06
+
+已单独补充后续优化设计文档：
+
+```text
+docs/semantic-deduplication-plan.md
+```
+
+该文档覆盖：
+
+- TF-IDF baseline；
+- 本地 embedding 模型；
+- FAISS / 向量库可选路线；
+- duplicate candidate 数据结构；
+- pipeline 接入点；
+- apply 策略；
+- 测试计划；
+- Definition of Done。

@@ -203,3 +203,5 @@ GitHub Actions 也可以手动触发 `Update Data` workflow。
 - [`docs/data-api.md`](docs/data-api.md) | Public JSON data API |
 - [`docs/raw-data-retention.md`](docs/raw-data-retention.md) | Raw evidence retention/archive policy |
 - [`docs/ecosystem-tracker-template.md`](docs/ecosystem-tracker-template.md) | Reuse this project as an ecosystem tracker template |
+
+- [`docs/semantic-deduplication-plan.md`](docs/semantic-deduplication-plan.md) | Embedding / vector-library semantic deduplication plan |
