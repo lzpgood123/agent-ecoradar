@@ -45,25 +45,15 @@ The YAML files are JSON-compatible for stdlib parsing.
 
 Final reports live under `docs/reports/`.
 
-## Manual review
+## Automated maintenance
 
-最简单的人工审核方式：只看清单并回复编号选择。
-
-```text
-docs/review/review-queue.md
-```
-
-极简流程：
+本项目已切换为全自动维护模式，不再需要人工逐条审核。
 
 ```text
-docs/simple-review-flow.md
+docs/auto-maintenance-plan.md
 ```
 
-完整手册：
-
-```text
-docs/manual-review-guide.md
-```
+Hermes 每天收集 GitHub + Exa 信息并自动评分维护索引库；每周生成正式更新。用户只需要在需要时提出方向调整或要求立即更新。
 
 ## Site
 

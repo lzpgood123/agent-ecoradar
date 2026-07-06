@@ -30,25 +30,25 @@ Official tools are excluded.
 | 24 | P4nda0s/reverse-skills | github | try-now | 17 | skills-prompts | https://github.com/P4nda0s/reverse-skills |
 | 25 | skills-directory/skill-codex | github | try-now | 17 | skills-prompts, testing-review-ci | https://github.com/skills-directory/skill-codex |
 | 26 | onvoyage-ai/gtm-engineer-skills | github | try-now | 17 | skills-prompts, testing-review-ci, benchmark-evaluation | https://github.com/onvoyage-ai/gtm-engineer-skills |
-| 27 | iansinnott/obsidian-claude-code-mcp | github | try-now | 16 | mcp-acp-a2a, context-engineering, testing-review-ci | https://github.com/iansinnott/obsidian-claude-code-mcp |
-| 28 | undeadpickle/claude-code-mcpinstall | github | try-now | 16 | mcp-acp-a2a | https://github.com/undeadpickle/claude-code-mcpinstall |
-| 29 | auchenberg/claude-code-mcp | github | try-now | 16 | mcp-acp-a2a | https://github.com/auchenberg/claude-code-mcp |
-| 30 | mverab/eGEOagents | github | try-now | 16 | mcp-acp-a2a, agent-harness | https://github.com/mverab/eGEOagents |
-| 31 | grahama1970/claude-code-mcp-enhanced | github | try-now | 16 | mcp-acp-a2a, testing-review-ci | https://github.com/grahama1970/claude-code-mcp-enhanced |
-| 32 | willccbb/claude-code-mcp | github | try-now | 16 | mcp-acp-a2a | https://github.com/willccbb/claude-code-mcp |
-| 33 | Sven-LI-sankyuu/presentation-skills | github | try-now | 16 | skills-prompts, testing-review-ci | https://github.com/Sven-LI-sankyuu/presentation-skills |
-| 34 | jMerta/codex-skills | github | try-now | 16 | skills-prompts | https://github.com/jMerta/codex-skills |
-| 35 | gemini-cli-extensions/conductor | github | try-now | 16 | benchmark-evaluation | https://github.com/gemini-cli-extensions/conductor |
-| 36 | jduncan-rva/skill-porter | github | try-now | 16 | skills-prompts | https://github.com/jduncan-rva/skill-porter |
-| 37 | NeekChaw/RIPER-5 | github | try-now | 16 | tutorial-case-study | https://github.com/NeekChaw/RIPER-5 |
-| 38 | RayFernando1337/llm-cursor-rules | github | try-now | 16 | rules-instructions | https://github.com/RayFernando1337/llm-cursor-rules |
-| 39 | thehimel/cursor-rules-and-prompts | github | try-now | 16 | rules-instructions, testing-review-ci | https://github.com/thehimel/cursor-rules-and-prompts |
-| 40 | AnkleBreaker-Studio/unity-mcp-plugin | github | try-now | 16 | mcp-acp-a2a, testing-review-ci | https://github.com/AnkleBreaker-Studio/unity-mcp-plugin |
+| 27 | iansinnott/obsidian-claude-code-mcp | github | watch | 16 | mcp-acp-a2a, context-engineering, testing-review-ci | https://github.com/iansinnott/obsidian-claude-code-mcp |
+| 28 | undeadpickle/claude-code-mcpinstall | github | watch | 16 | mcp-acp-a2a | https://github.com/undeadpickle/claude-code-mcpinstall |
+| 29 | auchenberg/claude-code-mcp | github | watch | 16 | mcp-acp-a2a | https://github.com/auchenberg/claude-code-mcp |
+| 30 | mverab/eGEOagents | github | watch | 16 | mcp-acp-a2a, agent-harness | https://github.com/mverab/eGEOagents |
+| 31 | grahama1970/claude-code-mcp-enhanced | github | watch | 16 | mcp-acp-a2a, testing-review-ci | https://github.com/grahama1970/claude-code-mcp-enhanced |
+| 32 | willccbb/claude-code-mcp | github | watch | 16 | mcp-acp-a2a | https://github.com/willccbb/claude-code-mcp |
+| 33 | Sven-LI-sankyuu/presentation-skills | github | watch | 16 | skills-prompts, testing-review-ci | https://github.com/Sven-LI-sankyuu/presentation-skills |
+| 34 | jMerta/codex-skills | github | watch | 16 | skills-prompts | https://github.com/jMerta/codex-skills |
+| 35 | gemini-cli-extensions/conductor | github | watch | 16 | benchmark-evaluation | https://github.com/gemini-cli-extensions/conductor |
+| 36 | jduncan-rva/skill-porter | github | watch | 16 | skills-prompts | https://github.com/jduncan-rva/skill-porter |
+| 37 | NeekChaw/RIPER-5 | github | watch | 16 | tutorial-case-study | https://github.com/NeekChaw/RIPER-5 |
+| 38 | RayFernando1337/llm-cursor-rules | github | watch | 16 | rules-instructions | https://github.com/RayFernando1337/llm-cursor-rules |
+| 39 | thehimel/cursor-rules-and-prompts | github | watch | 16 | rules-instructions, testing-review-ci | https://github.com/thehimel/cursor-rules-and-prompts |
+| 40 | AnkleBreaker-Studio/unity-mcp-plugin | github | watch | 16 | mcp-acp-a2a, testing-review-ci | https://github.com/AnkleBreaker-Studio/unity-mcp-plugin |
 | 41 | cosmicstack-labs/mercury-agent-skills | github | watch | 16 | skills-prompts, agent-harness | https://github.com/cosmicstack-labs/mercury-agent-skills |
 | 42 | DavidBB-L/cinema-manager | github | watch | 16 | skills-prompts, agent-harness | https://github.com/DavidBB-L/cinema-manager |
-| 43 | Forlives/21-day-self-interview | github | watch | 16 | skills-prompts, agent-harness | https://github.com/Forlives/21-day-self-interview |
-| 44 | Mindrally/skills | github | watch | 16 | skills-prompts, rules-instructions | https://github.com/Mindrally/skills |
-| 45 | alchaincyf/cursor-rules-huasheng | github | watch | 16 | rules-instructions | https://github.com/alchaincyf/cursor-rules-huasheng |
+| 43 | ricky-theseus/DaisyWriter | github | watch | 15 | skills-prompts | https://github.com/ricky-theseus/DaisyWriter |
+| 44 | waynesutton/promptstack | github | watch | 15 | rules-instructions, testing-review-ci | https://github.com/waynesutton/promptstack |
+| 45 | yinqd3/workbuddy-skills | github | watch | 15 | skills-prompts, agent-harness | https://github.com/yinqd3/workbuddy-skills |
 | 46 | Qoder / QoderWork GitHub projects open source extensions | exa | reference | 13 | skills-prompts, testing-review-ci, agent-harness | https://github.com/tianhao909/qoderwork-e-signature |
 | 47 | Qoder / QoderWork GitHub projects open source extensions | exa | reference | 13 | skills-prompts, testing-review-ci, agent-harness | https://www.npmjs.com/package/docx |
 | 48 | Qoder / QoderWork GitHub projects open source extensions | exa | reference | 13 | skills-prompts, testing-review-ci, agent-harness | https://www.npmjs.com/package/word-extractor |
