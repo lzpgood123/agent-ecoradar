@@ -1,6 +1,6 @@
 # Source Quality Audit — 2026-07-06
 
-- Verified records: 146
+- Verified records: 431
 - Fallback records: 147
 - Unverified records: 0
 - Rejected/noisy records: 25

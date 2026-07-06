@@ -6,62 +6,64 @@ Search in Coding final-delivery package is built with quality gates, curated dat
 
 ## Metrics
 
-- Normalized records: 293
+- Normalized records: 578
 - Curated records: 60
 - Rejected/noisy records: 25
-- GitHub records: 136
+- GitHub records: 259
 - Fallback web records: 147
 - Official seed records: 10
-- Exa records: 0
+- Exa records: 162
 
 ## Source counts
 
+- exa: 162
 - fallback-web: 147
-- github: 136
+- github: 259
 - official-seed: 10
 
 ## Record kinds
 
-- ecosystem-project: 136
+- article: 162
+- ecosystem-project: 259
 - fallback-result: 106
 - official-tool: 10
 - tutorial: 41
 
 ## Ranking scopes
 
-- ecosystem: 136
+- ecosystem: 259
 - excluded: 25
-- learning-resource: 122
+- learning-resource: 284
 - official: 10
 
 ## Tool coverage
 
-- antigravity-cli: 34
-- claude-code: 46
-- codex-cli: 30
-- cursor: 26
-- general-ai-coding: 32
-- goose: 21
-- hermes-agent: 17
-- opencode: 24
-- qoder: 41
-- trae: 10
-- workbuddy-codebuddy: 37
+- antigravity-cli: 64
+- claude-code: 104
+- codex-cli: 60
+- cursor: 72
+- general-ai-coding: 58
+- goose: 39
+- hermes-agent: 48
+- opencode: 53
+- qoder: 55
+- trae: 25
+- workbuddy-codebuddy: 53
 
 ## Category coverage
 
-- agent-harness: 153
+- agent-harness: 328
 - ai-ide: 4
-- benchmark-evaluation: 10
-- context-engineering: 33
-- mcp-acp-a2a: 79
+- benchmark-evaluation: 35
+- context-engineering: 105
+- mcp-acp-a2a: 162
 - official-tool: 10
 - persistent-agent: 1
-- rules-instructions: 62
-- skills-prompts: 95
-- terminal-agent: 13
-- testing-review-ci: 125
-- tutorial-case-study: 19
+- rules-instructions: 130
+- skills-prompts: 184
+- terminal-agent: 28
+- testing-review-ci: 316
+- tutorial-case-study: 25
 
 ## Top ecosystem projects (official tools excluded)
 
@@ -79,12 +81,12 @@ Search in Coding final-delivery package is built with quality gates, curated dat
 12. [flyeric0212/cursor-rules](https://github.com/flyeric0212/cursor-rules) — score 17 — rules-instructions
 13. [sceneview/sceneview](https://github.com/sceneview/sceneview) — score 17 — mcp-acp-a2a, rules-instructions
 14. [instructa/ai-prompts](https://github.com/instructa/ai-prompts) — score 17 — rules-instructions, testing-review-ci
-15. [iansinnott/obsidian-claude-code-mcp](https://github.com/iansinnott/obsidian-claude-code-mcp) — score 16 — mcp-acp-a2a, context-engineering, testing-review-ci
-16. [undeadpickle/claude-code-mcpinstall](https://github.com/undeadpickle/claude-code-mcpinstall) — score 16 — mcp-acp-a2a
-17. [auchenberg/claude-code-mcp](https://github.com/auchenberg/claude-code-mcp) — score 16 — mcp-acp-a2a
-18. [mverab/eGEOagents](https://github.com/mverab/eGEOagents) — score 16 — mcp-acp-a2a, agent-harness
-19. [grahama1970/claude-code-mcp-enhanced](https://github.com/grahama1970/claude-code-mcp-enhanced) — score 16 — mcp-acp-a2a, testing-review-ci
-20. [willccbb/claude-code-mcp](https://github.com/willccbb/claude-code-mcp) — score 16 — mcp-acp-a2a
+15. [glitternetwork/pinme](https://github.com/glitternetwork/pinme) — score 17 — skills-prompts
+16. [taishi-i/awesome-ChatGPT-repositories](https://github.com/taishi-i/awesome-ChatGPT-repositories) — score 17 — skills-prompts
+17. [nowork-studio/NotFair](https://github.com/nowork-studio/NotFair) — score 17 — skills-prompts
+18. [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) — score 17 — skills-prompts, testing-review-ci
+19. [lackeyjb/playwright-skill](https://github.com/lackeyjb/playwright-skill) — score 17 — skills-prompts
+20. [dominikmartn/nothing-design-skill](https://github.com/dominikmartn/nothing-design-skill) — score 17 — skills-prompts
 
 ## Exa status
 
