@@ -1,0 +1,49 @@
+{
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "url",
+    "source_type",
+    "category",
+    "target_tools",
+    "summary",
+    "review_state"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "repo": {},
+    "source_type": {
+      "type": "string"
+    },
+    "category": {
+      "type": "array"
+    },
+    "target_tools": {
+      "type": "array"
+    },
+    "concepts": {
+      "type": "array"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "why_it_matters": {
+      "type": "string"
+    },
+    "score": {
+      "type": "object"
+    },
+    "review_state": {
+      "type": "string"
+    }
+  }
+}

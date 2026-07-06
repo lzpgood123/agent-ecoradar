@@ -1,0 +1,25 @@
+{
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "type"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "preferred_tool": {
+      "type": "string"
+    },
+    "raw_dir": {
+      "type": "string"
+    }
+  }
+}

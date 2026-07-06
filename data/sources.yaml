@@ -1,0 +1,28 @@
+[
+  {
+    "id": "github",
+    "name": "GitHub",
+    "type": "code-hosting",
+    "preferred_tool": "gh",
+    "raw_dir": "data/raw/github"
+  },
+  {
+    "id": "exa",
+    "name": "Exa Semantic Search",
+    "type": "semantic-web-search",
+    "preferred_tool": "mcporter call exa.web_search_exa",
+    "raw_dir": "data/raw/exa"
+  },
+  {
+    "id": "official-docs",
+    "name": "Official docs and changelogs",
+    "type": "official",
+    "raw_dir": "data/raw/web"
+  },
+  {
+    "id": "community",
+    "name": "Community blogs/forums/videos",
+    "type": "community",
+    "raw_dir": "data/raw/web"
+  }
+]

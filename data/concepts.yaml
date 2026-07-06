@@ -1,0 +1,52 @@
+[
+  {
+    "id": "agentic-coding",
+    "name": "Agentic Coding",
+    "description": "AI agents that plan, edit files, run commands, test, and iterate."
+  },
+  {
+    "id": "context-engineering",
+    "name": "Context Engineering",
+    "description": "Preparing instructions, repo maps, memory, docs and retrieval for coding agents."
+  },
+  {
+    "id": "mcp",
+    "name": "Model Context Protocol",
+    "description": "Protocol for connecting tools and data sources to AI agents."
+  },
+  {
+    "id": "skills",
+    "name": "Skills",
+    "description": "Reusable packaged agent workflows, prompts, references and scripts."
+  },
+  {
+    "id": "rules-instructions",
+    "name": "Rules / Instructions",
+    "description": "CLAUDE.md, AGENTS.md, Cursor rules and similar behavioral guidance."
+  },
+  {
+    "id": "multi-agent",
+    "name": "Multi-agent Coding",
+    "description": "Planner/builder/reviewer/tester agent collaboration."
+  },
+  {
+    "id": "spec-driven-development",
+    "name": "Spec-driven Development",
+    "description": "Requirements and specs drive implementation by agents."
+  },
+  {
+    "id": "codebase-indexing",
+    "name": "Codebase Indexing",
+    "description": "Code graph, repo map, semantic search and RAG for repositories."
+  },
+  {
+    "id": "ai-pr-review",
+    "name": "AI PR Review",
+    "description": "AI review and automation for pull requests."
+  },
+  {
+    "id": "sandbox",
+    "name": "Sandbox / Policy",
+    "description": "Execution restrictions, approvals and security controls."
+  }
+]

@@ -1,0 +1,94 @@
+#!/usr/bin/env python3
+import argparse, json, re
+from pathlib import Path
+from common import ROOT, load_jsonish, save_jsonish, slug, score_from_stars
+CATS=[('mcp','mcp-acp-a2a'),('skill','skills-prompts'),('rules','rules-instructions'),('AGENTS.md','rules-instructions'),('CLAUDE.md','rules-instructions'),('context','context-engineering'),('index','context-engineering'),('review','testing-review-ci'),('PR','testing-review-ci'),('spec','benchmark-evaluation'),('agent','agent-harness')]
+
+def target_tools_for(text, tools):
+    low=text.lower(); ids=[]
+    for t in tools:
+        if any(a.lower() in low for a in t.get('aliases',[])+[t.get('name','')]): ids.append(t['id'])
+    return ids or ['general-ai-coding']
+
+def categories_for(text):
+    cats=[]; low=text.lower()
+    for key,cat in CATS:
+        if key.lower() in low and cat not in cats: cats.append(cat)
+    if 'terminal' in low and 'terminal-agent' not in cats: cats.append('terminal-agent')
+    return cats or ['tutorial-case-study']
+
+def from_github():
+    tools=load_jsonish('data/seed-tools.yaml')
+    recs=[]
+    for d in (ROOT/'data/raw/github').glob('*'):
+        for p in d.glob('*.json'):
+            if p.name.endswith('-error.json'): continue
+            data=json.loads(p.read_text(encoding='utf-8'))
+            items=data if isinstance(data,list) else data.get('results', data if isinstance(data, list) else [])
+            if p.name=='repo-details.json': items=data
+            for it in items:
+                fn=it.get('fullName') or it.get('nameWithOwner')
+                url=it.get('url') or (f'https://github.com/{fn}' if fn else None)
+                name=fn or it.get('name') or url
+                if not url or not name: continue
+                desc=it.get('description') or ''
+                text=f'{name} {desc}'
+                stars=it.get('stargazersCount', it.get('stargazerCount'))
+                recs.append({'id':slug('github-'+name),'name':name,'url':url,'repo':fn,'source_type':'github','category':categories_for(text),'target_tools':target_tools_for(text, tools),'concepts':[],'summary':desc[:240] or name,'why_it_matters':'Discovered via GitHub search for AI coding agent ecosystem queries.','status':'archived' if it.get('isArchived') else 'unknown','license':(it.get('licenseInfo') or {}).get('spdxId') if isinstance(it.get('licenseInfo'),dict) else None,'stars':stars,'forks':it.get('forkCount'),'last_updated':it.get('updatedAt') or it.get('pushedAt'),'first_seen':None,'last_seen':None,'maturity':'unknown','integration_surfaces':[],'languages':[it.get('language') or ((it.get('primaryLanguage') or {}).get('name') if isinstance(it.get('primaryLanguage'),dict) else None)],'tags':[],'score':{'ecosystem_value':3,'activity':2,'adoption':score_from_stars(stars),'practicality':2,'novelty':2,'confidence':4},'notes':'','review_state':'unreviewed'})
+    return recs
+
+def from_exa():
+    tools=load_jsonish('data/seed-tools.yaml')
+    recs=[]
+    for d in (ROOT/'data/raw/exa').glob('*'):
+        for p in d.glob('*.json'):
+            data=json.loads(p.read_text(encoding='utf-8'))
+            q=data.get('query','')
+            out=(data.get('stdout') or '')[:4000]
+            # Extract URLs from raw mcporter output; if none, keep query evidence record.
+            urls=[]
+            for m in re.finditer(r'https?://[^\s\]}")]+', out):
+                u=m.group(0).rstrip('.,')
+                if u not in urls: urls.append(u)
+            if not urls and data.get('returncode')==0 and out.strip():
+                urls=[f'exa-query://{slug(q)}']
+            for u in urls[:10]:
+                text=q+' '+out[:500]
+                recs.append({'id':slug('exa-'+u),'name':q[:90],'url':u,'repo':None,'source_type':'exa','category':categories_for(text),'target_tools':target_tools_for(text, tools),'concepts':[],'summary':('Exa result for: '+q)[:240],'why_it_matters':'Semantic web discovery result for AI coding ecosystem tracking.','status':'unknown','license':None,'stars':None,'forks':None,'last_updated':None,'first_seen':None,'last_seen':None,'maturity':'unknown','integration_surfaces':[],'languages':[],'tags':[],'score':{'ecosystem_value':3,'activity':1,'adoption':1,'practicality':2,'novelty':2,'confidence':3},'notes':out[:1000],'review_state':'unreviewed'})
+    return recs
+
+
+def from_web():
+    tools=load_jsonish('data/seed-tools.yaml')
+    recs=[]
+    for d in (ROOT/'data/raw/web').glob('*'):
+        for p in d.glob('*.json'):
+            data=json.loads(p.read_text(encoding='utf-8'))
+            q=data.get('query','')
+            for it in data.get('results',[])[:20]:
+                u=it.get('url')
+                title=it.get('title') or q
+                snip=it.get('snippet') or ''
+                if not u: continue
+                text=f'{title} {snip} {q}'
+                recs.append({'id':slug('web-'+u),'name':title[:120],'url':u,'repo':None,'source_type':'fallback-web','category':categories_for(text),'target_tools':target_tools_for(text, tools),'concepts':[],'summary':snip[:240] or ('Fallback web result for: '+q)[:240],'why_it_matters':'Fallback web discovery result because Exa/mcporter was unavailable in this environment.','status':'unknown','license':None,'stars':None,'forks':None,'last_updated':None,'first_seen':None,'last_seen':None,'maturity':'unknown','integration_surfaces':[],'languages':[],'tags':['fallback-not-exa'],'score':{'ecosystem_value':2,'activity':1,'adoption':1,'practicality':2,'novelty':2,'confidence':2},'notes':q,'review_state':'unreviewed'})
+    return recs
+
+def main():
+    ap=argparse.ArgumentParser(description='Normalize raw collector outputs into data/projects.yaml')
+    ap.add_argument('--source', choices=['all','github','exa','web'], default='all')
+    args=ap.parse_args()
+    existing=load_jsonish('data/projects.yaml') if (ROOT/'data/projects.yaml').exists() else []
+    recs=[]
+    if args.source in ('all','github'): recs += from_github()
+    if args.source in ('all','exa'): recs += from_exa()
+    if args.source in ('all','web'): recs += from_web()
+    by={r.get('url') or r['id']:r for r in existing}
+    import datetime
+    now=datetime.date.today().isoformat()
+    for r in recs:
+        r['first_seen']=r.get('first_seen') or now; r['last_seen']=now
+        by[r.get('url') or r['id']]=r
+    save_jsonish('data/projects.yaml', list(by.values()))
+    print(json.dumps({'normalized_new':len(recs),'total':len(by)}, ensure_ascii=False))
+if __name__=='__main__': main()

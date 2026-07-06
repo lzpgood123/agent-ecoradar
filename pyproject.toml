@@ -1,0 +1,9 @@
+[project]
+name = "search-in-coding"
+version = "0.1.0"
+description = "Reusable AI Coding Agent ecosystem tracker"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.search-in-coding]
+data_format = "json-compatible-yaml"

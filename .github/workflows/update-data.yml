@@ -1,0 +1,19 @@
+name: Update Data
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2 * * *'
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/validate_data.py
+      - run: python3 scripts/score.py
+      - run: python3 scripts/finalize_data.py
+      - run: python3 scripts/generate_reports.py
+      - run: python3 scripts/build_site.py
+      - run: python3 scripts/quality_gate.py

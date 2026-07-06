@@ -1,0 +1,51 @@
+{
+  "projects": 293,
+  "curated": 60,
+  "rejected": 25,
+  "official_tools": 10,
+  "ecosystem_projects": 136,
+  "sources": {
+    "github": 136,
+    "fallback-web": 147,
+    "official-seed": 10
+  },
+  "record_kinds": {
+    "ecosystem-project": 136,
+    "fallback-result": 106,
+    "tutorial": 41,
+    "official-tool": 10
+  },
+  "ranking_scopes": {
+    "ecosystem": 136,
+    "excluded": 25,
+    "learning-resource": 122,
+    "official": 10
+  },
+  "tool_coverage": {
+    "claude-code": 46,
+    "codex-cli": 30,
+    "antigravity-cli": 34,
+    "cursor": 26,
+    "opencode": 24,
+    "general-ai-coding": 32,
+    "qoder": 41,
+    "workbuddy-codebuddy": 37,
+    "hermes-agent": 17,
+    "goose": 21,
+    "trae": 10
+  },
+  "category_coverage": {
+    "skills-prompts": 95,
+    "testing-review-ci": 125,
+    "agent-harness": 153,
+    "mcp-acp-a2a": 79,
+    "context-engineering": 33,
+    "terminal-agent": 13,
+    "rules-instructions": 62,
+    "benchmark-evaluation": 10,
+    "tutorial-case-study": 19,
+    "official-tool": 10,
+    "ai-ide": 4,
+    "persistent-agent": 1
+  }
+}

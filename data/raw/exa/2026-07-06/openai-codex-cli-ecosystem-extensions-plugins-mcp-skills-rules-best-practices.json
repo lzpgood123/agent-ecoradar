@@ -1,0 +1,6 @@
+{
+  "query": "OpenAI Codex CLI ecosystem extensions plugins MCP skills rules best practices",
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "[mcporter] Unknown MCP server 'exa'.\nError: Unknown MCP server 'exa'.\n    at McpRuntime.connect (file:///usr/lib/node_modules/mcporter/dist/runtime.js:184:19)\n    at McpRuntime.callTool (file:///usr/lib/node_modules/mcporter/dist/runtime.js:133:43)\n    at attemptCall (file:///usr/lib/node_modules/mcporter/dist/cli/call-command.js:299:50)\n    at invokeWithAutoCorrection (file:///usr/lib/node_modules/mcporter/dist/cli/call-command.js:295:12)\n    at invokePreparedCall (file:///usr/lib/node_modules/mcporter/dist/cli/call-command.js:101:28)\n    at handleCall (file:///usr/lib/node_modules/mcporter/dist/cli/call-command.js:21:30)\n    at async runCli (file:///usr/lib/node_modules/mcporter/dist/cli.js:136:13)\n    at async main (file:///usr/lib/node_modules/mcporter/dist/cli.js:194:5)\n"
+}

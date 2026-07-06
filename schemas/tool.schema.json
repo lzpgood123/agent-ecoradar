@@ -1,0 +1,38 @@
+{
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "vendor",
+    "primary_type",
+    "aliases",
+    "tracking_priority"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "vendor": {
+      "type": "string"
+    },
+    "primary_type": {
+      "type": "string"
+    },
+    "repo": {},
+    "website": {
+      "type": "string"
+    },
+    "docs": {
+      "type": "string"
+    },
+    "aliases": {
+      "type": "array"
+    },
+    "extension_points": {
+      "type": "array"
+    }
+  }
+}
