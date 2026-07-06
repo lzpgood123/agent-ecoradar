@@ -51,16 +51,16 @@ Official tools are excluded.
 | 45 | yinqd3/workbuddy-skills | github | try-now | 15 | skills-prompts, ai-ide | https://github.com/yinqd3/workbuddy-skills |
 | 46 | Qoder / QoderWork GitHub projects open source extensions | exa | reference | 13 | skills-prompts, testing-review-ci, agent-harness | https://github.com/VirgoShuyu/task-time-estimator |
 | 47 | Goose tutorial workflow agentic coding case study | exa | reference | 13 | context-engineering | https://github.com/block/goose/blob/58f3cc9e/documentation/docs/tutorials/rpi.md |
-| 48 | Goose tutorial workflow agentic coding case study | exa | reference | 13 | context-engineering | https://raw.githubusercontent.com/block/goose/refs/heads/main/documentation/src/pages/recipes/data/recipes/rpi-implement.yaml |
+| 48 | Goose tutorial workflow agentic coding case study | exa | reference | 13 | context-engineering | https://raw.githubusercontent.com/block/goose/refs/heads/main/documentation/src/pages/recipes/data/recipes/rpi-iterate.yaml |
 | 49 | Goose tutorial workflow agentic coding case study | exa | reference | 13 | context-engineering | https://www.kdnuggets.com/free-agentic-coding-with-goose |
 | 50 | Goose tutorial workflow agentic coding case study | exa | reference | 13 | context-engineering | https://terminalskills.io/use-cases/build-extensible-ai-agent-with-goose |
 | 51 | Hermes Agent tutorial workflow agentic coding case study | exa | reference | 13 | skills-prompts | https://www.agentupdate.ai/tutorial/hermes-agent-tutorial/lesson-14/ |
 | 52 | Hermes Agent tutorial workflow agentic coding case study | exa | reference | 13 | skills-prompts | http://localhost:8000/todos/` |
-| 53 | Hermes Agent tutorial workflow agentic coding case study | exa | reference | 13 | skills-prompts | https://markaicode.com/hermes-agent-workflows-python/ |
-| 54 | Qoder / QoderWork context engineering codebase indexing rules prompts | exa | reference | 13 | skills-prompts, rules-instructions, context-engineering, ai-ide | https://docs.qoder.com/user-guide/rules |
-| 55 | Qoder / QoderWork context engineering codebase indexing rules prompts | exa | reference | 13 | skills-prompts, rules-instructions, context-engineering, ai-ide | https://docs.qoder.com/user-guide/indexing |
-| 56 | Antigravity CLI / Gemini CLI GitHub projects open source extensions | exa | reference | 13 | context-engineering, testing-review-ci, agent-harness, terminal-agent | https://github.com/Joonghyun-Lee-Frieren/oh-my-gemini-cli |
-| 57 | OpenAI Codex CLI tutorial workflow agentic coding case study | exa | reference | 13 | mcp-acp-a2a | https://developers.openai.com/cookbook/examples/codex/codex_mcp_agents_sdk/building_consistent_workflows_codex_cli_agents_sdk |
-| 58 | OpenAI Codex CLI tutorial workflow agentic coding case study | exa | reference | 13 | mcp-acp-a2a | https://www.datacamp.com/tutorial/open-ai-codex-cli-tutorial |
-| 59 | OpenAI Codex CLI tutorial workflow agentic coding case study | exa | reference | 13 | mcp-acp-a2a, benchmark-evaluation, agent-harness | https://raw.githubusercontent.com/openai/openai-cookbook/main/examples/codex/code_modernization.md |
-| 60 | OpenAI Codex CLI context engineering codebase indexing rules prompts | exa | reference | 13 | mcp-acp-a2a, skills-prompts, rules-instructions, context-engineering | https://developers.openai.com/codex/learn/best-practices |
+| 53 | Qoder / QoderWork context engineering codebase indexing rules prompts | exa | reference | 13 | skills-prompts, rules-instructions, context-engineering, ai-ide | https://docs.qoder.com/user-guide/rules |
+| 54 | Qoder / QoderWork context engineering codebase indexing rules prompts | exa | reference | 13 | skills-prompts, rules-instructions, context-engineering, ai-ide | https://docs.qoder.com/user-guide/indexing |
+| 55 | Antigravity CLI / Gemini CLI GitHub projects open source extensions | exa | reference | 13 | context-engineering, testing-review-ci, agent-harness, terminal-agent | https://github.com/Joonghyun-Lee-Frieren/oh-my-gemini-cli |
+| 56 | OpenAI Codex CLI tutorial workflow agentic coding case study | exa | reference | 13 | mcp-acp-a2a | https://developers.openai.com/cookbook/examples/codex/codex_mcp_agents_sdk/building_consistent_workflows_codex_cli_agents_sdk |
+| 57 | OpenAI Codex CLI tutorial workflow agentic coding case study | exa | reference | 13 | mcp-acp-a2a | https://www.datacamp.com/tutorial/open-ai-codex-cli-tutorial |
+| 58 | OpenAI Codex CLI tutorial workflow agentic coding case study | exa | reference | 13 | mcp-acp-a2a, benchmark-evaluation, agent-harness | https://raw.githubusercontent.com/openai/openai-cookbook/main/examples/codex/code_modernization.md |
+| 59 | OpenAI Codex CLI context engineering codebase indexing rules prompts | exa | reference | 13 | mcp-acp-a2a, skills-prompts, rules-instructions, context-engineering | https://developers.openai.com/codex/learn/best-practices |
+| 60 | OpenAI Codex CLI ecosystem extensions plugins MCP skills rules best practices | exa | reference | 13 | mcp-acp-a2a, skills-prompts, rules-instructions | https://developers.openai.com/codex/plugins |

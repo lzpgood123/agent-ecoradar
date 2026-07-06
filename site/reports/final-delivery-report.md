@@ -6,64 +6,64 @@ Search in Coding final-delivery package is built with quality gates, curated dat
 
 ## Metrics
 
-- Normalized records: 614
+- Normalized records: 631
 - Curated records: 60
 - Rejected/noisy records: 25
-- GitHub records: 265
+- GitHub records: 264
 - Fallback web records: 147
 - Official seed records: 10
-- Exa records: 192
+- Exa records: 210
 
 ## Source counts
 
-- exa: 192
+- exa: 210
 - fallback-web: 147
-- github: 265
+- github: 264
 - official-seed: 10
 
 ## Record kinds
 
-- article: 192
-- ecosystem-project: 265
+- article: 210
+- ecosystem-project: 264
 - fallback-result: 106
 - official-tool: 10
 - tutorial: 41
 
 ## Ranking scopes
 
-- ecosystem: 265
+- ecosystem: 264
 - excluded: 25
-- learning-resource: 314
+- learning-resource: 332
 - official: 10
 
 ## Tool coverage
 
 - antigravity-cli: 68
-- claude-code: 108
-- codex-cli: 61
-- cursor: 72
-- general-ai-coding: 65
+- claude-code: 114
+- codex-cli: 62
+- cursor: 76
+- general-ai-coding: 66
 - goose: 46
-- hermes-agent: 52
-- opencode: 58
-- qoder: 56
-- trae: 24
+- hermes-agent: 58
+- opencode: 61
+- qoder: 57
+- trae: 26
 - workbuddy-codebuddy: 55
 
 ## Category coverage
 
-- agent-harness: 62
-- ai-ide: 193
-- benchmark-evaluation: 10
-- context-engineering: 60
-- mcp-acp-a2a: 165
+- agent-harness: 61
+- ai-ide: 199
+- benchmark-evaluation: 9
+- context-engineering: 66
+- mcp-acp-a2a: 166
 - official-tool: 10
 - persistent-agent: 1
-- rules-instructions: 128
-- skills-prompts: 204
-- terminal-agent: 37
-- testing-review-ci: 57
-- tutorial-case-study: 140
+- rules-instructions: 143
+- skills-prompts: 207
+- terminal-agent: 28
+- testing-review-ci: 44
+- tutorial-case-study: 153
 
 ## Top ecosystem projects (official tools excluded)
 
@@ -90,4 +90,4 @@ Search in Coding final-delivery package is built with quality gates, curated dat
 
 ## Exa status
 
-See `docs/reports/exa-status-and-fallback.md`. Current Exa availability: blocked / not configured.
+See `docs/reports/exa-status-and-fallback.md`. Current Exa availability: available.

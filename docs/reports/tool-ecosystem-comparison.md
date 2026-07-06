@@ -3,10 +3,10 @@
 
 ## Claude Code
 
-- Total records: 108
+- Total records: 114
 - Curated records: 24
 - Extension points: skills, hooks, slash-commands, mcp, subagents
-- Main categories: tutorial-case-study(41), skills-prompts(32), mcp-acp-a2a(29), rules-instructions(12), ai-ide(8), agent-harness(7)
+- Main categories: skills-prompts(41), tutorial-case-study(39), mcp-acp-a2a(34), rules-instructions(21), ai-ide(8), context-engineering(8)
 - Recommended records:
   - [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) — try-now — score 18
   - [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh) — try-now — score 18
@@ -16,10 +16,10 @@
 
 ## OpenAI Codex CLI
 
-- Total records: 61
-- Curated records: 9
+- Total records: 62
+- Curated records: 10
 - Extension points: skills, slash-commands, execution-policy, hooks, github-pr
-- Main categories: skills-prompts(25), tutorial-case-study(18), mcp-acp-a2a(14), rules-instructions(12), ai-ide(8), agent-harness(3)
+- Main categories: skills-prompts(30), rules-instructions(17), mcp-acp-a2a(15), tutorial-case-study(14), ai-ide(8), context-engineering(7)
 - Recommended records:
   - [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) — try-now — score 18
   - [taishi-i/awesome-ChatGPT-repositories](https://github.com/taishi-i/awesome-ChatGPT-repositories) — try-now — score 17
@@ -32,7 +32,7 @@
 - Total records: 68
 - Curated records: 4
 - Extension points: plugins, skills, mcp, a2a, hooks, subagents
-- Main categories: tutorial-case-study(30), skills-prompts(20), rules-instructions(16), mcp-acp-a2a(13), terminal-agent(13), context-engineering(10)
+- Main categories: tutorial-case-study(30), skills-prompts(20), rules-instructions(16), agent-harness(16), mcp-acp-a2a(13), context-engineering(9)
 - Recommended records:
   - [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) — try-now — score 18
   - [harish-garg/gemini-cli-prompt-library](https://github.com/harish-garg/gemini-cli-prompt-library) — try-now — score 16
@@ -41,10 +41,10 @@
 
 ## OpenCode
 
-- Total records: 58
+- Total records: 61
 - Curated records: 1
 - Extension points: commands, agents, mcp, lsp, sourcegraph
-- Main categories: mcp-acp-a2a(28), skills-prompts(18), tutorial-case-study(12), rules-instructions(12), testing-review-ci(9), agent-harness(5)
+- Main categories: mcp-acp-a2a(24), tutorial-case-study(18), skills-prompts(14), testing-review-ci(8), rules-instructions(8), agent-harness(4)
 - Recommended records:
   - [hxrshxz/fluid-cloudnative-custom-agent-workflows](https://github.com/hxrshxz/fluid-cloudnative-custom-agent-workflows) — try-now — score 15
 
@@ -53,19 +53,19 @@
 - Total records: 46
 - Curated records: 4
 - Extension points: mcp extensions, recipes, subagents, acp, local models
-- Main categories: tutorial-case-study(20), skills-prompts(15), rules-instructions(15), context-engineering(12), mcp-acp-a2a(7), testing-review-ci(6)
+- Main categories: tutorial-case-study(25), skills-prompts(16), rules-instructions(16), context-engineering(12), mcp-acp-a2a(8), official-tool(1)
 - Recommended records:
   - [Goose tutorial workflow agentic coding case study](https://github.com/block/goose/blob/58f3cc9e/documentation/docs/tutorials/rpi.md) — reference — score 13
-  - [Goose tutorial workflow agentic coding case study](https://raw.githubusercontent.com/block/goose/refs/heads/main/documentation/src/pages/recipes/data/recipes/rpi-implement.yaml) — reference — score 13
+  - [Goose tutorial workflow agentic coding case study](https://raw.githubusercontent.com/block/goose/refs/heads/main/documentation/src/pages/recipes/data/recipes/rpi-iterate.yaml) — reference — score 13
   - [Goose tutorial workflow agentic coding case study](https://www.kdnuggets.com/free-agentic-coding-with-goose) — reference — score 13
   - [Goose tutorial workflow agentic coding case study](https://terminalskills.io/use-cases/build-extensible-ai-agent-with-goose) — reference — score 13
 
 ## Qoder / QoderWork
 
-- Total records: 56
+- Total records: 57
 - Curated records: 3
 - Extension points: skills, plugins, mcp, repo-wiki
-- Main categories: ai-ide(53), skills-prompts(22), mcp-acp-a2a(19), rules-instructions(10), agent-harness(4), context-engineering(4)
+- Main categories: ai-ide(55), skills-prompts(17), mcp-acp-a2a(14), rules-instructions(5), agent-harness(3), context-engineering(3)
 - Recommended records:
   - [Qoder / QoderWork GitHub projects open source extensions](https://github.com/VirgoShuyu/task-time-estimator) — reference — score 13
   - [Qoder / QoderWork context engineering codebase indexing rules prompts](https://docs.qoder.com/user-guide/rules) — reference — score 13
@@ -73,10 +73,10 @@
 
 ## Trae / Trae Work
 
-- Total records: 24
+- Total records: 26
 - Curated records: 1
 - Extension points: mcp, skills, agent-system, online-search
-- Main categories: ai-ide(24), skills-prompts(15), mcp-acp-a2a(11), rules-instructions(8), context-engineering(3), official-tool(1)
+- Main categories: ai-ide(26), skills-prompts(16), mcp-acp-a2a(12), rules-instructions(9), context-engineering(3), official-tool(1)
 - Recommended records:
   - [waynesutton/promptstack](https://github.com/waynesutton/promptstack) — try-now — score 15
 
@@ -85,16 +85,16 @@
 - Total records: 55
 - Curated records: 1
 - Extension points: mcp, skills, connectors, craft-agent
-- Main categories: ai-ide(53), skills-prompts(20), mcp-acp-a2a(11), terminal-agent(10), rules-instructions(5), context-engineering(3)
+- Main categories: ai-ide(53), skills-prompts(19), mcp-acp-a2a(10), rules-instructions(10), terminal-agent(10), context-engineering(3)
 - Recommended records:
   - [yinqd3/workbuddy-skills](https://github.com/yinqd3/workbuddy-skills) — try-now — score 15
 
 ## Cursor
 
-- Total records: 72
+- Total records: 76
 - Curated records: 15
 - Extension points: rules, skills, mcp, hooks, cloud-agents, bugbot
-- Main categories: ai-ide(64), rules-instructions(33), mcp-acp-a2a(27), skills-prompts(22), testing-review-ci(8), agent-harness(8)
+- Main categories: ai-ide(69), rules-instructions(43), mcp-acp-a2a(31), skills-prompts(27), agent-harness(10), testing-review-ci(7)
 - Recommended records:
   - [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) — try-now — score 18
   - [sanjeed5/awesome-cursor-rules-mdc](https://github.com/sanjeed5/awesome-cursor-rules-mdc) — try-now — score 17
@@ -104,10 +104,10 @@
 
 ## Hermes Agent
 
-- Total records: 52
-- Curated records: 6
+- Total records: 58
+- Curated records: 5
 - Extension points: skills, cron, memory, delegation, tools, mcp
-- Main categories: skills-prompts(37), rules-instructions(14), testing-review-ci(11), agent-harness(11), context-engineering(9), mcp-acp-a2a(7)
+- Main categories: skills-prompts(34), tutorial-case-study(13), rules-instructions(12), testing-review-ci(11), agent-harness(11), context-engineering(10)
 - Recommended records:
   - [cosmicstack-labs/mercury-agent-skills](https://github.com/cosmicstack-labs/mercury-agent-skills) — try-now — score 16
   - [DavidBB-L/cinema-manager](https://github.com/DavidBB-L/cinema-manager) — try-now — score 16
