@@ -30,9 +30,9 @@
     "why_it_matters": "Discovered via GitHub search for AI coding agent ecosystem queries.",
     "status": "unknown",
     "license": null,
-    "stars": 20908,
+    "stars": 20951,
     "forks": null,
-    "last_updated": "2026-07-06T11:55:58Z",
+    "last_updated": "2026-07-06T13:55:18Z",
     "first_seen": "2026-07-06",
     "last_seen": "2026-07-06",
     "maturity": "unknown",
@@ -91,9 +91,9 @@
     "why_it_matters": "Discovered via GitHub search for AI coding agent ecosystem queries.",
     "status": "unknown",
     "license": null,
-    "stars": 12494,
+    "stars": 12501,
     "forks": null,
-    "last_updated": "2026-07-06T11:45:15Z",
+    "last_updated": "2026-07-06T13:49:35Z",
     "first_seen": "2026-07-06",
     "last_seen": "2026-07-06",
     "maturity": "unknown",
@@ -214,9 +214,9 @@
     "why_it_matters": "Discovered via GitHub search for AI coding agent ecosystem queries.",
     "status": "unknown",
     "license": null,
-    "stars": 1772,
+    "stars": 1774,
     "forks": null,
-    "last_updated": "2026-07-06T12:00:17Z",
+    "last_updated": "2026-07-06T12:51:38Z",
     "first_seen": "2026-07-06",
     "last_seen": "2026-07-06",
     "maturity": "unknown",
@@ -1198,9 +1198,9 @@
     "why_it_matters": "Discovered via GitHub search for AI coding agent ecosystem queries.",
     "status": "unknown",
     "license": null,
-    "stars": 85399,
+    "stars": 85482,
     "forks": null,
-    "last_updated": "2026-07-06T12:00:32Z",
+    "last_updated": "2026-07-06T13:59:20Z",
     "first_seen": "2026-07-06",
     "last_seen": "2026-07-06",
     "maturity": "unknown",
@@ -2464,65 +2464,6 @@
     "curation_note": "Auto-selected by scoring rules: source=github, score=20, categories=rules-instructions, ai-ide."
   },
   {
-    "id": "exa-https-hermes-agent-nousresearch-com-docs",
-    "name": "Hermes Agent tutorial workflow agentic coding case study",
-    "url": "https://hermes-agent.nousresearch.com/docs/",
-    "repo": null,
-    "source_type": "exa",
-    "category": [
-      "skills-prompts"
-    ],
-    "target_tools": [
-      "hermes-agent"
-    ],
-    "concepts": [],
-    "summary": "Exa result for: Hermes Agent tutorial workflow agentic coding case study",
-    "i18n": {
-      "zh": {
-        "name": "Hermes Agent tutorial workflow agentic coding case study",
-        "summary": "Exa result for: Hermes Agent tutorial workflow agentic coding case study"
-      },
-      "en": {
-        "name": "Hermes Agent tutorial workflow agentic coding case study",
-        "summary": "Exa result for: Hermes Agent tutorial workflow agentic coding case study"
-      }
-    },
-    "why_it_matters": "Semantic web discovery result for AI coding ecosystem tracking.",
-    "status": "unknown",
-    "license": null,
-    "stars": null,
-    "forks": null,
-    "last_updated": null,
-    "first_seen": "2026-07-06",
-    "last_seen": "2026-07-06",
-    "maturity": "unknown",
-    "integration_surfaces": [],
-    "languages": [],
-    "tags": [],
-    "score": {
-      "ecosystem_value": 4,
-      "activity": 1,
-      "adoption": 1,
-      "practicality": 2,
-      "novelty": 2,
-      "confidence": 3
-    },
-    "notes": "Title: Hermes Agent Documentation | Hermes Agent\nURL: https://hermes-agent.nousresearch.com/docs/\nPublished: N/A\nAuthor: N/A\nHighlights:\nThe self-improving AI agent built by Nous Research. The only agent with a built-in learning loop — it creates skills from experience, improves them during use, ...\n\n---\n\nTitle: Lesson 14 | Code Generation & Scaffolding in Practice — Hermes Agent Hands-On Guide — AgentUpdate.ai\nURL: https://www.agentupdate.ai/tutorial/hermes-agent-tutorial/lesson-14/\nPublished: N/A\nAuthor: N/A\nHighlights:\nIn this lesson, you will delve into two core capabilities of Hermes Agent in the field of software engineering: Code Generation and Project Scaffolding. Upon completing this tutorial, you will be able to:\n...\n1. Understand the Agent-Driven Development (ADD) Pattern: Learn how to integrate an AI Agent into your daily development workflow, transitioning from an instruction-giver to an architectural guide.\n...\n2. Master the`project_scaffolding` Skill: Generate standardiz",
-    "review_state": "auto-curated",
-    "record_kind": "article",
-    "source_quality": "verified",
-    "ranking_scope": "learning-resource",
-    "score_reason": {
-      "base": 13,
-      "source_weight": 1,
-      "category_weight": 2,
-      "penalty": 0
-    },
-    "total_score": 16,
-    "recommendation_level": "reference",
-    "curation_note": "Auto-selected by scoring rules: source=exa, score=16, categories=skills-prompts."
-  },
-  {
     "id": "exa-https-github-com-virgoshuyu-task-time-estimator",
     "name": "Qoder / QoderWork GitHub projects open source extensions",
     "url": "https://github.com/VirgoShuyu/task-time-estimator",
@@ -3360,6 +3301,68 @@
     },
     "recommendation_level": "reference",
     "curation_note": "Auto-selected by scoring rules: source=exa, score=16, categories=mcp-acp-a2a, benchmark-evaluation, agent-harness."
+  },
+  {
+    "id": "exa-https-developers-openai-com-codex-learn-best-practices",
+    "name": "OpenAI Codex CLI context engineering codebase indexing rules prompts",
+    "url": "https://developers.openai.com/codex/learn/best-practices",
+    "repo": null,
+    "source_type": "exa",
+    "category": [
+      "mcp-acp-a2a",
+      "skills-prompts",
+      "rules-instructions",
+      "context-engineering"
+    ],
+    "target_tools": [
+      "codex-cli"
+    ],
+    "concepts": [],
+    "summary": "Exa result for: OpenAI Codex CLI context engineering codebase indexing rules prompts",
+    "i18n": {
+      "zh": {
+        "name": "OpenAI Codex CLI context engineering codebase indexing rules prompts",
+        "summary": "Exa result for: OpenAI Codex CLI context engineering codebase indexing rules prompts"
+      },
+      "en": {
+        "name": "OpenAI Codex CLI context engineering codebase indexing rules prompts",
+        "summary": "Exa result for: OpenAI Codex CLI context engineering codebase indexing rules prompts"
+      }
+    },
+    "why_it_matters": "Semantic web discovery result for AI coding ecosystem tracking.",
+    "status": "unknown",
+    "license": null,
+    "stars": null,
+    "forks": null,
+    "last_updated": null,
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "maturity": "unknown",
+    "integration_surfaces": [],
+    "languages": [],
+    "tags": [],
+    "score": {
+      "ecosystem_value": 4,
+      "activity": 1,
+      "adoption": 1,
+      "practicality": 2,
+      "novelty": 2,
+      "confidence": 3
+    },
+    "notes": "Title: Best practices – Codex | OpenAI Developers\nURL: https://developers.openai.com/codex/learn/best-practices\nPublished: N/A\nAuthor: N/A\nHighlights:\nA useful way to think about this: start with the right task context, use `AGENTS.md` for durable guidance, configure Codex to match your workflow, connect external systems\n...\nMCP, turn repeated work into skills, and automate stable workflows.\n...\nA good default is to include four things in your prompt:\n...\n- Goal: What are you trying to change or build?\n- Context: Which files, folders, docs, examples, or errors matter for this task? You can @ mention certain files as context.\n- Constraints: What standards, architecture, safety requirements, or conventions should Codex follow?\n- Done when: What should be true before the task is complete, such as tests passing, behavior changing, or a bug no longer reproducing?\n...\nThink of `AGENTS.md` as an open-format README for agents. It loads into context automatically and is the best place to encode",
+    "review_state": "auto-curated",
+    "record_kind": "article",
+    "source_quality": "verified",
+    "ranking_scope": "learning-resource",
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
+    "recommendation_level": "reference",
+    "curation_note": "Auto-selected by scoring rules: source=exa, score=16, categories=mcp-acp-a2a, skills-prompts, rules-instructions, context-engineering."
   },
   {
     "id": "github-hxrshxz-fluid-cloudnative-custom-agent-workflows",

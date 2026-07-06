@@ -6,34 +6,34 @@ Search in Coding final-delivery package is built with quality gates, curated dat
 
 ## Metrics
 
-- Normalized records: 618
+- Normalized records: 614
 - Curated records: 60
 - Rejected/noisy records: 25
-- GitHub records: 264
+- GitHub records: 265
 - Fallback web records: 147
 - Official seed records: 10
-- Exa records: 197
+- Exa records: 192
 
 ## Source counts
 
-- exa: 197
+- exa: 192
 - fallback-web: 147
-- github: 264
+- github: 265
 - official-seed: 10
 
 ## Record kinds
 
-- article: 197
-- ecosystem-project: 264
+- article: 192
+- ecosystem-project: 265
 - fallback-result: 106
 - official-tool: 10
 - tutorial: 41
 
 ## Ranking scopes
 
-- ecosystem: 264
+- ecosystem: 265
 - excluded: 25
-- learning-resource: 319
+- learning-resource: 314
 - official: 10
 
 ## Tool coverage
@@ -44,26 +44,26 @@ Search in Coding final-delivery package is built with quality gates, curated dat
 - cursor: 72
 - general-ai-coding: 65
 - goose: 46
-- hermes-agent: 53
-- opencode: 59
-- qoder: 57
-- trae: 25
+- hermes-agent: 52
+- opencode: 58
+- qoder: 56
+- trae: 24
 - workbuddy-codebuddy: 55
 
 ## Category coverage
 
 - agent-harness: 62
-- ai-ide: 195
+- ai-ide: 193
 - benchmark-evaluation: 10
-- context-engineering: 67
-- mcp-acp-a2a: 161
+- context-engineering: 60
+- mcp-acp-a2a: 165
 - official-tool: 10
 - persistent-agent: 1
-- rules-instructions: 135
-- skills-prompts: 201
+- rules-instructions: 128
+- skills-prompts: 204
 - terminal-agent: 37
-- testing-review-ci: 56
-- tutorial-case-study: 136
+- testing-review-ci: 57
+- tutorial-case-study: 140
 
 ## Top ecosystem projects (official tools excluded)
 
@@ -90,4 +90,4 @@ Search in Coding final-delivery package is built with quality gates, curated dat
 
 ## Exa status
 
-See `docs/reports/exa-status-and-fallback.md`. Current Exa availability: available.
+See `docs/reports/exa-status-and-fallback.md`. Current Exa availability: blocked / not configured.

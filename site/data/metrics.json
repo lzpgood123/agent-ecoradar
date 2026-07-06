@@ -1,26 +1,26 @@
 {
-  "projects": 618,
+  "projects": 614,
   "curated": 60,
   "rejected": 25,
   "official_tools": 10,
-  "ecosystem_projects": 264,
+  "ecosystem_projects": 265,
   "sources": {
-    "github": 264,
+    "github": 265,
     "fallback-web": 147,
     "official-seed": 10,
-    "exa": 197
+    "exa": 192
   },
   "record_kinds": {
-    "ecosystem-project": 264,
+    "ecosystem-project": 265,
     "fallback-result": 106,
     "tutorial": 41,
     "official-tool": 10,
-    "article": 197
+    "article": 192
   },
   "ranking_scopes": {
-    "ecosystem": 264,
+    "ecosystem": 265,
     "excluded": 25,
-    "learning-resource": 319,
+    "learning-resource": 314,
     "official": 10
   },
   "tool_coverage": {
@@ -28,27 +28,27 @@
     "codex-cli": 61,
     "antigravity-cli": 68,
     "cursor": 72,
-    "opencode": 59,
+    "opencode": 58,
     "general-ai-coding": 65,
-    "qoder": 57,
+    "qoder": 56,
     "workbuddy-codebuddy": 55,
-    "hermes-agent": 53,
+    "hermes-agent": 52,
     "goose": 46,
-    "trae": 25
+    "trae": 24
   },
   "category_coverage": {
-    "tutorial-case-study": 136,
-    "skills-prompts": 201,
-    "ai-ide": 195,
-    "mcp-acp-a2a": 161,
+    "tutorial-case-study": 140,
+    "skills-prompts": 204,
+    "ai-ide": 193,
+    "mcp-acp-a2a": 165,
     "terminal-agent": 37,
-    "rules-instructions": 135,
+    "rules-instructions": 128,
     "agent-harness": 62,
-    "testing-review-ci": 56,
-    "context-engineering": 67,
+    "testing-review-ci": 57,
+    "context-engineering": 60,
     "official-tool": 10,
-    "benchmark-evaluation": 10,
-    "persistent-agent": 1
+    "persistent-agent": 1,
+    "benchmark-evaluation": 10
   },
   "languages": [
     "zh",
