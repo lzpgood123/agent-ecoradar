@@ -157,6 +157,7 @@ flowchart TD
 | [`docs/reports/trends-and-opportunities.md`](docs/reports/trends-and-opportunities.md) | 趋势与机会 |
 | [`docs/reports/source-quality-audit.md`](docs/reports/source-quality-audit.md) | 来源质量审计 |
 | [`docs/reports/exa-status-and-fallback.md`](docs/reports/exa-status-and-fallback.md) | Exa 状态与 fallback 标注 |
+| [`docs/reports/optimization-backlog.md`](docs/reports/optimization-backlog.md) | 全流程体检与优化清单 |
 | [`docs/github-source-of-truth.md`](docs/github-source-of-truth.md) | GitHub 总仓库原则 |
 | [`docs/auto-maintenance-plan.md`](docs/auto-maintenance-plan.md) | 全自动维护方案 |
 
