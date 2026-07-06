@@ -6,24 +6,24 @@ Search in Coding final-delivery package is built with quality gates, curated dat
 
 ## Metrics
 
-- Normalized records: 586
+- Normalized records: 618
 - Curated records: 60
 - Rejected/noisy records: 25
 - GitHub records: 264
 - Fallback web records: 147
 - Official seed records: 10
-- Exa records: 165
+- Exa records: 197
 
 ## Source counts
 
-- exa: 165
+- exa: 197
 - fallback-web: 147
 - github: 264
 - official-seed: 10
 
 ## Record kinds
 
-- article: 165
+- article: 197
 - ecosystem-project: 264
 - fallback-result: 106
 - official-tool: 10
@@ -33,37 +33,37 @@ Search in Coding final-delivery package is built with quality gates, curated dat
 
 - ecosystem: 264
 - excluded: 25
-- learning-resource: 287
+- learning-resource: 319
 - official: 10
 
 ## Tool coverage
 
-- antigravity-cli: 66
-- claude-code: 105
+- antigravity-cli: 68
+- claude-code: 108
 - codex-cli: 61
-- cursor: 69
-- general-ai-coding: 62
-- goose: 40
-- hermes-agent: 48
-- opencode: 55
-- qoder: 54
-- trae: 24
-- workbuddy-codebuddy: 53
+- cursor: 72
+- general-ai-coding: 66
+- goose: 45
+- hermes-agent: 53
+- opencode: 59
+- qoder: 57
+- trae: 25
+- workbuddy-codebuddy: 55
 
 ## Category coverage
 
-- agent-harness: 341
+- agent-harness: 363
 - ai-ide: 4
-- benchmark-evaluation: 36
-- context-engineering: 103
-- mcp-acp-a2a: 170
+- benchmark-evaluation: 31
+- context-engineering: 108
+- mcp-acp-a2a: 162
 - official-tool: 10
 - persistent-agent: 1
-- rules-instructions: 123
-- skills-prompts: 194
-- terminal-agent: 35
-- testing-review-ci: 317
-- tutorial-case-study: 25
+- rules-instructions: 135
+- skills-prompts: 195
+- terminal-agent: 37
+- testing-review-ci: 357
+- tutorial-case-study: 24
 
 ## Top ecosystem projects (official tools excluded)
 
@@ -90,4 +90,4 @@ Search in Coding final-delivery package is built with quality gates, curated dat
 
 ## Exa status
 
-See `docs/reports/exa-status-and-fallback.md`. Current Exa availability: blocked / not configured.
+See `docs/reports/exa-status-and-fallback.md`. Current Exa availability: available.
