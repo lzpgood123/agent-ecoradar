@@ -4,10 +4,10 @@ Previous snapshot: none
 
 ## Summary
 
-- Projects: 631
+- Projects: 628
 - Curated: 60
 - Rejected: 25
-- New records: 631
+- New records: 628
 - Removed records: 0
 - Newly curated: 60
 - Exited curated: 0
