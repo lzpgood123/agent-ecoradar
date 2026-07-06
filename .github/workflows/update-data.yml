@@ -28,8 +28,7 @@ jobs:
         run: |
           python3 scripts/update_tracker.py \
             --github-limit "${{ inputs.github_limit || '20' }}" \
-            --exa-limit "${{ inputs.exa_limit || '3' }}" \
-            --skip-deploy
+            --exa-limit "${{ inputs.exa_limit || '3' }}"
       - name: Commit changes
         run: |
           if git diff --quiet data/ docs/; then

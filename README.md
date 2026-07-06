@@ -142,7 +142,7 @@ flowchart TD
 
 ### GitHub Actions
 
-- `Update Data`：在 GitHub 环境中收集/分析/提交数据，使用 `--skip-deploy`，不写服务器。
+- `Update Data`：在 GitHub 环境中收集/分析/提交数据，默认不部署服务器；服务器 cron 显式使用 `--deploy`。
 - `Publish Site`：发布 GitHub Pages 预览。
 
 ---
@@ -171,7 +171,7 @@ flowchart TD
 ```bash
 cd "/root/workspace/search in coding"
 git pull --ff-only origin main
-python3 scripts/update_tracker.py --github-limit 50 --exa-limit 5
+python3 scripts/update_tracker.py --github-limit 50 --exa-limit 5 --deploy
 git status --short
 ```
 

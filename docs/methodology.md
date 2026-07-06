@@ -6,8 +6,8 @@
 4. Normalize raw results into `data/projects.yaml`.
 5. Deduplicate by repo, URL, and normalized name.
 6. Classify records by category, target tools, and concepts.
-7. Score records using `docs/scoring.md`.
-8. Mark records as `unreviewed`, `needs-human`, `reviewed`, or `rejected`.
+7. Score records using `config/scoring.yaml` plus `scripts/score.py`.
+8. Mark records as `auto-indexed`, `auto-curated`, or `auto-rejected`.
 9. Generate reports and site data.
 
 Never fabricate search results. If a source is unavailable, record the blocker.

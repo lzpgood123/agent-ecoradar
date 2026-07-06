@@ -2,7 +2,16 @@
 import argparse, json, re
 from pathlib import Path
 from common import ROOT, load_jsonish, save_jsonish, slug, score_from_stars
-CATS=[('mcp','mcp-acp-a2a'),('skill','skills-prompts'),('rules','rules-instructions'),('AGENTS.md','rules-instructions'),('CLAUDE.md','rules-instructions'),('context','context-engineering'),('index','context-engineering'),('review','testing-review-ci'),('PR','testing-review-ci'),('spec','benchmark-evaluation'),('agent','agent-harness')]
+CATEGORY_RULES={
+ 'mcp-acp-a2a':['mcp server','model context protocol','a2a','agent communication protocol','acp','mcp'],
+ 'skills-prompts':['claude skill','agent skill','skills','prompt pack','slash command','custom command','prompts'],
+ 'rules-instructions':['agents.md','claude.md','cursor rules','.cursorrules','instruction file','rules'],
+ 'context-engineering':['context engineering','codebase index','repo map','repository map','semantic search','codebase indexing'],
+ 'agent-harness':['agent harness','multi-agent','agent orchestration','subagent','agent framework','agentic framework'],
+ 'testing-review-ci':['pull request review','pr review','code review','test generation','ci automation','github action','review agent'],
+ 'benchmark-evaluation':['benchmark','evaluation','eval harness','leaderboard','spec-driven'],
+ 'terminal-agent':['terminal agent','cli agent','command line coding','terminal ai']
+}
 ZH_RE=re.compile(r'[\u4e00-\u9fff]')
 
 def i18n_fields(name, summary):
@@ -19,11 +28,16 @@ def target_tools_for(text, tools):
         if any(a.lower() in low for a in t.get('aliases',[])+[t.get('name','')]): ids.append(t['id'])
     return ids or ['general-ai-coding']
 
+def has_any(text, phrases):
+    low=text.lower()
+    return any(p.lower() in low for p in phrases)
+
 def categories_for(text):
     cats=[]; low=text.lower()
-    for key,cat in CATS:
-        if key.lower() in low and cat not in cats: cats.append(cat)
+    for cat, phrases in CATEGORY_RULES.items():
+        if has_any(low, phrases): cats.append(cat)
     if 'terminal' in low and 'terminal-agent' not in cats: cats.append('terminal-agent')
+    if has_any(low, ['ai ide','cursor','qoder','trae','workbuddy','codebuddy']) and 'ai-ide' not in cats: cats.append('ai-ide')
     return cats or ['tutorial-case-study']
 
 def from_github():
@@ -43,7 +57,7 @@ def from_github():
                 desc=it.get('description') or ''
                 text=f'{name} {desc}'
                 stars=it.get('stargazersCount', it.get('stargazerCount'))
-                recs.append({'id':slug('github-'+name),'name':name,'url':url,'repo':fn,'source_type':'github','category':categories_for(text),'target_tools':target_tools_for(text, tools),'concepts':[],'summary':desc[:240] or name,'i18n':i18n_fields(name, desc[:240] or name),'why_it_matters':'Discovered via GitHub search for AI coding agent ecosystem queries.','status':'archived' if it.get('isArchived') else 'unknown','license':(it.get('licenseInfo') or {}).get('spdxId') if isinstance(it.get('licenseInfo'),dict) else None,'stars':stars,'forks':it.get('forkCount'),'last_updated':it.get('updatedAt') or it.get('pushedAt'),'first_seen':None,'last_seen':None,'maturity':'unknown','integration_surfaces':[],'languages':[it.get('language') or ((it.get('primaryLanguage') or {}).get('name') if isinstance(it.get('primaryLanguage'),dict) else None)],'tags':[],'score':{'ecosystem_value':3,'activity':2,'adoption':score_from_stars(stars),'practicality':2,'novelty':2,'confidence':4},'notes':'','review_state':'unreviewed'})
+                recs.append({'id':slug('github-'+name),'name':name,'url':url,'repo':fn,'source_type':'github','category':categories_for(text),'target_tools':target_tools_for(text, tools),'concepts':[],'summary':desc[:240] or name,'i18n':i18n_fields(name, desc[:240] or name),'why_it_matters':'Discovered via GitHub search for AI coding agent ecosystem queries.','status':'archived' if it.get('isArchived') else 'unknown','license':(it.get('licenseInfo') or {}).get('spdxId') if isinstance(it.get('licenseInfo'),dict) else None,'stars':stars,'forks':it.get('forkCount'),'last_updated':it.get('updatedAt') or it.get('pushedAt'),'first_seen':None,'last_seen':None,'maturity':'unknown','integration_surfaces':[],'languages':[it.get('language') or ((it.get('primaryLanguage') or {}).get('name') if isinstance(it.get('primaryLanguage'),dict) else None)],'tags':[],'score':{'ecosystem_value':3,'activity':2,'adoption':score_from_stars(stars),'practicality':2,'novelty':2,'confidence':4},'notes':'','review_state':'auto-indexed'})
     return recs
 
 def from_exa():
@@ -63,7 +77,7 @@ def from_exa():
                 urls=[f'exa-query://{slug(q)}']
             for u in urls[:10]:
                 text=q+' '+out[:500]
-                recs.append({'id':slug('exa-'+u),'name':q[:90],'url':u,'repo':None,'source_type':'exa','category':categories_for(text),'target_tools':target_tools_for(text, tools),'concepts':[],'summary':('Exa result for: '+q)[:240],'i18n':i18n_fields(q[:90], ('Exa result for: '+q)[:240]),'why_it_matters':'Semantic web discovery result for AI coding ecosystem tracking.','status':'unknown','license':None,'stars':None,'forks':None,'last_updated':None,'first_seen':None,'last_seen':None,'maturity':'unknown','integration_surfaces':[],'languages':[],'tags':[],'score':{'ecosystem_value':3,'activity':1,'adoption':1,'practicality':2,'novelty':2,'confidence':3},'notes':out[:1000],'review_state':'unreviewed'})
+                recs.append({'id':slug('exa-'+u),'name':q[:90],'url':u,'repo':None,'source_type':'exa','category':categories_for(text),'target_tools':target_tools_for(text, tools),'concepts':[],'summary':('Exa result for: '+q)[:240],'i18n':i18n_fields(q[:90], ('Exa result for: '+q)[:240]),'why_it_matters':'Semantic web discovery result for AI coding ecosystem tracking.','status':'unknown','license':None,'stars':None,'forks':None,'last_updated':None,'first_seen':None,'last_seen':None,'maturity':'unknown','integration_surfaces':[],'languages':[],'tags':[],'score':{'ecosystem_value':3,'activity':1,'adoption':1,'practicality':2,'novelty':2,'confidence':3},'notes':out[:1000],'review_state':'auto-indexed'})
     return recs
 
 
@@ -80,7 +94,7 @@ def from_web():
                 snip=it.get('snippet') or ''
                 if not u: continue
                 text=f'{title} {snip} {q}'
-                recs.append({'id':slug('web-'+u),'name':title[:120],'url':u,'repo':None,'source_type':'fallback-web','category':categories_for(text),'target_tools':target_tools_for(text, tools),'concepts':[],'summary':snip[:240] or ('Fallback web result for: '+q)[:240],'i18n':i18n_fields(title[:120], snip[:240] or ('Fallback web result for: '+q)[:240]),'why_it_matters':'Fallback web discovery result because Exa/mcporter was unavailable in this environment.','status':'unknown','license':None,'stars':None,'forks':None,'last_updated':None,'first_seen':None,'last_seen':None,'maturity':'unknown','integration_surfaces':[],'languages':[],'tags':['fallback-not-exa'],'score':{'ecosystem_value':2,'activity':1,'adoption':1,'practicality':2,'novelty':2,'confidence':2},'notes':q,'review_state':'unreviewed'})
+                recs.append({'id':slug('web-'+u),'name':title[:120],'url':u,'repo':None,'source_type':'fallback-web','category':categories_for(text),'target_tools':target_tools_for(text, tools),'concepts':[],'summary':snip[:240] or ('Fallback web result for: '+q)[:240],'i18n':i18n_fields(title[:120], snip[:240] or ('Fallback web result for: '+q)[:240]),'why_it_matters':'Fallback web discovery result because Exa/mcporter was unavailable in this environment.','status':'unknown','license':None,'stars':None,'forks':None,'last_updated':None,'first_seen':None,'last_seen':None,'maturity':'unknown','integration_surfaces':[],'languages':[],'tags':['fallback-not-exa'],'score':{'ecosystem_value':2,'activity':1,'adoption':1,'practicality':2,'novelty':2,'confidence':2},'notes':q,'review_state':'auto-indexed'})
     return recs
 
 def main():

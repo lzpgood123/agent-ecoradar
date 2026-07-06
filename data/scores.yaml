@@ -2,27 +2,39 @@
   {
     "id": "github-juliusbrussee-caveman",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 2,
       "adoption": 5,
       "practicality": 2,
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 19,
+    "score_reason": {
+      "base": 18,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 20,
     "ranking_scope": "ecosystem"
   },
   {
     "id": "github-blader-humanizer",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 2,
       "adoption": 4,
       "practicality": 2,
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 18,
+    "score_reason": {
+      "base": 17,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -35,7 +47,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 18,
+    "score_reason": {
+      "base": 18,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 22,
     "ranking_scope": "ecosystem"
   },
   {
@@ -48,33 +66,51 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 18,
+    "score_reason": {
+      "base": 18,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 22,
     "ranking_scope": "ecosystem"
   },
   {
     "id": "github-virgiliojr94-book-to-skill",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 2,
       "adoption": 3,
       "practicality": 2,
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 17,
+    "score_reason": {
+      "base": 16,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 18,
     "ranking_scope": "ecosystem"
   },
   {
     "id": "github-simoneavogadro-android-reverse-engineering-skill",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 2,
       "adoption": 3,
       "practicality": 2,
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 17,
+    "score_reason": {
+      "base": 16,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 18,
     "ranking_scope": "ecosystem"
   },
   {
@@ -87,20 +123,32 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 17,
+    "score_reason": {
+      "base": 17,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 21,
     "ranking_scope": "ecosystem"
   },
   {
     "id": "github-zarazhangrui-codebase-to-course",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 2,
       "adoption": 3,
       "practicality": 2,
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 17,
+    "score_reason": {
+      "base": 16,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 18,
     "ranking_scope": "ecosystem"
   },
   {
@@ -113,7 +161,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 17,
+    "score_reason": {
+      "base": 17,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 21,
     "ranking_scope": "ecosystem"
   },
   {
@@ -126,7 +180,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 17,
+    "score_reason": {
+      "base": 17,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 21,
     "ranking_scope": "ecosystem"
   },
   {
@@ -139,7 +199,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 16,
+    "score_reason": {
+      "base": 16,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 20,
     "ranking_scope": "ecosystem"
   },
   {
@@ -152,7 +218,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 16,
+    "score_reason": {
+      "base": 16,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 20,
     "ranking_scope": "ecosystem"
   },
   {
@@ -165,7 +237,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 16,
+    "score_reason": {
+      "base": 16,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 20,
     "ranking_scope": "ecosystem"
   },
   {
@@ -178,7 +256,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 16,
+    "score_reason": {
+      "base": 16,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 20,
     "ranking_scope": "ecosystem"
   },
   {
@@ -191,7 +275,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 16,
+    "score_reason": {
+      "base": 16,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 20,
     "ranking_scope": "ecosystem"
   },
   {
@@ -204,7 +294,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 16,
+    "score_reason": {
+      "base": 16,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 20,
     "ranking_scope": "ecosystem"
   },
   {
@@ -217,7 +313,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 18,
     "ranking_scope": "ecosystem"
   },
   {
@@ -230,7 +332,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
@@ -243,7 +351,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -256,7 +370,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
@@ -269,46 +389,70 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
     "id": "github-femtopremiertag-r15-shanraisshan-claude-code-best-practice-security",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 2,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
     "id": "github-pondhelpplain-r15-shanraisshan-claude-code-best-practice-ecommerce",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 2,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
     "id": "github-ultimatedenpruner-r15-shanraisshan-claude-code-best-practice-datascience",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 2,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
@@ -321,7 +465,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 18,
     "ranking_scope": "ecosystem"
   },
   {
@@ -334,7 +484,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 18,
     "ranking_scope": "ecosystem"
   },
   {
@@ -347,7 +503,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 16,
+    "score_reason": {
+      "base": 16,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 20,
     "ranking_scope": "ecosystem"
   },
   {
@@ -360,46 +522,70 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 16,
+    "score_reason": {
+      "base": 16,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 20,
     "ranking_scope": "ecosystem"
   },
   {
     "id": "github-ricky-theseus-daisywriter",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 2,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
     "id": "github-daxueren666-exam-review-helper",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 2,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
     "id": "github-gokeshenzhen-gen-tb-skill",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 2,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
@@ -412,7 +598,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -425,7 +617,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -438,7 +636,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -451,7 +655,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
@@ -464,33 +674,51 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 15,
     "ranking_scope": "ecosystem"
   },
   {
     "id": "github-thealexyao-openclaw-codex-agents",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 2,
       "adoption": 0,
       "practicality": 2,
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 15,
     "ranking_scope": "ecosystem"
   },
   {
     "id": "github-franksde-agy-hud",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 2,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
@@ -503,7 +731,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
@@ -516,7 +750,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -529,7 +769,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 17,
     "ranking_scope": "ecosystem"
   },
   {
@@ -542,7 +788,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 15,
     "ranking_scope": "ecosystem"
   },
   {
@@ -555,7 +807,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 15,
     "ranking_scope": "ecosystem"
   },
   {
@@ -568,7 +826,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 15,
     "ranking_scope": "ecosystem"
   },
   {
@@ -581,20 +845,32 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 16,
+    "score_reason": {
+      "base": 16,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 18,
     "ranking_scope": "ecosystem"
   },
   {
     "id": "github-harish-garg-gemini-cli-prompt-library",
     "score": {
-      "ecosystem_value": 3,
+      "ecosystem_value": 4,
       "activity": 2,
       "adoption": 2,
       "practicality": 2,
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 16,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 20,
     "ranking_scope": "ecosystem"
   },
   {
@@ -607,7 +883,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 17,
     "ranking_scope": "ecosystem"
   },
   {
@@ -620,7 +902,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 17,
     "ranking_scope": "ecosystem"
   },
   {
@@ -633,7 +921,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 16,
+    "score_reason": {
+      "base": 16,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 20,
     "ranking_scope": "ecosystem"
   },
   {
@@ -646,7 +940,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 17,
     "ranking_scope": "ecosystem"
   },
   {
@@ -659,7 +959,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 17,
     "ranking_scope": "ecosystem"
   },
   {
@@ -672,7 +978,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": -1
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
@@ -685,7 +997,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
@@ -698,7 +1016,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -711,7 +1035,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -724,7 +1054,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 15,
     "ranking_scope": "ecosystem"
   },
   {
@@ -737,7 +1073,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 18,
     "ranking_scope": "ecosystem"
   },
   {
@@ -750,7 +1092,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 15,
     "ranking_scope": "ecosystem"
   },
   {
@@ -763,7 +1111,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 18,
     "ranking_scope": "ecosystem"
   },
   {
@@ -776,7 +1130,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 15,
     "ranking_scope": "ecosystem"
   },
   {
@@ -789,7 +1149,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -802,7 +1168,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -815,7 +1187,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -828,7 +1206,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -841,7 +1225,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -854,7 +1244,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -867,7 +1263,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -880,7 +1282,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -893,7 +1301,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 17,
     "ranking_scope": "ecosystem"
   },
   {
@@ -906,7 +1320,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 17,
     "ranking_scope": "ecosystem"
   },
   {
@@ -919,7 +1339,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
@@ -932,7 +1358,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
@@ -945,7 +1377,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -958,7 +1396,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 18,
     "ranking_scope": "ecosystem"
   },
   {
@@ -971,7 +1415,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 18,
     "ranking_scope": "ecosystem"
   },
   {
@@ -984,7 +1434,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 17,
+    "score_reason": {
+      "base": 17,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 21,
     "ranking_scope": "ecosystem"
   },
   {
@@ -997,7 +1453,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 16,
+    "score_reason": {
+      "base": 16,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -1010,7 +1472,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 17,
+    "score_reason": {
+      "base": 17,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 21,
     "ranking_scope": "ecosystem"
   },
   {
@@ -1023,7 +1491,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 17,
+    "score_reason": {
+      "base": 17,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 21,
     "ranking_scope": "ecosystem"
   },
   {
@@ -1036,7 +1510,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 17,
+    "score_reason": {
+      "base": 17,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 21,
     "ranking_scope": "ecosystem"
   },
   {
@@ -1049,7 +1529,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 16,
+    "score_reason": {
+      "base": 16,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 20,
     "ranking_scope": "ecosystem"
   },
   {
@@ -1062,7 +1548,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 18,
     "ranking_scope": "ecosystem"
   },
   {
@@ -1075,7 +1567,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 16,
+    "score_reason": {
+      "base": 16,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 20,
     "ranking_scope": "ecosystem"
   },
   {
@@ -1088,7 +1586,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 16,
+    "score_reason": {
+      "base": 16,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 20,
     "ranking_scope": "ecosystem"
   },
   {
@@ -1101,7 +1605,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -1114,7 +1624,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -1127,7 +1643,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -1140,7 +1662,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -1153,7 +1681,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -1166,7 +1700,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -1179,7 +1719,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -1192,7 +1738,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 16,
+    "score_reason": {
+      "base": 16,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 20,
     "ranking_scope": "ecosystem"
   },
   {
@@ -1205,7 +1757,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 16,
+    "score_reason": {
+      "base": 16,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 20,
     "ranking_scope": "ecosystem"
   },
   {
@@ -1218,7 +1776,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 16,
+    "score_reason": {
+      "base": 16,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 20,
     "ranking_scope": "ecosystem"
   },
   {
@@ -1231,7 +1795,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -1244,7 +1814,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -1257,7 +1833,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -1270,7 +1852,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -1283,7 +1871,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -1296,7 +1890,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": -1
+    },
+    "total_score": 17,
     "ranking_scope": "ecosystem"
   },
   {
@@ -1309,7 +1909,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": -1
+    },
+    "total_score": 15,
     "ranking_scope": "ecosystem"
   },
   {
@@ -1322,7 +1928,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": -1
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
@@ -1335,20 +1947,32 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": -1
+    },
+    "total_score": 15,
     "ranking_scope": "ecosystem"
   },
   {
     "id": "github-atirian-chen-ai-pr-review-agent",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 2,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": -1
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
@@ -1361,7 +1985,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": -1
+    },
+    "total_score": 14,
     "ranking_scope": "ecosystem"
   },
   {
@@ -1374,7 +2004,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": -1
+    },
+    "total_score": 15,
     "ranking_scope": "ecosystem"
   },
   {
@@ -1387,7 +2023,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": -1
+    },
+    "total_score": 15,
     "ranking_scope": "ecosystem"
   },
   {
@@ -1400,7 +2042,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
@@ -1413,7 +2061,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 0,
+      "penalty": -2
+    },
+    "total_score": 6,
     "ranking_scope": "excluded"
   },
   {
@@ -1426,7 +2080,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 0,
+      "penalty": -2
+    },
+    "total_score": 6,
     "ranking_scope": "excluded"
   },
   {
@@ -1439,7 +2099,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 0,
+      "penalty": -2
+    },
+    "total_score": 6,
     "ranking_scope": "excluded"
   },
   {
@@ -1452,7 +2118,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 0,
+      "penalty": -2
+    },
+    "total_score": 6,
     "ranking_scope": "excluded"
   },
   {
@@ -1465,7 +2137,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 0,
+      "penalty": -2
+    },
+    "total_score": 6,
     "ranking_scope": "excluded"
   },
   {
@@ -1478,7 +2156,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 0,
+      "penalty": -2
+    },
+    "total_score": 6,
     "ranking_scope": "excluded"
   },
   {
@@ -1491,7 +2175,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 0,
+      "penalty": -2
+    },
+    "total_score": 6,
     "ranking_scope": "excluded"
   },
   {
@@ -1504,7 +2194,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 0,
+      "penalty": -2
+    },
+    "total_score": 6,
     "ranking_scope": "excluded"
   },
   {
@@ -1517,7 +2213,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 0,
+      "penalty": -2
+    },
+    "total_score": 6,
     "ranking_scope": "excluded"
   },
   {
@@ -1530,7 +2232,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 0,
+      "penalty": -2
+    },
+    "total_score": 6,
     "ranking_scope": "excluded"
   },
   {
@@ -1543,7 +2251,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -1556,7 +2270,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 0,
+      "penalty": -2
+    },
+    "total_score": 6,
     "ranking_scope": "excluded"
   },
   {
@@ -1569,7 +2289,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -1582,7 +2308,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 0,
+      "penalty": -2
+    },
+    "total_score": 6,
     "ranking_scope": "excluded"
   },
   {
@@ -1595,7 +2327,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 0,
+      "penalty": -2
+    },
+    "total_score": 6,
     "ranking_scope": "excluded"
   },
   {
@@ -1608,8 +2346,14 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
-    "ranking_scope": "excluded"
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 1,
+      "penalty": -2
+    },
+    "total_score": 7,
+    "ranking_scope": "learning-resource"
   },
   {
     "id": "web-https-qoder-com",
@@ -1621,8 +2365,14 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
-    "ranking_scope": "excluded"
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 1,
+      "penalty": -2
+    },
+    "total_score": 7,
+    "ranking_scope": "learning-resource"
   },
   {
     "id": "web-https-www-aliyun-com-product-qoder",
@@ -1634,8 +2384,14 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
-    "ranking_scope": "excluded"
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 1,
+      "penalty": -2
+    },
+    "total_score": 7,
+    "ranking_scope": "learning-resource"
   },
   {
     "id": "web-https-qoder-com-cn-desktop",
@@ -1647,8 +2403,14 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
-    "ranking_scope": "excluded"
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 1,
+      "penalty": -2
+    },
+    "total_score": 7,
+    "ranking_scope": "learning-resource"
   },
   {
     "id": "web-https-zhuanlan-zhihu-com-p-1945974913195311572",
@@ -1660,8 +2422,14 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
-    "ranking_scope": "excluded"
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 1,
+      "penalty": -2
+    },
+    "total_score": 7,
+    "ranking_scope": "learning-resource"
   },
   {
     "id": "web-https-copilot-tencent-com-work",
@@ -1673,7 +2441,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -1686,7 +2460,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -1699,7 +2479,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -1712,7 +2498,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -1725,7 +2517,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -1738,7 +2536,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -3
+    },
+    "total_score": 9,
     "ranking_scope": "learning-resource"
   },
   {
@@ -1751,7 +2555,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -3
+    },
+    "total_score": 9,
     "ranking_scope": "learning-resource"
   },
   {
@@ -1764,7 +2574,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 0,
+      "penalty": -3
+    },
+    "total_score": 5,
     "ranking_scope": "excluded"
   },
   {
@@ -1777,7 +2593,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 0,
+      "penalty": -3
+    },
+    "total_score": 5,
     "ranking_scope": "excluded"
   },
   {
@@ -1790,7 +2612,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 0,
+      "penalty": -3
+    },
+    "total_score": 5,
     "ranking_scope": "excluded"
   },
   {
@@ -1803,7 +2631,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -1816,7 +2650,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -1829,7 +2669,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -1842,7 +2688,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -1855,7 +2707,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -1868,7 +2726,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 0,
+      "penalty": -2
+    },
+    "total_score": 6,
     "ranking_scope": "excluded"
   },
   {
@@ -1881,7 +2745,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 0,
+      "penalty": -2
+    },
+    "total_score": 6,
     "ranking_scope": "excluded"
   },
   {
@@ -1894,8 +2764,14 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
-    "ranking_scope": "excluded"
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 1,
+      "penalty": -2
+    },
+    "total_score": 7,
+    "ranking_scope": "learning-resource"
   },
   {
     "id": "web-https-opencodeai-cn",
@@ -1907,7 +2783,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 0,
+      "penalty": -2
+    },
+    "total_score": 6,
     "ranking_scope": "excluded"
   },
   {
@@ -1920,7 +2802,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 1,
+      "penalty": -2
+    },
+    "total_score": 7,
     "ranking_scope": "learning-resource"
   },
   {
@@ -1933,7 +2821,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -1946,7 +2840,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -1959,7 +2859,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -1972,7 +2878,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -1985,7 +2897,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -1998,8 +2916,14 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
-    "ranking_scope": "learning-resource"
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 0,
+      "penalty": -2
+    },
+    "total_score": 6,
+    "ranking_scope": "excluded"
   },
   {
     "id": "web-https-www-bbc-co-uk-weather",
@@ -2011,7 +2935,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 0,
+      "penalty": -2
+    },
+    "total_score": 6,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2024,7 +2954,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 0,
+      "penalty": -2
+    },
+    "total_score": 6,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2037,7 +2973,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 0,
+      "penalty": -2
+    },
+    "total_score": 6,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2050,7 +2992,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 0,
+      "penalty": -2
+    },
+    "total_score": 6,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2063,7 +3011,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2076,7 +3030,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2089,7 +3049,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2102,7 +3068,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2115,7 +3087,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2128,7 +3106,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2141,7 +3125,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2154,7 +3144,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2167,7 +3163,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2180,7 +3182,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2193,7 +3201,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2206,7 +3220,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2219,7 +3239,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2232,7 +3258,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2245,7 +3277,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2258,7 +3296,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2271,7 +3315,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2284,7 +3334,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2297,7 +3353,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2310,7 +3372,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2323,7 +3391,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 0,
+      "penalty": -2
+    },
+    "total_score": 6,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2336,7 +3410,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2349,7 +3429,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2362,7 +3448,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2375,7 +3467,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2388,7 +3486,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2401,7 +3505,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2414,7 +3524,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2427,7 +3543,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2440,7 +3562,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2453,7 +3581,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2466,7 +3600,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2479,7 +3619,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -3
+    },
+    "total_score": 9,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2492,7 +3638,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -3
+    },
+    "total_score": 9,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2505,7 +3657,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -3
+    },
+    "total_score": 9,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2518,7 +3676,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -3
+    },
+    "total_score": 9,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2531,7 +3695,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -3
+    },
+    "total_score": 9,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2544,7 +3714,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 0,
+      "penalty": -2
+    },
+    "total_score": 6,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2557,7 +3733,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 0,
+      "penalty": -2
+    },
+    "total_score": 6,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2570,7 +3752,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 0,
+      "penalty": -2
+    },
+    "total_score": 6,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2583,7 +3771,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 0,
+      "penalty": -2
+    },
+    "total_score": 6,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2596,7 +3790,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 0,
+      "penalty": -2
+    },
+    "total_score": 6,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2609,7 +3809,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -3
+    },
+    "total_score": 9,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2622,7 +3828,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -3
+    },
+    "total_score": 9,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2635,7 +3847,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -3
+    },
+    "total_score": 9,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2648,7 +3866,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 1,
+      "penalty": -3
+    },
+    "total_score": 6,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2661,7 +3885,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 1,
+      "penalty": -3
+    },
+    "total_score": 6,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2674,7 +3904,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 1,
+      "penalty": -3
+    },
+    "total_score": 6,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2687,7 +3923,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 1,
+      "penalty": -3
+    },
+    "total_score": 6,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2700,7 +3942,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 1,
+      "penalty": -3
+    },
+    "total_score": 6,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2713,7 +3961,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2726,7 +3980,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2739,7 +3999,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2752,7 +4018,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2765,7 +4037,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2778,8 +4056,14 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
-    "ranking_scope": "learning-resource"
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 0,
+      "penalty": -3
+    },
+    "total_score": 5,
+    "ranking_scope": "excluded"
   },
   {
     "id": "web-https-account-microsoft-com-account",
@@ -2791,8 +4075,14 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
-    "ranking_scope": "learning-resource"
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 0,
+      "penalty": -3
+    },
+    "total_score": 5,
+    "ranking_scope": "excluded"
   },
   {
     "id": "web-https-www-office-com",
@@ -2804,8 +4094,14 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
-    "ranking_scope": "learning-resource"
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 0,
+      "penalty": -3
+    },
+    "total_score": 5,
+    "ranking_scope": "excluded"
   },
   {
     "id": "web-https-en-wikipedia-org-wiki-microsoft",
@@ -2817,8 +4113,14 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
-    "ranking_scope": "learning-resource"
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 0,
+      "penalty": -3
+    },
+    "total_score": 5,
+    "ranking_scope": "excluded"
   },
   {
     "id": "web-https-signup-live-com",
@@ -2830,8 +4132,14 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
-    "ranking_scope": "learning-resource"
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 0,
+      "penalty": -3
+    },
+    "total_score": 5,
+    "ranking_scope": "excluded"
   },
   {
     "id": "web-https-hermesagent-org-cn-docs-getting-started-installation",
@@ -2843,7 +4151,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2856,7 +4170,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2869,7 +4189,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2882,7 +4208,13 @@
       "novelty": 3,
       "confidence": 5
     },
-    "total_score": 24,
+    "score_reason": {
+      "base": 24,
+      "source_weight": 0,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 25,
     "ranking_scope": "official"
   },
   {
@@ -2895,7 +4227,13 @@
       "novelty": 3,
       "confidence": 5
     },
-    "total_score": 24,
+    "score_reason": {
+      "base": 24,
+      "source_weight": 0,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 25,
     "ranking_scope": "official"
   },
   {
@@ -2908,7 +4246,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 13,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2921,20 +4265,32 @@
       "novelty": 3,
       "confidence": 5
     },
-    "total_score": 24,
+    "score_reason": {
+      "base": 24,
+      "source_weight": 0,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 25,
     "ranking_scope": "official"
   },
   {
     "id": "exa-https-qoder-com",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 1,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2947,7 +4303,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2960,7 +4322,13 @@
       "novelty": 3,
       "confidence": 5
     },
-    "total_score": 24,
+    "score_reason": {
+      "base": 24,
+      "source_weight": 0,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 25,
     "ranking_scope": "official"
   },
   {
@@ -2973,7 +4341,13 @@
       "novelty": 3,
       "confidence": 5
     },
-    "total_score": 24,
+    "score_reason": {
+      "base": 24,
+      "source_weight": 0,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 25,
     "ranking_scope": "official"
   },
   {
@@ -2986,7 +4360,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -2999,7 +4379,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 17,
     "ranking_scope": "ecosystem"
   },
   {
@@ -3012,7 +4398,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 17,
     "ranking_scope": "ecosystem"
   },
   {
@@ -3025,20 +4417,32 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 17,
     "ranking_scope": "ecosystem"
   },
   {
     "id": "github-laofudev-laofu-qmt-skill",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 2,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 17,
     "ranking_scope": "ecosystem"
   },
   {
@@ -3051,7 +4455,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -3064,20 +4474,32 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
     "id": "github-leahchen2025-flashcard-generator",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 2,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 17,
     "ranking_scope": "ecosystem"
   },
   {
@@ -3090,85 +4512,127 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 18,
     "ranking_scope": "ecosystem"
   },
   {
     "id": "github-bettermen-pc-repair",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 2,
       "adoption": 0,
       "practicality": 2,
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
     "id": "github-flyliyiyun-startup-operations",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 2,
       "adoption": 0,
       "practicality": 2,
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
     "id": "github-flyliyiyun-startup-product",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 2,
       "adoption": 0,
       "practicality": 2,
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
     "id": "github-flyliyiyun-startup-fundraising",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 2,
       "adoption": 0,
       "practicality": 2,
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
     "id": "github-flyliyiyun-startup-growth",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 2,
       "adoption": 0,
       "practicality": 2,
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
     "id": "github-denceee-microsoft-style-chinese-skill",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 2,
       "adoption": 0,
       "practicality": 2,
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
@@ -3181,7 +4645,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 18,
     "ranking_scope": "ecosystem"
   },
   {
@@ -3194,7 +4664,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
@@ -3207,20 +4683,32 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 18,
     "ranking_scope": "ecosystem"
   },
   {
     "id": "exa-https-github-com-qoderai-qoder-action",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 1,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -3233,7 +4721,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 17,
     "ranking_scope": "ecosystem"
   },
   {
@@ -3246,7 +4740,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 17,
     "ranking_scope": "ecosystem"
   },
   {
@@ -3259,7 +4759,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 17,
     "ranking_scope": "ecosystem"
   },
   {
@@ -3272,20 +4778,32 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 17,
     "ranking_scope": "ecosystem"
   },
   {
     "id": "github-harlandzzc-cuhk-slides-template-html",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 2,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 17,
     "ranking_scope": "ecosystem"
   },
   {
@@ -3298,20 +4816,32 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 17,
     "ranking_scope": "ecosystem"
   },
   {
     "id": "github-lfeng-qoder-cli-skill",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 2,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 17,
     "ranking_scope": "ecosystem"
   },
   {
@@ -3324,7 +4854,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 17,
     "ranking_scope": "ecosystem"
   },
   {
@@ -3337,7 +4873,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 17,
     "ranking_scope": "ecosystem"
   },
   {
@@ -3350,7 +4892,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 17,
     "ranking_scope": "ecosystem"
   },
   {
@@ -3363,7 +4911,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -3376,7 +4930,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -3389,7 +4949,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -3402,7 +4968,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -3415,7 +4987,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -3428,7 +5006,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 1,
+      "penalty": -2
+    },
+    "total_score": 7,
     "ranking_scope": "learning-resource"
   },
   {
@@ -3441,7 +5025,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 1,
+      "penalty": -2
+    },
+    "total_score": 7,
     "ranking_scope": "learning-resource"
   },
   {
@@ -3454,7 +5044,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -3467,7 +5063,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -3480,7 +5082,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 1,
+      "penalty": -2
+    },
+    "total_score": 7,
     "ranking_scope": "learning-resource"
   },
   {
@@ -3493,7 +5101,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 1,
+      "penalty": -2
+    },
+    "total_score": 7,
     "ranking_scope": "learning-resource"
   },
   {
@@ -3506,7 +5120,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 1,
+      "penalty": -2
+    },
+    "total_score": 7,
     "ranking_scope": "learning-resource"
   },
   {
@@ -3519,7 +5139,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 1,
+      "penalty": -2
+    },
+    "total_score": 7,
     "ranking_scope": "learning-resource"
   },
   {
@@ -3532,7 +5158,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 1,
+      "penalty": -2
+    },
+    "total_score": 7,
     "ranking_scope": "learning-resource"
   },
   {
@@ -3545,7 +5177,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 1,
+      "penalty": -2
+    },
+    "total_score": 7,
     "ranking_scope": "learning-resource"
   },
   {
@@ -3558,7 +5196,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 1,
+      "penalty": -2
+    },
+    "total_score": 7,
     "ranking_scope": "learning-resource"
   },
   {
@@ -3571,7 +5215,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 1,
+      "penalty": -2
+    },
+    "total_score": 7,
     "ranking_scope": "learning-resource"
   },
   {
@@ -3584,7 +5234,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -3597,7 +5253,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -3610,7 +5272,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -3623,7 +5291,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -3636,7 +5310,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -3649,7 +5329,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -3662,7 +5348,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -3675,7 +5367,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": -2,
+      "category_weight": 2,
+      "penalty": -2
+    },
+    "total_score": 10,
     "ranking_scope": "learning-resource"
   },
   {
@@ -3688,7 +5386,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 1,
+      "penalty": -2
+    },
+    "total_score": 7,
     "ranking_scope": "learning-resource"
   },
   {
@@ -3701,7 +5405,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 1,
+      "penalty": -2
+    },
+    "total_score": 7,
     "ranking_scope": "learning-resource"
   },
   {
@@ -3714,7 +5424,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 1,
+      "penalty": -2
+    },
+    "total_score": 7,
     "ranking_scope": "learning-resource"
   },
   {
@@ -3727,7 +5443,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 1,
+      "penalty": -2
+    },
+    "total_score": 7,
     "ranking_scope": "learning-resource"
   },
   {
@@ -3740,7 +5462,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 1,
+      "penalty": -2
+    },
+    "total_score": 7,
     "ranking_scope": "learning-resource"
   },
   {
@@ -3753,7 +5481,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 1,
+      "penalty": -2
+    },
+    "total_score": 7,
     "ranking_scope": "learning-resource"
   },
   {
@@ -3766,7 +5500,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 1,
+      "penalty": -2
+    },
+    "total_score": 7,
     "ranking_scope": "learning-resource"
   },
   {
@@ -3779,7 +5519,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 1,
+      "penalty": -2
+    },
+    "total_score": 7,
     "ranking_scope": "learning-resource"
   },
   {
@@ -3792,7 +5538,13 @@
       "novelty": 2,
       "confidence": 2
     },
-    "total_score": 10,
+    "score_reason": {
+      "base": 10,
+      "source_weight": -2,
+      "category_weight": 1,
+      "penalty": -2
+    },
+    "total_score": 7,
     "ranking_scope": "learning-resource"
   },
   {
@@ -3805,7 +5557,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 17,
+    "score_reason": {
+      "base": 17,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 21,
     "ranking_scope": "ecosystem"
   },
   {
@@ -3818,7 +5576,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 17,
+    "score_reason": {
+      "base": 17,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 21,
     "ranking_scope": "ecosystem"
   },
   {
@@ -3831,7 +5595,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 17,
+    "score_reason": {
+      "base": 17,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 21,
     "ranking_scope": "ecosystem"
   },
   {
@@ -3844,33 +5614,51 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 17,
+    "score_reason": {
+      "base": 17,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 21,
     "ranking_scope": "ecosystem"
   },
   {
     "id": "github-lackeyjb-playwright-skill",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 2,
       "adoption": 3,
       "practicality": 2,
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 17,
+    "score_reason": {
+      "base": 16,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 18,
     "ranking_scope": "ecosystem"
   },
   {
     "id": "github-dominikmartn-nothing-design-skill",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 2,
       "adoption": 3,
       "practicality": 2,
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 17,
+    "score_reason": {
+      "base": 16,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 18,
     "ranking_scope": "ecosystem"
   },
   {
@@ -3883,7 +5671,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 17,
+    "score_reason": {
+      "base": 17,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 21,
     "ranking_scope": "ecosystem"
   },
   {
@@ -3896,7 +5690,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 17,
+    "score_reason": {
+      "base": 17,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 21,
     "ranking_scope": "ecosystem"
   },
   {
@@ -3909,7 +5709,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 17,
+    "score_reason": {
+      "base": 17,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 21,
     "ranking_scope": "ecosystem"
   },
   {
@@ -3922,7 +5728,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 17,
+    "score_reason": {
+      "base": 17,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 21,
     "ranking_scope": "ecosystem"
   },
   {
@@ -3935,7 +5747,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 17,
+    "score_reason": {
+      "base": 17,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 21,
     "ranking_scope": "ecosystem"
   },
   {
@@ -3948,7 +5766,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 17,
+    "score_reason": {
+      "base": 17,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 21,
     "ranking_scope": "ecosystem"
   },
   {
@@ -3961,7 +5785,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -3974,7 +5804,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -3987,7 +5823,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4000,7 +5842,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4013,7 +5861,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4026,7 +5880,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4039,7 +5899,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4052,7 +5918,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4065,7 +5937,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4078,7 +5956,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4091,7 +5975,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4104,33 +5994,51 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
     "id": "github-chipspiderwarm-r15-shanraisshan-claude-code-best-practice-devops",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 2,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
     "id": "github-magicstarfishboost-r15-shanraisshan-claude-code-best-practice-seo",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 2,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4143,7 +6051,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4156,7 +6070,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4169,7 +6089,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4182,7 +6108,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4195,7 +6127,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4208,7 +6146,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4221,7 +6165,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4234,7 +6184,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4247,7 +6203,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4260,7 +6222,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4273,20 +6241,32 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
     "id": "github-hyophyop-mapreduce-skill",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 2,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4299,46 +6279,70 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
     "id": "github-yuxiaoyang2007-prog-claude-code-skill",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 2,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
     "id": "github-gitjburns-export-session",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 2,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
     "id": "github-jseook11-codex-pdf-ocr-to-markdown-skill",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 2,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4351,33 +6355,51 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
     "id": "github-asd880921-gitnexus-wiki",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 2,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
     "id": "github-newturn2017-readme-writer",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 2,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4390,7 +6412,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 18,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4403,7 +6431,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 18,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4416,7 +6450,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 18,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4429,7 +6469,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4442,7 +6488,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4455,7 +6507,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": -1
+    },
+    "total_score": 15,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4468,7 +6526,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4481,7 +6545,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4494,7 +6564,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4507,7 +6583,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4520,7 +6602,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4533,7 +6621,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4546,7 +6640,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4559,7 +6659,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4572,7 +6678,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4585,7 +6697,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 18,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4598,7 +6716,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 18,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4611,7 +6735,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4624,7 +6754,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4637,7 +6773,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4650,7 +6792,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4663,7 +6811,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4676,7 +6830,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4689,7 +6849,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4702,7 +6868,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4715,7 +6887,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4728,7 +6906,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4741,7 +6925,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4754,7 +6944,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4767,7 +6963,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 16,
+    "score_reason": {
+      "base": 16,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 20,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4780,7 +6982,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 16,
+    "score_reason": {
+      "base": 16,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 20,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4793,7 +7001,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 16,
+    "score_reason": {
+      "base": 16,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 20,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4806,7 +7020,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 16,
+    "score_reason": {
+      "base": 16,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 20,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4819,7 +7039,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 16,
+    "score_reason": {
+      "base": 16,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 20,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4832,7 +7058,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 16,
+    "score_reason": {
+      "base": 16,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 20,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4845,7 +7077,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 16,
+    "score_reason": {
+      "base": 16,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 20,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4858,7 +7096,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4871,7 +7115,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4884,7 +7134,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4897,7 +7153,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4910,7 +7172,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4923,7 +7191,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4936,7 +7210,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4949,7 +7229,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4962,7 +7248,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4975,7 +7267,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -4988,7 +7286,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -5001,7 +7305,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -5014,7 +7324,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -5027,7 +7343,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -5040,7 +7362,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -5053,7 +7381,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -5066,7 +7400,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -5079,7 +7419,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -5092,7 +7438,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -5105,7 +7457,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -5118,7 +7476,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -5131,7 +7495,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -5144,7 +7514,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -5157,7 +7533,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -5170,7 +7552,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -5183,7 +7571,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -5196,7 +7590,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -5209,7 +7609,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -5222,7 +7628,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 15,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 19,
     "ranking_scope": "ecosystem"
   },
   {
@@ -5235,7 +7647,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 14,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": -1
+    },
+    "total_score": 17,
     "ranking_scope": "ecosystem"
   },
   {
@@ -5248,7 +7666,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": -1
+    },
+    "total_score": 14,
     "ranking_scope": "ecosystem"
   },
   {
@@ -5261,7 +7685,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": -1
+    },
+    "total_score": 14,
     "ranking_scope": "ecosystem"
   },
   {
@@ -5274,7 +7704,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": -1
+    },
+    "total_score": 15,
     "ranking_scope": "ecosystem"
   },
   {
@@ -5287,7 +7723,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": -1
+    },
+    "total_score": 14,
     "ranking_scope": "ecosystem"
   },
   {
@@ -5300,7 +7742,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": -1
+    },
+    "total_score": 14,
     "ranking_scope": "ecosystem"
   },
   {
@@ -5313,7 +7761,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": -1
+    },
+    "total_score": 14,
     "ranking_scope": "ecosystem"
   },
   {
@@ -5326,7 +7780,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": -1
+    },
+    "total_score": 15,
     "ranking_scope": "ecosystem"
   },
   {
@@ -5339,7 +7799,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": -1
+    },
+    "total_score": 14,
     "ranking_scope": "ecosystem"
   },
   {
@@ -5352,7 +7818,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": -1
+    },
+    "total_score": 15,
     "ranking_scope": "ecosystem"
   },
   {
@@ -5365,7 +7837,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": -1
+    },
+    "total_score": 15,
     "ranking_scope": "ecosystem"
   },
   {
@@ -5378,7 +7856,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": -1
+    },
+    "total_score": 14,
     "ranking_scope": "ecosystem"
   },
   {
@@ -5391,72 +7875,108 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": -1
+    },
+    "total_score": 14,
     "ranking_scope": "ecosystem"
   },
   {
     "id": "exa-https-github-com-tianhao909-qoderwork-e-signature",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 1,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
     "id": "exa-https-www-npmjs-com-package-docx",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 1,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
     "id": "exa-https-www-npmjs-com-package-word-extractor",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 1,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
     "id": "exa-https-www-npmjs-com-package-canvas",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 1,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
     "id": "exa-https-github-com-qoderai",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 1,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5469,7 +7989,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5482,7 +8008,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5495,7 +8027,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5508,7 +8046,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5521,7 +8065,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5534,7 +8084,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5547,7 +8103,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5560,7 +8122,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5573,7 +8141,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5586,7 +8160,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5599,7 +8179,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5612,7 +8198,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5625,7 +8217,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5638,7 +8236,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5651,7 +8255,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5664,7 +8274,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5677,7 +8293,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5690,7 +8312,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5703,7 +8331,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5716,7 +8350,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5729,7 +8369,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5742,7 +8388,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5755,7 +8407,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5768,7 +8426,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 13,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5781,7 +8445,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5794,7 +8464,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5807,7 +8483,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5820,7 +8502,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5833,7 +8521,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5846,7 +8540,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5859,7 +8559,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5872,7 +8578,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5885,7 +8597,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5898,7 +8616,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5911,7 +8635,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5924,7 +8654,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5937,7 +8673,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5950,7 +8692,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5963,7 +8711,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5976,7 +8730,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -5989,7 +8749,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6002,7 +8768,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6015,7 +8787,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6028,7 +8806,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6041,7 +8825,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6054,7 +8844,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6067,7 +8863,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6080,7 +8882,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6093,7 +8901,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6106,7 +8920,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6119,7 +8939,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6132,7 +8958,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6145,7 +8977,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6158,7 +8996,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6171,85 +9015,127 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
     "id": "exa-https-cursor-com-blog-agent-best-practices",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 1,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
     "id": "exa-https-cursor-com-blog-coinbase",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 1,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
     "id": "exa-https-cursor-com-home",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 1,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
     "id": "exa-https-cursor-com-product",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 1,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
     "id": "exa-https-cursor-com-learn-putting-it-together",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 1,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
     "id": "exa-https-skywork-ai-blog-vibecoding-cursor-2-0-case-study-startup",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 1,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6262,7 +9148,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6275,7 +9167,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6288,18 +9186,30 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
     "id": "exa-https-modelcontextprotocol-io",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 1,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 3
+    },
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 0,
+      "penalty": 0
     },
     "total_score": 13,
     "ranking_scope": "learning-resource"
@@ -6314,7 +9224,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 13,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6327,7 +9243,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 13,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6340,7 +9262,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6353,7 +9281,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 13,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6366,7 +9300,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6379,7 +9319,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6392,7 +9338,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6405,7 +9357,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6418,7 +9376,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6431,7 +9395,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6444,7 +9414,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6457,7 +9433,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6470,7 +9452,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6483,7 +9471,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6496,7 +9490,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6509,7 +9509,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 13,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6522,7 +9528,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6535,7 +9547,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6548,7 +9566,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6561,7 +9585,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6574,7 +9604,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6587,7 +9623,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6600,7 +9642,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6613,7 +9661,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6626,7 +9680,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6639,7 +9699,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6652,7 +9718,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6665,7 +9737,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6678,7 +9756,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6691,7 +9775,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": -1
+    },
+    "total_score": 15,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6704,7 +9794,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": -1
+    },
+    "total_score": 15,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6717,7 +9813,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": -1
+    },
+    "total_score": 15,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6730,7 +9832,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": -1
+    },
+    "total_score": 15,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6743,7 +9851,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 13,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6756,7 +9870,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 13,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6769,7 +9889,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6782,7 +9908,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6795,7 +9927,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 13,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6808,7 +9946,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6821,7 +9965,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6834,7 +9984,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 13,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6847,7 +10003,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 13,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6860,7 +10022,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 13,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6873,7 +10041,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6886,7 +10060,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6899,7 +10079,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6912,7 +10098,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6925,7 +10117,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6938,7 +10136,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6951,7 +10155,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6964,7 +10174,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6977,7 +10193,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -6990,7 +10212,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": -1
+    },
+    "total_score": 15,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7003,7 +10231,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7016,7 +10250,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": -1
+    },
+    "total_score": 15,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7029,7 +10269,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": -1
+    },
+    "total_score": 15,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7042,7 +10288,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7055,7 +10307,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7068,7 +10326,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7081,7 +10345,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7094,7 +10364,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7107,7 +10383,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7120,18 +10402,30 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
     "id": "exa-https-www-deeplearning-ai-courses-spec-driven-development-with-coding-agents",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 1,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 3
+    },
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": -1
     },
     "total_score": 13,
     "ranking_scope": "learning-resource"
@@ -7139,12 +10433,18 @@
   {
     "id": "exa-https-martinfowler-com-articles-exploring-gen-ai-sdd-3-tools-html",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 1,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 3
+    },
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": -1
     },
     "total_score": 13,
     "ranking_scope": "learning-resource"
@@ -7159,18 +10459,30 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": -1
+    },
+    "total_score": 15,
     "ranking_scope": "learning-resource"
   },
   {
     "id": "exa-https-github-com-zhu1090093659-spec-driven-develop",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 1,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 3
+    },
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": -1
     },
     "total_score": 13,
     "ranking_scope": "learning-resource"
@@ -7185,7 +10497,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": -1
+    },
+    "total_score": 15,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7198,7 +10516,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7211,7 +10535,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7224,7 +10554,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7237,7 +10573,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7250,7 +10592,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7263,7 +10611,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7276,7 +10630,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7289,7 +10649,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7302,7 +10668,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7315,7 +10687,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7328,7 +10706,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7341,7 +10725,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7354,7 +10744,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7367,7 +10763,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7380,7 +10782,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7393,7 +10801,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7406,7 +10820,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7419,7 +10839,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7432,7 +10858,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7445,7 +10877,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7458,7 +10896,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7471,7 +10915,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7484,7 +10934,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7497,7 +10953,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7510,7 +10972,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 13,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7523,7 +10991,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7536,20 +11010,32 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 13,
     "ranking_scope": "learning-resource"
   },
   {
     "id": "github-274326424-video-content-extractor",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 2,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 15,
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "ecosystem"
   },
   {
@@ -7562,7 +11048,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": -1
+    },
+    "total_score": 14,
     "ranking_scope": "ecosystem"
   },
   {
@@ -7575,7 +11067,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": -1
+    },
+    "total_score": 14,
     "ranking_scope": "ecosystem"
   },
   {
@@ -7588,7 +11086,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": -1
+    },
+    "total_score": 15,
     "ranking_scope": "ecosystem"
   },
   {
@@ -7601,7 +11105,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": -1
+    },
+    "total_score": 15,
     "ranking_scope": "ecosystem"
   },
   {
@@ -7614,7 +11124,13 @@
       "novelty": 2,
       "confidence": 4
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": -1
+    },
+    "total_score": 14,
     "ranking_scope": "ecosystem"
   },
   {
@@ -7627,7 +11143,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7640,7 +11162,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7653,7 +11181,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 13,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7666,7 +11200,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 13,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7679,7 +11219,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7692,7 +11238,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7705,7 +11257,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7718,7 +11276,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7731,7 +11295,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 13,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7744,7 +11314,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 13,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7757,7 +11333,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 13,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7770,7 +11352,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7783,7 +11371,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": -1
+    },
+    "total_score": 15,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7796,7 +11390,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 13,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7809,7 +11409,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 13,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7822,7 +11428,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 13,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7835,7 +11447,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 13,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7848,7 +11466,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 13,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7861,7 +11485,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 13,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7874,7 +11504,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 13,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7887,18 +11523,30 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 0,
+      "penalty": 0
+    },
+    "total_score": 13,
     "ranking_scope": "learning-resource"
   },
   {
     "id": "exa-https-amux-io-guides-spec-driven-development",
     "score": {
-      "ecosystem_value": 4,
+      "ecosystem_value": 3,
       "activity": 1,
       "adoption": 1,
       "practicality": 2,
       "novelty": 2,
       "confidence": 3
+    },
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": -1
     },
     "total_score": 13,
     "ranking_scope": "learning-resource"
@@ -7913,7 +11561,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7926,7 +11580,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 12,
+    "score_reason": {
+      "base": 12,
+      "source_weight": 1,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 14,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7939,7 +11599,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7952,7 +11618,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7965,7 +11637,13 @@
       "novelty": 2,
       "confidence": 3
     },
-    "total_score": 13,
+    "score_reason": {
+      "base": 13,
+      "source_weight": 1,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 16,
     "ranking_scope": "learning-resource"
   },
   {
@@ -7978,7 +11656,13 @@
       "novelty": 3,
       "confidence": 5
     },
-    "total_score": 24,
+    "score_reason": {
+      "base": 24,
+      "source_weight": 0,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 25,
     "ranking_scope": "official"
   },
   {
@@ -7991,7 +11675,13 @@
       "novelty": 3,
       "confidence": 5
     },
-    "total_score": 24,
+    "score_reason": {
+      "base": 24,
+      "source_weight": 0,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 25,
     "ranking_scope": "official"
   },
   {
@@ -8004,7 +11694,13 @@
       "novelty": 3,
       "confidence": 5
     },
-    "total_score": 24,
+    "score_reason": {
+      "base": 24,
+      "source_weight": 0,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 25,
     "ranking_scope": "official"
   },
   {
@@ -8017,7 +11713,13 @@
       "novelty": 3,
       "confidence": 5
     },
-    "total_score": 24,
+    "score_reason": {
+      "base": 24,
+      "source_weight": 0,
+      "category_weight": 1,
+      "penalty": 0
+    },
+    "total_score": 25,
     "ranking_scope": "official"
   },
   {
@@ -8029,6 +11731,12 @@
       "practicality": 5,
       "novelty": 3,
       "confidence": 5
+    },
+    "score_reason": {
+      "base": 24,
+      "source_weight": 0,
+      "category_weight": 0,
+      "penalty": 0
     },
     "total_score": 24,
     "ranking_scope": "official"
