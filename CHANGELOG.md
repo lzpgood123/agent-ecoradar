@@ -1,3 +1,14 @@
+## 2026.07.07 — 自动更新
+
+### Changed
+
+- 数据自动采集更新。
+
+### Data
+
+- `data/raw/` 新增当日采集记录。
+- `data/curated/`、`data/reports/` 自动重新生成。
+
 # Changelog
 
 ## 2026.07.06 — 正式版
