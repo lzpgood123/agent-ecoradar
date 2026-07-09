@@ -1,4 +1,4 @@
-# Curated Top Projects — 2026-07-08
+# Curated Top Projects — 2026-07-09
 
 Official tools are excluded.
 
@@ -24,7 +24,7 @@ Official tools are excluded.
 | 18 | P4nda0s/reverse-skills | github | try-now | 17 | skills-prompts | https://github.com/P4nda0s/reverse-skills |
 | 19 | skills-directory/skill-codex | github | try-now | 17 | skills-prompts | https://github.com/skills-directory/skill-codex |
 | 20 | onvoyage-ai/gtm-engineer-skills | github | try-now | 17 | skills-prompts | https://github.com/onvoyage-ai/gtm-engineer-skills |
-| 21 | blader/humanizer | github | watch | 17 | tutorial-case-study | https://github.com/blader/humanizer |
+| 21 | daymade/claude-code-skills | github | try-now | 17 | skills-prompts | https://github.com/daymade/claude-code-skills |
 | 22 | iansinnott/obsidian-claude-code-mcp | github | try-now | 16 | mcp-acp-a2a | https://github.com/iansinnott/obsidian-claude-code-mcp |
 | 23 | auchenberg/claude-code-mcp | github | try-now | 16 | mcp-acp-a2a | https://github.com/auchenberg/claude-code-mcp |
 | 24 | mverab/eGEOagents | github | try-now | 16 | mcp-acp-a2a | https://github.com/mverab/eGEOagents |

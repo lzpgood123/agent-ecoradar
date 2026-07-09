@@ -1,12 +1,12 @@
-# Tool Ecosystem Comparison — 2026-07-08
+# Tool Ecosystem Comparison — 2026-07-09
 
 
 ## Claude Code
 
-- Total records: 114
+- Total records: 115
 - Curated records: 24
 - Extension points: skills, hooks, slash-commands, mcp, subagents
-- Main categories: tutorial-case-study(45), skills-prompts(36), mcp-acp-a2a(28), rules-instructions(16), ai-ide(8), context-engineering(7)
+- Main categories: tutorial-case-study(45), skills-prompts(37), mcp-acp-a2a(28), rules-instructions(16), ai-ide(8), context-engineering(7)
 - Recommended records:
   - [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) — try-now — score 18
   - [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh) — try-now — score 18
@@ -83,10 +83,10 @@
 
 ## WorkBuddy / CodeBuddy
 
-- Total records: 55
+- Total records: 56
 - Curated records: 1
 - Extension points: mcp, skills, connectors, craft-agent
-- Main categories: ai-ide(53), skills-prompts(20), mcp-acp-a2a(11), terminal-agent(10), rules-instructions(5), context-engineering(3)
+- Main categories: ai-ide(54), skills-prompts(21), mcp-acp-a2a(11), terminal-agent(10), rules-instructions(5), context-engineering(3)
 - Recommended records:
   - [yinqd3/workbuddy-skills](https://github.com/yinqd3/workbuddy-skills) — try-now — score 15
 

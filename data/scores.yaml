@@ -11949,5 +11949,81 @@
     },
     "total_score": 15,
     "ranking_scope": "ecosystem"
+  },
+  {
+    "id": "github-daymade-claude-code-skills",
+    "score": {
+      "ecosystem_value": 4,
+      "activity": 2,
+      "adoption": 3,
+      "practicality": 2,
+      "novelty": 2,
+      "confidence": 4
+    },
+    "score_reason": {
+      "base": 17,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 21,
+    "ranking_scope": "ecosystem"
+  },
+  {
+    "id": "github-bettermen-piano-teacher",
+    "score": {
+      "ecosystem_value": 4,
+      "activity": 2,
+      "adoption": 0,
+      "practicality": 2,
+      "novelty": 2,
+      "confidence": 4
+    },
+    "score_reason": {
+      "base": 14,
+      "source_weight": 2,
+      "category_weight": 2,
+      "penalty": 0
+    },
+    "total_score": 18,
+    "ranking_scope": "ecosystem"
+  },
+  {
+    "id": "github-just2036-ai-pr-review-agent",
+    "score": {
+      "ecosystem_value": 3,
+      "activity": 2,
+      "adoption": 0,
+      "practicality": 2,
+      "novelty": 2,
+      "confidence": 4
+    },
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 0,
+      "penalty": -1
+    },
+    "total_score": 14,
+    "ranking_scope": "ecosystem"
+  },
+  {
+    "id": "github-hardik5520-ai-pr-review-agent",
+    "score": {
+      "ecosystem_value": 3,
+      "activity": 2,
+      "adoption": 0,
+      "practicality": 2,
+      "novelty": 2,
+      "confidence": 4
+    },
+    "score_reason": {
+      "base": 13,
+      "source_weight": 2,
+      "category_weight": 1,
+      "penalty": -1
+    },
+    "total_score": 15,
+    "ranking_scope": "ecosystem"
   }
 ]

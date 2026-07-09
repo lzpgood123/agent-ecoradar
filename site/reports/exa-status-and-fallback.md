@@ -1,4 +1,4 @@
-# Exa Status and Fallback — 2026-07-08
+# Exa Status and Fallback — 2026-07-09
 
 ## mcporter list
 
