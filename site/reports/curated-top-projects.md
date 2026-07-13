@@ -1,4 +1,4 @@
-# Curated Top Projects — 2026-07-06
+# Curated Top Projects — 2026-07-13
 
 Official tools are excluded.
 

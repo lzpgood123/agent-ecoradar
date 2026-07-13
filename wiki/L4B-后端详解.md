@@ -1,144 +1,139 @@
-# L4B-后端详解 — 管道怎么改
+# L4B-后端详解 — 后端怎么改
 
-> 后端（管道层）开发者深入文档。读完能独立修改管道代码。
+> 后端开发者深入文档。读完能独立修改后端代码。
 
-## 管道全景
-
-管道由 `update_tracker.py` 编排，按以下顺序执行：
+## 数据管道流程
 
 ```
-update_tracker.py [--skip-collect] [--deploy] [--github-limit N] [--exa-limit N]
-  ├─ [采集阶段]
-  │  ├─ collect_github.py (--limit N)  → data/raw/github/<date>/
-  │  ├─ collect_exa.py (--limit N)     → data/raw/exa/<date>/
-  │  └─ normalize.py --source all      → data/projects.yaml
-  ├─ 校验与丰富
-  │  ├─ enrich_i18n.py                 → i18n.zh/en 补齐
-  │  ├─ validate_data.py               → 数据格式校验
-  │  ├─ score.py                       → data/scores.yaml
-  │  ├─ finalize_data.py               → curated + rejected
-  │  ├─ enrich_translations.py          → 自动双语摘要
-  │  └─ enrich_i18n.py (再次)          → 确保 curated/rejected 有 i18n
-  ├─ 报告与构建
-  │  ├─ generate_reports.py            → docs/reports/*.md
-  │  ├─ build_site.py                  → site/data/*.json
-  │  ├─ quality_gate.py                → PASS/FAIL
-  │  └─ py_compile                     → 语法检查
-  └─ [部署阶段] (--deploy 时启用)
-       └─ deploy_site.py                → → Nginx webroot
+update_tracker.py (入口)
+  ├─ collect_github.py     → data/raw/github/YYYY-MM-DD/
+  ├─ collect_exa.py        → data/raw/exa/YYYY-MM-DD/
+  ├─ collect_web.py        → data/raw/web/YYYY-MM-DD/
+  ├─ normalize.py          → data/projects.yaml
+  ├─ enrich_i18n.py        → 更新 projects.yaml i18n 字段
+  ├─ validate_data.py      → 验证数据完整性
+  ├─ score.py              → data/scores.yaml + 更新 projects.yaml
+  ├─ finalize_data.py      → curated-projects.yaml + rejected-projects.yaml
+  ├─ enrich_i18n.py        → 再次增强
+  ├─ generate_reports.py   → docs/reports/*.md
+  ├─ build_site.py         → site/data/*.json + site/reports/
+  ├─ quality_gate.py       → 全量检查
+  ├─ py_compile *.py       → 语法检查
+  └─ deploy_site.py        → /var/www/ (仅 --deploy 时)
 ```
 
-## 路由全景
+## 分组设计
 
-管道无传统 API 路由。脚本间耦合通过 data/ 目录中的文件完成（管道模式：前一个脚本的输出是后一个脚本的输入）。
+输入文件（不变的数据定义）：
+| 文件 | 用途 | 关键字段 |
+|------|------|---------|
+| data/seed-tools.yaml | 10 个目标工具定义 | id, name, vendor, primary_type, aliases, extension_points, tracking_priority |
+| data/queries.yaml | GitHub 和 Exa 搜索 query 模板 | github[], exa[] |
+| data/concepts.yaml | 核心概念定义 | id, name, description |
+| config/scoring.yaml | 评分权重配置 | source_weights, category_weights, penalties, ranking |
 
-## 核心模块
+缓存文件（可重新生成）：
+| 文件 | 生成来源 | 用途 |
+|------|---------|------|
+| data/projects.yaml | normalize.py | 全量归一化索引库 |
+| data/scores.yaml | score.py | 评分结果 |
+| data/curated-projects.yaml | finalize_data.py | 自动推荐集 |
+| data/rejected-projects.yaml | finalize_data.py | 噪声集 |
+| docs/reports/*.md | generate_reports.py | 自动报告 |
+| site/data/*.json | build_site.py | 站点数据 |
+| data/raw/* | collectors | 原始快照 |
+| data/snapshots/* | snapshot_and_diff.py | 数据快照 |
 
-### common.py（工具库）
+## 分类系统 (CATEGORY_RULES)
 
-关键函数：
+在 normalize.py 中定义的基于关键词的规则引擎：
 
-| 函数 | 用途 |
-|------|------|
-| load_jsonish(rel) | 从项目根加载 JSON/YAML 文件 |
-| save_jsonish(rel, data) | 保存文件，自动创建目录 |
-| today() | 返回今天 ISO 日期 |
-| slug(s) | 生成 URL 安全标识符 |
-| run(cmd, timeout) | 执行 shell 命令 |
-| score_from_stars(stars) | GitHub stars → 0-5 分 |
-| total_score(p) | 6 维评分之和 |
-| infer_record_kind(p) | 推断记录类型（official-tool / tutorial / ecosystem-project 等） |
-| infer_source_quality(p) | 推断来源质量（verified / fallback / unverified） |
-| infer_ranking_scope(p) | 推断排名范围（official / ecosystem / excluded） |
-| normalize_project_fields(p) | 规范化所有必填字段 |
+| 分类 ID | 关键词示例 |
+|---------|-----------|
+| mcp-acp-a2a | mcp server, model context protocol, a2a, acp |
+| skills-prompts | claude skill, agent skill, skills, prompts |
+| rules-instructions | agents.md, cursor rules, .cursorrules |
+| context-engineering | context engineering, codebase index, repo map |
+| agent-harness | multi-agent, agent orchestration, subagent, agent framework |
+| testing-review-ci | pr review, code review, test generation, ci automation |
+| benchmark-evaluation | benchmark, evaluation, leaderboard |
+| terminal-agent | terminal agent, cli agent |
+| ai-ide | (仅当提到具体 IDE 名称时) |
+| tutorial-case-study | (兜底分类) |
 
-### normalize.py（数据归一化）
+## 评分系统
 
-关键常量：`CATEGORY_RULES` — 9 个类别的关键词匹配字典
+### 6 维度（每项 0-5，总计 0-30）
 
-| 类别 | 关键词示例 |
-|------|-----------|
-| official-tool | CLI, terminal, agent, IDE |
-| skills-prompts | skill, prompt, instruction, rule |
-| mcp-acp-a2a | MCP, ACP, A2A, protocol |
-| rules-instructions | .cursorrules, CLAUDE.md, AGENTS.md |
-| context-engineering | context, memory, state |
-| testing-review-ci | test, review, CI, quality |
-| tutorial-case-study | tutorial, guide, walkthrough, example |
-| benchmark-evaluation | benchmark, eval, leaderboard |
-| security-sandbox | security, sandbox, safety |
+| 维度 | 含义 | 自动赋值逻辑 |
+|------|------|-------------|
+| ecosystem_value | 生态价值 | MCP/skills/rules/context → 4, 生态项目 → 3 |
+| activity | 活跃度 | GitHub → 2, 其他 → 1 |
+| adoption | 采用度 | 基于 stars：>=50000→5, >=10000→4, >=1000→3, >=100→2, >0→1 |
+| practicality | 实用性 | GitHub → 3, 其他 → 2 |
+| novelty | 新颖度 | 默认 2 |
+| confidence | 可信度 | GitHub → 4, Exa → 3, fallback → 2 |
 
-### score.py（评分引擎）
+### 附加调整
 
-从 `config/scoring.yaml` 加载配置，结构：
+- `source_weight`：在 config/scoring.yaml 中配置
+- `category_weight`：按分类的最大权重
+- `penalty`：fallback (-3), generic general-ai (-1), archived (-2)
 
-```yaml
-source_weights:
-  github: 2
-  exa: 1
-  official-seed: 0
-  fallback-web: -2
-category_weights:
-  mcp-acp-a2a: 2
-  skills-prompts: 2
-  rules-instructions: 2
-  context-engineering: 2
-  # ... 其他类别
-penalties:
-  fallback: -2
-  generic-general-ai: -1
-  archived: -2
-ranking:
-  curated_min: 60
-  rejected_min: 25
-  # ...
-```
+### Curated 选择规则
 
-### quality_gate.py（质量门禁）
+1. 先选 GitHub 高分 + 高价值分类 → 至少 40 条
+2. 再选非 GitHub 高分 → 至少 15 条
+3. 确保每个工具至少 1 条
+4. 补满到 60 条（按分数排序）
+5. Rejected：分数 <=9 或 fallback-web 或 generic
 
-执行 15+ 项检查，包括：记录数（normalized ≥ 150, curated ≥ 50, rejected ≥ 20）、11 个必填字段、i18n 完备性、review_state 合法性、fallback 标注、工具覆盖（每个工具 ≥ 10 条）、来源分布（GitHub verified ≥ 30, non-GitHub ≥ 30）、配置文件存在、报告/站点文件完整性。
+## 数据校验
 
-### sanitize_public_data.py（数据清洗）
+validate_data.py 检查：
+- seed-tools.yaml 必须含 id, name, vendor, primary_type, aliases, tracking_priority
+- sources.yaml 必须含 id, name, type
+- concepts.yaml 必须含 id, name, description
+- projects.yaml 必须含 id, name, url, source_type, category, target_tools, summary, review_state
 
-替换规则：
-- `/root/`, `/home/`, `/Users/` 路径 → `[local-source]`
-- 私有 URL（localhost, 10.x, 192.168.x, 172.16-31.x）→ `[local-url-removed]`
-- 生产路径 → `[production-webroot]` / `[nginx-vhost]` / `[tls-certificate]`
+## 质量门禁 (quality_gate.py)
 
-删除字段：`source_doc`, `notes`
-整体丢弃：含私有 URL 的记录
+检查项：
+- 归一化记录 >= 150
+- curated >= 50, rejected >= 20
+- 所有项目含 required 字段
+- 所有项目含 i18n.zh/en
+- review_state 为 auto-indexed / auto-curated / auto-rejected
+- fallback-web 的 source_quality=fallback, 含 fallback-not-exa 标签
+- curated review_state=auto-curated, rejected review_state=auto-rejected
+- 每个工具覆盖 >= 10
+- 官方工具不在 ecosystem ranking
+- GitHub verified >= 30, non-GitHub >= 30
+- config/scoring.yaml 存在
+- 所有必需的报告文件和站点数据文件存在
 
 ## 错误处理
 
-- **采集器可独立失败：** GitHub 失败不影响 Exa，反之亦然。pipe 管道中可选 --skip-collect
-- **质量门禁强制：** quality_gate.py 未通过时构建结果不可部署（但脚本仍完成，部署阶段跳过）
-- **数据验证非阻塞：** validate_data.py 仅输出警告，不阻断管道
-- **降级采集：** Bing RSS 作为 Exa 不可用时的兜底
+- 采集器独立运行，失败只记录不阻塞管道（required=False）
+- normalize/score/finalize/report/build 失败则直接 exit（required=True）
+- Exa 不可用时自动 fallback 到 web 搜索，但标记 fallback-not-exa
 
 ## 配置管理
 
-| 配置文件 | 位置 | 用途 |
-|---------|------|------|
-| 评分配置 | config/scoring.yaml | 评分权重、排名阈值、惩罚项 |
-| 目标工具 | data/seed-tools.yaml | 10 个工具的 id/name/vendor/primary_type 等 |
-| 查询定义 | data/queries.yaml | GitHub 和 Exa 的搜索查询 |
-| 分类概念 | data/concepts.yaml | 分类体系定义 |
-| 来源 | data/sources.yaml | 数据来源定义 |
-| 环境变量 | .env.example | 仅 EXA_API_KEY（可选，走 mcporter 时不需要） |
+环境变量（可选）：
+- SEARCH_IN_CODING_WEBROOT — 部署目标目录
+- EXA_API_KEY — 仅在直接 HTTP fallback 时需要
 
-## Prompt 工程
-
-无 LLM 调用。管道中所有处理均为确定性规则和算法，不使用外部 LLM API。
+配置文件：
+- config/scoring.yaml — 评分权重 + 排名阈值
 
 ## 测试覆盖
 
-| 测试文件 | 覆盖内容 |
-|---------|---------|
-| tests/test_data_integrity.py | 数据完整性：检查必填字段、格式合法性 |
-| tests/test_pipeline_features.py | 管道功能：采集 → 归一化 → 评分的核心路径 |
+2 个测试文件（pytest）：
+- test_pipeline_features.py — 管道功能测试
+- test_data_integrity.py — 数据完整性测试
 
-**运行命令：** `python3 -m pytest tests/ -v`
-**主要靠** quality_gate.py（运行验证）而非单元测试覆盖
+运行命令：`pytest tests/ -v`
 
 ## 下一步读什么
 
@@ -146,5 +141,5 @@ ranking:
 
 ## 更新指引
 
-**触发条件：** 管道步骤增删、核心模块变更、评分/门禁规则变更
-**更新内容：** 管道全景、核心模块、测试覆盖
+**触发条件：** API 端点增删、核心模块变更、错误处理逻辑变更、评分规则变更
+**更新内容：** 管道流程、分类系统、评分系统、配置管理
