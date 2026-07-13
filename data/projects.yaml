@@ -11645,4 +11645,334 @@
   tracking_priority: track
   last_analyzed: null
   benchmark_ref: null
+- id: github-continuedev-continue
+  name: continuedev/continue
+  url: https://github.com/continuedev/continue
+  repo: continuedev/continue
+  source_type: github
+  resource_type:
+  - tutorial
+  target_tools:
+  - general-ai-coding
+  summary: open-source coding agent
+  i18n:
+    zh:
+      name: continuedev/continue
+      summary: open-source coding agent
+    en:
+      name: continuedev/continue
+      summary: open-source coding agent
+  status: unknown
+  license: null
+  stars: 34846
+  forks: 5034
+  last_updated: '2026-07-13T12:42:54Z'
+  first_seen: '2026-07-13'
+  last_seen: '2026-07-13'
+  maturity: unknown
+  languages:
+  - TypeScript
+  topics:
+  - open-source
+  - developer-tools
+  - ai
+  - agent
+  - cli
+  readme_preview: '<h1 align="center">Continue</h1>
+
+
+    <p align="center">Pioneering open-source coding agent</p>
+
+
+    <div align="center">
+
+
+    <a href="https://opensource.org/licenses/Apache-2.0"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg"
+    /></a>
+
+    <a href="https://docs.continue.dev"><img src="https://img.shields.io/badge/Docs-docs.continue.dev-blue"
+    /></a>
+
+    <a href="https://github.com/continuedev/continue/releases"><img src="https://img.shields.io/badge/Changelog-GitHub_Releases-blue"
+    /></a>
+
+
+    </div>
+
+
+    '
+  tags: []
+  review_state: auto-indexed
+  quantifiable_score: 0
+  quality_score: 0
+  total_score: 0
+  score_detail: {}
+  tracking_priority: track
+  last_analyzed: null
+  benchmark_ref: null
+- id: github-aider-ai-aider
+  name: Aider-AI/aider
+  url: https://github.com/Aider-AI/aider
+  repo: Aider-AI/aider
+  source_type: github
+  resource_type:
+  - cli-tool
+  target_tools:
+  - general-ai-coding
+  summary: aider is AI pair programming in your terminal
+  i18n:
+    zh:
+      name: Aider-AI/aider
+      summary: aider is AI pair programming in your terminal
+    en:
+      name: Aider-AI/aider
+      summary: aider is AI pair programming in your terminal
+  status: unknown
+  license: null
+  stars: 47338
+  forks: 4727
+  last_updated: '2026-07-13T13:36:30Z'
+  first_seen: '2026-07-13'
+  last_seen: '2026-07-13'
+  maturity: unknown
+  languages:
+  - Python
+  topics:
+  - chatgpt
+  - cli
+  - command-line
+  - gpt-4
+  - openai
+  - gpt-3
+  - gpt-35-turbo
+  - claude-3
+  - gpt-4o
+  - anthropic
+  - gemini
+  - llama
+  - sonnet
+  readme_preview: "<p align=\"center\">\n    <a href=\"https://aider.chat/\"><img\
+    \ src=\"https://aider.chat/assets/logo.svg\" alt=\"Aider Logo\" width=\"300\"\
+    ></a>\n</p>\n\n<h1 align=\"center\">\nAI Pair Programming in Your Terminal\n</h1>\n\
+    \n\n<p align=\"center\">\nAider lets you pair program with LLMs to start a new\
+    \ project or build on your existing codebase. \n</p>\n\n<p align=\"center\">\n\
+    \  <img\n    src=\"https://aider.chat/assets/screencast.svg\"\n    alt=\"aider\
+    \ screencast\"\n  >\n</p>\n\n<p align=\"center\">\n<!--[[[cog\nfrom scripts.homepage\
+    \ import "
+  tags: []
+  review_state: auto-indexed
+  quantifiable_score: 0
+  quality_score: 0
+  total_score: 0
+  score_detail: {}
+  tracking_priority: track
+  last_analyzed: null
+  benchmark_ref: null
+- id: github-cline-cline
+  name: cline/cline
+  url: https://github.com/cline/cline
+  repo: cline/cline
+  source_type: github
+  resource_type:
+  - extension
+  - cli-tool
+  target_tools:
+  - general-ai-coding
+  summary: Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
+  i18n:
+    zh:
+      name: cline/cline
+      summary: Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
+    en:
+      name: cline/cline
+      summary: Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
+  status: unknown
+  license: null
+  stars: 64610
+  forks: 6901
+  last_updated: '2026-07-13T13:32:20Z'
+  first_seen: '2026-07-13'
+  last_seen: '2026-07-13'
+  maturity: unknown
+  languages:
+  - TypeScript
+  topics: []
+  readme_preview: "<p align=\"center\">\n  <img src=\"assets/icons/icon.png\" width=\"\
+    80\" alt=\"Cline\" />\n</p>\n\n<h1 align=\"center\">Cline</h1>\n\n<p align=\"\
+    center\">\nThe open source coding agent in your IDE and terminal.\n</p>\n\n<div\
+    \ align=\"center\">\n\n<div align=\"center\">\n<table>\n<tbody>\n<td align=\"\
+    center\">\n<a href=\"https://docs.cline.bot\" target=\"_blank\"><strong>Docs</strong></a>\n\
+    </td>\n<td align=\"center\">\n<a href=\"https://discord.gg/cline\" target=\"_blank\"\
+    ><strong>Discord</strong></a>\n</td>\n<td align=\"center\">\n<a href=\"https://"
+  tags: []
+  review_state: auto-indexed
+  quantifiable_score: 0
+  quality_score: 0
+  total_score: 0
+  score_detail: {}
+  tracking_priority: track
+  last_analyzed: null
+  benchmark_ref: null
+- id: github-roocodeinc-roo-code
+  name: RooCodeInc/Roo-Code
+  url: https://github.com/RooCodeInc/Roo-Code
+  repo: RooCodeInc/Roo-Code
+  source_type: github
+  resource_type:
+  - tutorial
+  target_tools:
+  - general-ai-coding
+  summary: Roo Code gives you a whole dev team of AI agents in your code editor.
+  i18n:
+    zh:
+      name: RooCodeInc/Roo-Code
+      summary: Roo Code gives you a whole dev team of AI agents in your code editor.
+    en:
+      name: RooCodeInc/Roo-Code
+      summary: Roo Code gives you a whole dev team of AI agents in your code editor.
+  status: archived
+  license: null
+  stars: 24329
+  forks: 3363
+  last_updated: '2026-07-13T11:24:36Z'
+  first_seen: '2026-07-13'
+  last_seen: '2026-07-13'
+  maturity: unknown
+  languages:
+  - TypeScript
+  topics: []
+  readme_preview: "<p align=\"center\">\n  <a href=\"https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline\"\
+    ><img src=\"https://img.shields.io/badge/VS_Code_Marketplace-007ACC?style=flat&logo=visualstudiocode&logoColor=white\"\
+    \ alt=\"VS Code Marketplace\"></a>  \n</p>\n\n# Roo Code\n\n> Your AI-Powered\
+    \ Dev Team, Right in Your Editor\n\n<details>\n  <summary>\U0001F310 Available\
+    \ languages</summary>\n\n- [English](README.md)\n- [Català](locales/ca/README.md)\n\
+    - [Deutsch](locales/de/README.md)\n- [Español](locales/es/README"
+  tags: []
+  review_state: auto-indexed
+  quantifiable_score: 0
+  quality_score: 0
+  total_score: 0
+  score_detail: {}
+  tracking_priority: track
+  last_analyzed: null
+  benchmark_ref: null
+- id: github-aaif-goose-goose
+  name: aaif-goose/goose
+  url: https://github.com/aaif-goose/goose
+  repo: aaif-goose/goose
+  source_type: github
+  resource_type:
+  - tutorial
+  target_tools:
+  - goose
+  summary: an open source, extensible AI agent that goes beyond code suggestions -
+    install, execute, edit, and test with any LLM
+  i18n:
+    zh:
+      name: aaif-goose/goose
+      summary: an open source, extensible AI agent that goes beyond code suggestions
+        - install, execute, edit, and test with any LLM
+    en:
+      name: aaif-goose/goose
+      summary: an open source, extensible AI agent that goes beyond code suggestions
+        - install, execute, edit, and test with any LLM
+  status: unknown
+  license: null
+  stars: 51152
+  forks: 5684
+  last_updated: '2026-07-13T13:40:40Z'
+  first_seen: '2026-07-13'
+  last_seen: '2026-07-13'
+  maturity: unknown
+  languages:
+  - Rust
+  topics:
+  - mcp
+  - acp
+  - ai
+  - ai-agents
+  readme_preview: "<div align=\"center\">\n\n# goose\n\n_your native open source AI\
+    \ agent — desktop app, CLI, and API — for code, workflows, and everything in between_\n\
+    \n<p align=\"center\">\n  <a href=\"https://opensource.org/licenses/Apache-2.0\"\
+    \n    ><img src=\"https://img.shields.io/badge/License-Apache_2.0-blue.svg\"></a>\n\
+    \  <a href=\"https://discord.gg/goose-oss\"\n    ><img src=\"https://img.shields.io/discord/1287729918100246654?logo=discord&logoColor=white&label=Join+Us&color=blueviolet\"\
+    \ alt=\"Discord\"></a>\n  <a href=\"https:"
+  tags: []
+  review_state: auto-indexed
+  quantifiable_score: 0
+  quality_score: 0
+  total_score: 0
+  score_detail: {}
+  tracking_priority: track
+  last_analyzed: null
+  benchmark_ref: null
+- id: github-cursor-cursor
+  name: cursor/cursor
+  url: https://github.com/cursor/cursor
+  repo: cursor/cursor
+  source_type: github
+  resource_type:
+  - tutorial
+  target_tools:
+  - cursor
+  summary: cursor/cursor
+  i18n:
+    zh:
+      name: cursor/cursor
+      summary: cursor/cursor
+    en:
+      name: cursor/cursor
+      summary: cursor/cursor
+  status: unknown
+  license: null
+  stars: 33028
+  forks: 2268
+  last_updated: '2026-07-13T11:25:30Z'
+  first_seen: '2026-07-13'
+  last_seen: '2026-07-13'
+  maturity: unknown
+  languages: []
+  topics: []
+  readme_preview: '# Cursor
+
+
+    Creating new posts on [our forum](https://forum.cursor.com/) for bugs or feature
+    requests is much appreciated!
+
+
+    ## Getting Started
+
+
+    Head over to [our website](https://cursor.com/) to download Cursor.
+
+
+    ## Features
+
+
+    [See here](https://cursor.com/features) for more info on Cursor''s features.
+
+
+    ## Resources
+
+
+    - Download: https://cursor.com
+
+    - Features: https://cursor.com/features
+
+    - Community forum: https://forum.cursor.com/
+
+
+    ## Security
+
+
+    Please do not report security vulnerabilities through p'
+  tags: []
+  review_state: auto-indexed
+  quantifiable_score: 0
+  quality_score: 0
+  total_score: 0
+  score_detail: {}
+  tracking_priority: track
+  last_analyzed: null
+  benchmark_ref: null
 
