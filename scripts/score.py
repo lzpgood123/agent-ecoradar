@@ -1,85 +1,128 @@
 #!/usr/bin/env python3
+"""Score projects with the new 100-point system.
+
+Quantifiable score (60 points): Stars + Activity + Adoption + Maturity
+Quality score (40 points): Preserved from weekly LLM analysis (0 if not yet analyzed)
+Total = Quantifiable + Quality
+"""
 import argparse
+import datetime
 import json
-from common import load_jsonish, save_jsonish, score_from_stars, normalize_project_fields, total_score
 
-DEFAULT_CONFIG = {
-    'source_weights': {},
-    'category_weights': {},
-    'penalties': {},
-}
+from common import load_jsonish, save_jsonish
+from migrate_data import calc_quantifiable_score
 
-def load_config():
-    cfg = load_jsonish('config/scoring.yaml')
-    if not isinstance(cfg, dict):
-        return DEFAULT_CONFIG
-    merged = dict(DEFAULT_CONFIG)
-    merged.update(cfg)
-    return merged
 
-def configured_adjustment(p, cfg):
-    source_weight = cfg.get('source_weights', {}).get(p.get('source_type'), 0)
-    category_weights = cfg.get('category_weights', {})
-    category_weight = max([category_weights.get(c, 0) for c in (p.get('category') or [])] or [0])
-    penalties = cfg.get('penalties', {})
-    penalty = 0
-    if p.get('source_quality') == 'fallback':
-        penalty += penalties.get('fallback', 0)
-    if p.get('target_tools') == ['general-ai-coding']:
-        penalty += penalties.get('generic_general_ai', 0)
-    if p.get('status') == 'archived':
-        penalty += penalties.get('archived', 0)
-    return source_weight, category_weight, penalty
+def score_detail_for(p):
+    """Return detailed breakdown of the quantifiable score."""
+    stars = p.get('stars') or 0
+    try:
+        stars = int(stars)
+    except (TypeError, ValueError):
+        stars = 0
+
+    if stars >= 50000:
+        stars_s = 20
+    elif stars >= 10000:
+        stars_s = 16
+    elif stars >= 5000:
+        stars_s = 12
+    elif stars >= 1000:
+        stars_s = 8
+    elif stars >= 100:
+        stars_s = 4
+    elif stars > 0:
+        stars_s = 2
+    else:
+        stars_s = 0
+
+    last_updated = p.get('last_updated') or p.get('last_seen') or ''
+    activity_s = 1
+    if last_updated:
+        try:
+            d = datetime.date.fromisoformat(last_updated[:10])
+            days = (datetime.date.today() - d).days
+            if days <= 90:
+                activity_s = 15
+            elif days <= 180:
+                activity_s = 12
+            elif days <= 365:
+                activity_s = 8
+            elif days <= 730:
+                activity_s = 4
+        except (ValueError, TypeError):
+            pass
+
+    forks = p.get('forks') or 0
+    try:
+        forks = int(forks)
+    except (TypeError, ValueError):
+        forks = 0
+    if forks >= 1000:
+        adoption_s = 10
+    elif forks >= 100:
+        adoption_s = 7
+    elif forks >= 10:
+        adoption_s = 4
+    elif forks > 0:
+        adoption_s = 2
+    else:
+        adoption_s = 0
+
+    maturity_s = 0
+    if p.get('license'):
+        maturity_s += 2
+    if p.get('status') and p.get('status') not in ('unknown',):
+        maturity_s += 3
+    if p.get('languages'):
+        maturity_s += 2
+    if p.get('tags'):
+        for tag in (p.get('tags') or []):
+            if 'release' in tag.lower() or 'v1' in tag.lower() or 'stable' in tag.lower():
+                maturity_s += 3
+                break
+    if p.get('maturity') and p.get('maturity') not in ('unknown',):
+        maturity_s += 5
+    maturity_s = min(maturity_s, 15)
+
+    return {
+        'stars': stars_s,
+        'activity': activity_s,
+        'adoption': adoption_s,
+        'maturity': maturity_s,
+    }
+
 
 def main():
-    ap = argparse.ArgumentParser(description='Score normalized project records and separate official/ecosystem ranking')
-    ap.parse_args()
-    cfg = load_config()
+    ap = argparse.ArgumentParser(description='Score projects with 100-point system (quantifiable only)')
+    ap.parse_known_args()
+
     projects = load_jsonish('data/projects.yaml')
+
     for p in projects:
-        normalize_project_fields(p)
-        s = p.setdefault('score', {})
-        stars = p.get('stars')
-        s.setdefault('activity', 2 if p.get('source_type') == 'github' else 1)
-        s['adoption'] = max(s.get('adoption', 0), score_from_stars(stars))
-        cats = p.get('category', [])
-        if any(c in cats for c in ['mcp-acp-a2a', 'skills-prompts', 'rules-instructions', 'context-engineering']):
-            s['ecosystem_value'] = max(s.get('ecosystem_value', 0), 4)
-        elif p.get('ranking_scope') == 'ecosystem':
-            s['ecosystem_value'] = max(s.get('ecosystem_value', 0), 3)
-        if p.get('record_kind') == 'official-tool':
-            s.update({'ecosystem_value': 5, 'activity': 3, 'adoption': 3, 'practicality': 5, 'novelty': 3, 'confidence': 5})
-            p['ranking_scope'] = 'official'
-        else:
-            if p.get('source_type') == 'github':
-                s['confidence'] = max(s.get('confidence', 0), 4)
-            if p.get('source_type') == 'exa':
-                s['confidence'] = max(s.get('confidence', 0), 3)
-            if p.get('source_type') == 'fallback-web':
-                s['confidence'] = min(max(s.get('confidence', 0), 2), 2)
-            s.setdefault('practicality', 3 if p.get('source_type') == 'github' else 2)
-            s.setdefault('novelty', 2)
-        base = total_score(p)
-        source_weight, category_weight, penalty = configured_adjustment(p, cfg)
-        p['score_reason'] = {
-            'base': base,
-            'source_weight': source_weight,
-            'category_weight': category_weight,
-            'penalty': penalty,
-        }
-        p['total_score'] = base + source_weight + category_weight + penalty
+        # Calculate quantifiable score
+        detail = score_detail_for(p)
+        q_score = sum(detail.values())
+        p['quantifiable_score'] = q_score
+        p['score_detail'] = detail
+
+        # Preserve existing quality_score or default to 0
+        if 'quality_score' not in p:
+            p['quality_score'] = 0
+
+        # Total = quantifiable + quality
+        p['total_score'] = q_score + p['quality_score']
+
     save_jsonish('data/projects.yaml', projects)
-    save_jsonish('data/scores.yaml', [
-        {
-            'id': p['id'],
-            'score': p.get('score', {}),
-            'score_reason': p.get('score_reason', {}),
-            'total_score': p.get('total_score', total_score(p)),
-            'ranking_scope': p.get('ranking_scope'),
-        }
-        for p in projects
-    ])
-    print(json.dumps({'scored': len(projects), 'official': sum(1 for p in projects if p.get('ranking_scope') == 'official'), 'ecosystem': sum(1 for p in projects if p.get('ranking_scope') == 'ecosystem')}, ensure_ascii=False))
+
+    stats = {
+        'scored': len(projects),
+        'avg_score': round(sum(p.get('total_score', 0) for p in projects) / max(len(projects), 1), 1),
+        'max_score': max((p.get('total_score', 0) for p in projects), default=0),
+        'min_score': min((p.get('total_score', 0) for p in projects), default=0),
+    }
+    print(json.dumps(stats, ensure_ascii=False))
+
 
 if __name__ == '__main__':
     main()

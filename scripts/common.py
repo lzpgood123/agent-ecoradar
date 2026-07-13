@@ -7,11 +7,24 @@ def load_jsonish(rel):
     if not p.exists(): return []
     txt=p.read_text(encoding='utf-8').strip()
     if not txt: return []
-    return json.loads(txt)
+    # Try JSON first, fall back to YAML
+    try:
+        return json.loads(txt)
+    except json.JSONDecodeError:
+        import yaml
+        data = yaml.safe_load(txt)
+        if isinstance(data, dict) and 'projects' in data:
+            return data['projects']
+        return data
 
 def save_jsonish(rel, data):
     p=ROOT/rel; p.parent.mkdir(parents=True, exist_ok=True)
-    p.write_text(json.dumps(data, ensure_ascii=False, indent=2)+"\n", encoding='utf-8')
+    # Use YAML for .yaml files, JSON for everything else
+    if str(p).endswith(('.yaml', '.yml')):
+        import yaml
+        p.write_text(yaml.dump(data, allow_unicode=True, default_flow_style=False, sort_keys=False)+"\n", encoding='utf-8')
+    else:
+        p.write_text(json.dumps(data, ensure_ascii=False, indent=2)+"\n", encoding='utf-8')
 
 def today(): return datetime.date.today().isoformat()
 
