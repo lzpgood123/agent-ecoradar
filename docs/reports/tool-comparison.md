@@ -7,12 +7,12 @@
 | Claude Code | 86 | 24 | 25.2 | JuliusBrussee/caveman |
 | OpenAI Codex CLI | 38 | 3 | 21.7 | alirezarezvani/claude-skills |
 | Antigravity CLI / Gemini CLI | 27 | 2 | 23.7 | alirezarezvani/claude-skills |
-| OpenCode | 33 | 1 | 20.2 | ricky-theseus/DaisyWriter |
+| OpenCode | 33 | 1 | 20.2 | AlaeddineMessadi/opencode-mcp |
 | Goose | 1 | 1 | 49.0 | aaif-goose/goose |
-| Qoder / QoderWork | 15 | 1 | 21.3 | April-Xu/sanshui |
-| Trae / Trae Work | 2 | 1 | 22.0 | vaughnxmedia-alt/kora-engineering-agent |
-| WorkBuddy / CodeBuddy | 19 | 1 | 17.4 | BLUEasddaaaaaaa/workbuddy-pet |
-| Cursor | 44 | 9 | 25.1 | alirezarezvani/claude-skills |
+| Qoder / QoderWork | 15 | 1 | 21.3 | itwanger/PaiAgent |
+| Trae / Trae Work | 2 | 1 | 22.0 | waynesutton/promptstack |
+| WorkBuddy / CodeBuddy | 19 | 1 | 17.4 | laofudev/laofu-qmt-skill |
+| Cursor | 44 | 9 | 25.1 | cursor/cursor |
 | Hermes Agent | 21 | 1 | 22.0 | cosmicstack-labs/mercury-agent-skills |
 
 ## 资源类型分布

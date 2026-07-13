@@ -50,9 +50,9 @@
 
 ### mcp-server
 
+- [yctimlin/mcp_excalidraw](https://github.com/yctimlin/mcp_excalidraw) - 34 分, 2130 stars
 - [OpenCoworkAI/open-cowork](https://github.com/OpenCoworkAI/open-cowork) - 34 分, 1774 stars
 - [steipete/claude-code-mcp](https://github.com/steipete/claude-code-mcp) - 34 分, 1309 stars
-- [sceneview/sceneview](https://github.com/sceneview/sceneview) - 34 分, 1251 stars
 
 ### skills
 
@@ -68,15 +68,15 @@
 
 ### agent-framework
 
-- [RooCodeInc/Roo-Code](https://github.com/RooCodeInc/Roo-Code) - 48 分, 24329 stars
 - [continuedev/continue](https://github.com/continuedev/continue) - 45 分, 34846 stars
 - [OpenCoworkAI/open-cowork](https://github.com/OpenCoworkAI/open-cowork) - 34 分, 1774 stars
+- [MuhammadUsmanGM/claude-code-best-practices](https://github.com/MuhammadUsmanGM/claude-code-best-practices) - 25 分, 60 stars
 
 ### cli-tool
 
 - [cline/cline](https://github.com/cline/cline) - 49 分, 64610 stars
 - [aaif-goose/goose](https://github.com/aaif-goose/goose) - 49 分, 51152 stars
-- [RooCodeInc/Roo-Code](https://github.com/RooCodeInc/Roo-Code) - 48 分, 24329 stars
+- [Aider-AI/aider](https://github.com/Aider-AI/aider) - 45 分, 47338 stars
 
 ### tutorial
 

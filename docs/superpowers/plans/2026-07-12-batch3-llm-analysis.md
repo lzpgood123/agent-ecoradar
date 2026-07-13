@@ -10,12 +10,13 @@
 
 **关联文档：**
 - 设计规格：`docs/superpowers/specs/2026-07-12-three-layer-optimization-design.md`（"双层节奏架构"和"评分系统"章节）
+- v3 优化规格：`docs/superpowers/specs/2026-07-13-site-optimization-v3-design.md`（数据修正和前端重做决策）
 - ADR-0002：双层节奏架构
 - ADR-0003：100 分制双层评分 + 动态参照基准
 - ADR-0007：项目追踪分级
 - CONTEXT.md：Quality Score, Benchmark Reference, Weekly Analysis 术语
 
-**前置条件：** 第 1 批和第 2 批已完成（数据结构已迁移、站点已重写）
+**前置条件：** 第 1 批（数据基础）、第 2 批（前端重写 v2）、批次 A/B/C（v3 优化）、遗留项修复均已完成。当前状态：294 条项目，字段填充率 forks 61%/license 60%/readme_preview 94%，翻译覆盖率 90%，前端已支持 /60 展示和 score_detail 分项。
 
 **环境约束：**
 - SenseNova API：base_url=`https://token.sensenova.cn/v1`，model=`deepseek-v4-flash`
@@ -36,10 +37,10 @@
 | `scripts/llm_api.py` | SenseNova API 封装：key 轮询、请求重试、JSON 解析 |
 | `scripts/llm_prompts.py` | Prompt 模板：项目分析、参照基准选择、报告生成 |
 | `scripts/benchmark_manager.py` | 参照基准管理：选择、更新、评分校准 |
-| `scripts/translation.py` | 双语翻译：调用 LLM 翻译 summary |
+| `scripts/translation.py` | ~~双语翻译~~ 已由批次 C 的 `scripts/translate_summaries.py` 实现，本批不新建 |
 | `config/llm-analysis.yaml` | LLM 分析配置：prompt 参数、批次大小、重试策略 |
 | `data/benchmarks.yaml` | 参照基准项目存储 |
-| `data/translations-cache/` | 翻译缓存目录 |
+| `data/translations-cache/` | 翻译缓存目录（已由批次 C 创建） |
 | `data/snapshots/` | 每周快照目录 |
 | `tests/test_llm_api.py` | API 封装测试 |
 | `tests/test_weekly_analysis.py` | 分析流程测试 |
@@ -50,7 +51,7 @@
 | 文件 | 修改内容 |
 |------|---------|
 | `scripts/score.py` | 整合 quality_score（从 weekly_analysis 写入的值） |
-| `scripts/generate_reports.py` | 新增 3 份报告（生态周报/工具对比/推荐榜） |
+| `scripts/generate_reports.py` | ~~新增 3 份报告~~ 已在前端重写 v2 时重写为 weekly-report/tool-comparison/curated-top，weekly_analysis 调用它而非自己生成 |
 | `scripts/update_tracker.py` | 添加 `--weekly` 模式调用 weekly_analysis |
 
 ---
@@ -413,6 +414,8 @@ def project_analysis_prompt(project):
     license_info = project.get('license', 'N/A')
     last_updated = project.get('last_updated', 'N/A')
     existing_tools = project.get('target_tools', [])
+    readme_preview = project.get('readme_preview', '') or ''
+    topics = project.get('topics', []) or []
 
     return f"""Analyze this GitHub project for the AI Coding Agent ecosystem:
 
@@ -425,11 +428,13 @@ Languages: {', '.join(languages) if languages else 'N/A'}
 License: {license_info}
 Last Updated: {last_updated}
 Currently tagged tools: {', '.join(existing_tools) if existing_tools else 'none'}
+Topics: {', '.join(topics[:10]) if topics else 'N/A'}
+README excerpt (first 500 chars): {readme_preview[:500]}
 
 Respond with JSON in this exact format:
 {{
   "relevance_score": 0.0-1.0,
-  "resource_type": ["one or more of: mcp-server, skills, rules, agent-framework, cli-tool, tutorial"],
+  "resource_type": ["one or more of: mcp-server, skills, rules, agent-framework, cli-tool, tutorial, extension"],
   "target_tools": ["zero or more of: claude-code, codex-cli, antigravity-cli, opencode, goose, qoder, trae, workbuddy-codebuddy, cursor, hermes-agent"],
   "tracking_priority": "one of: track, index, reject",
   "quality_score": 0-40,
@@ -454,7 +459,7 @@ Scoring guidelines:
 - quality_score = sum of the 4 dimensions (0-40)
 - tracking_priority: "track" if quality_score >= 20 and relevance >= 0.5, "index" if quality_score >= 10, "reject" otherwise
 - target_tools: list tools this project is relevant to. Empty list = general ecosystem resource
-- resource_type: pick the most fitting types. "tutorial" is the fallback if none fit."""
+- resource_type: pick the most fitting types. "tutorial" is the fallback if none fit. "extension" for browser/IDE extensions."""
 
 
 # === Benchmark Selection Prompt ===
@@ -1278,10 +1283,14 @@ def main():
     save_jsonish('data/projects.yaml', rescored)
     print(f'Saved {len(rescored)} projects to data/projects.yaml')
 
-    # Step 7: Generate reports
+    # Step 7: Generate reports (call existing generate_reports.py, not inline)
     if not args.skip_reports:
         print('\n--- Step 5: Generate Reports ---')
-        generate_reports(rescored, curated, tools, prev_projects)
+        import subprocess
+        r = subprocess.run(['python3', 'scripts/generate_reports.py'], cwd=ROOT, capture_output=True, text=True, timeout=120)
+        print(r.stdout[-500:] if r.stdout else '')
+        if r.returncode != 0:
+            print(f'Reports failed: {r.stderr[-500:]}')
 
     # Step 8: Run build_site
     print('\n--- Step 6: Build Site ---')
@@ -1318,10 +1327,15 @@ git commit -m "feat: add weekly_analysis.py with LLM analysis, benchmark update,
 
 ---
 
-## 任务 5：双语翻译模块
+## 任务 5：双语翻译模块（已由批次 C 完成，跳过）
 
-**文件：**
-- 创建：`scripts/translation.py`
+**注意：** 批次 C 已创建 `scripts/translate_summaries.py` 并完成 274 条 summary 翻译（覆盖率 90.1%）。本任务无需新建 `scripts/translation.py`。
+
+weekly_analysis.py 在 LLM 分析时生成的 `llm_summary` 字段（中英双语一句话评价）是独立于 summary 翻译的，由 LLM 直接生成，不需要调用翻译脚本。
+
+如需翻译后续新增项目的 summary，复用已有的 `scripts/translate_summaries.py`。
+
+**无需操作，跳到任务 6。**
 
 - [ ] **步骤 1：编写 translation.py**
 

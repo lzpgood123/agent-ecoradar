@@ -1,0 +1,33 @@
+标杆:
+  project_id: official-hermes-agent
+  project_name: Hermes Agent
+  score: 92
+  reason: Highest score (92) and stars (214k) among all candidates, widely recognized
+    as a top-tier agent framework and CLI tool, representing the gold standard for
+    quality and maturity.
+优秀:
+  project_id: official-opencode
+  project_name: OpenCode
+  score: 89
+  reason: Score of 89 and 185k stars, excellent stability and community adoption,
+    slightly below the top but still an outstanding benchmark for high-quality agent
+    frameworks.
+可用:
+  project_id: official-antigravity-cli
+  project_name: Antigravity CLI / Gemini CLI
+  score: 52
+  reason: Score of 52 with 106k stars, solid usability and moderate quality, representative
+    of reliable but not exceptional CLI tools that are functional and widely adopted.
+萌芽:
+  project_id: github-op7418-humanizer-zh
+  project_name: op7418/Humanizer-zh
+  score: 40
+  reason: Score of 40 with 12.5k stars, early-stage project with clear purpose and
+    some traction, typical of promising but immature skills that show potential.
+噪声:
+  project_id: github-qdhenry-claude-code-mcp-manager
+  project_name: qdhenry/Claude-Code-MCP-Manager
+  score: 20
+  reason: Score of 20 with only 24 stars, minimal community engagement and low quality
+    indicators, representing the baseline of experimental or low-effort projects that
+    contribute noise.

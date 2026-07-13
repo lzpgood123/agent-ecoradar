@@ -28,11 +28,12 @@
 ## 第三步：阅读设计文档
 
 1. `docs/superpowers/specs/2026-07-12-three-layer-optimization-design.md` - **设计文档**，重点读"双层节奏架构"和"评分系统"章节
-2. `docs/superpowers/plans/2026-07-12-batch3-llm-analysis.md` - **实现计划（8 个任务，直接按计划执行）**
-3. `CONTEXT.md` - 领域术语表（重点读 Quality Score, Benchmark Reference, Weekly Analysis）
-4. `docs/adr/0002-dual-layer-daily-weekly.md` - 双层节奏架构
-5. `docs/adr/0003-100-point-dual-layer-scoring.md` - 100 分制评分 + 参照基准
-6. `docs/adr/0007-tracking-priority-levels.md` - 项目追踪分级
+2. `docs/superpowers/specs/2026-07-13-site-optimization-v3-design.md` - v3 优化规格（数据修正和前端重做决策）
+3. `docs/superpowers/plans/2026-07-12-batch3-llm-analysis.md` - **实现计划（已更新，8 个任务，任务 5 跳过）**
+4. `CONTEXT.md` - 领域术语表（重点读 Quality Score, Benchmark Reference, Weekly Analysis）
+5. `docs/adr/0002-dual-layer-daily-weekly.md` - 双层节奏架构
+6. `docs/adr/0003-100-point-dual-layer-scoring.md` - 100 分制评分 + 参照基准
+7. `docs/adr/0007-tracking-priority-levels.md` - 项目追踪分级
 
 ## 第四步：执行实现
 
@@ -88,9 +89,11 @@
 2. **API：SenseNova + DeepSeek-V4-Flash**：base_url=`https://token.sensenova.cn/v1`，13 个 key 轮询
 3. **每批 3 并发**：不用修改全局 max_concurrent_children，直接在 Python 中用 ThreadPoolExecutor
 4. **先更新参照基准再重评分**：参照基准是评分的标尺
-5. **quality_score 是 0-40**：加上 quantifiable_score(0-60) = total_score(0-100)
-6. **TDD**：先写测试（mock LLM 调用）再写实现
-7. **频繁 commit**：每个任务完成后 commit
+5. **quality_score 是 0-40**：加上 quantifiable_score(0-60) = total_score(0-100)。前端已展示 /60，质量分上线后前端自动展示
+6. **不新建 translation.py**：批次 C 已有 translate_summaries.py，本批的 llm_summary 由 LLM 直接生成
+7. **报告生成调用已有脚本**：generate_reports.py 已在前端重写 v2 时重写，weekly_analysis.py 调用它而非自己生成
+8. **TDD**：先写测试（mock LLM 调用）再写实现
+9. **频繁 commit**：每个任务完成后 commit
 
 ## 不能改动的部分
 
@@ -123,5 +126,8 @@
 - **翻译缓存**：`data/translations-cache/` 不入 Git（已在 .gitignore 中）
 - **Cron 脚本超时**：当前每日 cron 有 120s 超时问题，weekly_analysis 可能需要更长时间，考虑设置更长超时
 - **抽检机制**：每批 5% 随机抽样检查分析质量，准确率 < 80% 调整 prompt
+- **当前数据状态**：294 条项目，readme_preview 填充率 94%，LLM 分析时可直接用 readme_preview 作为输入（不需要额外 fetch README）
+- **已有脚本不要重复创建**：translate_summaries.py（翻译）、generate_reports.py（报告）已存在
+- **前端已支持 quality_score 展示**：前端详情面板已有 /60 展示和 score_detail 分项，quality_score 写入后自动生效
 - 用户偏好详细编号分步指导和精准区分状态含义
 - 完成前必须验证对比确认无误
