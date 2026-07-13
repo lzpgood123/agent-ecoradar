@@ -1,0 +1,52 @@
+# config/llm-analysis.yaml
+# Weekly LLM analysis configuration
+
+api:
+  provider: sensenova
+  base_url: https://token.sensenova.cn/v1
+  model: deepseek-v4-flash
+  temperature: 0.3
+  max_tokens: 2000
+  timeout: 120
+  max_retries: 3
+  batch_size: 3  # concurrent requests per batch
+
+analysis:
+  # Projects that haven't been analyzed in N days get re-analyzed
+  reanalyze_after_days: 7
+  # Maximum projects to analyze per run (null = no limit)
+  max_projects_per_run: null
+  # Pre-filter: skip archived repos
+  skip_archived: true
+  # Quality score thresholds for tracking priority
+  track_threshold: 20    # quality_score >= 20 -> track
+  index_threshold: 10    # quality_score >= 10 -> index
+  # Relevance threshold
+  relevance_threshold: 0.3  # below this -> reject
+
+benchmark:
+  ranges:
+    - {label: "标杆", min: 81, max: 100}
+    - {label: "优秀", min: 61, max: 80}
+    - {label: "可用", min: 41, max: 60}
+    - {label: "萌芽", min: 21, max: 40}
+    - {label: "噪声", min: 0, max: 20}
+  # Re-select benchmarks if they're this many days old
+  refresh_interval_days: 7
+
+reports:
+  generate: true
+  types:
+    - weekly-report
+    - tool-comparison
+    - curated-top
+
+snapshot:
+  save: true
+  path: data/snapshots/
+
+sampling:
+  # Random sample size for quality check (0 = no sampling)
+  sample_size: 5
+  # If sample accuracy below this, adjust prompt
+  min_accuracy: 0.8

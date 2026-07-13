@@ -9,3 +9,7 @@ data/raw/**/.tmp
 
 # Translation cache (not for git)
 data/translations-cache/
+data/initial-collection-checkpoint.json
+
+# Weekly LLM analysis snapshots (not for git, large)
+data/snapshots/
