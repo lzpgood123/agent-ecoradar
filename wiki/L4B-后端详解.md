@@ -126,6 +126,91 @@ validate_data.py 检查：
 - config/scoring-v2.yaml 存在
 - 所有必需的站点数据文件存在
 
+## LLM 分析系统（第 3 批）
+
+### 每周 LLM 分析流程
+
+```
+weekly_analysis.py (入口，每周一 03:30 via Hermes cron)
+  ├─ pre_filter()           -> 移除 archived，按 stars 降序
+  ├─ run_analysis()         -> LLM 批量分析（3 并发，ThreadPoolExecutor）
+  │    ├─ llm_api.py        -> SenseNova API 调用（13 key 轮询，429 指数退避）
+  │    ├─ llm_prompts.py    -> 项目分析 prompt（输入: readme_preview + 元数据）
+  │    └─ merge_analysis_result() -> 合并 LLM 结果到项目记录
+  ├─ update_benchmarks()    -> LLM 选择 5 分数段参照项目
+  │    └─ benchmark_manager.py -> 加载/保存/更新 benchmarks.yaml
+  ├─ rescore_all()          -> total_score = quantifiable + quality
+  ├─ save_snapshot()        -> data/snapshots/YYYY-MM-DD.json
+  ├─ save_jsonish()         -> 更新 projects.yaml
+  ├─ generate_reports.py    -> 3 份报告（周报/工具对比/推荐榜）
+  └─ build_site.py          -> 重建站点 JSON
+```
+
+### SenseNova API 封装（llm_api.py）
+
+| 组件 | 说明 |
+|------|------|
+| load_api_keys() | 从 ~/.hermes/auth.json 读取 13 个 key（custom:sensenova 凭证池） |
+| KeyRotator | 轮询 key，失败 key 自动跳过，全部失败时重置 |
+| parse_json_response() | 容错 JSON 解析：直接解析 -> markdown 代码块 -> 正则提取 -> 首尾花括号 |
+| call_llm() | 单次 API 调用（urllib，OpenAI 兼容格式） |
+| call_with_retry() | 重试逻辑：401/403 切 key，429 指数退避，最多 3 次 |
+| batch_analyze() | 批量并发分析（ThreadPoolExecutor，默认 3 并发） |
+
+### 参照基准管理（benchmark_manager.py）
+
+5 个分数段，每段 1 个参照项目：
+
+| 标签 | 分数范围 | 说明 |
+|------|---------|------|
+| 标杆 | 81-100 | 生态标杆项目 |
+| 优秀 | 61-80 | 高质量生态项目 |
+| 可用 | 41-60 | 可用项目 |
+| 萃芽 | 21-40 | 早期项目 |
+| 噪声 | 0-20 | 低质量或无关项目 |
+
+- LLM 从每个分数段 top 5 候选中选择 1 个参照项目
+- 参照项目写入 `data/benchmarks.yaml`
+- 每周分析时先更新参照基准，再基于参照重评分
+
+### 质量分 4 维度（40 分，LLM 评估）
+
+| 维度 | 分值 | 评估标准 |
+|------|------|---------|
+| Relevance | 0-10 | 与 AI coding agent 生态的相关性 |
+| Practicality | 0-10 | README 完整度、示例代码、文档质量 |
+| Novelty | 0-10 | 内容独特性、创新性 |
+| Ecosystem_value | 0-10 | 扩展面数量、生态重要性 |
+
+### LLM 输出 Schema
+
+```json
+{
+  "relevance_score": 0.0-1.0,
+  "resource_type": ["mcp-server", ...],
+  "target_tools": ["claude-code", ...],
+  "tracking_priority": "track|index|reject",
+  "quality_score": 0-40,
+  "quality_detail": {"relevance": 0-10, "practicality": 0-10, "novelty": 0-10, "ecosystem_value": 0-10},
+  "llm_summary": {"zh": "一句话中文评价", "en": "one sentence English summary"},
+  "analysis_notes": "brief explanation"
+}
+```
+
+### Hermes Cron 配置
+
+- **Job ID:** 2aa9da554787
+- **名称:** Search in Coding weekly LLM analysis
+- **计划:** 每周一 03:30（`30 3 * * 1`）
+- **模式:** no_agent=True（直接运行脚本，不经过 LLM 编排）
+- **脚本:** `~/.hermes/scripts/search-in-coding-weekly.sh`
+- **超时:** 无限制（LLM 分析可能需要 30-60 分钟）
+- **部署:** 脚本内自动调用 deploy_site.py
+
+### 配置文件
+
+- `config/llm-analysis.yaml` - LLM 分析配置（API 参数、批次大小、重试策略、基准分数段）
+
 ## 错误处理
 
 - 采集器独立运行，失败只记录不阻塞管道（required=False）
@@ -143,7 +228,7 @@ validate_data.py 检查：
 
 ## 测试覆盖
 
-8 个测试文件（pytest），63 个测试用例：
+12 个测试文件（pytest），114 个测试用例：
 - test_pipeline_features.py - 管道功能测试（resource_types 误匹配、finalize 弱记录）
 - test_data_integrity.py - 数据完整性测试（i18n、review_state 一致性）
 - test_normalize_fields.py - normalize.py 字段映射和 resource_type 分类测试（25 个，批次 A 新增）
@@ -152,6 +237,11 @@ validate_data.py 检查：
 - test_score_main.py - score.py 主流程测试
 - test_migrate_data.py - 数据迁移测试
 - test_initial_collection.py - 历史回溯采集测试（query 生成、断点续传）
+- test_translate_summaries.py - 翻译模块测试（JSON 解析、缓存、key 轮询）
+- test_llm_api.py - LLM API 封装测试（key 轮询、JSON 解析容错、重试逻辑）（12 个，第 3 批新增）
+- test_benchmark_manager.py - 参照基准管理测试（5 分数段、加载/保存、LLM 更新）（7 个，第 3 批新增）
+- test_weekly_analysis.py - 每周分析流程测试（预筛选、结果合并、项目选择）（10 个，第 3 批新增）
+- test_weekly_e2e.py - 端到端测试（mock LLM 全流程、None 处理、基准+快照）（4 个，第 3 批新增）
 
 运行命令：`source .venv/bin/activate && python3 -m pytest tests/ -v`
 
