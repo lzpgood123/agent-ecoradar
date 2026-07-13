@@ -1,22 +1,40 @@
 #!/usr/bin/env python3
-import argparse, json, collections, shutil, re
+import argparse, json, collections, shutil, re, hashlib
 from common import ROOT, load_jsonish
 
 ZH_HINTS = re.compile(r'[\u4e00-\u9fff]')
 
 RESOURCE_TYPE_LABELS = {
-    'mcp-server': {'zh': 'MCP 服务器', 'en': 'MCP Server'},
-    'skills': {'zh': 'Skills / Prompts', 'en': 'Skills / Prompts'},
-    'rules': {'zh': '规则 / 指令', 'en': 'Rules / Instructions'},
+    'mcp-server': {'zh': 'MCP Server', 'en': 'MCP Server'},
+    'skills': {'zh': 'Skills', 'en': 'Skills'},
+    'rules': {'zh': 'Rules', 'en': 'Rules'},
     'agent-framework': {'zh': 'Agent 框架', 'en': 'Agent Framework'},
     'cli-tool': {'zh': 'CLI 工具', 'en': 'CLI Tool'},
-    'tutorial': {'zh': '教程 / 案例', 'en': 'Tutorial / Case Study'},
+    'tutorial': {'zh': '教程', 'en': 'Tutorial'},
 }
+
+# Fields for slim JSON (table display only)
+SLIM_FIELDS = [
+    'id', 'name', 'url', 'source_type', 'resource_type', 'target_tools',
+    'summary', 'i18n', 'stars', 'forks', 'total_score', 'quantifiable_score',
+    'quality_score', 'tracking_priority', 'last_updated', 'first_seen', 'last_seen',
+    'license', 'languages', 'review_state',
+]
+
+# Fields for detail JSON (lazy-loaded)
+DETAIL_FIELDS = SLIM_FIELDS + [
+    'score_detail', 'llm_summary', 'benchmark_ref', 'last_analyzed',
+    'repo', 'tags', 'maturity', 'status',
+]
+
+SITE_URL = 'https://coding.lzpgood.online/'
+
 
 def write_json(name, data):
     p = ROOT / 'site/data' / name
     p.parent.mkdir(parents=True, exist_ok=True)
     p.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding='utf-8')
+
 
 def copy_reports():
     src = ROOT / 'docs/reports'
@@ -27,6 +45,7 @@ def copy_reports():
     for report in sorted(src.glob('*.md')):
         shutil.copy2(report, dst / report.name)
 
+
 def bilingual_text(name, summary=''):
     name = name or ''
     summary = summary or ''
@@ -35,6 +54,7 @@ def bilingual_text(name, summary=''):
         'zh': {'name': name, 'summary': summary},
         'en': {'name': name, 'summary': summary if not has_zh else summary},
     }
+
 
 def enrich_project(p):
     return {
@@ -63,23 +83,59 @@ def enrich_project(p):
         'score_detail': p.get('score_detail', {}),
         'llm_summary': p.get('llm_summary'),
         'last_analyzed': p.get('last_analyzed'),
+        'benchmark_ref': p.get('benchmark_ref'),
+        'maturity': p.get('maturity'),
+        'status': p.get('status'),
     }
+
 
 def enrich_tool(t):
     q = dict(t)
     q['i18n'] = q.get('i18n') or {'zh': {'name': q.get('name','')}, 'en': {'name': q.get('name','')}}
     return q
 
+
+def slim_project(p):
+    """Return a slim version of project for table display."""
+    return {k: p.get(k) for k in SLIM_FIELDS if k in p}
+
+
+def detail_project(p):
+    """Return full detail version for lazy-loaded detail panel."""
+    return {k: p.get(k) for k in DETAIL_FIELDS if k in p}
+
+
+def hash_filename(filename, content):
+    """Generate a content-hashed filename (e.g., app.a3f2b1.js)."""
+    h = hashlib.md5(content.encode('utf-8')).hexdigest()[:6]
+    parts = filename.rsplit('.', 1)
+    if len(parts) == 2:
+        return f'{parts[0]}.{h}.{parts[1]}'
+    return f'{parts[0]}.{h}'
+
+
+def generate_sitemap(projects):
+    """Generate sitemap.xml content."""
+    lines = ['<?xml version="1.0" encoding="UTF-8"?>']
+    lines.append('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">')
+    lines.append(f'  <url><loc>{SITE_URL}</loc><changefreq>daily</changefreq><priority>1.0</priority></url>')
+    lines.append('</urlset>')
+    return '\n'.join(lines)
+
+
 def main():
-    ap = argparse.ArgumentParser(description='Build bilingual static site data from project datasets')
+    ap = argparse.ArgumentParser(description='Build static site with slim/detail JSON, sitemap, hashed assets')
     ap.parse_known_args()
+
     projects = [enrich_project(p) for p in load_jsonish('data/projects.yaml')]
     curated = [enrich_project(p) for p in load_jsonish('data/curated-projects.yaml')]
     rejected = [enrich_project(p) for p in load_jsonish('data/rejected-projects.yaml')]
     tools = [enrich_tool(t) for t in load_jsonish('data/seed-tools.yaml')]
     concepts = load_jsonish('data/concepts.yaml')
+
     official = [p for p in projects if p.get('source_type') == 'official-seed']
     ecosystem = [p for p in projects if p.get('tracking_priority') != 'reject' and p.get('source_type') != 'official-seed']
+
     metrics = {
         'projects': len(projects),
         'curated': len(curated),
@@ -92,16 +148,66 @@ def main():
         'resource_type_coverage': dict(collections.Counter(c for p in projects for c in p.get('resource_type', []))),
         'languages': ['zh', 'en'],
     }
+
     i18n = {'languages': ['zh', 'en'], 'default': 'zh', 'resource_types': RESOURCE_TYPE_LABELS}
-    write_json('projects.json', projects)
-    write_json('curated-projects.json', curated)
-    write_json('rejected-projects.json', rejected)
+
+    # Write slim projects JSON (for table display)
+    write_json('projects.json', [slim_project(p) for p in projects])
+    write_json('curated-projects.json', [slim_project(p) for p in curated])
+    write_json('rejected-projects.json', [slim_project(p) for p in rejected])
+
+    # Write detail JSON (lazy-loaded by detail panel)
+    write_json('projects-detail.json', [detail_project(p) for p in projects])
+
+    # Write other data
     write_json('tools.json', tools)
     write_json('concepts.json', concepts)
     write_json('metrics.json', metrics)
     write_json('i18n.json', i18n)
+
+    # Copy reports
     copy_reports()
-    print(json.dumps({'site_data':'site/data','reports':'site/reports','projects':len(projects),'curated':len(curated),'tools':len(tools),'concepts':len(concepts),'languages':['zh','en']}, ensure_ascii=False))
+
+    # Generate sitemap
+    sitemap_path = ROOT / 'site' / 'sitemap.xml'
+    sitemap_path.write_text(generate_sitemap(projects), encoding='utf-8')
+
+    # Hash JS/CSS filenames and update index.html references
+    site_dir = ROOT / 'site'
+    js_dir = site_dir / 'js'
+
+    # Read index.html and update references
+    index_path = site_dir / 'index.html'
+    index_html = index_path.read_text(encoding='utf-8')
+
+    # Hash and copy JS files
+    for js_file in sorted(js_dir.glob('*.js')):
+        content = js_file.read_text(encoding='utf-8')
+        hashed = hash_filename(js_file.name, content)
+        hashed_path = js_dir / hashed
+        hashed_path.write_text(content, encoding='utf-8')
+        index_html = index_html.replace(f'js/{js_file.name}', f'js/{hashed}')
+
+    # Hash and copy CSS
+    css_content = (site_dir / 'styles.css').read_text(encoding='utf-8')
+    css_hashed = hash_filename('styles.css', css_content)
+    (site_dir / css_hashed).write_text(css_content, encoding='utf-8')
+    index_html = index_html.replace('styles.css', css_hashed)
+
+    index_path.write_text(index_html, encoding='utf-8')
+
+    print(json.dumps({
+        'site_data': 'site/data',
+        'reports': 'site/reports',
+        'projects': len(projects),
+        'slim_projects': len([slim_project(p) for p in projects]),
+        'detail_projects': len([detail_project(p) for p in projects]),
+        'curated': len(curated),
+        'tools': len(tools),
+        'sitemap': True,
+        'hashed_assets': True,
+    }, ensure_ascii=False))
+
 
 if __name__ == '__main__':
     main()

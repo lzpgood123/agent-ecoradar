@@ -6,16 +6,16 @@
   "default": "zh",
   "resource_types": {
     "mcp-server": {
-      "zh": "MCP 服务器",
+      "zh": "MCP Server",
       "en": "MCP Server"
     },
     "skills": {
-      "zh": "Skills / Prompts",
-      "en": "Skills / Prompts"
+      "zh": "Skills",
+      "en": "Skills"
     },
     "rules": {
-      "zh": "规则 / 指令",
-      "en": "Rules / Instructions"
+      "zh": "Rules",
+      "en": "Rules"
     },
     "agent-framework": {
       "zh": "Agent 框架",
@@ -26,8 +26,8 @@
       "en": "CLI Tool"
     },
     "tutorial": {
-      "zh": "教程 / 案例",
-      "en": "Tutorial / Case Study"
+      "zh": "教程",
+      "en": "Tutorial"
     }
   }
 }
