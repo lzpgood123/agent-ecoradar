@@ -6,20 +6,16 @@
 
 ```
 update_tracker.py (入口)
-  ├─ collect_github.py     → data/raw/github/YYYY-MM-DD/
-  ├─ collect_exa.py        → data/raw/exa/YYYY-MM-DD/
-  ├─ collect_web.py        → data/raw/web/YYYY-MM-DD/
-  ├─ normalize.py          → data/projects.yaml
-  ├─ enrich_i18n.py        → 更新 projects.yaml i18n 字段
-  ├─ validate_data.py      → 验证数据完整性
-  ├─ score.py              → data/scores.yaml + 更新 projects.yaml
-  ├─ finalize_data.py      → curated-projects.yaml + rejected-projects.yaml
-  ├─ enrich_i18n.py        → 再次增强
-  ├─ generate_reports.py   → docs/reports/*.md
-  ├─ build_site.py         → site/data/*.json + site/reports/
-  ├─ quality_gate.py       → 全量检查
-  ├─ py_compile *.py       → 语法检查
-  └─ deploy_site.py        → /var/www/ (仅 --deploy 时)
+  ├─ collect_github.py     -> data/raw/github/YYYY-MM-DD/
+  ├─ normalize.py          -> data/projects.yaml (仅 GitHub)
+  ├─ validate_data.py      -> 验证数据完整性
+  ├─ score.py              -> 更新 projects.yaml (100分制可量化分)
+  ├─ finalize_data.py      -> curated-projects.yaml + rejected-projects.yaml
+  ├─ generate_reports.py   -> docs/reports/*.md
+  ├─ build_site.py         -> site/data/*.json + site/reports/
+  ├─ quality_gate.py       -> 全量检查
+  ├─ py_compile *.py       -> 语法检查
+  └─ deploy_site.py        -> /var/www/ (仅 --deploy 时)
 ```
 
 ## 分组设计
@@ -44,73 +40,86 @@ update_tracker.py (入口)
 | data/raw/* | collectors | 原始快照 |
 | data/snapshots/* | snapshot_and_diff.py | 数据快照 |
 
-## 分类系统 (CATEGORY_RULES)
+## 分类系统 (resource_type)
 
-在 normalize.py 中定义的基于关键词的规则引擎：
+在 normalize.py 中定义的基于关键词的规则引擎（2 维标签）：
 
-| 分类 ID | 关键词示例 |
+### resource_type（多选，LLM 打标）
+
+| 标签 | 关键词示例 |
 |---------|-----------|
-| mcp-acp-a2a | mcp server, model context protocol, a2a, acp |
-| skills-prompts | claude skill, agent skill, skills, prompts |
-| rules-instructions | agents.md, cursor rules, .cursorrules |
-| context-engineering | context engineering, codebase index, repo map |
-| agent-harness | multi-agent, agent orchestration, subagent, agent framework |
-| testing-review-ci | pr review, code review, test generation, ci automation |
-| benchmark-evaluation | benchmark, evaluation, leaderboard |
-| terminal-agent | terminal agent, cli agent |
-| ai-ide | (仅当提到具体 IDE 名称时) |
-| tutorial-case-study | (兜底分类) |
+| mcp-server | mcp server, model context protocol, mcp |
+| skills | skill, prompt pack, slash command, agent skill, claude skill |
+| rules | agents.md, claude.md, cursor rules, .cursorrules, ruleset |
+| agent-framework | agent framework, multi-agent, subagent, agent orchestration |
+| cli-tool | cli, terminal, command line, codebase index, repo map |
+| tutorial | tutorial, guide, best practice, case study, benchmark |
+
+### target_tools（多选，可为空）
+
+关联到 10 个目标工具之一，通过关键词匹配推断。
 
 ## 评分系统
 
-### 6 维度（每项 0-5，总计 0-30）
+### 100 分制双层评分（ADR-0003）
 
-| 维度 | 含义 | 自动赋值逻辑 |
-|------|------|-------------|
-| ecosystem_value | 生态价值 | MCP/skills/rules/context → 4, 生态项目 → 3 |
-| activity | 活跃度 | GitHub → 2, 其他 → 1 |
-| adoption | 采用度 | 基于 stars：>=50000→5, >=10000→4, >=1000→3, >=100→2, >0→1 |
-| practicality | 实用性 | GitHub → 3, 其他 → 2 |
-| novelty | 新颖度 | 默认 2 |
-| confidence | 可信度 | GitHub → 4, Exa → 3, fallback → 2 |
+| 层 | 节奏 | 负责 | 分值 |
+|---|------|------|------|
+| 可量化分 | 每日自动 | 规则驱动，基于 GitHub API 实时数据 | 60 分 |
+| 质量分 | 每周 LLM | 子代理深度调查 | 40 分 |
+| 总分 | 每日更新 | 可量化分 + 最近一次质量分 | 0-100 |
 
-### 附加调整
+### 可量化分细则（60 分，每日自动）
 
-- `source_weight`：在 config/scoring.yaml 中配置
-- `category_weight`：按分类的最大权重
-- `penalty`：fallback (-3), generic general-ai (-1), archived (-2)
+| 维度 | 分值 | 规则 |
+|------|------|------|
+| Stars | 20 | >=50k=20, >=10k=16, >=5k=12, >=1k=8, >=100=4, >0=2, 0=0 |
+| Activity | 15 | pushed_at 90天内=15, 180天内=12, 365天内=8, 2年内=4, 更久=1 |
+| Adoption | 10 | forks>=1000=10, >=100=7, >=10=4, >0=2, 0=0 |
+| Maturity | 15 | 有release=5, 有文档=3, 有tests=3, 有CI=2, license明确=2 |
 
-### Curated 选择规则
+### 质量分细则（40 分，每周 LLM，第 3 批实现）
 
-1. 先选 GitHub 高分 + 高价值分类 → 至少 40 条
-2. 再选非 GitHub 高分 → 至少 15 条
-3. 确保每个工具至少 1 条
-4. 补满到 60 条（按分数排序）
-5. Rejected：分数 <=9 或 fallback-web 或 generic
+| 维度 | 分值 | 由 LLM 评估 |
+|------|------|------------|
+| Relevance | 10 | 与 AI coding agent 生态的相关性 |
+| Practicality | 10 | README 完整度、示例代码、文档质量 |
+| Novelty | 10 | 内容独特性、创新性 |
+| Ecosystem_value | 10 | 扩展面数量、生态重要性 |
+
+### 配置文件
+
+- `config/scoring-v2.yaml` - 100 分制评分配置（量化分规则 + 质量分占位 + 参照基准段）
+- `config/scoring.yaml` - 旧评分配置（保留但不再使用）
+
+### Curated 选择规则（新）
+
+1. GitHub 高分项目优先入选（至少 30 条）
+2. 确保每个工具至少 1 条 curated
+3. 补满到 40 条（按分数排序）
+4. Rejected：分数 <=10 或 archived 或 tracking_priority=reject
 
 ## 数据校验
 
 validate_data.py 检查：
 - seed-tools.yaml 必须含 id, name, vendor, primary_type, aliases, tracking_priority
-- sources.yaml 必须含 id, name, type
 - concepts.yaml 必须含 id, name, description
-- projects.yaml 必须含 id, name, url, source_type, category, target_tools, summary, review_state
+- projects.yaml 必须含 id, name, url, source_type, resource_type, target_tools, summary, review_state, total_score, tracking_priority
 
 ## 质量门禁 (quality_gate.py)
 
 检查项：
-- 归一化记录 >= 150
-- curated >= 50, rejected >= 20
-- 所有项目含 required 字段
+- 归一化记录 >= 100
+- curated >= 20, rejected >= 5
+- 所有项目含 required 字段（resource_type, tracking_priority, total_score, quantifiable_score, quality_score）
 - 所有项目含 i18n.zh/en
 - review_state 为 auto-indexed / auto-curated / auto-rejected
-- fallback-web 的 source_quality=fallback, 含 fallback-not-exa 标签
-- curated review_state=auto-curated, rejected review_state=auto-rejected
-- 每个工具覆盖 >= 10
-- 官方工具不在 ecosystem ranking
-- GitHub verified >= 30, non-GitHub >= 30
-- config/scoring.yaml 存在
-- 所有必需的报告文件和站点数据文件存在
+- tracking_priority 为 pending / track / index / reject
+- 每个工具覆盖 >= 1
+- 官方工具 source_type=official-seed 且 tracking_priority=track
+- GitHub 记录 >= 50
+- config/scoring-v2.yaml 存在
+- 所有必需的站点数据文件存在
 
 ## 错误处理
 
