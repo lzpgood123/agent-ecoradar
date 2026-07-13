@@ -44,16 +44,21 @@ update_tracker.py (入口)
 
 在 normalize.py 中定义的基于关键词的规则引擎（2 维标签）：
 
-### resource_type（多选，LLM 打标）
+### resource_type（多选，关键词规则引擎 + LLM 打标）
 
-| 标签 | 关键词示例 |
-|---------|-----------|
-| mcp-server | mcp server, model context protocol, mcp |
-| skills | skill, prompt pack, slash command, agent skill, claude skill |
-| rules | agents.md, claude.md, cursor rules, .cursorrules, ruleset |
-| agent-framework | agent framework, multi-agent, subagent, agent orchestration |
-| cli-tool | cli, terminal, command line, codebase index, repo map |
-| tutorial | tutorial, guide, best practice, case study, benchmark |
+在 normalize.py 中定义的基于关键词的规则引擎（2 维标签），按优先级顺序匹配：
+
+| 标签 | 关键词示例 | 优先级 |
+|---------|-----------|--------|
+| mcp-server | mcp server, model context protocol, mcp | 1（最高） |
+| skills | claude code skill, agent skill, skill pack, prompt pack, slash command | 2 |
+| extension | extension, plugin, addon, add-on | 3 |
+| rules | agents.md, claude.md, cursor rules, .cursorrules, ruleset, rules .mdc | 4 |
+| agent-framework | agent framework, multi-agent, subagent, agent orchestration, autonomous agent | 5 |
+| cli-tool | cli tool, command line, terminal, codebase index, repo map, code search | 6 |
+| tutorial | tutorial, best practice, case study, benchmark, awesome list | 7（最低） |
+
+**匹配规则：** 具体类型（mcp-server ~ cli-tool）先匹配，tutorial 仅在无具体类型匹配或同时含教学关键词时追加。无任何匹配时默认 `['tutorial']`。
 
 ### target_tools（多选，可为空）
 
@@ -138,11 +143,17 @@ validate_data.py 检查：
 
 ## 测试覆盖
 
-2 个测试文件（pytest）：
-- test_pipeline_features.py — 管道功能测试
-- test_data_integrity.py — 数据完整性测试
+8 个测试文件（pytest），63 个测试用例：
+- test_pipeline_features.py - 管道功能测试（resource_types 误匹配、finalize 弱记录）
+- test_data_integrity.py - 数据完整性测试（i18n、review_state 一致性）
+- test_normalize_fields.py - normalize.py 字段映射和 resource_type 分类测试（25 个，批次 A 新增）
+- test_build_site_v2.py - 站点构建测试（精简/详情字段、hash 文件名、sitemap）
+- test_score_v2.py - 100 分制评分测试（stars/activity/adoption 维度）
+- test_score_main.py - score.py 主流程测试
+- test_migrate_data.py - 数据迁移测试
+- test_initial_collection.py - 历史回溯采集测试（query 生成、断点续传）
 
-运行命令：`pytest tests/ -v`
+运行命令：`source .venv/bin/activate && python3 -m pytest tests/ -v`
 
 ## 下一步读什么
 
