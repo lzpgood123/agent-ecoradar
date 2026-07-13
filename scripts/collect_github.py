@@ -17,7 +17,19 @@ def repo_view(full_name):
     r=run(cmd, timeout=120)
     if r.returncode!=0:
         return {'nameWithOwner':full_name,'error':r.stderr.strip()}
-    return json.loads(r.stdout or '{}')
+    rec=json.loads(r.stdout or '{}')
+    # Fetch README separately (gh repo view --json does not support 'readme')
+    readme_cmd=f"gh api repos/{full_name}/readme --jq .content"
+    rr=run(readme_cmd, timeout=60)
+    if rr.returncode==0 and rr.stdout.strip():
+        import base64
+        try:
+            rec['readme']=base64.b64decode(rr.stdout.strip()).decode('utf-8', errors='replace')
+        except Exception:
+            rec['readme']=''
+    else:
+        rec['readme']=''
+    return rec
 
 def main():
     ap=argparse.ArgumentParser(description='Collect GitHub repos using authenticated gh')
