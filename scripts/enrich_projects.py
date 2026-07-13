@@ -106,19 +106,34 @@ def clean_readme_preview(readme: str, limit: int = 500) -> str:
     return clean[:limit]
 
 
+def _missing_numeric(project: dict, key: str) -> bool:
+    """True only when the key is absent (0 is a valid filled value)."""
+    return key not in project or project.get(key) is None
+
+
+def _missing_list(project: dict, key: str) -> bool:
+    """True when key is absent or still the broken [None] sentinel.
+
+    Empty list [] means we already queried GitHub and the repo has none —
+    that is filled, not missing.
+    """
+    if key not in project:
+        return True
+    val = project.get(key)
+    return val is None or val == [None]
+
+
 def needs_enrichment(project: dict) -> bool:
     repo = project.get("repo")
     if not repo or "/" not in str(repo):
         return False
-    langs = project.get("languages")
-    bad_langs = (not langs) or langs == [None] or langs == []
     return (
-        not project.get("forks")
+        _missing_numeric(project, "forks")
         or not project.get("license")
-        or not project.get("topics")
+        or _missing_list(project, "topics")
         or not project.get("readme_preview")
-        or not project.get("stars")
-        or bad_langs
+        or _missing_numeric(project, "stars")
+        or _missing_list(project, "languages")
     )
 
 
@@ -134,7 +149,7 @@ def enrich_one(project: dict) -> tuple[dict, bool, str]:
 
     changed = False
 
-    if not project.get("forks") and data.get("forkCount") is not None:
+    if _missing_numeric(project, "forks") and data.get("forkCount") is not None:
         project["forks"] = data["forkCount"]
         changed = True
 
@@ -144,22 +159,21 @@ def enrich_one(project: dict) -> tuple[dict, bool, str]:
             project["license"] = lic
             changed = True
 
-    if not project.get("stars") and data.get("stargazerCount") is not None:
+    if _missing_numeric(project, "stars") and data.get("stargazerCount") is not None:
         project["stars"] = data["stargazerCount"]
         changed = True
 
-    langs_existing = project.get("languages")
-    if (not langs_existing) or langs_existing == [None] or langs_existing == []:
+    if _missing_list(project, "languages"):
         langs = extract_languages(data)
-        if langs:
-            project["languages"] = langs
-            changed = True
+        # Always persist so resume skips repos with no language data
+        project["languages"] = langs
+        changed = True
 
-    if not project.get("topics"):
+    if _missing_list(project, "topics"):
         topics = extract_topics(data)
-        if topics:
-            project["topics"] = topics
-            changed = True
+        # Always persist so empty topics don't get re-queried forever
+        project["topics"] = topics
+        changed = True
 
     if not project.get("readme_preview"):
         readme = fetch_readme(repo)

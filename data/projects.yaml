@@ -6843,6 +6843,7 @@
     your codebase, and helps you code faster by executing routine tasks, explaining
     complex code, and handling git workflows -- all through natural language commands.
     Use it in you'
+  topics: []
 - id: official-codex-cli
   name: OpenAI Codex CLI
   url: https://chatgpt.com/codex
@@ -6895,6 +6896,7 @@
     \ OpenAI, Codex Web, go to chatgpt.com/codex.\n\n---\n\n## Quickstart\n\n### Installing\
     \ and running Codex CLI\n\nRun the following on Mac or Linux to install Codex\
     \ CLI:\n\n```shell\ncurl -fsSL https://chatgpt.co"
+  topics: []
 - id: official-goose
   name: Goose
   url: https://goose-docs.ai/
@@ -7067,6 +7069,7 @@
 
 
     Please do not report security vulnerabilities through p'
+  topics: []
 - id: github-ikrasnodymov-repowiki
   name: IKrasnodymov/repowiki
   url: https://github.com/IKrasnodymov/repowiki
@@ -8997,7 +9000,18 @@
   - red-team
   - security-tools
   - web-security
-  readme_preview: ''
+  readme_preview: '![claude-bughunter banner](assets/banner-v2.svg)
+
+
+    # claude-bughunter
+
+
+    > A self-contained Claude skill bundle for bug hunting and external red-team work
+    · **71 skills** · 15 slash commands · **681 disclosed-report patterns** across
+    24 core vulnerability classes · enterprise identity + infrastructure attack matrices
+    · engagement-folder scaffolding · Burp MCP integration · battle-tested across
+    authorized red-team and bug-hunting engagements, plus public training platforms
+    (DVWA, OWASP Juice Shop, H'
   tags: []
   review_state: auto-curated
   quantifiable_score: 34
@@ -11747,6 +11761,7 @@
     for confirmation, then implement.
 
     - **Detailed artifacts**: the real plan/process/validation lives in `.artifacts/artifac'
+  topics: []
 - id: github-thoreinstein-gemini-obsidian
   name: thoreinstein/gemini-obsidian
   url: https://github.com/thoreinstein/gemini-obsidian
@@ -16933,6 +16948,7 @@
     \ |\n  Ελληνικά |\n  Tiếng Việt\n\n[![OpenCode Terminal UI](packages/web/src/assets/lander/screenshot.png)](https://opencode.ai)\n\
     \n---\n\n### Installation\n\n```bash\n# YOLO\ncurl -fsSL https://opencode.ai/install\
     \ | bash\n\n# Package managers"
+  topics: []
 - id: official-qoder
   name: Qoder / QoderWork
   url: https://qoder.com
