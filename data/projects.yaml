@@ -221,8 +221,7 @@
   i18n:
     zh:
       name: virgiliojr94/book-to-skill
-      summary: Turn any technical book PDF into a Claude Code skill — ready to study,
-        reference, and use while you work.
+      summary: 将任何技术书籍PDF转化为Claude Code技能——随时学习、查阅和使用，就在你工作时。
     en:
       name: virgiliojr94/book-to-skill
       summary: Turn any technical book PDF into a Claude Code skill — ready to study,
@@ -265,7 +264,7 @@
   i18n:
     zh:
       name: SimoneAvogadro/android-reverse-engineering-skill
-      summary: Claude Code skill to support Android app's reverse engineering
+      summary: 支持Android应用逆向工程的Claude Code技能
     en:
       name: SimoneAvogadro/android-reverse-engineering-skill
       summary: Claude Code skill to support Android app's reverse engineering
@@ -308,8 +307,7 @@
   i18n:
     zh:
       name: trailofbits/skills
-      summary: Trail of Bits Claude Code skills for security research, vulnerability
-        detection, and audit workflows
+      summary: Trail of Bits 的 Claude Code 技能用于安全研究、漏洞检测和审计工作流
     en:
       name: trailofbits/skills
       summary: Trail of Bits Claude Code skills for security research, vulnerability
@@ -354,8 +352,7 @@
   i18n:
     zh:
       name: zarazhangrui/codebase-to-course
-      summary: A Claude Code skill that turns any codebase into a beautiful, interactive
-        single-page HTML course for non-technical vibe coders.
+      summary: 一个Claude Code技能，能将任何代码库转化为美观、交互式的单页HTML课程，供非技术型的氛围编码者使用。
     en:
       name: zarazhangrui/codebase-to-course
       summary: A Claude Code skill that turns any codebase into a beautiful, interactive
@@ -401,9 +398,7 @@
   i18n:
     zh:
       name: OpenCoworkAI/open-cowork
-      summary: Open-source AI agent desktop app for Windows & macOS. One-click install
-        Claude Code, MCP tools, and Skills — with sandbox isolation, multi-model support,
-        and Feishu/Slack integration.
+      summary: 开源AI智能体桌面应用，适用于Windows和macOS。一键安装Claude Code、MCP工具和Skills——支持沙箱隔离、多模型，以及Feishu/Slack集成。
     en:
       name: OpenCoworkAI/open-cowork
       summary: Open-source AI agent desktop app for Windows & macOS. One-click install
@@ -461,7 +456,7 @@
   i18n:
     zh:
       name: steipete/claude-code-mcp
-      summary: Claude Code as one-shot MCP server to have an agent in your agent.
+      summary: 将 Claude Code 作为一次性 MCP 服务器，让您的代理中再拥有一个代理。
     en:
       name: steipete/claude-code-mcp
       summary: Claude Code as one-shot MCP server to have an agent in your agent.
@@ -507,8 +502,7 @@
   i18n:
     zh:
       name: iansinnott/obsidian-claude-code-mcp
-      summary: Connect Claude Code and other AI tools to your Obsidian notes using
-        Model Context Protocol (MCP)
+      summary: 使用模型上下文协议 (MCP) 将 Claude Code 和其他 AI 工具连接到你的 Obsidian 笔记
     en:
       name: iansinnott/obsidian-claude-code-mcp
       summary: Connect Claude Code and other AI tools to your Obsidian notes using
@@ -551,7 +545,7 @@
   i18n:
     zh:
       name: undeadpickle/claude-code-mcpinstall
-      summary: Easy guide to installing Claude Code MCPs globally on your machine.
+      summary: 在你的机器上全局安装 Claude Code MCPs 的简易指南
     en:
       name: undeadpickle/claude-code-mcpinstall
       summary: Easy guide to installing Claude Code MCPs globally on your machine.
@@ -592,7 +586,7 @@
   i18n:
     zh:
       name: auchenberg/claude-code-mcp
-      summary: claude-code-mcp
+      summary: Claude代码MCP
     en:
       name: auchenberg/claude-code-mcp
       summary: claude-code-mcp
@@ -636,9 +630,8 @@
   i18n:
     zh:
       name: mverab/eGEOagents
-      summary: Open-source Generative Engine Optimization (GEO) & Answer Engine Optimization
-        (AEO) toolkit — optimize content to rank in ChatGPT, Perplexity, Gemini &
-        Claude. AI SEO / LLM SEO. CLI, Claude Code, MCP.
+      summary: 开源生成式引擎优化（GEO）与答案引擎优化（AEO）工具包 — 优化内容以在ChatGPT、Perplexity、Gemini和Claude中排名。AI
+        SEO / LLM SEO。支持CLI、Claude Code、MCP。
     en:
       name: mverab/eGEOagents
       summary: Open-source Generative Engine Optimization (GEO) & Answer Engine Optimization
@@ -703,8 +696,7 @@
   i18n:
     zh:
       name: grahama1970/claude-code-mcp-enhanced
-      summary: Enhanced Claude Code MCP server with orchestration capabilities, reliability
-        improvements, and self-contained execution patterns
+      summary: 增强型 Claude Code MCP 服务器，具备编排能力、可靠性改进和自包含执行模式
     en:
       name: grahama1970/claude-code-mcp-enhanced
       summary: Enhanced Claude Code MCP server with orchestration capabilities, reliability
@@ -747,7 +739,7 @@
   i18n:
     zh:
       name: willccbb/claude-code-mcp
-      summary: Letting Claude Code develop his own MCP tools :)
+      summary: 让Claude Code开发他自己的MCP工具 :)
     en:
       name: willccbb/claude-code-mcp
       summary: Letting Claude Code develop his own MCP tools :)
@@ -792,9 +784,7 @@
   i18n:
     zh:
       name: awattar/claude-code-best-practices
-      summary: 💻 Best practices and examples for using Claude Code - Anthropic’s terminal-native
-        AI - for writing, editing, and refactoring code with deep project awareness,
-        prompt design, and safe automation.
+      summary: 💻 使用Claude Code——Anthropic的终端原生AI——进行代码编写、编辑和重构的最佳实践与示例，具备深度项目感知、提示设计与安全自动化。
     en:
       name: awattar/claude-code-best-practices
       summary: 💻 Best practices and examples for using Claude Code - Anthropic’s terminal-native
@@ -838,7 +828,7 @@
   i18n:
     zh:
       name: griffinhilly/claude-code-synthesis
-      summary: 'A synthesis of Claude Code best practices, aggregated from Twitter. '
+      summary: 一份来自Twitter的Claude Code最佳实践总结。
     en:
       name: griffinhilly/claude-code-synthesis
       summary: 'A synthesis of Claude Code best practices, aggregated from Twitter. '
@@ -882,8 +872,7 @@
   i18n:
     zh:
       name: MuhammadUsmanGM/claude-code-best-practices
-      summary: A comprehensive best-practices wiki for Claude Code - setup, CLAUDE.md
-        templates, workflows, multi-agent patterns, and cost optimization.
+      summary: 一份全面的Claude Code最佳实践维基 - 设置、CLAUDE.md模板、工作流、多智能体模式以及成本优化。
     en:
       name: MuhammadUsmanGM/claude-code-best-practices
       summary: A comprehensive best-practices wiki for Claude Code - setup, CLAUDE.md
@@ -938,8 +927,7 @@
   i18n:
     zh:
       name: lorenliu13/claude-code-for-hydrology
-      summary: Learn Claude Code best practices through hands-on hydrology Python
-        exercises — built for the water science research community
+      summary: 通过动手实践的水文学Python练习学习Claude Code最佳实践——专为水科学研究社区打造
     en:
       name: lorenliu13/claude-code-for-hydrology
       summary: Learn Claude Code best practices through hands-on hydrology Python
@@ -983,9 +971,7 @@
   i18n:
     zh:
       name: war851/AI-Governance-Architecture
-      summary: Claude Code best practices -- applied to application design. Interactive
-        HLD/LLD visualization, implementation example. LLM-agnostic, DB-governed,
-        GDPR-ready.
+      summary: Claude Code 最佳实践——应用于应用设计。交互式 HLD/LLD 可视化，实现示例。LLM 无关，DB 治理，GDPR 就绪。
     en:
       name: war851/AI-Governance-Architecture
       summary: Claude Code best practices -- applied to application design. Interactive
@@ -1042,7 +1028,7 @@
   i18n:
     zh:
       name: femtopremiertag/r15-shanraisshan-claude-code-best-practice-security
-      summary: 🔒 Security & Compliance skill suite derived from shanraisshan/claude-code-best-practice.
+      summary: 🔒 源自 shanraisshan/claude-code-best-practice 的安全与合规技能套件
     en:
       name: femtopremiertag/r15-shanraisshan-claude-code-best-practice-security
       summary: 🔒 Security & Compliance skill suite derived from shanraisshan/claude-code-best-practice.
@@ -1083,7 +1069,7 @@
   i18n:
     zh:
       name: pondhelpplain/r15-shanraisshan-claude-code-best-practice-ecommerce
-      summary: 🛒 E-commerce & Retail skill suite derived from shanraisshan/claude-code-best-practice.
+      summary: 🛒 电子商务与零售技能套件，源自 shanraisshan/claude-code-best-practice。
     en:
       name: pondhelpplain/r15-shanraisshan-claude-code-best-practice-ecommerce
       summary: 🛒 E-commerce & Retail skill suite derived from shanraisshan/claude-code-best-practice.
@@ -1124,7 +1110,7 @@
   i18n:
     zh:
       name: Ultimatedenpruner/r15-shanraisshan-claude-code-best-practice-datascience
-      summary: 🤖 Data Science & AI/ML skill suite derived from shanraisshan/claude-code-best-practice.
+      summary: 🤖 数据科学和人工智能/机器学习技能套件，源自 shanraisshan/claude-code-best-practice。
     en:
       name: Ultimatedenpruner/r15-shanraisshan-claude-code-best-practice-datascience
       summary: 🤖 Data Science & AI/ML skill suite derived from shanraisshan/claude-code-best-practice.
@@ -1168,8 +1154,7 @@
   i18n:
     zh:
       name: smnji/agentic-data-science-research-template
-      summary: A reusable scaffold for AI-assisted data-science research projects.
-        Works with Claude Code (CLAUDE.md) and Codex CLI (AGENTS.md).
+      summary: 一个用于AI辅助数据科学研究项目的可复用脚手架。可与Claude Code（CLAUDE.md）和Codex CLI（AGENTS.md）配合使用。
     en:
       name: smnji/agentic-data-science-research-template
       summary: A reusable scaffold for AI-assisted data-science research projects.
@@ -1214,9 +1199,8 @@
   i18n:
     zh:
       name: crazyrussman/codex-working-kit
-      summary: 'Рабочий комплект для OpenAI Codex CLI: AGENTS.md, lifecycle hooks,
-        skills, config — перенос процесса с Claude Code (PHP/Bitrix24 Marketplace,
-        multi-tenant)'
+      summary: OpenAI Codex CLI 工作套件：AGENTS.md、生命周期钩子、技能、配置——从 Claude Code 迁移流程（PHP/Bitrix24
+        Marketplace，多租户）
     en:
       name: crazyrussman/codex-working-kit
       summary: 'Рабочий комплект для OpenAI Codex CLI: AGENTS.md, lifecycle hooks,
@@ -1317,7 +1301,7 @@
   i18n:
     zh:
       name: jMerta/codex-skills
-      summary: Codex CLI skills catalog
+      summary: Codex CLI 技能目录
     en:
       name: jMerta/codex-skills
       summary: Codex CLI skills catalog
@@ -1363,8 +1347,7 @@
   i18n:
     zh:
       name: ricky-theseus/DaisyWriter
-      summary: AI-powered writing toolkit — Web novels, Short stories, Tech blogs,
-        Publishing automation. An OpenCode/Claude Code/Codex CLI skill collection.
+      summary: AI驱动的写作工具——网络小说、短篇故事、技术博客、出版自动化。一个OpenCode/Claude Code/Codex CLI技能集合。
     en:
       name: ricky-theseus/DaisyWriter
       summary: AI-powered writing toolkit — Web novels, Short stories, Tech blogs,
@@ -1524,8 +1507,7 @@
   i18n:
     zh:
       name: treylom/ThisCodex
-      summary: 'ThisCodex — Codex CLI skill repo: CC↔Codex 이식·rules-system·multi-agent
-        Discord 패턴 (ThisCode companion)'
+      summary: ThisCodex — Codex CLI技能仓库：CC↔Codex移植·rules-system·multi-agent Discord模式（ThisCode伴侣）
     en:
       name: treylom/ThisCodex
       summary: 'ThisCodex — Codex CLI skill repo: CC↔Codex 이식·rules-system·multi-agent
@@ -1570,8 +1552,7 @@
   i18n:
     zh:
       name: XiansenWu954/IEEE-suite-skills
-      summary: One-stop Claude Code / Codex CLI skill suite for IEEE journal manuscript
-        workflow
+      summary: 面向IEEE期刊稿件工作流程的一站式Claude Code / Codex CLI技能套件
     en:
       name: XiansenWu954/IEEE-suite-skills
       summary: One-stop Claude Code / Codex CLI skill suite for IEEE journal manuscript
@@ -1617,9 +1598,7 @@
   i18n:
     zh:
       name: aldegad/skill-hook-authoring
-      summary: Authoring guide for shared Claude Code + Codex CLI skills and hooks
-        (cross-engine install pattern, modern PreToolUse decision schema, payload
-        contract).
+      summary: 共享的Claude Code和Codex CLI技能与钩子的创作指南（跨引擎安装模式、现代PreToolUse决策模式、有效载荷契约）
     en:
       name: aldegad/skill-hook-authoring
       summary: Authoring guide for shared Claude Code + Codex CLI skills and hooks
@@ -1664,8 +1643,7 @@
   i18n:
     zh:
       name: dhruvalgolakiya/taskdex
-      summary: Control OpenAI Codex coding agents from your phone. Run multiple agents,
-        get push notifications, and reply from your lock screen.
+      summary: 在手机上控制 OpenAI Codex 编码代理。运行多个代理，获取推送通知，并在锁屏上回复。
     en:
       name: dhruvalgolakiya/taskdex
       summary: Control OpenAI Codex coding agents from your phone. Run multiple agents,
@@ -1714,7 +1692,7 @@
   i18n:
     zh:
       name: AndrianinaLydiano/codex-web
-      summary: First test with openai codex code agent
+      summary: 首次使用 OpenAI Codex code agent 进行测试
     en:
       name: AndrianinaLydiano/codex-web
       summary: First test with openai codex code agent
@@ -1756,7 +1734,7 @@
   i18n:
     zh:
       name: TheAlexYao/openclaw-codex-agents
-      summary: OpenClaw skill for orchestrating OpenAI Codex coding agents
+      summary: 用于编排OpenAI Codex编程代理的OpenClaw技能
     en:
       name: TheAlexYao/openclaw-codex-agents
       summary: OpenClaw skill for orchestrating OpenAI Codex coding agents
@@ -1799,8 +1777,7 @@
   i18n:
     zh:
       name: franksde/agy-hud
-      summary: An Antigravity CLI plugin that displays context usage, quota usage,
-        model info, and agent status
+      summary: 一个显示context usage、quota usage、model info和agent status的Antigravity CLI插件
     en:
       name: franksde/agy-hud
       summary: An Antigravity CLI plugin that displays context usage, quota usage,
@@ -1858,7 +1835,7 @@
   i18n:
     zh:
       name: AI-Safeter/antigravity-cli-plugin
-      summary: Interactive CLI plugin manager (like Claude Code) for the antigravity-cli.
+      summary: 用于antigravity-cli的交互式CLI插件管理器（类似Claude Code）
     en:
       name: AI-Safeter/antigravity-cli-plugin
       summary: Interactive CLI plugin manager (like Claude Code) for the antigravity-cli.
@@ -1903,8 +1880,7 @@
   i18n:
     zh:
       name: joegoldin/antigravity-cli-nix
-      summary: Declarative Antigravity CLI plugins, skills, agents, rules, hooks,
-        and MCP servers for Nix
+      summary: 用于Nix的声明式Antigravity CLI插件、技能、代理、规则、钩子和MCP服务器
     en:
       name: joegoldin/antigravity-cli-nix
       summary: Declarative Antigravity CLI plugins, skills, agents, rules, hooks,
@@ -1951,8 +1927,7 @@
   i18n:
     zh:
       name: contrapuntal/antigravity-cli-plugin-cc
-      summary: Run Gemini for code reviews and task delegation from Claude Code, Codex
-        CLI, OpenCode, Pi.dev, or Copilot CLI.
+      summary: 运行 Gemini，用于从 Claude Code、Codex CLI、OpenCode、Pi.dev 或 Copilot CLI 进行代码审查和任务委派。
     en:
       name: contrapuntal/antigravity-cli-plugin-cc
       summary: Run Gemini for code reviews and task delegation from Claude Code, Codex
@@ -2005,7 +1980,7 @@
   i18n:
     zh:
       name: Joonghyun-Lee-Frieren/deus-ex-antigravity
-      summary: antigravity cli plugin
+      summary: antigravity CLI 插件
     en:
       name: Joonghyun-Lee-Frieren/deus-ex-antigravity
       summary: antigravity cli plugin
@@ -2049,8 +2024,7 @@
   i18n:
     zh:
       name: zemloai-ctrl/elecz-antigravity
-      summary: Antigravity CLI plugin for Elecz — real-time electricity prices across
-        100+ zones. No auth required.
+      summary: 适用于Elecz的Antigravity CLI插件——覆盖100多个区域的实时电价。无需认证。
     en:
       name: zemloai-ctrl/elecz-antigravity
       summary: Antigravity CLI plugin for Elecz — real-time electricity prices across
@@ -2103,7 +2077,7 @@
   i18n:
     zh:
       name: C1ph3r404/AntigravityCli-Plugin
-      summary: plugin for antigravity cli to expand model, thinking values
+      summary: 用于 antigravity cli 的插件，以扩展模型和思考值
     en:
       name: C1ph3r404/AntigravityCli-Plugin
       summary: plugin for antigravity cli to expand model, thinking values
@@ -2146,8 +2120,7 @@
   i18n:
     zh:
       name: gemini-cli-extensions/conductor
-      summary: Conductor is a Gemini CLI extension that allows you to specify, plan,
-        and implement software features.
+      summary: Conductor 是一个 Gemini CLI 扩展，允许你指定、规划和实现软件功能。
     en:
       name: gemini-cli-extensions/conductor
       summary: Conductor is a Gemini CLI extension that allows you to specify, plan,
@@ -2197,9 +2170,8 @@
   i18n:
     zh:
       name: harish-garg/gemini-cli-prompt-library
-      summary: A curated library of high-quality, professionally crafted prompts for
-        common development tasks. Save time and improve your AI interactions with
-        battle-tested prompt templates. You can install it as an Gemini CLI Extension.
+      summary: 一个精选的高质量、专业编写的提示词库，适用于常见开发任务。使用经过实战检验的提示模板，节省时间并改善AI交互。您可以将其安装为Gemini
+        CLI扩展。
     en:
       name: harish-garg/gemini-cli-prompt-library
       summary: A curated library of high-quality, professionally crafted prompts for
@@ -2245,9 +2217,7 @@
   i18n:
     zh:
       name: gemini-cli-extensions/jules
-      summary: A Gemini CLI extension that allows you to use the Gemini CLI to orchestrate
-        the Jules asynchronous agent to perform coding tasks like bug fixing, refactoring,
-        and dependency updates.
+      summary: 一个 Gemini CLI 扩展，允许您使用 Gemini CLI 来编排 Jules 异步代理，以执行编码任务，如修复错误、重构和依赖更新。
     en:
       name: gemini-cli-extensions/jules
       summary: A Gemini CLI extension that allows you to use the Gemini CLI to orchestrate
@@ -2297,7 +2267,7 @@
   i18n:
     zh:
       name: gemini-cli-extensions/ralph
-      summary: Gemini CLI extension for Ralph loops
+      summary: 用于Ralph循环的Gemini CLI扩展
     en:
       name: gemini-cli-extensions/ralph
       summary: Gemini CLI extension for Ralph loops
@@ -2349,8 +2319,7 @@
   i18n:
     zh:
       name: jduncan-rva/skill-porter
-      summary: Universal tool to convert Claude Code skills to Gemini CLI extensions
-        and vice versa
+      summary: 将 Claude Code 技能转换为 Gemini CLI 扩展及反之亦然的通用工具
     en:
       name: jduncan-rva/skill-porter
       summary: Universal tool to convert Claude Code skills to Gemini CLI extensions
@@ -2394,7 +2363,7 @@
   i18n:
     zh:
       name: philschmid/gemini-cli-extension
-      summary: Collection of helpful gemini cli extensions and commands
+      summary: 有用的Gemini CLI扩展和命令合集
     en:
       name: philschmid/gemini-cli-extension
       summary: Collection of helpful gemini cli extensions and commands
@@ -2436,7 +2405,7 @@
   i18n:
     zh:
       name: AsyncFuncAI/ralph-wiggum-extension
-      summary: Ralph Wiggum Gemini CLI Extension
+      summary: Ralph Wiggum Gemini CLI 扩展
     en:
       name: AsyncFuncAI/ralph-wiggum-extension
       summary: Ralph Wiggum Gemini CLI Extension
@@ -2478,7 +2447,7 @@
   i18n:
     zh:
       name: figma/figma-gemini-cli-extension
-      summary: figma/figma-gemini-cli-extension
+      summary: figma/figma-gemini-命令行扩展
     en:
       name: figma/figma-gemini-cli-extension
       summary: figma/figma-gemini-cli-extension
@@ -2519,7 +2488,7 @@
   i18n:
     zh:
       name: JackKelly/opencode_config
-      summary: My custom opencode agents & commands & other configuration
+      summary: 我的自定义 opencode 代理、命令及其他配置
     en:
       name: JackKelly/opencode_config
       summary: My custom opencode agents & commands & other configuration
@@ -2561,8 +2530,7 @@
   i18n:
     zh:
       name: hxrshxz/fluid-cloudnative-custom-agent-workflows
-      summary: Custom OpenCode agents, commands, tools, and skills for the Fluid cloudnative
-        test migration workflow
+      summary: 用于Fluid云原生测试迁移工作流的自定义OpenCode代理、命令、工具和技能
     en:
       name: hxrshxz/fluid-cloudnative-custom-agent-workflows
       summary: Custom OpenCode agents, commands, tools, and skills for the Fluid cloudnative
@@ -2608,8 +2576,7 @@
   i18n:
     zh:
       name: W4k4s/claude-code-boris-workflow
-      summary: 'Global Boris workflow for Claude Code, Codex, and OpenCode: agents,
-        commands, skills, guardrails, and modular installer.'
+      summary: 用于Claude Code、Codex和OpenCode的全局Boris工作流：代理、命令、技能、防护栏和模块化安装程序。
     en:
       name: W4k4s/claude-code-boris-workflow
       summary: 'Global Boris workflow for Claude Code, Codex, and OpenCode: agents,
@@ -2652,7 +2619,7 @@
   i18n:
     zh:
       name: cyberbobjr/opencode-config
-      summary: OpenCode agent & command configurations
+      summary: OpenCode 代理与命令配置
     en:
       name: cyberbobjr/opencode-config
       summary: OpenCode agent & command configurations
@@ -2694,7 +2661,7 @@
   i18n:
     zh:
       name: chadleeshaw/dot-opencode
-      summary: OpenCode agents, commands, skills, and scripts
+      summary: OpenCode代理、命令、技能和脚本
     en:
       name: chadleeshaw/dot-opencode
       summary: OpenCode agents, commands, skills, and scripts
@@ -2779,8 +2746,7 @@
   i18n:
     zh:
       name: choumoone/opencode-markitdown-qwen
-      summary: OpenCode agents, commands, and skills for local MarkItDown conversion
-        and Qwen3.6 vision OCR
+      summary: 用于本地MarkItDown转换和Qwen3.6视觉OCR的OpenCode代理、命令和技能
     en:
       name: choumoone/opencode-markitdown-qwen
       summary: OpenCode agents, commands, and skills for local MarkItDown conversion
@@ -2824,8 +2790,7 @@
   i18n:
     zh:
       name: hxrshxz/opencode-toolkit
-      summary: Custom OpenCode agents, commands, tools, and plugins for Fluid PR workflows
-        and GSD project management
+      summary: 用于 Fluid PR 工作流和 GSD 项目管理的自定义 OpenCode 代理、命令、工具和插件
     en:
       name: hxrshxz/opencode-toolkit
       summary: Custom OpenCode agents, commands, tools, and plugins for Fluid PR workflows
@@ -2870,9 +2835,8 @@
   i18n:
     zh:
       name: AlaeddineMessadi/opencode-mcp
-      summary: MCP server for OpenCode AI — 70 tools, 10 resources, 5 prompts. Use
-        npx opencode-mcp with Claude Desktop, Claude Code, Cursor, Windsurf, or any
-        MCP client.
+      summary: OpenCode AI 的 MCP 服务器 — 70 个工具、10 个资源、5 个提示。可将 npx opencode-mcp 与 Claude
+        Desktop、Claude Code、Cursor、Windsurf 或任何 MCP 客户端配合使用。
     en:
       name: AlaeddineMessadi/opencode-mcp
       summary: MCP server for OpenCode AI — 70 tools, 10 resources, 5 prompts. Use
@@ -2936,7 +2900,7 @@
   i18n:
     zh:
       name: gberaudo/opencode-mcp-figma
-      summary: Minimalist way to log into Figma for OpenCode
+      summary: 为OpenCode登录Figma的极简方式
     en:
       name: gberaudo/opencode-mcp-figma
       summary: Minimalist way to log into Figma for OpenCode
@@ -2979,8 +2943,7 @@
   i18n:
     zh:
       name: RainCherb/context-diamond
-      summary: Auditable context capsules for LLM handoffs, coding agents, and OpenCode
-        MCP workflows.
+      summary: 适用于LLM交接、编码代理以及OpenCode MCP工作流的可审计上下文胶囊
     en:
       name: RainCherb/context-diamond
       summary: Auditable context capsules for LLM handoffs, coding agents, and OpenCode
@@ -3037,8 +3000,7 @@
   i18n:
     zh:
       name: nosolosoft/opencode-mcp
-      summary: MCP Server for OpenCode CLI integration - Execute OpenCode commands,
-        manage sessions, and discover models through the Model Context Protocol
+      summary: 用于OpenCode CLI集成的MCP服务器 - 通过模型上下文协议执行OpenCode命令、管理会话并发现模型
     en:
       name: nosolosoft/opencode-mcp
       summary: MCP Server for OpenCode CLI integration - Execute OpenCode commands,
@@ -3125,8 +3087,7 @@
   i18n:
     zh:
       name: clempat/ai-tools-flake
-      summary: Nix flake for unified AI tools configuration (Claude Code, OpenCode,
-        MCP servers)
+      summary: 用于统一AI工具配置的Nix flake（Claude Code、OpenCode、MCP服务器）
     en:
       name: clempat/ai-tools-flake
       summary: Nix flake for unified AI tools configuration (Claude Code, OpenCode,
@@ -3169,7 +3130,7 @@
   i18n:
     zh:
       name: chen9916/godot-opencode-mcp
-      summary: 'a version of godot which intergrates mcp for opencode '
+      summary: 一个集成了mcp的Godot版本，用于opencode
     en:
       name: chen9916/godot-opencode-mcp
       summary: 'a version of godot which intergrates mcp for opencode '
@@ -3211,7 +3172,7 @@
   i18n:
     zh:
       name: simplifaisoul/opencode-mcp-tools
-      summary: MCP tools and n8n workflow templates for opencode development
+      summary: MCP 工具和 n8n 工作流模板，用于 opencode 开发
     en:
       name: simplifaisoul/opencode-mcp-tools
       summary: MCP tools and n8n workflow templates for opencode development
@@ -3252,7 +3213,7 @@
   i18n:
     zh:
       name: April-Xu/sanshui
-      summary: Sanshui - a desktop pet for Qoder AI coding assistant
+      summary: Sanshui - 一款面向Qoder AI编程助手的桌面宠物
     en:
       name: April-Xu/sanshui
       summary: Sanshui - a desktop pet for Qoder AI coding assistant
@@ -3294,7 +3255,7 @@
   i18n:
     zh:
       name: BLUEasddaaaaaaa/workbuddy-pet
-      summary: A pixel desktop pet that reacts to CodeBuddy AI coding assistant
+      summary: 一个对CodeBuddy AI编程助手作出反应的像素桌面宠物
     en:
       name: BLUEasddaaaaaaa/workbuddy-pet
       summary: A pixel desktop pet that reacts to CodeBuddy AI coding assistant
@@ -3336,7 +3297,7 @@
   i18n:
     zh:
       name: adhiman1995/Codebuddy
-      summary: CodeBuddy — AI Code Review Assistant
+      summary: CodeBuddy — AI代码审查助手
     en:
       name: adhiman1995/Codebuddy
       summary: CodeBuddy — AI Code Review Assistant
@@ -3378,8 +3339,7 @@
   i18n:
     zh:
       name: GipsyDanger-dev/codebuddy-ai-coding-mentor
-      summary: 👨‍💻 CodeBuddy — AI Coding Mentor chatbot powered by Gemini 2.0 Flash
-        API. Santai, friendly, dan siap bantu kamu belajar ngoding!
+      summary: 👨‍💻 CodeBuddy — 基于 Gemini 2.0 Flash API 的 AI 编程导师聊天机器人。轻松、友好，随时帮你学习编程！
     en:
       name: GipsyDanger-dev/codebuddy-ai-coding-mentor
       summary: 👨‍💻 CodeBuddy — AI Coding Mentor chatbot powered by Gemini 2.0 Flash
@@ -3423,8 +3383,7 @@
   i18n:
     zh:
       name: yinqd3/workbuddy-skills
-      summary: A curated collection of WorkBuddy agent skills — academic pipeline,
-        frontend slides, PPTX generator, tool-call repair, and more.
+      summary: 精心策划的WorkBuddy代理技能集合——学术流程、前端幻灯片、PPTX生成器、工具调用修复等等。
     en:
       name: yinqd3/workbuddy-skills
       summary: A curated collection of WorkBuddy agent skills — academic pipeline,
@@ -3474,7 +3433,7 @@
   i18n:
     zh:
       name: kang1298749923/skills
-      summary: WorkBuddy agent skills
+      summary: WorkBuddy 代理技能
     en:
       name: kang1298749923/skills
       summary: WorkBuddy agent skills
@@ -3516,7 +3475,7 @@
   i18n:
     zh:
       name: maidoudoujiushiwo/workbuddy-skills
-      summary: 'WorkBuddy agent skills: mckinsey-analyst & html-ppt'
+      summary: 'WorkBuddy 代理技能: mckinsey-analyst 与 html-ppt'
     en:
       name: maidoudoujiushiwo/workbuddy-skills
       summary: 'WorkBuddy agent skills: mckinsey-analyst & html-ppt'
@@ -3559,7 +3518,7 @@
   i18n:
     zh:
       name: sanjeed5/awesome-cursor-rules-mdc
-      summary: Curated list of awesome Cursor Rules .mdc files
+      summary: 精选的Cursor Rules .mdc文件列表
     en:
       name: sanjeed5/awesome-cursor-rules-mdc
       summary: Curated list of awesome Cursor Rules .mdc files
@@ -3688,9 +3647,8 @@
   i18n:
     zh:
       name: sceneview/sceneview
-      summary: '3D & AR SDK for Android (Jetpack Compose + Filament), iOS (SwiftUI
-        + RealityKit), and Web. AI-first: llms.txt, MCP server, Copilot/Cursor rules.
-        The only Compose-native 3D library.'
+      summary: 适用于Android（Jetpack Compose + Filament）、iOS（SwiftUI + RealityKit）和Web的3D和AR
+        SDK。AI优先：llms.txt、MCP服务器、Copilot/Cursor规则。唯一的Compose原生3D库。
     en:
       name: sceneview/sceneview
       summary: '3D & AR SDK for Android (Jetpack Compose + Filament), iOS (SwiftUI
@@ -3754,7 +3712,7 @@
   i18n:
     zh:
       name: instructa/ai-prompts
-      summary: Curated AI Prompts for Cursor Rules, Cline, Windsurf and Github Copilot
+      summary: 为Cursor Rules、Cline、Windsurf和Github Copilot精选的AI提示词
     en:
       name: instructa/ai-prompts
       summary: Curated AI Prompts for Cursor Rules, Cline, Windsurf and Github Copilot
@@ -3807,7 +3765,7 @@
   i18n:
     zh:
       name: RayFernando1337/llm-cursor-rules
-      summary: My go-to rules for using Cursor and LLMs in software development.
+      summary: 我在软件开发中使用Cursor和LLM的首选规则
     en:
       name: RayFernando1337/llm-cursor-rules
       summary: My go-to rules for using Cursor and LLMs in software development.
@@ -3895,9 +3853,7 @@
   i18n:
     zh:
       name: thehimel/cursor-rules-and-prompts
-      summary: A comprehensive, open-source collection of rules and prompts designed
-        to guide Cursor AI in generating better, more consistent code. Enhance code
-        quality, enforce coding standards, and streamline development workflows automatically.
+      summary: 一个全面、开源的规则和提示集合，旨在指导 Cursor AI 生成更好、更一致的代码。自动提升代码质量、强制执行编码标准并简化开发工作流程。
     en:
       name: thehimel/cursor-rules-and-prompts
       summary: A comprehensive, open-source collection of rules and prompts designed
@@ -3962,10 +3918,8 @@
   i18n:
     zh:
       name: AnkleBreaker-Studio/unity-mcp-plugin
-      summary: 'Unity MCP Plugin (UPM) — Editor bridge for AI-assisted game development.
-        Enables Claude, Cursor & MCP-compatible AI to control Unity Editor with 268
-        tools: scenes, GameObjects, components, builds, profiling, Shader Graph, Amplify
-        Shader Edi'
+      summary: Unity MCP Plugin (UPM) — 面向AI辅助游戏开发的编辑器桥梁。使Claude、Cursor及MCP兼容的AI能够通过268个工具控制Unity编辑器：场景、GameObjects、组件、构建、性能分析、Shader
+        Graph、Amplify Shader Editor等。
     en:
       name: AnkleBreaker-Studio/unity-mcp-plugin
       summary: 'Unity MCP Plugin (UPM) — Editor bridge for AI-assisted game development.
@@ -4030,7 +3984,7 @@
   i18n:
     zh:
       name: matthewdcage/cursor-mcp-installer
-      summary: Installs MCPs in cursor for you, give it a git URL and let it rip
+      summary: 为你安装 MCPs 到 Cursor 中，提供 git URL 然后让它运行
     en:
       name: matthewdcage/cursor-mcp-installer
       summary: Installs MCPs in cursor for you, give it a git URL and let it rip
@@ -4156,7 +4110,7 @@
   i18n:
     zh:
       name: ericzakariasson/cursor-mcp-server
-      summary: Cursor MCP Server implementation
+      summary: Cursor MCP Server 实现
     en:
       name: ericzakariasson/cursor-mcp-server
       summary: Cursor MCP Server implementation
@@ -4241,8 +4195,7 @@
   i18n:
     zh:
       name: griffithsbs/envmcp
-      summary: A lightweight way to use environment variables in your Cursor MCP server
-        definitions.
+      summary: 在您的 Cursor MCP 服务器定义中使用环境变量的一种轻量级方式。
     en:
       name: griffithsbs/envmcp
       summary: A lightweight way to use environment variables in your Cursor MCP server
@@ -4301,10 +4254,8 @@
   i18n:
     zh:
       name: hoyt-harness/davinci-mcp-professional
-      summary: 'An enterprise-grade MCP server that exposes the full functionality
-        of DaVinci Resolve and DaVinci Resolve Studio (through version 20) to either
-        Claude Desktop or Cursor MCP clients. Fully configured and tested as a Claude
-        Desktop Extension '
+      summary: 一款企业级MCP服务器，将DaVinci Resolve和DaVinci Resolve Studio（至版本20）的全部功能暴露给Claude
+        Desktop或Cursor MCP客户端。已完全配置并作为Claude Desktop扩展进行测试。
     en:
       name: hoyt-harness/davinci-mcp-professional
       summary: 'An enterprise-grade MCP server that exposes the full functionality
@@ -4359,9 +4310,7 @@
   i18n:
     zh:
       name: cosmicstack-labs/mercury-agent-skills
-      summary: A curated registry of reusable Mercury Agent, Open Claw or Hermes Agent
-        skills designed for real developer workflows, persistent memory, and token-efficient
-        execution.
+      summary: 一个精选的可复用 Mercury Agent、Open Claw 或 Hermes Agent 技能的注册表，专为真实开发者工作流、持久化记忆和令牌高效执行而设计。
     en:
       name: cosmicstack-labs/mercury-agent-skills
       summary: A curated registry of reusable Mercury Agent, Open Claw or Hermes Agent
@@ -4409,7 +4358,7 @@
   i18n:
     zh:
       name: DavidBB-L/cinema-manager
-      summary: Hermes Agent skill - Movie/TV resource search + Quark cloud drive auto-save
+      summary: Hermes Agent 技能 - 影视资源搜索 + Quark cloud drive 自动保存
     en:
       name: DavidBB-L/cinema-manager
       summary: Hermes Agent skill - Movie/TV resource search + Quark cloud drive auto-save
@@ -4510,8 +4459,7 @@
   i18n:
     zh:
       name: Hmbown/Wizards-of-the-Ghosts
-      summary: Unofficial Hermes Agent skill pack built from fantasy spell and skill
-        names
+      summary: 非官方的 Hermes Agent 技能包，基于奇幻咒语和技能名称构建
     en:
       name: Hmbown/Wizards-of-the-Ghosts
       summary: Unofficial Hermes Agent skill pack built from fantasy spell and skill
@@ -4561,8 +4509,7 @@
   i18n:
     zh:
       name: codesstar/hermes-skill-atlas
-      summary: The complete, interactive map of Hermes Agent skills — 70+ curated,
-        verified, open source. 🗺️
+      summary: 完整、交互式的Hermes Agent技能地图——70多个精选、经过验证的开源技能。🗺️
     en:
       name: codesstar/hermes-skill-atlas
       summary: The complete, interactive map of Hermes Agent skills — 70+ curated,
@@ -4615,9 +4562,7 @@
   i18n:
     zh:
       name: ChuckSRQ/awesome-hermes-skills
-      summary: A curated collection of production-ready Hermes Agent skills — brainstorming,
-        PRD workflows, debugging, Apple integrations, MLOps, document processing,
-        and more.
+      summary: 精心策划的生产级 Hermes Agent 技能合集——包括头脑风暴、PRD 工作流、调试、苹果集成、MLOps、文档处理等。
     en:
       name: ChuckSRQ/awesome-hermes-skills
       summary: A curated collection of production-ready Hermes Agent skills — brainstorming,
@@ -4662,8 +4607,7 @@
   i18n:
     zh:
       name: cobibean/soul-grader-skill
-      summary: Hermes Agent skill for grading SOUL.md identity files with a research-backed
-        rubric and public-safe field guide.
+      summary: Hermes Agent技能用于评分SOUL.md身份文件，采用研究支持的评估标准和公共安全现场指南。
     en:
       name: cobibean/soul-grader-skill
       summary: Hermes Agent skill for grading SOUL.md identity files with a research-backed
@@ -4718,10 +4662,7 @@
   i18n:
     zh:
       name: dlkakbs/hermes-startup-architect
-      summary: 'A permanent Hermes Agent skill that transforms any startup idea into
-        an investor-ready kit. Chains web_search, terminal & write_file to generate
-        8 assets: market analysis, competitor map, pitch deck, roadmap & a Tailwind
-        landing page. Built'
+      summary: 一个永久性的Hermes Agent技能，能将任何创业想法转化为投资者就绪的工具包。通过链式调用web_search、terminal和write_file生成8项资产：市场分析、竞争对手地图、融资演示文稿、路线图以及一个Tailwind登录页面。已构建完成。
     en:
       name: dlkakbs/hermes-startup-architect
       summary: 'A permanent Hermes Agent skill that transforms any startup idea into
@@ -4763,9 +4704,7 @@
   i18n:
     zh:
       name: sajjadGG/Rehearsal
-      summary: 'Local end-to-end testing lab for any MCP server: coding agents role-play
-        real users, drive your tools over multiple turns, score runs, and render/interact
-        with MCP Apps ui:// widgets.'
+      summary: 适用于任何MCP服务器的本地端到端测试实验室：编码代理扮演真实用户，在多个回合中驱动你的工具，对运行进行评分，并渲染/与MCP Apps的ui://小部件交互。
     en:
       name: sajjadGG/Rehearsal
       summary: 'Local end-to-end testing lab for any MCP server: coding agents role-play
@@ -4855,8 +4794,7 @@
   i18n:
     zh:
       name: nitingupta220/crito
-      summary: 'AI PR review agent on OpenRouter BYOK + free models (v1: code review
-        only) — design & research'
+      summary: 基于OpenRouter BYOK和免费模型的AI PR审查代理（v1：仅代码审查）— 设计与研究
     en:
       name: nitingupta220/crito
       summary: 'AI PR review agent on OpenRouter BYOK + free models (v1: code review
@@ -4900,8 +4838,7 @@
   i18n:
     zh:
       name: rainbowbreeze/ai_press_review_agent
-      summary: A service that monitors multiple YouTube channels for new videos and
-        sends detailed summaries to a Telegram chat.
+      summary: 一项服务，用于监控多个YouTube频道的新视频，并将详细摘要发送到Telegram聊天。
     en:
       name: rainbowbreeze/ai_press_review_agent
       summary: A service that monitors multiple YouTube channels for new videos and
@@ -4946,9 +4883,8 @@
   i18n:
     zh:
       name: Atirian-Chen/ai-pr-review-agent
-      summary: 'Local-first AI PR review agent for GitHub Pull Requests: diff parsing,
-        lightweight repo context, conservative LLM findings, validation, and JSON/Markdown
-        reports.'
+      summary: 本地优先的 AI PR 审查代理，用于 GitHub 拉取请求：diff 解析、轻量级仓库上下文、保守的 LLM 发现、验证，以及 JSON/Markdown
+        报告。
     en:
       name: Atirian-Chen/ai-pr-review-agent
       summary: 'Local-first AI PR review agent for GitHub Pull Requests: diff parsing,
@@ -5001,7 +4937,7 @@
   i18n:
     zh:
       name: ShubhamBhardwaj001/ai-pr-review-agent
-      summary: ai-pr-review-agent
+      summary: AI PR 审查代理
     en:
       name: ShubhamBhardwaj001/ai-pr-review-agent
       summary: ai-pr-review-agent
@@ -5043,7 +4979,7 @@
   i18n:
     zh:
       name: ParinAcharyaGit/SecureAgent
-      summary: AI PR review Agent
+      summary: AI PR 审查代理
     en:
       name: ParinAcharyaGit/SecureAgent
       summary: AI PR review Agent
@@ -5085,7 +5021,7 @@
   i18n:
     zh:
       name: KailasMahavarkar/pr_review_bot_backend
-      summary: FastAPI backend for AI PR review agent
+      summary: FastAPI后端用于AI PR审查代理
     en:
       name: KailasMahavarkar/pr_review_bot_backend
       summary: FastAPI backend for AI PR review agent
@@ -5127,7 +5063,7 @@
   i18n:
     zh:
       name: rock2089/claude-review-agent
-      summary: AI PR Review Agent - Claude Code sub-agent
+      summary: AI 代码审查助手 - Claude Code 子代理
     en:
       name: rock2089/claude-review-agent
       summary: AI PR Review Agent - Claude Code sub-agent
@@ -5164,8 +5100,7 @@
   i18n:
     zh:
       name: Claude Code
-      summary: Official seed profile for Claude Code, based on local source document
-        /root/workspace/ai-coding-agents/claude_code_introduction.md
+      summary: Claude Code 的官方种子配置文件，基于本地源文件 /root/workspace/ai-coding-agents/claude_code_introduction.md
     en:
       name: Claude Code
       summary: Official seed profile for Claude Code, based on local source document
@@ -5251,7 +5186,7 @@
   i18n:
     zh:
       name: Goose
-      summary: Official seed profile for Goose, based on local source document /root/workspace/ai-coding-agents/goose-ai-coding-agent-intro.md
+      summary: Goose 的官方 seed profile，基于本地源文档 /root/workspace/ai-coding-agents/goose-ai-coding-agent-intro.md
     en:
       name: Goose
       summary: Official seed profile for Goose, based on local source document /root/workspace/ai-coding-agents/goose-ai-coding-agent-intro.md
@@ -5336,7 +5271,7 @@
   i18n:
     zh:
       name: Cursor
-      summary: Official seed profile for Cursor, based on local source document /root/workspace/ai-coding-agents/cursor-ai-editor-intro.md
+      summary: Cursor的官方种子配置文件，基于本地源文档 /root/workspace/ai-coding-agents/cursor-ai-editor-intro.md
     en:
       name: Cursor
       summary: Official seed profile for Cursor, based on local source document /root/workspace/ai-coding-agents/cursor-ai-editor-intro.md
@@ -5381,7 +5316,7 @@
   i18n:
     zh:
       name: IKrasnodymov/repowiki
-      summary: Auto-generate Qoder repo wiki on every git commit
+      summary: 在每次 Git 提交时自动生成 Qoder 仓库的 Wiki
     en:
       name: IKrasnodymov/repowiki
       summary: Auto-generate Qoder repo wiki on every git commit
@@ -5423,7 +5358,7 @@
   i18n:
     zh:
       name: Likhithsai2580/qoder-repo-wiki-export
-      summary: qoder repo wiki export
+      summary: qoder 仓库 wiki 导出
     en:
       name: Likhithsai2580/qoder-repo-wiki-export
       summary: qoder repo wiki export
@@ -5464,7 +5399,7 @@
   i18n:
     zh:
       name: rendersman/export-repo-wiki-to-pdf
-      summary: 'Export Qoder Repo Wiki to PDF including Mermaid diagrams. '
+      summary: 将 Qoder Repo Wiki 导出为 PDF，包括 Mermaid 图表。
     en:
       name: rendersman/export-repo-wiki-to-pdf
       summary: 'Export Qoder Repo Wiki to PDF including Mermaid diagrams. '
@@ -5593,7 +5528,7 @@
   i18n:
     zh:
       name: chasexu168340-rgb/codex-skills
-      summary: WorkBuddy AI skills collection
+      summary: WorkBuddy AI技能集合
     en:
       name: chasexu168340-rgb/codex-skills
       summary: WorkBuddy AI skills collection
@@ -5636,8 +5571,7 @@
   i18n:
     zh:
       name: leahchen2025/flashcard-generator
-      summary: WorkBuddy AI Skill - Generate cute bilingual English word flashcards
-        for kids (kawaii style, 2 words per card)
+      summary: WorkBuddy AI Skill - 生成可爱的双语英语单词闪卡供儿童使用（kawaii风格，每卡两个单词）
     en:
       name: leahchen2025/flashcard-generator
       summary: WorkBuddy AI Skill - Generate cute bilingual English word flashcards
@@ -5680,7 +5614,7 @@
   i18n:
     zh:
       name: TTbingo/k12-math-tutor
-      summary: WorkBuddy AI Skills by TTbingo
+      summary: TTbingo 的 WorkBuddy AI 技能
     en:
       name: TTbingo/k12-math-tutor
       summary: WorkBuddy AI Skills by TTbingo
@@ -5764,8 +5698,7 @@
   i18n:
     zh:
       name: flyliyiyun/startup-operations
-      summary: WorkBuddy AI Skill for startup operations — management, hiring, remote
-        teams, crisis management
+      summary: WorkBuddy AI Skill 面向初创企业运营 — 管理、招聘、远程团队、危机管理
     en:
       name: flyliyiyun/startup-operations
       summary: WorkBuddy AI Skill for startup operations — management, hiring, remote
@@ -5808,8 +5741,7 @@
   i18n:
     zh:
       name: flyliyiyun/startup-product
-      summary: WorkBuddy AI Skill for startup product management — PMF, user research,
-        MVP, product discovery
+      summary: WorkBuddy AI技能面向初创企业产品管理 — PMF, 用户研究, MVP, 产品探索
     en:
       name: flyliyiyun/startup-product
       summary: WorkBuddy AI Skill for startup product management — PMF, user research,
@@ -5852,8 +5784,7 @@
   i18n:
     zh:
       name: flyliyiyun/startup-fundraising
-      summary: WorkBuddy AI Skill for startup fundraising — full lifecycle from pre-seed
-        to exit
+      summary: WorkBuddy AI技能：面向创业融资，覆盖从种子前到退出的全生命周期
     en:
       name: flyliyiyun/startup-fundraising
       summary: WorkBuddy AI Skill for startup fundraising — full lifecycle from pre-seed
@@ -5896,8 +5827,7 @@
   i18n:
     zh:
       name: flyliyiyun/startup-growth
-      summary: WorkBuddy AI Skill for startup growth — sales, cold outreach, marketing,
-        go-to-market strategy
+      summary: WorkBuddy AI 技能助力初创企业增长——销售、冷启动外联、营销、市场进入策略
     en:
       name: flyliyiyun/startup-growth
       summary: WorkBuddy AI Skill for startup growth — sales, cold outreach, marketing,
@@ -5981,8 +5911,7 @@
   i18n:
     zh:
       name: victorpaulee/smb-path-wintomac-tools
-      summary: macOS SMB path conversion tools — UNC↔SMB converter with Keychain auth,
-        history, and WorkBuddy AI skills
+      summary: macOS SMB路径转换工具 — 带有Keychain认证、历史记录和WorkBuddy AI技能的UNC↔SMB转换器
     en:
       name: victorpaulee/smb-path-wintomac-tools
       summary: macOS SMB path conversion tools — UNC↔SMB converter with Keychain auth,
@@ -6026,8 +5955,7 @@
   i18n:
     zh:
       name: vaughnxmedia-alt/kora-engineering-agent
-      summary: KORA Engineering Agent — vendor fork of ByteDance trae-agent (JahknowsPR
-        / KORA)
+      summary: KORA 工程代理 — ByteDance trae-agent 的厂商分支 (JahknowsPR / KORA)
     en:
       name: vaughnxmedia-alt/kora-engineering-agent
       summary: KORA Engineering Agent — vendor fork of ByteDance trae-agent (JahknowsPR
@@ -6114,9 +6042,8 @@
   i18n:
     zh:
       name: foxy1402/qoder-proxy
-      summary: Drop-in OpenAI API wrapper for Qoder CLI. Supports chat completions,
-        streaming, automatic tool execution, and model name mapping — with a built-in
-        web dashboard and one-line Docker deployment.
+      summary: Qoder CLI 的即插即用 OpenAI API 封装。支持 chat completions、streaming、自动 tool
+        execution 和模型名称映射——内置 Web 仪表盘和一行 Docker 部署。
     en:
       name: foxy1402/qoder-proxy
       summary: Drop-in OpenAI API wrapper for Qoder CLI. Supports chat completions,
@@ -6204,8 +6131,7 @@
   i18n:
     zh:
       name: lininn/qorder-proxy
-      summary: Local OpenAI / Anthropic compatible proxy for Qoder CLI - with daemon
-        mode and web setup
+      summary: 本地 OpenAI / Anthropic 兼容代理，用于 Qoder CLI - 支持 daemon mode 和 web setup
     en:
       name: lininn/qorder-proxy
       summary: Local OpenAI / Anthropic compatible proxy for Qoder CLI - with daemon
@@ -6251,8 +6177,7 @@
   i18n:
     zh:
       name: zxcrf/oh-my-qoder
-      summary: Multi-agent orchestration plugin for Qoder CLI — 19 specialized agents,
-        persistent execution modes, and intelligent hook-based enhancements
+      summary: Qoder CLI的多智能体编排插件——包含19个专业智能体、持久化执行模式以及基于钩子的智能增强功能
     en:
       name: zxcrf/oh-my-qoder
       summary: Multi-agent orchestration plugin for Qoder CLI — 19 specialized agents,
@@ -6297,8 +6222,7 @@
   i18n:
     zh:
       name: HarlandZZC/cuhk-slides-template-html
-      summary: A single-file HTML slide template in CUHK purple & gold palette, with
-        a Markdown-to-Slides skill for Claude Code / Qoder CLI.
+      summary: 一个单文件HTML幻灯片模板，采用CUHK紫色与金色配色方案，并附带一个用于Claude Code / Qoder CLI的Markdown-to-Slides技能。
     en:
       name: HarlandZZC/cuhk-slides-template-html
       summary: A single-file HTML slide template in CUHK purple & gold palette, with
@@ -6343,9 +6267,8 @@
   i18n:
     zh:
       name: onehub-work/qoder-cli-api
-      summary: Turn [qodercli](https://qoder.com) into an OpenAI/Anthropic API compatible
-        server. Use Qoder CLI's AI capabilities through standard API interfaces, enabling
-        integration with any OpenAI/Anthropic compatible client.
+      summary: 将 [qodercli](https://qoder.com) 转变为兼容 OpenAI/Anthropic API 的服务器。通过标准
+        API 接口使用 Qoder CLI 的 AI 能力，实现与任何 OpenAI/Anthropic 兼容客户端的集成。
     en:
       name: onehub-work/qoder-cli-api
       summary: Turn [qodercli](https://qoder.com) into an OpenAI/Anthropic API compatible
@@ -6389,7 +6312,7 @@
   i18n:
     zh:
       name: lfeng/qoder-cli-skill
-      summary: Qoder CLI Skill for OpenClaw
+      summary: 适用于 OpenClaw 的 Qoder CLI 技能
     en:
       name: lfeng/qoder-cli-skill
       summary: Qoder CLI Skill for OpenClaw
@@ -6430,8 +6353,7 @@
   i18n:
     zh:
       name: CYJ316457/qoder-api-bridge
-      summary: Local Qoder CLI bridge with OpenAI-compatible endpoints and metrics
-        dashboard
+      summary: 本地 Qoder CLI 桥接，支持 OpenAI 兼容端点与指标仪表板
     en:
       name: CYJ316457/qoder-api-bridge
       summary: Local Qoder CLI bridge with OpenAI-compatible endpoints and metrics
@@ -6563,7 +6485,7 @@
   i18n:
     zh:
       name: glitternetwork/pinme
-      summary: Deploy Your Frontend in a Single Command. Claude Code Skills supported.
+      summary: 只需一条命令即可部署你的前端。支持 Claude Code Skills。
     en:
       name: glitternetwork/pinme
       summary: Deploy Your Frontend in a Single Command. Claude Code Skills supported.
@@ -6623,8 +6545,7 @@
   i18n:
     zh:
       name: taishi-i/awesome-ChatGPT-repositories
-      summary: A curated list of open source GitHub repositories related to ChatGPT,
-        the OpenAI API, and Codex. Searchable via Claude Code skills.
+      summary: 与ChatGPT、OpenAI API和Codex相关的开源GitHub仓库精选列表。可通过Claude Code技能进行搜索。
     en:
       name: taishi-i/awesome-ChatGPT-repositories
       summary: A curated list of open source GitHub repositories related to ChatGPT,
@@ -6678,7 +6599,7 @@
   i18n:
     zh:
       name: nowork-studio/NotFair
-      summary: Open-source Claude Code skills for SEO, GEO, Google Ads, Meta Ads
+      summary: 面向SEO、GEO、Google Ads和Meta Ads的开源Claude Code技能
     en:
       name: nowork-studio/NotFair
       summary: Open-source Claude Code skills for SEO, GEO, Google Ads, Meta Ads
@@ -6730,10 +6651,7 @@
   i18n:
     zh:
       name: elementalsouls/Claude-BugHunter
-      summary: A Claude Code skill bundle for bug hunting and external red-team work
-        — 71 skills, 15 slash commands, 681 disclosed-report patterns curated across
-        24 core vulnerability classes, plus enterprise identity + infrastructure attack
-        matrices.
+      summary: 一个用于漏洞狩猎和外部红队工作的Claude Code技能包——包含71项技能、15个斜杠命令、681个精选的已公开报告模式，涵盖24个核心漏洞类别，外加企业身份与基础设施攻击矩阵。
     en:
       name: elementalsouls/Claude-BugHunter
       summary: A Claude Code skill bundle for bug hunting and external red-team work
@@ -6795,9 +6713,7 @@
   i18n:
     zh:
       name: lackeyjb/playwright-skill
-      summary: Claude Code Skill for browser automation with Playwright. Model-invoked
-        - Claude autonomously writes and executes custom automation for testing and
-        validation.
+      summary: 用于Playwright浏览器自动化的Claude Code Skill。由模型调用 - Claude自主编写并执行自定义的自动化脚本以进行测试与验证。
     en:
       name: lackeyjb/playwright-skill
       summary: Claude Code Skill for browser automation with Playwright. Model-invoked
@@ -6855,8 +6771,7 @@
   i18n:
     zh:
       name: dominikmartn/nothing-design-skill
-      summary: A Claude Code skill for generating UI in the Nothing design language.
-        Monochrome, typographic, industrial.
+      summary: 一项Claude Code技能，用于在Nothing设计语言中生成UI。单色、排版、工业风格。
     en:
       name: dominikmartn/nothing-design-skill
       summary: A Claude Code skill for generating UI in the Nothing design language.
@@ -6941,8 +6856,7 @@
   i18n:
     zh:
       name: tradermonty/claude-trading-skills
-      summary: Claude Code skills for equity investors and traders — market analysis,
-        technical charting, economic calendars, screeners, and trading strategy development.
+      summary: Claude Code技能适用于股票投资者和交易者——市场分析、技术图表、经济日历、筛选器以及交易策略开发。
     en:
       name: tradermonty/claude-trading-skills
       summary: Claude Code skills for equity investors and traders — market analysis,
@@ -6987,9 +6901,7 @@
   i18n:
     zh:
       name: yctimlin/mcp_excalidraw
-      summary: MCP server and Claude Code skill for Excalidraw — programmatic canvas
-        toolkit to create, edit, and export diagrams via AI agents with real-time
-        canvas sync.
+      summary: 用于Excalidraw的MCP服务器和Claude Code技能——一款可编程画布工具包，可通过AI代理创建、编辑和导出图表，并实现实时画布同步。
     en:
       name: yctimlin/mcp_excalidraw
       summary: MCP server and Claude Code skill for Excalidraw — programmatic canvas
@@ -7077,7 +6989,7 @@
   i18n:
     zh:
       name: skills-directory/skill-codex
-      summary: A claude code skill to delegate prompts to codex
+      summary: 一种将提示委托给Codex的Claude代码技能
     en:
       name: skills-directory/skill-codex
       summary: A claude code skill to delegate prompts to codex
@@ -7123,9 +7035,8 @@
   i18n:
     zh:
       name: onvoyage-ai/gtm-engineer-skills
-      summary: Claude Code skill for improving website AEO (AI Engine Optimization)
-        and GEO (Generative Engine Optimization) scores — 16 foundational checks,
-        6 intelligence dimensions, framework-specific fixes
+      summary: Claude Code 技能：提升网站 AEO（AI Engine Optimization）和 GEO（Generative Engine
+        Optimization）分数 — 16 项基础检查、6 个智能维度、框架特定的修复
     en:
       name: onvoyage-ai/gtm-engineer-skills
       summary: Claude Code skill for improving website AEO (AI Engine Optimization)
@@ -7178,8 +7089,7 @@
   i18n:
     zh:
       name: Eyalbenba/claude-code-mcp-init
-      summary: A lightweight CLI tool to easily configure and initialize MCPs for
-        Claude Code.
+      summary: 一个轻量级的CLI工具，用于轻松配置和初始化Claude Code的MCPs。
     en:
       name: Eyalbenba/claude-code-mcp-init
       summary: A lightweight CLI tool to easily configure and initialize MCPs for
@@ -7225,10 +7135,8 @@
   i18n:
     zh:
       name: automationsmanufaktur-labs/open-invoice-germany
-      summary: Kostenlose, self-hostbare Open-Source-Rechnungssoftware für Deutschland
-        · E-Rechnung (XRechnung/EN 16931, offiziell Schematron-validiert), GoBD, §14
-        UStG, Kleinunternehmer §19 · per Claude Code (MCP) in natürlicher Sprache
-        steuerbar · AGPL-
+      summary: 免费的、可自托管的开源发票软件，适用于德国 · 电子发票（XRechnung/EN 16931，经官方 Schematron 验证）、GoBD、§14
+        UStG、小企业主 §19 · 可通过 Claude Code (MCP) 用自然语言控制 · AGPL-
     en:
       name: automationsmanufaktur-labs/open-invoice-germany
       summary: Kostenlose, self-hostbare Open-Source-Rechnungssoftware für Deutschland
@@ -7341,7 +7249,7 @@
   i18n:
     zh:
       name: scottweiss/claude-codex-mcp-starter
-      summary: A starting point for Claude Code to Codex collaboration
+      summary: Claude Code与Codex协作的起点
     en:
       name: scottweiss/claude-codex-mcp-starter
       summary: A starting point for Claude Code to Codex collaboration
@@ -7382,7 +7290,7 @@
   i18n:
     zh:
       name: KunihiroS/claude-code-mcp
-      summary: MCP Server connects with claude code local command.
+      summary: MCP Server 与 claude code 本地命令连接。
     en:
       name: KunihiroS/claude-code-mcp
       summary: MCP Server connects with claude code local command.
@@ -7431,7 +7339,7 @@
   i18n:
     zh:
       name: trayders/trayd-mcp
-      summary: Trade Robinhood via Claude Code - MCP Server
+      summary: 通过Claude Code - MCP服务器交易Robinhood
     en:
       name: trayders/trayd-mcp
       summary: Trade Robinhood via Claude Code - MCP Server
@@ -7482,8 +7390,8 @@
   i18n:
     zh:
       name: ankitdotgg/making-gemini-useful-with-claude
-      summary: Use Gemini (1M context, free) inside Claude Desktop and Claude Code.
-        MCP bridge that delegates heavy tasks to Gemini CLI while Claude orchestrates.
+      summary: 在Claude Desktop和Claude Code中使用Gemini（100万上下文，免费）。MCP桥接器将繁重任务委托给Gemini
+        CLI，同时由Claude进行协调。
     en:
       name: ankitdotgg/making-gemini-useful-with-claude
       summary: Use Gemini (1M context, free) inside Claude Desktop and Claude Code.
@@ -7526,7 +7434,7 @@
   i18n:
     zh:
       name: danielrosehill/Claude-Code-MCP-List
-      summary: Short collection of MCPs I use / to install for CC on Linux Desktop
+      summary: 我在Linux桌面上为CC使用/安装的MCP简短集合
     en:
       name: danielrosehill/Claude-Code-MCP-List
       summary: Short collection of MCPs I use / to install for CC on Linux Desktop
@@ -7569,9 +7477,7 @@
   i18n:
     zh:
       name: zebbern/claude-code-mcp
-      summary: Model Context Protocol (MCP) servers with Claude Code. These tools
-        dramatically enhance Claude Code's capabilities, allowing it to interact with
-        your filesystem, web browsers, and more.
+      summary: 与Claude Code配合使用的Model Context Protocol (MCP)服务器。这些工具极大地增强了Claude Code的能力，使其能够与您的文件系统、网页浏览器等进行交互。
     en:
       name: zebbern/claude-code-mcp
       summary: Model Context Protocol (MCP) servers with Claude Code. These tools
@@ -7635,8 +7541,7 @@
   i18n:
     zh:
       name: qdhenry/Claude-Code-MCP-Manager
-      summary: ' A comprehensive tool to manage Model Context Protocol (MCP) configurations
-        for Claude code'
+      summary: 一个全面的工具，用于管理Claude code的Model Context Protocol (MCP)配置
     en:
       name: qdhenry/Claude-Code-MCP-Manager
       summary: ' A comprehensive tool to manage Model Context Protocol (MCP) configurations
@@ -7689,8 +7594,7 @@
   i18n:
     zh:
       name: albert-ying/agentic-cortex
-      summary: A personal AI operating system built on OpenClaw/Claude Code, MCP servers,
-        and structured markdown. Feedback RL, voice cloning, Screenpipe integration.
+      summary: 一个基于OpenClaw/Claude Code、MCP服务器和结构化Markdown的个人AI操作系统。包含反馈强化学习、语音克隆、Screenpipe集成。
     en:
       name: albert-ying/agentic-cortex
       summary: A personal AI operating system built on OpenClaw/Claude Code, MCP servers,
@@ -7735,8 +7639,7 @@
   i18n:
     zh:
       name: AmirShayegh/codex-claude-bridge
-      summary: Automated code review powered by OpenAI Codex. CLI + Claude Code MCP
-        integration.
+      summary: 由OpenAI Codex驱动的自动化代码审查。CLI + Claude Code MCP集成。
     en:
       name: AmirShayegh/codex-claude-bridge
       summary: Automated code review powered by OpenAI Codex. CLI + Claude Code MCP
@@ -7789,7 +7692,7 @@
   i18n:
     zh:
       name: ChipSpiderWarm/r15-shanraisshan-claude-code-best-practice-devops
-      summary: ☁️ DevOps & Cloud Infrastructure skill suite derived from shanraisshan/claude-code-best-practice.
+      summary: ☁️ DevOps 与云基础设施技能套件，源自 shanraisshan/claude-code-best-practice。
     en:
       name: ChipSpiderWarm/r15-shanraisshan-claude-code-best-practice-devops
       summary: ☁️ DevOps & Cloud Infrastructure skill suite derived from shanraisshan/claude-code-best-practice.
@@ -7830,7 +7733,7 @@
   i18n:
     zh:
       name: MagicStarfishBoost/r15-shanraisshan-claude-code-best-practice-seo
-      summary: 📈 SEO & Content Marketing skill suite derived from shanraisshan/claude-code-best-practice.
+      summary: 📈 源自 shanraisshan/claude-code-best-practice 的 SEO 与内容营销技能套件
     en:
       name: MagicStarfishBoost/r15-shanraisshan-claude-code-best-practice-seo
       summary: 📈 SEO & Content Marketing skill suite derived from shanraisshan/claude-code-best-practice.
@@ -7871,7 +7774,7 @@
   i18n:
     zh:
       name: nvh92/claude-code-best-practices-tips
-      summary: nvh92/claude-code-best-practices-tips
+      summary: nvh92/claude-code-最佳实践技巧
     en:
       name: nvh92/claude-code-best-practices-tips
       summary: nvh92/claude-code-best-practices-tips
@@ -7955,7 +7858,7 @@
   i18n:
     zh:
       name: cooneycw/claude-power-pack
-      summary: Claude Code best practices and MCP second opinion server
+      summary: Claude Code 最佳实践与 MCP 第二意见服务器
     en:
       name: cooneycw/claude-power-pack
       summary: Claude Code best practices and MCP second opinion server
@@ -7997,7 +7900,7 @@
   i18n:
     zh:
       name: alexandrbasis/claudops
-      summary: Claude Code best practices — skills, agents, hooks, and workflows
+      summary: Claude Code 最佳实践 — skills、agents、hooks 和 workflows
     en:
       name: alexandrbasis/claudops
       summary: Claude Code best practices — skills, agents, hooks, and workflows
@@ -8040,8 +7943,7 @@
   i18n:
     zh:
       name: ao92265/claude-code-playbook
-      summary: Battle-tested Claude Code best practices, skills, hooks, and configuration
-        templates
+      summary: 久经考验的 Claude Code 最佳实践、技能、钩子和配置模板
     en:
       name: ao92265/claude-code-playbook
       summary: Battle-tested Claude Code best practices, skills, hooks, and configuration
@@ -8084,7 +7986,7 @@
   i18n:
     zh:
       name: JuanMaPerals/claude-code-best-practice
-      summary: 'Mirror: Claude Code best practices (upstream shanraisshan/claude-code-best-practice)'
+      summary: 镜像：Claude Code 最佳实践（上游 shanraisshan/claude-code-best-practice）
     en:
       name: JuanMaPerals/claude-code-best-practice
       summary: 'Mirror: Claude Code best practices (upstream shanraisshan/claude-code-best-practice)'
@@ -8127,8 +8029,7 @@
   i18n:
     zh:
       name: DocJlm/claude-code-best-practices
-      summary: From beginner to expert — master Claude Code through 41 hands-on demos.
-        Covers ECC, gstack, GSD, Managed Agents. Bilingual EN/CN.
+      summary: 从新手到专家——通过41个动手演示掌握Claude Code。涵盖ECC、gstack、GSD、Managed Agents。中英双语。
     en:
       name: DocJlm/claude-code-best-practices
       summary: From beginner to expert — master Claude Code through 41 hands-on demos.
@@ -8173,9 +8074,8 @@
   i18n:
     zh:
       name: vignesh2027/claude-best-practice
-      summary: 🤖 Claude Code — Best Practices & Advanced Patterns The most comprehensive,
-        production-ready guide to mastering Claude Code From vibe coding → agentic
-        engineering → autonomous AI development teams
+      summary: 🤖 Claude Code — 最佳实践与高级模式 最全面、生产就绪的Claude Code掌握指南，从vibe coding → agentic
+        engineering → 自主AI开发团队
     en:
       name: vignesh2027/claude-best-practice
       summary: 🤖 Claude Code — Best Practices & Advanced Patterns The most comprehensive,
@@ -8275,8 +8175,7 @@
   i18n:
     zh:
       name: vinodborole/Claude-Code-Best-Practices
-      summary: This guide provides actionable examples for each validated best practice,
-        based on official Anthropic documentation and experienced practitioner workflows.
+      summary: 本指南基于Anthropic官方文档和经验丰富的从业者工作流程，为每个已验证的最佳实践提供了可操作的示例。
     en:
       name: vinodborole/Claude-Code-Best-Practices
       summary: This guide provides actionable examples for each validated best practice,
@@ -8319,8 +8218,8 @@
   i18n:
     zh:
       name: YujxZJCN/teaching-skills-codex
-      summary: Codex-native packaging of Teaching Skills — full university teaching
-        lifecycle as a single OpenAI Codex CLI skill. Sibling of YujxZJCN/teaching-skills.
+      summary: Teaching Skills 的 Codex 原生打包——将完整的大学教学生命周期作为一个单一的 OpenAI Codex CLI
+        技能。是 YujxZJCN/teaching-skills 的姊妹项目。
     en:
       name: YujxZJCN/teaching-skills-codex
       summary: Codex-native packaging of Teaching Skills — full university teaching
@@ -8370,8 +8269,7 @@
   i18n:
     zh:
       name: hyophyop/mapreduce-skill
-      summary: 'Codex CLI skill: MapReduce(+Verify) orchestration with deterministic
-        .rlm artifacts'
+      summary: Codex CLI 技能：具有确定性 .rlm 产物的 MapReduce(+Verify) 编排
     en:
       name: hyophyop/mapreduce-skill
       summary: 'Codex CLI skill: MapReduce(+Verify) orchestration with deterministic
@@ -8414,7 +8312,7 @@
   i18n:
     zh:
       name: Swampland2553/Crowbar93
-      summary: Codex CLI skills
+      summary: Codex CLI 技能
     en:
       name: Swampland2553/Crowbar93
       summary: Codex CLI skills
@@ -8456,7 +8354,7 @@
   i18n:
     zh:
       name: yuxiaoyang2007-prog/claude-code-skill
-      summary: 'Codex CLI skill: delegate coding tasks to Claude Code'
+      summary: Codex CLI 技能：将编码任务委托给 Claude Code
     en:
       name: yuxiaoyang2007-prog/claude-code-skill
       summary: 'Codex CLI skill: delegate coding tasks to Claude Code'
@@ -8499,7 +8397,7 @@
   i18n:
     zh:
       name: gitjburns/export-session
-      summary: Codex CLI skill to export the current conversation to a file
+      summary: Codex CLI 技能，用于将当前对话导出到文件
     en:
       name: gitjburns/export-session
       summary: Codex CLI skill to export the current conversation to a file
@@ -8545,8 +8443,7 @@
   i18n:
     zh:
       name: jseook11/codex-pdf-ocr-to-markdown-skill
-      summary: A Codex CLI skill for converting PDFs and images into Markdown with
-        OCR.
+      summary: 一个Codex CLI技能，用于通过OCR将PDF和图像转换为Markdown。
     en:
       name: jseook11/codex-pdf-ocr-to-markdown-skill
       summary: A Codex CLI skill for converting PDFs and images into Markdown with
@@ -8598,8 +8495,7 @@
   i18n:
     zh:
       name: StreetJammer/seedance-forge
-      summary: Claude Code / Codex CLI skill — 2,366 real Seedance 2.0 video-generation
-        prompts. Structural scaffolds, corpus search, source attribution. Zero dependencies.
+      summary: Claude Code / Codex CLI 技能 — 2,366 个真实的 Seedance 2.0 视频生成提示。结构支架、语料库搜索、来源归属。零依赖。
     en:
       name: StreetJammer/seedance-forge
       summary: Claude Code / Codex CLI skill — 2,366 real Seedance 2.0 video-generation
@@ -8700,8 +8596,7 @@
   i18n:
     zh:
       name: NewTurn2017/readme-writer
-      summary: Read your repo's actual code and produce a self-contained README. Claude
-        Code / Codex CLI skill with 5-class taxonomy and grounded auto-generation.
+      summary: 读取你仓库的实际代码并生成一份独立的README文档。Claude Code / Codex CLI 技能，采用5类分类法，结合基于实践的自动生成。
     en:
       name: NewTurn2017/readme-writer
       summary: Read your repo's actual code and produce a self-contained README. Claude
@@ -8746,7 +8641,7 @@
   i18n:
     zh:
       name: dongho5136/claude-skills
-      summary: Claude Code / Codex CLI skill collection
+      summary: Claude Code / Codex CLI 技能集合
     en:
       name: dongho5136/claude-skills
       summary: Claude Code / Codex CLI skill collection
@@ -8787,7 +8682,7 @@
   i18n:
     zh:
       name: Kimseungzzang/zzang-codex-skills
-      summary: Codex CLI skills — shares session context with zzang-claude-skills
+      summary: Codex CLI 技能 — 与 zzang-claude-skills 共享会话上下文
     en:
       name: Kimseungzzang/zzang-codex-skills
       summary: Codex CLI skills — shares session context with zzang-claude-skills
@@ -8826,8 +8721,7 @@
   i18n:
     zh:
       name: hyophyop/artifacts-skill
-      summary: 'Codex CLI skill: plan/todo/walkthrough artifacts + repo-local ChromaDB
-        recall'
+      summary: Codex CLI 技能：计划/待办/操作指南产物 + 仓库本地 ChromaDB 召回
     en:
       name: hyophyop/artifacts-skill
       summary: 'Codex CLI skill: plan/todo/walkthrough artifacts + repo-local ChromaDB
@@ -8874,8 +8768,7 @@
   i18n:
     zh:
       name: thoreinstein/gemini-obsidian
-      summary: A Gemini CLI extension for interfacing with an Obsidian vault with
-        local first RAG capabilities
+      summary: 一个用于与Obsidian仓库交互的Gemini CLI扩展，具有本地优先的RAG功能
     en:
       name: thoreinstein/gemini-obsidian
       summary: A Gemini CLI extension for interfacing with an Obsidian vault with
@@ -8925,8 +8818,7 @@
   i18n:
     zh:
       name: intellectronica/gemini-cli-skillz
-      summary: Gemini CLI extension for Anthropic-style Agent Skills via skillz MCP
-        server
+      summary: 基于skillz MCP服务器的Gemini CLI扩展，支持Anthropic风格的代理技能
     en:
       name: intellectronica/gemini-cli-skillz
       summary: Gemini CLI extension for Anthropic-style Agent Skills via skillz MCP
@@ -8970,8 +8862,7 @@
   i18n:
     zh:
       name: automateyournetwork/GeminiCLI_ComputerUse_Extension
-      summary: A Google Gemini-CLI extension than enables Gemini Computer Use from
-        the CLI
+      summary: 一个可从CLI使用Gemini Computer Use的Google Gemini-CLI扩展
     en:
       name: automateyournetwork/GeminiCLI_ComputerUse_Extension
       summary: A Google Gemini-CLI extension than enables Gemini Computer Use from
@@ -9016,8 +8907,7 @@
   i18n:
     zh:
       name: gemini-cli-extensions/web-accessibility
-      summary: Google's web-accessibility Gemini CLI extension that aims to automate
-        the finding and fixing of web accessibility violations in your codebase
+      summary: Google的网页无障碍Gemini CLI扩展，旨在自动发现并修复代码库中的网页无障碍违规问题
     en:
       name: gemini-cli-extensions/web-accessibility
       summary: Google's web-accessibility Gemini CLI extension that aims to automate
@@ -9067,8 +8957,7 @@
   i18n:
     zh:
       name: gplasky/gemini-cli-blueprint-extension
-      summary: A gemini CLI extension that guides software development from initial
-        concept to implementation using a series of commands.
+      summary: 一个gemini CLI扩展，通过一系列命令指导软件开发从最初概念到实现。
     en:
       name: gplasky/gemini-cli-blueprint-extension
       summary: A gemini CLI extension that guides software development from initial
@@ -9111,7 +9000,7 @@
   i18n:
     zh:
       name: gemini-cli-extensions/gcloud
-      summary: gcloud Gemini CLI Extension
+      summary: gcloud Gemini CLI 扩展
     en:
       name: gemini-cli-extensions/gcloud
       summary: gcloud Gemini CLI Extension
@@ -9154,7 +9043,7 @@
   i18n:
     zh:
       name: Piebald-AI/awesome-gemini-cli-extensions
-      summary: A curated list of awesome Gemini CLI extensions.
+      summary: 一份精心整理的出色Gemini CLI扩展列表
     en:
       name: Piebald-AI/awesome-gemini-cli-extensions
       summary: A curated list of awesome Gemini CLI extensions.
@@ -9197,7 +9086,7 @@
   i18n:
     zh:
       name: markmcd/gemini-docs-ext
-      summary: Gemini CLI extension that adds Gemini API docs and MCP
+      summary: 一个Gemini CLI扩展，用于添加Gemini API文档和MCP
     en:
       name: markmcd/gemini-docs-ext
       summary: Gemini CLI extension that adds Gemini API docs and MCP
@@ -9239,7 +9128,7 @@
   i18n:
     zh:
       name: simonliu-ai-product/adk-agent-extension
-      summary: This is the Google ADK Agent Application - Gemini CLI Extension Project.
+      summary: 这是 Google ADK 代理应用程序 - Gemini CLI 扩展项目。
     en:
       name: simonliu-ai-product/adk-agent-extension
       summary: This is the Google ADK Agent Application - Gemini CLI Extension Project.
@@ -9283,8 +9172,7 @@
   i18n:
     zh:
       name: jnorthrup/conductor2
-      summary: Conductor is a Gemini CLI extension that allows you to specify, plan,
-        and implement software features.
+      summary: Conductor 是一个 Gemini CLI 扩展，它允许你指定、规划和实现软件功能。
     en:
       name: jnorthrup/conductor2
       summary: Conductor is a Gemini CLI extension that allows you to specify, plan,
@@ -9328,7 +9216,7 @@
   i18n:
     zh:
       name: OpenCMC/mcp-gemini-cli-extension
-      summary: Coinmarketcap extension for Gemini CLI
+      summary: Gemini CLI 的 CoinMarketCap 扩展
     en:
       name: OpenCMC/mcp-gemini-cli-extension
       summary: Coinmarketcap extension for Gemini CLI
@@ -9374,7 +9262,7 @@
   i18n:
     zh:
       name: gemini-cli-extensions/observability
-      summary: Cloud Observability Gemini CLI Extension
+      summary: 云可观测性 Gemini CLI 扩展
     en:
       name: gemini-cli-extensions/observability
       summary: Cloud Observability Gemini CLI Extension
@@ -9416,8 +9304,7 @@
   i18n:
     zh:
       name: boscorat/opencode-config
-      summary: Synced global OpenCode agents, commands, and skills. See install.sh
-        for one-shot bootstrap on a new machine.
+      summary: 已同步全球 OpenCode 代理、命令和技能。查看 install.sh 以在新机器上一键引导启动。
     en:
       name: boscorat/opencode-config
       summary: Synced global OpenCode agents, commands, and skills. See install.sh
@@ -9461,8 +9348,7 @@
   i18n:
     zh:
       name: ZanzyTHEbar/grok-opencode-bridge
-      summary: Temporary Grok Build Opencode bridge to import and convert opencode
-        agents, commands, rules, and skills to grok build format.
+      summary: 临时Grok Build Opencode桥接器，用于导入和转换opencode代理、命令、规则和技能至grok build format。
     en:
       name: ZanzyTHEbar/grok-opencode-bridge
       summary: Temporary Grok Build Opencode bridge to import and convert opencode
@@ -9561,8 +9447,7 @@
   i18n:
     zh:
       name: lovesky514514-cmd/universal-scientific-comsol-agent
-      summary: An opencode + MCP based scientific COMSOL agent template with literature
-        analysis, COMSOL knowledge base, fallback rules, and validated modeling workflows.
+      summary: 一个基于opencode和MCP的科学COMSOL代理模板，包含文献分析、COMSOL知识库、回退规则和经过验证的建模工作流。
     en:
       name: lovesky514514-cmd/universal-scientific-comsol-agent
       summary: An opencode + MCP based scientific COMSOL agent template with literature
@@ -9606,8 +9491,7 @@
   i18n:
     zh:
       name: Traves-Theberge/opencode-mcp
-      summary: MCP server that exposes OpenCode as a tool/subagent for IDEs and AI
-        clients
+      summary: 一个将OpenCode作为工具/子代理提供给IDE和AI客户端的MCP服务器
     en:
       name: Traves-Theberge/opencode-mcp
       summary: MCP server that exposes OpenCode as a tool/subagent for IDEs and AI
@@ -9693,7 +9577,7 @@
   i18n:
     zh:
       name: hacimertgokhan/openmcp
-      summary: Desktop and CLI manager for OpenCode MCP servers.
+      summary: 用于OpenCode MCP服务器的桌面和CLI管理器
     en:
       name: hacimertgokhan/openmcp
       summary: Desktop and CLI manager for OpenCode MCP servers.
@@ -9743,9 +9627,8 @@
   i18n:
     zh:
       name: Pacoaldev/opencode-mcp
-      summary: Opencode-mcp es una extension para vscode/antigravity que integra un
-        panel de chat conectado a tu servidor local de Opencode, permitiendo usar
-        tus agents, skills, tools y mcp directamente desde el editor.
+      summary: Opencode-mcp 是一个用于 vscode/antigravity 的扩展，它集成了一个连接到你的本地 Opencode 服务器的聊天面板，允许你直接从编辑器中使用你的
+        agents、skills、tools 和 mcp。
     en:
       name: Pacoaldev/opencode-mcp
       summary: Opencode-mcp es una extension para vscode/antigravity que integra un
@@ -9798,8 +9681,7 @@
   i18n:
     zh:
       name: gtheys/setup-honcho
-      summary: One-script local Honcho bootstrap (PostgreSQL, Redis, API, Deriver)
-        + OpenCode MCP setup guide
+      summary: 单脚本本地Honcho引导（PostgreSQL, Redis, API, Deriver）+ OpenCode MCP设置指南
     en:
       name: gtheys/setup-honcho
       summary: One-script local Honcho bootstrap (PostgreSQL, Redis, API, Deriver)
@@ -9886,8 +9768,7 @@
   i18n:
     zh:
       name: K3vinb5/opencode-mcp-installer
-      summary: OpenCode TUI plugin that adds `/install-mcps` and installs MCP server
-        configuration from the official MCP Registry into `~/.config/opencode/opencode.json`.
+      summary: 这是一个OpenCode TUI插件，它添加了`/install-mcps`命令，并从官方MCP Registry将MCP服务器配置安装到`~/.config/opencode/opencode.json`中。
     en:
       name: K3vinb5/opencode-mcp-installer
       summary: OpenCode TUI plugin that adds `/install-mcps` and installs MCP server
@@ -9978,7 +9859,7 @@
   i18n:
     zh:
       name: withakay/opencode-mcp-tool
-      summary: MCP server for interacting with the opencode cli tool
+      summary: 用于与 opencode cli 工具交互的 MCP 服务器
     en:
       name: withakay/opencode-mcp-tool
       summary: MCP server for interacting with the opencode cli tool
@@ -10065,8 +9946,7 @@
   i18n:
     zh:
       name: Mindrally/skills
-      summary: 240+ Claude Code skills converted from Cursor rules. Expert coding
-        guidelines for every major framework and language.
+      summary: 超过240个Claude Code技能从Cursor规则转换而来。针对每个主要框架和语言的专家级编码指南。
     en:
       name: Mindrally/skills
       summary: 240+ Claude Code skills converted from Cursor rules. Expert coding
@@ -10150,7 +10030,7 @@
   i18n:
     zh:
       name: Aaronontheweb/dotnet-cursor-rules
-      summary: .mdc files for defining Cursor rules specific to .NET projects
+      summary: .mdc 文件用于定义特定于 .NET 项目的 Cursor 规则
     en:
       name: Aaronontheweb/dotnet-cursor-rules
       summary: .mdc files for defining Cursor rules specific to .NET projects
@@ -10196,9 +10076,7 @@
   i18n:
     zh:
       name: madebyaris/advance-minimax-m3-cursor-rules
-      summary: Agentic-first Cursor Rules powered by MiniMax M3 - clarify-first prompting,
-        interleaved thinking, and full tool orchestration for production-ready AI
-        coding
+      summary: 由MiniMax M3驱动的Agentic-first Cursor Rules——先澄清提示、交错思考与完整工具编排，实现生产就绪的AI编码
     en:
       name: madebyaris/advance-minimax-m3-cursor-rules
       summary: Agentic-first Cursor Rules powered by MiniMax M3 - clarify-first prompting,
@@ -10254,7 +10132,7 @@
   i18n:
     zh:
       name: brookslybrand/react-router-cursor-rules
-      summary: Cursor rules for using React Router framework mode
+      summary: Cursor 规则：使用 React Router 框架模式
     en:
       name: brookslybrand/react-router-cursor-rules
       summary: Cursor rules for using React Router framework mode
@@ -10296,8 +10174,7 @@
   i18n:
     zh:
       name: BlueBirdBack/godot-cursorrules
-      summary: 'Godot 4.4 Cursor rules: coding standards, architecture patterns, and
-        performance tips for AI-assisted game dev.'
+      summary: Godot 4.4 Cursor规则：AI辅助游戏开发的编码标准、架构模式和性能技巧。
     en:
       name: BlueBirdBack/godot-cursorrules
       summary: 'Godot 4.4 Cursor rules: coding standards, architecture patterns, and
@@ -10395,8 +10272,7 @@
   i18n:
     zh:
       name: ivangrynenko/cursorrules
-      summary: A set of cursor rules for Cursor AI IDE that support PHP, Python, JavaScript
-        and Drupal-specific rules
+      summary: 一套适用于Cursor AI IDE的规则集，支持PHP、Python、JavaScript以及Drupal特定规则
     en:
       name: ivangrynenko/cursorrules
       summary: A set of cursor rules for Cursor AI IDE that support PHP, Python, JavaScript
@@ -10450,10 +10326,8 @@
   i18n:
     zh:
       name: blefnk/awesome-cursor-rules
-      summary: ❇️ neatly composed rules for ai ides like cursor, windsurf, vscode
-        microsoft github copilot, reliverse ai, etc. optimized for modern frontend
-        development with next.js 15, react 19, typescript 5, tailwind 4, shadcn/ui,
-        drizzle orm, better au
+      summary: 为Cursor、Windsurf、VSCode、Microsoft GitHub Copilot、Reliverse AI等AI IDE精心编写的规则，针对使用Next.js
+        15、React 19、TypeScript 5、Tailwind 4、shadcn/ui、Drizzle ORM、better au等现代前端开发进行了优化。
     en:
       name: blefnk/awesome-cursor-rules
       summary: ❇️ neatly composed rules for ai ides like cursor, windsurf, vscode
@@ -10556,8 +10430,7 @@
   i18n:
     zh:
       name: waynesutton/promptstack
-      summary: A searchable collection of AI prompts and code gen cursor rules, for
-        bolt.new, loveable, windsurf, trae, to enhance your workflow for developers.
+      summary: 一个可搜索的AI提示词和代码生成光标规则集合，适用于bolt.new、loveable、windsurf、trae，以增强开发者的工作流。
     en:
       name: waynesutton/promptstack
       summary: A searchable collection of AI prompts and code gen cursor rules, for
@@ -10603,7 +10476,7 @@
   i18n:
     zh:
       name: brunogama/ios-cursor-rules
-      summary: ios cursor rules
+      summary: iOS 光标规则
     en:
       name: brunogama/ios-cursor-rules
       summary: ios cursor rules
@@ -10656,9 +10529,7 @@
   i18n:
     zh:
       name: vishal2612200/agentpack
-      summary: Local context engine for AI coding agents. Routes tasks to relevant
-        files, tests, rules, and skills, supports prompt caching, and builds compact
-        context packs for Claude Code, Codex, Cursor, MCP, and more.
+      summary: AI编码助手的本地上下文引擎。将任务路由到相关文件、测试、规则和技能，支持提示缓存，并为Claude Code、Codex、Cursor、MCP等构建紧凑的上下文包。
     en:
       name: vishal2612200/agentpack
       summary: Local context engine for AI coding agents. Routes tasks to relevant
@@ -10722,8 +10593,8 @@
   i18n:
     zh:
       name: fefergrgrgrg/create-mcp
-      summary: CLI to set up and deploy MCP Servers to Cloudflare Workers in seconds.
-        Just write TypeScript functions to make Cursor MCP tools.
+      summary: CLI用于在几秒内设置并将MCP Servers部署到Cloudflare Workers。只需编写TypeScript函数即可创建Cursor
+        MCP工具。
     en:
       name: fefergrgrgrg/create-mcp
       summary: CLI to set up and deploy MCP Servers to Cloudflare Workers in seconds.
@@ -10776,9 +10647,7 @@
   i18n:
     zh:
       name: agentskillexchange/skills
-      summary: Curated, trusted open catalog of AI agent skills for OpenClaw, Claude
-        Code, Codex, GitHub Copilot, Gemini, Cursor, MCP, LangChain, and more. Browse,
-        install, and verify reusable agent workflows.
+      summary: 精心策划、值得信赖的开放目录，收录适用于OpenClaw、Claude Code、Codex、GitHub Copilot、Gemini、Cursor、MCP、LangChain等平台的AI代理技能。浏览、安装并验证可复用的代理工作流程。
     en:
       name: agentskillexchange/skills
       summary: Curated, trusted open catalog of AI agent skills for OpenClaw, Claude
@@ -10887,8 +10756,7 @@
   i18n:
     zh:
       name: whyashthakker/agent-skills-marketing
-      summary: Collection of 50+ marketing skills for agents like Claude, cursor,
-        mcp, Replit, codex, and more
+      summary: 适用于如Claude、cursor、mcp、Replit、codex等代理的50多种营销技能合集
     en:
       name: whyashthakker/agent-skills-marketing
       summary: Collection of 50+ marketing skills for agents like Claude, cursor,
@@ -10941,10 +10809,7 @@
   i18n:
     zh:
       name: willibrandon/CursorMCPMonitor
-      summary: Real-time monitoring tool for Model Context Protocol (MCP) interactions
-        in Cursor AI editor. Track, analyze, and debug AI context exchanges between
-        LLM clients and servers. Supports log rotation, pattern matching, and color-coded
-        event visu
+      summary: 用于 Cursor AI 编辑器中模型上下文协议（MCP）交互的实时监控工具。跟踪、分析和调试 LLM 客户端与服务器之间的 AI 上下文交换。支持日志轮转、模式匹配和彩色编码事件可视化。
     en:
       name: willibrandon/CursorMCPMonitor
       summary: Real-time monitoring tool for Model Context Protocol (MCP) interactions
@@ -10998,10 +10863,7 @@
   i18n:
     zh:
       name: StuMason/get-mcp-keys
-      summary: 'A lightweight utility that securely loads API keys for Cursor MCP
-        servers from your home directory, preventing accidental exposure of secrets
-        in repositories. Keep your credentials safe while maintaining seamless integration
-        with AI coding '
+      summary: 一个轻量级工具，用于从你的用户主目录安全加载Cursor MCP服务器的API密钥，防止密钥在仓库中意外泄露。在保持与AI编码无缝集成的同时，确保你的凭证安全。
     en:
       name: StuMason/get-mcp-keys
       summary: 'A lightweight utility that securely loads API keys for Cursor MCP
@@ -11058,8 +10920,7 @@
   i18n:
     zh:
       name: norbinsh/cursor-mcp-trivy
-      summary: A Model Context Protocol (MCP) server that provides Trivy security
-        scanning capabilities through a standardized interface.
+      summary: 一个模型上下文协议（MCP）服务器，通过标准化接口提供Trivy安全扫描能力。
     en:
       name: norbinsh/cursor-mcp-trivy
       summary: A Model Context Protocol (MCP) server that provides Trivy security
@@ -11147,7 +11008,7 @@
   i18n:
     zh:
       name: carterlasalle/system_information_mcp
-      summary: DevEnvInfoServer - Cursor MCP Server for Development Environment Information
+      summary: DevEnvInfoServer - 用于开发环境信息的Cursor MCP服务器
     en:
       name: carterlasalle/system_information_mcp
       summary: DevEnvInfoServer - Cursor MCP Server for Development Environment Information
@@ -11199,8 +11060,7 @@
   i18n:
     zh:
       name: Sirvenis/cursor-mcp-extension
-      summary: Cursor Model Context Protocol (MCP) extension for Chrome - with comprehensive
-        test coverage
+      summary: 适用于 Chrome 的光标模型上下文协议 (MCP) 扩展 - 具备全面的测试覆盖
     en:
       name: Sirvenis/cursor-mcp-extension
       summary: Cursor Model Context Protocol (MCP) extension for Chrome - with comprehensive
@@ -11243,7 +11103,7 @@
   i18n:
     zh:
       name: AlexanderVTr/cursor-mcp-file-organizer
-      summary: Sort files in downloads folder in mac os by type
+      summary: 在macOS的下载文件夹中按类型对文件进行排序
     en:
       name: AlexanderVTr/cursor-mcp-file-organizer
       summary: Sort files in downloads folder in mac os by type
@@ -11286,8 +11146,7 @@
   i18n:
     zh:
       name: adnw-vinc/hermes-nextcloud
-      summary: Hermes Agent skill for Nextcloud - manage files, notes, calendar, tasks,
-        and contacts via WebDAV and CalDAV
+      summary: Hermes Agent 的Nextcloud技能 - 通过WebDAV和CalDAV管理文件、笔记、日历、任务和联系人
     en:
       name: adnw-vinc/hermes-nextcloud
       summary: Hermes Agent skill for Nextcloud - manage files, notes, calendar, tasks,
@@ -11372,8 +11231,7 @@
   i18n:
     zh:
       name: krumjahn/threads-growth-skill
-      summary: Systematically improve your Threads content using your own real data.
-        Hermes Agent skill.
+      summary: 利用你自己的真实数据，系统性地改进你的Threads内容。Hermes Agent技能。
     en:
       name: krumjahn/threads-growth-skill
       summary: Systematically improve your Threads content using your own real data.
@@ -11417,8 +11275,7 @@
   i18n:
     zh:
       name: itgoyo/hermes-skills
-      summary: 310+ Hermes Agent Skills — reusable AI agent workflows for coding,
-        marketing, design, finance, MLOps and more
+      summary: 310+ Hermes Agent Skills — 可复用的AI智能体工作流，适用于编程、营销、设计、金融、MLOps等更多领域
     en:
       name: itgoyo/hermes-skills
       summary: 310+ Hermes Agent Skills — reusable AI agent workflows for coding,
@@ -11462,8 +11319,7 @@
   i18n:
     zh:
       name: hxsteric/mercury
-      summary: Mercury — Blockchain Cash Flow Analyzer | Hermes Agent Skill for multi-chain
-        analysis, fraud detection, trading strategy & interactive WebGL dashboard
+      summary: Mercury — 区块链现金流分析器 | Hermes Agent Skill 用于多链分析、欺诈检测、交易策略与交互式WebGL仪表盘
     en:
       name: hxsteric/mercury
       summary: Mercury — Blockchain Cash Flow Analyzer | Hermes Agent Skill for multi-chain
@@ -11506,7 +11362,7 @@
   i18n:
     zh:
       name: PeterCha90/link-bookmark
-      summary: 👼 Hermes Agent skill for unread link bookmarks from chat channels
+      summary: 👼 Hermes Agent 技能：从聊天频道中获取未读链接书签
     en:
       name: PeterCha90/link-bookmark
       summary: 👼 Hermes Agent skill for unread link bookmarks from chat channels
@@ -11554,8 +11410,7 @@
   i18n:
     zh:
       name: wolulabs/hermes-founder-os
-      summary: A modular Hermes Agent skill pack for validating, planning, building,
-        reviewing, growing, and launching SaaS ideas.
+      summary: 一个模块化的Hermes Agent技能包，用于验证、规划、构建、评审、增长和发布SaaS创意。
     en:
       name: wolulabs/hermes-founder-os
       summary: A modular Hermes Agent skill pack for validating, planning, building,
@@ -11649,8 +11504,8 @@
   i18n:
     zh:
       name: lmoncany/hermes-wordpress-skill
-      summary: Hermes Agent skill to connect to WordPress via MCP (mcp-adapter). Covers
-        ServBay, Elementor, StreamableHTTP, and App Password auth.
+      summary: Hermes Agent 技能，通过 MCP (mcp-adapter) 连接到 WordPress。涵盖 ServBay、Elementor、StreamableHTTP
+        和 App Password 认证。
     en:
       name: lmoncany/hermes-wordpress-skill
       summary: Hermes Agent skill to connect to WordPress via MCP (mcp-adapter). Covers
@@ -11692,7 +11547,7 @@
   i18n:
     zh:
       name: renaxxyz/hermes-skills
-      summary: Hermes Agent Skills - captcha bypass, automation, and more
+      summary: Hermes Agent 技能 - 验证码绕过、自动化等更多功能
     en:
       name: renaxxyz/hermes-skills
       summary: Hermes Agent Skills - captcha bypass, automation, and more
@@ -11734,7 +11589,7 @@
   i18n:
     zh:
       name: patrickdass93/android-phone-control-skill
-      summary: Public Hermes Agent skill for safe Android phone control via ADB
+      summary: 公共 Hermes Agent 技能用于通过 ADB 安全控制 Android 手机
     en:
       name: patrickdass93/android-phone-control-skill
       summary: Public Hermes Agent skill for safe Android phone control via ADB
@@ -11781,8 +11636,7 @@
   i18n:
     zh:
       name: Easternguy/podcast-from-research
-      summary: 'Hermes agent skill: turn any topic into a private deep-dive podcast
-        — 20-angle research, steered NotebookLM audio, GBrain knowledge base'
+      summary: Hermes代理技能：将任何话题转化为私人深度播客——20角度研究，引导的NotebookLM音频，GBrain知识库
     en:
       name: Easternguy/podcast-from-research
       summary: 'Hermes agent skill: turn any topic into a private deep-dive podcast
@@ -11826,9 +11680,7 @@
   i18n:
     zh:
       name: sajjadGG/Ghostlab
-      summary: 'Local end-to-end testing lab for any MCP server: coding agents role-play
-        real users, drive your tools over multiple turns, score runs, and render/interact
-        with MCP Apps ui:// widgets.'
+      summary: 本地端到端测试实验室，适用于任何MCP服务器：编码代理模拟真实用户，在多轮交互中驱动你的工具，评分运行，并渲染/交互MCP应用的ui://小部件。
     en:
       name: sajjadGG/Ghostlab
       summary: 'Local end-to-end testing lab for any MCP server: coding agents role-play
@@ -11927,7 +11779,7 @@
   i18n:
     zh:
       name: jacobjerryarackal/ai-pr-review-agent
-      summary: jacobjerryarackal/ai-pr-review-agent
+      summary: jacobjerryarackal/AI-PR审查代理
     en:
       name: jacobjerryarackal/ai-pr-review-agent
       summary: jacobjerryarackal/ai-pr-review-agent
@@ -11969,7 +11821,7 @@
   i18n:
     zh:
       name: Shri-Aakash/AI-PR-ReviewAgent
-      summary: A project to use LLM's for PR code review for various VCS providers
+      summary: 一个使用LLM对多种VCS提供商的PR进行代码审查的项目
     en:
       name: Shri-Aakash/AI-PR-ReviewAgent
       summary: A project to use LLM's for PR code review for various VCS providers
@@ -12221,8 +12073,8 @@
   i18n:
     zh:
       name: tdsnxtaskin-tugay/ai-pr-review-agent
-      summary: 'Business-aware GitHub PR reviewer: checks acceptance criteria (scope
-        gaps + scope creep), grounded by Foundry IQ. Agents League @ AISF 2026.'
+      summary: 具有业务意识的GitHub PR审查者：检查验收标准（范围缺口+范围蔓延），由Foundry IQ支持。Agents League @
+        AISF 2026。
     en:
       name: tdsnxtaskin-tugay/ai-pr-review-agent
       summary: 'Business-aware GitHub PR reviewer: checks acceptance criteria (scope
@@ -12390,7 +12242,7 @@
   i18n:
     zh:
       name: 274326424/video-content-extractor
-      summary: Extract key frames and OCR text from MP4 videos - Codex CLI Skill
+      summary: 从MP4视频中提取关键帧和OCR文本 - Codex CLI Skill
     en:
       name: 274326424/video-content-extractor
       summary: Extract key frames and OCR text from MP4 videos - Codex CLI Skill
@@ -12516,7 +12368,7 @@
   i18n:
     zh:
       name: Sumi451/ai_pr_review_agent
-      summary: A ai agent that analyses github pull requests.
+      summary: 一个分析 GitHub pull requests 的 AI 代理。
     en:
       name: Sumi451/ai_pr_review_agent
       summary: A ai agent that analyses github pull requests.
@@ -12638,7 +12490,7 @@
   i18n:
     zh:
       name: Antigravity CLI / Gemini CLI
-      summary: Official seed profile for Antigravity CLI / Gemini CLI
+      summary: Antigravity CLI / Gemini CLI 的官方种子配置文件
     en:
       name: Antigravity CLI / Gemini CLI
       summary: Official seed profile for Antigravity CLI / Gemini CLI
@@ -12679,7 +12531,7 @@
   i18n:
     zh:
       name: OpenCode
-      summary: Official seed profile for OpenCode
+      summary: OpenCode 官方种子配置文件
     en:
       name: OpenCode
       summary: Official seed profile for OpenCode
@@ -12720,7 +12572,7 @@
   i18n:
     zh:
       name: Qoder / QoderWork
-      summary: Official seed profile for Qoder / QoderWork
+      summary: Qoder / QoderWork 的官方种子配置文件
     en:
       name: Qoder / QoderWork
       summary: Official seed profile for Qoder / QoderWork
@@ -12761,7 +12613,7 @@
   i18n:
     zh:
       name: Trae / Trae Work
-      summary: Official seed profile for Trae / Trae Work
+      summary: Trae / Trae Work 的官方种子配置文件
     en:
       name: Trae / Trae Work
       summary: Official seed profile for Trae / Trae Work
@@ -12802,7 +12654,7 @@
   i18n:
     zh:
       name: Hermes Agent
-      summary: Official seed profile for Hermes Agent
+      summary: Hermes Agent 的官方种子配置文件
     en:
       name: Hermes Agent
       summary: Official seed profile for Hermes Agent
@@ -12848,7 +12700,7 @@
   i18n:
     zh:
       name: continuedev/continue
-      summary: open-source coding agent
+      summary: 开源编程代理
     en:
       name: continuedev/continue
       summary: open-source coding agent
@@ -12917,7 +12769,7 @@
   i18n:
     zh:
       name: Aider-AI/aider
-      summary: aider is AI pair programming in your terminal
+      summary: aider 是在你的终端中进行 AI 结对编程
     en:
       name: Aider-AI/aider
       summary: aider is AI pair programming in your terminal
@@ -12980,7 +12832,7 @@
   i18n:
     zh:
       name: cline/cline
-      summary: Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
+      summary: Autonomous coding agent 作为 SDK、IDE 扩展或 CLI 助手。
     en:
       name: cline/cline
       summary: Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
@@ -13028,7 +12880,7 @@
   i18n:
     zh:
       name: RooCodeInc/Roo-Code
-      summary: Roo Code gives you a whole dev team of AI agents in your code editor.
+      summary: Roo Code 在您的代码编辑器中为您提供了一整支由AI代理组成的开发团队。
     en:
       name: RooCodeInc/Roo-Code
       summary: Roo Code gives you a whole dev team of AI agents in your code editor.
@@ -13076,8 +12928,7 @@
   i18n:
     zh:
       name: aaif-goose/goose
-      summary: an open source, extensible AI agent that goes beyond code suggestions
-        - install, execute, edit, and test with any LLM
+      summary: 一个开源、可扩展的AI代理，不仅提供代码建议，还能与任何LLM配合进行安装、执行、编辑和测试
     en:
       name: aaif-goose/goose
       summary: an open source, extensible AI agent that goes beyond code suggestions
@@ -13129,7 +12980,7 @@
   i18n:
     zh:
       name: cursor/cursor
-      summary: cursor/cursor
+      summary: 光标/光标
     en:
       name: cursor/cursor
       summary: cursor/cursor
@@ -13245,8 +13096,7 @@
   i18n:
     zh:
       name: ayushkh420/AI-PR-Review-Agent
-      summary: An autonomous code review agent system that uses AI to analyze GitHub
-        pull requests
+      summary: 一个自主的代码审查代理系统，利用AI分析GitHub pull requests
     en:
       name: ayushkh420/AI-PR-Review-Agent
       summary: An autonomous code review agent system that uses AI to analyze GitHub
@@ -13331,7 +13181,7 @@
   i18n:
     zh:
       name: zhangdada802-art/ai-pr-review-agent
-      summary: An AI-powered GitHub PR review and refactor agent.
+      summary: 一个基于AI的GitHub PR审查与重构代理。
     en:
       name: zhangdada802-art/ai-pr-review-agent
       summary: An AI-powered GitHub PR review and refactor agent.
@@ -13373,7 +13223,7 @@
   i18n:
     zh:
       name: chadleeshaw/dot-agents
-      summary: OpenCode agents, commands, skills, and scripts
+      summary: OpenCode 代理、命令、技能和脚本
     en:
       name: chadleeshaw/dot-agents
       summary: OpenCode agents, commands, skills, and scripts
@@ -13415,7 +13265,7 @@
   i18n:
     zh:
       name: JUST2036/ai-pr-review-agent
-      summary: JUST2036/ai-pr-review-agent
+      summary: JUST2036/AI-PR-审查代理
     en:
       name: JUST2036/ai-pr-review-agent
       summary: JUST2036/ai-pr-review-agent
@@ -13457,8 +13307,7 @@
   i18n:
     zh:
       name: daymade/claude-code-skills
-      summary: Professional Claude Code skills marketplace featuring production-ready
-        skills for enhanced development workflows.
+      summary: 专业的Claude Code技能市场，提供生产就绪的技能，以增强开发工作流程。
     en:
       name: daymade/claude-code-skills
       summary: Professional Claude Code skills marketplace featuring production-ready
@@ -13502,8 +13351,7 @@
   i18n:
     zh:
       name: bettermen/piano-teacher
-      summary: AI Piano Teacher — comprehensive piano learning assistant for WorkBuddy
-        Agent Skills
+      summary: AI钢琴老师——WorkBuddy Agent Skills的全面钢琴学习助手
     en:
       name: bettermen/piano-teacher
       summary: AI Piano Teacher — comprehensive piano learning assistant for WorkBuddy
@@ -13545,7 +13393,7 @@
   i18n:
     zh:
       name: Tharun1045/ai-privacy-review-agent
-      summary: Tharun1045/ai-privacy-review-agent
+      summary: Tharun1045/AI隐私审查代理
     en:
       name: Tharun1045/ai-privacy-review-agent
       summary: Tharun1045/ai-privacy-review-agent
@@ -13587,7 +13435,7 @@
   i18n:
     zh:
       name: ayush488-glitch/ai-pr-review-agent
-      summary: Production-grade AI Pull Request Review Agent — LangGraph + ARQ + FastAPI
+      summary: 生产级AI拉取请求审查代理 — LangGraph + ARQ + FastAPI
     en:
       name: ayush488-glitch/ai-pr-review-agent
       summary: Production-grade AI Pull Request Review Agent — LangGraph + ARQ + FastAPI
@@ -13630,8 +13478,7 @@
   i18n:
     zh:
       name: HelpFreedom/slojka
-      summary: Слойка — AI-first графический редактор (Photoshop-style, WebGL2, SAM
-        2.1, polza.ai, Claude Code/MCP)
+      summary: Слойка — 一款以AI为先的图形编辑器（Photoshop风格，WebGL2，SAM 2.1，polza.ai，Claude Code/MCP）
     en:
       name: HelpFreedom/slojka
       summary: Слойка — AI-first графический редактор (Photoshop-style, WebGL2, SAM
@@ -13677,8 +13524,8 @@
   i18n:
     zh:
       name: TheStack-ai/zclean
-      summary: 'AI coding runtime hygiene for Claude Code, Codex, Cursor, MCP servers,
-        and developer caches. Try: npx z-clean audit'
+      summary: 适用于Claude Code、Codex、Cursor、MCP服务器及开发者缓存的AI编码运行时卫生。尝试运行：npx z-clean
+        audit
     en:
       name: TheStack-ai/zclean
       summary: 'AI coding runtime hygiene for Claude Code, Codex, Cursor, MCP servers,
@@ -13741,7 +13588,7 @@
   i18n:
     zh:
       name: maskedtitan08/AI-PR_review-Agent
-      summary: An AI agent using LLama model to review PR on a github repo
+      summary: 一个使用Llama模型的AI智能体，用于审查GitHub仓库上的PR。
     en:
       name: maskedtitan08/AI-PR_review-Agent
       summary: An AI agent using LLama model to review PR on a github repo
@@ -13784,8 +13631,7 @@
   i18n:
     zh:
       name: ShadoW-Shinigami/lyric-video-director
-      summary: Hermes Agent skill for typography-led lyric videos using GPT Image
-        2, Gemini Omni Flash, and exact-text QC
+      summary: Hermes Agent 技能，用于基于排版的歌词视频，使用 GPT Image 2、Gemini Omni Flash 和精确文本质量控制
     en:
       name: ShadoW-Shinigami/lyric-video-director
       summary: Hermes Agent skill for typography-led lyric videos using GPT Image
