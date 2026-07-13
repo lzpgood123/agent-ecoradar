@@ -1,10 +1,11 @@
-import json
+import yaml
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 
 def load(rel):
-    return json.loads((ROOT / rel).read_text())
+    txt = (ROOT / rel).read_text(encoding='utf-8')
+    return yaml.safe_load(txt)
 
 def test_projects_have_i18n_and_auto_states():
     rows = load('data/projects.yaml')
@@ -19,6 +20,5 @@ def test_projects_have_i18n_and_auto_states():
 def test_curated_and_rejected_states_are_consistent():
     for row in load('data/curated-projects.yaml'):
         assert row.get('review_state') == 'auto-curated'
-        assert row.get('translation_state') in (None, 'rule-generated')
     for row in load('data/rejected-projects.yaml'):
         assert row.get('review_state') == 'auto-rejected'

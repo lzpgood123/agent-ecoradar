@@ -6,7 +6,7 @@ from common import ROOT, load_jsonish, save_jsonish, slug
 RESOURCE_TYPE_RULES = {
     'mcp-server': ['mcp server', 'model context protocol', 'mcp'],
     'skills': ['skill', 'prompt pack', 'slash command', 'custom command', 'agent skill', 'claude skill'],
-    'rules': ['agents.md', 'claude.md', 'cursor rules', '.cursorrules', 'rules', 'instruction file'],
+    'rules': ['agents.md', 'claude.md', 'cursor rules', '.cursorrules', 'ruleset', 'instruction file', 'rules file'],
     'agent-framework': ['agent framework', 'multi-agent', 'subagent', 'agent orchestration', 'agentic framework'],
     'cli-tool': ['cli', 'terminal', 'command line', 'codebase index', 'repo map', 'repository map', 'semantic search', 'codebase indexing'],
     'tutorial': ['tutorial', 'guide', 'best practice', 'case study', 'benchmark', 'evaluation', 'eval harness', 'leaderboard'],
