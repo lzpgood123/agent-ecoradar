@@ -1,0 +1,59 @@
+# config/scoring-v2.yaml
+# New 100-point scoring system configuration
+# Quantifiable score (60 points) - updated daily
+# Quality score (40 points) - updated weekly by LLM (not in this batch)
+
+quantifiable:
+  stars:
+    max: 20
+    tiers:
+      - {min: 50000, score: 20}
+      - {min: 10000, score: 16}
+      - {min: 5000, score: 12}
+      - {min: 1000, score: 8}
+      - {min: 100, score: 4}
+      - {min: 1, score: 2}
+      - {min: 0, score: 0}
+
+  activity:
+    max: 15
+    tiers:
+      - {days: 90, score: 15}
+      - {days: 180, score: 12}
+      - {days: 365, score: 8}
+      - {days: 730, score: 4}
+      - {days: 99999, score: 1}
+
+  adoption:
+    max: 10
+    tiers:
+      - {min: 1000, score: 10}
+      - {min: 100, score: 7}
+      - {min: 10, score: 4}
+      - {min: 1, score: 2}
+      - {min: 0, score: 0}
+
+  maturity:
+    max: 15
+    components:
+      has_license: 2
+      has_explicit_status: 3
+      has_languages: 2
+      has_release_tag: 3
+      has_maturity_label: 5
+
+quality:
+  # Placeholder - filled by weekly LLM analysis in batch 3
+  max: 40
+  dimensions:
+    relevance: {max: 10}
+    practicality: {max: 10}
+    novelty: {max: 10}
+    ecosystem_value: {max: 10}
+
+benchmark_ranges:
+  - {range: [81, 100], label: "标杆", description: "生态标杆项目"}
+  - {range: [61, 80], label: "优秀", description: "高质量生态项目"}
+  - {range: [41, 60], label: "可用", description: "可用项目"}
+  - {range: [21, 40], label: "萌芽", description: "早期项目"}
+  - {range: [0, 20], label: "噪声", description: "低质量或无关项目"}
