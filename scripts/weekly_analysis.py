@@ -1,0 +1,335 @@
+#!/usr/bin/env python3
+"""Weekly LLM analysis pipeline.
+
+Runs every Monday 03:00 via Hermes cron.
+Analyzes new projects + re-evaluates all projects using LLM.
+
+Flow:
+1. Load projects from data/projects.yaml
+2. Pre-filter: remove archived, empty repos
+3. Batch LLM analysis (3 concurrent) using SenseNova DeepSeek-V4-Flash
+4. Update benchmark references
+5. Re-score all projects (quantifiable + quality)
+6. Generate 3 reports via generate_reports.py
+7. Build site
+8. Save snapshot
+
+Usage:
+    python3 scripts/weekly_analysis.py                    # full run
+    python3 scripts/weekly_analysis.py --max-projects 50  # limit for testing
+    python3 scripts/weekly_analysis.py --dry-run          # no LLM calls, just structure
+"""
+import argparse
+import copy
+import datetime
+import json
+import subprocess
+import sys
+from pathlib import Path
+
+# Ensure scripts/ is on sys.path
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from common import ROOT, load_jsonish, save_jsonish, today
+from llm_api import batch_analyze, parse_json_response, call_with_retry, load_api_keys, KeyRotator
+from llm_prompts import (
+    project_analysis_prompt, ANALYSIS_SYSTEM,
+    benchmark_selection_prompt, BENCHMARK_SYSTEM,
+)
+from benchmark_manager import BenchmarkManager, BENCHMARK_RANGES
+
+
+def pre_filter(projects):
+    """Pre-filter projects before LLM analysis.
+    Remove archived repos. Sort by stars descending (analyze high-value first).
+    """
+    filtered = [p for p in projects if p.get('status') != 'archived']
+    filtered.sort(key=lambda p: (p.get('stars') or 0), reverse=True)
+    return filtered
+
+
+def get_projects_to_analyze(projects, max_projects=None):
+    """Get projects that need analysis.
+
+    Priority:
+    1. Never analyzed (last_analyzed is None)
+    2. Analyzed more than 7 days ago
+    """
+    now = datetime.date.today()
+    cutoff = (now - datetime.timedelta(days=7)).isoformat()
+
+    to_analyze = []
+    for p in projects:
+        last = p.get('last_analyzed')
+        if last is None or last < cutoff:
+            to_analyze.append(p)
+
+    if max_projects:
+        to_analyze = to_analyze[:max_projects]
+
+    return to_analyze
+
+
+def merge_analysis_result(project, analysis):
+    """Merge LLM analysis result into a project record."""
+    p = copy.deepcopy(project)
+
+    if analysis is None:
+        return p  # keep original if analysis failed
+
+    # Update fields from analysis
+    if 'resource_type' in analysis:
+        p['resource_type'] = analysis['resource_type']
+    if 'target_tools' in analysis:
+        p['target_tools'] = analysis['target_tools']
+    if 'tracking_priority' in analysis:
+        p['tracking_priority'] = analysis['tracking_priority']
+    if 'quality_score' in analysis:
+        p['quality_score'] = analysis['quality_score']
+    if 'quality_detail' in analysis:
+        p['score_detail'] = analysis['quality_detail']
+    if 'llm_summary' in analysis:
+        p['llm_summary'] = analysis['llm_summary']
+
+    # Recalculate total score
+    p['total_score'] = p.get('quantifiable_score', 0) + p.get('quality_score', 0)
+
+    # Mark as analyzed
+    p['last_analyzed'] = today()
+
+    return p
+
+
+def run_analysis(projects, max_projects=None, batch_size=3):
+    """Run LLM analysis on projects in batches.
+
+    Args:
+        projects: list of project dicts (already pre-filtered)
+        max_projects: limit number of projects to analyze
+        batch_size: concurrent LLM calls per batch
+
+    Returns:
+        list of analyzed project dicts (same order as input, with results merged)
+    """
+    to_analyze = get_projects_to_analyze(projects, max_projects)
+
+    if not to_analyze:
+        print(f'No projects need analysis (all analyzed within 7 days)')
+        return projects
+
+    print(f'Projects to analyze: {len(to_analyze)}')
+
+    # Map for quick lookup
+    analyze_ids = {p.get('id') for p in to_analyze}
+
+    # Process in batches of batch_size
+    all_results = {}  # project_id -> analysis result
+    for i in range(0, len(to_analyze), batch_size):
+        batch = to_analyze[i:i + batch_size]
+        batch_num = i // batch_size + 1
+        total_batches = (len(to_analyze) - 1) // batch_size + 1
+        print(f'\n--- Batch {batch_num}/{total_batches} ({len(batch)} projects) ---')
+
+        # Create prompt function for each project
+        def prompt_fn(p):
+            return project_analysis_prompt(p)
+
+        results = batch_analyze(batch, prompt_fn, ANALYSIS_SYSTEM, max_workers=batch_size)
+
+        for idx, result in results.items():
+            project_id = batch[idx].get('id') if idx < len(batch) else None
+            if project_id:
+                all_results[project_id] = result
+                status = 'OK' if result else 'FAILED'
+                print(f'  {batch[idx].get("name", "?")}: {status}')
+
+    # Merge results back into the full project list
+    updated_projects = []
+    for p in projects:
+        pid = p.get('id')
+        if pid in all_results:
+            updated_projects.append(merge_analysis_result(p, all_results[pid]))
+        else:
+            updated_projects.append(p)
+
+    success_count = sum(1 for r in all_results.values() if r is not None)
+    fail_count = sum(1 for r in all_results.values() if r is None)
+    print(f'\nAnalysis complete: {success_count} success, {fail_count} failed')
+
+    return updated_projects
+
+
+def update_benchmarks(projects):
+    """Update benchmark reference projects using LLM."""
+    bm = BenchmarkManager()
+    grouped = bm.group_by_range(projects)
+
+    # Get top candidates for each range
+    candidates = {}
+    for label, ps in grouped.items():
+        if ps:
+            candidates[label] = sorted(ps, key=lambda p: p.get('total_score', 0), reverse=True)[:5]
+
+    if not candidates:
+        print('No candidates for benchmark selection')
+        return bm.load()
+
+    # Call LLM to select benchmarks
+    existing = bm.load()
+    prompt = benchmark_selection_prompt(candidates, existing)
+
+    keys = load_api_keys()
+    if not keys:
+        print('ERROR: No API keys for benchmark selection')
+        return existing
+
+    rotator = KeyRotator(keys)
+    text = call_with_retry(prompt, BENCHMARK_SYSTEM, rotator)
+    result = parse_json_response(text)
+
+    if result and 'benchmarks' in result:
+        bm.update_from_llm(result, projects)
+        print(f'Benchmarks updated: {len(result["benchmarks"])} ranges')
+    else:
+        print('Benchmark selection failed, keeping existing')
+
+    return bm.load()
+
+
+def rescore_all(projects):
+    """Re-calculate total scores for all projects.
+
+    total_score = quantifiable_score + quality_score
+    Also assign benchmark_ref based on score range.
+    """
+    bm = BenchmarkManager()
+    benchmarks = bm.load()
+
+    for p in projects:
+        q_score = p.get('quantifiable_score', 0)
+        quality = p.get('quality_score', 0)
+        p['total_score'] = q_score + quality
+
+        # Assign benchmark reference
+        total = p['total_score']
+        for label, ref in benchmarks.items():
+            ref_score = ref.get('score', 0)
+            if abs(total - ref_score) <= 20:  # within 20 points of benchmark
+                p['benchmark_ref'] = ref.get('project_id')
+                break
+
+    return projects
+
+
+def generate_reports():
+    """Generate 3 weekly reports by calling existing generate_reports.py."""
+    print('Calling generate_reports.py...')
+    r = subprocess.run(
+        ['python3', 'scripts/generate_reports.py'],
+        cwd=ROOT, capture_output=True, text=True, timeout=120
+    )
+    if r.stdout:
+        print(r.stdout[-500:])
+    if r.returncode != 0:
+        print(f'Reports failed: {r.stderr[-500:]}')
+    else:
+        print('Reports generated successfully')
+
+
+def save_snapshot(projects):
+    """Save weekly snapshot for future trend analysis."""
+    from collections import Counter
+    snapshot_dir = ROOT / 'data' / 'snapshots'
+    snapshot_dir.mkdir(parents=True, exist_ok=True)
+
+    snapshot = {
+        'date': today(),
+        'total_projects': len(projects),
+        'by_source': dict(Counter(p.get('source_type') for p in projects)),
+        'by_tracking': dict(Counter(p.get('tracking_priority') for p in projects)),
+        'avg_score': round(sum(p.get('total_score', 0) for p in projects) / max(len(projects), 1), 1),
+        'curated_count': sum(1 for p in projects if p.get('review_state') == 'auto-curated'),
+        'rejected_count': sum(1 for p in projects if p.get('tracking_priority') == 'reject'),
+        'tool_coverage': dict(Counter(t for p in projects for t in (p.get('target_tools') or []))),
+        'resource_type_coverage': dict(Counter(rt for p in projects for rt in (p.get('resource_type') or []))),
+        'analyzed_count': sum(1 for p in projects if p.get('quality_score', 0) > 0),
+    }
+
+    path = snapshot_dir / f'{today()}.json'
+    path.write_text(json.dumps(snapshot, ensure_ascii=False, indent=2), encoding='utf-8')
+    print(f'Snapshot saved: {path}')
+
+
+def main():
+    ap = argparse.ArgumentParser(description='Weekly LLM analysis pipeline')
+    ap.add_argument('--max-projects', type=int, default=None, help='Limit projects to analyze (for testing)')
+    ap.add_argument('--dry-run', action='store_true', help='No LLM calls, just show structure')
+    ap.add_argument('--skip-reports', action='store_true', help='Skip report generation')
+    ap.add_argument('--skip-benchmarks', action='store_true', help='Skip benchmark update')
+    ap.add_argument('--skip-build', action='store_true', help='Skip site build')
+    args = ap.parse_args()
+
+    print(f'=== Weekly Analysis - {today()} ===')
+
+    # Load data
+    projects = load_jsonish('data/projects.yaml')
+    curated = load_jsonish('data/curated-projects.yaml')
+    tools = load_jsonish('data/seed-tools.yaml')
+    prev_projects = [copy.deepcopy(p) for p in projects]  # snapshot before changes
+
+    print(f'Loaded: {len(projects)} projects, {len(curated)} curated, {len(tools)} tools')
+
+    if args.dry_run:
+        to_analyze = get_projects_to_analyze(projects, args.max_projects)
+        print(f'\nDry run: would analyze {len(to_analyze)} projects')
+        if to_analyze:
+            print(f'Sample: {to_analyze[0].get("name", "none")}')
+        return
+
+    # Step 1: Pre-filter
+    filtered = pre_filter(projects)
+    print(f'Pre-filtered: {len(filtered)} (removed {len(projects) - len(filtered)} archived)')
+
+    # Step 2: Run LLM analysis
+    print('\n--- Step 1: LLM Analysis ---')
+    analyzed = run_analysis(filtered, max_projects=args.max_projects, batch_size=3)
+
+    # Step 3: Update benchmarks (before rescoring!)
+    if not args.skip_benchmarks:
+        print('\n--- Step 2: Update Benchmarks ---')
+        update_benchmarks(analyzed)
+
+    # Step 4: Re-score all
+    print('\n--- Step 3: Re-score All Projects ---')
+    rescored = rescore_all(analyzed)
+
+    # Step 5: Save snapshot
+    print('\n--- Step 4: Save Snapshot ---')
+    save_snapshot(rescored)
+
+    # Step 6: Save updated projects
+    save_jsonish('data/projects.yaml', rescored)
+    print(f'Saved {len(rescored)} projects to data/projects.yaml')
+
+    # Step 7: Generate reports (call existing generate_reports.py)
+    if not args.skip_reports:
+        print('\n--- Step 5: Generate Reports ---')
+        generate_reports()
+
+    # Step 8: Run build_site
+    if not args.skip_build:
+        print('\n--- Step 6: Build Site ---')
+        r = subprocess.run(
+            ['python3', 'scripts/build_site.py'],
+            cwd=ROOT, capture_output=True, text=True, timeout=300
+        )
+        if r.stdout:
+            print(r.stdout[-500:])
+        if r.returncode != 0:
+            print(f'Build site failed: {r.stderr[-500:]}')
+
+    print('\n=== Weekly Analysis Complete ===')
+
+
+if __name__ == '__main__':
+    main()
