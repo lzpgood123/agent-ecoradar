@@ -219,10 +219,11 @@ weekly_analysis.py (入口，每周一 03:30 via Hermes cron)
 - **时间下界:** `created:>2024-01-01`
 - **分层:** L1≥100k → L2 50k–99k → L3 10k–49k（全时段+极薄负向）；L4 1k–9k（按月+弱正向/coding signal）；L5a/L5b（topic+keyword，adaptive，严格过滤）；<100 本轮不做
 - **安全 merge:** 同 URL/repo 只刷新 GitHub 可量化字段，保留 `quality_score`/`quality_detail`/`tracking_priority`/`last_analyzed`/`benchmark_ref`；新项目默认 `pending` + `quality_score=0`；official-seed 不降级
-- **code search:** CLAUDE.md / .cursorrules / AGENTS.md 等 → `pending`
-- **checkpoint:** `data/initial-collection-checkpoint.json` + `data/raw/github-initial/candidates.json`
-- **CLI:** `--dry-run` / `--search-only` / `--details-only` / `--skip-existing` / `--no-readme`
+- **code search:** CLAUDE.md / .cursorrules / AGENTS.md 等 → `pending`；详情阶段 strict 过滤噪声
+- **checkpoint:** `data/initial-collection-checkpoint.json`（gitignore）+ `data/raw/github-initial/candidates.json` + search-cache
+- **CLI:** `--dry-run` / `--search-only` / `--details-only` / `--skip-existing` / `--no-readme` / `--skip-seed-topics` / `--max-details`
 - **本轮不做:** dependents API、README 内链抽生态、stars<100（见 ADR-0005）
+- **2026-07-14 执行结果:** 候选 **6016**，详情 **6016**，`projects` **293→5165**，`last_analyzed` **33** 完好；`filtered≈1085`，`detail_errors=1`；本地 `update_tracker.py --skip-collect` **PASS**；commit `8571786`（未 push/deploy）
 
 ## 错误处理
 
