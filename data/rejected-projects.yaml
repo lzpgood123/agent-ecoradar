@@ -501,4 +501,112 @@
     - **Detailed artifacts**: the real plan/process/validation lives in `.artifacts/artifac'
   topics: []
   rejection_reason: 'Auto-rejected: low score (12), archived, or weak relevance.'
+- id: github-ktr0731-go-mcp
+  name: ktr0731/go-mcp
+  url: https://github.com/ktr0731/go-mcp
+  repo: ktr0731/go-mcp
+  source_type: github
+  resource_type:
+  - mcp-server
+  target_tools:
+  - general-ai-coding
+  summary: 'deprecated: use the official MCP sdk! (https://github.com/modelcontextprotocol/go-sdk)
+    / ⚡ A type-safe, intuitive Go SDK for building MCP servers with ease and confidence'
+  i18n:
+    zh:
+      name: ktr0731/go-mcp
+      summary: 'deprecated: use the official MCP sdk! (https://github.com/modelcontextprotocol/go-sdk)
+        / ⚡ A type-safe, intuitive Go SDK for building MCP servers with ease and confidence'
+    en:
+      name: ktr0731/go-mcp
+      summary: 'deprecated: use the official MCP sdk! (https://github.com/modelcontextprotocol/go-sdk)
+        / ⚡ A type-safe, intuitive Go SDK for building MCP servers with ease and confidence'
+  status: archived
+  license: mit
+  stars: 143
+  forks: 6
+  last_updated: '2026-02-15T11:31:53Z'
+  first_seen: '2026-07-14'
+  last_seen: '2026-07-14'
+  maturity: unknown
+  languages:
+  - Go
+  topics:
+  - golang
+  - mcp
+  - mcp-server
+  - model-context-protocol
+  readme_preview: ''
+  tags: []
+  review_state: auto-rejected
+  quantifiable_score: 25
+  quality_score: 0
+  total_score: 25
+  score_detail:
+    stars: 4
+    activity: 12
+    adoption: 2
+    maturity: 7
+  tracking_priority: reject
+  last_analyzed: null
+  benchmark_ref: null
+  rejection_reason: 'Auto-rejected: low score (25), archived, or weak relevance.'
+- id: github-wshobson-mcp-trader
+  name: wshobson/mcp-trader
+  url: https://github.com/wshobson/mcp-trader
+  repo: wshobson/mcp-trader
+  source_type: github
+  resource_type:
+  - mcp-server
+  target_tools:
+  - general-ai-coding
+  summary: A Model Context Protocol (MCP) server for stock traders
+  i18n:
+    zh:
+      name: wshobson/mcp-trader
+      summary: A Model Context Protocol (MCP) server for stock traders
+    en:
+      name: wshobson/mcp-trader
+      summary: A Model Context Protocol (MCP) server for stock traders
+  status: archived
+  license: null
+  stars: 272
+  forks: 67
+  last_updated: '2026-07-13T19:16:10Z'
+  first_seen: '2026-07-14'
+  last_seen: '2026-07-14'
+  maturity: unknown
+  languages: []
+  topics:
+  - anthropic
+  - fintech
+  - mcp
+  - mcp-server
+  - pandas
+  - technical-analysis
+  - tiingo-api
+  - trading
+  - artificial-intelligence
+  - pandas-ta
+  - financial-analysis
+  - investing
+  - python
+  - equities
+  - finance
+  - claude
+  readme_preview: ''
+  tags: []
+  review_state: auto-rejected
+  quantifiable_score: 26
+  quality_score: 0
+  total_score: 26
+  score_detail:
+    stars: 4
+    activity: 15
+    adoption: 4
+    maturity: 3
+  tracking_priority: reject
+  last_analyzed: null
+  benchmark_ref: null
+  rejection_reason: 'Auto-rejected: low score (26), archived, or weak relevance.'
 

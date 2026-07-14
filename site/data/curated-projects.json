@@ -22,15 +22,15 @@
         "summary": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM"
       }
     },
-    "stars": 51152,
-    "forks": 5684,
+    "stars": 51186,
+    "forks": 5682,
     "total_score": 86,
     "quantifiable_score": 49,
     "quality_score": 37,
     "tracking_priority": "track",
-    "last_updated": "2026-07-13T13:40:40Z",
+    "last_updated": "2026-07-14T08:14:08Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
+    "last_seen": "2026-07-14",
     "license": "apache-2.0",
     "languages": [
       "Rust"
@@ -61,15 +61,15 @@
         "summary": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman"
       }
     },
-    "stars": 85516,
-    "forks": 4758,
+    "stars": 89248,
+    "forks": 5120,
     "total_score": 85,
     "quantifiable_score": 49,
     "quality_score": 36,
     "tracking_priority": "track",
-    "last_updated": "2026-07-06T15:07:41Z",
+    "last_updated": "2026-07-14T08:14:55Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
+    "last_seen": "2026-07-14",
     "license": "mit",
     "languages": [
       "JavaScript"
@@ -98,15 +98,15 @@
         "summary": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant."
       }
     },
-    "stars": 64610,
-    "forks": 6901,
+    "stars": 64634,
+    "forks": 6909,
     "total_score": 85,
     "quantifiable_score": 49,
     "quality_score": 36,
     "tracking_priority": "track",
-    "last_updated": "2026-07-13T13:32:20Z",
+    "last_updated": "2026-07-14T07:34:57Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
+    "last_seen": "2026-07-14",
     "license": "apache-2.0",
     "languages": [
       "TypeScript"
@@ -138,15 +138,15 @@
         "summary": "337 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, complian"
       }
     },
-    "stars": 20986,
-    "forks": 2823,
+    "stars": 22539,
+    "forks": 3141,
     "total_score": 83,
     "quantifiable_score": 45,
     "quality_score": 38,
     "tracking_priority": "track",
-    "last_updated": "2026-07-06T15:08:06Z",
+    "last_updated": "2026-07-14T08:07:36Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
+    "last_seen": "2026-07-14",
     "license": "mit",
     "languages": [
       "Python"
@@ -225,41 +225,6 @@
     "review_state": "auto-curated"
   },
   {
-    "id": "github-blader-humanizer",
-    "name": "blader/humanizer",
-    "url": "https://github.com/blader/humanizer",
-    "source_type": "github",
-    "resource_type": [
-      "skills"
-    ],
-    "target_tools": [
-      "claude-code"
-    ],
-    "summary": "Claude Code skill that removes signs of AI-generated writing from text",
-    "i18n": {
-      "zh": {
-        "name": "blader/humanizer",
-        "summary": "Claude Code 技能，用于从文本中移除AI生成的写作痕迹"
-      },
-      "en": {
-        "name": "blader/humanizer",
-        "summary": "Claude Code skill that removes signs of AI-generated writing from text"
-      }
-    },
-    "stars": 27726,
-    "forks": 2570,
-    "total_score": 78,
-    "quantifiable_score": 43,
-    "quality_score": 35,
-    "tracking_priority": "track",
-    "last_updated": "2026-07-06T15:06:02Z",
-    "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
-    "license": "mit",
-    "languages": [],
-    "review_state": "auto-curated"
-  },
-  {
     "id": "github-virgiliojr94-book-to-skill",
     "name": "virgiliojr94/book-to-skill",
     "url": "https://github.com/virgiliojr94/book-to-skill",
@@ -282,19 +247,54 @@
         "summary": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work."
       }
     },
-    "stars": 7968,
-    "forks": 982,
-    "total_score": 77,
-    "quantifiable_score": 38,
+    "stars": 8592,
+    "forks": 1046,
+    "total_score": 80,
+    "quantifiable_score": 41,
     "quality_score": 39,
     "tracking_priority": "track",
-    "last_updated": "2026-07-06T15:04:23Z",
+    "last_updated": "2026-07-14T09:28:11Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
+    "last_seen": "2026-07-14",
     "license": "mit",
     "languages": [
       "Python"
     ],
+    "review_state": "auto-curated"
+  },
+  {
+    "id": "github-blader-humanizer",
+    "name": "blader/humanizer",
+    "url": "https://github.com/blader/humanizer",
+    "source_type": "github",
+    "resource_type": [
+      "skills"
+    ],
+    "target_tools": [
+      "claude-code"
+    ],
+    "summary": "Claude Code skill that removes signs of AI-generated writing from text",
+    "i18n": {
+      "zh": {
+        "name": "blader/humanizer",
+        "summary": "Claude Code 技能，用于从文本中移除AI生成的写作痕迹"
+      },
+      "en": {
+        "name": "blader/humanizer",
+        "summary": "Claude Code skill that removes signs of AI-generated writing from text"
+      }
+    },
+    "stars": 29101,
+    "forks": 2690,
+    "total_score": 78,
+    "quantifiable_score": 43,
+    "quality_score": 35,
+    "tracking_priority": "track",
+    "last_updated": "2026-07-14T08:15:02Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [],
     "review_state": "auto-curated"
   },
   {
@@ -319,15 +319,15 @@
         "summary": "Trail of Bits Claude Code skills for security research, vulnerability detection, and audit workflows"
       }
     },
-    "stars": 6009,
-    "forks": 528,
+    "stars": 6118,
+    "forks": 538,
     "total_score": 73,
     "quantifiable_score": 38,
     "quality_score": 35,
     "tracking_priority": "track",
-    "last_updated": "2026-07-06T13:28:01Z",
+    "last_updated": "2026-07-14T08:57:00Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
+    "last_seen": "2026-07-14",
     "license": "cc-by-sa-4.0",
     "languages": [
       "Python"
@@ -356,15 +356,15 @@
         "summary": "A Claude Code skill that turns any codebase into a beautiful, interactive single-page HTML course for non-technical vibe coders."
       }
     },
-    "stars": 5150,
-    "forks": 525,
+    "stars": 5223,
+    "forks": 532,
     "total_score": 73,
     "quantifiable_score": 36,
     "quality_score": 37,
     "tracking_priority": "track",
-    "last_updated": "2026-07-06T14:41:47Z",
+    "last_updated": "2026-07-14T05:22:12Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
+    "last_seen": "2026-07-14",
     "license": null,
     "languages": [
       "CSS"
@@ -393,15 +393,15 @@
         "summary": "Claude Code skill to support Android app's reverse engineering"
       }
     },
-    "stars": 6332,
-    "forks": 706,
+    "stars": 6418,
+    "forks": 711,
     "total_score": 71,
     "quantifiable_score": 38,
     "quality_score": 33,
     "tracking_priority": "track",
-    "last_updated": "2026-07-06T11:56:37Z",
+    "last_updated": "2026-07-14T09:20:03Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
+    "last_seen": "2026-07-14",
     "license": "apache-2.0",
     "languages": [
       "Shell"
@@ -431,15 +431,15 @@
         "summary": "Deploy Your Frontend in a Single Command. Claude Code Skills supported."
       }
     },
-    "stars": 3701,
+    "stars": 3710,
     "forks": 272,
     "total_score": 71,
     "quantifiable_score": 34,
     "quality_score": 37,
     "tracking_priority": "track",
-    "last_updated": "2026-07-06T14:58:03Z",
+    "last_updated": "2026-07-13T20:18:25Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
+    "last_seen": "2026-07-14",
     "license": "mit",
     "languages": [
       "TypeScript"
@@ -469,15 +469,15 @@
         "summary": "Open-source Claude Code skills for SEO, GEO, Google Ads, Meta Ads"
       }
     },
-    "stars": 3062,
-    "forks": 374,
+    "stars": 3128,
+    "forks": 380,
     "total_score": 71,
     "quantifiable_score": 34,
     "quality_score": 37,
     "tracking_priority": "track",
-    "last_updated": "2026-07-06T13:45:56Z",
+    "last_updated": "2026-07-14T09:43:10Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
+    "last_seen": "2026-07-14",
     "license": "mit",
     "languages": [
       "TypeScript"
@@ -507,15 +507,15 @@
         "summary": "用 Claude Code Skills 做的视频剪辑 Agent"
       }
     },
-    "stars": 2526,
-    "forks": 352,
+    "stars": 2647,
+    "forks": 363,
     "total_score": 71,
     "quantifiable_score": 34,
     "quality_score": 37,
     "tracking_priority": "track",
-    "last_updated": "2026-07-06T13:36:58Z",
+    "last_updated": "2026-07-14T09:21:02Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
+    "last_seen": "2026-07-14",
     "license": "apache-2.0",
     "languages": [
       "HTML"
@@ -544,15 +544,15 @@
         "summary": "A Claude Code skill bundle for bug hunting and external red-team work — 71 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices."
       }
     },
-    "stars": 2893,
-    "forks": 443,
+    "stars": 2963,
+    "forks": 454,
     "total_score": 70,
     "quantifiable_score": 34,
     "quality_score": 36,
     "tracking_priority": "track",
-    "last_updated": "2026-07-06T12:21:22Z",
+    "last_updated": "2026-07-14T07:51:10Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
+    "last_seen": "2026-07-14",
     "license": "other",
     "languages": [
       "Python"
@@ -581,15 +581,15 @@
         "summary": "Claude Code Skill for browser automation with Playwright. Model-invoked - Claude autonomously writes and executes custom automation for testing and validation."
       }
     },
-    "stars": 2873,
-    "forks": 208,
+    "stars": 2907,
+    "forks": 209,
     "total_score": 69,
     "quantifiable_score": 34,
     "quality_score": 35,
     "tracking_priority": "track",
-    "last_updated": "2026-07-06T10:52:30Z",
+    "last_updated": "2026-07-14T08:46:42Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
+    "last_seen": "2026-07-14",
     "license": "mit",
     "languages": [
       "JavaScript"
@@ -620,15 +620,15 @@
         "summary": "MCP server and Claude Code skill for Excalidraw — programmatic canvas toolkit to create, edit, and export diagrams via AI agents with real-time canvas sync."
       }
     },
-    "stars": 2130,
-    "forks": 229,
+    "stars": 2158,
+    "forks": 232,
     "total_score": 68,
     "quantifiable_score": 34,
     "quality_score": 34,
     "tracking_priority": "track",
-    "last_updated": "2026-07-06T14:25:50Z",
+    "last_updated": "2026-07-14T06:22:21Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
+    "last_seen": "2026-07-14",
     "license": "mit",
     "languages": [
       "TypeScript"
@@ -657,15 +657,15 @@
         "summary": "Curated list of awesome Cursor Rules .mdc files"
       }
     },
-    "stars": 3553,
-    "forks": 443,
+    "stars": 3550,
+    "forks": 442,
     "total_score": 67,
     "quantifiable_score": 34,
     "quality_score": 33,
     "tracking_priority": "track",
-    "last_updated": "2026-07-05T10:29:51Z",
+    "last_updated": "2026-07-14T02:56:29Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
+    "last_seen": "2026-07-14",
     "license": "cc0-1.0",
     "languages": [
       "Python"
@@ -694,15 +694,15 @@
         "summary": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development."
       }
     },
-    "stars": 2278,
-    "forks": 536,
+    "stars": 2367,
+    "forks": 560,
     "total_score": 67,
     "quantifiable_score": 34,
     "quality_score": 33,
     "tracking_priority": "track",
-    "last_updated": "2026-07-06T15:04:41Z",
+    "last_updated": "2026-07-14T02:28:24Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
+    "last_seen": "2026-07-14",
     "license": "mit",
     "languages": [
       "Python"
@@ -766,15 +766,15 @@
         "summary": "Conductor is a Gemini CLI extension that allows you to specify, plan, and implement software features."
       }
     },
-    "stars": 3590,
-    "forks": 281,
+    "stars": 3594,
+    "forks": 282,
     "total_score": 65,
     "quantifiable_score": 32,
     "quality_score": 33,
     "tracking_priority": "track",
-    "last_updated": "2026-07-06T14:14:22Z",
+    "last_updated": "2026-07-12T21:15:17Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
+    "last_seen": "2026-07-14",
     "license": "apache-2.0",
     "languages": [],
     "review_state": "auto-curated"
@@ -801,15 +801,15 @@
         "summary": "A Claude Code skill for generating UI in the Nothing design language. Monochrome, typographic, industrial."
       }
     },
-    "stars": 2580,
-    "forks": 156,
+    "stars": 2626,
+    "forks": 158,
     "total_score": 65,
     "quantifiable_score": 32,
     "quality_score": 33,
     "tracking_priority": "track",
-    "last_updated": "2026-07-06T11:56:24Z",
+    "last_updated": "2026-07-13T20:48:58Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
+    "last_seen": "2026-07-14",
     "license": "mit",
     "languages": [],
     "review_state": "auto-curated"
@@ -837,15 +837,15 @@
         "summary": "神级Cursor Rule"
       }
     },
-    "stars": 2632,
-    "forks": 360,
+    "stars": 2629,
+    "forks": 359,
     "total_score": 62,
     "quantifiable_score": 30,
     "quality_score": 32,
     "tracking_priority": "track",
-    "last_updated": "2026-07-06T07:52:21Z",
+    "last_updated": "2026-07-13T07:32:41Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
+    "last_seen": "2026-07-14",
     "license": null,
     "languages": [],
     "review_state": "auto-curated"
@@ -924,74 +924,113 @@
     "review_state": "auto-curated"
   },
   {
-    "id": "github-opencoworkai-open-cowork",
-    "name": "OpenCoworkAI/open-cowork",
-    "url": "https://github.com/OpenCoworkAI/open-cowork",
+    "id": "github-openclaw-openclaw",
+    "name": "openclaw/openclaw",
+    "url": "https://github.com/openclaw/openclaw",
     "source_type": "github",
     "resource_type": [
-      "mcp-server",
-      "agent-framework"
+      "tutorial"
     ],
     "target_tools": [
-      "claude-code"
+      "general-ai-coding"
     ],
-    "summary": "Open-source AI agent desktop app for Windows & macOS. One-click install Claude Code, MCP tools, and Skills — with sandbox isolation, multi-model support, and Feishu/Slack integration.",
+    "summary": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
     "i18n": {
       "zh": {
-        "name": "OpenCoworkAI/open-cowork",
-        "summary": "开源AI智能体桌面应用，适用于Windows和macOS。一键安装Claude Code、MCP工具和Skills——支持沙箱隔离、多模型，以及Feishu/Slack集成。"
+        "name": "openclaw/openclaw",
+        "summary": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 "
       },
       "en": {
-        "name": "OpenCoworkAI/open-cowork",
-        "summary": "Open-source AI agent desktop app for Windows & macOS. One-click install Claude Code, MCP tools, and Skills — with sandbox isolation, multi-model support, and Feishu/Slack integration."
+        "name": "openclaw/openclaw",
+        "summary": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 "
       }
     },
-    "stars": 1774,
-    "forks": 239,
-    "total_score": 34,
-    "quantifiable_score": 34,
+    "stars": 382882,
+    "forks": 80363,
+    "total_score": 49,
+    "quantifiable_score": 49,
     "quality_score": 0,
     "tracking_priority": "pending",
-    "last_updated": "2026-07-06T12:51:38Z",
-    "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
-    "license": "mit",
+    "last_updated": "2026-07-14T08:11:09Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "other",
     "languages": [
       "TypeScript"
     ],
     "review_state": "auto-curated"
   },
   {
-    "id": "github-steipete-claude-code-mcp",
-    "name": "steipete/claude-code-mcp",
-    "url": "https://github.com/steipete/claude-code-mcp",
+    "id": "github-obra-superpowers",
+    "name": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
     "source_type": "github",
     "resource_type": [
-      "mcp-server"
+      "tutorial"
     ],
     "target_tools": [
-      "claude-code"
+      "general-ai-coding"
     ],
-    "summary": "Claude Code as one-shot MCP server to have an agent in your agent.",
+    "summary": "An agentic skills framework & software development methodology that works.",
     "i18n": {
       "zh": {
-        "name": "steipete/claude-code-mcp",
-        "summary": "将 Claude Code 作为一次性 MCP 服务器，让您的代理中再拥有一个代理。"
+        "name": "obra/superpowers",
+        "summary": "An agentic skills framework & software development methodology that works."
       },
       "en": {
-        "name": "steipete/claude-code-mcp",
-        "summary": "Claude Code as one-shot MCP server to have an agent in your agent."
+        "name": "obra/superpowers",
+        "summary": "An agentic skills framework & software development methodology that works."
       }
     },
-    "stars": 1309,
-    "forks": 168,
-    "total_score": 34,
-    "quantifiable_score": 34,
+    "stars": 254195,
+    "forks": 22711,
+    "total_score": 49,
+    "quantifiable_score": 49,
     "quality_score": 0,
     "tracking_priority": "pending",
-    "last_updated": "2026-07-05T14:12:45Z",
-    "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
+    "last_updated": "2026-07-14T08:11:04Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "Shell"
+    ],
+    "review_state": "auto-curated"
+  },
+  {
+    "id": "github-affaan-m-ecc",
+    "name": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "claude-code",
+      "codex-cli",
+      "opencode",
+      "cursor"
+    ],
+    "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "i18n": {
+      "zh": {
+        "name": "affaan-m/ECC",
+        "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+      },
+      "en": {
+        "name": "affaan-m/ECC",
+        "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+      }
+    },
+    "stars": 229393,
+    "forks": 35140,
+    "total_score": 49,
+    "quantifiable_score": 49,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:11:12Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
     "license": "mit",
     "languages": [
       "JavaScript"
@@ -999,36 +1038,338 @@
     "review_state": "auto-curated"
   },
   {
-    "id": "github-daymade-claude-code-skills",
-    "name": "daymade/claude-code-skills",
-    "url": "https://github.com/daymade/claude-code-skills",
+    "id": "github-ultraworkers-claw-code",
+    "name": "ultraworkers/claw-code",
+    "url": "https://github.com/ultraworkers/claw-code",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "codex-cli"
+    ],
+    "summary": "An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention.",
+    "i18n": {
+      "zh": {
+        "name": "ultraworkers/claw-code",
+        "summary": "An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention."
+      },
+      "en": {
+        "name": "ultraworkers/claw-code",
+        "summary": "An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention."
+      }
+    },
+    "stars": 194755,
+    "forks": 109680,
+    "total_score": 49,
+    "quantifiable_score": 49,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:10:18Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "Rust"
+    ],
+    "review_state": "auto-curated"
+  },
+  {
+    "id": "github-mattpocock-skills",
+    "name": "mattpocock/skills",
+    "url": "https://github.com/mattpocock/skills",
     "source_type": "github",
     "resource_type": [
       "skills"
     ],
     "target_tools": [
-      "claude-code"
+      "general-ai-coding"
     ],
-    "summary": "Professional Claude Code skills marketplace featuring production-ready skills for enhanced development workflows.",
+    "summary": "Skills for Real Engineers. Straight from my .claude directory.",
     "i18n": {
       "zh": {
-        "name": "daymade/claude-code-skills",
-        "summary": "专业的Claude Code技能市场，提供生产就绪的技能，以增强开发工作流程。"
+        "name": "mattpocock/skills",
+        "summary": "Skills for Real Engineers. Straight from my .claude directory."
       },
       "en": {
-        "name": "daymade/claude-code-skills",
-        "summary": "Professional Claude Code skills marketplace featuring production-ready skills for enhanced development workflows."
+        "name": "mattpocock/skills",
+        "summary": "Skills for Real Engineers. Straight from my .claude directory."
       }
     },
-    "stars": 1257,
-    "forks": 207,
-    "total_score": 34,
-    "quantifiable_score": 34,
+    "stars": 169034,
+    "forks": 14562,
+    "total_score": 49,
+    "quantifiable_score": 49,
     "quality_score": 0,
     "tracking_priority": "pending",
-    "last_updated": "2026-07-09T09:31:25Z",
-    "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
+    "last_updated": "2026-07-14T08:12:04Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "Shell"
+    ],
+    "review_state": "auto-curated"
+  },
+  {
+    "id": "github-x1xhlol-system-prompts-and-models-of-ai-tools",
+    "name": "x1xhlol/system-prompts-and-models-of-ai-tools",
+    "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "claude-code",
+      "qoder",
+      "trae",
+      "workbuddy-codebuddy",
+      "cursor"
+    ],
+    "summary": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, ",
+    "i18n": {
+      "zh": {
+        "name": "x1xhlol/system-prompts-and-models-of-ai-tools",
+        "summary": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, "
+      },
+      "en": {
+        "name": "x1xhlol/system-prompts-and-models-of-ai-tools",
+        "summary": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, "
+      }
+    },
+    "stars": 141905,
+    "forks": 34805,
+    "total_score": 47,
+    "quantifiable_score": 47,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T07:45:39Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "gpl-3.0",
+    "languages": [],
+    "review_state": "auto-curated"
+  },
+  {
+    "id": "github-farion1231-cc-switch",
+    "name": "farion1231/cc-switch",
+    "url": "https://github.com/farion1231/cc-switch",
+    "source_type": "github",
+    "resource_type": [
+      "cli-tool"
+    ],
+    "target_tools": [
+      "claude-code",
+      "codex-cli",
+      "antigravity-cli",
+      "opencode",
+      "hermes-agent"
+    ],
+    "summary": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
+    "i18n": {
+      "zh": {
+        "name": "farion1231/cc-switch",
+        "summary": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io"
+      },
+      "en": {
+        "name": "farion1231/cc-switch",
+        "summary": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io"
+      }
+    },
+    "stars": 116990,
+    "forks": 7829,
+    "total_score": 49,
+    "quantifiable_score": 49,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:05:22Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "Rust"
+    ],
+    "review_state": "auto-curated"
+  },
+  {
+    "id": "github-gsd-build-get-shit-done",
+    "name": "gsd-build/get-shit-done",
+    "url": "https://github.com/gsd-build/get-shit-done",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "claude-code"
+    ],
+    "summary": "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES.",
+    "i18n": {
+      "zh": {
+        "name": "gsd-build/get-shit-done",
+        "summary": "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES."
+      },
+      "en": {
+        "name": "gsd-build/get-shit-done",
+        "summary": "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES."
+      }
+    },
+    "stars": 64751,
+    "forks": 5482,
+    "total_score": 52,
+    "quantifiable_score": 52,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T07:55:19Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "JavaScript"
+    ],
+    "review_state": "auto-curated"
+  },
+  {
+    "id": "github-msitarzewski-agency-agents",
+    "name": "msitarzewski/agency-agents",
+    "url": "https://github.com/msitarzewski/agency-agents",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+    "i18n": {
+      "zh": {
+        "name": "msitarzewski/agency-agents",
+        "summary": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables."
+      },
+      "en": {
+        "name": "msitarzewski/agency-agents",
+        "summary": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables."
+      }
+    },
+    "stars": 131253,
+    "forks": 21551,
+    "total_score": 49,
+    "quantifiable_score": 49,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:10:50Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "Shell"
+    ],
+    "review_state": "auto-curated"
+  },
+  {
+    "id": "github-garrytan-gstack",
+    "name": "garrytan/gstack",
+    "url": "https://github.com/garrytan/gstack",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "claude-code"
+    ],
+    "summary": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+    "i18n": {
+      "zh": {
+        "name": "garrytan/gstack",
+        "summary": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA"
+      },
+      "en": {
+        "name": "garrytan/gstack",
+        "summary": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA"
+      }
+    },
+    "stars": 121763,
+    "forks": 18192,
+    "total_score": 49,
+    "quantifiable_score": 49,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:11:51Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-curated"
+  },
+  {
+    "id": "github-shubhamsaboo-awesome-llm-apps",
+    "name": "Shubhamsaboo/awesome-llm-apps",
+    "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
+    "i18n": {
+      "zh": {
+        "name": "Shubhamsaboo/awesome-llm-apps",
+        "summary": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship."
+      },
+      "en": {
+        "name": "Shubhamsaboo/awesome-llm-apps",
+        "summary": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship."
+      }
+    },
+    "stars": 120075,
+    "forks": 17809,
+    "total_score": 49,
+    "quantifiable_score": 49,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:11:38Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "apache-2.0",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-curated"
+  },
+  {
+    "id": "github-nextlevelbuilder-ui-ux-pro-max-skill",
+    "name": "nextlevelbuilder/ui-ux-pro-max-skill",
+    "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_type": "github",
+    "resource_type": [
+      "skills"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms",
+    "i18n": {
+      "zh": {
+        "name": "nextlevelbuilder/ui-ux-pro-max-skill",
+        "summary": "An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms"
+      },
+      "en": {
+        "name": "nextlevelbuilder/ui-ux-pro-max-skill",
+        "summary": "An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms"
+      }
+    },
+    "stars": 105323,
+    "forks": 11171,
+    "total_score": 49,
+    "quantifiable_score": 49,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:10:37Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
     "license": "mit",
     "languages": [
       "Python"
@@ -1036,444 +1377,116 @@
     "review_state": "auto-curated"
   },
   {
-    "id": "github-sceneview-sceneview",
-    "name": "sceneview/sceneview",
-    "url": "https://github.com/sceneview/sceneview",
+    "id": "github-browser-use-browser-use",
+    "name": "browser-use/browser-use",
+    "url": "https://github.com/browser-use/browser-use",
     "source_type": "github",
     "resource_type": [
-      "mcp-server",
-      "rules"
+      "tutorial"
     ],
     "target_tools": [
-      "cursor"
+      "general-ai-coding"
     ],
-    "summary": "3D & AR SDK for Android (Jetpack Compose + Filament), iOS (SwiftUI + RealityKit), and Web. AI-first: llms.txt, MCP server, Copilot/Cursor rules. The only Compose-native 3D library.",
+    "summary": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
     "i18n": {
       "zh": {
-        "name": "sceneview/sceneview",
-        "summary": "适用于Android（Jetpack Compose + Filament）、iOS（SwiftUI + RealityKit）和Web的3D和AR SDK。AI优先：llms.txt、MCP服务器、Copilot/Cursor规则。唯一的Compose原生3D库。"
+        "name": "browser-use/browser-use",
+        "summary": "🌐 Make websites accessible for AI agents. Automate tasks online with ease."
       },
       "en": {
-        "name": "sceneview/sceneview",
-        "summary": "3D & AR SDK for Android (Jetpack Compose + Filament), iOS (SwiftUI + RealityKit), and Web. AI-first: llms.txt, MCP server, Copilot/Cursor rules. The only Compose-native 3D library."
+        "name": "browser-use/browser-use",
+        "summary": "🌐 Make websites accessible for AI agents. Automate tasks online with ease."
       }
     },
-    "stars": 1251,
-    "forks": 226,
-    "total_score": 34,
-    "quantifiable_score": 34,
+    "stars": 104651,
+    "forks": 11531,
+    "total_score": 49,
+    "quantifiable_score": 49,
     "quality_score": 0,
     "tracking_priority": "pending",
-    "last_updated": "2026-07-06T11:06:00Z",
-    "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
+    "last_updated": "2026-07-14T08:09:48Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-curated"
+  },
+  {
+    "id": "github-deepseek-ai-deepseek-v3",
+    "name": "deepseek-ai/DeepSeek-V3",
+    "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "deepseek-ai/DeepSeek-V3",
+    "i18n": {
+      "zh": {
+        "name": "deepseek-ai/DeepSeek-V3",
+        "summary": "deepseek-ai/DeepSeek-V3"
+      },
+      "en": {
+        "name": "deepseek-ai/DeepSeek-V3",
+        "summary": "deepseek-ai/DeepSeek-V3"
+      }
+    },
+    "stars": 103911,
+    "forks": 16722,
+    "total_score": 49,
+    "quantifiable_score": 49,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:11:48Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-curated"
+  },
+  {
+    "id": "github-thedotmack-claude-mem",
+    "name": "thedotmack/claude-mem",
+    "url": "https://github.com/thedotmack/claude-mem",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "claude-code",
+      "codex-cli",
+      "opencode"
+    ],
+    "summary": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Herme",
+    "i18n": {
+      "zh": {
+        "name": "thedotmack/claude-mem",
+        "summary": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Herme"
+      },
+      "en": {
+        "name": "thedotmack/claude-mem",
+        "summary": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Herme"
+      }
+    },
+    "stars": 87150,
+    "forks": 7538,
+    "total_score": 49,
+    "quantifiable_score": 49,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:15:28Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
     "license": "apache-2.0",
     "languages": [
-      "Kotlin"
-    ],
-    "review_state": "auto-curated"
-  },
-  {
-    "id": "github-instructa-ai-prompts",
-    "name": "instructa/ai-prompts",
-    "url": "https://github.com/instructa/ai-prompts",
-    "source_type": "github",
-    "resource_type": [
-      "rules"
-    ],
-    "target_tools": [
-      "cursor"
-    ],
-    "summary": "Curated AI Prompts for Cursor Rules, Cline, Windsurf and Github Copilot",
-    "i18n": {
-      "zh": {
-        "name": "instructa/ai-prompts",
-        "summary": "为Cursor Rules、Cline、Windsurf和Github Copilot精选的AI提示词"
-      },
-      "en": {
-        "name": "instructa/ai-prompts",
-        "summary": "Curated AI Prompts for Cursor Rules, Cline, Windsurf and Github Copilot"
-      }
-    },
-    "stars": 1054,
-    "forks": 136,
-    "total_score": 34,
-    "quantifiable_score": 34,
-    "quality_score": 0,
-    "tracking_priority": "pending",
-    "last_updated": "2026-07-03T13:12:00Z",
-    "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
-    "license": "mit",
-    "languages": [
       "JavaScript"
     ],
-    "review_state": "auto-curated"
-  },
-  {
-    "id": "github-alaeddinemessadi-opencode-mcp",
-    "name": "AlaeddineMessadi/opencode-mcp",
-    "url": "https://github.com/AlaeddineMessadi/opencode-mcp",
-    "source_type": "github",
-    "resource_type": [
-      "mcp-server"
-    ],
-    "target_tools": [
-      "claude-code",
-      "opencode",
-      "cursor"
-    ],
-    "summary": "MCP server for OpenCode AI — 70 tools, 10 resources, 5 prompts. Use npx opencode-mcp with Claude Desktop, Claude Code, Cursor, Windsurf, or any MCP client.",
-    "i18n": {
-      "zh": {
-        "name": "AlaeddineMessadi/opencode-mcp",
-        "summary": "OpenCode AI 的 MCP 服务器 — 70 个工具、10 个资源、5 个提示。可将 npx opencode-mcp 与 Claude Desktop、Claude Code、Cursor、Windsurf 或任何 MCP 客户端配合使用。"
-      },
-      "en": {
-        "name": "AlaeddineMessadi/opencode-mcp",
-        "summary": "MCP server for OpenCode AI — 70 tools, 10 resources, 5 prompts. Use npx opencode-mcp with Claude Desktop, Claude Code, Cursor, Windsurf, or any MCP client."
-      }
-    },
-    "stars": 82,
-    "forks": 17,
-    "total_score": 25,
-    "quantifiable_score": 25,
-    "quality_score": 0,
-    "tracking_priority": "pending",
-    "last_updated": "2026-07-06T03:29:54Z",
-    "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
-    "license": "mit",
-    "languages": [
-      "TypeScript"
-    ],
-    "review_state": "auto-curated"
-  },
-  {
-    "id": "github-itwanger-paiagent",
-    "name": "itwanger/PaiAgent",
-    "url": "https://github.com/itwanger/PaiAgent",
-    "source_type": "github",
-    "resource_type": [
-      "tutorial"
-    ],
-    "target_tools": [
-      "qoder"
-    ],
-    "summary": "🔥轻量级的AI工作流编排系统，类似dify、n8n，全程使用Vibe Coding，AI工具为Qoder+CLI。涉及到的技术栈包括SpringAI、LangGraph4J、SSE、MinIO、DAG自定引擎等。",
-    "i18n": {
-      "zh": {
-        "name": "itwanger/PaiAgent",
-        "summary": "🔥轻量级的AI工作流编排系统，类似dify、n8n，全程使用Vibe Coding，AI工具为Qoder+CLI。涉及到的技术栈包括SpringAI、LangGraph4J、SSE、MinIO、DAG自定引擎等。"
-      },
-      "en": {
-        "name": "itwanger/PaiAgent",
-        "summary": "🔥轻量级的AI工作流编排系统，类似dify、n8n，全程使用Vibe Coding，AI工具为Qoder+CLI。涉及到的技术栈包括SpringAI、LangGraph4J、SSE、MinIO、DAG自定引擎等。"
-      }
-    },
-    "stars": 553,
-    "forks": 113,
-    "total_score": 28,
-    "quantifiable_score": 28,
-    "quality_score": 0,
-    "tracking_priority": "pending",
-    "last_updated": "2026-07-05T16:44:49Z",
-    "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
-    "license": null,
-    "languages": [
-      "Java"
-    ],
-    "review_state": "auto-curated"
-  },
-  {
-    "id": "github-waynesutton-promptstack",
-    "name": "waynesutton/promptstack",
-    "url": "https://github.com/waynesutton/promptstack",
-    "source_type": "github",
-    "resource_type": [
-      "rules"
-    ],
-    "target_tools": [
-      "trae",
-      "cursor"
-    ],
-    "summary": "A searchable collection of AI prompts and code gen cursor rules, for bolt.new, loveable, windsurf, trae, to enhance your workflow for developers.",
-    "i18n": {
-      "zh": {
-        "name": "waynesutton/promptstack",
-        "summary": "一个可搜索的AI提示词和代码生成光标规则集合，适用于bolt.new、loveable、windsurf、trae，以增强开发者的工作流。"
-      },
-      "en": {
-        "name": "waynesutton/promptstack",
-        "summary": "A searchable collection of AI prompts and code gen cursor rules, for bolt.new, loveable, windsurf, trae, to enhance your workflow for developers."
-      }
-    },
-    "stars": 77,
-    "forks": 18,
-    "total_score": 25,
-    "quantifiable_score": 25,
-    "quality_score": 0,
-    "tracking_priority": "pending",
-    "last_updated": "2026-06-27T01:06:45Z",
-    "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
-    "license": "mit",
-    "languages": [
-      "TypeScript"
-    ],
-    "review_state": "auto-curated"
-  },
-  {
-    "id": "github-blueasddaaaaaaa-workbuddy-pet",
-    "name": "BLUEasddaaaaaaa/workbuddy-pet",
-    "url": "https://github.com/BLUEasddaaaaaaa/workbuddy-pet",
-    "source_type": "github",
-    "resource_type": [
-      "tutorial"
-    ],
-    "target_tools": [
-      "workbuddy-codebuddy"
-    ],
-    "summary": "A pixel desktop pet that reacts to CodeBuddy AI coding assistant",
-    "i18n": {
-      "zh": {
-        "name": "BLUEasddaaaaaaa/workbuddy-pet",
-        "summary": "一个对CodeBuddy AI编程助手作出反应的像素桌面宠物"
-      },
-      "en": {
-        "name": "BLUEasddaaaaaaa/workbuddy-pet",
-        "summary": "A pixel desktop pet that reacts to CodeBuddy AI coding assistant"
-      }
-    },
-    "stars": 3,
-    "forks": 1,
-    "total_score": 23,
-    "quantifiable_score": 23,
-    "quality_score": 0,
-    "tracking_priority": "pending",
-    "last_updated": "2026-06-29T01:52:57Z",
-    "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
-    "license": "mit",
-    "languages": [
-      "JavaScript"
-    ],
-    "review_state": "auto-curated"
-  },
-  {
-    "id": "github-cosmicstack-labs-mercury-agent-skills",
-    "name": "cosmicstack-labs/mercury-agent-skills",
-    "url": "https://github.com/cosmicstack-labs/mercury-agent-skills",
-    "source_type": "github",
-    "resource_type": [
-      "skills"
-    ],
-    "target_tools": [
-      "hermes-agent"
-    ],
-    "summary": "A curated registry of reusable Mercury Agent, Open Claw or Hermes Agent skills designed for real developer workflows, persistent memory, and token-efficient execution.",
-    "i18n": {
-      "zh": {
-        "name": "cosmicstack-labs/mercury-agent-skills",
-        "summary": "一个精选的可复用 Mercury Agent、Open Claw 或 Hermes Agent 技能的注册表，专为真实开发者工作流、持久化记忆和令牌高效执行而设计。"
-      },
-      "en": {
-        "name": "cosmicstack-labs/mercury-agent-skills",
-        "summary": "A curated registry of reusable Mercury Agent, Open Claw or Hermes Agent skills designed for real developer workflows, persistent memory, and token-efficient execution."
-      }
-    },
-    "stars": 356,
-    "forks": 50,
-    "total_score": 27,
-    "quantifiable_score": 27,
-    "quality_score": 0,
-    "tracking_priority": "pending",
-    "last_updated": "2026-07-06T00:09:03Z",
-    "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
-    "license": "mit",
-    "languages": [
-      "JavaScript"
-    ],
-    "review_state": "auto-curated"
-  },
-  {
-    "id": "github-skills-directory-skill-codex",
-    "name": "skills-directory/skill-codex",
-    "url": "https://github.com/skills-directory/skill-codex",
-    "source_type": "github",
-    "resource_type": [
-      "skills"
-    ],
-    "target_tools": [
-      "claude-code",
-      "codex-cli"
-    ],
-    "summary": "A claude code skill to delegate prompts to codex",
-    "i18n": {
-      "zh": {
-        "name": "skills-directory/skill-codex",
-        "summary": "一种将提示委托给Codex的Claude代码技能"
-      },
-      "en": {
-        "name": "skills-directory/skill-codex",
-        "summary": "A claude code skill to delegate prompts to codex"
-      }
-    },
-    "stars": 1345,
-    "forks": 103,
-    "total_score": 32,
-    "quantifiable_score": 32,
-    "quality_score": 0,
-    "tracking_priority": "pending",
-    "last_updated": "2026-07-06T02:57:29Z",
-    "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
-    "license": "mit",
-    "languages": [],
-    "review_state": "auto-curated"
-  },
-  {
-    "id": "github-onvoyage-ai-gtm-engineer-skills",
-    "name": "onvoyage-ai/gtm-engineer-skills",
-    "url": "https://github.com/onvoyage-ai/gtm-engineer-skills",
-    "source_type": "github",
-    "resource_type": [
-      "skills"
-    ],
-    "target_tools": [
-      "claude-code"
-    ],
-    "summary": "Claude Code skill for improving website AEO (AI Engine Optimization) and GEO (Generative Engine Optimization) scores — 16 foundational checks, 6 intelligence dimensions, framework-specific fixes",
-    "i18n": {
-      "zh": {
-        "name": "onvoyage-ai/gtm-engineer-skills",
-        "summary": "Claude Code 技能：提升网站 AEO（AI Engine Optimization）和 GEO（Generative Engine Optimization）分数 — 16 项基础检查、6 个智能维度、框架特定的修复"
-      },
-      "en": {
-        "name": "onvoyage-ai/gtm-engineer-skills",
-        "summary": "Claude Code skill for improving website AEO (AI Engine Optimization) and GEO (Generative Engine Optimization) scores — 16 foundational checks, 6 intelligence dimensions, framework-specific fixes"
-      }
-    },
-    "stars": 1251,
-    "forks": 31,
-    "total_score": 31,
-    "quantifiable_score": 31,
-    "quality_score": 0,
-    "tracking_priority": "pending",
-    "last_updated": "2026-07-05T10:30:10Z",
-    "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
-    "license": "mit",
-    "languages": [
-      "HTML"
-    ],
-    "review_state": "auto-curated"
-  },
-  {
-    "id": "github-flyeric0212-cursor-rules",
-    "name": "flyeric0212/cursor-rules",
-    "url": "https://github.com/flyeric0212/cursor-rules",
-    "source_type": "github",
-    "resource_type": [
-      "rules"
-    ],
-    "target_tools": [
-      "cursor"
-    ],
-    "summary": "整理和收集来自不同项目的Cursor规则文件，提供多种编程语言和框架的规则支持。",
-    "i18n": {
-      "zh": {
-        "name": "flyeric0212/cursor-rules",
-        "summary": "整理和收集来自不同项目的Cursor规则文件，提供多种编程语言和框架的规则支持。"
-      },
-      "en": {
-        "name": "flyeric0212/cursor-rules",
-        "summary": "整理和收集来自不同项目的Cursor规则文件，提供多种编程语言和框架的规则支持。"
-      }
-    },
-    "stars": 1872,
-    "forks": 378,
-    "total_score": 30,
-    "quantifiable_score": 30,
-    "quality_score": 0,
-    "tracking_priority": "pending",
-    "last_updated": "2026-07-06T03:11:44Z",
-    "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
-    "license": null,
-    "languages": [],
-    "review_state": "auto-curated"
-  },
-  {
-    "id": "github-p4nda0s-reverse-skills",
-    "name": "P4nda0s/reverse-skills",
-    "url": "https://github.com/P4nda0s/reverse-skills",
-    "source_type": "github",
-    "resource_type": [
-      "skills"
-    ],
-    "target_tools": [
-      "claude-code"
-    ],
-    "summary": "Reverse engineering skills for Claude Code | 逆向工程 Claude Code Skills 插件",
-    "i18n": {
-      "zh": {
-        "name": "P4nda0s/reverse-skills",
-        "summary": "Reverse engineering skills for Claude Code | 逆向工程 Claude Code Skills 插件"
-      },
-      "en": {
-        "name": "P4nda0s/reverse-skills",
-        "summary": "Reverse engineering skills for Claude Code | 逆向工程 Claude Code Skills 插件"
-      }
-    },
-    "stars": 1488,
-    "forks": 196,
-    "total_score": 30,
-    "quantifiable_score": 30,
-    "quality_score": 0,
-    "tracking_priority": "pending",
-    "last_updated": "2026-07-06T13:26:33Z",
-    "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
-    "license": null,
-    "languages": [],
-    "review_state": "auto-curated"
-  },
-  {
-    "id": "github-rayfernando1337-llm-cursor-rules",
-    "name": "RayFernando1337/llm-cursor-rules",
-    "url": "https://github.com/RayFernando1337/llm-cursor-rules",
-    "source_type": "github",
-    "resource_type": [
-      "rules"
-    ],
-    "target_tools": [
-      "cursor"
-    ],
-    "summary": "My go-to rules for using Cursor and LLMs in software development.",
-    "i18n": {
-      "zh": {
-        "name": "RayFernando1337/llm-cursor-rules",
-        "summary": "我在软件开发中使用Cursor和LLM的首选规则"
-      },
-      "en": {
-        "name": "RayFernando1337/llm-cursor-rules",
-        "summary": "My go-to rules for using Cursor and LLMs in software development."
-      }
-    },
-    "stars": 888,
-    "forks": 135,
-    "total_score": 28,
-    "quantifiable_score": 28,
-    "quality_score": 0,
-    "tracking_priority": "pending",
-    "last_updated": "2026-07-04T15:37:02Z",
-    "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
-    "license": "mit",
-    "languages": [],
     "review_state": "auto-curated"
   }
 ]

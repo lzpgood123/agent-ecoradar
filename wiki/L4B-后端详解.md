@@ -214,6 +214,16 @@ weekly_analysis.py (入口，每周一 03:30 via Hermes cron)
 
 - `config/llm-analysis.yaml` - LLM 分析配置（API 参数、批次大小、重试策略、基准分数段）
 
+## 一次性历史回溯采集（initial_collection.py）
+
+- **时间下界:** `created:>2024-01-01`
+- **分层:** L1≥100k → L2 50k–99k → L3 10k–49k（全时段+极薄负向）；L4 1k–9k（按月+弱正向/coding signal）；L5a/L5b（topic+keyword，adaptive，严格过滤）；<100 本轮不做
+- **安全 merge:** 同 URL/repo 只刷新 GitHub 可量化字段，保留 `quality_score`/`quality_detail`/`tracking_priority`/`last_analyzed`/`benchmark_ref`；新项目默认 `pending` + `quality_score=0`；official-seed 不降级
+- **code search:** CLAUDE.md / .cursorrules / AGENTS.md 等 → `pending`
+- **checkpoint:** `data/initial-collection-checkpoint.json` + `data/raw/github-initial/candidates.json`
+- **CLI:** `--dry-run` / `--search-only` / `--details-only` / `--skip-existing` / `--no-readme`
+- **本轮不做:** dependents API、README 内链抽生态、stars<100（见 ADR-0005）
+
 ## 错误处理
 
 - 采集器独立运行，失败只记录不阻塞管道（required=False）
@@ -239,7 +249,7 @@ weekly_analysis.py (入口，每周一 03:30 via Hermes cron)
 - test_score_v2.py - 100 分制评分测试（stars/activity/adoption 维度）
 - test_score_main.py - score.py 主流程测试
 - test_migrate_data.py - 数据迁移测试
-- test_initial_collection.py - 历史回溯采集测试（query 生成、断点续传）
+- test_initial_collection.py - 历史回溯采集测试（分层查询、过滤、安全 merge、checkpoint）
 - test_translate_summaries.py - 翻译模块测试（JSON 解析、缓存、key 轮询）
 - test_llm_api.py - LLM API 封装测试（key 轮询、JSON 解析容错、重试逻辑）（12 个，第 3 批新增）
 - test_benchmark_manager.py - 参照基准管理测试（5 分数段、加载/保存、LLM 更新）（7 个，第 3 批新增）

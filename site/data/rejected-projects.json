@@ -292,5 +292,77 @@
       "Python"
     ],
     "review_state": "auto-rejected"
+  },
+  {
+    "id": "github-ktr0731-go-mcp",
+    "name": "ktr0731/go-mcp",
+    "url": "https://github.com/ktr0731/go-mcp",
+    "source_type": "github",
+    "resource_type": [
+      "mcp-server"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "deprecated: use the official MCP sdk! (https://github.com/modelcontextprotocol/go-sdk) / ⚡ A type-safe, intuitive Go SDK for building MCP servers with ease and confidence",
+    "i18n": {
+      "zh": {
+        "name": "ktr0731/go-mcp",
+        "summary": "deprecated: use the official MCP sdk! (https://github.com/modelcontextprotocol/go-sdk) / ⚡ A type-safe, intuitive Go SDK for building MCP servers with ease and confidence"
+      },
+      "en": {
+        "name": "ktr0731/go-mcp",
+        "summary": "deprecated: use the official MCP sdk! (https://github.com/modelcontextprotocol/go-sdk) / ⚡ A type-safe, intuitive Go SDK for building MCP servers with ease and confidence"
+      }
+    },
+    "stars": 143,
+    "forks": 6,
+    "total_score": 25,
+    "quantifiable_score": 25,
+    "quality_score": 0,
+    "tracking_priority": "reject",
+    "last_updated": "2026-02-15T11:31:53Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "Go"
+    ],
+    "review_state": "auto-rejected"
+  },
+  {
+    "id": "github-wshobson-mcp-trader",
+    "name": "wshobson/mcp-trader",
+    "url": "https://github.com/wshobson/mcp-trader",
+    "source_type": "github",
+    "resource_type": [
+      "mcp-server"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "A Model Context Protocol (MCP) server for stock traders",
+    "i18n": {
+      "zh": {
+        "name": "wshobson/mcp-trader",
+        "summary": "A Model Context Protocol (MCP) server for stock traders"
+      },
+      "en": {
+        "name": "wshobson/mcp-trader",
+        "summary": "A Model Context Protocol (MCP) server for stock traders"
+      }
+    },
+    "stars": 272,
+    "forks": 67,
+    "total_score": 26,
+    "quantifiable_score": 26,
+    "quality_score": 0,
+    "tracking_priority": "reject",
+    "last_updated": "2026-07-13T19:16:10Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": null,
+    "languages": [],
+    "review_state": "auto-rejected"
   }
 ]

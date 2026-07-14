@@ -1,41 +1,41 @@
 {
-  "projects": 293,
+  "projects": 5165,
   "curated": 40,
-  "rejected": 8,
+  "rejected": 10,
   "official_tools": 10,
-  "ecosystem_projects": 275,
+  "ecosystem_projects": 5145,
   "sources": {
     "official-seed": 10,
-    "github": 283
+    "github": 5155
   },
   "tracking_priorities": {
     "track": 34,
     "index": 1,
-    "pending": 250,
-    "reject": 8
+    "pending": 5120,
+    "reject": 10
   },
   "tool_coverage": {
-    "hermes-agent": 22,
-    "claude-code": 88,
-    "codex-cli": 43,
-    "opencode": 34,
-    "cursor": 46,
-    "goose": 2,
-    "antigravity-cli": 26,
-    "trae": 3,
-    "qoder": 17,
-    "general-ai-coding": 35,
-    "workbuddy-codebuddy": 20
+    "hermes-agent": 63,
+    "claude-code": 1431,
+    "codex-cli": 602,
+    "opencode": 236,
+    "cursor": 397,
+    "goose": 8,
+    "antigravity-cli": 139,
+    "trae": 13,
+    "qoder": 19,
+    "general-ai-coding": 3210,
+    "workbuddy-codebuddy": 26
   },
   "resource_type_coverage": {
-    "agent-framework": 15,
-    "cli-tool": 77,
-    "mcp-server": 74,
+    "agent-framework": 362,
+    "cli-tool": 477,
+    "mcp-server": 1090,
     "mcp-client": 1,
-    "skills": 61,
-    "extension": 36,
-    "tutorial": 93,
-    "rules": 20
+    "skills": 678,
+    "extension": 304,
+    "tutorial": 2699,
+    "rules": 62
   },
   "languages": [
     "zh",

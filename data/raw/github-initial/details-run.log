@@ -1,0 +1,292 @@
+=== Initial Collection: 2024-01 → 2026-07 (created >2024-01-01) ===
+Month ranges: 31 | skip_existing=False
+Checkpoint: /root/workspace/search in coding/data/initial-collection-checkpoint.json
+Resumed candidates from disk: 6803
+details-only: skipping search phases
+
+Candidates unique: 6803 → /root/workspace/search in coding/data/raw/github-initial/unique-repos.json
+Refined candidates: 6803 → 6016; dropped_new={'L1': 4, 'L2': 11, 'L3': 91, 'L4': 681, 'L5a': 0, 'L5b': 0, 'code': 0, 'other': 0}
+
+--- Fetch details + safe merge ---
+  star-tier: 4852 to fetch (skip 0 done)
+  checkpoint flush: processed=20 total_projects=309
+=== Initial Collection: 2024-01 → 2026-07 (created >2024-01-01) ===
+Month ranges: 31 | skip_existing=False
+Checkpoint: /root/workspace/search in coding/data/initial-collection-checkpoint.json
+Resumed candidates from disk: 6016
+details-only: skipping search phases
+
+Candidates unique: 6016 → /root/workspace/search in coding/data/raw/github-initial/unique-repos.json
+Refined candidates: 6016 → 6016; dropped_new={'L1': 0, 'L2': 0, 'L3': 0, 'L4': 0, 'L5a': 0, 'L5b': 0, 'code': 0, 'other': 0}
+
+--- Fetch details + safe merge ---
+  star-tier: 4826 to fetch (skip 26 done) readme=False
+  checkpoint flush: processed=20 total_projects=328
+  checkpoint flush: processed=40 total_projects=347
+  checkpoint flush: processed=60 total_projects=366
+  checkpoint flush: processed=80 total_projects=386
+  checkpoint flush: processed=100 total_projects=406
+  checkpoint flush: processed=120 total_projects=426
+  checkpoint flush: processed=140 total_projects=445
+  checkpoint flush: processed=160 total_projects=465
+  checkpoint flush: processed=180 total_projects=485
+  checkpoint flush: processed=200 total_projects=505
+  checkpoint flush: processed=220 total_projects=524
+  checkpoint flush: processed=240 total_projects=544
+  checkpoint flush: processed=260 total_projects=564
+  checkpoint flush: processed=280 total_projects=584
+  checkpoint flush: processed=300 total_projects=604
+  checkpoint flush: processed=320 total_projects=624
+  checkpoint flush: processed=340 total_projects=644
+  checkpoint flush: processed=360 total_projects=664
+  checkpoint flush: processed=380 total_projects=684
+  checkpoint flush: processed=400 total_projects=704
+  checkpoint flush: processed=420 total_projects=724
+  checkpoint flush: processed=440 total_projects=744
+  checkpoint flush: processed=460 total_projects=764
+  checkpoint flush: processed=480 total_projects=784
+  checkpoint flush: processed=500 total_projects=804
+  checkpoint flush: processed=520 total_projects=824
+  checkpoint flush: processed=540 total_projects=844
+  checkpoint flush: processed=560 total_projects=864
+  checkpoint flush: processed=580 total_projects=884
+  checkpoint flush: processed=600 total_projects=904
+  checkpoint flush: processed=620 total_projects=924
+  checkpoint flush: processed=640 total_projects=944
+  checkpoint flush: processed=660 total_projects=964
+  checkpoint flush: processed=680 total_projects=984
+  checkpoint flush: processed=700 total_projects=1004
+  checkpoint flush: processed=720 total_projects=1024
+  checkpoint flush: processed=740 total_projects=1044
+  checkpoint flush: processed=760 total_projects=1064
+  checkpoint flush: processed=780 total_projects=1084
+  checkpoint flush: processed=800 total_projects=1104
+  checkpoint flush: processed=820 total_projects=1124
+  checkpoint flush: processed=840 total_projects=1144
+  checkpoint flush: processed=860 total_projects=1164
+  checkpoint flush: processed=880 total_projects=1182
+  checkpoint flush: processed=900 total_projects=1202
+  checkpoint flush: processed=920 total_projects=1222
+  checkpoint flush: processed=940 total_projects=1242
+  checkpoint flush: processed=960 total_projects=1262
+  checkpoint flush: processed=980 total_projects=1281
+  checkpoint flush: processed=1000 total_projects=1301
+  checkpoint flush: processed=1020 total_projects=1321
+  checkpoint flush: processed=1040 total_projects=1341
+  checkpoint flush: processed=1060 total_projects=1360
+  checkpoint flush: processed=1080 total_projects=1380
+  checkpoint flush: processed=1100 total_projects=1400
+  checkpoint flush: processed=1120 total_projects=1420
+  checkpoint flush: processed=1140 total_projects=1440
+  checkpoint flush: processed=1160 total_projects=1460
+  checkpoint flush: processed=1180 total_projects=1480
+  checkpoint flush: processed=1200 total_projects=1500
+  checkpoint flush: processed=1220 total_projects=1520
+  checkpoint flush: processed=1240 total_projects=1540
+  checkpoint flush: processed=1260 total_projects=1560
+  checkpoint flush: processed=1280 total_projects=1580
+  checkpoint flush: processed=1300 total_projects=1600
+  checkpoint flush: processed=1320 total_projects=1620
+  checkpoint flush: processed=1340 total_projects=1639
+  checkpoint flush: processed=1360 total_projects=1659
+  checkpoint flush: processed=1380 total_projects=1679
+  checkpoint flush: processed=1400 total_projects=1698
+  checkpoint flush: processed=1420 total_projects=1718
+  checkpoint flush: processed=1440 total_projects=1738
+  checkpoint flush: processed=1460 total_projects=1758
+  checkpoint flush: processed=1480 total_projects=1778
+  checkpoint flush: processed=1500 total_projects=1798
+  checkpoint flush: processed=1520 total_projects=1818
+  checkpoint flush: processed=1540 total_projects=1838
+  checkpoint flush: processed=1560 total_projects=1858
+  checkpoint flush: processed=1580 total_projects=1878
+  checkpoint flush: processed=1600 total_projects=1897
+  checkpoint flush: processed=1620 total_projects=1917
+  checkpoint flush: processed=1640 total_projects=1937
+  checkpoint flush: processed=1660 total_projects=1957
+  checkpoint flush: processed=1680 total_projects=1977
+  checkpoint flush: processed=1700 total_projects=1995
+  checkpoint flush: processed=1720 total_projects=2014
+  checkpoint flush: processed=1740 total_projects=2034
+  checkpoint flush: processed=1760 total_projects=2054
+  checkpoint flush: processed=1780 total_projects=2074
+  checkpoint flush: processed=1800 total_projects=2094
+  checkpoint flush: processed=1820 total_projects=2114
+  checkpoint flush: processed=1840 total_projects=2134
+  checkpoint flush: processed=1860 total_projects=2154
+  checkpoint flush: processed=1880 total_projects=2174
+  checkpoint flush: processed=1900 total_projects=2194
+  checkpoint flush: processed=1920 total_projects=2214
+  checkpoint flush: processed=1940 total_projects=2233
+  checkpoint flush: processed=1960 total_projects=2252
+  checkpoint flush: processed=1980 total_projects=2272
+  checkpoint flush: processed=2000 total_projects=2292
+  checkpoint flush: processed=2020 total_projects=2312
+  checkpoint flush: processed=2040 total_projects=2331
+  checkpoint flush: processed=2060 total_projects=2351
+  checkpoint flush: processed=2080 total_projects=2371
+  checkpoint flush: processed=2100 total_projects=2391
+  checkpoint flush: processed=2120 total_projects=2411
+  checkpoint flush: processed=2140 total_projects=2431
+  checkpoint flush: processed=2160 total_projects=2450
+  checkpoint flush: processed=2180 total_projects=2468
+  checkpoint flush: processed=2200 total_projects=2488
+  checkpoint flush: processed=2220 total_projects=2508
+  checkpoint flush: processed=2240 total_projects=2528
+  checkpoint flush: processed=2260 total_projects=2548
+  checkpoint flush: processed=2280 total_projects=2567
+  checkpoint flush: processed=2300 total_projects=2586
+  checkpoint flush: processed=2320 total_projects=2606
+  checkpoint flush: processed=2340 total_projects=2626
+  checkpoint flush: processed=2360 total_projects=2646
+  checkpoint flush: processed=2380 total_projects=2665
+  checkpoint flush: processed=2400 total_projects=2685
+  checkpoint flush: processed=2420 total_projects=2705
+  checkpoint flush: processed=2440 total_projects=2725
+  checkpoint flush: processed=2460 total_projects=2745
+  checkpoint flush: processed=2480 total_projects=2765
+  checkpoint flush: processed=2500 total_projects=2785
+  checkpoint flush: processed=2520 total_projects=2805
+  checkpoint flush: processed=2540 total_projects=2825
+  checkpoint flush: processed=2560 total_projects=2845
+  checkpoint flush: processed=2580 total_projects=2865
+  checkpoint flush: processed=2600 total_projects=2885
+  checkpoint flush: processed=2620 total_projects=2905
+  checkpoint flush: processed=2640 total_projects=2924
+  checkpoint flush: processed=2660 total_projects=2944
+  checkpoint flush: processed=2680 total_projects=2964
+  checkpoint flush: processed=2700 total_projects=2984
+  checkpoint flush: processed=2720 total_projects=3003
+  checkpoint flush: processed=2740 total_projects=3023
+  checkpoint flush: processed=2760 total_projects=3043
+  checkpoint flush: processed=2780 total_projects=3063
+  checkpoint flush: processed=2800 total_projects=3083
+  checkpoint flush: processed=2820 total_projects=3103
+  checkpoint flush: processed=2840 total_projects=3121
+  checkpoint flush: processed=2860 total_projects=3141
+  checkpoint flush: processed=2880 total_projects=3161
+  checkpoint flush: processed=2900 total_projects=3181
+  checkpoint flush: processed=2920 total_projects=3201
+  checkpoint flush: processed=2940 total_projects=3220
+  checkpoint flush: processed=2960 total_projects=3240
+  checkpoint flush: processed=2980 total_projects=3260
+  checkpoint flush: processed=3000 total_projects=3280
+  checkpoint flush: processed=3020 total_projects=3300
+  checkpoint flush: processed=3040 total_projects=3320
+  checkpoint flush: processed=3060 total_projects=3340
+  checkpoint flush: processed=3080 total_projects=3360
+  checkpoint flush: processed=3100 total_projects=3380
+  checkpoint flush: processed=3120 total_projects=3400
+  checkpoint flush: processed=3140 total_projects=3420
+  checkpoint flush: processed=3160 total_projects=3440
+  checkpoint flush: processed=3180 total_projects=3459
+  checkpoint flush: processed=3200 total_projects=3479
+  checkpoint flush: processed=3220 total_projects=3497
+  checkpoint flush: processed=3240 total_projects=3517
+  checkpoint flush: processed=3260 total_projects=3537
+  checkpoint flush: processed=3280 total_projects=3557
+  checkpoint flush: processed=3300 total_projects=3577
+  checkpoint flush: processed=3320 total_projects=3596
+  checkpoint flush: processed=3340 total_projects=3616
+  checkpoint flush: processed=3360 total_projects=3636
+  checkpoint flush: processed=3380 total_projects=3654
+  checkpoint flush: processed=3400 total_projects=3674
+  checkpoint flush: processed=3420 total_projects=3694
+  checkpoint flush: processed=3440 total_projects=3714
+  checkpoint flush: processed=3460 total_projects=3734
+  checkpoint flush: processed=3480 total_projects=3753
+  checkpoint flush: processed=3500 total_projects=3771
+  checkpoint flush: processed=3520 total_projects=3791
+  checkpoint flush: processed=3540 total_projects=3811
+  checkpoint flush: processed=3560 total_projects=3831
+  checkpoint flush: processed=3580 total_projects=3851
+  checkpoint flush: processed=3600 total_projects=3870
+  checkpoint flush: processed=3620 total_projects=3890
+  checkpoint flush: processed=3640 total_projects=3910
+  checkpoint flush: processed=3660 total_projects=3930
+  checkpoint flush: processed=3680 total_projects=3950
+  checkpoint flush: processed=3700 total_projects=3969
+  checkpoint flush: processed=3720 total_projects=3989
+  checkpoint flush: processed=3740 total_projects=4009
+  checkpoint flush: processed=3760 total_projects=4029
+  checkpoint flush: processed=3780 total_projects=4049
+  checkpoint flush: processed=3800 total_projects=4069
+  checkpoint flush: processed=3820 total_projects=4089
+  checkpoint flush: processed=3840 total_projects=4109
+  checkpoint flush: processed=3860 total_projects=4129
+  checkpoint flush: processed=3880 total_projects=4148
+  checkpoint flush: processed=3900 total_projects=4167
+  checkpoint flush: processed=3920 total_projects=4187
+  checkpoint flush: processed=3940 total_projects=4207
+  checkpoint flush: processed=3960 total_projects=4227
+  checkpoint flush: processed=3980 total_projects=4247
+  checkpoint flush: processed=4000 total_projects=4267
+  checkpoint flush: processed=4020 total_projects=4287
+  checkpoint flush: processed=4040 total_projects=4307
+  checkpoint flush: processed=4060 total_projects=4327
+  checkpoint flush: processed=4080 total_projects=4346
+  checkpoint flush: processed=4100 total_projects=4366
+  checkpoint flush: processed=4120 total_projects=4386
+  checkpoint flush: processed=4140 total_projects=4406
+  checkpoint flush: processed=4160 total_projects=4426
+  checkpoint flush: processed=4180 total_projects=4446
+  checkpoint flush: processed=4200 total_projects=4466
+  checkpoint flush: processed=4220 total_projects=4486
+  checkpoint flush: processed=4240 total_projects=4506
+  checkpoint flush: processed=4260 total_projects=4526
+  checkpoint flush: processed=4280 total_projects=4546
+  checkpoint flush: processed=4300 total_projects=4566
+  checkpoint flush: processed=4320 total_projects=4586
+  checkpoint flush: processed=4340 total_projects=4605
+  checkpoint flush: processed=4360 total_projects=4625
+  checkpoint flush: processed=4380 total_projects=4645
+  checkpoint flush: processed=4400 total_projects=4664
+  checkpoint flush: processed=4420 total_projects=4684
+  checkpoint flush: processed=4440 total_projects=4703
+  checkpoint flush: processed=4460 total_projects=4722
+  checkpoint flush: processed=4480 total_projects=4742
+  checkpoint flush: processed=4500 total_projects=4762
+  checkpoint flush: processed=4520 total_projects=4782
+  checkpoint flush: processed=4540 total_projects=4802
+  checkpoint flush: processed=4560 total_projects=4822
+  checkpoint flush: processed=4580 total_projects=4842
+  checkpoint flush: processed=4600 total_projects=4862
+  checkpoint flush: processed=4620 total_projects=4882
+  checkpoint flush: processed=4640 total_projects=4902
+  checkpoint flush: processed=4660 total_projects=4922
+  checkpoint flush: processed=4680 total_projects=4942
+  checkpoint flush: processed=4700 total_projects=4962
+  checkpoint flush: processed=4720 total_projects=4982
+  checkpoint flush: processed=4740 total_projects=5001
+  checkpoint flush: processed=4760 total_projects=5021
+  checkpoint flush: processed=4780 total_projects=5041
+  checkpoint flush: processed=4800 total_projects=5061
+  code-search: 1164 to fetch (skip 0 done) readme=False
+  checkpoint flush: processed=20 total_projects=5096
+  checkpoint flush: processed=40 total_projects=5116
+  checkpoint flush: processed=60 total_projects=5136
+  checkpoint flush: processed=80 total_projects=5156
+
+=== Summary ===
+{
+  "start": "2024-01",
+  "end": "2026-07",
+  "search_operations_completed": 386,
+  "total_search_results": 20177,
+  "unique_candidates": 6016,
+  "completed_details": 6016,
+  "stats": {
+    "search_results": 0,
+    "kept": 0,
+    "filtered": 1085,
+    "search_errors": 0,
+    "detail_errors": 1,
+    "added": 4856,
+    "updated": 48,
+    "skipped_existing": 0,
+    "skipped_search": 0,
+    "by_tier_kept": {}
+  },
+  "total_projects": 5165,
+  "skip_existing": false
+}

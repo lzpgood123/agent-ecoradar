@@ -34,7 +34,7 @@ _Avoid_: approval state
 ### 采集管道
 
 **Initial Collection**:
-一次性历史回溯收集，按月分片搜索 2025 年 1 月至今的所有相关 GitHub 项目。独立脚本 `initial_collection.py`，支持断点续传，手动触发。
+一次性历史回溯收集。按 **stars 分层（L1–L5b）** 从 GitHub 补全 `created:>2024-01-01` 的生态项目（L4 按月；L5 adaptive 触顶再按月；&lt;100 星本轮不做）。独立脚本 `initial_collection.py`：安全 merge（保护 LLM 字段与 official-seed）、checkpoint + candidates 持久化、可选 code search；手动触发，支持 `--dry-run` / `--search-only` / `--details-only` / `--skip-existing` / `--no-readme`。
 _Avoid_: bulk fetch, batch import
 
 **Daily Incremental**:
