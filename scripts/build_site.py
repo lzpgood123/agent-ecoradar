@@ -28,6 +28,9 @@ DETAIL_FIELDS = SLIM_FIELDS + [
     'readme_preview', 'topics',
 ]
 
+# Detail shard size (batch 2 frontend perf)
+DETAIL_CHUNK_SIZE = 100
+
 SITE_URL = 'https://coding.lzpgood.online/'
 
 
@@ -35,6 +38,13 @@ def write_json(name, data):
     p = ROOT / 'site/data' / name
     p.parent.mkdir(parents=True, exist_ok=True)
     p.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding='utf-8')
+
+
+def write_json_path(path, data):
+    """Write JSON to an arbitrary path under site/data (or elsewhere)."""
+    path = path if hasattr(path, 'write_text') else ROOT / path
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding='utf-8')
 
 
 def copy_reports():
@@ -109,6 +119,98 @@ def detail_project(p):
     return {k: p.get(k) for k in DETAIL_FIELDS if k in p}
 
 
+def build_search_text(p):
+    """Lightweight search text: name + summary + resource_type + target_tools only.
+
+    Spec appendix C: lower(join(...)); excludes topics/languages/license/url/readme.
+    """
+    parts = []
+    name = p.get('name') or ''
+    summary = p.get('summary') or ''
+    if name:
+        parts.append(str(name))
+    if summary:
+        parts.append(str(summary))
+    for rt in p.get('resource_type') or []:
+        if rt:
+            parts.append(str(rt))
+    for tool in p.get('target_tools') or []:
+        if tool:
+            parts.append(str(tool))
+    return ' '.join(parts).lower()
+
+
+def build_search_index(projects):
+    """Build search-index entries: [{id, text}, ...]."""
+    return [
+        {'id': p.get('id'), 'text': build_search_text(p)}
+        for p in projects
+        if p.get('id') is not None
+    ]
+
+
+def build_detail_shards(detail_projects, detail_dir):
+    """Write detail/{i}.json shards (DETAIL_CHUNK_SIZE each) and return id→chunk index.
+
+    Clears any pre-existing *.json in detail_dir before writing.
+    """
+    detail_dir = detail_dir if hasattr(detail_dir, 'mkdir') else ROOT / detail_dir
+    detail_dir.mkdir(parents=True, exist_ok=True)
+
+    # Clear old shard files
+    for old in detail_dir.glob('*.json'):
+        old.unlink()
+
+    index = {}
+    n = len(detail_projects)
+    if n == 0:
+        return index
+
+    num_chunks = (n + DETAIL_CHUNK_SIZE - 1) // DETAIL_CHUNK_SIZE
+    for i in range(num_chunks):
+        start = i * DETAIL_CHUNK_SIZE
+        chunk = detail_projects[start:start + DETAIL_CHUNK_SIZE]
+        for item in chunk:
+            pid = item.get('id')
+            if pid is not None:
+                index[pid] = i
+        write_json_path(detail_dir / f'{i}.json', chunk)
+
+    return index
+
+
+def write_search_and_detail_artifacts(projects, site_data_dir):
+    """Write search-index + detail shards + detail-index; remove monolithic detail.
+
+    Args:
+        projects: list of project dicts (enriched or raw; detail_project applied here)
+        site_data_dir: Path to site/data directory
+    """
+    site_data_dir = site_data_dir if hasattr(site_data_dir, 'mkdir') else ROOT / site_data_dir
+    site_data_dir.mkdir(parents=True, exist_ok=True)
+
+    # Search index (lightweight)
+    search_index = build_search_index(projects)
+    write_json_path(site_data_dir / 'search-index.json', search_index)
+
+    # Detail shards
+    details = [detail_project(p) for p in projects]
+    detail_dir = site_data_dir / 'detail'
+    dindex = build_detail_shards(details, detail_dir)
+    write_json_path(site_data_dir / 'detail-index.json', dindex)
+
+    # Remove monolithic projects-detail.json if present
+    mono = site_data_dir / 'projects-detail.json'
+    if mono.exists():
+        mono.unlink()
+
+    return {
+        'search_index_count': len(search_index),
+        'detail_index_count': len(dindex),
+        'detail_chunks': (len(details) + DETAIL_CHUNK_SIZE - 1) // DETAIL_CHUNK_SIZE if details else 0,
+    }
+
+
 def hash_filename(filename, content):
     """Generate a content-hashed filename (e.g., app.a3f2b1.js)."""
     h = hashlib.md5(content.encode('utf-8')).hexdigest()[:6]
@@ -160,8 +262,9 @@ def main():
     write_json('curated-projects.json', [slim_project(p) for p in curated])
     write_json('rejected-projects.json', [slim_project(p) for p in rejected])
 
-    # Write detail JSON (lazy-loaded by detail panel)
-    write_json('projects-detail.json', [detail_project(p) for p in projects])
+    # Batch 2: search-index + detail shards (no monolithic projects-detail.json)
+    site_data = ROOT / 'site/data'
+    detail_stats = write_search_and_detail_artifacts(projects, site_data)
 
     # Write other data
     write_json('tools.json', tools)
@@ -226,8 +329,12 @@ def main():
         'site_data': 'site/data',
         'reports': 'site/reports',
         'projects': len(projects),
-        'slim_projects': len([slim_project(p) for p in projects]),
-        'detail_projects': len([detail_project(p) for p in projects]),
+        'slim_projects': len(projects),
+        'search_index': detail_stats['search_index_count'],
+        'detail_index': detail_stats['detail_index_count'],
+        'detail_chunks': detail_stats['detail_chunks'],
+        'detail_chunk_size': DETAIL_CHUNK_SIZE,
+        'monolithic_detail': False,
         'curated': len(curated),
         'tools': len(tools),
         'sitemap': True,

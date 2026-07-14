@@ -66,8 +66,10 @@ const SIC_filters = {
       if (p.tracking_priority === 'reject') return false;
 
       if (this.searchQuery) {
+        // Batch 2: use prebuilt search-index Map (name/summary/resource_type/target_tools)
+        // Do NOT JSON.stringify the whole project (matches internal fields & is slow).
         const q = this.searchQuery.toLowerCase();
-        const text = JSON.stringify(p).toLowerCase();
+        const text = (SIC_data.searchMap && SIC_data.searchMap[p.id]) || '';
         if (!text.includes(q)) return false;
       }
 

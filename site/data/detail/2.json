@@ -1,0 +1,5436 @@
+[
+  {
+    "id": "github-joegoldin-antigravity-cli-nix",
+    "name": "joegoldin/antigravity-cli-nix",
+    "url": "https://github.com/joegoldin/antigravity-cli-nix",
+    "source_type": "github",
+    "resource_type": [
+      "mcp-server",
+      "extension",
+      "cli-tool"
+    ],
+    "target_tools": [
+      "antigravity-cli"
+    ],
+    "summary": "Declarative Antigravity CLI plugins, skills, agents, rules, hooks, and MCP servers for Nix",
+    "i18n": {
+      "zh": {
+        "name": "joegoldin/antigravity-cli-nix",
+        "summary": "用于Nix的声明式Antigravity CLI插件、技能、代理、规则、钩子和MCP服务器"
+      },
+      "en": {
+        "name": "joegoldin/antigravity-cli-nix",
+        "summary": "Declarative Antigravity CLI plugins, skills, agents, rules, hooks, and MCP servers for Nix"
+      }
+    },
+    "stars": 2,
+    "forks": 0,
+    "total_score": 21,
+    "quantifiable_score": 21,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-06-09T18:34:50Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": "mit",
+    "languages": [
+      "Nix"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 2,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "joegoldin/antigravity-cli-nix",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# antigravity-cli-nix\n\nDeclarative [Antigravity CLI](https://antigravity.google/docs/cli-overview)\nplugins, skills, agents, rules, hooks, and MCP servers for Nix.\n\nSuccessor to [gemini-nix](https://github.com/joegoldin/gemini-nix), which is\narchived (it targeted the deprecated `gemini-cli`).\n\n## Usage\n\nAdd as a flake input:\n\n```nix\ninputs.antigravity-cli-nix = {\n  url = \"github:joegoldin/antigravity-cli-nix\";\n  inputs.nixpkgs.follows = \"nixpkgs\";\n};\n```\n\nThen in a home-manager module:\n\n```nix\n{ ",
+    "topics": []
+  },
+  {
+    "id": "github-w4k4s-claude-code-boris-workflow",
+    "name": "W4k4s/claude-code-boris-workflow",
+    "url": "https://github.com/W4k4s/claude-code-boris-workflow",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "claude-code",
+      "codex-cli",
+      "opencode"
+    ],
+    "summary": "Global Boris workflow for Claude Code, Codex, and OpenCode: agents, commands, skills, guardrails, and modular installer.",
+    "i18n": {
+      "zh": {
+        "name": "W4k4s/claude-code-boris-workflow",
+        "summary": "用于Claude Code、Codex和OpenCode的全局Boris工作流：代理、命令、技能、防护栏和模块化安装程序。"
+      },
+      "en": {
+        "name": "W4k4s/claude-code-boris-workflow",
+        "summary": "Global Boris workflow for Claude Code, Codex, and OpenCode: agents, commands, skills, guardrails, and modular installer."
+      }
+    },
+    "stars": 2,
+    "forks": 0,
+    "total_score": 21,
+    "quantifiable_score": 21,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-02T19:57:27Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": "mit",
+    "languages": [
+      "HTML"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 2,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "W4k4s/claude-code-boris-workflow",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "Global Boris Workflow\n\n  A portable, safety-first workflow for Claude Code, Codex, and OpenCode.\n\n  User Guide\n  ·\n  Guía en español\n  ·\n  Agent Install Guide\n\n  \n  \n  \n  \n\n  \n  \n\n  \n    New to AI coding workflows?Start with the guide before installing anything. It explains the terms, the safe workflow, when to plan, when to verify, and how to avoid losing context or overwriting work.\n    Recommended pathRead the User GuideLeer la guía en españolThen install with an agent\n  \n\n---\n\n## What This I",
+    "topics": []
+  },
+  {
+    "id": "github-april-xu-sanshui",
+    "name": "April-Xu/sanshui",
+    "url": "https://github.com/April-Xu/sanshui",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "qoder"
+    ],
+    "summary": "Sanshui - a desktop pet for Qoder AI coding assistant",
+    "i18n": {
+      "zh": {
+        "name": "April-Xu/sanshui",
+        "summary": "Sanshui - 一款面向Qoder AI编程助手的桌面宠物"
+      },
+      "en": {
+        "name": "April-Xu/sanshui",
+        "summary": "Sanshui - a desktop pet for Qoder AI coding assistant"
+      }
+    },
+    "stars": 2,
+    "forks": 0,
+    "total_score": 19,
+    "quantifiable_score": 19,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-06-11T14:37:37Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 2,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "April-Xu/sanshui",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-yinqd3-workbuddy-skills",
+    "name": "yinqd3/workbuddy-skills",
+    "url": "https://github.com/yinqd3/workbuddy-skills",
+    "source_type": "github",
+    "resource_type": [
+      "skills"
+    ],
+    "target_tools": [
+      "workbuddy-codebuddy"
+    ],
+    "summary": "A curated collection of WorkBuddy agent skills — academic pipeline, frontend slides, PPTX generator, tool-call repair, and more.",
+    "i18n": {
+      "zh": {
+        "name": "yinqd3/workbuddy-skills",
+        "summary": "精心策划的WorkBuddy代理技能集合——学术流程、前端幻灯片、PPTX生成器、工具调用修复等等。"
+      },
+      "en": {
+        "name": "yinqd3/workbuddy-skills",
+        "summary": "A curated collection of WorkBuddy agent skills — academic pipeline, frontend slides, PPTX generator, tool-call repair, and more."
+      }
+    },
+    "stars": 2,
+    "forks": 0,
+    "total_score": 21,
+    "quantifiable_score": 21,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-06-28T13:10:56Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": "mit",
+    "languages": [
+      "JavaScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 2,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "yinqd3/workbuddy-skills",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# WorkBuddy Skills Collection\n\nA curated collection of [WorkBuddy](https://www.codebuddy.cn/docs/workbuddy/Overview) agent skills — reusable instruction packs that extend an AI assistant with specialized workflows, domain knowledge, and tool integrations.\n\n## Skills Overview\n\n| Skill | Type | Description |\n|---|---|---|\n| **academic-research** | Pipeline | Full academic research pipeline: deep-research → paper writing → peer review → final polish |\n| **frontend-slides** | Tool | Create beautiful",
+    "topics": [
+      "academic-research",
+      "agent-skills",
+      "ai-skills",
+      "llm-tooling",
+      "obsidian",
+      "workbuddy",
+      "workflow-automation"
+    ]
+  },
+  {
+    "id": "github-jiukai-statistical-analysis-skills-with-workbuddy",
+    "name": "jiukai/Statistical-Analysis-Skills-with-WorkBuddy",
+    "url": "https://github.com/jiukai/Statistical-Analysis-Skills-with-WorkBuddy",
+    "source_type": "github",
+    "resource_type": [
+      "skills"
+    ],
+    "target_tools": [
+      "workbuddy-codebuddy"
+    ],
+    "summary": "WorkBuddy AI Skills for Stata-run, python-run, and Time Series Analysis - 面向经管科研的统计软件AI教育智能体技能包",
+    "i18n": {
+      "zh": {
+        "name": "jiukai/Statistical-Analysis-Skills-with-WorkBuddy",
+        "summary": "WorkBuddy AI Skills for Stata-run, python-run, and Time Series Analysis - 面向经管科研的统计软件AI教育智能体技能包"
+      },
+      "en": {
+        "name": "jiukai/Statistical-Analysis-Skills-with-WorkBuddy",
+        "summary": "WorkBuddy AI Skills for Stata-run, python-run, and Time Series Analysis - 面向经管科研的统计软件AI教育智能体技能包"
+      }
+    },
+    "stars": 2,
+    "forks": 0,
+    "total_score": 19,
+    "quantifiable_score": 19,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-06-30T05:38:32Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 2,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "jiukai/Statistical-Analysis-Skills-with-WorkBuddy",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# Statistical Analysis Skills with WorkBuddy\r\n\r\n> 面向经管科研的统计软件AI教育智能体技能包\r\n> AI-powered Statistical Analysis Skills for WorkBuddy Platform\r\n\r\n## 📦 Skills Included\r\n\r\n| Skill | Description |\r\n|---|---|\r\n| **Stata-run** | Run and explain Stata .do files via natural language; auto-detects Stata installation |\r\n| **python-run** | Run and explain Python scripts; supports time series cleaning & Stata-based visualization |\r\n| **时间序列分析** (Time Series Analysis) | Three-in-one: data cleaning → visualization",
+    "topics": []
+  },
+  {
+    "id": "github-onehub-work-qoder-cli-api",
+    "name": "onehub-work/qoder-cli-api",
+    "url": "https://github.com/onehub-work/qoder-cli-api",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "qoder"
+    ],
+    "summary": "Turn [qodercli](https://qoder.com) into an OpenAI/Anthropic API compatible server. Use Qoder CLI's AI capabilities through standard API interfaces, enabling integration with any OpenAI/Anthropic compatible client.",
+    "i18n": {
+      "zh": {
+        "name": "onehub-work/qoder-cli-api",
+        "summary": "将 [qodercli](https://qoder.com) 转变为兼容 OpenAI/Anthropic API 的服务器。通过标准 API 接口使用 Qoder CLI 的 AI 能力，实现与任何 OpenAI/Anthropic 兼容客户端的集成。"
+      },
+      "en": {
+        "name": "onehub-work/qoder-cli-api",
+        "summary": "Turn [qodercli](https://qoder.com) into an OpenAI/Anthropic API compatible server. Use Qoder CLI's AI capabilities through standard API interfaces, enabling integration with any OpenAI/Anthropic compatible client."
+      }
+    },
+    "stars": 2,
+    "forks": 1,
+    "total_score": 23,
+    "quantifiable_score": 23,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-04-24T03:13:47Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": "mit",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 2,
+      "activity": 15,
+      "adoption": 2,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "onehub-work/qoder-cli-api",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# qodercli-api\n\nTurn [qodercli](https://qoder.com) into an **OpenAI / Anthropic API compatible server**. Proxy any OpenAI/Anthropic-compatible client to Qoder CLI's AI capabilities.\n\n[中文版](README_zh.md)\n\n## Features\n\n- **OpenAI Compatible** — `POST /v1/chat/completions` (standard + SSE streaming)\n- **Anthropic Compatible** — `POST /v1/messages` (standard + SSE streaming)\n- **Model Aliasing** — `gpt-4o`, `claude-sonnet-4-20250514`, etc. map to Qoder model levels\n- **Session Persistence** — Option",
+    "topics": []
+  },
+  {
+    "id": "github-hyophyop-mapreduce-skill",
+    "name": "hyophyop/mapreduce-skill",
+    "url": "https://github.com/hyophyop/mapreduce-skill",
+    "source_type": "github",
+    "resource_type": [
+      "cli-tool"
+    ],
+    "target_tools": [
+      "codex-cli"
+    ],
+    "summary": "Codex CLI skill: MapReduce(+Verify) orchestration with deterministic .rlm artifacts",
+    "i18n": {
+      "zh": {
+        "name": "hyophyop/mapreduce-skill",
+        "summary": "Codex CLI 技能：具有确定性 .rlm 产物的 MapReduce(+Verify) 编排"
+      },
+      "en": {
+        "name": "hyophyop/mapreduce-skill",
+        "summary": "Codex CLI skill: MapReduce(+Verify) orchestration with deterministic .rlm artifacts"
+      }
+    },
+    "stars": 2,
+    "forks": 0,
+    "total_score": 14,
+    "quantifiable_score": 14,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-01-12T20:51:23Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": "mit",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 2,
+      "activity": 8,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "hyophyop/mapreduce-skill",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# mapreduce-skill (Codex skills)\n\nThis repository contains a paired set of skills for OpenAI Codex CLI:\n\n- `reduce-orchestrator`: a MapReduce (+ Verify) orchestrator that coordinates many workers and synthesizes results.\n- `map-worker`: the worker contract used for all Map and Verify tasks (writes narrative reports to `report_path`).\n\nThese skills are designed to run as a **pair**. `reduce-orchestrator` depends on `map-worker` and will not work correctly if `map-worker` is not installed.\n\n## Wha",
+    "topics": []
+  },
+  {
+    "id": "github-cloudedquartz-opencode-mcp-adapter",
+    "name": "CloudedQuartz/opencode-mcp-adapter",
+    "url": "https://github.com/CloudedQuartz/opencode-mcp-adapter",
+    "source_type": "github",
+    "resource_type": [
+      "mcp-server"
+    ],
+    "target_tools": [
+      "opencode"
+    ],
+    "summary": "CloudedQuartz/opencode-mcp-adapter",
+    "i18n": {
+      "zh": {
+        "name": "CloudedQuartz/opencode-mcp-adapter",
+        "summary": "CloudedQuartz 出品的 opencode-mcp-adapter 仓库"
+      },
+      "en": {
+        "name": "CloudedQuartz/opencode-mcp-adapter",
+        "summary": "CloudedQuartz/opencode-mcp-adapter"
+      }
+    },
+    "stars": 2,
+    "forks": 0,
+    "total_score": 21,
+    "quantifiable_score": 21,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-06-21T22:13:55Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": "mit",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 2,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "CloudedQuartz/opencode-mcp-adapter",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# opencode-mcp-adapter\n\nOpenCode plugin that wraps MCP servers as native tools. This allows MCP tools to go through the `tool.definition` hook, making them compatible with tool-search and other plugins.\n\n## Problem\n\nMCP tools in OpenCode bypass the `tool.definition` hook, so plugins like `opencode-tool-search` can't defer their descriptions.\n\n## Solution\n\nThis plugin:\n1. Connects to MCP servers defined in plugin config (not opencode.jsonc's mcp section)\n2. Fetches tools from each MCP server\n3. W",
+    "topics": []
+  },
+  {
+    "id": "github-k3vinb5-opencode-mcp-installer",
+    "name": "K3vinb5/opencode-mcp-installer",
+    "url": "https://github.com/K3vinb5/opencode-mcp-installer",
+    "source_type": "github",
+    "resource_type": [
+      "mcp-server",
+      "extension"
+    ],
+    "target_tools": [
+      "opencode"
+    ],
+    "summary": "OpenCode TUI plugin that adds `/install-mcps` and installs MCP server configuration from the official MCP Registry into `~/.config/opencode/opencode.json`.",
+    "i18n": {
+      "zh": {
+        "name": "K3vinb5/opencode-mcp-installer",
+        "summary": "这是一个OpenCode TUI插件，它添加了`/install-mcps`命令，并从官方MCP Registry将MCP服务器配置安装到`~/.config/opencode/opencode.json`中。"
+      },
+      "en": {
+        "name": "K3vinb5/opencode-mcp-installer",
+        "summary": "OpenCode TUI plugin that adds `/install-mcps` and installs MCP server configuration from the official MCP Registry into `~/.config/opencode/opencode.json`."
+      }
+    },
+    "stars": 2,
+    "forks": 0,
+    "total_score": 19,
+    "quantifiable_score": 19,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-05-15T16:21:12Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 2,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "K3vinb5/opencode-mcp-installer",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# opencode-mcp-installer\n\nOpenCode TUI plugin that adds `/install-mcps` and installs MCP server configuration from the official MCP Registry into `~/.config/opencode/opencode.json`.\n\n## Installation\n\nThis is a TUI plugin, so it must be configured in `~/.config/opencode/tui.json`.\n\n### 1. Build the plugin\n\nFrom this directory:\n\n```bash\nbun install\nbun run fetch-snapshot\nbun run build\n```\n\n### 2. Add it to OpenCode\n\nAdd the built file to `~/.config/opencode/tui.json`:\n\n```json\n{\n  \"$schema\": \"http",
+    "topics": [
+      "opencode-ai",
+      "opencode-plugin",
+      "opencode-plugins",
+      "opencode-skills",
+      "opencode"
+    ]
+  },
+  {
+    "id": "github-jdbernardo16-opencode-mcp-figma-remote",
+    "name": "jdbernardo16/opencode-mcp-figma-remote",
+    "url": "https://github.com/jdbernardo16/opencode-mcp-figma-remote",
+    "source_type": "github",
+    "resource_type": [
+      "mcp-server"
+    ],
+    "target_tools": [
+      "opencode"
+    ],
+    "summary": "jdbernardo16/opencode-mcp-figma-remote",
+    "i18n": {
+      "zh": {
+        "name": "jdbernardo16/opencode-mcp-figma-remote",
+        "summary": "jdbernardo16/opencode-mcp-figma-remote 项目"
+      },
+      "en": {
+        "name": "jdbernardo16/opencode-mcp-figma-remote",
+        "summary": "jdbernardo16/opencode-mcp-figma-remote"
+      }
+    },
+    "stars": 2,
+    "forks": 0,
+    "total_score": 19,
+    "quantifiable_score": 19,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-04T16:02:52Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 2,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "jdbernardo16/opencode-mcp-figma-remote",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# Figma Remote MCP for OpenCode\n\nBridge the Figma MCP remote server (`https://mcp.figma.com/mcp`) with OpenCode.\n\n## The Problem\n\nFigma's remote MCP server only accepts OAuth registrations from whitelisted clients (VS Code, Cursor, Claude Code). OpenCode is not on that list, so `opencode mcp auth figma` fails with **HTTP 403 Forbidden** when trying to register.\n\nAdditionally, OpenCode's built-in `opencode mcp auth` flow gets a 403 when trying to complete the OAuth handshake.\n\n## The Solution\n\nTh",
+    "topics": []
+  },
+  {
+    "id": "github-contrapuntal-antigravity-cli-plugin-cc",
+    "name": "contrapuntal/antigravity-cli-plugin-cc",
+    "url": "https://github.com/contrapuntal/antigravity-cli-plugin-cc",
+    "source_type": "github",
+    "resource_type": [
+      "extension"
+    ],
+    "target_tools": [
+      "claude-code",
+      "codex-cli",
+      "antigravity-cli",
+      "opencode"
+    ],
+    "summary": "Run Gemini for code reviews and task delegation from Claude Code, Codex CLI, OpenCode, Pi.dev, or Copilot CLI.",
+    "i18n": {
+      "zh": {
+        "name": "contrapuntal/antigravity-cli-plugin-cc",
+        "summary": "运行 Gemini，用于从 Claude Code、Codex CLI、OpenCode、Pi.dev 或 Copilot CLI 进行代码审查和任务委派。"
+      },
+      "en": {
+        "name": "contrapuntal/antigravity-cli-plugin-cc",
+        "summary": "Run Gemini for code reviews and task delegation from Claude Code, Codex CLI, OpenCode, Pi.dev, or Copilot CLI."
+      }
+    },
+    "stars": 1,
+    "forks": 0,
+    "total_score": 21,
+    "quantifiable_score": 21,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-06-24T01:19:25Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": "apache-2.0",
+    "languages": [
+      "JavaScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 2,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "contrapuntal/antigravity-cli-plugin-cc",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# Antigravity plugin for Claude Code\n\nRun Antigravity from inside Claude Code for code reviews and delegated tasks.\n\nThis plugin lets Claude Code users reach Antigravity without leaving their workflow. It adapts [codex-plugin-cc](https://github.com/openai/codex-plugin-cc) to the Antigravity CLI (`agy`) runtime model.\n\n> [!IMPORTANT]\n> **This wraps the Antigravity *CLI*, not the Antigravity IDE.** \"Antigravity\" names several Google products. This plugin drives `agy`, the standalone command-line b",
+    "topics": [
+      "claude-code",
+      "code-review",
+      "gemini",
+      "anthropic-skill",
+      "codex-cli",
+      "copilot-cli",
+      "opencode",
+      "pi-dev",
+      "plugin"
+    ]
+  },
+  {
+    "id": "github-sajjadgg-rehearsal",
+    "name": "sajjadGG/Rehearsal",
+    "url": "https://github.com/sajjadGG/Rehearsal",
+    "source_type": "github",
+    "resource_type": [
+      "mcp-server",
+      "agent-framework"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Local end-to-end testing lab for any MCP server: coding agents role-play real users, drive your tools over multiple turns, score runs, and render/interact with MCP Apps ui:// widgets.",
+    "i18n": {
+      "zh": {
+        "name": "sajjadGG/Rehearsal",
+        "summary": "适用于任何MCP服务器的本地端到端测试实验室：编码代理扮演真实用户，在多个回合中驱动你的工具，对运行进行评分，并渲染/与MCP Apps的ui://小部件交互。"
+      },
+      "en": {
+        "name": "sajjadGG/Rehearsal",
+        "summary": "Local end-to-end testing lab for any MCP server: coding agents role-play real users, drive your tools over multiple turns, score runs, and render/interact with MCP Apps ui:// widgets."
+      }
+    },
+    "stars": 1,
+    "forks": 0,
+    "total_score": 21,
+    "quantifiable_score": 21,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-04T19:46:53Z",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "license": "mit",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 2,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "sajjadGG/Rehearsal",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# Ghostlab\n\n> A local, end-to-end **testing lab for MCP servers and agent skills** — coding agents role-play\n> real users, drive your tools over multiple turns, and the harness captures\n> traces, scores outcomes, and even **renders and clicks through MCP Apps UI\n> widgets**.\n\n[![CI](https://github.com/sajjadGG/Ghostlab/actions/workflows/ci.yml/badge.svg)](https://github.com/sajjadGG/Ghostlab/actions)\n[![Docs](https://img.shields.io/badge/docs-wiki-blue)](https://sajjadgg.github.io/Ghostlab/)\n[![",
+    "topics": [
+      "agent-testing",
+      "ai-agents",
+      "claude",
+      "codex",
+      "developer-tools",
+      "end-to-end-testing",
+      "llm",
+      "llm-evaluation",
+      "mcp",
+      "mcp-apps",
+      "model-context-protocol",
+      "python",
+      "testing-tools"
+    ]
+  },
+  {
+    "id": "github-atirian-chen-ai-pr-review-agent",
+    "name": "Atirian-Chen/ai-pr-review-agent",
+    "url": "https://github.com/Atirian-Chen/ai-pr-review-agent",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Local-first AI PR review agent for GitHub Pull Requests: diff parsing, lightweight repo context, conservative LLM findings, validation, and JSON/Markdown reports.",
+    "i18n": {
+      "zh": {
+        "name": "Atirian-Chen/ai-pr-review-agent",
+        "summary": "本地优先的 AI PR 审查代理，用于 GitHub 拉取请求：diff 解析、轻量级仓库上下文、保守的 LLM 发现、验证，以及 JSON/Markdown 报告。"
+      },
+      "en": {
+        "name": "Atirian-Chen/ai-pr-review-agent",
+        "summary": "Local-first AI PR review agent for GitHub Pull Requests: diff parsing, lightweight repo context, conservative LLM findings, validation, and JSON/Markdown reports."
+      }
+    },
+    "stars": 1,
+    "forks": 0,
+    "total_score": 19,
+    "quantifiable_score": 19,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-06-25T13:35:16Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 2,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "Atirian-Chen/ai-pr-review-agent",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# AI PR Review Agent / 面向 GitHub PR 的 AI 代码审查 Agent\n\n## Version1 Update / 从 MVP 到 version1 的变化\n\n`version1` 是在 `version_mvp` 基础上的一次完整功能扩展。MVP 版本主要证明了“读取 GitHub PR -> 解析 patch -> 构建上下文 -> 调用 LLM -> 输出 JSON/Markdown 报告”这条最小链路；`version1` 则把它推进成一个可以覆盖更多审查入口、可以在 GitHub Actions 中自动运行、并带有评测集与示例输出的工程化版本。\n\nCompared with `origin/codex/version_mvp`, `version1` adds 44 changed files and roughly 2.6k lines of implementation, tests, examples, and docs. The main change is that the agent is no longer PR-only: it",
+    "topics": [
+      "ai-code-review",
+      "code-review-agent",
+      "developer-tools",
+      "github-api",
+      "llm",
+      "openai-compatible",
+      "pull-request",
+      "pydantic",
+      "python"
+    ]
+  },
+  {
+    "id": "github-rendersman-export-repo-wiki-to-pdf",
+    "name": "rendersman/export-repo-wiki-to-pdf",
+    "url": "https://github.com/rendersman/export-repo-wiki-to-pdf",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "qoder"
+    ],
+    "summary": "Export Qoder Repo Wiki to PDF including Mermaid diagrams. ",
+    "i18n": {
+      "zh": {
+        "name": "rendersman/export-repo-wiki-to-pdf",
+        "summary": "将 Qoder Repo Wiki 导出为 PDF，包括 Mermaid 图表。"
+      },
+      "en": {
+        "name": "rendersman/export-repo-wiki-to-pdf",
+        "summary": "Export Qoder Repo Wiki to PDF including Mermaid diagrams. "
+      }
+    },
+    "stars": 1,
+    "forks": 0,
+    "total_score": 16,
+    "quantifiable_score": 16,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-04-11T12:53:47Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": "mit",
+    "languages": [],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 2,
+      "activity": 12,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "rendersman/export-repo-wiki-to-pdf",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# export-repo-wiki-to-pdf\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)\n\nExport Qoder repository wiki to PDF format with full Mermaid diagram support. Converts markdown wiki files to individual PDFs and merges them into a single complete document.\n\n## Features\n\n- **Mermaid Diagram Support** - Automatically renders Mermaid diagrams in PDF output\n- **",
+    "topics": []
+  },
+  {
+    "id": "github-chasexu168340-rgb-codex-skills",
+    "name": "chasexu168340-rgb/codex-skills",
+    "url": "https://github.com/chasexu168340-rgb/codex-skills",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "codex-cli",
+      "workbuddy-codebuddy"
+    ],
+    "summary": "WorkBuddy AI skills collection",
+    "i18n": {
+      "zh": {
+        "name": "chasexu168340-rgb/codex-skills",
+        "summary": "WorkBuddy AI技能集合"
+      },
+      "en": {
+        "name": "chasexu168340-rgb/codex-skills",
+        "summary": "WorkBuddy AI skills collection"
+      }
+    },
+    "stars": 1,
+    "forks": 1,
+    "total_score": 21,
+    "quantifiable_score": 21,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-05-24T09:31:21Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 2,
+      "activity": 15,
+      "adoption": 2,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "chasexu168340-rgb/codex-skills",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-leahchen2025-flashcard-generator",
+    "name": "leahchen2025/flashcard-generator",
+    "url": "https://github.com/leahchen2025/flashcard-generator",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "workbuddy-codebuddy"
+    ],
+    "summary": "WorkBuddy AI Skill - Generate cute bilingual English word flashcards for kids (kawaii style, 2 words per card)",
+    "i18n": {
+      "zh": {
+        "name": "leahchen2025/flashcard-generator",
+        "summary": "WorkBuddy AI Skill - 生成可爱的双语英语单词闪卡供儿童使用（kawaii风格，每卡两个单词）"
+      },
+      "en": {
+        "name": "leahchen2025/flashcard-generator",
+        "summary": "WorkBuddy AI Skill - Generate cute bilingual English word flashcards for kids (kawaii style, 2 words per card)"
+      }
+    },
+    "stars": 1,
+    "forks": 0,
+    "total_score": 21,
+    "quantifiable_score": 21,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-05-20T15:31:39Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": "mit",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 2,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "leahchen2025/flashcard-generator",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# Flashcard Generator - English Word Flashcard Skill\n\n  \n\nA **Skill** that generates cute, kawaii-style bilingual (English + Chinese) word flashcards for children's English learning. Just provide two English words and get a beautiful flashcard image in seconds.\n\n## Features\n\n- **Two words per card** - Each flashcard teaches two related or contrasting words\n- **Bilingual** - English word + Chinese translation + example sentence with translation\n- **Kawaii style** - Pink fluffy cloud characters wi",
+    "topics": []
+  },
+  {
+    "id": "github-lfeng-qoder-cli-skill",
+    "name": "lfeng/qoder-cli-skill",
+    "url": "https://github.com/lfeng/qoder-cli-skill",
+    "source_type": "github",
+    "resource_type": [
+      "cli-tool"
+    ],
+    "target_tools": [
+      "qoder"
+    ],
+    "summary": "Qoder CLI Skill for OpenClaw",
+    "i18n": {
+      "zh": {
+        "name": "lfeng/qoder-cli-skill",
+        "summary": "适用于 OpenClaw 的 Qoder CLI 技能"
+      },
+      "en": {
+        "name": "lfeng/qoder-cli-skill",
+        "summary": "Qoder CLI Skill for OpenClaw"
+      }
+    },
+    "stars": 1,
+    "forks": 0,
+    "total_score": 16,
+    "quantifiable_score": 16,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-02-28T02:36:18Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": "mit",
+    "languages": [],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 2,
+      "activity": 12,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "lfeng/qoder-cli-skill",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# Qoder CLI Skill for OpenClaw\n\n🤖 Delegate coding tasks to Qoder CLI with full feature support.\n\n## ⚠️ Important: Print Mode Only\n\n**TUI mode is NOT supported** in OpenClaw or other automated environments. This skill uses **Print mode** (`-p` flag) for all operations.\n\n## Features\n\n- ✅ **Print Mode** - Non-interactive automation (TTY-free)\n- ✅ **Subagents** - Specialized AI agents for specific tasks\n- ✅ **Worktrees** - Parallel development with Git worktrees\n- ✅ **MCP Servers** - Extend with Mod",
+    "topics": []
+  },
+  {
+    "id": "github-cyj316457-qoder-api-bridge",
+    "name": "CYJ316457/qoder-api-bridge",
+    "url": "https://github.com/CYJ316457/qoder-api-bridge",
+    "source_type": "github",
+    "resource_type": [
+      "cli-tool"
+    ],
+    "target_tools": [
+      "qoder"
+    ],
+    "summary": "Local Qoder CLI bridge with OpenAI-compatible endpoints and metrics dashboard",
+    "i18n": {
+      "zh": {
+        "name": "CYJ316457/qoder-api-bridge",
+        "summary": "本地 Qoder CLI 桥接，支持 OpenAI 兼容端点与指标仪表板"
+      },
+      "en": {
+        "name": "CYJ316457/qoder-api-bridge",
+        "summary": "Local Qoder CLI bridge with OpenAI-compatible endpoints and metrics dashboard"
+      }
+    },
+    "stars": 1,
+    "forks": 0,
+    "total_score": 19,
+    "quantifiable_score": 19,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-06-04T14:49:47Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "JavaScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 2,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "CYJ316457/qoder-api-bridge",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "﻿# Qoder API Bridge\n\nMinimal local bridge for Qoder CLI.\n\n- API base: `http://127.0.0.1:8787/v1`\n- Dashboard: `http://127.0.0.1:8787/dashboard`\n- Database: `data/bridge.sqlite`\n\nPrerequisite: `qodercli.exe status -o json` must report `logged_in: true` before model calls can succeed.\n\nStart:\n\n```powershell\ncd C:\\AI\\Codex\\Install\\qoder-api-bridge\nnpm start\n```\n\nOpenAI-compatible clients:\n\n```powershell\n$env:OPENAI_BASE_URL=\"http://127.0.0.1:8787/v1\"\n$env:OPENAI_API_KEY=\"local\"\n```\n\nResponses API e",
+    "topics": []
+  },
+  {
+    "id": "github-nichengfuben-qoder-patchs",
+    "name": "nichengfuben/qoder-patchs",
+    "url": "https://github.com/nichengfuben/qoder-patchs",
+    "source_type": "github",
+    "resource_type": [
+      "cli-tool"
+    ],
+    "target_tools": [
+      "qoder"
+    ],
+    "summary": "Qoder CLI 补丁管理工具 -- 交互式蓝色 CLI, 可扩展补丁系统",
+    "i18n": {
+      "zh": {
+        "name": "nichengfuben/qoder-patchs",
+        "summary": "Qoder CLI 补丁管理工具 -- 交互式蓝色 CLI, 可扩展补丁系统"
+      },
+      "en": {
+        "name": "nichengfuben/qoder-patchs",
+        "summary": "Qoder CLI 补丁管理工具 -- 交互式蓝色 CLI, 可扩展补丁系统"
+      }
+    },
+    "stars": 1,
+    "forks": 0,
+    "total_score": 21,
+    "quantifiable_score": 21,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-06-19T06:41:58Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": "mit",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 2,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "nichengfuben/qoder-patchs",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "```\n ██████╗  ██████╗ ██████╗ ███████╗██████╗\n██╔═══██╗██╔══██╗██╔══██╗██╔════╝██╔══██╗\n██║   ██║██║  ██║██████╔╝█████╗  ██████╔╝\n██║▄▄ ██║██║  ██║██╔══██╗██╔══╝  ██╔══██╗\n╚██████╔╝██████╔╝██║  ██║███████╗██║  ██║\n ╚══▀▀═╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝\n```\n\n# Qoder Patch Manager (qoder-patchs)\n\n**Qoder CLI Patch Management Tool -- Interactive Blue CLI, Extensible Patch System**\n**Qoder CLI 补丁管理工具 -- 交互式蓝色 CLI, 可扩展补丁系统**\n\n---\n\n## Problem / 问题背景\n\nQoder CLI displays a \"Windows 10 detected\" warni",
+    "topics": []
+  },
+  {
+    "id": "github-tuchuanbin-feedback-auto-processor-based-on-qodercli",
+    "name": "tuchuanbin/feedback-auto-processor-based-on-qodercli",
+    "url": "https://github.com/tuchuanbin/feedback-auto-processor-based-on-qodercli",
+    "source_type": "github",
+    "resource_type": [
+      "cli-tool"
+    ],
+    "target_tools": [
+      "qoder"
+    ],
+    "summary": "基于 [Qoder CLI](https://qoder.com) + Harness Engineering 思想构建的 **7×24h 无人值守用户反馈自动处理系统**。  系统接收用户反馈，经过四阶段流水线——分类、聚类、根因分析、自动修复——最终输出可直接 Code Review 的修复分支。AI 处理吞吐，人类只做最后的审核。",
+    "i18n": {
+      "zh": {
+        "name": "tuchuanbin/feedback-auto-processor-based-on-qodercli",
+        "summary": "基于 [Qoder CLI](https://qoder.com) + Harness Engineering 思想构建的 **7×24h 无人值守用户反馈自动处理系统**。  系统接收用户反馈，经过四阶段流水线——分类、聚类、根因分析、自动修复——最终输出可直接 Code Review 的修复分支。AI 处理吞吐，人类只做最后的审核。"
+      },
+      "en": {
+        "name": "tuchuanbin/feedback-auto-processor-based-on-qodercli",
+        "summary": "基于 [Qoder CLI](https://qoder.com) + Harness Engineering 思想构建的 **7×24h 无人值守用户反馈自动处理系统**。  系统接收用户反馈，经过四阶段流水线——分类、聚类、根因分析、自动修复——最终输出可直接 Code Review 的修复分支。AI 处理吞吐，人类只做最后的审核。"
+      }
+    },
+    "stars": 1,
+    "forks": 1,
+    "total_score": 21,
+    "quantifiable_score": 21,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-04-19T00:30:10Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 2,
+      "activity": 15,
+      "adoption": 2,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "tuchuanbin/feedback-auto-processor-based-on-qodercli",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# Feedback Auto-Processor\n\n基于 [Qoder CLI](https://qoder.com) + Harness Engineering 思想构建的 **7×24h 无人值守用户反馈自动处理系统**。\n\n系统接收用户反馈，经过四阶段流水线——分类、聚类、根因分析、自动修复——最终输出可直接 Code Review 的修复分支。AI 处理吞吐，人类只做最后的审核。\n\n## 架构\n\n```\n用户反馈 (JSON)\n     │\n     ▼\n┌─────────────────┐   Effective 模型 (低成本)\n│ Stage 1: 分类    │   bug / feature_request / performance / ...\n└────────┬────────┘\n         ▼\n┌─────────────────┐   Auto 模型 (中等)\n│ Stage 2: 聚类    │   N 条反馈 → M 个聚类 (M << N)\n└────────┬────────┘\n         ▼\n┌─────────────────┐ ",
+    "topics": []
+  },
+  {
+    "id": "github-swampland2553-crowbar93",
+    "name": "Swampland2553/Crowbar93",
+    "url": "https://github.com/Swampland2553/Crowbar93",
+    "source_type": "github",
+    "resource_type": [
+      "cli-tool"
+    ],
+    "target_tools": [
+      "codex-cli"
+    ],
+    "summary": "Codex CLI skills",
+    "i18n": {
+      "zh": {
+        "name": "Swampland2553/Crowbar93",
+        "summary": "Codex CLI 技能"
+      },
+      "en": {
+        "name": "Swampland2553/Crowbar93",
+        "summary": "Codex CLI skills"
+      }
+    },
+    "stars": 1,
+    "forks": 0,
+    "total_score": 17,
+    "quantifiable_score": 17,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-06-21T18:19:37Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 2,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 0
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "Swampland2553/Crowbar93",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-yuxiaoyang2007-prog-claude-code-skill",
+    "name": "yuxiaoyang2007-prog/claude-code-skill",
+    "url": "https://github.com/yuxiaoyang2007-prog/claude-code-skill",
+    "source_type": "github",
+    "resource_type": [
+      "cli-tool"
+    ],
+    "target_tools": [
+      "claude-code",
+      "codex-cli"
+    ],
+    "summary": "Codex CLI skill: delegate coding tasks to Claude Code",
+    "i18n": {
+      "zh": {
+        "name": "yuxiaoyang2007-prog/claude-code-skill",
+        "summary": "Codex CLI 技能：将编码任务委托给 Claude Code"
+      },
+      "en": {
+        "name": "yuxiaoyang2007-prog/claude-code-skill",
+        "summary": "Codex CLI skill: delegate coding tasks to Claude Code"
+      }
+    },
+    "stars": 1,
+    "forks": 0,
+    "total_score": 21,
+    "quantifiable_score": 21,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-05-21T06:59:23Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": "mit",
+    "languages": [
+      "Shell"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 2,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "yuxiaoyang2007-prog/claude-code-skill",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# claude-code-skill\n\nA Codex CLI skill that delegates coding tasks to [Claude Code](https://claude.ai/claude-code). When you're working in Codex and need Claude Code's capabilities — its tool ecosystem, MCP servers, or Claude's reasoning — this skill lets you hand off a task without leaving your Codex session.\n\n## What it does\n\nYou describe a task in natural language. The skill calls Claude Code in the background, captures its response, and returns the result as a markdown file you can read in C",
+    "topics": []
+  },
+  {
+    "id": "github-gitjburns-export-session",
+    "name": "gitjburns/export-session",
+    "url": "https://github.com/gitjburns/export-session",
+    "source_type": "github",
+    "resource_type": [
+      "skills",
+      "cli-tool"
+    ],
+    "target_tools": [
+      "codex-cli"
+    ],
+    "summary": "Codex CLI skill to export the current conversation to a file",
+    "i18n": {
+      "zh": {
+        "name": "gitjburns/export-session",
+        "summary": "Codex CLI 技能，用于将当前对话导出到文件"
+      },
+      "en": {
+        "name": "gitjburns/export-session",
+        "summary": "Codex CLI skill to export the current conversation to a file"
+      }
+    },
+    "stars": 1,
+    "forks": 0,
+    "total_score": 21,
+    "quantifiable_score": 21,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-04-20T02:04:08Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": "mit",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 2,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "gitjburns/export-session",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# Export Session\n\nThis bundle contains the `export-session/` Codex skill plus this README.\n\n## What It Does\n\n`export-session` exports the active Codex CLI session to a file in a TUI-style transcript format.\n\nThe exported transcript includes:\n\n- user prompts\n- assistant commentary and final responses\n- tool activity such as `Explored`, `Ran`, and `Edited` blocks\n\n## Portability\n\nThe skill does not hardcode a specific user or host path.\n\nFor session discovery it uses:\n\n- `$CODEX_HOME/sessions` whe",
+    "topics": [
+      "codex",
+      "codex-cli",
+      "codex-skill",
+      "skill"
+    ]
+  },
+  {
+    "id": "github-jseook11-codex-pdf-ocr-to-markdown-skill",
+    "name": "jseook11/codex-pdf-ocr-to-markdown-skill",
+    "url": "https://github.com/jseook11/codex-pdf-ocr-to-markdown-skill",
+    "source_type": "github",
+    "resource_type": [
+      "cli-tool"
+    ],
+    "target_tools": [
+      "codex-cli"
+    ],
+    "summary": "A Codex CLI skill for converting PDFs and images into Markdown with OCR.",
+    "i18n": {
+      "zh": {
+        "name": "jseook11/codex-pdf-ocr-to-markdown-skill",
+        "summary": "一个Codex CLI技能，用于通过OCR将PDF和图像转换为Markdown。"
+      },
+      "en": {
+        "name": "jseook11/codex-pdf-ocr-to-markdown-skill",
+        "summary": "A Codex CLI skill for converting PDFs and images into Markdown with OCR."
+      }
+    },
+    "stars": 1,
+    "forks": 0,
+    "total_score": 21,
+    "quantifiable_score": 21,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-06-25T11:28:57Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": "mit",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 2,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "jseook11/codex-pdf-ocr-to-markdown-skill",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# PDF OCR to Markdown\n\n![License](https://img.shields.io/badge/license-MIT-blue)\n![Skill](https://img.shields.io/badge/Codex-Skill-black)\n![Status](https://img.shields.io/badge/status-experimental-orange)\n\nA Codex skill for turning PDFs and images into user-facing Markdown sidecars with internal JSON and quality reports.\n\nThe skill preserves source files. It does not add an OCR layer to PDFs, rewrite PDFs, or create searchable replacement PDFs. Instead, it extracts visible or embedded document c",
+    "topics": [
+      "codex-cli",
+      "codex-skill",
+      "ocr",
+      "pdf",
+      "markdown",
+      "openai-codex",
+      "pdf-to-md"
+    ]
+  },
+  {
+    "id": "github-streetjammer-seedance-forge",
+    "name": "StreetJammer/seedance-forge",
+    "url": "https://github.com/StreetJammer/seedance-forge",
+    "source_type": "github",
+    "resource_type": [
+      "cli-tool"
+    ],
+    "target_tools": [
+      "claude-code",
+      "codex-cli"
+    ],
+    "summary": "Claude Code / Codex CLI skill — 2,366 real Seedance 2.0 video-generation prompts. Structural scaffolds, corpus search, source attribution. Zero dependencies.",
+    "i18n": {
+      "zh": {
+        "name": "StreetJammer/seedance-forge",
+        "summary": "Claude Code / Codex CLI 技能 — 2,366 个真实的 Seedance 2.0 视频生成提示。结构支架、语料库搜索、来源归属。零依赖。"
+      },
+      "en": {
+        "name": "StreetJammer/seedance-forge",
+        "summary": "Claude Code / Codex CLI skill — 2,366 real Seedance 2.0 video-generation prompts. Structural scaffolds, corpus search, source attribution. Zero dependencies."
+      }
+    },
+    "stars": 1,
+    "forks": 0,
+    "total_score": 19,
+    "quantifiable_score": 19,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-05-08T05:54:33Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 2,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "StreetJammer/seedance-forge",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# Seedance Forge\n\n![Seedance 2.0](https://img.shields.io/badge/Seedance-2.0-FF6B35?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik04IDV2MTRsOC03eiIvPjwvc3ZnPg==)\n![Prompts](https://img.shields.io/badge/Prompts-2%2C366-4CAF50?style=for-the-badge)\n![Authors](https://img.shields.io/badge/Authors-797-9C27B0?style=for-the-badge)\n![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?",
+    "topics": [
+      "agent-skill",
+      "ai-video",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skill",
+      "i2v",
+      "prompt-engineering",
+      "seedance",
+      "t2v",
+      "video-generation"
+    ]
+  },
+  {
+    "id": "github-asd880921-gitnexus-wiki",
+    "name": "asd880921/gitnexus-wiki",
+    "url": "https://github.com/asd880921/gitnexus-wiki",
+    "source_type": "github",
+    "resource_type": [
+      "cli-tool"
+    ],
+    "target_tools": [
+      "claude-code",
+      "codex-cli"
+    ],
+    "summary": "Generate a GitNexus-compatible repo wiki via Claude Code / Codex CLI skill — no LLM API key needed. EN / 繁中 / 简中 output.",
+    "i18n": {
+      "zh": {
+        "name": "asd880921/gitnexus-wiki",
+        "summary": "Generate a GitNexus-compatible repo wiki via Claude Code / Codex CLI skill — no LLM API key needed. EN / 繁中 / 简中 output."
+      },
+      "en": {
+        "name": "asd880921/gitnexus-wiki",
+        "summary": "Generate a GitNexus-compatible repo wiki via Claude Code / Codex CLI skill — no LLM API key needed. EN / 繁中 / 简中 output."
+      }
+    },
+    "stars": 1,
+    "forks": 0,
+    "total_score": 21,
+    "quantifiable_score": 21,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-02T16:02:50Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": "mit",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 2,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "asd880921/gitnexus-wiki",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "> 🌐 **[English](README.md)** (this page) ・ **[繁體中文版請點這裡](README.zh-TW.md)** ・ **[简体中文版请点击这里](README.zh-CN.md)**\n\n# GitNexus Wiki Builder\n\nA Claude Code / Codex CLI **Skill** that generates a [GitNexus](https://www.npmjs.com/package/gitnexus)-compatible repository wiki without needing GitNexus's built-in LLM wiki generation or an API key. Output matches GitNexus's own artifact shape (`module_tree.json`, `meta.json`, per-module pages, `index.html`).\n\n## Prerequisites\n\nThis skill operates on a repo",
+    "topics": []
+  },
+  {
+    "id": "github-newturn2017-readme-writer",
+    "name": "NewTurn2017/readme-writer",
+    "url": "https://github.com/NewTurn2017/readme-writer",
+    "source_type": "github",
+    "resource_type": [
+      "cli-tool"
+    ],
+    "target_tools": [
+      "claude-code",
+      "codex-cli"
+    ],
+    "summary": "Read your repo's actual code and produce a self-contained README. Claude Code / Codex CLI skill with 5-class taxonomy and grounded auto-generation.",
+    "i18n": {
+      "zh": {
+        "name": "NewTurn2017/readme-writer",
+        "summary": "读取你仓库的实际代码并生成一份独立的README文档。Claude Code / Codex CLI 技能，采用5类分类法，结合基于实践的自动生成。"
+      },
+      "en": {
+        "name": "NewTurn2017/readme-writer",
+        "summary": "Read your repo's actual code and produce a self-contained README. Claude Code / Codex CLI skill with 5-class taxonomy and grounded auto-generation."
+      }
+    },
+    "stars": 1,
+    "forks": 0,
+    "total_score": 21,
+    "quantifiable_score": 21,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-05-03T17:25:53Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": "mit",
+    "languages": [
+      "Shell"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 2,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "NewTurn2017/readme-writer",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# readme-writer\n\n> 레포의 실제 코드를 직접 읽어 자기완결적인 README.md를 생성하는 Claude Code / Codex CLI 스킬. 새 머신에서 AI 에이전트가 이 README만 보고 설치·사용을 완료할 수 있는 것을 품질 기준으로 삼는다.\n\n템플릿 복붙이 아니다. 매 호출마다 매니페스트(`package.json`/`pyproject.toml`/...)·진입점·환경변수·설치 스크립트를 실제로 읽고, 거기서 grounding한 사실만 README에 쓴다. 추측한 명령어, 존재하지 않는 환경변수, hallucination된 옵션은 자기검증 단계에서 제거된다.\n\n## TL;DR — 한 줄 설치\n\n### macOS / Linux\n\n```bash\ncurl -fsSL https://raw.githubusercontent.com/NewTurn2017/readme-writer/main/bootstrap.sh | bash\n```\n\n### Windows (PowerShell)\n",
+    "topics": []
+  },
+  {
+    "id": "github-withakay-opencode-mcp-tool",
+    "name": "withakay/opencode-mcp-tool",
+    "url": "https://github.com/withakay/opencode-mcp-tool",
+    "source_type": "github",
+    "resource_type": [
+      "mcp-server",
+      "cli-tool"
+    ],
+    "target_tools": [
+      "opencode"
+    ],
+    "summary": "MCP server for interacting with the opencode cli tool",
+    "i18n": {
+      "zh": {
+        "name": "withakay/opencode-mcp-tool",
+        "summary": "用于与 opencode cli 工具交互的 MCP 服务器"
+      },
+      "en": {
+        "name": "withakay/opencode-mcp-tool",
+        "summary": "MCP server for interacting with the opencode cli tool"
+      }
+    },
+    "stars": 1,
+    "forks": 6,
+    "total_score": 20,
+    "quantifiable_score": 20,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-03-23T10:30:11Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": "other",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 2,
+      "activity": 12,
+      "adoption": 2,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "withakay/opencode-mcp-tool",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# OpenCode MCP Tool\n\n[![GitHub Release](https://img.shields.io/github/v/release/frap129/opencode-mcp-tool?logo=github&label=GitHub)](https://github.com/frap129/opencode-mcp-tool/releases)\n[![npm version](https://img.shields.io/npm/v/opencode-mcp-tool)](https://www.npmjs.com/package/opencode-mcp-tool)\n[![npm downloads](https://img.shields.io/npm/dt/opencode-mcp-tool)](https://www.npmjs.com/package/opencode-mcp-tool)\n[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://open",
+    "topics": []
+  },
+  {
+    "id": "github-jinto-ag-opencode-mcp",
+    "name": "jinto-ag/opencode-mcp",
+    "url": "https://github.com/jinto-ag/opencode-mcp",
+    "source_type": "github",
+    "resource_type": [
+      "mcp-server"
+    ],
+    "target_tools": [
+      "opencode"
+    ],
+    "summary": "jinto-ag/opencode-mcp",
+    "i18n": {
+      "zh": {
+        "name": "jinto-ag/opencode-mcp",
+        "summary": "jinto-ag/opencode-mcp 项目"
+      },
+      "en": {
+        "name": "jinto-ag/opencode-mcp",
+        "summary": "jinto-ag/opencode-mcp"
+      }
+    },
+    "stars": 1,
+    "forks": 0,
+    "total_score": 18,
+    "quantifiable_score": 18,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-03-09T15:14:44Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": "mit",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 2,
+      "activity": 12,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "jinto-ag/opencode-mcp",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# OpenCode MCP Server\n\n[![CI](https://github.com/jinto-ag/opencode-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/jinto-ag/opencode-mcp/actions/workflows/ci.yml)\n[![Version](https://img.shields.io/github/v/release/jinto-ag/opencode-mcp?sort=semver)](https://github.com/jinto-ag/opencode-mcp/releases)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n[![Tested with Bun](https://img.shields.io/badge/Bun-%23000000.svg?logo=bun&lo",
+    "topics": []
+  },
+  {
+    "id": "github-sajjadgg-ghostlab",
+    "name": "sajjadGG/Ghostlab",
+    "url": "https://github.com/sajjadGG/Ghostlab",
+    "source_type": "github",
+    "resource_type": [
+      "mcp-server"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Local end-to-end testing lab for any MCP server: coding agents role-play real users, drive your tools over multiple turns, score runs, and render/interact with MCP Apps ui:// widgets.",
+    "i18n": {
+      "zh": {
+        "name": "sajjadGG/Ghostlab",
+        "summary": "本地端到端测试实验室，适用于任何MCP服务器：编码代理模拟真实用户，在多轮交互中驱动你的工具，评分运行，并渲染/交互MCP应用的ui://小部件。"
+      },
+      "en": {
+        "name": "sajjadGG/Ghostlab",
+        "summary": "Local end-to-end testing lab for any MCP server: coding agents role-play real users, drive your tools over multiple turns, score runs, and render/interact with MCP Apps ui:// widgets."
+      }
+    },
+    "stars": 1,
+    "forks": 0,
+    "total_score": 21,
+    "quantifiable_score": 21,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-06T04:51:05Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": "mit",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 2,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "sajjadGG/Ghostlab",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# Ghostlab\n\n> A local, end-to-end **testing lab for MCP servers and agent skills** — coding agents role-play\n> real users, drive your tools over multiple turns, and the harness captures\n> traces, scores outcomes, and even **renders and clicks through MCP Apps UI\n> widgets**.\n\n[![CI](https://github.com/sajjadGG/Ghostlab/actions/workflows/ci.yml/badge.svg)](https://github.com/sajjadGG/Ghostlab/actions)\n[![Docs](https://img.shields.io/badge/docs-wiki-blue)](https://sajjadgg.github.io/Ghostlab/)\n[![",
+    "topics": [
+      "agent-testing",
+      "ai-agents",
+      "claude",
+      "codex",
+      "developer-tools",
+      "end-to-end-testing",
+      "llm",
+      "llm-evaluation",
+      "mcp",
+      "mcp-apps",
+      "model-context-protocol",
+      "python",
+      "testing-tools"
+    ]
+  },
+  {
+    "id": "github-274326424-video-content-extractor",
+    "name": "274326424/video-content-extractor",
+    "url": "https://github.com/274326424/video-content-extractor",
+    "source_type": "github",
+    "resource_type": [
+      "cli-tool"
+    ],
+    "target_tools": [
+      "codex-cli"
+    ],
+    "summary": "Extract key frames and OCR text from MP4 videos - Codex CLI Skill",
+    "i18n": {
+      "zh": {
+        "name": "274326424/video-content-extractor",
+        "summary": "从MP4视频中提取关键帧和OCR文本 - Codex CLI Skill"
+      },
+      "en": {
+        "name": "274326424/video-content-extractor",
+        "summary": "Extract key frames and OCR text from MP4 videos - Codex CLI Skill"
+      }
+    },
+    "stars": 1,
+    "forks": 0,
+    "total_score": 21,
+    "quantifiable_score": 21,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-06T07:02:07Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": "mit",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 2,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "274326424/video-content-extractor",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# Video Content Extractor\n\nA Codex CLI skill that automatically extracts key frames from MP4 videos, runs OCR (Chinese + English), and generates structured Markdown reports.\n\n## Quick Install\n\n### Via marketplace (coming soon)\n\n```bash\ncodex plugins install video-content-extractor\n```\n\n### Manual Install\n\n```bash\ngit clone https://github.com/yuge-codex/video-content-extractor.git\ncd video-content-extractor\ncodex plugins install .\n```\n\n## Requirements\n\n- FFmpeg - for frame extraction\n- Tesseract ",
+    "topics": []
+  },
+  {
+    "id": "github-smnji-agentic-data-science-research-template",
+    "name": "smnji/agentic-data-science-research-template",
+    "url": "https://github.com/smnji/agentic-data-science-research-template",
+    "source_type": "github",
+    "resource_type": [
+      "rules",
+      "cli-tool"
+    ],
+    "target_tools": [
+      "claude-code",
+      "codex-cli"
+    ],
+    "summary": "A reusable scaffold for AI-assisted data-science research projects. Works with Claude Code (CLAUDE.md) and Codex CLI (AGENTS.md).",
+    "i18n": {
+      "zh": {
+        "name": "smnji/agentic-data-science-research-template",
+        "summary": "一个用于AI辅助数据科学研究项目的可复用脚手架。可与Claude Code（CLAUDE.md）和Codex CLI（AGENTS.md）配合使用。"
+      },
+      "en": {
+        "name": "smnji/agentic-data-science-research-template",
+        "summary": "A reusable scaffold for AI-assisted data-science research projects. Works with Claude Code (CLAUDE.md) and Codex CLI (AGENTS.md)."
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 19,
+    "quantifiable_score": 19,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-05-04T20:31:01Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": "other",
+    "languages": [
+      "Shell"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "smnji/agentic-data-science-research-template",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# agentic-data-science-research-template\n\nA reusable scaffold for **AI-assisted data-science research projects** — investigations where the bulk of the work is reading, methodology design, measurement, analysis, and writeup, rather than software engineering.\n\nThe template is opinionated about conventions and lightly opinionated about tooling. It works with agent-based assistants like **Claude Code** and **OpenAI Codex CLI** — both auto-load conventions from a top-level configuration file (`CLAUD",
+    "topics": []
+  },
+  {
+    "id": "github-crazyrussman-codex-working-kit",
+    "name": "crazyrussman/codex-working-kit",
+    "url": "https://github.com/crazyrussman/codex-working-kit",
+    "source_type": "github",
+    "resource_type": [
+      "rules"
+    ],
+    "target_tools": [
+      "claude-code",
+      "codex-cli"
+    ],
+    "summary": "Рабочий комплект для OpenAI Codex CLI: AGENTS.md, lifecycle hooks, skills, config — перенос процесса с Claude Code (PHP/Bitrix24 Marketplace, multi-tenant)",
+    "i18n": {
+      "zh": {
+        "name": "crazyrussman/codex-working-kit",
+        "summary": "OpenAI Codex CLI 工作套件：AGENTS.md、生命周期钩子、技能、配置——从 Claude Code 迁移流程（PHP/Bitrix24 Marketplace，多租户）"
+      },
+      "en": {
+        "name": "crazyrussman/codex-working-kit",
+        "summary": "Рабочий комплект для OpenAI Codex CLI: AGENTS.md, lifecycle hooks, skills, config — перенос процесса с Claude Code (PHP/Bitrix24 Marketplace, multi-tenant)"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 17,
+    "quantifiable_score": 17,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-06-01T09:23:33Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "crazyrussman/codex-working-kit",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# Codex Working Kit\n\nПеренос рабочего процесса с **Claude Code** на **OpenAI Codex CLI** для PHP/Bitrix24-Marketplace-проектов (multi-tenant, Docker-first).\n\nЭто самодостаточный комплект: правила работы, хуки автопроверок, skills (бывшие slash-команды + субагенты) и конфиг разрешений. Кладётся в репозиторий проекта и в домашнюю папку Codex. Не содержит секретов и привязки к конкретному порталу — адаптируется под любой аналогичный проект.\n\n---\n\n## Что Codex понимает «из коробки» (проверено по doc",
+    "topics": []
+  },
+  {
+    "id": "github-andrianinalydiano-codex-web",
+    "name": "AndrianinaLydiano/codex-web",
+    "url": "https://github.com/AndrianinaLydiano/codex-web",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "codex-cli"
+    ],
+    "summary": "First test with openai codex code agent",
+    "i18n": {
+      "zh": {
+        "name": "AndrianinaLydiano/codex-web",
+        "summary": "首次使用 OpenAI Codex code agent 进行测试"
+      },
+      "en": {
+        "name": "AndrianinaLydiano/codex-web",
+        "summary": "First test with openai codex code agent"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 12,
+    "quantifiable_score": 12,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2025-08-21T10:18:33Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": "mit",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 8,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-qdhenry-claude-code-mcp-manager",
+    "last_analyzed": null,
+    "repo": "AndrianinaLydiano/codex-web",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# codex-web\n\nFrontend Vite + React + TypeScript pour le générateur SaaS de contenu pour réseaux sociaux.\n\n## Démarrage\n\n```bash\nnpm install\nnpm run dev\n```\n\n## Scripts\n\n- `npm run dev` – lance le serveur de développement.\n- `npm run lint` – vérifie le code avec ESLint et Prettier.\n- `npm run build` – génère la version de production.\n- `npm test` – exécute les tests (placeholder).\n\n## Variables d'environnement\n\nCopiez `.env.example` vers `.env` et renseignez :\n\n- `VITE_SUPABASE_URL`\n- `VITE_SUPAB",
+    "topics": []
+  },
+  {
+    "id": "github-thealexyao-openclaw-codex-agents",
+    "name": "TheAlexYao/openclaw-codex-agents",
+    "url": "https://github.com/TheAlexYao/openclaw-codex-agents",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "codex-cli"
+    ],
+    "summary": "OpenClaw skill for orchestrating OpenAI Codex coding agents",
+    "i18n": {
+      "zh": {
+        "name": "TheAlexYao/openclaw-codex-agents",
+        "summary": "用于编排OpenAI Codex编程代理的OpenClaw技能"
+      },
+      "en": {
+        "name": "TheAlexYao/openclaw-codex-agents",
+        "summary": "OpenClaw skill for orchestrating OpenAI Codex coding agents"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 12,
+    "quantifiable_score": 12,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-02-28T15:39:26Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 12,
+      "adoption": 0,
+      "maturity": 0
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-qdhenry-claude-code-mcp-manager",
+    "last_analyzed": null,
+    "repo": "TheAlexYao/openclaw-codex-agents",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# openclaw-codex-agents\n\nA guide for setting up [OpenClaw](https://openclaw.ai) to orchestrate [OpenAI Codex](https://github.com/openai/codex) coding agents. Covers two setups: single machine (Mac) and split architecture (VPS + Mac).\n\n## Prerequisites\n\n1. **[OpenClaw](https://docs.openclaw.ai)** — installed and configured with at least one chat channel (Telegram, Discord, etc.)\n2. **[OpenAI Codex CLI](https://github.com/openai/codex)** — install on the machine that will run agents\n   ```bash\n   ",
+    "topics": []
+  },
+  {
+    "id": "github-joonghyun-lee-frieren-deus-ex-antigravity",
+    "name": "Joonghyun-Lee-Frieren/deus-ex-antigravity",
+    "url": "https://github.com/Joonghyun-Lee-Frieren/deus-ex-antigravity",
+    "source_type": "github",
+    "resource_type": [
+      "extension",
+      "cli-tool"
+    ],
+    "target_tools": [
+      "antigravity-cli"
+    ],
+    "summary": "antigravity cli plugin",
+    "i18n": {
+      "zh": {
+        "name": "Joonghyun-Lee-Frieren/deus-ex-antigravity",
+        "summary": "antigravity CLI 插件"
+      },
+      "en": {
+        "name": "Joonghyun-Lee-Frieren/deus-ex-antigravity",
+        "summary": "antigravity cli plugin"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 19,
+    "quantifiable_score": 19,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-06-04T00:13:49Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": "mit",
+    "languages": [
+      "JavaScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "Joonghyun-Lee-Frieren/deus-ex-antigravity",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# deus-ex-antigravity (DEA)\n[![Release](https://img.shields.io/github/v/tag/Joonghyun-Lee-Frieren/deus-ex-antigravity?sort=semver&label=release)](https://github.com/Joonghyun-Lee-Frieren/deus-ex-antigravity/releases)\n[![Version Check](https://img.shields.io/github/actions/workflow/status/Joonghyun-Lee-Frieren/deus-ex-antigravity/version-check.yml?branch=main&label=version%20check)](https://github.com/Joonghyun-Lee-Frieren/deus-ex-antigravity/actions/workflows/version-check.yml)\n[![License: MIT](",
+    "topics": []
+  },
+  {
+    "id": "github-zemloai-ctrl-elecz-antigravity",
+    "name": "zemloai-ctrl/elecz-antigravity",
+    "url": "https://github.com/zemloai-ctrl/elecz-antigravity",
+    "source_type": "github",
+    "resource_type": [
+      "extension",
+      "cli-tool"
+    ],
+    "target_tools": [
+      "antigravity-cli"
+    ],
+    "summary": "Antigravity CLI plugin for Elecz — real-time electricity prices across 100+ zones. No auth required.",
+    "i18n": {
+      "zh": {
+        "name": "zemloai-ctrl/elecz-antigravity",
+        "summary": "适用于Elecz的Antigravity CLI插件——覆盖100多个区域的实时电价。无需认证。"
+      },
+      "en": {
+        "name": "zemloai-ctrl/elecz-antigravity",
+        "summary": "Antigravity CLI plugin for Elecz — real-time electricity prices across 100+ zones. No auth required."
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 15,
+    "quantifiable_score": 15,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-06-28T17:34:46Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 0
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "zemloai-ctrl/elecz-antigravity",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# Elecz — Electricity Price Signal for Antigravity CLI\n\nReal-time electricity prices, cheapest hours, and contract comparisons across **100+ zones in 40+ countries**. No API key required.\n\nCovers Europe, North America (US, CA, MX), Oceania (AU, NZ), Asia (JP, KR, PH), and Africa (ZA).\n\n## Install\n\n```bash\nagy plugins install https://github.com/zemloai-ctrl/elecz-antigravity\n```\n\n## What it does\n\nOnce installed, Antigravity CLI will automatically call Elecz whenever you ask about electricity:\n\n- ",
+    "topics": [
+      "antigravity-cli-extensions",
+      "antigravity-cli-plugins",
+      "electricity",
+      "electricity-price",
+      "electricity-prices",
+      "mcp",
+      "mcp-server",
+      "gemini-cli-extension",
+      "antigravity-skills",
+      "antigravity-tools"
+    ]
+  },
+  {
+    "id": "github-c1ph3r404-antigravitycli-plugin",
+    "name": "C1ph3r404/AntigravityCli-Plugin",
+    "url": "https://github.com/C1ph3r404/AntigravityCli-Plugin",
+    "source_type": "github",
+    "resource_type": [
+      "extension",
+      "cli-tool"
+    ],
+    "target_tools": [
+      "antigravity-cli"
+    ],
+    "summary": "plugin for antigravity cli to expand model, thinking values",
+    "i18n": {
+      "zh": {
+        "name": "C1ph3r404/AntigravityCli-Plugin",
+        "summary": "用于 antigravity cli 的插件，以扩展模型和思考值"
+      },
+      "en": {
+        "name": "C1ph3r404/AntigravityCli-Plugin",
+        "summary": "plugin for antigravity cli to expand model, thinking values"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 17,
+    "quantifiable_score": 17,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-06-21T14:36:16Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": "mit",
+    "languages": [],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "C1ph3r404/AntigravityCli-Plugin",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# AntigravityCli-Plugin\nplugin for antigravity cli to expand model, thinking values",
+    "topics": []
+  },
+  {
+    "id": "github-cyberbobjr-opencode-config",
+    "name": "cyberbobjr/opencode-config",
+    "url": "https://github.com/cyberbobjr/opencode-config",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "opencode"
+    ],
+    "summary": "OpenCode agent & command configurations",
+    "i18n": {
+      "zh": {
+        "name": "cyberbobjr/opencode-config",
+        "summary": "OpenCode 代理与命令配置"
+      },
+      "en": {
+        "name": "cyberbobjr/opencode-config",
+        "summary": "OpenCode agent & command configurations"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 17,
+    "quantifiable_score": 17,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-05T10:30:30Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "Vue"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "cyberbobjr/opencode-config",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# opencode-config\n\nA ready-to-use configuration template for [OpenCode](https://opencode.ai) that gives your AI coding agent a **structured, trackable development pipeline**.\n\nAt its core: a Kanban server that works simultaneously as a **web dashboard**, a **REST API**, and an **MCP server** — letting the agent read and update project state, while letting the developer steer from a drag-and-drop UI.\n\n---\n\n> [!CAUTION]\n> ## ⛔ MANDATORY — Each routable OpenCode instance needs a unique `--port`\n>\n>",
+    "topics": []
+  },
+  {
+    "id": "github-chadleeshaw-dot-opencode",
+    "name": "chadleeshaw/dot-opencode",
+    "url": "https://github.com/chadleeshaw/dot-opencode",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "opencode"
+    ],
+    "summary": "OpenCode agents, commands, skills, and scripts",
+    "i18n": {
+      "zh": {
+        "name": "chadleeshaw/dot-opencode",
+        "summary": "OpenCode代理、命令、技能和脚本"
+      },
+      "en": {
+        "name": "chadleeshaw/dot-opencode",
+        "summary": "OpenCode agents, commands, skills, and scripts"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 17,
+    "quantifiable_score": 17,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-06-30T19:45:01Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "Shell"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "chadleeshaw/dot-opencode",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# dot-agents\n\nAI configuration for Claude Code — agents, commands, and skills.\n\nCloned to `~/.agents` and symlinked into `~/.claude` by `setup.sh`.\n\n## Structure\n\n```\n~/.agents/\n├── agents/       # Custom agent definitions\n├── commands/     # Slash commands (/shipit, /test, ...)\n├── skills/       # Language/domain skills loaded on demand\n└── setup.sh      # Idempotent install script\n```\n\n## Setup\n\n```sh\ngit clone git@github.com:chadleeshaw/dot-opencode.git ~/.agents\n~/.agents/setup.sh\n```\n\n`setu",
+    "topics": []
+  },
+  {
+    "id": "github-howlerops-opencode-agentic-commands",
+    "name": "howlerops/opencode-agentic-commands",
+    "url": "https://github.com/howlerops/opencode-agentic-commands",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "opencode"
+    ],
+    "summary": "howlerops/opencode-agentic-commands",
+    "i18n": {
+      "zh": {
+        "name": "howlerops/opencode-agentic-commands",
+        "summary": "howlerops/opencode-agentic-commands 项目"
+      },
+      "en": {
+        "name": "howlerops/opencode-agentic-commands",
+        "summary": "howlerops/opencode-agentic-commands"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 19,
+    "quantifiable_score": 19,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-04T17:38:15Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": "mit",
+    "languages": [
+      "JavaScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "howlerops/opencode-agentic-commands",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# HowlerOps Valhalla\n\nHowlerOps Valhalla is an agentic slash-command suite for OpenCode and Pi. The package adds a compact command suite for planning, execution, research, agent creation, persistent work loops, review, remote access, and full end-to-end orchestration.\n\nThe command names use a spelling-aware Norse/navigation theme so they are short, distinct, and less likely to collide with common dev tooling.\n\n## Command Map\n\n| Command | Role | Use When |\n| --- | --- | --- |\n| `/hugin` | Plan | ",
+    "topics": []
+  },
+  {
+    "id": "github-choumoone-opencode-markitdown-qwen",
+    "name": "choumoone/opencode-markitdown-qwen",
+    "url": "https://github.com/choumoone/opencode-markitdown-qwen",
+    "source_type": "github",
+    "resource_type": [
+      "skills"
+    ],
+    "target_tools": [
+      "opencode"
+    ],
+    "summary": "OpenCode agents, commands, and skills for local MarkItDown conversion and Qwen3.6 vision OCR",
+    "i18n": {
+      "zh": {
+        "name": "choumoone/opencode-markitdown-qwen",
+        "summary": "用于本地MarkItDown转换和Qwen3.6视觉OCR的OpenCode代理、命令和技能"
+      },
+      "en": {
+        "name": "choumoone/opencode-markitdown-qwen",
+        "summary": "OpenCode agents, commands, and skills for local MarkItDown conversion and Qwen3.6 vision OCR"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 19,
+    "quantifiable_score": 19,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-06-25T09:21:43Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": "mit",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "choumoone/opencode-markitdown-qwen",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# OpenCode MarkItDown Qwen\n\nStandalone OpenCode profiles for local document conversion and Qwen3.6 vision OCR.\n\nThis package is intentionally separate from the Codex skill repository. It installs only OpenCode agents, skills, and commands.\n\n## Prerequisites\n\n- OpenCode\n- Ollama with `qwen3.6:27b`\n- The shared MarkItDown engine installed under `~/.codex/skills/markitdown-document-converter`\n- The router installed under `~/.codex/skills/markitdown-document-router`\n\n## Install\n\n```powershell\n.\\inst",
+    "topics": []
+  },
+  {
+    "id": "github-hxrshxz-opencode-toolkit",
+    "name": "hxrshxz/opencode-toolkit",
+    "url": "https://github.com/hxrshxz/opencode-toolkit",
+    "source_type": "github",
+    "resource_type": [
+      "extension"
+    ],
+    "target_tools": [
+      "opencode"
+    ],
+    "summary": "Custom OpenCode agents, commands, tools, and plugins for Fluid PR workflows and GSD project management",
+    "i18n": {
+      "zh": {
+        "name": "hxrshxz/opencode-toolkit",
+        "summary": "用于 Fluid PR 工作流和 GSD 项目管理的自定义 OpenCode 代理、命令、工具和插件"
+      },
+      "en": {
+        "name": "hxrshxz/opencode-toolkit",
+        "summary": "Custom OpenCode agents, commands, tools, and plugins for Fluid PR workflows and GSD project management"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 15,
+    "quantifiable_score": 15,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-06-07T15:03:23Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 0
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "hxrshxz/opencode-toolkit",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-adhiman1995-codebuddy",
+    "name": "adhiman1995/Codebuddy",
+    "url": "https://github.com/adhiman1995/Codebuddy",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "workbuddy-codebuddy"
+    ],
+    "summary": "CodeBuddy — AI Code Review Assistant",
+    "i18n": {
+      "zh": {
+        "name": "adhiman1995/Codebuddy",
+        "summary": "CodeBuddy — AI代码审查助手"
+      },
+      "en": {
+        "name": "adhiman1995/Codebuddy",
+        "summary": "CodeBuddy — AI Code Review Assistant"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 15,
+    "quantifiable_score": 15,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-06-12T18:26:31Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 0
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "adhiman1995/Codebuddy",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-gipsydanger-dev-codebuddy-ai-coding-mentor",
+    "name": "GipsyDanger-dev/codebuddy-ai-coding-mentor",
+    "url": "https://github.com/GipsyDanger-dev/codebuddy-ai-coding-mentor",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "workbuddy-codebuddy"
+    ],
+    "summary": "👨‍💻 CodeBuddy — AI Coding Mentor chatbot powered by Gemini 2.0 Flash API. Santai, friendly, dan siap bantu kamu belajar ngoding!",
+    "i18n": {
+      "zh": {
+        "name": "GipsyDanger-dev/codebuddy-ai-coding-mentor",
+        "summary": "👨‍💻 CodeBuddy — 基于 Gemini 2.0 Flash API 的 AI 编程导师聊天机器人。轻松、友好，随时帮你学习编程！"
+      },
+      "en": {
+        "name": "GipsyDanger-dev/codebuddy-ai-coding-mentor",
+        "summary": "👨‍💻 CodeBuddy — AI Coding Mentor chatbot powered by Gemini 2.0 Flash API. Santai, friendly, dan siap bantu kamu belajar ngoding!"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 17,
+    "quantifiable_score": 17,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-06-26T15:38:15Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "CSS"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "GipsyDanger-dev/codebuddy-ai-coding-mentor",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# 👨‍💻 CodeBuddy — AI Coding Mentor\n\nChatbot berbasis AI yang berperan sebagai **Coding Mentor** pribadi. Menggunakan arsitektur **client-server** dengan backend **Node.js + Express** dan **Google Gemini 2.5 Flash API** untuk menghasilkan respons yang cerdas dan relevan.\n\n## ✨ Fitur Utama\n\n- 🤖 **AI-Powered Chat** — Respons dinamis dari Gemini 2.5 Flash, bukan hardcode\n- 🏗️ **Arsitektur Client-Server** — Logika AI di backend, lebih aman dan scalable\n- 💬 **Multi-Turn Conversation** — Mengirim array",
+    "topics": []
+  },
+  {
+    "id": "github-kang1298749923-skills",
+    "name": "kang1298749923/skills",
+    "url": "https://github.com/kang1298749923/skills",
+    "source_type": "github",
+    "resource_type": [
+      "skills"
+    ],
+    "target_tools": [
+      "workbuddy-codebuddy"
+    ],
+    "summary": "WorkBuddy agent skills",
+    "i18n": {
+      "zh": {
+        "name": "kang1298749923/skills",
+        "summary": "WorkBuddy 代理技能"
+      },
+      "en": {
+        "name": "kang1298749923/skills",
+        "summary": "WorkBuddy agent skills"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 17,
+    "quantifiable_score": 17,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-05-15T07:31:24Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "kang1298749923/skills",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# WorkBuddy Skills\n\n个人 WorkBuddy agent skills 合集。\n\n## Skills\n\n- [xiaohongshu-product-notes](./xiaohongshu-product-notes/) — 小红书数字产品（PDF）商品笔记批量生成，支持文案+配图+飞书上传全流程",
+    "topics": []
+  },
+  {
+    "id": "github-maidoudoujiushiwo-workbuddy-skills",
+    "name": "maidoudoujiushiwo/workbuddy-skills",
+    "url": "https://github.com/maidoudoujiushiwo/workbuddy-skills",
+    "source_type": "github",
+    "resource_type": [
+      "skills"
+    ],
+    "target_tools": [
+      "workbuddy-codebuddy"
+    ],
+    "summary": "WorkBuddy agent skills: mckinsey-analyst & html-ppt",
+    "i18n": {
+      "zh": {
+        "name": "maidoudoujiushiwo/workbuddy-skills",
+        "summary": "WorkBuddy 代理技能: mckinsey-analyst 与 html-ppt"
+      },
+      "en": {
+        "name": "maidoudoujiushiwo/workbuddy-skills",
+        "summary": "WorkBuddy agent skills: mckinsey-analyst & html-ppt"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 17,
+    "quantifiable_score": 17,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-05-08T08:12:50Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "HTML"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "maidoudoujiushiwo/workbuddy-skills",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# WorkBuddy Skills\n\n> WorkBuddy AI Agent 的技能扩展包仓库，支持战略分析、商业咨询、演示文稿创作等专业领域。\n\n## 📦 已收录技能\n\n### 🧠 mckinsey-analyst（麦肯锡分析助手）\n\n**触发词：** 分析、战略、诊断、问题解决、业务规划、咨询报告、行业分析\n\n**核心能力：**\n- 七步成诗法（McKinsey Seven Steps）\n- 议题树 / 问题树构建\n- MECE 原则分析\n- 优先排序与 80/20 法则\n- 竞争分析、市场分析、企业诊断\n- 金字塔原理汇报结构\n- 假设导向分析\n\n**适用场景：** 战略规划、业务诊断、投资评估、行业研究、方案撰写\n\n📖 [mckinsey-analyst/SKILL.md](mckinsey-analyst/SKILL.md)\n\n---\n\n### 🎨 html-ppt（HTML 演示文稿）\n\n**触发词：** 演示、PPT、幻灯片、演讲稿、做一份 slides\n\n**核心能力：**\n- 40+ 页面布局（封面、目录、流程图、对比、数据图表等）\n- 36 种主题风格（科技感、",
+    "topics": []
+  },
+  {
+    "id": "github-shubhambhardwaj001-ai-pr-review-agent",
+    "name": "ShubhamBhardwaj001/ai-pr-review-agent",
+    "url": "https://github.com/ShubhamBhardwaj001/ai-pr-review-agent",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "ai-pr-review-agent",
+    "i18n": {
+      "zh": {
+        "name": "ShubhamBhardwaj001/ai-pr-review-agent",
+        "summary": "AI PR 审查代理"
+      },
+      "en": {
+        "name": "ShubhamBhardwaj001/ai-pr-review-agent",
+        "summary": "ai-pr-review-agent"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 17,
+    "quantifiable_score": 17,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-05-24T14:04:23Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "ShubhamBhardwaj001/ai-pr-review-agent",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# ai-pr-review-agent\nai-pr-review-agent",
+    "topics": []
+  },
+  {
+    "id": "github-parinacharyagit-secureagent",
+    "name": "ParinAcharyaGit/SecureAgent",
+    "url": "https://github.com/ParinAcharyaGit/SecureAgent",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "AI PR review Agent",
+    "i18n": {
+      "zh": {
+        "name": "ParinAcharyaGit/SecureAgent",
+        "summary": "AI PR 审查代理"
+      },
+      "en": {
+        "name": "ParinAcharyaGit/SecureAgent",
+        "summary": "AI PR review Agent"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 6,
+    "quantifiable_score": 6,
+    "quality_score": 0,
+    "tracking_priority": "reject",
+    "last_updated": "2025-02-16T23:06:45Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-rejected",
+    "score_detail": {
+      "stars": 0,
+      "activity": 4,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-qdhenry-claude-code-mcp-manager",
+    "last_analyzed": null,
+    "repo": "ParinAcharyaGit/SecureAgent",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# AI Review Agent\n\nThis is a GitHub App that reviews pull requests and submits reviews with AI.\n\n## Setup\n\n1. Download NGROK [here](https://download.ngrok.com/). This will be used to create a secure tunnel to your local server.\n\n2. Run NGROK in your terminal with the following command:\n\n```\nngrok http 3000\n```\n\nHere you'll see a URL in the format of `https://.ngrok.app`. Make sure to save this URL as you'll need it to configure your GitHub App.\n\n3. Create a new [GitHub App here](https://github.c",
+    "topics": []
+  },
+  {
+    "id": "github-kailasmahavarkar-pr-review-bot-backend",
+    "name": "KailasMahavarkar/pr_review_bot_backend",
+    "url": "https://github.com/KailasMahavarkar/pr_review_bot_backend",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "FastAPI backend for AI PR review agent",
+    "i18n": {
+      "zh": {
+        "name": "KailasMahavarkar/pr_review_bot_backend",
+        "summary": "FastAPI后端用于AI PR审查代理"
+      },
+      "en": {
+        "name": "KailasMahavarkar/pr_review_bot_backend",
+        "summary": "FastAPI backend for AI PR review agent"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 10,
+    "quantifiable_score": 10,
+    "quality_score": 0,
+    "tracking_priority": "reject",
+    "last_updated": "2025-12-13T20:45:14Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-rejected",
+    "score_detail": {
+      "stars": 0,
+      "activity": 8,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-qdhenry-claude-code-mcp-manager",
+    "last_analyzed": null,
+    "repo": "KailasMahavarkar/pr_review_bot_backend",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# PR Review Bot - Backend\n\nFastAPI server for the PR Review Bot.\n\n## Setup\n\n```bash\npip install -r requirements.txt\ncp env.example .env\n# Edit .env with your config\n```\n\n## Run\n\n```bash\n# Run migrations\nalembic upgrade head\n\n# Start server\nuvicorn app.main:app --reload --port 8000\n```\n\n## Docker\n\n```bash\ndocker build -t pr-review-backend .\ndocker run -p 8000:8000 --env-file .env pr-review-backend\n```\n\n## API\n\n- `GET /api/agents` - List agents\n- `POST /api/agents` - Create agent\n- `GET /api/revie",
+    "topics": []
+  },
+  {
+    "id": "github-rock2089-claude-review-agent",
+    "name": "rock2089/claude-review-agent",
+    "url": "https://github.com/rock2089/claude-review-agent",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "claude-code"
+    ],
+    "summary": "AI PR Review Agent - Claude Code sub-agent",
+    "i18n": {
+      "zh": {
+        "name": "rock2089/claude-review-agent",
+        "summary": "AI 代码审查助手 - Claude Code 子代理"
+      },
+      "en": {
+        "name": "rock2089/claude-review-agent",
+        "summary": "AI PR Review Agent - Claude Code sub-agent"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 15,
+    "quantifiable_score": 15,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-06-08T23:22:13Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 0
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "rock2089/claude-review-agent",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "official-workbuddy-codebuddy",
+    "name": "WorkBuddy / CodeBuddy",
+    "url": "https://www.workbuddy.ai",
+    "source_type": "official-seed",
+    "resource_type": [
+      "cli-tool"
+    ],
+    "target_tools": [
+      "workbuddy-codebuddy"
+    ],
+    "summary": "Official seed profile for WorkBuddy / CodeBuddy, based on local source document /root/workspace/ai-coding-agents/Workbuddy_AI_Coding_Agent_介绍.md",
+    "i18n": {
+      "zh": {
+        "name": "WorkBuddy / CodeBuddy",
+        "summary": "Official seed profile for WorkBuddy / CodeBuddy, based on local source document /root/workspace/ai-coding-agents/Workbuddy_AI_Coding_Agent_介绍.md"
+      },
+      "en": {
+        "name": "WorkBuddy / CodeBuddy",
+        "summary": "Official seed profile for WorkBuddy / CodeBuddy, based on local source document /root/workspace/ai-coding-agents/Workbuddy_AI_Coding_Agent_介绍.md"
+      }
+    },
+    "stars": null,
+    "forks": null,
+    "total_score": 18,
+    "quantifiable_score": 18,
+    "quality_score": 0,
+    "tracking_priority": "track",
+    "last_updated": "2026-07-06",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "license": null,
+    "languages": [],
+    "review_state": "auto-curated",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 3
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": null,
+    "tags": [
+      "target-tool",
+      "official-seed"
+    ],
+    "maturity": "unknown",
+    "status": "active",
+    "readme_preview": null,
+    "topics": []
+  },
+  {
+    "id": "github-ttbingo-k12-math-tutor",
+    "name": "TTbingo/k12-math-tutor",
+    "url": "https://github.com/TTbingo/k12-math-tutor",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "workbuddy-codebuddy"
+    ],
+    "summary": "WorkBuddy AI Skills by TTbingo",
+    "i18n": {
+      "zh": {
+        "name": "TTbingo/k12-math-tutor",
+        "summary": "TTbingo 的 WorkBuddy AI 技能"
+      },
+      "en": {
+        "name": "TTbingo/k12-math-tutor",
+        "summary": "WorkBuddy AI Skills by TTbingo"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 17,
+    "quantifiable_score": 17,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-01T07:18:11Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "TTbingo/k12-math-tutor",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# 🧮 K12 数学 AI 辅导老师\n\n> **不只做题，教你怎么教。** 把胡小群、昍爸、子贤老师三位数学教育实战派专家的辅导方法论，融合塞利格曼积极心理学，装进 AI Agent。\n\n[![Version](https://img.shields.io/badge/version-1.8.2-blue)](SKILL.md)\n[![Coverage](https://img.shields.io/badge/coverage-K12%20%E5%B0%8F%E5%88%9D%E9%AB%98%E4%B8%80%E4%BD%93%E6%88%90-green)](references/grade-quick-ref.md)\n[![License](https://img.shields.io/badge/License-Personal%20Use-orange)](#许可)\n\n---\n\n## 它解决什么问题\n\n孩子问\"3×4 为什么等于 12？\"——你不再只能说\"背下来\"。\n\n这个 Skill 把胡小群、昍爸、子贤老师三位中国中小学数学教育实战派专家的辅导方法论，融合塞利格曼积极心",
+    "topics": []
+  },
+  {
+    "id": "github-bettermen-pc-repair",
+    "name": "bettermen/pc-repair",
+    "url": "https://github.com/bettermen/pc-repair",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "workbuddy-codebuddy"
+    ],
+    "summary": "电脑维修智能助手 - WorkBuddy AI Skill",
+    "i18n": {
+      "zh": {
+        "name": "bettermen/pc-repair",
+        "summary": "电脑维修智能助手 - WorkBuddy AI Skill"
+      },
+      "en": {
+        "name": "bettermen/pc-repair",
+        "summary": "电脑维修智能助手 - WorkBuddy AI Skill"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 15,
+    "quantifiable_score": 15,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-06-21T04:24:38Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 0
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "bettermen/pc-repair",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# PC Repair Skill\n\n电脑维修智能助手 - WorkBuddy AI 技能\n\n## 📖 简介\n\n这是一个为 WorkBuddy AI 助手开发的电脑维修智能诊断技能。当用户描述电脑故障时，技能会自动进行交互式诊断，提供维修方案建议和成本估算。\n\n## ✨ 功能特性\n\n- 🔍 **智能故障诊断** - 通过交互式问诊定位故障根因\n- 🛠️ **三层维修方案** - 紧急自救 / DIY维修 / 专业维修\n- 💰 **成本估算** - 基于2024年市场价格的维修成本参考\n- 🛒 **配件购买指导** - 硬件兼容性检查和购买建议\n- 🛡️ **防坑指南** - 维修店常见套路及应对方法\n- 📊 **可视化报告** - 生成详细的维修决策报告\n\n## 🎯 适用场景\n\n- 台式机/笔记本电脑故障诊断\n- Windows/macOS/Linux 系统问题\n- 硬件兼容性检查和升级建议\n- 维修成本估算和方案对比\n- 配件购买指导\n\n## 🚀 安装使用\n\n### 前提条件\n\n- 已安装 WorkBuddy AI 助手\n- WorkBuddy 版本 >= 1.0.0\n\n### 安装",
+    "topics": []
+  },
+  {
+    "id": "github-flyliyiyun-startup-operations",
+    "name": "flyliyiyun/startup-operations",
+    "url": "https://github.com/flyliyiyun/startup-operations",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "workbuddy-codebuddy"
+    ],
+    "summary": "WorkBuddy AI Skill for startup operations — management, hiring, remote teams, crisis management",
+    "i18n": {
+      "zh": {
+        "name": "flyliyiyun/startup-operations",
+        "summary": "WorkBuddy AI Skill 面向初创企业运营 — 管理、招聘、远程团队、危机管理"
+      },
+      "en": {
+        "name": "flyliyiyun/startup-operations",
+        "summary": "WorkBuddy AI Skill for startup operations — management, hiring, remote teams, crisis management"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 15,
+    "quantifiable_score": 15,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-04-16T12:37:32Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 0
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "flyliyiyun/startup-operations",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-flyliyiyun-startup-product",
+    "name": "flyliyiyun/startup-product",
+    "url": "https://github.com/flyliyiyun/startup-product",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "workbuddy-codebuddy"
+    ],
+    "summary": "WorkBuddy AI Skill for startup product management — PMF, user research, MVP, product discovery",
+    "i18n": {
+      "zh": {
+        "name": "flyliyiyun/startup-product",
+        "summary": "WorkBuddy AI技能面向初创企业产品管理 — PMF, 用户研究, MVP, 产品探索"
+      },
+      "en": {
+        "name": "flyliyiyun/startup-product",
+        "summary": "WorkBuddy AI Skill for startup product management — PMF, user research, MVP, product discovery"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 15,
+    "quantifiable_score": 15,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-04-16T12:37:32Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 0
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "flyliyiyun/startup-product",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-flyliyiyun-startup-fundraising",
+    "name": "flyliyiyun/startup-fundraising",
+    "url": "https://github.com/flyliyiyun/startup-fundraising",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "workbuddy-codebuddy"
+    ],
+    "summary": "WorkBuddy AI Skill for startup fundraising — full lifecycle from pre-seed to exit",
+    "i18n": {
+      "zh": {
+        "name": "flyliyiyun/startup-fundraising",
+        "summary": "WorkBuddy AI技能：面向创业融资，覆盖从种子前到退出的全生命周期"
+      },
+      "en": {
+        "name": "flyliyiyun/startup-fundraising",
+        "summary": "WorkBuddy AI Skill for startup fundraising — full lifecycle from pre-seed to exit"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 15,
+    "quantifiable_score": 15,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-04-16T12:08:41Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 0
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "flyliyiyun/startup-fundraising",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# startup-fundraising\n\n> A WorkBuddy AI Skill for startup fundraising — covers the full lifecycle from pre-seed to exit.\n\n基于 [awesome-ceo](https://github.com/kuchin/awesome-ceo) 融资模块精选资源构建，融合 YC、Sam Altman、Mark Suster、Index Ventures、a16z 等一流来源的实战知识。\n\n## 功能覆盖\n\n| 模式 | 能力 |\n|------|------|\n| 融资策略规划 | 金额计算、工具选择、稀释控制、时间规划 |\n| 路演PPT创建/评审 | 12页标准框架 + 30份传奇PPT经验提炼 |\n| 估值谈判 | Mark Suster 7步话术、锚定策略、反向情报获取 |\n| 期权/股权规划 | Index Ventures 基准数据、ESOP 设计、分配公式 |\n| 退出策略 | IPO/SPAC/直接上市/M&A/二级市场对比分析 |\n| 投资人匹配 | 天使/V",
+    "topics": []
+  },
+  {
+    "id": "github-flyliyiyun-startup-growth",
+    "name": "flyliyiyun/startup-growth",
+    "url": "https://github.com/flyliyiyun/startup-growth",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "workbuddy-codebuddy"
+    ],
+    "summary": "WorkBuddy AI Skill for startup growth — sales, cold outreach, marketing, go-to-market strategy",
+    "i18n": {
+      "zh": {
+        "name": "flyliyiyun/startup-growth",
+        "summary": "WorkBuddy AI 技能助力初创企业增长——销售、冷启动外联、营销、市场进入策略"
+      },
+      "en": {
+        "name": "flyliyiyun/startup-growth",
+        "summary": "WorkBuddy AI Skill for startup growth — sales, cold outreach, marketing, go-to-market strategy"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 15,
+    "quantifiable_score": 15,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-04-16T12:37:32Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 0
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "flyliyiyun/startup-growth",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-denceee-microsoft-style-chinese-skill",
+    "name": "denceee/microsoft-style-chinese-skill",
+    "url": "https://github.com/denceee/microsoft-style-chinese-skill",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "workbuddy-codebuddy"
+    ],
+    "summary": "WorkBuddy AI Skill - 让 AI 以微软式中文风格进行表达",
+    "i18n": {
+      "zh": {
+        "name": "denceee/microsoft-style-chinese-skill",
+        "summary": "WorkBuddy AI Skill - 让 AI 以微软式中文风格进行表达"
+      },
+      "en": {
+        "name": "denceee/microsoft-style-chinese-skill",
+        "summary": "WorkBuddy AI Skill - 让 AI 以微软式中文风格进行表达"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 17,
+    "quantifiable_score": 17,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-05T10:51:03Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": "mit",
+    "languages": [],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "denceee/microsoft-style-chinese-skill",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# microsoft-style-chinese\n\n> 坐和放宽，好东西就要来了！\n\n一个 [WorkBuddy](https://www.codebuddy.cn/) AI 技能（Skill），让 AI 以**「微软式中文」**风格进行表达。\n\n## 什么是微软式中文？\n\n微软式中文是指微软公司在软件产品中文本地化过程中，因大量使用机翻及人工翻译质量不佳而产生的**怪异别扭、语法混乱、拗口难懂但语义尚可揣摩**的中文表达风格。该风格已成为中文互联网经典迷因。\n\n经典名场面：\n\n| 微软式中文 | 正常中文 | 英文原文 |\n| --- | --- | --- |\n| 坐和放宽 | 请稍候 | Sit back and relax |\n| 头抬起 | 注意 | Heads up |\n| 滚回以前的版本 | 回退到以前的版本 | Roll back |\n| 好东西就要来了！ | 新功能即将推出 | Good things are coming |\n| 你正在成功 | 正在处理 | You're succeeding |\n| 请勿™关闭计算机 | 请不要关闭计算机 | Please do",
+    "topics": [
+      "ai-skill",
+      "chinese",
+      "fun",
+      "localization",
+      "meme",
+      "microsoft",
+      "nlp",
+      "workbuddy"
+    ]
+  },
+  {
+    "id": "github-victorpaulee-smb-path-wintomac-tools",
+    "name": "victorpaulee/smb-path-wintomac-tools",
+    "url": "https://github.com/victorpaulee/smb-path-wintomac-tools",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "workbuddy-codebuddy"
+    ],
+    "summary": "macOS SMB path conversion tools — UNC↔SMB converter with Keychain auth, history, and WorkBuddy AI skills",
+    "i18n": {
+      "zh": {
+        "name": "victorpaulee/smb-path-wintomac-tools",
+        "summary": "macOS SMB路径转换工具 — 带有Keychain认证、历史记录和WorkBuddy AI技能的UNC↔SMB转换器"
+      },
+      "en": {
+        "name": "victorpaulee/smb-path-wintomac-tools",
+        "summary": "macOS SMB path conversion tools — UNC↔SMB converter with Keychain auth, history, and WorkBuddy AI skills"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 17,
+    "quantifiable_score": 17,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-06-24T04:15:52Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "victorpaulee/smb-path-wintomac-tools",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# SMB 路径转换工具\n\nmacOS 上快速打开 Windows SMB/UNC 网络路径的自动化工具。支持：\n\n- **Windows UNC 路径** (`\\\\server\\share\\folder`) → Mac Finder 打开\n- **macOS SMB URL** (`smb://server/share/folder`) → Windows UNC 路径\n- **Keychain 自动认证** — 免手动输入账号密码\n- **历史记录** — 按最近访问 / 访问次数排序\n\n## 文件说明\n\n```\nsmb-path-tools/\n├── smb_opener.py          # 核心 Python 脚本（UNC↔SMB 转换 + 打开）\n├── main.applescript        # macOS GUI 包装（对话框 + 历史选择）\n├── Info.plist              # Automator App 元数据（新机器重新打包用）\n├── install.sh              # 一键安装脚本\n└── workbuddy",
+    "topics": []
+  },
+  {
+    "id": "github-vaughnxmedia-alt-kora-engineering-agent",
+    "name": "vaughnxmedia-alt/kora-engineering-agent",
+    "url": "https://github.com/vaughnxmedia-alt/kora-engineering-agent",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "trae"
+    ],
+    "summary": "KORA Engineering Agent — vendor fork of ByteDance trae-agent (JahknowsPR / KORA)",
+    "i18n": {
+      "zh": {
+        "name": "vaughnxmedia-alt/kora-engineering-agent",
+        "summary": "KORA 工程代理 — ByteDance trae-agent 的厂商分支 (JahknowsPR / KORA)"
+      },
+      "en": {
+        "name": "vaughnxmedia-alt/kora-engineering-agent",
+        "summary": "KORA Engineering Agent — vendor fork of ByteDance trae-agent (JahknowsPR / KORA)"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 19,
+    "quantifiable_score": 19,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-04-18T01:21:51Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": "mit",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "vaughnxmedia-alt/kora-engineering-agent",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# KORA Engineering Agent\n\n[![arXiv:2507.23370](https://img.shields.io/badge/TechReport-arXiv%3A2507.23370-b31a1b)](https://arxiv.org/abs/2507.23370)\n[![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n\n**KORA Engineering Agent** is the JahknowsPR / KORA–branded CLI for LLM-driven software engineering: natural-language tasks, file editing",
+    "topics": []
+  },
+  {
+    "id": "github-dongho5136-claude-skills",
+    "name": "dongho5136/claude-skills",
+    "url": "https://github.com/dongho5136/claude-skills",
+    "source_type": "github",
+    "resource_type": [
+      "skills",
+      "cli-tool"
+    ],
+    "target_tools": [
+      "claude-code",
+      "codex-cli"
+    ],
+    "summary": "Claude Code / Codex CLI skill collection",
+    "i18n": {
+      "zh": {
+        "name": "dongho5136/claude-skills",
+        "summary": "Claude Code / Codex CLI 技能集合"
+      },
+      "en": {
+        "name": "dongho5136/claude-skills",
+        "summary": "Claude Code / Codex CLI skill collection"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 15,
+    "quantifiable_score": 15,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-06-22T04:54:29Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 0
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "dongho5136/claude-skills",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# claude-skills\n\n내가 사용하는 Claude Code / Codex CLI용 스킬 모음 저장소.\n\n각 스킬은 `스킬이름/SKILL.md` 형식으로 구성된다.\n\n## 스킬 목록\n\n| 스킬 | 설명 |\n|------|------|\n| [local-to-cloud-deploy](local-to-cloud-deploy/SKILL.md) | Claude Code/Codex CLI가 로컬 Git Bash에서 SSH로 Ubuntu 서버에 직접 접속해 GitHub Deploy Key 기반 pull 배포를 수행. Nginx reverse proxy, systemd, MariaDB/MySQL, phpMyAdmin(without Apache), Certbot SSL 구성. |\n\n## 설치\n\n특정 스킬을 로컬에서 사용하려면 해당 폴더를 Claude Code 스킬 디렉토리로 복사한다.\n\n```bash\n# Windows (Git Bash) 예시\ncp -r local-to-cloud-deploy ",
+    "topics": []
+  },
+  {
+    "id": "github-kimseungzzang-zzang-codex-skills",
+    "name": "Kimseungzzang/zzang-codex-skills",
+    "url": "https://github.com/Kimseungzzang/zzang-codex-skills",
+    "source_type": "github",
+    "resource_type": [
+      "cli-tool"
+    ],
+    "target_tools": [
+      "codex-cli"
+    ],
+    "summary": "Codex CLI skills — shares session context with zzang-claude-skills",
+    "i18n": {
+      "zh": {
+        "name": "Kimseungzzang/zzang-codex-skills",
+        "summary": "Codex CLI 技能 — 与 zzang-claude-skills 共享会话上下文"
+      },
+      "en": {
+        "name": "Kimseungzzang/zzang-codex-skills",
+        "summary": "Codex CLI skills — shares session context with zzang-claude-skills"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 17,
+    "quantifiable_score": 17,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-05-29T06:35:37Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "JavaScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "Kimseungzzang/zzang-codex-skills",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# zzang-codex-skills\n\nCodex CLI custom skills by kimseungzzang — session context shared with [zzang-claude-skills](https://github.com/Kimseungzzang/zzang-claude-skills).\n\n## Install\n\n```bash\nnpx zzang-codex-skills\n```\n\nLocal development install:\n\n```bash\nnode bin/install.js\n```\n\nThe installer automatically:\n- Installs all skills into `~/.codex/skills/`\n- Installs shared scripts into `~/.zzang/scripts/`\n- Registers `PreToolUse`, `PostToolUse`, `Stop`, and `PreCompact` hooks in `~/.codex/hooks.jso",
+    "topics": []
+  },
+  {
+    "id": "github-hyophyop-artifacts-skill",
+    "name": "hyophyop/artifacts-skill",
+    "url": "https://github.com/hyophyop/artifacts-skill",
+    "source_type": "github",
+    "resource_type": [
+      "skills"
+    ],
+    "target_tools": [
+      "codex-cli"
+    ],
+    "summary": "Codex CLI skill: plan/todo/walkthrough artifacts + repo-local ChromaDB recall",
+    "i18n": {
+      "zh": {
+        "name": "hyophyop/artifacts-skill",
+        "summary": "Codex CLI 技能：计划/待办/操作指南产物 + 仓库本地 ChromaDB 召回"
+      },
+      "en": {
+        "name": "hyophyop/artifacts-skill",
+        "summary": "Codex CLI skill: plan/todo/walkthrough artifacts + repo-local ChromaDB recall"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 12,
+    "quantifiable_score": 12,
+    "quality_score": 0,
+    "tracking_priority": "reject",
+    "last_updated": "2026-01-08T19:19:41Z",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "license": "mit",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-rejected",
+    "score_detail": {
+      "stars": 0,
+      "activity": 8,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-qdhenry-claude-code-mcp-manager",
+    "last_analyzed": null,
+    "repo": "hyophyop/artifacts-skill",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# artifacts (Codex skill)\n\nThis repository contains the `artifacts` skill for OpenAI Codex CLI.\n\nThe skill creates a structured, repo-local audit trail for each task request (plan → todo → walkthrough), and indexes the finished work into a repo-local ChromaDB index for 7-day recall.\n\n## Features\n\n- **Confirm-before-execute workflow**: generate `plan.md` + `todo.md` first, ask for confirmation, then implement.\n- **Detailed artifacts**: the real plan/process/validation lives in `.artifacts/artifac",
+    "topics": []
+  },
+  {
+    "id": "github-boscorat-opencode-config",
+    "name": "boscorat/opencode-config",
+    "url": "https://github.com/boscorat/opencode-config",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "opencode"
+    ],
+    "summary": "Synced global OpenCode agents, commands, and skills. See install.sh for one-shot bootstrap on a new machine.",
+    "i18n": {
+      "zh": {
+        "name": "boscorat/opencode-config",
+        "summary": "已同步全球 OpenCode 代理、命令和技能。查看 install.sh 以在新机器上一键引导启动。"
+      },
+      "en": {
+        "name": "boscorat/opencode-config",
+        "summary": "Synced global OpenCode agents, commands, and skills. See install.sh for one-shot bootstrap on a new machine."
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 19,
+    "quantifiable_score": 19,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-06-30T17:52:08Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": "mit",
+    "languages": [
+      "Shell"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "boscorat/opencode-config",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# opencode-config\n\nSynced global OpenCode agents, commands, and skills. One public repo, one\n`./install.sh` on every machine, and a `git pull` keeps everything in sync.\n\nThe runtime config locations are symlinked into this repo's folders, so a\n`git pull` is enough to update OpenCode on every machine after a restart.\n\n## Contents\n\n```\nagents/    → ~/.config/opencode/agents       (subagents, primary agents)\ncommands/  → ~/.config/opencode/commands     (/new-agent, /new-skill, /new-command)\nskills/",
+    "topics": []
+  },
+  {
+    "id": "github-zanzythebar-grok-opencode-bridge",
+    "name": "ZanzyTHEbar/grok-opencode-bridge",
+    "url": "https://github.com/ZanzyTHEbar/grok-opencode-bridge",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "opencode"
+    ],
+    "summary": "Temporary Grok Build Opencode bridge to import and convert opencode agents, commands, rules, and skills to grok build format.",
+    "i18n": {
+      "zh": {
+        "name": "ZanzyTHEbar/grok-opencode-bridge",
+        "summary": "临时Grok Build Opencode桥接器，用于导入和转换opencode代理、命令、规则和技能至grok build format。"
+      },
+      "en": {
+        "name": "ZanzyTHEbar/grok-opencode-bridge",
+        "summary": "Temporary Grok Build Opencode bridge to import and convert opencode agents, commands, rules, and skills to grok build format."
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 19,
+    "quantifiable_score": 19,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-06-01T10:14:08Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": "mit",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "ZanzyTHEbar/grok-opencode-bridge",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# grok-opencode-bridge\n\nA proper, production-grade bridge for importing OpenCode artifacts (skills, agents, commands, rules) into the Grok Build TUI / CLI.\n\n## Features\n\n- High-fidelity import of OpenCode `skills/`, `agent/`, `command/`, and `rules/`\n- Converts OpenCode agents into Grok-native agents + automatically generates matching roles so they appear in `Ctrl+Shift+A`\n- Automatically proposes `[subagents.roles]` entries for your `config.toml` (with diff + confirmation)\n- No verbose \"bridge ",
+    "topics": [
+      "agent",
+      "agents",
+      "ai",
+      "grok",
+      "grok-build",
+      "grok-build-cli",
+      "harness",
+      "opencode",
+      "opencode-plugin",
+      "plugin",
+      "skills",
+      "bridge"
+    ]
+  },
+  {
+    "id": "github-jy110-ai-pr-review-agent",
+    "name": "JY110/AI-PR-Review-agent",
+    "url": "https://github.com/JY110/AI-PR-Review-agent",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "JY110/AI-PR-Review-agent",
+    "i18n": {
+      "zh": {
+        "name": "JY110/AI-PR-Review-agent",
+        "summary": "JY110/AI-PR-Review-agent 是一个 AI 代码审查代理项目。"
+      },
+      "en": {
+        "name": "JY110/AI-PR-Review-agent",
+        "summary": "JY110/AI-PR-Review-agent"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 17,
+    "quantifiable_score": 17,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-05-31T07:30:41Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "JY110/AI-PR-Review-agent",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# AI PR Review Assistant\n\nAI PR Review Assistant 是一个面向 GitHub Pull Request 的 AI 代码评审 CLI 工具。用户输入 PR URL 后，工具会自动获取 PR 元数据、变更文件、diff、相关上下文，并调用兼容 OpenAI Chat Completions 协议的大模型生成评审报告。\n\n本项目的目标是辅助人工 Reviewer 更快理解 PR、发现高风险变更、生成 Review 建议，而不是替代人工合并判断。\n\n## 演示视频\n\n作品演示视频：\n\n## 核心功能\n\n- 根据 GitHub PR URL 自动拉取标题、描述、变更文件、patch 和 head 文件上下文。\n- 生成 Markdown 评审报告，包含 PR 变更总结、风险代码识别、Review 建议、安全风险检查、测试建议和上下文覆盖说明。\n- 支持结构化 JSON 输出，方便后续接入 Web UI、CI 或 GitHub Action。\n- 支持将报告发布到 GitHub PR 评论区；再次运行时会更新已有评论，避免重复刷屏。\n- 支持本地 `.",
+    "topics": []
+  },
+  {
+    "id": "github-jacobjerryarackal-ai-pr-review-agent",
+    "name": "jacobjerryarackal/ai-pr-review-agent",
+    "url": "https://github.com/jacobjerryarackal/ai-pr-review-agent",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "jacobjerryarackal/ai-pr-review-agent",
+    "i18n": {
+      "zh": {
+        "name": "jacobjerryarackal/ai-pr-review-agent",
+        "summary": "jacobjerryarackal/AI-PR审查代理"
+      },
+      "en": {
+        "name": "jacobjerryarackal/ai-pr-review-agent",
+        "summary": "jacobjerryarackal/ai-pr-review-agent"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 17,
+    "quantifiable_score": 17,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-06-11T06:52:32Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "jacobjerryarackal/ai-pr-review-agent",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# AI Pull Request Review Agent\n\nAn autonomous, multi-agent orchestrator designed to review pull requests, identify security vulnerabilities, evaluate code quality, audit test coverage, and update documentation before code changes are merged. Complete with a real-time Next.js monitoring dashboard, Human-in-the-Loop (HITL) approval controls, and granular budget/cost-control gates.\n\n---\n\n## Table of Contents\n1. [Introduction & Purpose](#1-introduction--purpose)\n2. [Key Features](#2-key-features)\n3.",
+    "topics": []
+  },
+  {
+    "id": "github-shri-aakash-ai-pr-reviewagent",
+    "name": "Shri-Aakash/AI-PR-ReviewAgent",
+    "url": "https://github.com/Shri-Aakash/AI-PR-ReviewAgent",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "A project to use LLM's for PR code review for various VCS providers",
+    "i18n": {
+      "zh": {
+        "name": "Shri-Aakash/AI-PR-ReviewAgent",
+        "summary": "一个使用LLM对多种VCS提供商的PR进行代码审查的项目"
+      },
+      "en": {
+        "name": "Shri-Aakash/AI-PR-ReviewAgent",
+        "summary": "A project to use LLM's for PR code review for various VCS providers"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 17,
+    "quantifiable_score": 17,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-05-04T17:19:36Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "Shri-Aakash/AI-PR-ReviewAgent",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# AI-Powered PR Review Agent\n\n## 🚀 Overview\n\nThis project is a prototype of an **AI-assisted pull request review system** designed to scale across large codebases.\nIt combines **lightweight static analysis** with **LLM-based reasoning** to generate structured, actionable code reviews.\n\nThe system analyzes only the **incremental changes introduced in a PR**, mimicking how real-world engineering teams review code.\n\n---\n\n## 🎯 Motivation\n\nModern software systems are too large for manual review alone",
+    "topics": []
+  },
+  {
+    "id": "github-azmatjaved-ai-pr-review-agent",
+    "name": "AzmatJaved/AI-PR-Review-Agent",
+    "url": "https://github.com/AzmatJaved/AI-PR-Review-Agent",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "AzmatJaved/AI-PR-Review-Agent",
+    "i18n": {
+      "zh": {
+        "name": "AzmatJaved/AI-PR-Review-Agent",
+        "summary": "AzmatJaved/AI-PR-Review-Agent 项目：AI驱动的PR审查代理"
+      },
+      "en": {
+        "name": "AzmatJaved/AI-PR-Review-Agent",
+        "summary": "AzmatJaved/AI-PR-Review-Agent"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 17,
+    "quantifiable_score": 17,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-04-26T10:56:26Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "AzmatJaved/AI-PR-Review-Agent",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "AI-powered PR review agent that integrates with Git workflows to perform automated code analysis using LLMs. Built with a dual-layer architecture using Node.js (integration) and Python (LLM orchestration).\n\n🚀 Project: AI PR Review Agent\n🧠 What This Project Does\nHooks into Git (pre-commit)\nReads changed code\nSends it to Python (LLM layer)\nGets feedback\nBlocks or allows commit",
+    "topics": []
+  },
+  {
+    "id": "github-fineeeeeee-ai-pr-review-agent",
+    "name": "Fineeeeeee/ai-pr-review-agent",
+    "url": "https://github.com/Fineeeeeee/ai-pr-review-agent",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "本地优先的智能代码审查 Agent",
+    "i18n": {
+      "zh": {
+        "name": "Fineeeeeee/ai-pr-review-agent",
+        "summary": "本地优先的智能代码审查 Agent"
+      },
+      "en": {
+        "name": "Fineeeeeee/ai-pr-review-agent",
+        "summary": "本地优先的智能代码审查 Agent"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 17,
+    "quantifiable_score": 17,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-06-30T16:53:30Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "Fineeeeeee/ai-pr-review-agent",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# AI PR Review Agent\n\n[English README](README.en.md)\n\nAI PR Review Agent 是一个面向企业团队的本地优先 PR 风险门禁工具。它接收 `git diff` 或 patch 文件，只审查本次变更中的新增代码行，识别密钥泄露、SQL 拼接、动态执行、Shell 执行、缺少测试等风险，并输出 Markdown、JSON、SARIF 和 PR 评论所需的结构化结果。\n\n项目默认路径只依赖 Python 标准库，不需要 API Key，不会把代码发送到外部模型。DeepSeek 只作为可选增强层，必须显式传入 `--deepseek` 并配置 `DEEPSEEK_API_KEY` 才会调用。\n\n## 核心能力\n\n- 本地优先审查：默认离线运行，适合本地预检、CI 和企业内网环境。\n- 增量风险检测：只分析 PR diff 中的新增行，减少对旧代码的重复噪声。\n- 多语言规则：支持 Python、JavaScript、TypeScript 的常见安全风险检测。\n- 团队规则库：通过 `.ai-pr-review.yml` 配置 ",
+    "topics": []
+  },
+  {
+    "id": "github-vivekjne-ai-pr-review-agent",
+    "name": "vivekjne/ai-pr-review-agent",
+    "url": "https://github.com/vivekjne/ai-pr-review-agent",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "vivekjne/ai-pr-review-agent",
+    "i18n": {
+      "zh": {
+        "name": "vivekjne/ai-pr-review-agent",
+        "summary": "vivekjne/ai-pr-review-agent 项目，一个基于人工智能的代码审查（PR Review）代理工具"
+      },
+      "en": {
+        "name": "vivekjne/ai-pr-review-agent",
+        "summary": "vivekjne/ai-pr-review-agent"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 17,
+    "quantifiable_score": 17,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-05-22T12:03:50Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "vivekjne/ai-pr-review-agent",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# AI PR Review Agent 🤖\n\nA Python tool that automatically reviews GitHub pull requests using AI\n(via [OpenCode Go](https://opencode.ai) or any OpenAI-compatible API).\n\nWorks in three modes: **CLI** (one-off reviews from your terminal),\n**API** (FastAPI web server for integrations), and **CI/CD** (GitHub\nAction that runs automatically on every PR).\n\n---\n\n## Features\n\n- **6 review modes** — Full, Quick, Security, Performance, Tests, Architecture\n- **Smart diff filtering** — Skips binaries, lockfile",
+    "topics": []
+  },
+  {
+    "id": "github-jahnavichaurasia67-sys-ai-pr-review-agent",
+    "name": "jahnavichaurasia67-sys/ai-pr-review-agent",
+    "url": "https://github.com/jahnavichaurasia67-sys/ai-pr-review-agent",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "jahnavichaurasia67-sys/ai-pr-review-agent",
+    "i18n": {
+      "zh": {
+        "name": "jahnavichaurasia67-sys/ai-pr-review-agent",
+        "summary": "jahnavichaurasia67-sys/ai-pr-review-agent 项目"
+      },
+      "en": {
+        "name": "jahnavichaurasia67-sys/ai-pr-review-agent",
+        "summary": "jahnavichaurasia67-sys/ai-pr-review-agent"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 17,
+    "quantifiable_score": 17,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-05-25T18:06:07Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "JavaScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "jahnavichaurasia67-sys/ai-pr-review-agent",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# AI PR Review Agent\n\nAn AI-powered GitHub Pull Request review system built using Node.js and Express.\n\n## Features\n\n- Detects code smells\n- Finds security vulnerabilities\n- Reviews bad coding practices\n- Dynamic code review endpoint\n- Professional UI\n\n## Tech Stack\n\n- Node.js\n- Express.js\n- HTML/CSS\n- AI Review Engine\n\n## Run Locally\n\n```bash\nnpm install\nnode server.js",
+    "topics": []
+  },
+  {
+    "id": "github-tanmay-awal-ai-pr-reviewer-agent",
+    "name": "Tanmay-Awal/ai-pr-reviewer-agent",
+    "url": "https://github.com/Tanmay-Awal/ai-pr-reviewer-agent",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Tanmay-Awal/ai-pr-reviewer-agent",
+    "i18n": {
+      "zh": {
+        "name": "Tanmay-Awal/ai-pr-reviewer-agent",
+        "summary": "Tanmay-Awal/ai-pr-reviewer-agent 项目（基于 AI 的拉取请求审查代理）"
+      },
+      "en": {
+        "name": "Tanmay-Awal/ai-pr-reviewer-agent",
+        "summary": "Tanmay-Awal/ai-pr-reviewer-agent"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 15,
+    "quantifiable_score": 15,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-06-21T20:56:12Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 0
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "Tanmay-Awal/ai-pr-reviewer-agent",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# AI GitHub PR Reviewer Agent\n\nAn autonomous code review agent built on **n8n** that triggers on every GitHub pull request, evaluates the diff against a production-readiness rubric using a free-tier LLM, and posts a structured review (Approve / Comment / Request Changes) directly back to the PR — with no human in the loop.\n\n![Architecture](docs/architecture.png)\n\n## What it actually does\n\n1. A GitHub webhook fires on `opened` or `synchronize` (new commits pushed to an existing PR).\n2. n8n fetche",
+    "topics": []
+  },
+  {
+    "id": "github-tdsnxtaskin-tugay-ai-pr-review-agent",
+    "name": "tdsnxtaskin-tugay/ai-pr-review-agent",
+    "url": "https://github.com/tdsnxtaskin-tugay/ai-pr-review-agent",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Business-aware GitHub PR reviewer: checks acceptance criteria (scope gaps + scope creep), grounded by Foundry IQ. Agents League @ AISF 2026.",
+    "i18n": {
+      "zh": {
+        "name": "tdsnxtaskin-tugay/ai-pr-review-agent",
+        "summary": "具有业务意识的GitHub PR审查者：检查验收标准（范围缺口+范围蔓延），由Foundry IQ支持。Agents League @ AISF 2026。"
+      },
+      "en": {
+        "name": "tdsnxtaskin-tugay/ai-pr-review-agent",
+        "summary": "Business-aware GitHub PR reviewer: checks acceptance criteria (scope gaps + scope creep), grounded by Foundry IQ. Agents League @ AISF 2026."
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 19,
+    "quantifiable_score": 19,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-06-13T05:01:10Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": "mit",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "tdsnxtaskin-tugay/ai-pr-review-agent",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# 🤖 AI PR Review Agent\n\n[![CI](https://github.com/tdsnxtaskin-tugay/ai-pr-review-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/tdsnxtaskin-tugay/ai-pr-review-agent/actions/workflows/ci.yml)\n\n> A GitHub pull-request reviewer that checks **business acceptance criteria — not just code** — grounded by **Foundry IQ**. Built for the **Microsoft Agents League @ AI Skills Fest 2026**.\n\nMost AI PR reviewers (including GitHub Copilot's) review **code quality**: bugs, style,\nsuggestions. Th",
+    "topics": []
+  },
+  {
+    "id": "github-pradeep873511-sudo-ai-pr-review-agent",
+    "name": "pradeep873511-sudo/ai-pr-review-agent",
+    "url": "https://github.com/pradeep873511-sudo/ai-pr-review-agent",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "pradeep873511-sudo/ai-pr-review-agent",
+    "i18n": {
+      "zh": {
+        "name": "pradeep873511-sudo/ai-pr-review-agent",
+        "summary": "pradeep873511-sudo/ai-pr-review-agent 项目：AI驱动的PR审查工具"
+      },
+      "en": {
+        "name": "pradeep873511-sudo/ai-pr-review-agent",
+        "summary": "pradeep873511-sudo/ai-pr-review-agent"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 17,
+    "quantifiable_score": 17,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-06-25T07:38:26Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "pradeep873511-sudo/ai-pr-review-agent",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-sujwalnaik-ai-pr-review-agent",
+    "name": "Sujwalnaik/ai-pr-review-agent",
+    "url": "https://github.com/Sujwalnaik/ai-pr-review-agent",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Sujwalnaik/ai-pr-review-agent",
+    "i18n": {
+      "zh": {
+        "name": "Sujwalnaik/ai-pr-review-agent",
+        "summary": "Sujwalnaik/ai-pr-review-agent 项目，一个基于AI的PR审查代理工具。"
+      },
+      "en": {
+        "name": "Sujwalnaik/ai-pr-review-agent",
+        "summary": "Sujwalnaik/ai-pr-review-agent"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 12,
+    "quantifiable_score": 12,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-02-15T15:16:19Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 12,
+      "adoption": 0,
+      "maturity": 0
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-qdhenry-claude-code-mcp-manager",
+    "last_analyzed": null,
+    "repo": "Sujwalnaik/ai-pr-review-agent",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-saiswaroopt514-ai-pr-review-agent",
+    "name": "saiswaroopt514/ai-pr-review-agent",
+    "url": "https://github.com/saiswaroopt514/ai-pr-review-agent",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "saiswaroopt514/ai-pr-review-agent",
+    "i18n": {
+      "zh": {
+        "name": "saiswaroopt514/ai-pr-review-agent",
+        "summary": "saiswaroopt514/ai-pr-review-agent 项目"
+      },
+      "en": {
+        "name": "saiswaroopt514/ai-pr-review-agent",
+        "summary": "saiswaroopt514/ai-pr-review-agent"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 17,
+    "quantifiable_score": 17,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-06-26T09:35:53Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "JavaScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "saiswaroopt514/ai-pr-review-agent",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-moonkirito-ai-pr-review-agent",
+    "name": "MoonKirito/AI-PR-Review-Agent",
+    "url": "https://github.com/MoonKirito/AI-PR-Review-Agent",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "MoonKirito/AI-PR-Review-Agent",
+    "i18n": {
+      "zh": {
+        "name": "MoonKirito/AI-PR-Review-Agent",
+        "summary": "MoonKirito/AI-PR-Review-Agent 项目（AI 代码审查代理）"
+      },
+      "en": {
+        "name": "MoonKirito/AI-PR-Review-Agent",
+        "summary": "MoonKirito/AI-PR-Review-Agent"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 17,
+    "quantifiable_score": 17,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-05-31T15:09:54Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "MoonKirito/AI-PR-Review-Agent",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# pr-review-agent\n\n`pr-review-agent` 是一个面向 GitHub Pull Request 场景的 AI 代码评审 CLI 工具。\nDEMO视频链接：https://www.bilibili.com/video/BV1mVVS69Ey3/?vd_source=9b29cfa39ca88cce2efef0648d2f3591\n\n用户输入 GitHub PR URL 后，系统会自动获取 PR 元数据、PR 描述、变更文件、diff hunk、风险信号和相关上下文，并生成中文 Markdown 报告。当前 MVP 聚焦命令行使用方式，不包含前端、数据库、Webhook 服务或 GitHub App 自动监听。\n\n## 核心能力\n\n- PR 变更总结：把 PR 标题、描述、文件变更和提交意图整理成中文总结。\n- 风险代码识别：基于 diff、文件路径、hunk、规则信号和上下文识别风险点。\n- Review 建议生成：调用大模型输出结构化 Review 建议。\n- 一键完整评审：自动完成“变更总结 + 风险识别 + Review 建议”，输出完整中文 Mark",
+    "topics": []
+  },
+  {
+    "id": "github-sunilchitikina-cpu-ai-pr-review-agent",
+    "name": "sunilchitikina-cpu/ai_pr_review_agent",
+    "url": "https://github.com/sunilchitikina-cpu/ai_pr_review_agent",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "sunilchitikina-cpu/ai_pr_review_agent",
+    "i18n": {
+      "zh": {
+        "name": "sunilchitikina-cpu/ai_pr_review_agent",
+        "summary": "sunilchitikina-cpu/ai_pr_review_agent 项目，一个基于AI的Pull Request审查代理"
+      },
+      "en": {
+        "name": "sunilchitikina-cpu/ai_pr_review_agent",
+        "summary": "sunilchitikina-cpu/ai_pr_review_agent"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 17,
+    "quantifiable_score": 17,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-06-20T09:22:57Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "sunilchitikina-cpu/ai_pr_review_agent",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# AI Pull Request Review Agent\n\nAn AI-powered agent that automatically reviews GitHub pull requests and posts structured feedback — severity, impact, and recommendations — directly as PR comments.\n\n---\n\n## Prerequisites\n\n| Requirement | Version |\n|-------------|---------|\n| Python | 3.9+ |\n| pip | Latest |\n| GitHub Account | Personal Access Token with `repo` scope |\n| Google AI Studio Account | Free API key from [aistudio.google.com](https://aistudio.google.com) |\n| ngrok / cloudflared | To expo",
+    "topics": []
+  },
+  {
+    "id": "github-sumi451-ai-pr-review-agent",
+    "name": "Sumi451/ai_pr_review_agent",
+    "url": "https://github.com/Sumi451/ai_pr_review_agent",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "A ai agent that analyses github pull requests.",
+    "i18n": {
+      "zh": {
+        "name": "Sumi451/ai_pr_review_agent",
+        "summary": "一个分析 GitHub pull requests 的 AI 代理。"
+      },
+      "en": {
+        "name": "Sumi451/ai_pr_review_agent",
+        "summary": "A ai agent that analyses github pull requests."
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 10,
+    "quantifiable_score": 10,
+    "quality_score": 0,
+    "tracking_priority": "reject",
+    "last_updated": "2025-11-01T08:25:29Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-rejected",
+    "score_detail": {
+      "stars": 0,
+      "activity": 8,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-qdhenry-claude-code-mcp-manager",
+    "last_analyzed": null,
+    "repo": "Sumi451/ai_pr_review_agent",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# AI Pull Request Review Agent",
+    "topics": []
+  },
+  {
+    "id": "github-chittesh24-ai-pr-review-agent",
+    "name": "chittesh24/AI_PR_Review_Agent",
+    "url": "https://github.com/chittesh24/AI_PR_Review_Agent",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "chittesh24/AI_PR_Review_Agent",
+    "i18n": {
+      "zh": {
+        "name": "chittesh24/AI_PR_Review_Agent",
+        "summary": "chittesh24/AI_PR_Review_Agent 项目"
+      },
+      "en": {
+        "name": "chittesh24/AI_PR_Review_Agent",
+        "summary": "chittesh24/AI_PR_Review_Agent"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 10,
+    "quantifiable_score": 10,
+    "quality_score": 0,
+    "tracking_priority": "reject",
+    "last_updated": "2025-11-07T08:31:32Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-rejected",
+    "score_detail": {
+      "stars": 0,
+      "activity": 8,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-qdhenry-claude-code-mcp-manager",
+    "last_analyzed": null,
+    "repo": "chittesh24/AI_PR_Review_Agent",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# AI PR Review Agent (OpenRouter + GPT-5 Mini default)\r\n\r\nThis repository contains a GitHub Actions-based PR reviewer that:\r\n\r\n- Fetches a PR diff\r\n- Runs Semgrep + pip-audit for static & dependency checks\r\n- Sends a combined prompt to OpenRouter (configurable model)\r\n- Posts a summary and inline comments back to the PR\r\n\r\n## Setup\r\n\r\n1. Add secrets to your repository (Settings → Secrets and variables → Actions):\r\n   - `OPENROUTER_API_KEY` : your OpenRouter API key (sk-or-...)\r\n   - (optional) `",
+    "topics": []
+  },
+  {
+    "id": "github-nandagopal1988-ai-pr-review-agent",
+    "name": "nandagopal1988/ai-pr-review-agent",
+    "url": "https://github.com/nandagopal1988/ai-pr-review-agent",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "nandagopal1988/ai-pr-review-agent",
+    "i18n": {
+      "zh": {
+        "name": "nandagopal1988/ai-pr-review-agent",
+        "summary": "nandagopal1988/ai-pr-review-agent 项目，一个基于人工智能的代码审查代理工具。"
+      },
+      "en": {
+        "name": "nandagopal1988/ai-pr-review-agent",
+        "summary": "nandagopal1988/ai-pr-review-agent"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 19,
+    "quantifiable_score": 19,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-06-27T13:27:04Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": "other",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "nandagopal1988/ai-pr-review-agent",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# AI Code Review Agent for GitHub - Spring Boot Microservices\r\n\r\nAn intelligent Python-based code review agent integrated with GitHub Copilot that automatically reviews pull requests with comprehensive static analysis, custom rules, code coverage tracking, and LLM-based coding standard verification. Optimized for Spring Boot microservices.\r\n\r\n## Features\r\n\r\n### 1. **PR Change Analysis**\r\n- Automatically detects changed files and lines\r\n- Reviews only modified code (not entire files)\r\n- Provides ",
+    "topics": []
+  },
+  {
+    "id": "official-qoder",
+    "name": "Qoder / QoderWork",
+    "url": "https://qoder.com",
+    "source_type": "official-seed",
+    "resource_type": [
+      "cli-tool"
+    ],
+    "target_tools": [
+      "qoder"
+    ],
+    "summary": "Official seed profile for Qoder / QoderWork",
+    "i18n": {
+      "zh": {
+        "name": "Qoder / QoderWork",
+        "summary": "Qoder / QoderWork 的官方种子配置文件"
+      },
+      "en": {
+        "name": "Qoder / QoderWork",
+        "summary": "Official seed profile for Qoder / QoderWork"
+      }
+    },
+    "stars": null,
+    "forks": null,
+    "total_score": 18,
+    "quantifiable_score": 18,
+    "quality_score": 0,
+    "tracking_priority": "track",
+    "last_updated": "2026-07-06",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "license": null,
+    "languages": [],
+    "review_state": "auto-curated",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 3
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "qoderAI",
+    "tags": [
+      "target-tool",
+      "official-seed"
+    ],
+    "maturity": "unknown",
+    "status": "active",
+    "readme_preview": null,
+    "topics": []
+  },
+  {
+    "id": "github-ayushkh420-ai-pr-review-agent",
+    "name": "ayushkh420/AI-PR-Review-Agent",
+    "url": "https://github.com/ayushkh420/AI-PR-Review-Agent",
+    "source_type": "github",
+    "resource_type": [
+      "agent-framework"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "An autonomous code review agent system that uses AI to analyze GitHub pull requests",
+    "i18n": {
+      "zh": {
+        "name": "ayushkh420/AI-PR-Review-Agent",
+        "summary": "一个自主的代码审查代理系统，利用AI分析GitHub pull requests"
+      },
+      "en": {
+        "name": "ayushkh420/AI-PR-Review-Agent",
+        "summary": "An autonomous code review agent system that uses AI to analyze GitHub pull requests"
+      }
+    },
+    "stars": 0,
+    "forks": 1,
+    "total_score": 8,
+    "quantifiable_score": 8,
+    "quality_score": 0,
+    "tracking_priority": "reject",
+    "last_updated": "2025-01-07T14:24:13Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-rejected",
+    "score_detail": {
+      "stars": 0,
+      "activity": 4,
+      "adoption": 2,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-qdhenry-claude-code-mcp-manager",
+    "last_analyzed": null,
+    "repo": "ayushkh420/AI-PR-Review-Agent",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# 🔍 AI PR-Reviewer\nAn intelligent code review assistant powered by Llama 3.2 that automatically analyzes GitHub pull requests and provides detailed feedback using LangGraph workflows.\n\n## ✨ Features\n\n- Automated code review using Llama 3.2\n- Advanced workflow management with LangGraph\n- Multi-agent analysis system:\n  - Code style and best practices review\n  - Security vulnerability detection\n  - Performance optimization suggestions\n- Real-time analysis status tracking\n- Asynchronous processing f",
+    "topics": []
+  },
+  {
+    "id": "github-yassir-elkobi-ai-price-review-agent",
+    "name": "yassir-elkobi/ai-price-review-agent",
+    "url": "https://github.com/yassir-elkobi/ai-price-review-agent",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "yassir-elkobi/ai-price-review-agent",
+    "i18n": {
+      "zh": {
+        "name": "yassir-elkobi/ai-price-review-agent",
+        "summary": "yassir-elkobi/ai-price-review-agent 项目，一个基于AI的价格审核智能体"
+      },
+      "en": {
+        "name": "yassir-elkobi/ai-price-review-agent",
+        "summary": "yassir-elkobi/ai-price-review-agent"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 19,
+    "quantifiable_score": 19,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-06-21T00:14:20Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": "mit",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "yassir-elkobi/ai-price-review-agent",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "---\ntitle: AI Price Review Agent\ncolorFrom: purple\ncolorTo: yellow\nsdk: docker\napp_port: 7860\npinned: false\n---\n\n# AI Price Review Agent\n\nReAct agent for **Let's Talk - Partie 1** (*Comprendre et concevoir un agent*). Reviews end-of-day prices instrument-by-instrument against desk rules that can change at runtime.\n\n![CI](https://github.com/yassir-elkobi/ai-price-review-agent/actions/workflows/ci.yml/badge.svg)\n\n## Setup\n\n```bash\npython -m venv .venv && source .venv/bin/activate\npip install -r re",
+    "topics": []
+  },
+  {
+    "id": "github-zhangdada802-art-ai-pr-review-agent",
+    "name": "zhangdada802-art/ai-pr-review-agent",
+    "url": "https://github.com/zhangdada802-art/ai-pr-review-agent",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "An AI-powered GitHub PR review and refactor agent.",
+    "i18n": {
+      "zh": {
+        "name": "zhangdada802-art/ai-pr-review-agent",
+        "summary": "一个基于AI的GitHub PR审查与重构代理。"
+      },
+      "en": {
+        "name": "zhangdada802-art/ai-pr-review-agent",
+        "summary": "An AI-powered GitHub PR review and refactor agent."
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 17,
+    "quantifiable_score": 17,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-05-07T09:36:19Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "zhangdada802-art/ai-pr-review-agent",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# AI PR Review & Refactor Agent\n\n一个可运行的 GitHub PR 代码评审 Agent MVP。它会在 PR 打开、更新、重新打开时：\n\n1. 校验 GitHub Webhook 签名\n2. 拉取 PR diff\n3. 合并本地代码规范与仓库内 `CODE_REVIEW_GUIDELINES.md`\n4. 调用 OpenAI Responses API 做结构化代码评审\n5. 输出 bug、性能、安全、可维护性、测试覆盖等问题\n6. 对低风险问题生成 patch / diff 建议\n7. 自动回写到 GitHub PR 评论或 PR Review\n\n> 默认不会自动提交代码到仓库。它会生成可复制的 patch。真正自动 commit 需要额外接入 GitHub Contents API 或本地 CI Runner，我建议先跑人工确认版，稳定后再打开自动提交。\n\n---\n\n## 目录结构\n\n```text\nai-pr-review-agent/\n  app/\n    main.py              # FastAPI webhook 服务\n  ",
+    "topics": []
+  },
+  {
+    "id": "github-chadleeshaw-dot-agents",
+    "name": "chadleeshaw/dot-agents",
+    "url": "https://github.com/chadleeshaw/dot-agents",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "opencode"
+    ],
+    "summary": "OpenCode agents, commands, skills, and scripts",
+    "i18n": {
+      "zh": {
+        "name": "chadleeshaw/dot-agents",
+        "summary": "OpenCode 代理、命令、技能和脚本"
+      },
+      "en": {
+        "name": "chadleeshaw/dot-agents",
+        "summary": "OpenCode agents, commands, skills, and scripts"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 17,
+    "quantifiable_score": 17,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-07T17:13:32Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "Shell"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "chadleeshaw/dot-agents",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# dot-agents\n\nAI configuration for Claude Code — agents, commands, and skills.\n\nCloned to `~/.agents` and symlinked into `~/.claude` by `setup.sh`.\n\n## Structure\n\n```\n~/.agents/\n├── agents/       # Custom agent definitions\n├── commands/     # Slash commands (/shipit, /test, ...)\n├── skills/       # Language/domain skills loaded on demand\n└── setup.sh      # Idempotent install script\n```\n\n## Setup\n\n```sh\ngit clone git@github.com:chadleeshaw/dot-opencode.git ~/.agents\n~/.agents/setup.sh\n```\n\n`setu",
+    "topics": []
+  },
+  {
+    "id": "github-just2036-ai-pr-review-agent",
+    "name": "JUST2036/ai-pr-review-agent",
+    "url": "https://github.com/JUST2036/ai-pr-review-agent",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "JUST2036/ai-pr-review-agent",
+    "i18n": {
+      "zh": {
+        "name": "JUST2036/ai-pr-review-agent",
+        "summary": "JUST2036/AI-PR-审查代理"
+      },
+      "en": {
+        "name": "JUST2036/ai-pr-review-agent",
+        "summary": "JUST2036/ai-pr-review-agent"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 15,
+    "quantifiable_score": 15,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-05-07T07:35:49Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 0
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "JUST2036/ai-pr-review-agent",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-bettermen-piano-teacher",
+    "name": "bettermen/piano-teacher",
+    "url": "https://github.com/bettermen/piano-teacher",
+    "source_type": "github",
+    "resource_type": [
+      "skills"
+    ],
+    "target_tools": [
+      "workbuddy-codebuddy"
+    ],
+    "summary": "AI Piano Teacher — comprehensive piano learning assistant for WorkBuddy Agent Skills",
+    "i18n": {
+      "zh": {
+        "name": "bettermen/piano-teacher",
+        "summary": "AI钢琴老师——WorkBuddy Agent Skills的全面钢琴学习助手"
+      },
+      "en": {
+        "name": "bettermen/piano-teacher",
+        "summary": "AI Piano Teacher — comprehensive piano learning assistant for WorkBuddy Agent Skills"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 15,
+    "quantifiable_score": 15,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-08T14:56:55Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 0
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "bettermen/piano-teacher",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-tharun1045-ai-privacy-review-agent",
+    "name": "Tharun1045/ai-privacy-review-agent",
+    "url": "https://github.com/Tharun1045/ai-privacy-review-agent",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Tharun1045/ai-privacy-review-agent",
+    "i18n": {
+      "zh": {
+        "name": "Tharun1045/ai-privacy-review-agent",
+        "summary": "Tharun1045/AI隐私审查代理"
+      },
+      "en": {
+        "name": "Tharun1045/ai-privacy-review-agent",
+        "summary": "Tharun1045/ai-privacy-review-agent"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 17,
+    "quantifiable_score": 17,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-10T18:46:23Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "Tharun1045/ai-privacy-review-agent",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# AI Privacy and Data Quality Review Agent for Data Pipelines\n\nA focused portfolio project that reviews one SQL or PySpark pipeline before deployment. It extracts data lineage; detects likely PII, unsafe handling, schema drift, unsafe joins, and missing quality controls deterministically; retrieves relevant local policy passages; and optionally asks an LLM for a structured explanation and remediation plan.\n\nOnly code-derived summaries, findings, policy excerpts, and masked samples are eligible f",
+    "topics": []
+  },
+  {
+    "id": "github-ayush488-glitch-ai-pr-review-agent",
+    "name": "ayush488-glitch/ai-pr-review-agent",
+    "url": "https://github.com/ayush488-glitch/ai-pr-review-agent",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Production-grade AI Pull Request Review Agent — LangGraph + ARQ + FastAPI",
+    "i18n": {
+      "zh": {
+        "name": "ayush488-glitch/ai-pr-review-agent",
+        "summary": "生产级AI拉取请求审查代理 — LangGraph + ARQ + FastAPI"
+      },
+      "en": {
+        "name": "ayush488-glitch/ai-pr-review-agent",
+        "summary": "Production-grade AI Pull Request Review Agent — LangGraph + ARQ + FastAPI"
+      }
+    },
+    "stars": 0,
+    "forks": 1,
+    "total_score": 19,
+    "quantifiable_score": 19,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-06-04T20:04:05Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 2,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "ayush488-glitch/ai-pr-review-agent",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# AI PR Review Agent\n\nA production-grade, open source AI Pull Request Review Agent. A developer opens a PR. A webhook fires. Four specialist sub-agents run in parallel — security, code quality, test coverage, docs. Each one reasons over the diff plus codebase context retrieved via semantic search. An aggregator merges findings into a single structured review and posts it back to the PR. Low-confidence findings route to a human approval queue.\n\nEvery phase has a gate: tests pass, evals pass, a wr",
+    "topics": []
+  },
+  {
+    "id": "github-maskedtitan08-ai-pr-review-agent",
+    "name": "maskedtitan08/AI-PR_review-Agent",
+    "url": "https://github.com/maskedtitan08/AI-PR_review-Agent",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "An AI agent using LLama model to review PR on a github repo",
+    "i18n": {
+      "zh": {
+        "name": "maskedtitan08/AI-PR_review-Agent",
+        "summary": "一个使用Llama模型的AI智能体，用于审查GitHub仓库上的PR。"
+      },
+      "en": {
+        "name": "maskedtitan08/AI-PR_review-Agent",
+        "summary": "An AI agent using LLama model to review PR on a github repo"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 17,
+    "quantifiable_score": 17,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-05-20T03:41:07Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": null,
+    "repo": "maskedtitan08/AI-PR_review-Agent",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-openclaw-openclaw",
+    "name": "openclaw/openclaw",
+    "url": "https://github.com/openclaw/openclaw",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
+    "i18n": {
+      "zh": {
+        "name": "openclaw/openclaw",
+        "summary": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 "
+      },
+      "en": {
+        "name": "openclaw/openclaw",
+        "summary": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 "
+      }
+    },
+    "stars": 382882,
+    "forks": 80363,
+    "total_score": 49,
+    "quantifiable_score": 49,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:11:09Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "other",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-curated",
+    "score_detail": {
+      "stars": 20,
+      "activity": 15,
+      "adoption": 10,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "openclaw/openclaw",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# 🦞 OpenClaw — Personal AI Assistant\n\n<p align=\"center\">\n    <picture>\n        <source media=\"(prefers-color-scheme: light)\" srcset=\"https://raw.githubusercontent.com/openclaw/openclaw/main/docs/assets/openclaw-banner-light.png\">\n        <img src=\"https://raw.githubusercontent.com/openclaw/openclaw/main/docs/assets/openclaw-banner-dark.png\" alt=\"OpenClaw — EXFOLIATE! EXFOLIATE! Your personal AI assistant, running on your own devices.\">\n    </picture>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://g",
+    "topics": [
+      "ai",
+      "assistant",
+      "own-your-data",
+      "personal",
+      "crustacean",
+      "molty",
+      "openclaw"
+    ]
+  },
+  {
+    "id": "github-obra-superpowers",
+    "name": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "An agentic skills framework & software development methodology that works.",
+    "i18n": {
+      "zh": {
+        "name": "obra/superpowers",
+        "summary": "An agentic skills framework & software development methodology that works."
+      },
+      "en": {
+        "name": "obra/superpowers",
+        "summary": "An agentic skills framework & software development methodology that works."
+      }
+    },
+    "stars": 254195,
+    "forks": 22711,
+    "total_score": 49,
+    "quantifiable_score": 49,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:11:04Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "Shell"
+    ],
+    "review_state": "auto-curated",
+    "score_detail": {
+      "stars": 20,
+      "activity": 15,
+      "adoption": 10,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "obra/superpowers",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# Superpowers\n\nSuperpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them.\n\n\n## We're Hiring!\n\nWe're hiring someone to help out full time with Superpowers community and code work. \nYou can read about the job at https://primeradiant.com/jobs/superpowers-community-engineer/\nIf this sounds like someone you know, definitely send them our way.\n\n## Quickstart\n\nGive your ",
+    "topics": [
+      "ai",
+      "brainstorming",
+      "coding",
+      "obra",
+      "sdlc",
+      "skills",
+      "superpowers",
+      "subagent-driven-development"
+    ]
+  },
+  {
+    "id": "github-affaan-m-ecc",
+    "name": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "claude-code",
+      "codex-cli",
+      "opencode",
+      "cursor"
+    ],
+    "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "i18n": {
+      "zh": {
+        "name": "affaan-m/ECC",
+        "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+      },
+      "en": {
+        "name": "affaan-m/ECC",
+        "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+      }
+    },
+    "stars": 229393,
+    "forks": 35140,
+    "total_score": 49,
+    "quantifiable_score": 49,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:11:12Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "JavaScript"
+    ],
+    "review_state": "auto-curated",
+    "score_detail": {
+      "stars": 20,
+      "activity": 15,
+      "adoption": 10,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "affaan-m/ECC",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "**Language:** English | [Português (Brasil)](docs/pt-BR/README.md) | [简体中文](README.zh-CN.md) | [繁體中文](docs/zh-TW/README.md) | [日本語](docs/ja-JP/README.md) | [한국어](docs/ko-KR/README.md) | [Türkçe](docs/tr/README.md) | [Русский](docs/ru/README.md) | [Tiếng Việt](docs/vi-VN/README.md) | [ไทย](docs/th/README.md) | [Deutsch](docs/de-DE/README.md) | [Español](docs/es/README.md)\n\n![ECC — the agent harness operating system](assets/hero.png)\n\n[![Discord](https://img.shields.io/discord/1496644400590094540?",
+    "topics": [
+      "ai-agents",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "developer-tools",
+      "llm",
+      "mcp",
+      "productivity"
+    ]
+  },
+  {
+    "id": "github-ultraworkers-claw-code",
+    "name": "ultraworkers/claw-code",
+    "url": "https://github.com/ultraworkers/claw-code",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "codex-cli"
+    ],
+    "summary": "An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention.",
+    "i18n": {
+      "zh": {
+        "name": "ultraworkers/claw-code",
+        "summary": "An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention."
+      },
+      "en": {
+        "name": "ultraworkers/claw-code",
+        "summary": "An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention."
+      }
+    },
+    "stars": 194755,
+    "forks": 109680,
+    "total_score": 49,
+    "quantifiable_score": 49,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:10:18Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "Rust"
+    ],
+    "review_state": "auto-curated",
+    "score_detail": {
+      "stars": 20,
+      "activity": 15,
+      "adoption": 10,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "ultraworkers/claw-code",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# Claw Code\n\n<p align=\"center\">\n  <a href=\"https://github.com/code-yeongyu/lazycodex\">\n    <img src=\"https://img.shields.io/badge/LazyCodex-codex%20for%20no--brainers-111111?style=for-the-badge&logo=github&logoColor=white\" alt=\"LazyCodex banner\" />\n  </a>\n  <a href=\"https://github.com/Yeachan-Heo/gajae-code\">\n    <img src=\"https://img.shields.io/badge/Gajae--Code-red--claw%20agent%20harness-B22222?style=for-the-badge&logo=github&logoColor=white\" alt=\"Gajae-Code banner\" />\n  </a>\n</p>\n\n<p align=\"",
+    "topics": []
+  },
+  {
+    "id": "github-multica-ai-andrej-karpathy-skills",
+    "name": "multica-ai/andrej-karpathy-skills",
+    "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+    "source_type": "github",
+    "resource_type": [
+      "rules"
+    ],
+    "target_tools": [
+      "claude-code"
+    ],
+    "summary": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+    "i18n": {
+      "zh": {
+        "name": "multica-ai/andrej-karpathy-skills",
+        "summary": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls."
+      },
+      "en": {
+        "name": "multica-ai/andrej-karpathy-skills",
+        "summary": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls."
+      }
+    },
+    "stars": 191805,
+    "forks": 19691,
+    "total_score": 45,
+    "quantifiable_score": 45,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:11:41Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": null,
+    "languages": [],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 20,
+      "activity": 15,
+      "adoption": 10,
+      "maturity": 0
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "multica-ai/andrej-karpathy-skills",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# Karpathy-Inspired Claude Code Guidelines\n\n> Check out my new project [Multica](https://github.com/multica-ai/multica) — an open-source platform for running and managing coding agents with reusable skills.\n>\n> Follow me on X: [https://x.com/jiayuan_jy](https://x.com/jiayuan_jy)\n\nA single `CLAUDE.md` file to improve Claude Code behavior, derived from [Andrej Karpathy's observations](https://x.com/karpathy/status/2015883857489522876) on LLM coding pitfalls.\n\nEnglish | [简体中文](./README.zh.md)\n\n## T",
+    "topics": []
+  },
+  {
+    "id": "github-mattpocock-skills",
+    "name": "mattpocock/skills",
+    "url": "https://github.com/mattpocock/skills",
+    "source_type": "github",
+    "resource_type": [
+      "skills"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Skills for Real Engineers. Straight from my .claude directory.",
+    "i18n": {
+      "zh": {
+        "name": "mattpocock/skills",
+        "summary": "Skills for Real Engineers. Straight from my .claude directory."
+      },
+      "en": {
+        "name": "mattpocock/skills",
+        "summary": "Skills for Real Engineers. Straight from my .claude directory."
+      }
+    },
+    "stars": 169034,
+    "forks": 14562,
+    "total_score": 49,
+    "quantifiable_score": 49,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:12:04Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "Shell"
+    ],
+    "review_state": "auto-curated",
+    "score_detail": {
+      "stars": 20,
+      "activity": 15,
+      "adoption": 10,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "mattpocock/skills",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "<p>\n  <a href=\"https://www.aihero.dev/s/skills-newsletter\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skills-repo-dark_2x.png\">\n      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skill-repo-light_2x.png\">\n      <img alt=\"Skills\" src=\"https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skill-repo-light_2x",
+    "topics": []
+  },
+  {
+    "id": "github-anthropics-skills",
+    "name": "anthropics/skills",
+    "url": "https://github.com/anthropics/skills",
+    "source_type": "github",
+    "resource_type": [
+      "skills"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Public repository for Agent Skills",
+    "i18n": {
+      "zh": {
+        "name": "anthropics/skills",
+        "summary": "Public repository for Agent Skills"
+      },
+      "en": {
+        "name": "anthropics/skills",
+        "summary": "Public repository for Agent Skills"
+      }
+    },
+    "stars": 160984,
+    "forks": 19005,
+    "total_score": 47,
+    "quantifiable_score": 47,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:10:22Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 20,
+      "activity": 15,
+      "adoption": 10,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "anthropics/skills",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "> **Note:** This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see [agentskills.io](http://agentskills.io).\n\n[![skills.sh](https://skills.sh/b/anthropics/skills)](https://skills.sh/anthropics/skills)\n\n# Skills\nSkills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whether that",
+    "topics": [
+      "agent-skills"
+    ]
+  }
+]

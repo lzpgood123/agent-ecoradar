@@ -83,16 +83,20 @@
 
 | 方法 | 签名 | 用途 |
 |------|------|------|
-| loadAll(onProgress) | (fn) => Promise<bool> | 渐进式加载 4 个 JSON（metrics -> tools -> projects -> curated） |
+| loadAll(onProgress) | (fn) => Promise<bool> | 渐进式加载 metrics → tools → projects → curated → **search-index**，并构建 `searchMap` |
 | fetchJSON(url, onProgress, label) | (string, fn, string) => Promise | fetch 封装 |
-| loadDetail(projectId) | (string) => Promise<obj> | 懒加载 projects-detail.json，缓存全部详情 |
+| loadDetail(projectId) | (string) => Promise<obj> | 读 detail-index → fetch `detail/{chunk}.json` → 缓存分片内条目；**无**单体 fallback |
 | isFav(id) / toggleFav(id) | (string) => bool/void | 收藏管理 |
 | exportFavoritesUrl() | () => string | 导出收藏 URL（hash 编码） |
 | curatedIds() | () => Set | 返回 curated 项目 ID 集合 |
 
+**状态字段：** `searchMap`（id→text）、`_detailIndex`（id→chunk）、`projectDetails`（详情缓存）
+
 **数据字段（精简版 projects.json）：** id, name, url, source_type, resource_type, target_tools, summary, i18n, stars, forks, total_score, quantifiable_score, quality_score, tracking_priority, last_updated, first_seen, last_seen, license, languages, review_state
 
-**详情版（projects-detail.json）额外字段：** score_detail, quality_detail, llm_summary, benchmark_ref, last_analyzed, repo, tags, maturity, status
+**搜索索引（search-index.json）：** `[{id, text}]`，text = lower(name + summary + resource_type + target_tools)
+
+**详情分片（detail/{i}.json + detail-index.json）：** 100 条/片；额外字段 score_detail, quality_detail, llm_summary, benchmark_ref, last_analyzed, repo, tags, maturity, status, readme_preview, topics。**不再生成** projects-detail.json
 
 ### filters.js - SIC_filters
 
@@ -108,7 +112,7 @@
 
 **筛选逻辑：**
 - 排除 official-seed 和 reject 项目
-- 搜索关键词：JSON.stringify 全文匹配
+- 搜索关键词：`SIC_data.searchMap[id].includes(q)`（批次 2）；**禁止** `JSON.stringify(project)` 全文匹配
 - 工具筛选：target_tools 包含关系，OR 模式 some()，AND 模式 every()
 - 类型筛选：resource_type 包含关系，同上
 - curatedOnly：id 在 curated 集合中
@@ -212,13 +216,15 @@
 ## build_site.py 与前端的关联
 
 build_site.py 生成：
-1. **精简 JSON**（projects.json 等）- 只含表格展示字段
-2. **详情 JSON**（projects-detail.json）- 全量字段，懒加载
-3. **带 hash 的 JS/CSS 文件名**（如 app.517e5a.js）- Nginx 长缓存 immutable
-4. **sitemap.xml** - 站点地图
-5. **更新 index.html 中的引用** - 指向带 hash 的文件名
+1. **精简 JSON**（projects.json 等）- 只含表格展示字段（SLIM_FIELDS）
+2. **搜索索引**（search-index.json）- 轻量 id+text
+3. **详情分片**（detail/{i}.json，chunk=100）+ **detail-index.json**（id→chunk）
+4. **带 hash 的 JS/CSS 文件名**（如 app.517e5a.js）- Nginx 长缓存 immutable
+5. **sitemap.xml** / **robots.txt**
+6. **更新 index.html 中的引用** - 指向带 hash 的文件名
+7. **删除** 单体 `projects-detail.json`（若存在）
 
-**重要：** build_site.py 多次运行时会先清理旧 hash 文件、恢复 index.html 原始引用，再重新生成 hash。这是幂等操作。
+**重要：** build_site.py 多次运行时会先清理旧 hash 文件与旧 detail 分片、恢复 index.html 原始引用，再重新生成。这是幂等操作。
 
 ## 交互模式
 

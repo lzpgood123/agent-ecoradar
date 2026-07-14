@@ -1,0 +1,6095 @@
+[
+  {
+    "id": "github-bradautomates-claude-video",
+    "name": "bradautomates/claude-video",
+    "url": "https://github.com/bradautomates/claude-video",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+    "i18n": {
+      "zh": {
+        "name": "bradautomates/claude-video",
+        "summary": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude."
+      },
+      "en": {
+        "name": "bradautomates/claude-video",
+        "summary": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude."
+      }
+    },
+    "stars": 8305,
+    "forks": 909,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T09:29:42Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "bradautomates/claude-video",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-idosal-git-mcp",
+    "name": "idosal/git-mcp",
+    "url": "https://github.com/idosal/git-mcp",
+    "source_type": "github",
+    "resource_type": [
+      "mcp-server"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Put an end to code hallucinations! GitMCP is a free, open-source, remote MCP server for any GitHub project",
+    "i18n": {
+      "zh": {
+        "name": "idosal/git-mcp",
+        "summary": "Put an end to code hallucinations! GitMCP is a free, open-source, remote MCP server for any GitHub project"
+      },
+      "en": {
+        "name": "idosal/git-mcp",
+        "summary": "Put an end to code hallucinations! GitMCP is a free, open-source, remote MCP server for any GitHub project"
+      }
+    },
+    "stars": 8253,
+    "forks": 733,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T06:58:26Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "apache-2.0",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "idosal/git-mcp",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "agentic-ai",
+      "agents",
+      "ai",
+      "claude",
+      "copilot",
+      "cursor",
+      "git",
+      "llm",
+      "mcp"
+    ]
+  },
+  {
+    "id": "github-eze-is-web-access",
+    "name": "eze-is/web-access",
+    "url": "https://github.com/eze-is/web-access",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "claude-code"
+    ],
+    "summary": "给 Claude Code 装上完整联网能力的 skill：三层通道调度 + 浏览器 CDP + 并行分治",
+    "i18n": {
+      "zh": {
+        "name": "eze-is/web-access",
+        "summary": "给 Claude Code 装上完整联网能力的 skill：三层通道调度 + 浏览器 CDP + 并行分治"
+      },
+      "en": {
+        "name": "eze-is/web-access",
+        "summary": "给 Claude Code 装上完整联网能力的 skill：三层通道调度 + 浏览器 CDP + 并行分治"
+      }
+    },
+    "stars": 8247,
+    "forks": 589,
+    "total_score": 36,
+    "quantifiable_score": 36,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:41:29Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": null,
+    "languages": [
+      "JavaScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "eze-is/web-access",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-agentwrapper-agent-orchestrator",
+    "name": "AgentWrapper/agent-orchestrator",
+    "url": "https://github.com/AgentWrapper/agent-orchestrator",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": " Agentic orchestrator for parallel coding agents — plans tasks, spawns agents, and autonomously handles CI    fixes, merge conflicts, and code reviews.",
+    "i18n": {
+      "zh": {
+        "name": "AgentWrapper/agent-orchestrator",
+        "summary": " Agentic orchestrator for parallel coding agents — plans tasks, spawns agents, and autonomously handles CI    fixes, merge conflicts, and code reviews."
+      },
+      "en": {
+        "name": "AgentWrapper/agent-orchestrator",
+        "summary": " Agentic orchestrator for parallel coding agents — plans tasks, spawns agents, and autonomously handles CI    fixes, merge conflicts, and code reviews."
+      }
+    },
+    "stars": 8237,
+    "forks": 1176,
+    "total_score": 41,
+    "quantifiable_score": 41,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T09:19:26Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "apache-2.0",
+    "languages": [
+      "Go"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 10,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "AgentWrapper/agent-orchestrator",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "claude-code",
+      "codex-cli",
+      "orchestration",
+      "orchestrator",
+      "skills",
+      "agent-fleet",
+      "agent-swarm",
+      "git-worktrees",
+      "multi-agent",
+      "parallel-agents",
+      "parallel-coding",
+      "tmux"
+    ]
+  },
+  {
+    "id": "github-zhaoxuya520-reverse-skill",
+    "name": "zhaoxuya520/reverse-skill",
+    "url": "https://github.com/zhaoxuya520/reverse-skill",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "claude-code",
+      "cursor"
+    ],
+    "summary": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding",
+    "i18n": {
+      "zh": {
+        "name": "zhaoxuya520/reverse-skill",
+        "summary": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding"
+      },
+      "en": {
+        "name": "zhaoxuya520/reverse-skill",
+        "summary": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding"
+      }
+    },
+    "stars": 8219,
+    "forks": 1290,
+    "total_score": 41,
+    "quantifiable_score": 41,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T09:10:35Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "PowerShell"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 10,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "zhaoxuya520/reverse-skill",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-wonderwhy-er-desktopcommandermcp",
+    "name": "wonderwhy-er/DesktopCommanderMCP",
+    "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+    "source_type": "github",
+    "resource_type": [
+      "mcp-server",
+      "cli-tool"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+    "i18n": {
+      "zh": {
+        "name": "wonderwhy-er/DesktopCommanderMCP",
+        "summary": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities"
+      },
+      "en": {
+        "name": "wonderwhy-er/DesktopCommanderMCP",
+        "summary": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities"
+      }
+    },
+    "stars": 8215,
+    "forks": 1000,
+    "total_score": 41,
+    "quantifiable_score": 41,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T09:16:56Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 10,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "wonderwhy-er/DesktopCommanderMCP",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "agent",
+      "ai",
+      "code-analysis",
+      "code-generation",
+      "mcp",
+      "terminal-ai",
+      "terminal-automation",
+      "vibe-coding",
+      "gemini-cli-extension"
+    ]
+  },
+  {
+    "id": "github-bytedance-flowgram-ai",
+    "name": "bytedance/flowgram.ai",
+    "url": "https://github.com/bytedance/flowgram.ai",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "FlowGram is an extensible workflow development framework with built-in canvas, form, variable, and materials that helps developers build AI workflow platforms faster and simpler.",
+    "i18n": {
+      "zh": {
+        "name": "bytedance/flowgram.ai",
+        "summary": "FlowGram is an extensible workflow development framework with built-in canvas, form, variable, and materials that helps developers build AI workflow platforms faster and simpler."
+      },
+      "en": {
+        "name": "bytedance/flowgram.ai",
+        "summary": "FlowGram is an extensible workflow development framework with built-in canvas, form, variable, and materials that helps developers build AI workflow platforms faster and simpler."
+      }
+    },
+    "stars": 8204,
+    "forks": 740,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-13T18:01:39Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "bytedance/flowgram.ai",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "flow",
+      "flowchart",
+      "graph",
+      "javascript",
+      "node-based-ui",
+      "react",
+      "typescript",
+      "typescript-library",
+      "workflow",
+      "ai",
+      "diagram",
+      "visualization",
+      "automation",
+      "data-flow",
+      "integration-framework",
+      "no-code",
+      "workflow-automation",
+      "coze"
+    ]
+  },
+  {
+    "id": "github-youmind-openlab-awesome-gpt-image-2",
+    "name": "YouMind-OpenLab/awesome-gpt-image-2",
+    "url": "https://github.com/YouMind-OpenLab/awesome-gpt-image-2",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "🚀 World's largest GPT Image 2 prompt library, updated daily — 2000+ curated prompts with preview images, 16 languages. OpenAI's next-gen image model with pixel-perfect text rendering, cross-image consistency, and commercial-grade illustrati",
+    "i18n": {
+      "zh": {
+        "name": "YouMind-OpenLab/awesome-gpt-image-2",
+        "summary": "🚀 World's largest GPT Image 2 prompt library, updated daily — 2000+ curated prompts with preview images, 16 languages. OpenAI's next-gen image model with pixel-perfect text rendering, cross-image consistency, and commercial-grade illustrati"
+      },
+      "en": {
+        "name": "YouMind-OpenLab/awesome-gpt-image-2",
+        "summary": "🚀 World's largest GPT Image 2 prompt library, updated daily — 2000+ curated prompts with preview images, 16 languages. OpenAI's next-gen image model with pixel-perfect text rendering, cross-image consistency, and commercial-grade illustrati"
+      }
+    },
+    "stars": 8201,
+    "forks": 743,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T09:19:24Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "other",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "YouMind-OpenLab/awesome-gpt-image-2",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "ai-image-generation",
+      "ai-prompts",
+      "awesome",
+      "awesome-list",
+      "duct-tape",
+      "gpt",
+      "gpt-image",
+      "gpt-image-2",
+      "image-generation",
+      "multilingual",
+      "openai",
+      "prompt-engineering",
+      "prompts",
+      "text-rendering",
+      "commercial-illustration",
+      "openai-image"
+    ]
+  },
+  {
+    "id": "github-poloclub-transformer-explainer",
+    "name": "poloclub/transformer-explainer",
+    "url": "https://github.com/poloclub/transformer-explainer",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Transformer Explained Visually: Learn How LLM Transformer Models Work with Interactive Visualization",
+    "i18n": {
+      "zh": {
+        "name": "poloclub/transformer-explainer",
+        "summary": "Transformer Explained Visually: Learn How LLM Transformer Models Work with Interactive Visualization"
+      },
+      "en": {
+        "name": "poloclub/transformer-explainer",
+        "summary": "Transformer Explained Visually: Learn How LLM Transformer Models Work with Interactive Visualization"
+      }
+    },
+    "stars": 8180,
+    "forks": 903,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T09:08:55Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "JavaScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "poloclub/transformer-explainer",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "generative-ai",
+      "gpt",
+      "deep-learning",
+      "langauge-model",
+      "llm",
+      "visualization"
+    ]
+  },
+  {
+    "id": "github-smtg-ai-claude-squad",
+    "name": "smtg-ai/claude-squad",
+    "url": "https://github.com/smtg-ai/claude-squad",
+    "source_type": "github",
+    "resource_type": [
+      "cli-tool"
+    ],
+    "target_tools": [
+      "claude-code",
+      "codex-cli",
+      "opencode"
+    ],
+    "summary": "Manage multiple AI terminal agents like Claude Code, Codex, OpenCode, and Amp.",
+    "i18n": {
+      "zh": {
+        "name": "smtg-ai/claude-squad",
+        "summary": "Manage multiple AI terminal agents like Claude Code, Codex, OpenCode, and Amp."
+      },
+      "en": {
+        "name": "smtg-ai/claude-squad",
+        "summary": "Manage multiple AI terminal agents like Claude Code, Codex, OpenCode, and Amp."
+      }
+    },
+    "stars": 8110,
+    "forks": 585,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T06:49:25Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "agpl-3.0",
+    "languages": [
+      "Go"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "smtg-ai/claude-squad",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "claude-code",
+      "cli",
+      "vibe-coding",
+      "codex",
+      "opencode"
+    ]
+  },
+  {
+    "id": "github-earthtojake-text-to-cad",
+    "name": "earthtojake/text-to-cad",
+    "url": "https://github.com/earthtojake/text-to-cad",
+    "source_type": "github",
+    "resource_type": [
+      "skills"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "A collection of agent skills for CAD, robotics and hardware design",
+    "i18n": {
+      "zh": {
+        "name": "earthtojake/text-to-cad",
+        "summary": "A collection of agent skills for CAD, robotics and hardware design"
+      },
+      "en": {
+        "name": "earthtojake/text-to-cad",
+        "summary": "A collection of agent skills for CAD, robotics and hardware design"
+      }
+    },
+    "stars": 8111,
+    "forks": 931,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T09:09:40Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "JavaScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "earthtojake/text-to-cad",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "agents",
+      "ai-agents",
+      "cad",
+      "text-to-cad",
+      "3mf",
+      "build123d",
+      "dxf",
+      "glb",
+      "mechanical-engineering",
+      "opencascade",
+      "robotics",
+      "step",
+      "stl",
+      "sdf",
+      "srdf",
+      "stp",
+      "urdf"
+    ]
+  },
+  {
+    "id": "github-jamez-bondos-awesome-gpt4o-images",
+    "name": "jamez-bondos/awesome-gpt4o-images",
+    "url": "https://github.com/jamez-bondos/awesome-gpt4o-images",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Awesome curated collection of images and prompts generated by GPT-4o and gpt-image-1. Explore AI generated visuals created with ChatGPT and Sora, showcasing OpenAI’s advanced image generation capabilities.",
+    "i18n": {
+      "zh": {
+        "name": "jamez-bondos/awesome-gpt4o-images",
+        "summary": "Awesome curated collection of images and prompts generated by GPT-4o and gpt-image-1. Explore AI generated visuals created with ChatGPT and Sora, showcasing OpenAI’s advanced image generation capabilities."
+      },
+      "en": {
+        "name": "jamez-bondos/awesome-gpt4o-images",
+        "summary": "Awesome curated collection of images and prompts generated by GPT-4o and gpt-image-1. Explore AI generated visuals created with ChatGPT and Sora, showcasing OpenAI’s advanced image generation capabilities."
+      }
+    },
+    "stars": 8093,
+    "forks": 1810,
+    "total_score": 41,
+    "quantifiable_score": 41,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-13T23:32:20Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "other",
+    "languages": [
+      "JavaScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 10,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "jamez-bondos/awesome-gpt4o-images",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "ai-art",
+      "awesome-list",
+      "generative-art",
+      "gpt-4o",
+      "image-generation",
+      "openai",
+      "prompt-engineering",
+      "prompts",
+      "text-to-image",
+      "ai-image-examples",
+      "anime-ai-art",
+      "cartoon-style",
+      "curated-collection",
+      "ghibli-style",
+      "gpt-image-1"
+    ]
+  },
+  {
+    "id": "github-getstream-vision-agents",
+    "name": "GetStream/Vision-Agents",
+    "url": "https://github.com/GetStream/Vision-Agents",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Open Vision Agents by Stream. Build voice and vision agents quickly with any model or video provider. Uses Stream's edge network for ultra-low latency.",
+    "i18n": {
+      "zh": {
+        "name": "GetStream/Vision-Agents",
+        "summary": "Open Vision Agents by Stream. Build voice and vision agents quickly with any model or video provider. Uses Stream's edge network for ultra-low latency."
+      },
+      "en": {
+        "name": "GetStream/Vision-Agents",
+        "summary": "Open Vision Agents by Stream. Build voice and vision agents quickly with any model or video provider. Uses Stream's edge network for ultra-low latency."
+      }
+    },
+    "stars": 7980,
+    "forks": 667,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T07:28:34Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "apache-2.0",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "GetStream/Vision-Agents",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "vision-ai",
+      "voice-ai",
+      "video-agents",
+      "agentic-ai",
+      "agents",
+      "realtime",
+      "stt",
+      "tts",
+      "video-ai"
+    ]
+  },
+  {
+    "id": "github-narcooo-inkos",
+    "name": "Narcooo/inkos",
+    "url": "https://github.com/Narcooo/inkos",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Story Creation AI Agent for novel, scripts, translation, interactive games, and IP content",
+    "i18n": {
+      "zh": {
+        "name": "Narcooo/inkos",
+        "summary": "Story Creation AI Agent for novel, scripts, translation, interactive games, and IP content"
+      },
+      "en": {
+        "name": "Narcooo/inkos",
+        "summary": "Story Creation AI Agent for novel, scripts, translation, interactive games, and IP content"
+      }
+    },
+    "stars": 7965,
+    "forks": 1484,
+    "total_score": 41,
+    "quantifiable_score": 41,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T09:18:05Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "agpl-3.0",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 10,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "Narcooo/inkos",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "ai-writing",
+      "chinese-novel",
+      "creative-writing-ai",
+      "novel-generation",
+      "ai-agent",
+      "ai",
+      "novel-ai",
+      "generative-ai",
+      "short-drama",
+      "ai-game",
+      "storyboard"
+    ]
+  },
+  {
+    "id": "github-sciphi-ai-r2r",
+    "name": "SciPhi-AI/R2R",
+    "url": "https://github.com/SciPhi-AI/R2R",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "SoTA production-ready AI retrieval system. Agentic Retrieval-Augmented Generation (RAG) with a RESTful API.",
+    "i18n": {
+      "zh": {
+        "name": "SciPhi-AI/R2R",
+        "summary": "SoTA production-ready AI retrieval system. Agentic Retrieval-Augmented Generation (RAG) with a RESTful API."
+      },
+      "en": {
+        "name": "SciPhi-AI/R2R",
+        "summary": "SoTA production-ready AI retrieval system. Agentic Retrieval-Augmented Generation (RAG) with a RESTful API."
+      }
+    },
+    "stars": 7927,
+    "forks": 644,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T05:06:53Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "SciPhi-AI/R2R",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "artificial-intelligence",
+      "large-language-models",
+      "retrieval-augmented-generation",
+      "search",
+      "question-answering",
+      "retrieval-systems",
+      "python",
+      "rag"
+    ]
+  },
+  {
+    "id": "github-0xplaygrounds-rig",
+    "name": "0xPlaygrounds/rig",
+    "url": "https://github.com/0xPlaygrounds/rig",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "⚙️🦀 Build modular and scalable LLM Applications in Rust",
+    "i18n": {
+      "zh": {
+        "name": "0xPlaygrounds/rig",
+        "summary": "⚙️🦀 Build modular and scalable LLM Applications in Rust"
+      },
+      "en": {
+        "name": "0xPlaygrounds/rig",
+        "summary": "⚙️🦀 Build modular and scalable LLM Applications in Rust"
+      }
+    },
+    "stars": 7920,
+    "forks": 882,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T07:03:49Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "Rust"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "0xPlaygrounds/rig",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "ai",
+      "llm",
+      "agent",
+      "artificial-intelligence",
+      "automation",
+      "large-language-model",
+      "rust",
+      "scalable-ai",
+      "generative-ai",
+      "llmops"
+    ]
+  },
+  {
+    "id": "github-upsonic-upsonic",
+    "name": "Upsonic/Upsonic",
+    "url": "https://github.com/Upsonic/Upsonic",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Build autonomous AI agents in Python.",
+    "i18n": {
+      "zh": {
+        "name": "Upsonic/Upsonic",
+        "summary": "Build autonomous AI agents in Python."
+      },
+      "en": {
+        "name": "Upsonic/Upsonic",
+        "summary": "Build autonomous AI agents in Python."
+      }
+    },
+    "stars": 7908,
+    "forks": 737,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-13T12:34:14Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "Upsonic/Upsonic",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "openai",
+      "computer-use",
+      "claude",
+      "mcp",
+      "agent-framework",
+      "agent",
+      "llms",
+      "reliability",
+      "model-context-protocol",
+      "rag",
+      "ucp",
+      "universal-commerce-protocol",
+      "autonomous-agent",
+      "autonomous-agents",
+      "openclaw"
+    ]
+  },
+  {
+    "id": "github-jamwithai-production-agentic-rag-course",
+    "name": "jamwithai/production-agentic-rag-course",
+    "url": "https://github.com/jamwithai/production-agentic-rag-course",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "jamwithai/production-agentic-rag-course",
+    "i18n": {
+      "zh": {
+        "name": "jamwithai/production-agentic-rag-course",
+        "summary": "jamwithai/production-agentic-rag-course"
+      },
+      "en": {
+        "name": "jamwithai/production-agentic-rag-course",
+        "summary": "jamwithai/production-agentic-rag-course"
+      }
+    },
+    "stars": 7823,
+    "forks": 1746,
+    "total_score": 41,
+    "quantifiable_score": 41,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T09:15:51Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 10,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "jamwithai/production-agentic-rag-course",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-snarktank-ai-dev-tasks",
+    "name": "snarktank/ai-dev-tasks",
+    "url": "https://github.com/snarktank/ai-dev-tasks",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "A simple task management system for managing AI dev agents",
+    "i18n": {
+      "zh": {
+        "name": "snarktank/ai-dev-tasks",
+        "summary": "A simple task management system for managing AI dev agents"
+      },
+      "en": {
+        "name": "snarktank/ai-dev-tasks",
+        "summary": "A simple task management system for managing AI dev agents"
+      }
+    },
+    "stars": 7774,
+    "forks": 1727,
+    "total_score": 39,
+    "quantifiable_score": 39,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T01:12:23Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "apache-2.0",
+    "languages": [],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 10,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "snarktank/ai-dev-tasks",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-helloianneo-ian-xiaohei-illustrations",
+    "name": "helloianneo/ian-xiaohei-illustrations",
+    "url": "https://github.com/helloianneo/ian-xiaohei-illustrations",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "codex-cli"
+    ],
+    "summary": "中文小黑怪诞正文配图生成 Skill | 16:9 白底手绘 | 少量红橙蓝批注 | Codex Skill",
+    "i18n": {
+      "zh": {
+        "name": "helloianneo/ian-xiaohei-illustrations",
+        "summary": "中文小黑怪诞正文配图生成 Skill | 16:9 白底手绘 | 少量红橙蓝批注 | Codex Skill"
+      },
+      "en": {
+        "name": "helloianneo/ian-xiaohei-illustrations",
+        "summary": "中文小黑怪诞正文配图生成 Skill | 16:9 白底手绘 | 少量红橙蓝批注 | Codex Skill"
+      }
+    },
+    "stars": 7794,
+    "forks": 934,
+    "total_score": 36,
+    "quantifiable_score": 36,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T09:20:42Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "helloianneo/ian-xiaohei-illustrations",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "ai-agent",
+      "chinese",
+      "codex-skill",
+      "handdrawn",
+      "illustration",
+      "image-generation",
+      "xiaohei"
+    ]
+  },
+  {
+    "id": "github-nexu-io-html-anything",
+    "name": "nexu-io/html-anything",
+    "url": "https://github.com/nexu-io/html-anything",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "claude-code",
+      "codex-cli",
+      "opencode",
+      "cursor"
+    ],
+    "summary": "✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperframes) 🛡️ Sandboxed preview · 📤 1-click to WeChat / X / Zhihu /",
+    "i18n": {
+      "zh": {
+        "name": "nexu-io/html-anything",
+        "summary": "✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperframes) 🛡️ Sandboxed preview · 📤 1-click to WeChat / X / Zhihu /"
+      },
+      "en": {
+        "name": "nexu-io/html-anything",
+        "summary": "✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperframes) 🛡️ Sandboxed preview · 📤 1-click to WeChat / X / Zhihu /"
+      }
+    },
+    "stars": 7754,
+    "forks": 753,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T09:26:57Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "apache-2.0",
+    "languages": [
+      "HTML"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "nexu-io/html-anything",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "ai-design",
+      "byok",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "coding-agents",
+      "generative-ai",
+      "html",
+      "hyperframes",
+      "local-first",
+      "markdown",
+      "nextjs",
+      "vibe-coding",
+      "wechat",
+      "xiaohongshu",
+      "agentic",
+      "ai-editor",
+      "html-editor"
+    ]
+  },
+  {
+    "id": "github-gsd-build-gsd-2",
+    "name": "gsd-build/gsd-2",
+    "url": "https://github.com/gsd-build/gsd-2",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "A powerful meta-prompting, context engineering and spec-driven development system that enables agents to work for long periods of time autonomously without losing track of the big picture",
+    "i18n": {
+      "zh": {
+        "name": "gsd-build/gsd-2",
+        "summary": "A powerful meta-prompting, context engineering and spec-driven development system that enables agents to work for long periods of time autonomously without losing track of the big picture"
+      },
+      "en": {
+        "name": "gsd-build/gsd-2",
+        "summary": "A powerful meta-prompting, context engineering and spec-driven development system that enables agents to work for long periods of time autonomously without losing track of the big picture"
+      }
+    },
+    "stars": 7746,
+    "forks": 776,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T05:55:58Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "gsd-build/gsd-2",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "context-engineering",
+      "meta-prompting",
+      "spec-driven-development"
+    ]
+  },
+  {
+    "id": "github-2fastlabs-agent-squad",
+    "name": "2FastLabs/agent-squad",
+    "url": "https://github.com/2FastLabs/agent-squad",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Flexible and powerful framework for managing multiple AI agents and handling complex conversations",
+    "i18n": {
+      "zh": {
+        "name": "2FastLabs/agent-squad",
+        "summary": "Flexible and powerful framework for managing multiple AI agents and handling complex conversations"
+      },
+      "en": {
+        "name": "2FastLabs/agent-squad",
+        "summary": "Flexible and powerful framework for managing multiple AI agents and handling complex conversations"
+      }
+    },
+    "stars": 7701,
+    "forks": 727,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:22:06Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "apache-2.0",
+    "languages": [
+      "Swift"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "2FastLabs/agent-squad",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "aws",
+      "aws-bedrock",
+      "anthropic-claude",
+      "aws-cdk",
+      "aws-lambda",
+      "chatbot",
+      "generative-ai",
+      "machine-learning",
+      "openai",
+      "serverless",
+      "python",
+      "typescript",
+      "agents",
+      "ai-agents",
+      "ai-agents-framework",
+      "openaiapi",
+      "framework",
+      "orchestrator",
+      "anthropic",
+      "agentic-ai"
+    ]
+  },
+  {
+    "id": "github-nvidia-openshell",
+    "name": "NVIDIA/OpenShell",
+    "url": "https://github.com/NVIDIA/OpenShell",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "OpenShell is the safe, private runtime for autonomous AI agents.",
+    "i18n": {
+      "zh": {
+        "name": "NVIDIA/OpenShell",
+        "summary": "OpenShell is the safe, private runtime for autonomous AI agents."
+      },
+      "en": {
+        "name": "NVIDIA/OpenShell",
+        "summary": "OpenShell is the safe, private runtime for autonomous AI agents."
+      }
+    },
+    "stars": 7685,
+    "forks": 1095,
+    "total_score": 41,
+    "quantifiable_score": 41,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T09:19:58Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "apache-2.0",
+    "languages": [
+      "Rust"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 10,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "NVIDIA/OpenShell",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-nirdiamant-prompt-engineering",
+    "name": "NirDiamant/Prompt_Engineering",
+    "url": "https://github.com/NirDiamant/Prompt_Engineering",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "22 prompt engineering techniques with hands-on Jupyter Notebook tutorials, from fundamental concepts to advanced strategies for leveraging LLMs.",
+    "i18n": {
+      "zh": {
+        "name": "NirDiamant/Prompt_Engineering",
+        "summary": "22 prompt engineering techniques with hands-on Jupyter Notebook tutorials, from fundamental concepts to advanced strategies for leveraging LLMs."
+      },
+      "en": {
+        "name": "NirDiamant/Prompt_Engineering",
+        "summary": "22 prompt engineering techniques with hands-on Jupyter Notebook tutorials, from fundamental concepts to advanced strategies for leveraging LLMs."
+      }
+    },
+    "stars": 7678,
+    "forks": 986,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-13T19:29:38Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "other",
+    "languages": [
+      "Jupyter Notebook"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "NirDiamant/Prompt_Engineering",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "ai",
+      "prompt-engineering",
+      "tutorials",
+      "llms",
+      "python",
+      "genai",
+      "llm",
+      "chatgpt",
+      "claude",
+      "langchain",
+      "openai",
+      "prompting",
+      "chain-of-thought",
+      "few-shot-learning",
+      "generative-ai",
+      "gpt",
+      "in-context-learning",
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "github-getbindu-bindu",
+    "name": "GetBindu/Bindu",
+    "url": "https://github.com/GetBindu/Bindu",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Bindu: The identity, communication, and payments layer for AI agents.",
+    "i18n": {
+      "zh": {
+        "name": "GetBindu/Bindu",
+        "summary": "Bindu: The identity, communication, and payments layer for AI agents."
+      },
+      "en": {
+        "name": "GetBindu/Bindu",
+        "summary": "Bindu: The identity, communication, and payments layer for AI agents."
+      }
+    },
+    "stars": 7667,
+    "forks": 421,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T09:04:58Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "other",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "GetBindu/Bindu",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "agent-communication",
+      "autonomous-agents",
+      "agent-orchestration",
+      "a2a",
+      "ai-agent",
+      "machine-learning",
+      "eu-ai-act"
+    ]
+  },
+  {
+    "id": "github-jo-inc-camofox-browser",
+    "name": "jo-inc/camofox-browser",
+    "url": "https://github.com/jo-inc/camofox-browser",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement.",
+    "i18n": {
+      "zh": {
+        "name": "jo-inc/camofox-browser",
+        "summary": "Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement."
+      },
+      "en": {
+        "name": "jo-inc/camofox-browser",
+        "summary": "Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement."
+      }
+    },
+    "stars": 7651,
+    "forks": 794,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:28:38Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "JavaScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "jo-inc/camofox-browser",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "ai-agent",
+      "anti-bot",
+      "antidetect-browser",
+      "automation",
+      "bot-detection",
+      "browser-automation",
+      "cloudflare-bypass",
+      "headless-browser",
+      "javascript",
+      "nodejs",
+      "playwright",
+      "puppeteer",
+      "scraping",
+      "stealth-browser",
+      "web-scraping"
+    ]
+  },
+  {
+    "id": "github-anthropics-claude-agent-sdk-python",
+    "name": "anthropics/claude-agent-sdk-python",
+    "url": "https://github.com/anthropics/claude-agent-sdk-python",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "anthropics/claude-agent-sdk-python",
+    "i18n": {
+      "zh": {
+        "name": "anthropics/claude-agent-sdk-python",
+        "summary": "anthropics/claude-agent-sdk-python"
+      },
+      "en": {
+        "name": "anthropics/claude-agent-sdk-python",
+        "summary": "anthropics/claude-agent-sdk-python"
+      }
+    },
+    "stars": 7623,
+    "forks": 1170,
+    "total_score": 41,
+    "quantifiable_score": 41,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:15:10Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 10,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "anthropics/claude-agent-sdk-python",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-ai4finance-foundation-finrobot",
+    "name": "AI4Finance-Foundation/FinRobot",
+    "url": "https://github.com/AI4Finance-Foundation/FinRobot",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "FinRobot: An Open-Source AI Agent Platform for Financial Analysis using LLMs 🚀 🚀 🚀 ",
+    "i18n": {
+      "zh": {
+        "name": "AI4Finance-Foundation/FinRobot",
+        "summary": "FinRobot: An Open-Source AI Agent Platform for Financial Analysis using LLMs 🚀 🚀 🚀 "
+      },
+      "en": {
+        "name": "AI4Finance-Foundation/FinRobot",
+        "summary": "FinRobot: An Open-Source AI Agent Platform for Financial Analysis using LLMs 🚀 🚀 🚀 "
+      }
+    },
+    "stars": 7558,
+    "forks": 1276,
+    "total_score": 41,
+    "quantifiable_score": 41,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T06:59:55Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "apache-2.0",
+    "languages": [
+      "Jupyter Notebook"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 10,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "AI4Finance-Foundation/FinRobot",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "aiagent",
+      "fingpt",
+      "chatgpt",
+      "finance",
+      "large-language-models",
+      "multimodal-deep-learning",
+      "prompt-engineering",
+      "robo-advisor"
+    ]
+  },
+  {
+    "id": "github-valuecell-ai-clawx",
+    "name": "ValueCell-ai/ClawX",
+    "url": "https://github.com/ValueCell-ai/ClawX",
+    "source_type": "github",
+    "resource_type": [
+      "cli-tool"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "ClawX is a desktop app that provides a graphical interface for OpenClaw AI agents. It turns CLI-based AI orchestration into a desktop experience without using the terminal. China website is https://clawx.com.cn.",
+    "i18n": {
+      "zh": {
+        "name": "ValueCell-ai/ClawX",
+        "summary": "ClawX is a desktop app that provides a graphical interface for OpenClaw AI agents. It turns CLI-based AI orchestration into a desktop experience without using the terminal. China website is https://clawx.com.cn."
+      },
+      "en": {
+        "name": "ValueCell-ai/ClawX",
+        "summary": "ClawX is a desktop app that provides a graphical interface for OpenClaw AI agents. It turns CLI-based AI orchestration into a desktop experience without using the terminal. China website is https://clawx.com.cn."
+      }
+    },
+    "stars": 7544,
+    "forks": 1122,
+    "total_score": 41,
+    "quantifiable_score": 41,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T09:04:55Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 10,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "ValueCell-ai/ClawX",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "agent",
+      "clawdbot",
+      "moltbot",
+      "openclaw",
+      "skill",
+      "agentic-ai",
+      "agents",
+      "ai"
+    ]
+  },
+  {
+    "id": "github-cobusgreyling-loop-engineering",
+    "name": "cobusgreyling/loop-engineering",
+    "url": "https://github.com/cobusgreyling/loop-engineering",
+    "source_type": "github",
+    "resource_type": [
+      "cli-tool"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost.",
+    "i18n": {
+      "zh": {
+        "name": "cobusgreyling/loop-engineering",
+        "summary": "Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost."
+      },
+      "en": {
+        "name": "cobusgreyling/loop-engineering",
+        "summary": "Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost."
+      }
+    },
+    "stars": 7595,
+    "forks": 964,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T09:27:20Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "JavaScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "cobusgreyling/loop-engineering",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "agentic-ai",
+      "ai-agents",
+      "claude-code",
+      "codex",
+      "devops-automation",
+      "github-actions",
+      "grok",
+      "llm",
+      "mcp",
+      "ai-coding",
+      "automation",
+      "loop-engineering",
+      "prompt-engineering",
+      "anthropic",
+      "claude",
+      "coding-agents",
+      "devtools"
+    ]
+  },
+  {
+    "id": "github-luckyone7777-llm-trading-lab",
+    "name": "LuckyOne7777/LLM-Trading-Lab",
+    "url": "https://github.com/LuckyOne7777/LLM-Trading-Lab",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "This repo powers my experiment where ChatGPT manages a real-money micro-cap stock portfolio.",
+    "i18n": {
+      "zh": {
+        "name": "LuckyOne7777/LLM-Trading-Lab",
+        "summary": "This repo powers my experiment where ChatGPT manages a real-money micro-cap stock portfolio."
+      },
+      "en": {
+        "name": "LuckyOne7777/LLM-Trading-Lab",
+        "summary": "This repo powers my experiment where ChatGPT manages a real-money micro-cap stock portfolio."
+      }
+    },
+    "stars": 7499,
+    "forks": 1565,
+    "total_score": 39,
+    "quantifiable_score": 39,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T07:35:57Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 10,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "LuckyOne7777/LLM-Trading-Lab",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-microsoft-tinytroupe",
+    "name": "microsoft/TinyTroupe",
+    "url": "https://github.com/microsoft/TinyTroupe",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "LLM-powered multiagent persona simulation for imagination enhancement and business insights.",
+    "i18n": {
+      "zh": {
+        "name": "microsoft/TinyTroupe",
+        "summary": "LLM-powered multiagent persona simulation for imagination enhancement and business insights."
+      },
+      "en": {
+        "name": "microsoft/TinyTroupe",
+        "summary": "LLM-powered multiagent persona simulation for imagination enhancement and business insights."
+      }
+    },
+    "stars": 7491,
+    "forks": 667,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-13T10:23:23Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "Jupyter Notebook"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "microsoft/TinyTroupe",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-ericlbuehler-mistral-rs",
+    "name": "EricLBuehler/mistral.rs",
+    "url": "https://github.com/EricLBuehler/mistral.rs",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Fast, flexible LLM inference",
+    "i18n": {
+      "zh": {
+        "name": "EricLBuehler/mistral.rs",
+        "summary": "Fast, flexible LLM inference"
+      },
+      "en": {
+        "name": "EricLBuehler/mistral.rs",
+        "summary": "Fast, flexible LLM inference"
+      }
+    },
+    "stars": 7473,
+    "forks": 658,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T09:19:06Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "Rust"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "EricLBuehler/mistral.rs",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "llm",
+      "rust",
+      "uqff"
+    ]
+  },
+  {
+    "id": "github-mufeedvh-code2prompt",
+    "name": "mufeedvh/code2prompt",
+    "url": "https://github.com/mufeedvh/code2prompt",
+    "source_type": "github",
+    "resource_type": [
+      "cli-tool"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "A CLI tool to convert your codebase into a single LLM prompt with source tree, prompt templating, and token counting.",
+    "i18n": {
+      "zh": {
+        "name": "mufeedvh/code2prompt",
+        "summary": "A CLI tool to convert your codebase into a single LLM prompt with source tree, prompt templating, and token counting."
+      },
+      "en": {
+        "name": "mufeedvh/code2prompt",
+        "summary": "A CLI tool to convert your codebase into a single LLM prompt with source tree, prompt templating, and token counting."
+      }
+    },
+    "stars": 7472,
+    "forks": 425,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-13T19:29:52Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "Rust"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "mufeedvh/code2prompt",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "ai",
+      "chatgpt",
+      "claude",
+      "cli",
+      "command-line",
+      "command-line-tool",
+      "gpt",
+      "llm",
+      "prompt",
+      "prompt-engineering",
+      "prompt-generator",
+      "prompt-toolkit",
+      "rust"
+    ]
+  },
+  {
+    "id": "github-tailcallhq-forgecode",
+    "name": "tailcallhq/forgecode",
+    "url": "https://github.com/tailcallhq/forgecode",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "AI enabled pair programmer for Claude, GPT, O Series, Grok, Deepseek, Gemini and 300+ models",
+    "i18n": {
+      "zh": {
+        "name": "tailcallhq/forgecode",
+        "summary": "AI enabled pair programmer for Claude, GPT, O Series, Grok, Deepseek, Gemini and 300+ models"
+      },
+      "en": {
+        "name": "tailcallhq/forgecode",
+        "summary": "AI enabled pair programmer for Claude, GPT, O Series, Grok, Deepseek, Gemini and 300+ models"
+      }
+    },
+    "stars": 7459,
+    "forks": 1445,
+    "total_score": 41,
+    "quantifiable_score": 41,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T04:48:21Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "apache-2.0",
+    "languages": [
+      "Rust"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 10,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "tailcallhq/forgecode",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "ai-workflows",
+      "artifical-intelligense",
+      "claude-3-7-sonnet",
+      "command-line",
+      "multi-agent-reinforcement-learning",
+      "shell",
+      "grok",
+      "open-router",
+      "openai",
+      "qwen",
+      "claude-4",
+      "claude-4-sonnet",
+      "ai-pair-programming",
+      "llm",
+      "cli-assistant",
+      "open-source-claude-code"
+    ]
+  },
+  {
+    "id": "github-thudm-slime",
+    "name": "THUDM/slime",
+    "url": "https://github.com/THUDM/slime",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "slime is an LLM post-training framework for RL Scaling.",
+    "i18n": {
+      "zh": {
+        "name": "THUDM/slime",
+        "summary": "slime is an LLM post-training framework for RL Scaling."
+      },
+      "en": {
+        "name": "THUDM/slime",
+        "summary": "slime is an LLM post-training framework for RL Scaling."
+      }
+    },
+    "stars": 7444,
+    "forks": 1059,
+    "total_score": 41,
+    "quantifiable_score": 41,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T09:18:31Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "apache-2.0",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 10,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "THUDM/slime",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-refly-ai-refly",
+    "name": "refly-ai/refly",
+    "url": "https://github.com/refly-ai/refly",
+    "source_type": "github",
+    "resource_type": [
+      "skills"
+    ],
+    "target_tools": [
+      "claude-code",
+      "codex-cli",
+      "cursor"
+    ],
+    "summary": "The first open-source agent skills builder. Define skills by vibe workflow, run on Claude Code, Cursor, Codex & more. Build Clawdbot 🦞· APIs for Lovable · Bots for Slack & Lark/Feishu · Skills are infrastructure, not prompts.",
+    "i18n": {
+      "zh": {
+        "name": "refly-ai/refly",
+        "summary": "The first open-source agent skills builder. Define skills by vibe workflow, run on Claude Code, Cursor, Codex & more. Build Clawdbot 🦞· APIs for Lovable · Bots for Slack & Lark/Feishu · Skills are infrastructure, not prompts."
+      },
+      "en": {
+        "name": "refly-ai/refly",
+        "summary": "The first open-source agent skills builder. Define skills by vibe workflow, run on Claude Code, Cursor, Codex & more. Build Clawdbot 🦞· APIs for Lovable · Bots for Slack & Lark/Feishu · Skills are infrastructure, not prompts."
+      }
+    },
+    "stars": 7434,
+    "forks": 720,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-13T18:01:34Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "other",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "refly-ai/refly",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "agent",
+      "agent-skills",
+      "automation",
+      "claude",
+      "clawdbot",
+      "codex",
+      "cursor",
+      "lark-bot",
+      "lovable",
+      "n8n-alternative",
+      "skills",
+      "skills-builder",
+      "slack",
+      "slack-bot",
+      "vibe-coding",
+      "vibe-workflow",
+      "workflow"
+    ]
+  },
+  {
+    "id": "github-yzfly-awesome-mcp-zh",
+    "name": "yzfly/Awesome-MCP-ZH",
+    "url": "https://github.com/yzfly/Awesome-MCP-ZH",
+    "source_type": "github",
+    "resource_type": [
+      "mcp-server"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "MCP 资源精选， MCP指南，Claude MCP，MCP Servers, MCP Clients",
+    "i18n": {
+      "zh": {
+        "name": "yzfly/Awesome-MCP-ZH",
+        "summary": "MCP 资源精选， MCP指南，Claude MCP，MCP Servers, MCP Clients"
+      },
+      "en": {
+        "name": "yzfly/Awesome-MCP-ZH",
+        "summary": "MCP 资源精选， MCP指南，Claude MCP，MCP Servers, MCP Clients"
+      }
+    },
+    "stars": 7429,
+    "forks": 642,
+    "total_score": 36,
+    "quantifiable_score": 36,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T09:13:13Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "yzfly/Awesome-MCP-ZH",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "claude",
+      "deepseek",
+      "mcp",
+      "mcp-clients",
+      "mcp-host",
+      "mcp-server",
+      "mcp-servers",
+      "mcp-tools",
+      "claude-mcp",
+      "deepseek-mcp",
+      "qwen-mcp",
+      "mcp-servers-directory"
+    ]
+  },
+  {
+    "id": "github-aidenybai-react-grab",
+    "name": "aidenybai/react-grab",
+    "url": "https://github.com/aidenybai/react-grab",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Copy any UI element for your agent",
+    "i18n": {
+      "zh": {
+        "name": "aidenybai/react-grab",
+        "summary": "Copy any UI element for your agent"
+      },
+      "en": {
+        "name": "aidenybai/react-grab",
+        "summary": "Copy any UI element for your agent"
+      }
+    },
+    "stars": 7415,
+    "forks": 333,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T07:38:49Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "aidenybai/react-grab",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "ai",
+      "coding",
+      "react",
+      "react-grab"
+    ]
+  },
+  {
+    "id": "github-quivrhq-megaparse",
+    "name": "QuivrHQ/MegaParse",
+    "url": "https://github.com/QuivrHQ/MegaParse",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "File Parser optimised for LLM Ingestion with no loss 🧠 Parse PDFs, Docx, PPTx in a format that is ideal for LLMs. ",
+    "i18n": {
+      "zh": {
+        "name": "QuivrHQ/MegaParse",
+        "summary": "File Parser optimised for LLM Ingestion with no loss 🧠 Parse PDFs, Docx, PPTx in a format that is ideal for LLMs. "
+      },
+      "en": {
+        "name": "QuivrHQ/MegaParse",
+        "summary": "File Parser optimised for LLM Ingestion with no loss 🧠 Parse PDFs, Docx, PPTx in a format that is ideal for LLMs. "
+      }
+    },
+    "stars": 7400,
+    "forks": 418,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-13T16:07:58Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "apache-2.0",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "QuivrHQ/MegaParse",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "docx",
+      "llm",
+      "parser",
+      "pdf",
+      "powerpoint"
+    ]
+  },
+  {
+    "id": "github-pleaseprompto-notebooklm-skill",
+    "name": "PleasePrompto/notebooklm-skill",
+    "url": "https://github.com/PleasePrompto/notebooklm-skill",
+    "source_type": "github",
+    "resource_type": [
+      "skills"
+    ],
+    "target_tools": [
+      "claude-code"
+    ],
+    "summary": "Use this skill to enable Claude Code to communicate directly with your Google NotebookLM notebooks. Query your uploaded documents and get source-grounded, citation-backed answers from Gemini. Features browser automation, library management,",
+    "i18n": {
+      "zh": {
+        "name": "PleasePrompto/notebooklm-skill",
+        "summary": "Use this skill to enable Claude Code to communicate directly with your Google NotebookLM notebooks. Query your uploaded documents and get source-grounded, citation-backed answers from Gemini. Features browser automation, library management,"
+      },
+      "en": {
+        "name": "PleasePrompto/notebooklm-skill",
+        "summary": "Use this skill to enable Claude Code to communicate directly with your Google NotebookLM notebooks. Query your uploaded documents and get source-grounded, citation-backed answers from Gemini. Features browser automation, library management,"
+      }
+    },
+    "stars": 7380,
+    "forks": 826,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T09:21:14Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "PleasePrompto/notebooklm-skill",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-ringhyacinth-star-office-ui",
+    "name": "ringhyacinth/Star-Office-UI",
+    "url": "https://github.com/ringhyacinth/Star-Office-UI",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "A pixel office for your OpenClaw: turn invisible work states into a cozy little space with characters, daily notes, and guest agents. Code under MIT; art assets for non-commercial learning only.",
+    "i18n": {
+      "zh": {
+        "name": "ringhyacinth/Star-Office-UI",
+        "summary": "A pixel office for your OpenClaw: turn invisible work states into a cozy little space with characters, daily notes, and guest agents. Code under MIT; art assets for non-commercial learning only."
+      },
+      "en": {
+        "name": "ringhyacinth/Star-Office-UI",
+        "summary": "A pixel office for your OpenClaw: turn invisible work states into a cozy little space with characters, daily notes, and guest agents. Code under MIT; art assets for non-commercial learning only."
+      }
+    },
+    "stars": 7371,
+    "forks": 795,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:06:58Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "other",
+    "languages": [
+      "HTML"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "ringhyacinth/Star-Office-UI",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "agent-collaboration",
+      "ai-assistant",
+      "dashboard",
+      "flask",
+      "mobile-friendly",
+      "multi-agent",
+      "openclaw",
+      "phaser",
+      "pixel-art",
+      "status-visiualzation"
+    ]
+  },
+  {
+    "id": "github-google-labs-code-stitch-skills",
+    "name": "google-labs-code/stitch-skills",
+    "url": "https://github.com/google-labs-code/stitch-skills",
+    "source_type": "github",
+    "resource_type": [
+      "mcp-server",
+      "skills"
+    ],
+    "target_tools": [
+      "claude-code",
+      "antigravity-cli",
+      "cursor"
+    ],
+    "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+    "i18n": {
+      "zh": {
+        "name": "google-labs-code/stitch-skills",
+        "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor."
+      },
+      "en": {
+        "name": "google-labs-code/stitch-skills",
+        "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor."
+      }
+    },
+    "stars": 7354,
+    "forks": 971,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:58:44Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "apache-2.0",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "google-labs-code/stitch-skills",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-steel-dev-steel-browser",
+    "name": "steel-dev/steel-browser",
+    "url": "https://github.com/steel-dev/steel-browser",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "🔥 Open Source Browser API for AI Agents & Apps. Steel Browser is a batteries-included browser sandbox that lets you automate the web without worrying about infrastructure.",
+    "i18n": {
+      "zh": {
+        "name": "steel-dev/steel-browser",
+        "summary": "🔥 Open Source Browser API for AI Agents & Apps. Steel Browser is a batteries-included browser sandbox that lets you automate the web without worrying about infrastructure."
+      },
+      "en": {
+        "name": "steel-dev/steel-browser",
+        "summary": "🔥 Open Source Browser API for AI Agents & Apps. Steel Browser is a batteries-included browser sandbox that lets you automate the web without worrying about infrastructure."
+      }
+    },
+    "stars": 7332,
+    "forks": 950,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T03:59:29Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "apache-2.0",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "steel-dev/steel-browser",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "ai-tools",
+      "browser-automation",
+      "llm"
+    ]
+  },
+  {
+    "id": "github-opencoworkai-open-codesign",
+    "name": "OpenCoworkAI/open-codesign",
+    "url": "https://github.com/OpenCoworkAI/open-codesign",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "claude-code",
+      "codex-cli"
+    ],
+    "summary": "Open-source Claude Design alternative. One-click import your Claude Code / Codex API key. Prompt → prototype / slides / PDF. Multi-model (Claude, GPT, Gemini, Kimi, GLM, Ollama). BYOK, local-first, MIT.",
+    "i18n": {
+      "zh": {
+        "name": "OpenCoworkAI/open-codesign",
+        "summary": "Open-source Claude Design alternative. One-click import your Claude Code / Codex API key. Prompt → prototype / slides / PDF. Multi-model (Claude, GPT, Gemini, Kimi, GLM, Ollama). BYOK, local-first, MIT."
+      },
+      "en": {
+        "name": "OpenCoworkAI/open-codesign",
+        "summary": "Open-source Claude Design alternative. One-click import your Claude Code / Codex API key. Prompt → prototype / slides / PDF. Multi-model (Claude, GPT, Gemini, Kimi, GLM, Ollama). BYOK, local-first, MIT."
+      }
+    },
+    "stars": 7276,
+    "forks": 770,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:13:03Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "OpenCoworkAI/open-codesign",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "ai-design",
+      "anthropic",
+      "byok",
+      "claude-design",
+      "desktop-app",
+      "electron",
+      "local-first",
+      "multi-model",
+      "ollama",
+      "openai",
+      "claude",
+      "claude-design-alternative",
+      "claude-code",
+      "deepseek",
+      "design-to-code",
+      "figma-alternative",
+      "gemini",
+      "openrouter",
+      "typescript",
+      "ui-generator"
+    ]
+  },
+  {
+    "id": "github-agentdeskai-browser-tools-mcp",
+    "name": "AgentDeskAI/browser-tools-mcp",
+    "url": "https://github.com/AgentDeskAI/browser-tools-mcp",
+    "source_type": "github",
+    "resource_type": [
+      "mcp-server"
+    ],
+    "target_tools": [
+      "cursor"
+    ],
+    "summary": "Monitor browser logs directly from Cursor and other MCP compatible IDEs.",
+    "i18n": {
+      "zh": {
+        "name": "AgentDeskAI/browser-tools-mcp",
+        "summary": "Monitor browser logs directly from Cursor and other MCP compatible IDEs."
+      },
+      "en": {
+        "name": "AgentDeskAI/browser-tools-mcp",
+        "summary": "Monitor browser logs directly from Cursor and other MCP compatible IDEs."
+      }
+    },
+    "stars": 7271,
+    "forks": 525,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T09:06:17Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "JavaScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "AgentDeskAI/browser-tools-mcp",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "ai",
+      "anthropic",
+      "cursor",
+      "mcp",
+      "mcp-server"
+    ]
+  },
+  {
+    "id": "github-withastro-flue",
+    "name": "withastro/flue",
+    "url": "https://github.com/withastro/flue",
+    "source_type": "github",
+    "resource_type": [
+      "agent-framework"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "The sandbox agent framework.",
+    "i18n": {
+      "zh": {
+        "name": "withastro/flue",
+        "summary": "The sandbox agent framework."
+      },
+      "en": {
+        "name": "withastro/flue",
+        "summary": "The sandbox agent framework."
+      }
+    },
+    "stars": 7271,
+    "forks": 422,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:40:29Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "apache-2.0",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "withastro/flue",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-omnigent-ai-omnigent",
+    "name": "omnigent-ai/omnigent",
+    "url": "https://github.com/omnigent-ai/omnigent",
+    "source_type": "github",
+    "resource_type": [
+      "agent-framework"
+    ],
+    "target_tools": [
+      "claude-code",
+      "codex-cli",
+      "cursor"
+    ],
+    "summary": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
+    "i18n": {
+      "zh": {
+        "name": "omnigent-ai/omnigent",
+        "summary": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device."
+      },
+      "en": {
+        "name": "omnigent-ai/omnigent",
+        "summary": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device."
+      }
+    },
+    "stars": 7244,
+    "forks": 1002,
+    "total_score": 41,
+    "quantifiable_score": 41,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T09:13:11Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "apache-2.0",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 10,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "omnigent-ai/omnigent",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "developer-tools",
+      "llm",
+      "ml",
+      "python",
+      "agent-framework",
+      "agent-governance",
+      "agent-orchestration",
+      "ai-agent",
+      "claude-code",
+      "codex",
+      "coding-agents",
+      "multi-agent",
+      "sandbox"
+    ]
+  },
+  {
+    "id": "github-thecraighewitt-seomachine",
+    "name": "TheCraigHewitt/seomachine",
+    "url": "https://github.com/TheCraigHewitt/seomachine",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "claude-code"
+    ],
+    "summary": "A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any business. This system helps you research, write, analyze, and optimize content that ranks well and serves your target audience.",
+    "i18n": {
+      "zh": {
+        "name": "TheCraigHewitt/seomachine",
+        "summary": "A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any business. This system helps you research, write, analyze, and optimize content that ranks well and serves your target audience."
+      },
+      "en": {
+        "name": "TheCraigHewitt/seomachine",
+        "summary": "A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any business. This system helps you research, write, analyze, and optimize content that ranks well and serves your target audience."
+      }
+    },
+    "stars": 7236,
+    "forks": 975,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T07:10:51Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "TheCraigHewitt/seomachine",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-lewislulu-html-ppt-skill",
+    "name": "lewislulu/html-ppt-skill",
+    "url": "https://github.com/lewislulu/html-ppt-skill",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "HTML PPT Studio — AgentSkill with 24 themes, 31 layouts, 20+ animations for building professional HTML presentations",
+    "i18n": {
+      "zh": {
+        "name": "lewislulu/html-ppt-skill",
+        "summary": "HTML PPT Studio — AgentSkill with 24 themes, 31 layouts, 20+ animations for building professional HTML presentations"
+      },
+      "en": {
+        "name": "lewislulu/html-ppt-skill",
+        "summary": "HTML PPT Studio — AgentSkill with 24 themes, 31 layouts, 20+ animations for building professional HTML presentations"
+      }
+    },
+    "stars": 7133,
+    "forks": 632,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:56:49Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "HTML"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "lewislulu/html-ppt-skill",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-modelcontextprotocol-registry",
+    "name": "modelcontextprotocol/registry",
+    "url": "https://github.com/modelcontextprotocol/registry",
+    "source_type": "github",
+    "resource_type": [
+      "mcp-server"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "A community driven registry service for Model Context Protocol (MCP) servers.",
+    "i18n": {
+      "zh": {
+        "name": "modelcontextprotocol/registry",
+        "summary": "A community driven registry service for Model Context Protocol (MCP) servers."
+      },
+      "en": {
+        "name": "modelcontextprotocol/registry",
+        "summary": "A community driven registry service for Model Context Protocol (MCP) servers."
+      }
+    },
+    "stars": 7016,
+    "forks": 899,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-13T22:08:25Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "other",
+    "languages": [
+      "Go"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "modelcontextprotocol/registry",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "mcp",
+      "mcp-servers"
+    ]
+  },
+  {
+    "id": "github-nutlope-llamacoder",
+    "name": "Nutlope/llamacoder",
+    "url": "https://github.com/Nutlope/llamacoder",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Open source Claude Artifacts – built with Llama 3.1 405B",
+    "i18n": {
+      "zh": {
+        "name": "Nutlope/llamacoder",
+        "summary": "Open source Claude Artifacts – built with Llama 3.1 405B"
+      },
+      "en": {
+        "name": "Nutlope/llamacoder",
+        "summary": "Open source Claude Artifacts – built with Llama 3.1 405B"
+      }
+    },
+    "stars": 7006,
+    "forks": 1654,
+    "total_score": 41,
+    "quantifiable_score": 41,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:31:40Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 10,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "Nutlope/llamacoder",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-backnotprop-plannotator",
+    "name": "backnotprop/plannotator",
+    "url": "https://github.com/backnotprop/plannotator",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.",
+    "i18n": {
+      "zh": {
+        "name": "backnotprop/plannotator",
+        "summary": "Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click."
+      },
+      "en": {
+        "name": "backnotprop/plannotator",
+        "summary": "Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click."
+      }
+    },
+    "stars": 7010,
+    "forks": 506,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:53:24Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "apache-2.0",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "backnotprop/plannotator",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "claude-code",
+      "opencode",
+      "obsidian",
+      "pi-mono",
+      "plan-mode",
+      "codex",
+      "agents",
+      "code-review",
+      "skills"
+    ]
+  },
+  {
+    "id": "github-agricidaniel-claude-ads",
+    "name": "AgriciDaniel/claude-ads",
+    "url": "https://github.com/AgriciDaniel/claude-ads",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "claude-code"
+    ],
+    "summary": "Claude-first paid-media operations skill for Claude Code across 12 ad platforms (Google, Meta, YouTube, LinkedIn, TikTok, Microsoft, Apple, Amazon, Reddit, Pinterest, Snapchat, X): source-grounded audits, deterministic scoring, versioned JS",
+    "i18n": {
+      "zh": {
+        "name": "AgriciDaniel/claude-ads",
+        "summary": "Claude-first paid-media operations skill for Claude Code across 12 ad platforms (Google, Meta, YouTube, LinkedIn, TikTok, Microsoft, Apple, Amazon, Reddit, Pinterest, Snapchat, X): source-grounded audits, deterministic scoring, versioned JS"
+      },
+      "en": {
+        "name": "AgriciDaniel/claude-ads",
+        "summary": "Claude-first paid-media operations skill for Claude Code across 12 ad platforms (Google, Meta, YouTube, LinkedIn, TikTok, Microsoft, Apple, Amazon, Reddit, Pinterest, Snapchat, X): source-grounded audits, deterministic scoring, versioned JS"
+      }
+    },
+    "stars": 6999,
+    "forks": 1039,
+    "total_score": 41,
+    "quantifiable_score": 41,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T09:24:34Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 10,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "AgriciDaniel/claude-ads",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "claude-code",
+      "claude-code-skill",
+      "ai-marketing",
+      "ai",
+      "marketing-automation",
+      "open-source",
+      "agent-skills",
+      "google-ads",
+      "meta-ads",
+      "paid-advertising",
+      "ppc"
+    ]
+  },
+  {
+    "id": "github-adongwanai-agentguide",
+    "name": "adongwanai/AgentGuide",
+    "url": "https://github.com/adongwanai/AgentGuide",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "https://adongwanai.github.io/AgentGuide | AI Agent开发指南 | LangGraph实战 | 高级RAG | 转行大模型 | 大模型面试 | 算法工程师 | 面试题库 | 强化学习｜数据合成",
+    "i18n": {
+      "zh": {
+        "name": "adongwanai/AgentGuide",
+        "summary": "https://adongwanai.github.io/AgentGuide | AI Agent开发指南 | LangGraph实战 | 高级RAG | 转行大模型 | 大模型面试 | 算法工程师 | 面试题库 | 强化学习｜数据合成"
+      },
+      "en": {
+        "name": "adongwanai/AgentGuide",
+        "summary": "https://adongwanai.github.io/AgentGuide | AI Agent开发指南 | LangGraph实战 | 高级RAG | 转行大模型 | 大模型面试 | 算法工程师 | 面试题库 | 强化学习｜数据合成"
+      }
+    },
+    "stars": 6963,
+    "forks": 691,
+    "total_score": 36,
+    "quantifiable_score": 36,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T09:18:37Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": null,
+    "languages": [
+      "HTML"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "adongwanai/AgentGuide",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "ai-agent",
+      "crewai",
+      "interview",
+      "job-hunting",
+      "langchain",
+      "llm",
+      "multi-agent",
+      "rag",
+      "tutorial",
+      "agenticrag",
+      "graphrag",
+      "grpo",
+      "sft"
+    ]
+  },
+  {
+    "id": "github-craft-ai-agents-craft-agents-oss",
+    "name": "craft-ai-agents/craft-agents-oss",
+    "url": "https://github.com/craft-ai-agents/craft-agents-oss",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "craft-ai-agents/craft-agents-oss",
+    "i18n": {
+      "zh": {
+        "name": "craft-ai-agents/craft-agents-oss",
+        "summary": "craft-ai-agents/craft-agents-oss"
+      },
+      "en": {
+        "name": "craft-ai-agents/craft-agents-oss",
+        "summary": "craft-ai-agents/craft-agents-oss"
+      }
+    },
+    "stars": 6944,
+    "forks": 1119,
+    "total_score": 41,
+    "quantifiable_score": 41,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T09:01:46Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "apache-2.0",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 10,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "craft-ai-agents/craft-agents-oss",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-firecrawl-firecrawl-mcp-server",
+    "name": "firecrawl/firecrawl-mcp-server",
+    "url": "https://github.com/firecrawl/firecrawl-mcp-server",
+    "source_type": "github",
+    "resource_type": [
+      "mcp-server"
+    ],
+    "target_tools": [
+      "cursor"
+    ],
+    "summary": "🔥 Official Firecrawl MCP Server - Adds powerful web scraping and search to Cursor, Claude and any other LLM clients.",
+    "i18n": {
+      "zh": {
+        "name": "firecrawl/firecrawl-mcp-server",
+        "summary": "🔥 Official Firecrawl MCP Server - Adds powerful web scraping and search to Cursor, Claude and any other LLM clients."
+      },
+      "en": {
+        "name": "firecrawl/firecrawl-mcp-server",
+        "summary": "🔥 Official Firecrawl MCP Server - Adds powerful web scraping and search to Cursor, Claude and any other LLM clients."
+      }
+    },
+    "stars": 6942,
+    "forks": 804,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:30:01Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "JavaScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "firecrawl/firecrawl-mcp-server",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "batch-processing",
+      "claude",
+      "content-extraction",
+      "data-collection",
+      "firecrawl",
+      "firecrawl-ai",
+      "llm-tools",
+      "mcp-server",
+      "model-context-protocol",
+      "search-api",
+      "web-crawler",
+      "web-scraping",
+      "javascript-rendering",
+      "mcp"
+    ]
+  },
+  {
+    "id": "github-openai-openai-realtime-agents",
+    "name": "openai/openai-realtime-agents",
+    "url": "https://github.com/openai/openai-realtime-agents",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "This is a simple demonstration of more advanced, agentic patterns built on top of the Realtime API.",
+    "i18n": {
+      "zh": {
+        "name": "openai/openai-realtime-agents",
+        "summary": "This is a simple demonstration of more advanced, agentic patterns built on top of the Realtime API."
+      },
+      "en": {
+        "name": "openai/openai-realtime-agents",
+        "summary": "This is a simple demonstration of more advanced, agentic patterns built on top of the Realtime API."
+      }
+    },
+    "stars": 6925,
+    "forks": 1095,
+    "total_score": 41,
+    "quantifiable_score": 41,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-12T21:53:49Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 10,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "openai/openai-realtime-agents",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-deepseek-ai-deepseek-coder-v2",
+    "name": "deepseek-ai/DeepSeek-Coder-V2",
+    "url": "https://github.com/deepseek-ai/DeepSeek-Coder-V2",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "DeepSeek-Coder-V2: Breaking the Barrier of Closed-Source Models in Code Intelligence",
+    "i18n": {
+      "zh": {
+        "name": "deepseek-ai/DeepSeek-Coder-V2",
+        "summary": "DeepSeek-Coder-V2: Breaking the Barrier of Closed-Source Models in Code Intelligence"
+      },
+      "en": {
+        "name": "deepseek-ai/DeepSeek-Coder-V2",
+        "summary": "DeepSeek-Coder-V2: Breaking the Barrier of Closed-Source Models in Code Intelligence"
+      }
+    },
+    "stars": 6902,
+    "forks": 1097,
+    "total_score": 39,
+    "quantifiable_score": 39,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:52:36Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 10,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "deepseek-ai/DeepSeek-Coder-V2",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-grab-cursor-talk-to-figma-mcp",
+    "name": "grab/cursor-talk-to-figma-mcp",
+    "url": "https://github.com/grab/cursor-talk-to-figma-mcp",
+    "source_type": "github",
+    "resource_type": [
+      "mcp-server"
+    ],
+    "target_tools": [
+      "claude-code",
+      "codex-cli",
+      "cursor"
+    ],
+    "summary": "TalkToFigma: MCP integration between AI Agent (Cursor, Claude Code, Codex) and Figma, allowing Agentic AI to communicate with Figma for reading designs and modifying them programmatically.",
+    "i18n": {
+      "zh": {
+        "name": "grab/cursor-talk-to-figma-mcp",
+        "summary": "TalkToFigma: MCP integration between AI Agent (Cursor, Claude Code, Codex) and Figma, allowing Agentic AI to communicate with Figma for reading designs and modifying them programmatically."
+      },
+      "en": {
+        "name": "grab/cursor-talk-to-figma-mcp",
+        "summary": "TalkToFigma: MCP integration between AI Agent (Cursor, Claude Code, Codex) and Figma, allowing Agentic AI to communicate with Figma for reading designs and modifying them programmatically."
+      }
+    },
+    "stars": 6892,
+    "forks": 749,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:21:46Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "JavaScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "grab/cursor-talk-to-figma-mcp",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "agent",
+      "agentic",
+      "agentic-ai",
+      "ai",
+      "cursor",
+      "design",
+      "figma",
+      "mcp",
+      "ai-agents",
+      "llm",
+      "llms",
+      "automation",
+      "generative-ai",
+      "model-context-protocol",
+      "claude-code",
+      "codex"
+    ]
+  },
+  {
+    "id": "github-hijkzzz-awesome-llm-strawberry",
+    "name": "hijkzzz/Awesome-LLM-Strawberry",
+    "url": "https://github.com/hijkzzz/Awesome-LLM-Strawberry",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "A collection of LLM papers, blogs, and projects, with a focus on OpenAI o1 🍓 and reasoning techniques.",
+    "i18n": {
+      "zh": {
+        "name": "hijkzzz/Awesome-LLM-Strawberry",
+        "summary": "A collection of LLM papers, blogs, and projects, with a focus on OpenAI o1 🍓 and reasoning techniques."
+      },
+      "en": {
+        "name": "hijkzzz/Awesome-LLM-Strawberry",
+        "summary": "A collection of LLM papers, blogs, and projects, with a focus on OpenAI o1 🍓 and reasoning techniques."
+      }
+    },
+    "stars": 6890,
+    "forks": 368,
+    "total_score": 36,
+    "quantifiable_score": 36,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:01:35Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "apache-2.0",
+    "languages": [],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "hijkzzz/Awesome-LLM-Strawberry",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "chain-of-thought",
+      "coding",
+      "llm",
+      "mathematics",
+      "mcts",
+      "openai-o1",
+      "strawberry",
+      "reinforcement-learning"
+    ]
+  },
+  {
+    "id": "github-internlm-mindsearch",
+    "name": "InternLM/MindSearch",
+    "url": "https://github.com/InternLM/MindSearch",
+    "source_type": "github",
+    "resource_type": [
+      "agent-framework"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "🔍 An LLM-based Multi-agent Framework of Web Search Engine (like Perplexity.ai Pro and SearchGPT)",
+    "i18n": {
+      "zh": {
+        "name": "InternLM/MindSearch",
+        "summary": "🔍 An LLM-based Multi-agent Framework of Web Search Engine (like Perplexity.ai Pro and SearchGPT)"
+      },
+      "en": {
+        "name": "InternLM/MindSearch",
+        "summary": "🔍 An LLM-based Multi-agent Framework of Web Search Engine (like Perplexity.ai Pro and SearchGPT)"
+      }
+    },
+    "stars": 6889,
+    "forks": 685,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-13T12:04:59Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "apache-2.0",
+    "languages": [
+      "JavaScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "InternLM/MindSearch",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "gpt",
+      "llm",
+      "llms",
+      "search",
+      "transformer",
+      "ai-search-engine",
+      "multi-agent-systems",
+      "web-search",
+      "perplexity-ai",
+      "searchgpt"
+    ]
+  },
+  {
+    "id": "github-alvinunreal-oh-my-opencode-slim",
+    "name": "alvinunreal/oh-my-opencode-slim",
+    "url": "https://github.com/alvinunreal/oh-my-opencode-slim",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "opencode"
+    ],
+    "summary": "Lean, fine tuned Opencode multi agent suite · Mix any models · Auto delegate tasks",
+    "i18n": {
+      "zh": {
+        "name": "alvinunreal/oh-my-opencode-slim",
+        "summary": "Lean, fine tuned Opencode multi agent suite · Mix any models · Auto delegate tasks"
+      },
+      "en": {
+        "name": "alvinunreal/oh-my-opencode-slim",
+        "summary": "Lean, fine tuned Opencode multi agent suite · Mix any models · Auto delegate tasks"
+      }
+    },
+    "stars": 6887,
+    "forks": 413,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T09:29:58Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "alvinunreal/oh-my-opencode-slim",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "agentic-ai",
+      "antigravity",
+      "cerebras",
+      "oh-my-opencode",
+      "opencode",
+      "orchestration"
+    ]
+  },
+  {
+    "id": "github-arvinlovegood-go-stock",
+    "name": "ArvinLovegood/go-stock",
+    "url": "https://github.com/ArvinLovegood/go-stock",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "🦄🦄🦄AI赋能股票分析：AI加持的股票分析/选股工具。股票行情获取，AI热点资讯分析，AI资金/财务分析，涨跌报警推送。支持A股，港股，美股。支持市场整体/个股情绪分析，AI辅助选股等。数据全部保留在本地。支持DeepSeek，OpenAI， Ollama，LMStudio，AnythingLLM，硅基流动，火山方舟，阿里云百炼等平台或模型。",
+    "i18n": {
+      "zh": {
+        "name": "ArvinLovegood/go-stock",
+        "summary": "🦄🦄🦄AI赋能股票分析：AI加持的股票分析/选股工具。股票行情获取，AI热点资讯分析，AI资金/财务分析，涨跌报警推送。支持A股，港股，美股。支持市场整体/个股情绪分析，AI辅助选股等。数据全部保留在本地。支持DeepSeek，OpenAI， Ollama，LMStudio，AnythingLLM，硅基流动，火山方舟，阿里云百炼等平台或模型。"
+      },
+      "en": {
+        "name": "ArvinLovegood/go-stock",
+        "summary": "🦄🦄🦄AI赋能股票分析：AI加持的股票分析/选股工具。股票行情获取，AI热点资讯分析，AI资金/财务分析，涨跌报警推送。支持A股，港股，美股。支持市场整体/个股情绪分析，AI辅助选股等。数据全部保留在本地。支持DeepSeek，OpenAI， Ollama，LMStudio，AnythingLLM，硅基流动，火山方舟，阿里云百炼等平台或模型。"
+      }
+    },
+    "stars": 6876,
+    "forks": 1217,
+    "total_score": 41,
+    "quantifiable_score": 41,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:10:38Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "gpl-3.0",
+    "languages": [
+      "Go"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 10,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "ArvinLovegood/go-stock",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "stock",
+      "golang",
+      "naiveui",
+      "wails",
+      "deepseek",
+      "lmstudio",
+      "ollama",
+      "openai",
+      "ai-tools"
+    ]
+  },
+  {
+    "id": "github-jnmetacode-superpowers-zh",
+    "name": "jnMetaCode/superpowers-zh",
+    "url": "https://github.com/jnMetaCode/superpowers-zh",
+    "source_type": "github",
+    "resource_type": [
+      "cli-tool"
+    ],
+    "target_tools": [
+      "claude-code",
+      "antigravity-cli",
+      "cursor",
+      "hermes-agent"
+    ],
+    "summary": "🦸 AI 编程超能力 · 中文增强版 — superpowers（116k+ ⭐）完整汉化 + 6 个中国原创 skills，让 Claude Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI 等 16 款 AI 编程工具真正会干活",
+    "i18n": {
+      "zh": {
+        "name": "jnMetaCode/superpowers-zh",
+        "summary": "🦸 AI 编程超能力 · 中文增强版 — superpowers（116k+ ⭐）完整汉化 + 6 个中国原创 skills，让 Claude Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI 等 16 款 AI 编程工具真正会干活"
+      },
+      "en": {
+        "name": "jnMetaCode/superpowers-zh",
+        "summary": "🦸 AI 编程超能力 · 中文增强版 — superpowers（116k+ ⭐）完整汉化 + 6 个中国原创 skills，让 Claude Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI 等 16 款 AI 编程工具真正会干活"
+      }
+    },
+    "stars": 6856,
+    "forks": 657,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T09:30:57Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "JavaScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "jnMetaCode/superpowers-zh",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "ai-coding",
+      "chinese",
+      "claude-code",
+      "cursor",
+      "mcp",
+      "skills",
+      "superpowers",
+      "tdd",
+      "agent-skills",
+      "agentic-coding",
+      "code-review",
+      "kiro",
+      "npm-package",
+      "prompt-engineering",
+      "trae",
+      "gemini-cli"
+    ]
+  },
+  {
+    "id": "github-mishushakov-llm-scraper",
+    "name": "mishushakov/llm-scraper",
+    "url": "https://github.com/mishushakov/llm-scraper",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Turn any webpage into structured data using LLMs",
+    "i18n": {
+      "zh": {
+        "name": "mishushakov/llm-scraper",
+        "summary": "Turn any webpage into structured data using LLMs"
+      },
+      "en": {
+        "name": "mishushakov/llm-scraper",
+        "summary": "Turn any webpage into structured data using LLMs"
+      }
+    },
+    "stars": 6834,
+    "forks": 449,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T09:27:01Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "mishushakov/llm-scraper",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "ai",
+      "browser",
+      "gpt",
+      "langchain",
+      "llm",
+      "openai",
+      "scraper",
+      "browser-automation",
+      "playwright",
+      "puppeteer",
+      "llama",
+      "artificial-intelligence",
+      "gpt-4"
+    ]
+  },
+  {
+    "id": "github-xindoo-agentic-design-patterns",
+    "name": "xindoo/agentic-design-patterns",
+    "url": "https://github.com/xindoo/agentic-design-patterns",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "谷歌新书Agent设计模式(agentic design patterns)最佳中文版，持续优化。附：在线阅读、pdf和epub电子书下载。 ",
+    "i18n": {
+      "zh": {
+        "name": "xindoo/agentic-design-patterns",
+        "summary": "谷歌新书Agent设计模式(agentic design patterns)最佳中文版，持续优化。附：在线阅读、pdf和epub电子书下载。 "
+      },
+      "en": {
+        "name": "xindoo/agentic-design-patterns",
+        "summary": "谷歌新书Agent设计模式(agentic design patterns)最佳中文版，持续优化。附：在线阅读、pdf和epub电子书下载。 "
+      }
+    },
+    "stars": 6834,
+    "forks": 965,
+    "total_score": 36,
+    "quantifiable_score": 36,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:24:14Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": null,
+    "languages": [
+      "HTML"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "xindoo/agentic-design-patterns",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-katanemo-plano",
+    "name": "katanemo/plano",
+    "url": "https://github.com/katanemo/plano",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Plano is an AI-native proxy and data plane for agentic apps — with built-in orchestration, safety, observability, and smart LLM routing so you stay focused on your agents core logic. ",
+    "i18n": {
+      "zh": {
+        "name": "katanemo/plano",
+        "summary": "Plano is an AI-native proxy and data plane for agentic apps — with built-in orchestration, safety, observability, and smart LLM routing so you stay focused on your agents core logic. "
+      },
+      "en": {
+        "name": "katanemo/plano",
+        "summary": "Plano is an AI-native proxy and data plane for agentic apps — with built-in orchestration, safety, observability, and smart LLM routing so you stay focused on your agents core logic. "
+      }
+    },
+    "stars": 6831,
+    "forks": 464,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T09:27:12Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "apache-2.0",
+    "languages": [
+      "Rust"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "katanemo/plano",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "gateway",
+      "generative-ai",
+      "llm-inference",
+      "llms",
+      "prompt",
+      "proxy",
+      "proxy-server",
+      "llmops",
+      "openai",
+      "routing",
+      "ai-gateway",
+      "llm-gateway",
+      "llm-routing",
+      "envoy",
+      "envoyproxy",
+      "ai-gateway-support",
+      "llm-proxy"
+    ]
+  },
+  {
+    "id": "github-sakanaai-ai-scientist-v2",
+    "name": "SakanaAI/AI-Scientist-v2",
+    "url": "https://github.com/SakanaAI/AI-Scientist-v2",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+    "i18n": {
+      "zh": {
+        "name": "SakanaAI/AI-Scientist-v2",
+        "summary": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search"
+      },
+      "en": {
+        "name": "SakanaAI/AI-Scientist-v2",
+        "summary": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search"
+      }
+    },
+    "stars": 6822,
+    "forks": 941,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T09:31:54Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "other",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "SakanaAI/AI-Scientist-v2",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-browsermcp-mcp",
+    "name": "BrowserMCP/mcp",
+    "url": "https://github.com/BrowserMCP/mcp",
+    "source_type": "github",
+    "resource_type": [
+      "mcp-server"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Browser MCP is a Model Context Provider (MCP) server that allows AI applications to control your browser",
+    "i18n": {
+      "zh": {
+        "name": "BrowserMCP/mcp",
+        "summary": "Browser MCP is a Model Context Provider (MCP) server that allows AI applications to control your browser"
+      },
+      "en": {
+        "name": "BrowserMCP/mcp",
+        "summary": "Browser MCP is a Model Context Provider (MCP) server that allows AI applications to control your browser"
+      }
+    },
+    "stars": 6819,
+    "forks": 533,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:52:56Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "apache-2.0",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "BrowserMCP/mcp",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "browser-automation",
+      "browser-extension",
+      "claude",
+      "cursor",
+      "mcp",
+      "mcp-server"
+    ]
+  },
+  {
+    "id": "github-modem-dev-hunk",
+    "name": "modem-dev/hunk",
+    "url": "https://github.com/modem-dev/hunk",
+    "source_type": "github",
+    "resource_type": [
+      "cli-tool"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Review-first terminal diff viewer for agentic coders",
+    "i18n": {
+      "zh": {
+        "name": "modem-dev/hunk",
+        "summary": "Review-first terminal diff viewer for agentic coders"
+      },
+      "en": {
+        "name": "modem-dev/hunk",
+        "summary": "Review-first terminal diff viewer for agentic coders"
+      }
+    },
+    "stars": 6817,
+    "forks": 192,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T09:22:45Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "modem-dev/hunk",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "cli",
+      "code-review",
+      "diff",
+      "git",
+      "tui"
+    ]
+  },
+  {
+    "id": "github-mattpocock-sandcastle",
+    "name": "mattpocock/sandcastle",
+    "url": "https://github.com/mattpocock/sandcastle",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Orchestrate sandboxed coding agents in TypeScript with sandcastle.run()",
+    "i18n": {
+      "zh": {
+        "name": "mattpocock/sandcastle",
+        "summary": "Orchestrate sandboxed coding agents in TypeScript with sandcastle.run()"
+      },
+      "en": {
+        "name": "mattpocock/sandcastle",
+        "summary": "Orchestrate sandboxed coding agents in TypeScript with sandcastle.run()"
+      }
+    },
+    "stars": 6806,
+    "forks": 681,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:22:30Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "mattpocock/sandcastle",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-datatalksclub-llm-zoomcamp",
+    "name": "DataTalksClub/llm-zoomcamp",
+    "url": "https://github.com/DataTalksClub/llm-zoomcamp",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "LLM Zoomcamp - a free online course about real-life applications of LLMs. In 10 weeks you will learn how to build an AI system that answers questions about your knowledge base.",
+    "i18n": {
+      "zh": {
+        "name": "DataTalksClub/llm-zoomcamp",
+        "summary": "LLM Zoomcamp - a free online course about real-life applications of LLMs. In 10 weeks you will learn how to build an AI system that answers questions about your knowledge base."
+      },
+      "en": {
+        "name": "DataTalksClub/llm-zoomcamp",
+        "summary": "LLM Zoomcamp - a free online course about real-life applications of LLMs. In 10 weeks you will learn how to build an AI system that answers questions about your knowledge base."
+      }
+    },
+    "stars": 6803,
+    "forks": 1241,
+    "total_score": 39,
+    "quantifiable_score": 39,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T07:04:09Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": null,
+    "languages": [
+      "Jupyter Notebook"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 10,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "DataTalksClub/llm-zoomcamp",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-albertan017-llm4decompile",
+    "name": "albertan017/LLM4Decompile",
+    "url": "https://github.com/albertan017/LLM4Decompile",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Reverse Engineering: Decompiling Binary Code with Large Language Models",
+    "i18n": {
+      "zh": {
+        "name": "albertan017/LLM4Decompile",
+        "summary": "Reverse Engineering: Decompiling Binary Code with Large Language Models"
+      },
+      "en": {
+        "name": "albertan017/LLM4Decompile",
+        "summary": "Reverse Engineering: Decompiling Binary Code with Large Language Models"
+      }
+    },
+    "stars": 6756,
+    "forks": 537,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:42:44Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "albertan017/LLM4Decompile",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "decompile",
+      "reverse-engineering",
+      "large-language-models",
+      "binary"
+    ]
+  },
+  {
+    "id": "github-hkuds-openspace",
+    "name": "HKUDS/OpenSpace",
+    "url": "https://github.com/HKUDS/OpenSpace",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "\"OpenSpace: The Quality-First Skill Hub for AI Agents\" -- https://open-space.cloud/",
+    "i18n": {
+      "zh": {
+        "name": "HKUDS/OpenSpace",
+        "summary": "\"OpenSpace: The Quality-First Skill Hub for AI Agents\" -- https://open-space.cloud/"
+      },
+      "en": {
+        "name": "HKUDS/OpenSpace",
+        "summary": "\"OpenSpace: The Quality-First Skill Hub for AI Agents\" -- https://open-space.cloud/"
+      }
+    },
+    "stars": 6731,
+    "forks": 831,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T09:00:02Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "HKUDS/OpenSpace",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-stagewise-io-stagewise",
+    "name": "stagewise-io/stagewise",
+    "url": "https://github.com/stagewise-io/stagewise",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "The Open Source Agentic IDE. Create and orchestrate coding agents, show app previews and run git workflows. Use your favorite models across all providers.",
+    "i18n": {
+      "zh": {
+        "name": "stagewise-io/stagewise",
+        "summary": "The Open Source Agentic IDE. Create and orchestrate coding agents, show app previews and run git workflows. Use your favorite models across all providers."
+      },
+      "en": {
+        "name": "stagewise-io/stagewise",
+        "summary": "The Open Source Agentic IDE. Create and orchestrate coding agents, show app previews and run git workflows. Use your favorite models across all providers."
+      }
+    },
+    "stars": 6729,
+    "forks": 504,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T04:00:40Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "agpl-3.0",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "stagewise-io/stagewise",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "agent",
+      "agent-orchestration",
+      "ide"
+    ]
+  },
+  {
+    "id": "github-ed-donner-llm-engineering",
+    "name": "ed-donner/llm_engineering",
+    "url": "https://github.com/ed-donner/llm_engineering",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Repo to accompany my mastering LLM engineering course",
+    "i18n": {
+      "zh": {
+        "name": "ed-donner/llm_engineering",
+        "summary": "Repo to accompany my mastering LLM engineering course"
+      },
+      "en": {
+        "name": "ed-donner/llm_engineering",
+        "summary": "Repo to accompany my mastering LLM engineering course"
+      }
+    },
+    "stars": 6718,
+    "forks": 6536,
+    "total_score": 41,
+    "quantifiable_score": 41,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T04:53:05Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "Jupyter Notebook"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 10,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "ed-donner/llm_engineering",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-zipstack-unstract",
+    "name": "Zipstack/unstract",
+    "url": "https://github.com/Zipstack/unstract",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "LLM-Driven Extraction of Unstructured Data — Built for API Deployments & ETL Pipeline Workflows",
+    "i18n": {
+      "zh": {
+        "name": "Zipstack/unstract",
+        "summary": "LLM-Driven Extraction of Unstructured Data — Built for API Deployments & ETL Pipeline Workflows"
+      },
+      "en": {
+        "name": "Zipstack/unstract",
+        "summary": "LLM-Driven Extraction of Unstructured Data — Built for API Deployments & ETL Pipeline Workflows"
+      }
+    },
+    "stars": 6706,
+    "forks": 632,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:22:55Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "agpl-3.0",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "Zipstack/unstract",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "ai-agents",
+      "data-engineering",
+      "document-ai",
+      "generative-ai",
+      "idp",
+      "json-extraction",
+      "llm",
+      "mcp-server",
+      "ocr",
+      "pdf-extraction",
+      "prompt-engineering",
+      "structured-output"
+    ]
+  },
+  {
+    "id": "github-ddean2009-moneyprinterplus",
+    "name": "ddean2009/MoneyPrinterPlus",
+    "url": "https://github.com/ddean2009/MoneyPrinterPlus",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "AI一键批量生成各类短视频,自动批量混剪短视频,自动把视频发布到抖音,快手,小红书,视频号上,赚钱从来没有这么容易过! 支持本地语音模型chatTTS,fasterwhisper,GPTSoVITS,支持云语音：Azure,阿里云,腾讯云。支持Stable diffusion,comfyUI直接AI生图。Generate short videos with one click using AI LLM,print money together! support:chatTTS",
+    "i18n": {
+      "zh": {
+        "name": "ddean2009/MoneyPrinterPlus",
+        "summary": "AI一键批量生成各类短视频,自动批量混剪短视频,自动把视频发布到抖音,快手,小红书,视频号上,赚钱从来没有这么容易过! 支持本地语音模型chatTTS,fasterwhisper,GPTSoVITS,支持云语音：Azure,阿里云,腾讯云。支持Stable diffusion,comfyUI直接AI生图。Generate short videos with one click using AI LLM,print money together! support:chatTTS"
+      },
+      "en": {
+        "name": "ddean2009/MoneyPrinterPlus",
+        "summary": "AI一键批量生成各类短视频,自动批量混剪短视频,自动把视频发布到抖音,快手,小红书,视频号上,赚钱从来没有这么容易过! 支持本地语音模型chatTTS,fasterwhisper,GPTSoVITS,支持云语音：Azure,阿里云,腾讯云。支持Stable diffusion,comfyUI直接AI生图。Generate short videos with one click using AI LLM,print money together! support:chatTTS"
+      }
+    },
+    "stars": 6693,
+    "forks": 1196,
+    "total_score": 41,
+    "quantifiable_score": 41,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:56:26Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "gpl-3.0",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 10,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "ddean2009/MoneyPrinterPlus",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-superdesigndev-superdesign",
+    "name": "superdesigndev/superdesign",
+    "url": "https://github.com/superdesigndev/superdesign",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "AI Product Design Agent - Open Source",
+    "i18n": {
+      "zh": {
+        "name": "superdesigndev/superdesign",
+        "summary": "AI Product Design Agent - Open Source"
+      },
+      "en": {
+        "name": "superdesigndev/superdesign",
+        "summary": "AI Product Design Agent - Open Source"
+      }
+    },
+    "stars": 6676,
+    "forks": 728,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:56:41Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "other",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "superdesigndev/superdesign",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-blockrunai-clawrouter",
+    "name": "BlockRunAI/ClawRouter",
+    "url": "https://github.com/BlockRunAI/ClawRouter",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "The agent-native LLM router for OpenClaw. 41+ models, <1ms routing, USDC payments on Base & Solana via x402.",
+    "i18n": {
+      "zh": {
+        "name": "BlockRunAI/ClawRouter",
+        "summary": "The agent-native LLM router for OpenClaw. 41+ models, <1ms routing, USDC payments on Base & Solana via x402."
+      },
+      "en": {
+        "name": "BlockRunAI/ClawRouter",
+        "summary": "The agent-native LLM router for OpenClaw. 41+ models, <1ms routing, USDC payments on Base & Solana via x402."
+      }
+    },
+    "stars": 6656,
+    "forks": 625,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:40:16Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "BlockRunAI/ClawRouter",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "anthropic",
+      "cost-optimization",
+      "deepseek",
+      "gemini",
+      "llm",
+      "llm-router",
+      "micropayments",
+      "openai",
+      "openclaw",
+      "smart-routing",
+      "usdc",
+      "x402",
+      "stablecoin-payments",
+      "stablecoin-payment"
+    ]
+  },
+  {
+    "id": "github-deepseek-ai-deepspec",
+    "name": "deepseek-ai/DeepSpec",
+    "url": "https://github.com/deepseek-ai/DeepSpec",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "DeepSpec: a full-stack codebase for training and evaluating speculative decoding algorithms",
+    "i18n": {
+      "zh": {
+        "name": "deepseek-ai/DeepSpec",
+        "summary": "DeepSpec: a full-stack codebase for training and evaluating speculative decoding algorithms"
+      },
+      "en": {
+        "name": "deepseek-ai/DeepSpec",
+        "summary": "DeepSpec: a full-stack codebase for training and evaluating speculative decoding algorithms"
+      }
+    },
+    "stars": 6629,
+    "forks": 593,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T09:27:42Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "deepseek-ai/DeepSpec",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-julep-ai-julep",
+    "name": "julep-ai/julep",
+    "url": "https://github.com/julep-ai/julep",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Julep — durable, composable AI agents. Flows that crash and resume, retry safely, and explain every step.",
+    "i18n": {
+      "zh": {
+        "name": "julep-ai/julep",
+        "summary": "Julep — durable, composable AI agents. Flows that crash and resume, retry safely, and explain every step."
+      },
+      "en": {
+        "name": "julep-ai/julep",
+        "summary": "Julep — durable, composable AI agents. Flows that crash and resume, retry safely, and explain every step."
+      }
+    },
+    "stars": 6598,
+    "forks": 971,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-13T20:18:17Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "apache-2.0",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "julep-ai/julep",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "agents",
+      "ai-agents",
+      "ai-agents-framework",
+      "ai-memory",
+      "ai-platform",
+      "ai",
+      "developer-tools",
+      "llm",
+      "llm-ops",
+      "python",
+      "aiagents",
+      "devfest",
+      "node",
+      "node-js",
+      "nodejs"
+    ]
+  },
+  {
+    "id": "github-open-multi-agent-open-multi-agent",
+    "name": "open-multi-agent/open-multi-agent",
+    "url": "https://github.com/open-multi-agent/open-multi-agent",
+    "source_type": "github",
+    "resource_type": [
+      "agent-framework"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "TypeScript AI agent orchestration framework with dynamic workflows. Describe the goal, not the graph: a coordinator plans the task DAG at runtime and runs it on any LLM (Claude, ChatGPT, Gemini, DeepSeek, or local models).",
+    "i18n": {
+      "zh": {
+        "name": "open-multi-agent/open-multi-agent",
+        "summary": "TypeScript AI agent orchestration framework with dynamic workflows. Describe the goal, not the graph: a coordinator plans the task DAG at runtime and runs it on any LLM (Claude, ChatGPT, Gemini, DeepSeek, or local models)."
+      },
+      "en": {
+        "name": "open-multi-agent/open-multi-agent",
+        "summary": "TypeScript AI agent orchestration framework with dynamic workflows. Describe the goal, not the graph: a coordinator plans the task DAG at runtime and runs it on any LLM (Claude, ChatGPT, Gemini, DeepSeek, or local models)."
+      }
+    },
+    "stars": 6576,
+    "forks": 2406,
+    "total_score": 41,
+    "quantifiable_score": 41,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:23:47Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 10,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "open-multi-agent/open-multi-agent",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "agent-framework",
+      "ai-agents",
+      "claude",
+      "llm",
+      "multi-agent",
+      "openai",
+      "typescript",
+      "anthropic",
+      "nodejs",
+      "ollama",
+      "deepseek",
+      "gemini",
+      "local-llm",
+      "mcp",
+      "crewai-alternative",
+      "langgraph-alternative",
+      "agent-orchestration",
+      "agentic-ai",
+      "claude-code",
+      "dynamic-workflows"
+    ]
+  },
+  {
+    "id": "github-strands-agents-harness-sdk",
+    "name": "strands-agents/harness-sdk",
+    "url": "https://github.com/strands-agents/harness-sdk",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.",
+    "i18n": {
+      "zh": {
+        "name": "strands-agents/harness-sdk",
+        "summary": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud."
+      },
+      "en": {
+        "name": "strands-agents/harness-sdk",
+        "summary": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud."
+      }
+    },
+    "stars": 6564,
+    "forks": 951,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:02:54Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "apache-2.0",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "strands-agents/harness-sdk",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "agentic",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "autonomous-agents",
+      "llm",
+      "multi-agent-systems",
+      "python",
+      "anthropic",
+      "mcp",
+      "bedrock",
+      "openai",
+      "strands-agents",
+      "agent-framework",
+      "ai-agents",
+      "generative-ai",
+      "llm-agent",
+      "sdk",
+      "typescript",
+      "harness"
+    ]
+  },
+  {
+    "id": "github-stability-ai-stablecascade",
+    "name": "Stability-AI/StableCascade",
+    "url": "https://github.com/Stability-AI/StableCascade",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Official Code for Stable Cascade",
+    "i18n": {
+      "zh": {
+        "name": "Stability-AI/StableCascade",
+        "summary": "Official Code for Stable Cascade"
+      },
+      "en": {
+        "name": "Stability-AI/StableCascade",
+        "summary": "Official Code for Stable Cascade"
+      }
+    },
+    "stars": 6545,
+    "forks": 512,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-13T07:59:44Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "Jupyter Notebook"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "Stability-AI/StableCascade",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-zai-org-glm-5",
+    "name": "zai-org/GLM-5",
+    "url": "https://github.com/zai-org/GLM-5",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "GLM-5: From Vibe Coding to Agentic Engineering",
+    "i18n": {
+      "zh": {
+        "name": "zai-org/GLM-5",
+        "summary": "GLM-5: From Vibe Coding to Agentic Engineering"
+      },
+      "en": {
+        "name": "zai-org/GLM-5",
+        "summary": "GLM-5: From Vibe Coding to Agentic Engineering"
+      }
+    },
+    "stars": 6547,
+    "forks": 812,
+    "total_score": 36,
+    "quantifiable_score": 36,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T09:06:34Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "apache-2.0",
+    "languages": [],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "zai-org/GLM-5",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "agentic-ai",
+      "coding",
+      "llm",
+      "long-horizon"
+    ]
+  },
+  {
+    "id": "github-vas3k-taxhacker",
+    "name": "vas3k/TaxHacker",
+    "url": "https://github.com/vas3k/TaxHacker",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Self-hosted AI accounting app. LLM analyzer for receipts, invoices, transactions with custom prompts and categories",
+    "i18n": {
+      "zh": {
+        "name": "vas3k/TaxHacker",
+        "summary": "Self-hosted AI accounting app. LLM analyzer for receipts, invoices, transactions with custom prompts and categories"
+      },
+      "en": {
+        "name": "vas3k/TaxHacker",
+        "summary": "Self-hosted AI accounting app. LLM analyzer for receipts, invoices, transactions with custom prompts and categories"
+      }
+    },
+    "stars": 6534,
+    "forks": 1076,
+    "total_score": 41,
+    "quantifiable_score": 41,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T00:17:57Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 10,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "vas3k/TaxHacker",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "accounting",
+      "currency-exchange",
+      "llm",
+      "self-hosted",
+      "taxes",
+      "ai-analysis",
+      "expenses",
+      "invoices",
+      "gemini",
+      "ocr-recognition",
+      "ollama",
+      "openai"
+    ]
+  },
+  {
+    "id": "github-openai-openai-cs-agents-demo",
+    "name": "openai/openai-cs-agents-demo",
+    "url": "https://github.com/openai/openai-cs-agents-demo",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Demo of a customer service use case implemented with the OpenAI Agents SDK",
+    "i18n": {
+      "zh": {
+        "name": "openai/openai-cs-agents-demo",
+        "summary": "Demo of a customer service use case implemented with the OpenAI Agents SDK"
+      },
+      "en": {
+        "name": "openai/openai-cs-agents-demo",
+        "summary": "Demo of a customer service use case implemented with the OpenAI Agents SDK"
+      }
+    },
+    "stars": 6532,
+    "forks": 1004,
+    "total_score": 41,
+    "quantifiable_score": 41,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-13T12:59:21Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 10,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "openai/openai-cs-agents-demo",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-microsoft-call-center-ai",
+    "name": "microsoft/call-center-ai",
+    "url": "https://github.com/microsoft/call-center-ai",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Send a phone call from AI agent, in an API call. Or, directly call the bot from the configured phone number!",
+    "i18n": {
+      "zh": {
+        "name": "microsoft/call-center-ai",
+        "summary": "Send a phone call from AI agent, in an API call. Or, directly call the bot from the configured phone number!"
+      },
+      "en": {
+        "name": "microsoft/call-center-ai",
+        "summary": "Send a phone call from AI agent, in an API call. Or, directly call the bot from the configured phone number!"
+      }
+    },
+    "stars": 6531,
+    "forks": 772,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-13T20:43:51Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "apache-2.0",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "microsoft/call-center-ai",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-punkpeye-awesome-mcp-clients",
+    "name": "punkpeye/awesome-mcp-clients",
+    "url": "https://github.com/punkpeye/awesome-mcp-clients",
+    "source_type": "github",
+    "resource_type": [
+      "mcp-server"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "A collection of MCP clients.",
+    "i18n": {
+      "zh": {
+        "name": "punkpeye/awesome-mcp-clients",
+        "summary": "A collection of MCP clients."
+      },
+      "en": {
+        "name": "punkpeye/awesome-mcp-clients",
+        "summary": "A collection of MCP clients."
+      }
+    },
+    "stars": 6519,
+    "forks": 613,
+    "total_score": 36,
+    "quantifiable_score": 36,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-13T21:06:30Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "punkpeye/awesome-mcp-clients",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "clients",
+      "mcp"
+    ]
+  },
+  {
+    "id": "github-googlecloudplatform-agent-starter-pack",
+    "name": "GoogleCloudPlatform/agent-starter-pack",
+    "url": "https://github.com/GoogleCloudPlatform/agent-starter-pack",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Ship AI Agents to Google Cloud in minutes, not months. Production-ready templates with built-in CI/CD, evaluation, and observability.",
+    "i18n": {
+      "zh": {
+        "name": "GoogleCloudPlatform/agent-starter-pack",
+        "summary": "Ship AI Agents to Google Cloud in minutes, not months. Production-ready templates with built-in CI/CD, evaluation, and observability."
+      },
+      "en": {
+        "name": "GoogleCloudPlatform/agent-starter-pack",
+        "summary": "Ship AI Agents to Google Cloud in minutes, not months. Production-ready templates with built-in CI/CD, evaluation, and observability."
+      }
+    },
+    "stars": 6518,
+    "forks": 1496,
+    "total_score": 41,
+    "quantifiable_score": 41,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-12T11:38:14Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "apache-2.0",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 10,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "GoogleCloudPlatform/agent-starter-pack",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "agents",
+      "gcp",
+      "gemini",
+      "genai-agents",
+      "generative-ai",
+      "llmops",
+      "mlops",
+      "observability"
+    ]
+  },
+  {
+    "id": "github-crestalnetwork-intentkit",
+    "name": "crestalnetwork/intentkit",
+    "url": "https://github.com/crestalnetwork/intentkit",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "IntentKit is an open-source, self-hosted cloud agent cluster that manages a collaborative team of AI agents for you.",
+    "i18n": {
+      "zh": {
+        "name": "crestalnetwork/intentkit",
+        "summary": "IntentKit is an open-source, self-hosted cloud agent cluster that manages a collaborative team of AI agents for you."
+      },
+      "en": {
+        "name": "crestalnetwork/intentkit",
+        "summary": "IntentKit is an open-source, self-hosted cloud agent cluster that manages a collaborative team of AI agents for you."
+      }
+    },
+    "stars": 6505,
+    "forks": 713,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-13T09:36:01Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "crestalnetwork/intentkit",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "ai",
+      "ai-agent-framework",
+      "intents",
+      "python",
+      "web3",
+      "ai-agent",
+      "blockchain",
+      "agent-framework",
+      "agentic"
+    ]
+  },
+  {
+    "id": "github-popjane-free-chatgpt-api",
+    "name": "popjane/free_chatgpt_api",
+    "url": "https://github.com/popjane/free_chatgpt_api",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "🔥 公益免费的ChatGPT API，Free ChatGPT API，GPT4 API，可直连，无需代理，使用标准 OpenAI APIKEY 格式访问 ChatGPT，可搭配ChatGPT-next-web、ChatGPT-Midjourney、Lobe-chat、Botgem、FastGPT、Cherry Studio、沉浸式翻译等项目使用",
+    "i18n": {
+      "zh": {
+        "name": "popjane/free_chatgpt_api",
+        "summary": "🔥 公益免费的ChatGPT API，Free ChatGPT API，GPT4 API，可直连，无需代理，使用标准 OpenAI APIKEY 格式访问 ChatGPT，可搭配ChatGPT-next-web、ChatGPT-Midjourney、Lobe-chat、Botgem、FastGPT、Cherry Studio、沉浸式翻译等项目使用"
+      },
+      "en": {
+        "name": "popjane/free_chatgpt_api",
+        "summary": "🔥 公益免费的ChatGPT API，Free ChatGPT API，GPT4 API，可直连，无需代理，使用标准 OpenAI APIKEY 格式访问 ChatGPT，可搭配ChatGPT-next-web、ChatGPT-Midjourney、Lobe-chat、Botgem、FastGPT、Cherry Studio、沉浸式翻译等项目使用"
+      }
+    },
+    "stars": 6506,
+    "forks": 591,
+    "total_score": 36,
+    "quantifiable_score": 36,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T09:00:47Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 2
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "popjane/free_chatgpt_api",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-linkedin-liger-kernel",
+    "name": "linkedin/Liger-Kernel",
+    "url": "https://github.com/linkedin/Liger-Kernel",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Efficient Triton Kernels for LLM Training",
+    "i18n": {
+      "zh": {
+        "name": "linkedin/Liger-Kernel",
+        "summary": "Efficient Triton Kernels for LLM Training"
+      },
+      "en": {
+        "name": "linkedin/Liger-Kernel",
+        "summary": "Efficient Triton Kernels for LLM Training"
+      }
+    },
+    "stars": 6504,
+    "forks": 554,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T05:06:30Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "bsd-2-clause",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "linkedin/Liger-Kernel",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "llm-training",
+      "triton",
+      "finetuning",
+      "gemma2",
+      "llama",
+      "llama3",
+      "llms",
+      "mistral",
+      "phi3",
+      "triton-kernels",
+      "hacktoberfest"
+    ]
+  },
+  {
+    "id": "github-midudev-autoskills",
+    "name": "midudev/autoskills",
+    "url": "https://github.com/midudev/autoskills",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "One command. Your entire AI skill stack. Installed.",
+    "i18n": {
+      "zh": {
+        "name": "midudev/autoskills",
+        "summary": "One command. Your entire AI skill stack. Installed."
+      },
+      "en": {
+        "name": "midudev/autoskills",
+        "summary": "One command. Your entire AI skill stack. Installed."
+      }
+    },
+    "stars": 6502,
+    "forks": 596,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:40:57Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "other",
+    "languages": [
+      "Ruby"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "midudev/autoskills",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-airweave-ai-airweave",
+    "name": "airweave-ai/airweave",
+    "url": "https://github.com/airweave-ai/airweave",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Open-source context retrieval layer for AI agents",
+    "i18n": {
+      "zh": {
+        "name": "airweave-ai/airweave",
+        "summary": "Open-source context retrieval layer for AI agents"
+      },
+      "en": {
+        "name": "airweave-ai/airweave",
+        "summary": "Open-source context retrieval layer for AI agents"
+      }
+    },
+    "stars": 6483,
+    "forks": 813,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T02:56:21Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "airweave-ai/airweave",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "llm",
+      "rag",
+      "search",
+      "agent-infrastructure",
+      "ai",
+      "ai-agents",
+      "ai-infrastructure",
+      "api",
+      "context-retrieval",
+      "data-connectors",
+      "developer-tools",
+      "enterprise-data",
+      "information-retrieval",
+      "integration",
+      "open-source",
+      "retrieval",
+      "retrieval-augmented-generation",
+      "sdk",
+      "search-api",
+      "semantic-search"
+    ]
+  },
+  {
+    "id": "github-anthropics-defending-code-reference-harness",
+    "name": "anthropics/defending-code-reference-harness",
+    "url": "https://github.com/anthropics/defending-code-reference-harness",
+    "source_type": "github",
+    "resource_type": [
+      "skills"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
+    "i18n": {
+      "zh": {
+        "name": "anthropics/defending-code-reference-harness",
+        "summary": "Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize"
+      },
+      "en": {
+        "name": "anthropics/defending-code-reference-harness",
+        "summary": "Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize"
+      }
+    },
+    "stars": 6468,
+    "forks": 519,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T08:35:22Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "other",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "anthropics/defending-code-reference-harness",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "security"
+    ]
+  },
+  {
+    "id": "github-cocoon-ai-architecture-diagram-generator",
+    "name": "Cocoon-AI/architecture-diagram-generator",
+    "url": "https://github.com/Cocoon-AI/architecture-diagram-generator",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Generate beautiful dark-themed system architecture diagrams as standalone HTML/SVG files. Works as a Claude AI skill.    ",
+    "i18n": {
+      "zh": {
+        "name": "Cocoon-AI/architecture-diagram-generator",
+        "summary": "Generate beautiful dark-themed system architecture diagrams as standalone HTML/SVG files. Works as a Claude AI skill.    "
+      },
+      "en": {
+        "name": "Cocoon-AI/architecture-diagram-generator",
+        "summary": "Generate beautiful dark-themed system architecture diagrams as standalone HTML/SVG files. Works as a Claude AI skill.    "
+      }
+    },
+    "stars": 6469,
+    "forks": 514,
+    "total_score": 38,
+    "quantifiable_score": 38,
+    "quality_score": 0,
+    "tracking_priority": "pending",
+    "last_updated": "2026-07-14T09:16:52Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "HTML"
+    ],
+    "review_state": "auto-indexed",
+    "score_detail": {
+      "stars": 12,
+      "activity": 15,
+      "adoption": 7,
+      "maturity": 4
+    },
+    "quality_detail": {},
+    "llm_summary": null,
+    "benchmark_ref": null,
+    "last_analyzed": null,
+    "repo": "Cocoon-AI/architecture-diagram-generator",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  }
+]
