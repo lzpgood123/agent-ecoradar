@@ -7,11 +7,22 @@ const SIC_filters = {
   selectedTypes: new Set(),
   searchQuery: '',
   sortBy: 'score',
+  sortDirection: 'desc',
   matchMode: 'or',
   curatedOnly: false,
   recentOnly: false,
   favoritesOnly: false,
   _pendingProject: null,
+  _pendingPage: null,
+
+  toggleSort(field) {
+    if (this.sortBy === field) {
+      this.sortDirection = this.sortDirection === 'desc' ? 'asc' : 'desc';
+    } else {
+      this.sortBy = field;
+      this.sortDirection = 'desc';
+    }
+  },
 
   toggleTool(id) {
     if (this.selectedTools.has(id)) this.selectedTools.delete(id);
@@ -47,6 +58,7 @@ const SIC_filters = {
     this.recentOnly = false;
     this.favoritesOnly = false;
     this.sortBy = 'score';
+    this.sortDirection = 'desc';
     this.matchMode = 'or';
   },
 
@@ -100,19 +112,35 @@ const SIC_filters = {
     });
 
     rows.sort((a, b) => {
+      // Base comparison is always ascending; direction flips at the end.
+      let cmp = 0;
       switch (this.sortBy) {
-        case 'name': return SIC_i18n.textOf(a, 'name').localeCompare(SIC_i18n.textOf(b, 'name'));
-        case 'stars': return (b.stars || 0) - (a.stars || 0);
-        case 'updated': return String(b.last_updated || '').localeCompare(String(a.last_updated || ''));
-        case 'recent': return String(b.first_seen || b.last_seen || '').localeCompare(String(a.first_seen || a.last_seen || ''));
+        case 'name':
+          cmp = SIC_i18n.textOf(a, 'name').localeCompare(SIC_i18n.textOf(b, 'name'));
+          break;
+        case 'stars':
+          cmp = (a.stars || 0) - (b.stars || 0);
+          break;
+        case 'updated':
+          cmp = String(a.last_updated || '').localeCompare(String(b.last_updated || ''));
+          break;
+        case 'recent':
+          cmp = String(a.first_seen || a.last_seen || '').localeCompare(String(b.first_seen || b.last_seen || ''));
+          break;
         case 'match': {
           const aMatch = this._matchCount(a);
           const bMatch = this._matchCount(b);
-          if (bMatch !== aMatch) return bMatch - aMatch;
-          return (b.total_score || 0) - (a.total_score || 0);
+          if (aMatch !== bMatch) {
+            cmp = aMatch - bMatch;
+            break;
+          }
+          cmp = (a.total_score || 0) - (b.total_score || 0);
+          break;
         }
-        default: return (b.total_score || 0) - (a.total_score || 0);
+        default:
+          cmp = (a.total_score || 0) - (b.total_score || 0);
       }
+      return this.sortDirection === 'asc' ? cmp : -cmp;
     });
     return rows;
   },
@@ -132,12 +160,17 @@ const SIC_filters = {
     if (qs.get('tools')) qs.get('tools').split(',').forEach(t => this.selectedTools.add(t));
     if (qs.get('types')) qs.get('types').split(',').forEach(t => this.selectedTypes.add(t));
     if (qs.get('sort')) this.sortBy = qs.get('sort');
+    if (qs.get('dir') === 'asc' || qs.get('dir') === 'desc') this.sortDirection = qs.get('dir');
     if (qs.get('mode')) this.matchMode = qs.get('mode');
     if (qs.get('curated') === '1') this.curatedOnly = true;
     if (qs.get('recent') === '1') this.recentOnly = true;
     if (qs.get('fav') === '1') this.favoritesOnly = true;
     // #15: project deep link
     if (qs.get('project')) this._pendingProject = qs.get('project');
+    if (qs.get('page')) {
+      var pageNum = parseInt(qs.get('page'), 10);
+      if (Number.isFinite(pageNum) && pageNum > 0) this._pendingPage = pageNum;
+    }
     if (location.hash.startsWith('#favorites=')) {
       const ids = location.hash.slice(12).split(',').filter(Boolean);
       ids.forEach(id => SIC_data.favorites.add(id));
@@ -152,10 +185,12 @@ const SIC_filters = {
     if (this.selectedTools.size) qs.set('tools', [...this.selectedTools].join(','));
     if (this.selectedTypes.size) qs.set('types', [...this.selectedTypes].join(','));
     if (this.sortBy !== 'score') qs.set('sort', this.sortBy);
+    if (this.sortDirection !== 'desc') qs.set('dir', this.sortDirection);
     if (this.matchMode === 'and') qs.set('mode', 'and');
     if (this.curatedOnly) qs.set('curated', '1');
     if (this.recentOnly) qs.set('recent', '1');
     if (this.favoritesOnly) qs.set('fav', '1');
+    if (SIC_render.currentPage > 0) qs.set('page', String(SIC_render.currentPage + 1));
     const hash = location.hash; // #6: preserve hash
     history.replaceState(null, '', `${location.pathname}${qs.toString() ? '?' + qs : ''}${hash}`);
   },

@@ -201,16 +201,20 @@ function handleGlobalClick(e) {
     case 'reload':
       location.reload();
       break;
-    case 'page':
+    case 'page': {
       var page = parseInt(btn.dataset.page, 10);
+      if (!Number.isFinite(page)) break;
+      var maxPage = Math.max(1, Math.ceil(SIC_render.currentFiltered.length / SIC_render.PAGE_SIZE));
+      page = Math.min(Math.max(page, 1), maxPage);
+      if (page - 1 === SIC_render.currentPage) break;
       SIC_render.currentPage = page - 1; // 0-indexed
       SIC_render.renderPage();
       SIC_render.renderPagination();
-      // scroll to table top
       var tableWrapper = document.querySelector('.table-wrapper');
       if (tableWrapper) tableWrapper.scrollIntoView({ behavior: 'smooth', block: 'start' });
       SIC_filters.writeState();
       break;
+    }
   }
 }
 
@@ -234,16 +238,20 @@ function bindEvents() {
   });
 
   // Table header click sort
-  document.querySelector('thead').addEventListener('click', function(e) {
-    var th = e.target.closest('th[data-sort]');
-    if (!th) return;
-    SIC_filters.toggleSort(th.dataset.sort);
-    // Sync select
-    var sortEl = $('sort');
-    if (sortEl) sortEl.value = SIC_filters.sortBy;
-    SIC_render.renderSearchZone();
-    SIC_filters.writeState();
-  });
+  var thead = document.querySelector('thead');
+  if (thead) {
+    thead.addEventListener('click', function(e) {
+      var th = e.target.closest('th[data-sort]');
+      if (!th) return;
+      SIC_filters.toggleSort(th.dataset.sort);
+      // Sync select
+      var sortEl = $('sort');
+      if (sortEl) sortEl.value = SIC_filters.sortBy;
+      // Keep current page when only direction/field changes? Spec resets via renderSearchZone.
+      SIC_render.renderSearchZone();
+      SIC_filters.writeState();
+    });
+  }
 
   // #8: OR/AND toggle - radiogroup behavior (clicking active button does nothing)
   $('modeToggle').addEventListener('click', function(e) {

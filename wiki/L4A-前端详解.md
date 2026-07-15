@@ -28,6 +28,7 @@
 | `type-tag` | 点击类型标签按钮 | `SIC_filters.toggleType()` + 重新渲染表格 |
 | `tool-filter` | 点击工具概览卡片 | `SIC_filters.setTool()` + 同步标签按钮 + 滚动到搜索区 |
 | `remove-filter` | 点击筛选 chip 的 × 按钮 | 移除对应筛选条件 + 重新渲染 + syncUI |
+| `page` | 点击页码按钮 | 切换 `SIC_render.currentPage` + renderPage/Pagination + 滚到表格顶 **[交互优化]** |
 | `reload` | 点击重试按钮 | `location.reload()` |
 
 **关键：** 工具卡片点击后调用 `renderTagButtons()` 重新渲染标签按钮组，使 tag button 的 active 状态与 selectedTools 同步（Bug 3 修复）。
@@ -38,7 +39,7 @@
 |------|----------------|---------|------|
 | 发现区 | #discoverySection | renderDiscovery() | 最新发现高质量项目（按 first_seen + 分数排序取 Top 12，无时间 cutoff） |
 | 工具概览区 | #toolOverviewSection | renderToolOverview() | 10 个工具的生态规模卡片，点击跳转搜索区筛选 |
-| 搜索区 | #searchZone | renderSearchZone() | 多选标签筛选 + 6 种排序 + 虚拟滚动表格 |
+| 搜索区 | #searchZone | renderSearchZone() | 多选标签筛选 + 6 种排序（表头可点） + **每页 20 条页码表格** |
 
 ## 页面状态
 
@@ -51,10 +52,12 @@
 - `tools` - 选中的工具 ID（逗号分隔）
 - `types` - 选中的 resource_type（逗号分隔）
 - `sort` - 排序方式（score/stars/updated/match/recent/name）
+- `dir` - 排序方向（asc/desc；默认 desc 时不写入 URL） **[交互优化 2026-07-15]**
 - `mode` - 匹配模式（or/and）
 - `curated` - 只看推荐（1）
 - `recent` - 只看最近新增（1）
 - `fav` - 只看收藏（1）**[v3 新增]**
+- `page` - 当前页（1-based；第 1 页不写入 URL） **[交互优化 2026-07-15]**
 - `project` - 项目深链 ID，打开时自动展开详情 **[v3 新增]**
 
 **Hash 参数：** `#favorites=id1,id2` 用于导入收藏。writeState 现在保留 hash（dogfood #6 修复）。
@@ -107,11 +110,12 @@
 |------|------|------|
 | toggleTool(id) / toggleType(type) | (string) => void | 切换标签选中状态 |
 | toggleMode() | () => void | 切换 OR/AND |
+| toggleSort(field) | (string) => void | 表头排序：同列切换升降序，新列默认 desc **[交互优化]** |
 | setTool(id) | (string) => void | 清空并选中单个工具 |
 | hasActiveFilters() | () => boolean | 检查是否有活跃筛选 **[v3 新增]** |
-| clearAll() | () => void | 清空所有筛选 **[v3 新增]** |
+| clearAll() | () => void | 清空所有筛选（含 sortDirection 重置为 desc） **[v3 新增]** |
 | apply(projects, curatedIds) | (array, Set) => array | 筛选 + 排序，返回结果数组 |
-| readState() / writeState() | () => void | URL 状态读写（writeState 保留 hash） |
+| readState() / writeState() | () => void | URL 状态读写（writeState 保留 hash；含 dir/page） |
 
 **筛选逻辑：**
 - 排除 official-seed 和 reject 项目
@@ -121,12 +125,14 @@
 - curatedOnly：id 在 curated 集合中
 
 **排序模式（6 种）：**
-- `score` - total_score 降序（默认）
-- `stars` - stars 降序
-- `updated` - last_updated 倒序
-- `match` - 标签匹配数降序 + 分数降序
-- `recent` - first_seen/last_seen 倒序
+- `score` - total_score（默认；方向由 sortDirection 控制）
+- `stars` - stars
+- `updated` - last_updated
+- `match` - 标签匹配数 + 分数
+- `recent` - first_seen/last_seen
 - `name` - 名称 localeCompare
+
+**升降序：** `sortDirection` 为 `asc|desc`；比较器统一按升序算 cmp，再按方向取 `cmp` 或 `-cmp`（避免 name 与数值方向语义不一致）。
 
 ### render.js - SIC_render
 
@@ -135,11 +141,13 @@
 | renderAll() | () => void | 渲染全部三区 + scoreChart + writeState() |
 | renderMetrics() | () => void | 渲染 Hero 区域指标卡（v3: 移到 header） |
 | renderDiscovery() | () => void | 渲染发现区（按 first_seen 降序 + 分数降序取 Top 12） |
-| renderToolOverview() | () => void | 渲染工具概览卡片 + 调用 SIC_charts.barChart() |
-| renderScoreChart() | () => void | 渲染分数分布直方图（v3: 移到工具概览区下方） |
-| renderSearchZone() | () => void | 筛选 + 渲染表格 + 结果计数 + 活跃条件 chips + 清空按钮 |
+| renderToolOverview() | () => void | 渲染工具概览卡片 + 调用 SIC_charts.barChart()（水平） |
+| renderScoreChart() | () => void | 渲染分数分布直方图（垂直） |
+| renderSearchZone() | () => void | 筛选 + 重置/恢复 page + 渲染表格 + 结果计数 + 活跃条件 chips + 清空按钮 |
 | renderActiveFilters() | () => void | 渲染活跃筛选条件 chips **[v3 新增]** |
-| renderMore() | () => void | 分页加载（PAGE_SIZE=50）+ IntersectionObserver |
+| renderPage() | () => void | 渲染当前页 20 条（替换旧 renderMore 无限滚动） **[交互优化]** |
+| renderPagination() | () => void | 底部页码控件（省略号、上一页/下一页、pageOf） **[交互优化]** |
+| renderSortIndicators() | () => void | 可排序表头 ▲/▼ **[交互优化]** |
 | openDetail(projectId) | (string) => void | 打开详情面板（v3: 立即显示 loading → 展示 score_detail → 隐藏空字段） |
 | closeDetail() | () => void | 关闭详情面板 |
 | toggleFav(id) | (string) => void | 切换收藏状态 |
@@ -149,7 +157,7 @@
 | showSkeleton() | () => void | 骨架屏 |
 | showError() | () => void | 错误状态 + 重试按钮 |
 
-**虚拟滚动修复（Bug 4）：** IntersectionObserver 在 renderMore 每次加载后对新最后一行重新 observe；renderSearchZone 开始时 disconnect 旧 observer。Observer 只创建一次，通过 unobserve + observe 切换观察目标。
+**分页（2026-07-15）：** `PAGE_SIZE=20`，`currentPage` 0-based；筛选变化默认回第 1 页；URL `page` 深链会 clamp 到合法页。**已移除** IntersectionObserver 无限滚动。
 
 **LLM Summary 修复（Bug 7）：** detail 面板中 llm_summary 字段是 `{zh, en}` 对象（不是 i18n 结构），通过 `llmSummary[SIC_i18n.lang] || llmSummary.en || llmSummary.zh` 取值。
 
@@ -157,8 +165,9 @@
 
 | 方法 | 签名 | 用途 |
 |------|------|------|
-| barChart(data, maxVal, options?) | (array, number, object?) => string | 可读 SVG 柱状图：Y 轴刻度（`text-anchor=end`）+ 网格 + 柱顶数值 + X 短标签；高约 180–210；`options.ariaLabel` 可选 **[Style B]** |
-| histogram(scores) | (array) => string | 分数分布直方图（5 桶 0-20…81-100），内部调 barChart **[Style B]** |
+| barChart(data, maxVal, options?) | (array, number, object?) => string | **水平**柱状图：左侧完整工具名、柱子向右、末端数值、X 刻度；用于工具覆盖 **[交互优化]** |
+| _verticalBarChart(data, maxVal, options?) | (array, number, object?) => string | **垂直**柱状图：Y 轴+网格+柱顶数值；仅 histogram 使用 |
+| histogram(scores) | (array) => string | 分数分布直方图（5 桶 0-20…81-100），内部调 `_verticalBarChart`（保持垂直） |
 
 **挂载位置：** `#toolChart` / `#scoreChart` 在 header metrics 下方 `.charts-row` 内（不再位于工具概览 section 底部）。
 
@@ -173,7 +182,7 @@
 | openReportModal(file) | fetch `reports/<file>` → `SIC_render.renderReport` 写入 `#reportModalBody`；**不**写入 detailOverlay **[Style B]** |
 | closeReportModal() | 关 modal/backdrop，清 active，恢复 overflow（若 detail 未开） **[Style B]** |
 | isReportOpen() / setReportActive(file) | modal 状态与 pill/tab 高亮 **[Style B]** |
-| handleGlobalClick() | 含 `close-report` 等 data-action |
+| handleGlobalClick() | 含 `close-report`、`page` 等 data-action |
 
 ## 样式体系
 

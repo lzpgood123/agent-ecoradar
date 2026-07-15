@@ -7,7 +7,6 @@ const SIC_render = {
   renderedCount: 0,
   currentPage: 0,
   currentFiltered: [],
-  _observer: null,
 
   $: function(id) { return document.getElementById(id); },
 
@@ -162,6 +161,10 @@ const SIC_render = {
       this.currentPage = SIC_filters._pendingPage - 1;
       SIC_filters._pendingPage = null;
     }
+    // Clamp page into valid range after filter/sort changes
+    var maxPage = Math.max(0, Math.ceil(this.currentFiltered.length / this.PAGE_SIZE) - 1);
+    if (this.currentPage > maxPage) this.currentPage = maxPage;
+    if (this.currentPage < 0) this.currentPage = 0;
 
     // #7: result count "显示 X / Y"
     var totalProjects = SIC_data.projects.filter(function(p) {
@@ -215,7 +218,7 @@ const SIC_render = {
     }).join('');
   },
 
-  // Bug 4 fix: re-observe new last row after each load
+  // Pagination slice (replaces infinite-scroll renderMore)
   renderPage: function() {
     var self = this;
     var start = this.currentPage * this.PAGE_SIZE;
@@ -258,22 +261,27 @@ const SIC_render = {
   },
 
   renderPagination: function() {
-    var self = this;
     var total = this.currentFiltered.length;
-    var pages = Math.ceil(total / this.PAGE_SIZE);
+    var pages = Math.max(1, Math.ceil(total / this.PAGE_SIZE));
     var current = this.currentPage + 1; // 1-indexed for display
     var container = this.$('pagination');
     if (!container) return;
 
-    if (pages <= 1) {
+    if (total === 0 || pages <= 1) {
       container.innerHTML = '';
       return;
+    }
+
+    // Keep current inside bounds if data shrank
+    if (current > pages) {
+      this.currentPage = pages - 1;
+      current = pages;
     }
 
     var html = '';
     // Previous
     if (current > 1) {
-      html += '<button class="page-btn" data-action="page" data-page="' + (current - 1) + '">‹</button>';
+      html += '<button class="page-btn" data-action="page" data-page="' + (current - 1) + '" aria-label="Previous page">‹</button>';
     }
     // Page numbers with ellipsis
     var startPage = Math.max(1, current - 2);
@@ -283,7 +291,8 @@ const SIC_render = {
       if (startPage > 2) html += '<span class="page-ellipsis">…</span>';
     }
     for (var p = startPage; p <= endPage; p++) {
-      html += '<button class="page-btn' + (p === current ? ' active' : '') + '" data-action="page" data-page="' + p + '">' + p + '</button>';
+      html += '<button class="page-btn' + (p === current ? ' active' : '') + '" data-action="page" data-page="' + p + '"' +
+        (p === current ? ' aria-current="page"' : '') + '>' + p + '</button>';
     }
     if (endPage < pages) {
       if (endPage < pages - 1) html += '<span class="page-ellipsis">…</span>';
@@ -291,7 +300,7 @@ const SIC_render = {
     }
     // Next
     if (current < pages) {
-      html += '<button class="page-btn" data-action="page" data-page="' + (current + 1) + '">›</button>';
+      html += '<button class="page-btn" data-action="page" data-page="' + (current + 1) + '" aria-label="Next page">›</button>';
     }
     // Page info
     html += '<span class="page-info">' + SIC_i18n.t('pageOf').replace('{cur}', current).replace('{total}', pages) + '</span>';

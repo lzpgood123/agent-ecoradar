@@ -84,7 +84,11 @@ const SIC_i18n = {
 
   applyLanguage() {
     document.documentElement.lang = this.lang === 'zh' ? 'zh-CN' : 'en';
-    document.querySelectorAll('[data-i18n]').forEach(el => { el.textContent = this.t(el.dataset.i18n); });
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+      // Sortable headers keep their own arrow text via renderSortIndicators()
+      if (el.matches && el.matches('th[data-sort]')) return;
+      el.textContent = this.t(el.dataset.i18n);
+    });
     document.querySelectorAll('[data-i18n-placeholder]').forEach(el => { el.placeholder = this.t(el.dataset.i18nPlaceholder); });
     var langZhBtn = document.getElementById('langZh');
     var langEnBtn = document.getElementById('langEn');
