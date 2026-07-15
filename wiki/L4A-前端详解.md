@@ -207,7 +207,7 @@
 | .pill-type-cli-tool | 青底青字 | CLI Tool |
 | .pill-type-tutorial | 灰底灰字 | Tutorial |
 
-**字体层级（v3）：** h1=40px(800), h2=28px(700), h3=20px(600), 正文=16px。Inter 字体通过 Google Fonts 加载。
+**字体层级（v3）：** h1=40px(800), h2=28px(700), h3=20px(600), 正文=16px。**系统字体栈**（`system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif`）；不再加载 Google Fonts，以兼容 Nginx CSP `style-src/font-src 'self'`。
 
 **响应式断点：** 760px（缩小 padding、表格 min-width:600px、topbar 改 column、详情面板全宽、grid 改单列、hero-stat 缩小）
 
