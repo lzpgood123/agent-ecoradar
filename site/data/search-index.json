@@ -525,7 +525,7 @@
   },
   {
     "id": "github-krumjahn-threads-growth-skill",
-    "text": "krumjahn/threads-growth-skill systematically improve your threads content using your own real data. hermes agent skill. skills hermes-agent"
+    "text": "krumjahn/threads-growth-skill systematically improve your threads content using your own real data. hermes agent skill. skills cli-tool hermes-agent"
   },
   {
     "id": "github-helpfreedom-slojka",
@@ -557,7 +557,7 @@
   },
   {
     "id": "github-amirshayegh-codex-claude-bridge",
-    "text": "amirshayegh/codex-claude-bridge automated code review powered by openai codex. cli + claude code mcp integration. mcp-server cli-tool claude-code codex-cli antigravity-cli opencode qoder"
+    "text": "amirshayegh/codex-claude-bridge automated code review powered by openai codex. cli + claude code mcp integration. mcp-server claude-code codex-cli antigravity-cli"
   },
   {
     "id": "github-dhruvalgolakiya-taskdex",
@@ -569,7 +569,7 @@
   },
   {
     "id": "github-fefergrgrgrg-create-mcp",
-    "text": "fefergrgrgrg/create-mcp cli to set up and deploy mcp servers to cloudflare workers in seconds. just write typescript functions to make cursor mcp tools. mcp-server cli-tool codex-cli antigravity-cli opencode qoder cursor"
+    "text": "fefergrgrgrg/create-mcp cli to set up and deploy mcp servers to cloudflare workers in seconds. just write typescript functions to make cursor mcp tools. cli-tool mcp-server cursor codex-cli antigravity-cli opencode qoder"
   },
   {
     "id": "github-hxsteric-mercury",
@@ -581,7 +581,7 @@
   },
   {
     "id": "github-gokeshenzhen-gen-tb-skill",
-    "text": "gokeshenzhen/gen-tb-skill claude code / codex cli skill that scaffolds a runnable uvm testbench (apb / ahb-lite / axi4-lite + generic-bus   fallback) from an ip spec and register table, with a uvm-sequence flow for dv and a tb_api:: task bfm for de. | 基于 ip   规格书与寄存 skills cli-tool claude-code codex-cli"
+    "text": "gokeshenzhen/gen-tb-skill claude code / codex cli skill that scaffolds a runnable uvm testbench (apb / ahb-lite / axi4-lite + generic-bus   fallback) from an ip spec and register table, with a uvm-sequence flow for dv and a tb_api:: task bfm for de. | 基于 ip   规格书与寄存 skills claude-code codex-cli"
   },
   {
     "id": "github-agentskillexchange-skills",
@@ -597,7 +597,7 @@
   },
   {
     "id": "github-nosolosoft-opencode-mcp",
-    "text": "nosolosoft/opencode-mcp mcp server for opencode cli integration - execute opencode commands, manage sessions, and discover models through the model context protocol mcp-server cli-tool opencode"
+    "text": "nosolosoft/opencode-mcp mcp server for opencode cli integration - execute opencode commands, manage sessions, and discover models through the model context protocol mcp-server opencode"
   },
   {
     "id": "github-alexandrbasis-claudops",
@@ -609,11 +609,11 @@
   },
   {
     "id": "github-willibrandon-cursormcpmonitor",
-    "text": "willibrandon/cursormcpmonitor real-time monitoring tool for model context protocol (mcp) interactions in cursor ai editor. track, analyze, and debug ai context exchanges between llm clients and servers. supports log rotation, pattern matching, and color-coded event visu mcp-server cursor"
+    "text": "willibrandon/cursormcpmonitor real-time monitoring tool for model context protocol (mcp) interactions in cursor ai editor. track, analyze, and debug ai context exchanges between llm clients and servers. supports log rotation, pattern matching, and color-coded event visu cli-tool cursor"
   },
   {
     "id": "github-stumason-get-mcp-keys",
-    "text": "stumason/get-mcp-keys a lightweight utility that securely loads api keys for cursor mcp servers from your home directory, preventing accidental exposure of secrets in repositories. keep your credentials safe while maintaining seamless integration with ai coding  mcp-server cursor"
+    "text": "stumason/get-mcp-keys a lightweight utility that securely loads api keys for cursor mcp servers from your home directory, preventing accidental exposure of secrets in repositories. keep your credentials safe while maintaining seamless integration with ai coding  cli-tool cursor"
   },
   {
     "id": "github-ikrasnodymov-repowiki",
@@ -645,15 +645,15 @@
   },
   {
     "id": "github-lmoncany-hermes-wordpress-skill",
-    "text": "lmoncany/hermes-wordpress-skill hermes agent skill to connect to wordpress via mcp (mcp-adapter). covers servbay, elementor, streamablehttp, and app password auth. mcp-server skills hermes-agent"
+    "text": "lmoncany/hermes-wordpress-skill hermes agent skill to connect to wordpress via mcp (mcp-adapter). covers servbay, elementor, streamablehttp, and app password auth. skills hermes-agent"
   },
   {
     "id": "github-aldegad-skill-hook-authoring",
-    "text": "aldegad/skill-hook-authoring authoring guide for shared claude code + codex cli skills and hooks (cross-engine install pattern, modern pretooluse decision schema, payload contract). skills cli-tool claude-code codex-cli"
+    "text": "aldegad/skill-hook-authoring authoring guide for shared claude code + codex cli skills and hooks (cross-engine install pattern, modern pretooluse decision schema, payload contract). tutorial skills claude-code codex-cli antigravity-cli cursor hermes-agent"
   },
   {
     "id": "github-franksde-agy-hud",
-    "text": "franksde/agy-hud an antigravity cli plugin that displays context usage, quota usage, model info, and agent status extension cli-tool antigravity-cli"
+    "text": "franksde/agy-hud an antigravity cli plugin that displays context usage, quota usage, model info, and agent status extension antigravity-cli"
   },
   {
     "id": "github-clempat-ai-tools-flake",
@@ -665,7 +665,7 @@
   },
   {
     "id": "github-ao92265-claude-code-playbook",
-    "text": "ao92265/claude-code-playbook battle-tested claude code best practices, skills, hooks, and configuration templates skills claude-code"
+    "text": "ao92265/claude-code-playbook battle-tested claude code best practices, skills, hooks, and configuration templates skills tutorial claude-code"
   },
   {
     "id": "github-renaxxyz-hermes-skills",
@@ -677,7 +677,7 @@
   },
   {
     "id": "github-laofudev-laofu-qmt-skill",
-    "text": "laofudev/laofu-qmt-skill 通过 qmt 客户端的 xtquant 库获取 a 股行情数据，支持 workbuddy ai skill 和命令行独立使用。 skills workbuddy-codebuddy"
+    "text": "laofudev/laofu-qmt-skill 通过 qmt 客户端的 xtquant 库获取 a 股行情数据，支持 workbuddy ai skill 和命令行独立使用。 skills cli-tool workbuddy-codebuddy"
   },
   {
     "id": "github-niutrans-mcp-texttranslation",
@@ -713,7 +713,7 @@
   },
   {
     "id": "github-nitingupta220-crito",
-    "text": "nitingupta220/crito ai pr review agent on openrouter byok + free models (v1: code review only) — design & research tutorial"
+    "text": "nitingupta220/crito ai pr review agent on openrouter byok + free models (v1: code review only) — design & research cli-tool"
   },
   {
     "id": "github-lininn-qorder-proxy",
@@ -741,7 +741,7 @@
   },
   {
     "id": "github-vignesh2027-claude-best-practice",
-    "text": "vignesh2027/claude-best-practice 🤖 claude code — best practices & advanced patterns the most comprehensive, production-ready guide to mastering claude code from vibe coding → agentic engineering → autonomous ai development teams agent-framework skills cli-tool claude-code cursor"
+    "text": "vignesh2027/claude-best-practice 🤖 claude code — best practices & advanced patterns the most comprehensive, production-ready guide to mastering claude code from vibe coding → agentic engineering → autonomous ai development teams tutorial claude-code cursor"
   },
   {
     "id": "github-paralov-roblox-studio-opencode-mcp",
@@ -765,15 +765,15 @@
   },
   {
     "id": "github-traves-theberge-opencode-mcp",
-    "text": "traves-theberge/opencode-mcp mcp server that exposes opencode as a tool/subagent for ides and ai clients mcp-server agent-framework opencode"
+    "text": "traves-theberge/opencode-mcp mcp server that exposes opencode as a tool/subagent for ides and ai clients mcp-server opencode"
   },
   {
     "id": "github-francisco-m001-opencode-mcp-tool-search",
-    "text": "francisco-m001/opencode-mcp-tool-search francisco-m001/opencode-mcp-tool-search mcp-server opencode"
+    "text": "francisco-m001/opencode-mcp-tool-search francisco-m001/opencode-mcp-tool-search extension opencode"
   },
   {
     "id": "github-hacimertgokhan-openmcp",
-    "text": "hacimertgokhan/openmcp desktop and cli manager for opencode mcp servers. mcp-server cli-tool opencode"
+    "text": "hacimertgokhan/openmcp desktop and cli manager for opencode mcp servers. cli-tool opencode"
   },
   {
     "id": "github-jackkelly-opencode-config",
@@ -793,7 +793,7 @@
   },
   {
     "id": "github-pacoaldev-opencode-mcp",
-    "text": "pacoaldev/opencode-mcp opencode-mcp es una extension para vscode/antigravity que integra un panel de chat conectado a tu servidor local de opencode, permitiendo usar tus agents, skills, tools y mcp directamente desde el editor. mcp-server skills extension opencode"
+    "text": "pacoaldev/opencode-mcp opencode-mcp es una extension para vscode/antigravity que integra un panel de chat conectado a tu servidor local de opencode, permitiendo usar tus agents, skills, tools y mcp directamente desde el editor. extension opencode antigravity-cli cursor"
   },
   {
     "id": "github-gtheys-setup-honcho",
@@ -809,7 +809,7 @@
   },
   {
     "id": "github-april-xu-sanshui",
-    "text": "april-xu/sanshui sanshui - a desktop pet for qoder ai coding assistant cli-tool qoder"
+    "text": "april-xu/sanshui sanshui - a desktop pet for qoder ai coding assistant extension qoder"
   },
   {
     "id": "github-yinqd3-workbuddy-skills",
@@ -821,7 +821,7 @@
   },
   {
     "id": "github-onehub-work-qoder-cli-api",
-    "text": "onehub-work/qoder-cli-api turn [qodercli](https://qoder.com) into an openai/anthropic api compatible server. use qoder cli's ai capabilities through standard api interfaces, enabling integration with any openai/anthropic compatible client. tutorial qoder"
+    "text": "onehub-work/qoder-cli-api turn [qodercli](https://qoder.com) into an openai/anthropic api compatible server. use qoder cli's ai capabilities through standard api interfaces, enabling integration with any openai/anthropic compatible client. cli-tool qoder"
   },
   {
     "id": "github-hyophyop-mapreduce-skill",
@@ -845,15 +845,15 @@
   },
   {
     "id": "github-sajjadgg-rehearsal",
-    "text": "sajjadgg/rehearsal local end-to-end testing lab for any mcp server: coding agents role-play real users, drive your tools over multiple turns, score runs, and render/interact with mcp apps ui:// widgets. mcp-server agent-framework cli-tool claude-code codex-cli"
+    "text": "sajjadgg/rehearsal local end-to-end testing lab for any mcp server: coding agents role-play real users, drive your tools over multiple turns, score runs, and render/interact with mcp apps ui:// widgets. cli-tool claude-code codex-cli"
   },
   {
     "id": "github-atirian-chen-ai-pr-review-agent",
-    "text": "atirian-chen/ai-pr-review-agent local-first ai pr review agent for github pull requests: diff parsing, lightweight repo context, conservative llm findings, validation, and json/markdown reports. cli-tool general-ai-coding"
+    "text": "atirian-chen/ai-pr-review-agent local-first ai pr review agent for github pull requests: diff parsing, lightweight repo context, conservative llm findings, validation, and json/markdown reports. cli-tool"
   },
   {
     "id": "github-rendersman-export-repo-wiki-to-pdf",
-    "text": "rendersman/export-repo-wiki-to-pdf export qoder repo wiki to pdf including mermaid diagrams.  tutorial qoder"
+    "text": "rendersman/export-repo-wiki-to-pdf export qoder repo wiki to pdf including mermaid diagrams.  cli-tool qoder"
   },
   {
     "id": "github-chasexu168340-rgb-codex-skills",
@@ -865,7 +865,7 @@
   },
   {
     "id": "github-lfeng-qoder-cli-skill",
-    "text": "lfeng/qoder-cli-skill qoder cli skill for openclaw skills cli-tool qoder"
+    "text": "lfeng/qoder-cli-skill qoder cli skill for openclaw skills qoder"
   },
   {
     "id": "github-cyj316457-qoder-api-bridge",
@@ -877,7 +877,7 @@
   },
   {
     "id": "github-tuchuanbin-feedback-auto-processor-based-on-qodercli",
-    "text": "tuchuanbin/feedback-auto-processor-based-on-qodercli 基于 [qoder cli](https://qoder.com) + harness engineering 思想构建的 **7×24h 无人值守用户反馈自动处理系统**。  系统接收用户反馈，经过四阶段流水线——分类、聚类、根因分析、自动修复——最终输出可直接 code review 的修复分支。ai 处理吞吐，人类只做最后的审核。 cli-tool qoder"
+    "text": "tuchuanbin/feedback-auto-processor-based-on-qodercli 基于 [qoder cli](https://qoder.com) + harness engineering 思想构建的 **7×24h 无人值守用户反馈自动处理系统**。  系统接收用户反馈，经过四阶段流水线——分类、聚类、根因分析、自动修复——最终输出可直接 code review 的修复分支。ai 处理吞吐，人类只做最后的审核。 skills qoder"
   },
   {
     "id": "github-swampland2553-crowbar93",
@@ -897,7 +897,7 @@
   },
   {
     "id": "github-streetjammer-seedance-forge",
-    "text": "streetjammer/seedance-forge claude code / codex cli skill — 2,366 real seedance 2.0 video-generation prompts. structural scaffolds, corpus search, source attribution. zero dependencies. skills cli-tool rules claude-code codex-cli"
+    "text": "streetjammer/seedance-forge claude code / codex cli skill — 2,366 real seedance 2.0 video-generation prompts. structural scaffolds, corpus search, source attribution. zero dependencies. skills claude-code codex-cli"
   },
   {
     "id": "github-asd880921-gitnexus-wiki",
@@ -909,7 +909,7 @@
   },
   {
     "id": "github-withakay-opencode-mcp-tool",
-    "text": "withakay/opencode-mcp-tool mcp server for interacting with the opencode cli tool mcp-server cli-tool opencode"
+    "text": "withakay/opencode-mcp-tool mcp server for interacting with the opencode cli tool mcp-server opencode"
   },
   {
     "id": "github-jinto-ag-opencode-mcp",
@@ -921,7 +921,7 @@
   },
   {
     "id": "github-274326424-video-content-extractor",
-    "text": "274326424/video-content-extractor extract key frames and ocr text from mp4 videos - codex cli skill skills cli-tool codex-cli"
+    "text": "274326424/video-content-extractor extract key frames and ocr text from mp4 videos - codex cli skill skills codex-cli"
   },
   {
     "id": "github-smnji-agentic-data-science-research-template",
@@ -937,7 +937,7 @@
   },
   {
     "id": "github-thealexyao-openclaw-codex-agents",
-    "text": "thealexyao/openclaw-codex-agents openclaw skill for orchestrating openai codex coding agents skills agent-framework codex-cli"
+    "text": "thealexyao/openclaw-codex-agents openclaw skill for orchestrating openai codex coding agents tutorial codex-cli"
   },
   {
     "id": "github-joonghyun-lee-frieren-deus-ex-antigravity",
@@ -945,7 +945,7 @@
   },
   {
     "id": "github-zemloai-ctrl-elecz-antigravity",
-    "text": "zemloai-ctrl/elecz-antigravity antigravity cli plugin for elecz — real-time electricity prices across 100+ zones. no auth required. extension cli-tool mcp-server antigravity-cli"
+    "text": "zemloai-ctrl/elecz-antigravity antigravity cli plugin for elecz — real-time electricity prices across 100+ zones. no auth required. extension mcp-server antigravity-cli"
   },
   {
     "id": "github-c1ph3r404-antigravitycli-plugin",
@@ -961,7 +961,7 @@
   },
   {
     "id": "github-howlerops-opencode-agentic-commands",
-    "text": "howlerops/opencode-agentic-commands howlerops/opencode-agentic-commands agent-framework opencode"
+    "text": "howlerops/opencode-agentic-commands howlerops/opencode-agentic-commands skills opencode"
   },
   {
     "id": "github-choumoone-opencode-markitdown-qwen",
@@ -969,7 +969,7 @@
   },
   {
     "id": "github-hxrshxz-opencode-toolkit",
-    "text": "hxrshxz/opencode-toolkit custom opencode agents, commands, tools, and plugins for fluid pr workflows and gsd project management extension agent-framework opencode"
+    "text": "hxrshxz/opencode-toolkit custom opencode agents, commands, tools, and plugins for fluid pr workflows and gsd project management agent-framework opencode"
   },
   {
     "id": "github-adhiman1995-codebuddy",
@@ -1005,7 +1005,7 @@
   },
   {
     "id": "official-workbuddy-codebuddy",
-    "text": "workbuddy / codebuddy official seed profile for workbuddy / codebuddy (ai coding agent). cli-tool workbuddy-codebuddy"
+    "text": "workbuddy / codebuddy official seed profile for workbuddy / codebuddy (ai coding agent). agent-framework workbuddy-codebuddy"
   },
   {
     "id": "github-ttbingo-k12-math-tutor",
@@ -1045,7 +1045,7 @@
   },
   {
     "id": "github-dongho5136-claude-skills",
-    "text": "dongho5136/claude-skills claude code / codex cli skill collection skills cli-tool claude-code codex-cli"
+    "text": "dongho5136/claude-skills claude code / codex cli skill collection skills claude-code codex-cli"
   },
   {
     "id": "github-kimseungzzang-zzang-codex-skills",
@@ -1057,11 +1057,11 @@
   },
   {
     "id": "github-boscorat-opencode-config",
-    "text": "boscorat/opencode-config synced global opencode agents, commands, and skills. see install.sh for one-shot bootstrap on a new machine. skills agent-framework opencode"
+    "text": "boscorat/opencode-config synced global opencode agents, commands, and skills. see install.sh for one-shot bootstrap on a new machine. skills rules opencode"
   },
   {
     "id": "github-zanzythebar-grok-opencode-bridge",
-    "text": "zanzythebar/grok-opencode-bridge temporary grok build opencode bridge to import and convert opencode agents, commands, rules, and skills to grok build format. skills agent-framework extension opencode trae hermes-agent"
+    "text": "zanzythebar/grok-opencode-bridge temporary grok build opencode bridge to import and convert opencode agents, commands, rules, and skills to grok build format. cli-tool skills opencode"
   },
   {
     "id": "github-jy110-ai-pr-review-agent",
@@ -1069,7 +1069,7 @@
   },
   {
     "id": "github-jacobjerryarackal-ai-pr-review-agent",
-    "text": "jacobjerryarackal/ai-pr-review-agent jacobjerryarackal/ai-pr-review-agent tutorial"
+    "text": "jacobjerryarackal/ai-pr-review-agent jacobjerryarackal/ai-pr-review-agent agent-framework"
   },
   {
     "id": "github-shri-aakash-ai-pr-reviewagent",
@@ -1077,7 +1077,7 @@
   },
   {
     "id": "github-azmatjaved-ai-pr-review-agent",
-    "text": "azmatjaved/ai-pr-review-agent azmatjaved/ai-pr-review-agent tutorial"
+    "text": "azmatjaved/ai-pr-review-agent azmatjaved/ai-pr-review-agent cli-tool"
   },
   {
     "id": "github-fineeeeeee-ai-pr-review-agent",
@@ -1113,31 +1113,31 @@
   },
   {
     "id": "github-moonkirito-ai-pr-review-agent",
-    "text": "moonkirito/ai-pr-review-agent moonkirito/ai-pr-review-agent tutorial"
+    "text": "moonkirito/ai-pr-review-agent moonkirito/ai-pr-review-agent cli-tool"
   },
   {
     "id": "github-sunilchitikina-cpu-ai-pr-review-agent",
-    "text": "sunilchitikina-cpu/ai_pr_review_agent sunilchitikina-cpu/ai_pr_review_agent tutorial"
+    "text": "sunilchitikina-cpu/ai_pr_review_agent sunilchitikina-cpu/ai_pr_review_agent cli-tool"
   },
   {
     "id": "github-sumi451-ai-pr-review-agent",
-    "text": "sumi451/ai_pr_review_agent a ai agent that analyses github pull requests. agent-framework general-ai-coding"
+    "text": "sumi451/ai_pr_review_agent a ai agent that analyses github pull requests. tutorial"
   },
   {
     "id": "github-chittesh24-ai-pr-review-agent",
-    "text": "chittesh24/ai_pr_review_agent chittesh24/ai_pr_review_agent tutorial"
+    "text": "chittesh24/ai_pr_review_agent chittesh24/ai_pr_review_agent skills tutorial"
   },
   {
     "id": "github-nandagopal1988-ai-pr-review-agent",
-    "text": "nandagopal1988/ai-pr-review-agent nandagopal1988/ai-pr-review-agent tutorial"
+    "text": "nandagopal1988/ai-pr-review-agent nandagopal1988/ai-pr-review-agent agent-framework"
   },
   {
     "id": "official-qoder",
-    "text": "qoder / qoderwork official seed profile for qoder / qoderwork cli-tool qoder"
+    "text": "qoder / qoderwork official seed profile for qoder / qoderwork tutorial qoder"
   },
   {
     "id": "github-ayushkh420-ai-pr-review-agent",
-    "text": "ayushkh420/ai-pr-review-agent an autonomous code review agent system that uses ai to analyze github pull requests agent-framework"
+    "text": "ayushkh420/ai-pr-review-agent an autonomous code review agent system that uses ai to analyze github pull requests agent-framework cli-tool"
   },
   {
     "id": "github-yassir-elkobi-ai-price-review-agent",
@@ -1145,11 +1145,11 @@
   },
   {
     "id": "github-zhangdada802-art-ai-pr-review-agent",
-    "text": "zhangdada802-art/ai-pr-review-agent an ai-powered github pr review and refactor agent. tutorial"
+    "text": "zhangdada802-art/ai-pr-review-agent an ai-powered github pr review and refactor agent. skills"
   },
   {
     "id": "github-chadleeshaw-dot-agents",
-    "text": "chadleeshaw/dot-agents opencode agents, commands, skills, and scripts skills agent-framework opencode"
+    "text": "chadleeshaw/dot-agents opencode agents, commands, skills, and scripts skills rules opencode claude-code"
   },
   {
     "id": "github-just2036-ai-pr-review-agent",
@@ -1165,11 +1165,11 @@
   },
   {
     "id": "github-ayush488-glitch-ai-pr-review-agent",
-    "text": "ayush488-glitch/ai-pr-review-agent production-grade ai pull request review agent — langgraph + arq + fastapi tutorial"
+    "text": "ayush488-glitch/ai-pr-review-agent production-grade ai pull request review agent — langgraph + arq + fastapi agent-framework"
   },
   {
     "id": "github-maskedtitan08-ai-pr-review-agent",
-    "text": "maskedtitan08/ai-pr_review-agent an ai agent using llama model to review pr on a github repo agent-framework general-ai-coding"
+    "text": "maskedtitan08/ai-pr_review-agent an ai agent using llama model to review pr on a github repo tutorial"
   },
   {
     "id": "github-openclaw-openclaw",
@@ -20313,7 +20313,7 @@
   },
   {
     "id": "github-antonioblago-skillmind",
-    "text": "antonioblago/skillmind active skill listener & trainer — structured memory layer for ai coding assistants. 6 vector db backends, 31 mcp tools, youtube/video learning, auto-sanitizer. mcp-server skills cli-tool claude-code"
+    "text": "antonioblago/skillmind active skill listener & trainer — structured memory layer for ai coding assistants. 6 vector db backends, 31 mcp tools, youtube/video learning, auto-sanitizer. mcp-server skills claude-code"
   },
   {
     "id": "github-arensc-chloe",
@@ -20329,7 +20329,7 @@
   },
   {
     "id": "github-corpusiq-corpusiq-docs",
-    "text": "corpusiq/corpusiq-docs hermes agent production knowledge repository — 406+ repos, ai agent marketplace, mcp servers, autonomous ai agent patterns. production-tested from 1,200+ hours of ops. updated daily. mcp-server agent-framework skills claude-code hermes-agent"
+    "text": "corpusiq/corpusiq-docs hermes agent production knowledge repository — 406+ repos, ai agent marketplace, mcp servers, autonomous ai agent patterns. production-tested from 1,200+ hours of ops. updated daily. tutorial claude-code hermes-agent"
   },
   {
     "id": "github-gabsfranke-claude-code-github-agent",
@@ -20349,7 +20349,7 @@
   },
   {
     "id": "github-mininglamp-oss-cc-channel-octo",
-    "text": "mininglamp-oss/cc-channel-octo bridge claude code (claude agent sdk) to octo im — independent node.js gateway agent-framework claude-code"
+    "text": "mininglamp-oss/cc-channel-octo bridge claude code (claude agent sdk) to octo im — independent node.js gateway extension claude-code"
   },
   {
     "id": "github-nickcrew-claude-cortex",
@@ -20361,7 +20361,7 @@
   },
   {
     "id": "github-open-paws-structured-coding-with-ai",
-    "text": "open-paws/structured-coding-with-ai ready-to-use ai coding tool instruction sets for animal advocacy development. 12 tools, 137 files, copy and go. tutorial general-ai-coding"
+    "text": "open-paws/structured-coding-with-ai ready-to-use ai coding tool instruction sets for animal advocacy development. 12 tools, 137 files, copy and go. rules tutorial"
   },
   {
     "id": "github-qwertic-cursorrules",
@@ -20397,7 +20397,7 @@
   },
   {
     "id": "github-winfred1024-feishu-pm-kit",
-    "text": "winfred1024/feishu-pm-kit 飞书(lark)ai 项目经理 agent + 项目管理系统部署套件 · 共享引擎+多实例配置 · claude code 驱动 · markdown 为源 + 索引治理(四项校验)+ 多维表格镜像 agent-framework claude-code"
+    "text": "winfred1024/feishu-pm-kit 飞书(lark)ai 项目经理 agent + 项目管理系统部署套件 · 共享引擎+多实例配置 · claude code 驱动 · markdown 为源 + 索引治理(四项校验)+ 多维表格镜像 agent-framework cli-tool claude-code"
   },
   {
     "id": "github-zenobia000-cursor-agentic-coding-template",
@@ -20409,11 +20409,11 @@
   },
   {
     "id": "github-ai-coding-workshop-commit-msg",
-    "text": "ai-coding-workshop/commit-msg a cli tool for managing git commit-msg hook that automatically generates change-ids and co-developed-by signature for ai coding tool cli-tool general-ai-coding"
+    "text": "ai-coding-workshop/commit-msg a cli tool for managing git commit-msg hook that automatically generates change-ids and co-developed-by signature for ai coding tool cli-tool"
   },
   {
     "id": "github-aktsmm-vscode-agent-skill-ninja",
-    "text": "aktsmm/vscode-agent-skill-ninja vs code extension for searching, installing and managing agent skills (skill.md) for github copilot, claude code and ai coding assistants skills extension cli-tool claude-code"
+    "text": "aktsmm/vscode-agent-skill-ninja vs code extension for searching, installing and managing agent skills (skill.md) for github copilot, claude code and ai coding assistants extension skills claude-code"
   },
   {
     "id": "github-alperhankendi-ctxo",
@@ -20421,7 +20421,7 @@
   },
   {
     "id": "github-artubss-skills-claude-code",
-    "text": "artubss/skills-claude-code artubss/skills-claude-code skills claude-code"
+    "text": "artubss/skills-claude-code artubss/skills-claude-code skills rules mcp-server claude-code"
   },
   {
     "id": "github-aspose-barcode-agentic-net-examples",
@@ -20441,11 +20441,11 @@
   },
   {
     "id": "github-commet-labs-billing-best-practices",
-    "text": "commet-labs/billing-best-practices agent skills for billing skills"
+    "text": "commet-labs/billing-best-practices agent skills for billing skills tutorial"
   },
   {
     "id": "github-contember-tokens-gone",
-    "text": "contember/tokens-gone local dashboard for claude code token usage and costs. reads ~/.claude/projects/**/*.jsonl, aggregates spend, slices interactively. tutorial claude-code"
+    "text": "contember/tokens-gone local dashboard for claude code token usage and costs. reads ~/.claude/projects/**/*.jsonl, aggregates spend, slices interactively. cli-tool claude-code codex-cli"
   },
   {
     "id": "github-crbnos-carbon",
@@ -20461,23 +20461,23 @@
   },
   {
     "id": "github-dcurlewis-ai-context-system",
-    "text": "dcurlewis/ai-context-system personal knowledge management system powered by claude code. process meetings, slack threads, and documents into a structured, searchable memory. tutorial claude-code"
+    "text": "dcurlewis/ai-context-system personal knowledge management system powered by claude code. process meetings, slack threads, and documents into a structured, searchable memory. cli-tool claude-code"
   },
   {
     "id": "github-docxology-codomyrmex",
-    "text": "docxology/codomyrmex 🐜 ai-native modular coding workspace — 127 modules, 424 mcp tools, 21k+ zero-mock tests, multi-agent orchestration (claude/gemini/gpt), pai integration mcp-server agent-framework cli-tool claude-code"
+    "text": "docxology/codomyrmex 🐜 ai-native modular coding workspace — 127 modules, 424 mcp tools, 21k+ zero-mock tests, multi-agent orchestration (claude/gemini/gpt), pai integration agent-framework mcp-server claude-code"
   },
   {
     "id": "github-droidnoob-hew",
-    "text": "droidnoob/hew autonomous loop runner + beads-powered methodology for ai coding agents. carve code, not chaos. agent-framework cli-tool claude-code"
+    "text": "droidnoob/hew autonomous loop runner + beads-powered methodology for ai coding agents. carve code, not chaos. cli-tool agent-framework claude-code"
   },
   {
     "id": "github-dvcrn-openclaw-skills-marketplace",
-    "text": "dvcrn/openclaw-skills-marketplace automatic conversion of openclaw/skills into a claude skills marketplace for direct use in claude skills general-ai-coding"
+    "text": "dvcrn/openclaw-skills-marketplace automatic conversion of openclaw/skills into a claude skills marketplace for direct use in claude skills claude-code"
   },
   {
     "id": "github-edjchapman-claude-code-config",
-    "text": "edjchapman/claude-code-config reusable agents, commands, and permission templates for claude code cli-tool extension claude-code"
+    "text": "edjchapman/claude-code-config reusable agents, commands, and permission templates for claude code skills rules claude-code"
   },
   {
     "id": "github-faionfaion-faion-network",
@@ -20497,7 +20497,7 @@
   },
   {
     "id": "github-gtrias-i18next-mcp-server",
-    "text": "gtrias/i18next-mcp-server a comprehensive model context protocol (mcp) server that provides automated translation management capabilities for cursor and other ai assistants, enabling direct interaction with i18next translation files, health checking, missing key det mcp-server cli-tool cursor"
+    "text": "gtrias/i18next-mcp-server a comprehensive model context protocol (mcp) server that provides automated translation management capabilities for cursor and other ai assistants, enabling direct interaction with i18next translation files, health checking, missing key det mcp-server cursor"
   },
   {
     "id": "github-gustavoeenriquez-makerai",
@@ -20585,7 +20585,7 @@
   },
   {
     "id": "github-rileyseaburg-codetether-agent",
-    "text": "rileyseaburg/codetether-agent a2a-native ai coding agent in rust for the codetether platform agent-framework general-ai-coding"
+    "text": "rileyseaburg/codetether-agent a2a-native ai coding agent in rust for the codetether platform agent-framework"
   },
   {
     "id": "github-seaworld008-commonly-used-high-value-skills",
@@ -20593,7 +20593,7 @@
   },
   {
     "id": "github-sevalla-hosting-mcp",
-    "text": "sevalla-hosting/mcp official remote mcp server for the sevalla public api. mcp-server general-ai-coding"
+    "text": "sevalla-hosting/mcp official remote mcp server for the sevalla public api. mcp-server claude-code cursor goose opencode"
   },
   {
     "id": "github-shelvick-quoracle",
@@ -20605,11 +20605,11 @@
   },
   {
     "id": "github-sumup-sumup-skills",
-    "text": "sumup/sumup-skills agent skills for teaching agents how to build with sumup.  skills general-ai-coding"
+    "text": "sumup/sumup-skills agent skills for teaching agents how to build with sumup.  skills claude-code codex-cli opencode cursor"
   },
   {
     "id": "github-techgopal-ultrafast-mcp-sequential-thinking",
-    "text": "techgopal/ultrafast-mcp-sequential-thinking rust-based mcp server for sequential thinking using ultrafast mcp. mcp-server general-ai-coding"
+    "text": "techgopal/ultrafast-mcp-sequential-thinking rust-based mcp server for sequential thinking using ultrafast mcp. mcp-server"
   },
   {
     "id": "github-tekliner-improvado-agentic-frameworks-and-skills",
@@ -20621,7 +20621,7 @@
   },
   {
     "id": "github-tianqixinxi-meee2",
-    "text": "tianqixinxi/meee2 mac plugin-in notch for claude-code and everything extension claude-code"
+    "text": "tianqixinxi/meee2 mac plugin-in notch for claude-code and everything cli-tool claude-code codex-cli cursor"
   },
   {
     "id": "github-tinywaves-foundry",
@@ -20629,7 +20629,7 @@
   },
   {
     "id": "github-turlockmike-chess-mcp",
-    "text": "turlockmike/chess-mcp a mcp server with various chess functionality mcp-server general-ai-coding"
+    "text": "turlockmike/chess-mcp a mcp server with various chess functionality mcp-server"
   },
   {
     "id": "github-vivy-yi-greater-china-legal",
@@ -20649,7 +20649,7 @@
   },
   {
     "id": "github-wolfiesch-flightfinder",
-    "text": "wolfiesch/flightfinder python client for searching flights (kiwi/skypicker) and hotels (xotelo). mcp server for ai agents. no api keys required. mcp-server agent-framework general-ai-coding"
+    "text": "wolfiesch/flightfinder python client for searching flights (kiwi/skypicker) and hotels (xotelo). mcp server for ai agents. no api keys required. mcp-server"
   },
   {
     "id": "github-yantrikos-yantrikdb-mcp",

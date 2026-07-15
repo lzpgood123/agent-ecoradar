@@ -5150,8 +5150,7 @@
     "source_type": "github",
     "resource_type": [
       "mcp-server",
-      "skills",
-      "cli-tool"
+      "skills"
     ],
     "target_tools": [
       "claude-code"
@@ -5169,10 +5168,10 @@
     },
     "stars": 4,
     "forks": 0,
-    "total_score": 21,
+    "total_score": 54,
     "quantifiable_score": 21,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 33,
+    "tracking_priority": "track",
     "last_updated": "2026-06-30T15:46:39Z",
     "first_seen": "2026-07-14",
     "last_seen": "2026-07-14",
@@ -5187,10 +5186,18 @@
       "adoption": 0,
       "maturity": 4
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 7,
+      "novelty": 8,
+      "ecosystem_value": 8
+    },
+    "llm_summary": {
+      "zh": "面向AI编码助手的结构化记忆层与技能训练系统，支持多种向量数据库和MCP工具。",
+      "en": "A structured memory layer and skill trainer for AI coding assistants, supporting multiple vector database backends and MCP tools."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "AntonioBlago/skillmind",
     "tags": [],
     "maturity": "unknown",
@@ -5400,9 +5407,7 @@
     "url": "https://github.com/CorpusIQ/corpusiq-docs",
     "source_type": "github",
     "resource_type": [
-      "mcp-server",
-      "agent-framework",
-      "skills"
+      "tutorial"
     ],
     "target_tools": [
       "claude-code",
@@ -5421,10 +5426,10 @@
     },
     "stars": 12,
     "forks": 5,
-    "total_score": 21,
+    "total_score": 51,
     "quantifiable_score": 21,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 30,
+    "tracking_priority": "track",
     "last_updated": "2026-07-14T10:15:46Z",
     "first_seen": "2026-07-14",
     "last_seen": "2026-07-14",
@@ -5439,10 +5444,18 @@
       "adoption": 2,
       "maturity": 2
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 9,
+      "practicality": 7,
+      "novelty": 6,
+      "ecosystem_value": 8
+    },
+    "llm_summary": {
+      "zh": "CorpusIQ文档库，聚合406+仓库的Hermes Agent生产知识，涵盖AI代理市场、MCP服务器、自主代理模式，面向商业智能。",
+      "en": "CorpusIQ documentation repository aggregating production knowledge for Hermes Agent from 406+ repos, including AI agent marketplace, MCP servers, and autonomous agent patterns, focused on business intelligence."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "CorpusIQ/corpusiq-docs",
     "tags": [],
     "maturity": "unknown",
@@ -5487,10 +5500,10 @@
     },
     "stars": 5,
     "forks": 0,
-    "total_score": 19,
+    "total_score": 51,
     "quantifiable_score": 19,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 32,
+    "tracking_priority": "track",
     "last_updated": "2026-05-20T11:11:10Z",
     "first_seen": "2026-07-14",
     "last_seen": "2026-07-14",
@@ -5505,10 +5518,18 @@
       "adoption": 0,
       "maturity": 2
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 9,
+      "practicality": 7,
+      "novelty": 8,
+      "ecosystem_value": 8
+    },
+    "llm_summary": {
+      "zh": "一个面向自主AI编码代理的编排引擎，连接40多个GitHub事件以并行执行工作流（代码审查、CI修复、分类），使用Claude SDK。",
+      "en": "An orchestration engine for autonomous AI coding agents that hooks into 40+ GitHub events to execute parallel workflows (code review, CI fixes, triage) using the Claude SDK."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "GabsFranke/claude-code-github-agent",
     "tags": [],
     "maturity": "unknown",
@@ -5751,7 +5772,7 @@
     "url": "https://github.com/Mininglamp-OSS/cc-channel-octo",
     "source_type": "github",
     "resource_type": [
-      "agent-framework"
+      "extension"
     ],
     "target_tools": [
       "claude-code"
@@ -5769,10 +5790,10 @@
     },
     "stars": 29,
     "forks": 6,
-    "total_score": 23,
+    "total_score": 51,
     "quantifiable_score": 23,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 28,
+    "tracking_priority": "track",
     "last_updated": "2026-07-09T06:33:34Z",
     "first_seen": "2026-07-14",
     "last_seen": "2026-07-14",
@@ -5787,10 +5808,18 @@
       "adoption": 2,
       "maturity": 4
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 7,
+      "novelty": 5,
+      "ecosystem_value": 6
+    },
+    "llm_summary": {
+      "zh": "将Claude Code桥接到Octo IM的独立Node.js网关，支持流式响应和对话历史。",
+      "en": "A standalone Node.js gateway bridging Claude Code to Octo IM with streaming responses and conversation history."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "Mininglamp-OSS/cc-channel-octo",
     "tags": [],
     "maturity": "unknown",
@@ -5944,11 +5973,10 @@
     "url": "https://github.com/Open-Paws/structured-coding-with-ai",
     "source_type": "github",
     "resource_type": [
+      "rules",
       "tutorial"
     ],
-    "target_tools": [
-      "general-ai-coding"
-    ],
+    "target_tools": [],
     "summary": "Ready-to-use AI coding tool instruction sets for animal advocacy development. 12 tools, 137 files, copy and go.",
     "i18n": {
       "zh": {
@@ -5962,10 +5990,10 @@
     },
     "stars": 3,
     "forks": 2,
-    "total_score": 23,
+    "total_score": 43,
     "quantifiable_score": 23,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 20,
+    "tracking_priority": "track",
     "last_updated": "2026-05-01T17:41:34Z",
     "first_seen": "2026-07-14",
     "last_seen": "2026-07-14",
@@ -5980,10 +6008,18 @@
       "adoption": 2,
       "maturity": 4
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 5,
+      "practicality": 6,
+      "novelty": 4,
+      "ecosystem_value": 5
+    },
+    "llm_summary": {
+      "zh": "为动物倡导软件开发准备的即时可用的AI编程工具指令集。",
+      "en": "A ready-to-use collection of AI coding tool instruction sets tailored for animal advocacy software development."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "Open-Paws/structured-coding-with-ai",
     "tags": [],
     "maturity": "unknown",
@@ -6148,10 +6184,10 @@
     },
     "stars": 8,
     "forks": 2,
-    "total_score": 23,
+    "total_score": 52,
     "quantifiable_score": 23,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 29,
+    "tracking_priority": "track",
     "last_updated": "2026-05-11T07:25:18Z",
     "first_seen": "2026-07-14",
     "last_seen": "2026-07-14",
@@ -6166,10 +6202,18 @@
       "adoption": 2,
       "maturity": 4
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 9,
+      "practicality": 7,
+      "novelty": 6,
+      "ecosystem_value": 7
+    },
+    "llm_summary": {
+      "zh": "通过Mattermost远程控制OpenCode的插件，提升了AI编码代理的可用性。",
+      "en": "A Mattermost plugin enabling remote control of OpenCode, enhancing the AI coding agent's accessibility."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "Shakudo-io/opencode-mattermost-plugin",
     "tags": [],
     "maturity": "unknown",
@@ -6518,7 +6562,8 @@
     "url": "https://github.com/Winfred1024/feishu-pm-kit",
     "source_type": "github",
     "resource_type": [
-      "agent-framework"
+      "agent-framework",
+      "cli-tool"
     ],
     "target_tools": [
       "claude-code"
@@ -6536,10 +6581,10 @@
     },
     "stars": 25,
     "forks": 4,
-    "total_score": 23,
+    "total_score": 51,
     "quantifiable_score": 23,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 28,
+    "tracking_priority": "track",
     "last_updated": "2026-07-08T02:19:48Z",
     "first_seen": "2026-07-14",
     "last_seen": "2026-07-14",
@@ -6554,10 +6599,18 @@
       "adoption": 2,
       "maturity": 4
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 7,
+      "novelty": 6,
+      "ecosystem_value": 7
+    },
+    "llm_summary": {
+      "zh": "一个基于Claude Code和飞书多维表格的项目管理Agent部署套件，实用性强，专为飞书生态打造。",
+      "en": "A project management agent deployment kit leveraging Claude Code and Feishu bitable, practical and tailored for the Feishu ecosystem."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "Winfred1024/feishu-pm-kit",
     "tags": [],
     "maturity": "unknown",

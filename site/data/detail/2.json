@@ -132,7 +132,7 @@
     "url": "https://github.com/April-Xu/sanshui",
     "source_type": "github",
     "resource_type": [
-      "cli-tool"
+      "extension"
     ],
     "target_tools": [
       "qoder"
@@ -150,10 +150,10 @@
     },
     "stars": 2,
     "forks": 0,
-    "total_score": 19,
+    "total_score": 39,
     "quantifiable_score": 19,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 20,
+    "tracking_priority": "track",
     "last_updated": "2026-06-11T14:37:37Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -168,10 +168,18 @@
       "adoption": 0,
       "maturity": 2
     },
-    "quality_detail": {},
-    "llm_summary": null,
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 3,
+      "novelty": 5,
+      "ecosystem_value": 4
+    },
+    "llm_summary": {
+      "zh": "为Qoder AI编码助手设计的桌面宠物，提供趣味交互功能。",
+      "en": "A desktop pet designed for the Qoder AI coding assistant, offering fun interactive features."
+    },
     "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "last_analyzed": "2026-07-15",
     "repo": "April-Xu/sanshui",
     "tags": [],
     "maturity": "unknown",
@@ -272,10 +280,10 @@
     },
     "stars": 2,
     "forks": 0,
-    "total_score": 19,
+    "total_score": 44,
     "quantifiable_score": 19,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 25,
+    "tracking_priority": "track",
     "last_updated": "2026-06-30T05:38:32Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -290,10 +298,18 @@
       "adoption": 0,
       "maturity": 2
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 6,
+      "novelty": 5,
+      "ecosystem_value": 6
+    },
+    "llm_summary": {
+      "zh": "为WorkBuddy平台提供经管科研统计软件AI技能的扩充包，涵盖Stata和Python运行及时间序列分析。",
+      "en": "A skills pack for the WorkBuddy platform that adds statistical analysis capabilities for economic management research, including Stata-run, Python-run, and time series analysis."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "jiukai/Statistical-Analysis-Skills-with-WorkBuddy",
     "tags": [],
     "maturity": "unknown",
@@ -307,7 +323,7 @@
     "url": "https://github.com/onehub-work/qoder-cli-api",
     "source_type": "github",
     "resource_type": [
-      "tutorial"
+      "cli-tool"
     ],
     "target_tools": [
       "qoder"
@@ -325,10 +341,10 @@
     },
     "stars": 2,
     "forks": 1,
-    "total_score": 23,
+    "total_score": 50,
     "quantifiable_score": 23,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 27,
+    "tracking_priority": "track",
     "last_updated": "2026-04-24T03:13:47Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -343,10 +359,18 @@
       "adoption": 2,
       "maturity": 4
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 9,
+      "practicality": 7,
+      "novelty": 5,
+      "ecosystem_value": 6
+    },
+    "llm_summary": {
+      "zh": "将Qoder CLI转化为OpenAI/Anthropic API兼容服务器，便于集成到标准AI客户端。",
+      "en": "Turns Qoder CLI into an OpenAI/Anthropic API compatible server for easy integration with standard AI clients."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "onehub-work/qoder-cli-api",
     "tags": [],
     "maturity": "unknown",
@@ -684,8 +708,6 @@
     "url": "https://github.com/sajjadGG/Rehearsal",
     "source_type": "github",
     "resource_type": [
-      "mcp-server",
-      "agent-framework",
       "cli-tool"
     ],
     "target_tools": [
@@ -705,10 +727,10 @@
     },
     "stars": 1,
     "forks": 0,
-    "total_score": 21,
+    "total_score": 53,
     "quantifiable_score": 21,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 32,
+    "tracking_priority": "track",
     "last_updated": "2026-07-04T19:46:53Z",
     "first_seen": "2026-07-06",
     "last_seen": "2026-07-06",
@@ -723,10 +745,18 @@
       "adoption": 0,
       "maturity": 4
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 6,
+      "novelty": 7,
+      "ecosystem_value": 9
+    },
+    "llm_summary": {
+      "zh": "一个用于MCP服务器的本地端到端测试实验室，支持编码智能体模拟用户操作并评分。",
+      "en": "A local end-to-end testing lab for MCP servers, enabling coding agents to role-play users, drive tools, and score runs."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "sajjadGG/Rehearsal",
     "tags": [],
     "maturity": "unknown",
@@ -756,9 +786,7 @@
     "resource_type": [
       "cli-tool"
     ],
-    "target_tools": [
-      "general-ai-coding"
-    ],
+    "target_tools": [],
     "summary": "Local-first AI PR review agent for GitHub Pull Requests: diff parsing, lightweight repo context, conservative LLM findings, validation, and JSON/Markdown reports.",
     "i18n": {
       "zh": {
@@ -772,10 +800,10 @@
     },
     "stars": 1,
     "forks": 0,
-    "total_score": 19,
+    "total_score": 45,
     "quantifiable_score": 19,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 26,
+    "tracking_priority": "track",
     "last_updated": "2026-06-25T13:35:16Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -790,10 +818,18 @@
       "adoption": 0,
       "maturity": 2
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 7,
+      "novelty": 5,
+      "ecosystem_value": 6
+    },
+    "llm_summary": {
+      "zh": "一个本地优先的AI代码审查代理，用于GitHub PR，提供保守的LLM发现和JSON/Markdown报告。",
+      "en": "Local-first AI PR review agent for GitHub, offering conservative LLM-based code review with JSON and Markdown reports."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "Atirian-Chen/ai-pr-review-agent",
     "tags": [],
     "maturity": "unknown",
@@ -817,7 +853,7 @@
     "url": "https://github.com/rendersman/export-repo-wiki-to-pdf",
     "source_type": "github",
     "resource_type": [
-      "tutorial"
+      "cli-tool"
     ],
     "target_tools": [
       "qoder"
@@ -835,10 +871,10 @@
     },
     "stars": 1,
     "forks": 0,
-    "total_score": 16,
+    "total_score": 39,
     "quantifiable_score": 16,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 23,
+    "tracking_priority": "track",
     "last_updated": "2026-04-11T12:53:47Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -851,10 +887,18 @@
       "adoption": 0,
       "maturity": 2
     },
-    "quality_detail": {},
-    "llm_summary": null,
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 6,
+      "novelty": 4,
+      "ecosystem_value": 5
+    },
+    "llm_summary": {
+      "zh": "一个将Qoder仓库维基导出为PDF（支持Mermaid图表）的Python命令行工具。",
+      "en": "A Python CLI tool to export Qoder repository wikis to PDF with Mermaid diagram support."
+    },
     "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "last_analyzed": "2026-07-15",
     "repo": "rendersman/export-repo-wiki-to-pdf",
     "tags": [],
     "maturity": "unknown",
@@ -992,8 +1036,7 @@
     "url": "https://github.com/lfeng/qoder-cli-skill",
     "source_type": "github",
     "resource_type": [
-      "skills",
-      "cli-tool"
+      "skills"
     ],
     "target_tools": [
       "qoder"
@@ -1011,10 +1054,10 @@
     },
     "stars": 1,
     "forks": 0,
-    "total_score": 16,
+    "total_score": 38,
     "quantifiable_score": 16,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 22,
+    "tracking_priority": "track",
     "last_updated": "2026-02-28T02:36:18Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -1027,10 +1070,18 @@
       "adoption": 0,
       "maturity": 2
     },
-    "quality_detail": {},
-    "llm_summary": null,
+    "quality_detail": {
+      "relevance": 7,
+      "practicality": 6,
+      "novelty": 4,
+      "ecosystem_value": 5
+    },
+    "llm_summary": {
+      "zh": "为OpenClaw平台提供Qoder CLI的技能配置，仅支持打印模式。",
+      "en": "A skill configuration for OpenClaw to use Qoder CLI in print-only mode."
+    },
     "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "last_analyzed": "2026-07-15",
     "repo": "lfeng/qoder-cli-skill",
     "tags": [],
     "maturity": "unknown",
@@ -1062,10 +1113,10 @@
     },
     "stars": 1,
     "forks": 0,
-    "total_score": 19,
+    "total_score": 41,
     "quantifiable_score": 19,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 22,
+    "tracking_priority": "track",
     "last_updated": "2026-06-04T14:49:47Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -1080,10 +1131,18 @@
       "adoption": 0,
       "maturity": 2
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 6,
+      "novelty": 3,
+      "ecosystem_value": 5
+    },
+    "llm_summary": {
+      "zh": "一个将Qoder CLI转化为OpenAI兼容API的轻量本地桥接工具，附带指标看板。",
+      "en": "A minimal local bridge that exposes Qoder CLI as an OpenAI-compatible API with a metrics dashboard."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "CYJ316457/qoder-api-bridge",
     "tags": [],
     "maturity": "unknown",
@@ -1159,7 +1218,7 @@
     "url": "https://github.com/tuchuanbin/feedback-auto-processor-based-on-qodercli",
     "source_type": "github",
     "resource_type": [
-      "cli-tool"
+      "skills"
     ],
     "target_tools": [
       "qoder"
@@ -1177,10 +1236,10 @@
     },
     "stars": 1,
     "forks": 1,
-    "total_score": 21,
+    "total_score": 47,
     "quantifiable_score": 21,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 26,
+    "tracking_priority": "track",
     "last_updated": "2026-04-19T00:30:10Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -1195,10 +1254,18 @@
       "adoption": 2,
       "maturity": 2
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 9,
+      "practicality": 6,
+      "novelty": 5,
+      "ecosystem_value": 6
+    },
+    "llm_summary": {
+      "zh": "基于Qoder CLI构建的用户反馈自动处理系统，实现分类、聚类、根因分析和自动修复。",
+      "en": "An automated user feedback processing system built on Qoder CLI, implementing classification, clustering, root cause analysis, and auto-fix."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "tuchuanbin/feedback-auto-processor-based-on-qodercli",
     "tags": [],
     "maturity": "unknown",
@@ -1468,9 +1535,7 @@
     "url": "https://github.com/StreetJammer/seedance-forge",
     "source_type": "github",
     "resource_type": [
-      "skills",
-      "cli-tool",
-      "rules"
+      "skills"
     ],
     "target_tools": [
       "claude-code",
@@ -1489,10 +1554,10 @@
     },
     "stars": 1,
     "forks": 0,
-    "total_score": 19,
+    "total_score": 44,
     "quantifiable_score": 19,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 25,
+    "tracking_priority": "track",
     "last_updated": "2026-05-08T05:54:33Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -1507,10 +1572,18 @@
       "adoption": 0,
       "maturity": 2
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 6,
+      "novelty": 5,
+      "ecosystem_value": 6
+    },
+    "llm_summary": {
+      "zh": "为Claude Code和Codex CLI代理提供2366个结构化的Seedance 2.0视频生成提示的技能包。",
+      "en": "A curated skill providing 2,366 structured prompts for Seedance 2.0 video generation, designed for Claude Code and Codex CLI agents."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "StreetJammer/seedance-forge",
     "tags": [],
     "maturity": "unknown",
@@ -1659,8 +1732,7 @@
     "url": "https://github.com/withakay/opencode-mcp-tool",
     "source_type": "github",
     "resource_type": [
-      "mcp-server",
-      "cli-tool"
+      "mcp-server"
     ],
     "target_tools": [
       "opencode"
@@ -1678,10 +1750,10 @@
     },
     "stars": 1,
     "forks": 6,
-    "total_score": 20,
+    "total_score": 46,
     "quantifiable_score": 20,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 26,
+    "tracking_priority": "track",
     "last_updated": "2026-03-23T10:30:11Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -1696,10 +1768,18 @@
       "adoption": 2,
       "maturity": 4
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 6,
+      "novelty": 5,
+      "ecosystem_value": 7
+    },
+    "llm_summary": {
+      "zh": "为OpenCode CLI工具提供MCP集成的服务器，方便AI代理与OpenCode交互。",
+      "en": "MCP server for integrating with the OpenCode CLI tool, enabling AI agents to interact with OpenCode."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "withakay/opencode-mcp-tool",
     "tags": [],
     "maturity": "unknown",
@@ -1731,10 +1811,10 @@
     },
     "stars": 1,
     "forks": 0,
-    "total_score": 18,
+    "total_score": 43,
     "quantifiable_score": 18,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 25,
+    "tracking_priority": "track",
     "last_updated": "2026-03-09T15:14:44Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -1749,10 +1829,18 @@
       "adoption": 0,
       "maturity": 4
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 9,
+      "practicality": 5,
+      "novelty": 5,
+      "ecosystem_value": 6
+    },
+    "llm_summary": {
+      "zh": "为OpenCode量身定制的MCP服务器，通过Model Context Protocol实现工具集成。",
+      "en": "MCP server for OpenCode, enabling tool integration via the Model Context Protocol."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "jinto-ag/opencode-mcp",
     "tags": [],
     "maturity": "unknown",
@@ -1842,8 +1930,7 @@
     "url": "https://github.com/274326424/video-content-extractor",
     "source_type": "github",
     "resource_type": [
-      "skills",
-      "cli-tool"
+      "skills"
     ],
     "target_tools": [
       "codex-cli"
@@ -1861,10 +1948,10 @@
     },
     "stars": 1,
     "forks": 0,
-    "total_score": 21,
+    "total_score": 48,
     "quantifiable_score": 21,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 27,
+    "tracking_priority": "track",
     "last_updated": "2026-07-06T07:02:07Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -1879,10 +1966,18 @@
       "adoption": 0,
       "maturity": 4
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 6,
+      "novelty": 5,
+      "ecosystem_value": 6
+    },
+    "llm_summary": {
+      "zh": "一个用于从MP4视频中提取关键帧和OCR文本的Codex CLI技能。",
+      "en": "A Codex CLI skill for extracting key frames and OCR text from MP4 videos."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "274326424/video-content-extractor",
     "tags": [],
     "maturity": "unknown",
@@ -2082,8 +2177,7 @@
     "url": "https://github.com/TheAlexYao/openclaw-codex-agents",
     "source_type": "github",
     "resource_type": [
-      "skills",
-      "agent-framework"
+      "tutorial"
     ],
     "target_tools": [
       "codex-cli"
@@ -2101,10 +2195,10 @@
     },
     "stars": 0,
     "forks": 0,
-    "total_score": 12,
+    "total_score": 32,
     "quantifiable_score": 12,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 20,
+    "tracking_priority": "track",
     "last_updated": "2026-02-28T15:39:26Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -2117,10 +2211,18 @@
       "adoption": 0,
       "maturity": 0
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-qdhenry-claude-code-mcp-manager",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 9,
+      "practicality": 4,
+      "novelty": 3,
+      "ecosystem_value": 4
+    },
+    "llm_summary": {
+      "zh": "一个关于使用OpenClaw编排OpenAI Codex编码代理的教程指南。",
+      "en": "A tutorial guide for using OpenClaw to orchestrate OpenAI Codex coding agents."
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-15",
     "repo": "TheAlexYao/openclaw-codex-agents",
     "tags": [],
     "maturity": "unknown",
@@ -2196,7 +2298,6 @@
     "source_type": "github",
     "resource_type": [
       "extension",
-      "cli-tool",
       "mcp-server"
     ],
     "target_tools": [
@@ -2215,10 +2316,10 @@
     },
     "stars": 0,
     "forks": 0,
-    "total_score": 15,
+    "total_score": 31,
     "quantifiable_score": 15,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 16,
+    "tracking_priority": "index",
     "last_updated": "2026-06-28T17:34:46Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -2231,10 +2332,18 @@
       "adoption": 0,
       "maturity": 0
     },
-    "quality_detail": {},
-    "llm_summary": null,
+    "quality_detail": {
+      "relevance": 7,
+      "practicality": 2,
+      "novelty": 3,
+      "ecosystem_value": 4
+    },
+    "llm_summary": {
+      "zh": "为 Antigravity CLI 提供实时电价查询的插件，但仓库似乎未完成且无实际代码。",
+      "en": "A plugin for Antigravity CLI to query real-time electricity prices, but the repository appears incomplete with no actual code."
+    },
     "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "last_analyzed": "2026-07-15",
     "repo": "zemloai-ctrl/elecz-antigravity",
     "tags": [],
     "maturity": "unknown",
@@ -2441,7 +2550,7 @@
     "url": "https://github.com/howlerops/opencode-agentic-commands",
     "source_type": "github",
     "resource_type": [
-      "agent-framework"
+      "skills"
     ],
     "target_tools": [
       "opencode"
@@ -2459,10 +2568,10 @@
     },
     "stars": 0,
     "forks": 0,
-    "total_score": 19,
+    "total_score": 41,
     "quantifiable_score": 19,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 22,
+    "tracking_priority": "track",
     "last_updated": "2026-07-04T17:38:15Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -2477,10 +2586,18 @@
       "adoption": 0,
       "maturity": 4
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 9,
+      "practicality": 4,
+      "novelty": 5,
+      "ecosystem_value": 4
+    },
+    "llm_summary": {
+      "zh": "为OpenCode添加北欧主题的AI指令套件，支持计划、执行、研究等操作。",
+      "en": "A Norse-themed slash command suite for OpenCode and Pi, adding planning, execution, research, and orchestration capabilities."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "howlerops/opencode-agentic-commands",
     "tags": [],
     "maturity": "unknown",
@@ -2555,7 +2672,6 @@
     "url": "https://github.com/hxrshxz/opencode-toolkit",
     "source_type": "github",
     "resource_type": [
-      "extension",
       "agent-framework"
     ],
     "target_tools": [
@@ -2574,10 +2690,10 @@
     },
     "stars": 0,
     "forks": 0,
-    "total_score": 15,
+    "total_score": 26,
     "quantifiable_score": 15,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 11,
+    "tracking_priority": "index",
     "last_updated": "2026-06-07T15:03:23Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -2590,10 +2706,18 @@
       "adoption": 0,
       "maturity": 0
     },
-    "quality_detail": {},
-    "llm_summary": null,
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 0,
+      "novelty": 2,
+      "ecosystem_value": 1
+    },
+    "llm_summary": {
+      "zh": "一个针对OpenCode的空白工具包仓库，无实际内容。",
+      "en": "An empty toolkit repository for OpenCode with no actual content."
+    },
     "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "last_analyzed": "2026-07-15",
     "repo": "hxrshxz/opencode-toolkit",
     "tags": [],
     "maturity": "unknown",
@@ -2625,10 +2749,10 @@
     },
     "stars": 0,
     "forks": 0,
-    "total_score": 15,
+    "total_score": 20,
     "quantifiable_score": 15,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 5,
+    "tracking_priority": "reject",
     "last_updated": "2026-06-12T18:26:31Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -2641,10 +2765,18 @@
       "adoption": 0,
       "maturity": 0
     },
-    "quality_detail": {},
-    "llm_summary": null,
+    "quality_detail": {
+      "relevance": 5,
+      "practicality": 0,
+      "novelty": 0,
+      "ecosystem_value": 0
+    },
+    "llm_summary": {
+      "zh": "空仓库，项目可能已废弃。",
+      "en": "Empty repository, project likely abandoned."
+    },
     "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "last_analyzed": "2026-07-15",
     "repo": "adhiman1995/Codebuddy",
     "tags": [],
     "maturity": "unknown",
@@ -3075,7 +3207,7 @@
     "url": "https://www.workbuddy.ai",
     "source_type": "official-seed",
     "resource_type": [
-      "cli-tool"
+      "agent-framework"
     ],
     "target_tools": [
       "workbuddy-codebuddy"
@@ -3093,9 +3225,9 @@
     },
     "stars": null,
     "forks": null,
-    "total_score": 18,
+    "total_score": 23,
     "quantifiable_score": 18,
-    "quality_score": 0,
+    "quality_score": 5,
     "tracking_priority": "track",
     "last_updated": "2026-07-06",
     "first_seen": "2026-07-06",
@@ -3109,10 +3241,18 @@
       "adoption": 0,
       "maturity": 3
     },
-    "quality_detail": {},
-    "llm_summary": null,
+    "quality_detail": {
+      "relevance": 5,
+      "practicality": 0,
+      "novelty": 0,
+      "ecosystem_value": 0
+    },
+    "llm_summary": {
+      "zh": "WorkBuddy/CodeBuddy AI编码代理的空种子仓库，无代码或文档。",
+      "en": "Empty seed repository for WorkBuddy/CodeBuddy AI coding agent; no code or documentation."
+    },
     "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "last_analyzed": "2026-07-15",
     "repo": null,
     "tags": [
       "target-tool",
@@ -3147,10 +3287,10 @@
     },
     "stars": 0,
     "forks": 0,
-    "total_score": 17,
+    "total_score": 35,
     "quantifiable_score": 17,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 18,
+    "tracking_priority": "index",
     "last_updated": "2026-07-01T07:18:11Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -3165,10 +3305,18 @@
       "adoption": 0,
       "maturity": 2
     },
-    "quality_detail": {},
-    "llm_summary": null,
+    "quality_detail": {
+      "relevance": 5,
+      "practicality": 6,
+      "novelty": 4,
+      "ecosystem_value": 3
+    },
+    "llm_summary": {
+      "zh": "为WorkBuddy CodeBuddy开发的K12数学辅导技能，融合多位教育专家方法论与积极心理学，但属于垂直领域应用而非核心编码辅助。",
+      "en": "A K12 math tutoring skill for WorkBuddy CodeBuddy, integrating methodologies from multiple education experts and positive psychology, but is a domain-specific application rather than core coding assistance."
+    },
     "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "last_analyzed": "2026-07-15",
     "repo": "TTbingo/k12-math-tutor",
     "tags": [],
     "maturity": "unknown",
@@ -3200,10 +3348,10 @@
     },
     "stars": 0,
     "forks": 0,
-    "total_score": 15,
+    "total_score": 34,
     "quantifiable_score": 15,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 19,
+    "tracking_priority": "index",
     "last_updated": "2026-06-21T04:24:38Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -3216,10 +3364,18 @@
       "adoption": 0,
       "maturity": 0
     },
-    "quality_detail": {},
-    "llm_summary": null,
+    "quality_detail": {
+      "relevance": 7,
+      "practicality": 3,
+      "novelty": 5,
+      "ecosystem_value": 4
+    },
+    "llm_summary": {
+      "zh": "专为WorkBuddy AI助手开发的电脑维修诊断技能，功能设计完整但尚无代码和许可证。",
+      "en": "A PC repair diagnostic skill for WorkBuddy AI assistant, with well-designed features but no code or license available."
+    },
     "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "last_analyzed": "2026-07-15",
     "repo": "bettermen/pc-repair",
     "tags": [],
     "maturity": "unknown",
@@ -3251,10 +3407,10 @@
     },
     "stars": 0,
     "forks": 0,
-    "total_score": 15,
+    "total_score": 21,
     "quantifiable_score": 15,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 6,
+    "tracking_priority": "reject",
     "last_updated": "2026-04-16T12:37:32Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -3267,10 +3423,18 @@
       "adoption": 0,
       "maturity": 0
     },
-    "quality_detail": {},
-    "llm_summary": null,
+    "quality_detail": {
+      "relevance": 3,
+      "practicality": 1,
+      "novelty": 1,
+      "ecosystem_value": 1
+    },
+    "llm_summary": {
+      "zh": "一个用于创业运营的WorkBuddy AI技能，但仓库为空，无README或代码。",
+      "en": "An empty WorkBuddy AI skill for startup operations with no README or code."
+    },
     "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "last_analyzed": "2026-07-15",
     "repo": "flyliyiyun/startup-operations",
     "tags": [],
     "maturity": "unknown",
@@ -3302,10 +3466,10 @@
     },
     "stars": 0,
     "forks": 0,
-    "total_score": 15,
+    "total_score": 25,
     "quantifiable_score": 15,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 10,
+    "tracking_priority": "index",
     "last_updated": "2026-04-16T12:37:32Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -3318,10 +3482,18 @@
       "adoption": 0,
       "maturity": 0
     },
-    "quality_detail": {},
-    "llm_summary": null,
+    "quality_detail": {
+      "relevance": 5,
+      "practicality": 0,
+      "novelty": 2,
+      "ecosystem_value": 3
+    },
+    "llm_summary": {
+      "zh": "针对初创产品管理的工作伙伴AI技能，涵盖产品市场契合度、用户研究、最小可行产品和产品发现。",
+      "en": "A WorkBuddy AI skill focused on startup product management including PMF, user research, MVP, and product discovery."
+    },
     "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "last_analyzed": "2026-07-15",
     "repo": "flyliyiyun/startup-product",
     "tags": [],
     "maturity": "unknown",
@@ -3645,8 +3817,7 @@
     "url": "https://github.com/dongho5136/claude-skills",
     "source_type": "github",
     "resource_type": [
-      "skills",
-      "cli-tool"
+      "skills"
     ],
     "target_tools": [
       "claude-code",
@@ -3665,10 +3836,10 @@
     },
     "stars": 0,
     "forks": 0,
-    "total_score": 15,
+    "total_score": 32,
     "quantifiable_score": 15,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 17,
+    "tracking_priority": "index",
     "last_updated": "2026-06-22T04:54:29Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -3681,10 +3852,18 @@
       "adoption": 0,
       "maturity": 0
     },
-    "quality_detail": {},
-    "llm_summary": null,
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 3,
+      "novelty": 2,
+      "ecosystem_value": 2
+    },
+    "llm_summary": {
+      "zh": "一个简单的Claude Code和Codex CLI技能集合，目前仅包含一个本地到云部署技能。",
+      "en": "A simple skill collection for Claude Code and Codex CLI, currently containing only one local-to-cloud deployment skill."
+    },
     "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "last_analyzed": "2026-07-15",
     "repo": "dongho5136/claude-skills",
     "tags": [],
     "maturity": "unknown",
@@ -3717,10 +3896,10 @@
     },
     "stars": 0,
     "forks": 0,
-    "total_score": 17,
+    "total_score": 43,
     "quantifiable_score": 17,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 26,
+    "tracking_priority": "track",
     "last_updated": "2026-05-29T06:35:37Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -3735,10 +3914,18 @@
       "adoption": 0,
       "maturity": 2
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 5,
+      "novelty": 5,
+      "ecosystem_value": 6
+    },
+    "llm_summary": {
+      "zh": "一个为Codex CLI提供自定义技能并共享会话上下文的工具，可跨平台与Claude技能互通。",
+      "en": "A custom skills package for Codex CLI that shares session context with Claude skills, enabling cross-platform context sharing."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "Kimseungzzang/zzang-codex-skills",
     "tags": [],
     "maturity": "unknown",
@@ -3814,7 +4001,7 @@
     "source_type": "github",
     "resource_type": [
       "skills",
-      "agent-framework"
+      "rules"
     ],
     "target_tools": [
       "opencode"
@@ -3832,10 +4019,10 @@
     },
     "stars": 0,
     "forks": 0,
-    "total_score": 19,
+    "total_score": 48,
     "quantifiable_score": 19,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 29,
+    "tracking_priority": "track",
     "last_updated": "2026-06-30T17:52:08Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -3850,10 +4037,18 @@
       "adoption": 0,
       "maturity": 4
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 9,
+      "practicality": 8,
+      "novelty": 5,
+      "ecosystem_value": 7
+    },
+    "llm_summary": {
+      "zh": "一个用于OpenCode的同步配置仓库，通过符号链接和引导脚本管理代理、命令和技能。",
+      "en": "A synced configuration repository for OpenCode that manages agents, commands, and skills via symlinks and a bootstrap script."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "boscorat/opencode-config",
     "tags": [],
     "maturity": "unknown",
@@ -3867,14 +4062,11 @@
     "url": "https://github.com/ZanzyTHEbar/grok-opencode-bridge",
     "source_type": "github",
     "resource_type": [
-      "skills",
-      "agent-framework",
-      "extension"
+      "cli-tool",
+      "skills"
     ],
     "target_tools": [
-      "opencode",
-      "trae",
-      "hermes-agent"
+      "opencode"
     ],
     "summary": "Temporary Grok Build Opencode bridge to import and convert opencode agents, commands, rules, and skills to grok build format.",
     "i18n": {
@@ -3889,10 +4081,10 @@
     },
     "stars": 0,
     "forks": 0,
-    "total_score": 19,
+    "total_score": 40,
     "quantifiable_score": 19,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 21,
+    "tracking_priority": "track",
     "last_updated": "2026-06-01T10:14:08Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -3907,10 +4099,18 @@
       "adoption": 0,
       "maturity": 4
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 9,
+      "practicality": 3,
+      "novelty": 5,
+      "ecosystem_value": 4
+    },
+    "llm_summary": {
+      "zh": "连接OpenCode和Grok Build的代理与技能格式转换桥接工具",
+      "en": "A bridge to convert OpenCode agents, skills, commands, and rules into Grok Build format."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "ZanzyTHEbar/grok-opencode-bridge",
     "tags": [],
     "maturity": "unknown",
@@ -3996,7 +4196,7 @@
     "url": "https://github.com/jacobjerryarackal/ai-pr-review-agent",
     "source_type": "github",
     "resource_type": [
-      "tutorial"
+      "agent-framework"
     ],
     "target_tools": [],
     "summary": "jacobjerryarackal/ai-pr-review-agent",
@@ -4012,10 +4212,10 @@
     },
     "stars": 0,
     "forks": 0,
-    "total_score": 17,
+    "total_score": 38,
     "quantifiable_score": 17,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 21,
+    "tracking_priority": "track",
     "last_updated": "2026-06-11T06:52:32Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -4030,10 +4230,18 @@
       "adoption": 0,
       "maturity": 2
     },
-    "quality_detail": {},
-    "llm_summary": null,
+    "quality_detail": {
+      "relevance": 7,
+      "practicality": 5,
+      "novelty": 5,
+      "ecosystem_value": 4
+    },
+    "llm_summary": {
+      "zh": "一个多智能体PR审查框架，包含实时仪表盘和成本控制，但项目尚无实际使用迹象。",
+      "en": "A multi-agent PR review framework with dashboard and cost controls, but currently lacks usage evidence."
+    },
     "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "last_analyzed": "2026-07-15",
     "repo": "jacobjerryarackal/ai-pr-review-agent",
     "tags": [],
     "maturity": "unknown",
@@ -4106,7 +4314,7 @@
     "url": "https://github.com/AzmatJaved/AI-PR-Review-Agent",
     "source_type": "github",
     "resource_type": [
-      "tutorial"
+      "cli-tool"
     ],
     "target_tools": [],
     "summary": "AzmatJaved/AI-PR-Review-Agent",
@@ -4122,10 +4330,10 @@
     },
     "stars": 0,
     "forks": 0,
-    "total_score": 17,
+    "total_score": 40,
     "quantifiable_score": 17,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 23,
+    "tracking_priority": "track",
     "last_updated": "2026-04-26T10:56:26Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -4140,10 +4348,18 @@
       "adoption": 0,
       "maturity": 2
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 9,
+      "practicality": 5,
+      "novelty": 4,
+      "ecosystem_value": 5
+    },
+    "llm_summary": {
+      "zh": "一个基于LLM的Git PR代码审查代理，集成Git工作流进行自动代码分析。",
+      "en": "An LLM-powered PR code review agent that integrates with Git workflows for automated code analysis."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "AzmatJaved/AI-PR-Review-Agent",
     "tags": [],
     "maturity": "unknown",
@@ -4353,10 +4569,10 @@
     },
     "stars": 0,
     "forks": 0,
-    "total_score": 15,
+    "total_score": 29,
     "quantifiable_score": 15,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 14,
+    "tracking_priority": "index",
     "last_updated": "2026-06-21T20:56:12Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -4369,10 +4585,18 @@
       "adoption": 0,
       "maturity": 0
     },
-    "quality_detail": {},
-    "llm_summary": null,
+    "quality_detail": {
+      "relevance": 5,
+      "practicality": 2,
+      "novelty": 4,
+      "ecosystem_value": 3
+    },
+    "llm_summary": {
+      "zh": "一个基于n8n的自动代码审查代理，对GitHub PR进行生产就绪评估。",
+      "en": "An autonomous code review agent built on n8n that evaluates GitHub PR diffs against a production-readiness rubric."
+    },
     "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "last_analyzed": "2026-07-15",
     "repo": "Tanmay-Awal/ai-pr-reviewer-agent",
     "tags": [],
     "maturity": "unknown",
@@ -4461,10 +4685,10 @@
     },
     "stars": 0,
     "forks": 0,
-    "total_score": 17,
+    "total_score": 23,
     "quantifiable_score": 17,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 6,
+    "tracking_priority": "reject",
     "last_updated": "2026-06-25T07:38:26Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -4479,10 +4703,18 @@
       "adoption": 0,
       "maturity": 2
     },
-    "quality_detail": {},
-    "llm_summary": null,
+    "quality_detail": {
+      "relevance": 3,
+      "practicality": 0,
+      "novelty": 2,
+      "ecosystem_value": 1
+    },
+    "llm_summary": {
+      "zh": "空仓库，无实际代码或文档，对AI编程助手生态无价值。",
+      "en": "Empty repository with no code or documentation, no value to the AI coding agent ecosystem."
+    },
     "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "last_analyzed": "2026-07-15",
     "repo": "pradeep873511-sudo/ai-pr-review-agent",
     "tags": [],
     "maturity": "unknown",
@@ -4512,10 +4744,10 @@
     },
     "stars": 0,
     "forks": 0,
-    "total_score": 12,
+    "total_score": 19,
     "quantifiable_score": 12,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 7,
+    "tracking_priority": "reject",
     "last_updated": "2026-02-15T15:16:19Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -4528,10 +4760,18 @@
       "adoption": 0,
       "maturity": 0
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-qdhenry-claude-code-mcp-manager",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 7,
+      "practicality": 0,
+      "novelty": 0,
+      "ecosystem_value": 0
+    },
+    "llm_summary": {
+      "zh": "该仓库为空，无任何内容，无法使用。",
+      "en": "Empty repository with no content, not usable."
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-15",
     "repo": "Sujwalnaik/ai-pr-review-agent",
     "tags": [],
     "maturity": "unknown",
@@ -4561,10 +4801,10 @@
     },
     "stars": 0,
     "forks": 0,
-    "total_score": 17,
+    "total_score": 25,
     "quantifiable_score": 17,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 8,
+    "tracking_priority": "reject",
     "last_updated": "2026-06-26T09:35:53Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -4579,10 +4819,18 @@
       "adoption": 0,
       "maturity": 2
     },
-    "quality_detail": {},
-    "llm_summary": null,
+    "quality_detail": {
+      "relevance": 6,
+      "practicality": 0,
+      "novelty": 1,
+      "ecosystem_value": 1
+    },
+    "llm_summary": {
+      "zh": "一个名称暗示是AI代码审查工具但仓库几乎为空的项目，无实际价值。",
+      "en": "A project whose name suggests an AI PR review tool but the repository is essentially empty and lacks any usable content."
+    },
     "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "last_analyzed": "2026-07-15",
     "repo": "saiswaroopt514/ai-pr-review-agent",
     "tags": [],
     "maturity": "unknown",
@@ -4596,7 +4844,7 @@
     "url": "https://github.com/MoonKirito/AI-PR-Review-Agent",
     "source_type": "github",
     "resource_type": [
-      "tutorial"
+      "cli-tool"
     ],
     "target_tools": [],
     "summary": "MoonKirito/AI-PR-Review-Agent",
@@ -4612,10 +4860,10 @@
     },
     "stars": 0,
     "forks": 0,
-    "total_score": 17,
+    "total_score": 41,
     "quantifiable_score": 17,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 24,
+    "tracking_priority": "track",
     "last_updated": "2026-05-31T15:09:54Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -4630,10 +4878,18 @@
       "adoption": 0,
       "maturity": 2
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 6,
+      "novelty": 5,
+      "ecosystem_value": 5
+    },
+    "llm_summary": {
+      "zh": "一个基于AI的GitHub PR代码审查CLI工具，支持中文Markdown报告生成。",
+      "en": "An AI-powered CLI tool for GitHub PR code review, generating Chinese Markdown reports."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "MoonKirito/AI-PR-Review-Agent",
     "tags": [],
     "maturity": "unknown",
@@ -4647,7 +4903,7 @@
     "url": "https://github.com/sunilchitikina-cpu/ai_pr_review_agent",
     "source_type": "github",
     "resource_type": [
-      "tutorial"
+      "cli-tool"
     ],
     "target_tools": [],
     "summary": "sunilchitikina-cpu/ai_pr_review_agent",
@@ -4663,10 +4919,10 @@
     },
     "stars": 0,
     "forks": 0,
-    "total_score": 17,
+    "total_score": 35,
     "quantifiable_score": 17,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 18,
+    "tracking_priority": "index",
     "last_updated": "2026-06-20T09:22:57Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -4681,10 +4937,18 @@
       "adoption": 0,
       "maturity": 2
     },
-    "quality_detail": {},
-    "llm_summary": null,
+    "quality_detail": {
+      "relevance": 6,
+      "practicality": 5,
+      "novelty": 3,
+      "ecosystem_value": 4
+    },
+    "llm_summary": {
+      "zh": "一个基于Google AI Studio的GitHub PR自动审查工具，能发表结构化评论。",
+      "en": "An AI-powered GitHub PR review agent that posts structured feedback."
+    },
     "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "last_analyzed": "2026-07-15",
     "repo": "sunilchitikina-cpu/ai_pr_review_agent",
     "tags": [],
     "maturity": "unknown",
@@ -4698,11 +4962,9 @@
     "url": "https://github.com/Sumi451/ai_pr_review_agent",
     "source_type": "github",
     "resource_type": [
-      "agent-framework"
+      "tutorial"
     ],
-    "target_tools": [
-      "general-ai-coding"
-    ],
+    "target_tools": [],
     "summary": "A ai agent that analyses github pull requests.",
     "i18n": {
       "zh": {
@@ -4716,10 +4978,10 @@
     },
     "stars": 0,
     "forks": 0,
-    "total_score": 10,
+    "total_score": 24,
     "quantifiable_score": 10,
-    "quality_score": 0,
-    "tracking_priority": "reject",
+    "quality_score": 14,
+    "tracking_priority": "index",
     "last_updated": "2025-11-01T08:25:29Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -4734,10 +4996,18 @@
       "adoption": 0,
       "maturity": 2
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-qdhenry-claude-code-mcp-manager",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 6,
+      "practicality": 2,
+      "novelty": 3,
+      "ecosystem_value": 3
+    },
+    "llm_summary": {
+      "zh": "一个用于分析GitHub拉取请求的AI代理，但项目缺乏详细实现和文档。",
+      "en": "An AI agent for analyzing GitHub pull requests, but the project lacks detailed implementation and documentation."
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-15",
     "repo": "Sumi451/ai_pr_review_agent",
     "tags": [],
     "maturity": "unknown",
@@ -4751,6 +5021,7 @@
     "url": "https://github.com/chittesh24/AI_PR_Review_Agent",
     "source_type": "github",
     "resource_type": [
+      "skills",
       "tutorial"
     ],
     "target_tools": [],
@@ -4767,10 +5038,10 @@
     },
     "stars": 0,
     "forks": 0,
-    "total_score": 10,
+    "total_score": 33,
     "quantifiable_score": 10,
-    "quality_score": 0,
-    "tracking_priority": "reject",
+    "quality_score": 23,
+    "tracking_priority": "track",
     "last_updated": "2025-11-07T08:31:32Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -4785,10 +5056,18 @@
       "adoption": 0,
       "maturity": 2
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-qdhenry-claude-code-mcp-manager",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 5,
+      "novelty": 5,
+      "ecosystem_value": 5
+    },
+    "llm_summary": {
+      "zh": "一个基于GitHub Actions的PR审查工具，使用OpenRouter调用GPT-5 Mini进行代码审查，并集成了Semgrep和pip-audit。",
+      "en": "A GitHub Actions-based PR review tool that uses OpenRouter with configurable models (default GPT-5 Mini) to review code, and integrates Semgrep and pip-audit for static and dependency checks."
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-15",
     "repo": "chittesh24/AI_PR_Review_Agent",
     "tags": [],
     "maturity": "unknown",
@@ -4802,7 +5081,7 @@
     "url": "https://github.com/nandagopal1988/ai-pr-review-agent",
     "source_type": "github",
     "resource_type": [
-      "tutorial"
+      "agent-framework"
     ],
     "target_tools": [],
     "summary": "nandagopal1988/ai-pr-review-agent",
@@ -4818,10 +5097,10 @@
     },
     "stars": 0,
     "forks": 0,
-    "total_score": 19,
+    "total_score": 35,
     "quantifiable_score": 19,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 16,
+    "tracking_priority": "index",
     "last_updated": "2026-06-27T13:27:04Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -4836,10 +5115,18 @@
       "adoption": 0,
       "maturity": 4
     },
-    "quality_detail": {},
-    "llm_summary": null,
+    "quality_detail": {
+      "relevance": 7,
+      "practicality": 2,
+      "novelty": 3,
+      "ecosystem_value": 4
+    },
+    "llm_summary": {
+      "zh": "一个专为Spring Boot微服务设计的AI代码审查代理，集成GitHub Copilot。",
+      "en": "An AI code review agent for Spring Boot microservices integrated with GitHub Copilot."
+    },
     "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "last_analyzed": "2026-07-15",
     "repo": "nandagopal1988/ai-pr-review-agent",
     "tags": [],
     "maturity": "unknown",
@@ -4853,7 +5140,7 @@
     "url": "https://qoder.com",
     "source_type": "official-seed",
     "resource_type": [
-      "cli-tool"
+      "tutorial"
     ],
     "target_tools": [
       "qoder"
@@ -4871,9 +5158,9 @@
     },
     "stars": null,
     "forks": null,
-    "total_score": 18,
+    "total_score": 26,
     "quantifiable_score": 18,
-    "quality_score": 0,
+    "quality_score": 8,
     "tracking_priority": "track",
     "last_updated": "2026-07-06",
     "first_seen": "2026-07-06",
@@ -4887,10 +5174,18 @@
       "adoption": 0,
       "maturity": 3
     },
-    "quality_detail": {},
-    "llm_summary": null,
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 0,
+      "novelty": 0,
+      "ecosystem_value": 0
+    },
+    "llm_summary": {
+      "zh": "一个空白占位仓库，没有代码或文档，仅标记了qoder工具，缺乏实际内容。",
+      "en": "An empty placeholder repository with no code or documentation, merely tagged for the qoder tool, lacking substantive content."
+    },
     "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "last_analyzed": "2026-07-15",
     "repo": "qoderAI",
     "tags": [
       "target-tool",
@@ -4907,7 +5202,8 @@
     "url": "https://github.com/ayushkh420/AI-PR-Review-Agent",
     "source_type": "github",
     "resource_type": [
-      "agent-framework"
+      "agent-framework",
+      "cli-tool"
     ],
     "target_tools": [],
     "summary": "An autonomous code review agent system that uses AI to analyze GitHub pull requests",
@@ -4923,10 +5219,10 @@
     },
     "stars": 0,
     "forks": 1,
-    "total_score": 8,
+    "total_score": 29,
     "quantifiable_score": 8,
-    "quality_score": 0,
-    "tracking_priority": "reject",
+    "quality_score": 21,
+    "tracking_priority": "track",
     "last_updated": "2025-01-07T14:24:13Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -4941,10 +5237,18 @@
       "adoption": 2,
       "maturity": 2
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-qdhenry-claude-code-mcp-manager",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 5,
+      "novelty": 3,
+      "ecosystem_value": 5
+    },
+    "llm_summary": {
+      "zh": "基于Llama 3.2和LangGraph的PR审查代理，具备多智能体分析功能",
+      "en": "A PR review agent using Llama 3.2 and LangGraph with multi-agent analysis capabilities"
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-15",
     "repo": "ayushkh420/AI-PR-Review-Agent",
     "tags": [],
     "maturity": "unknown",
@@ -4974,10 +5278,10 @@
     },
     "stars": 0,
     "forks": 0,
-    "total_score": 19,
+    "total_score": 37,
     "quantifiable_score": 19,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 18,
+    "tracking_priority": "index",
     "last_updated": "2026-06-21T00:14:20Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -4992,10 +5296,18 @@
       "adoption": 0,
       "maturity": 4
     },
-    "quality_detail": {},
-    "llm_summary": null,
+    "quality_detail": {
+      "relevance": 5,
+      "practicality": 6,
+      "novelty": 4,
+      "ecosystem_value": 3
+    },
+    "llm_summary": {
+      "zh": "一个用于价格审查的ReAct智能体教程项目",
+      "en": "A ReAct agent tutorial project for price review."
+    },
     "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "last_analyzed": "2026-07-15",
     "repo": "yassir-elkobi/ai-price-review-agent",
     "tags": [],
     "maturity": "unknown",
@@ -5009,7 +5321,7 @@
     "url": "https://github.com/zhangdada802-art/ai-pr-review-agent",
     "source_type": "github",
     "resource_type": [
-      "tutorial"
+      "skills"
     ],
     "target_tools": [],
     "summary": "An AI-powered GitHub PR review and refactor agent.",
@@ -5025,10 +5337,10 @@
     },
     "stars": 0,
     "forks": 0,
-    "total_score": 17,
+    "total_score": 40,
     "quantifiable_score": 17,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 23,
+    "tracking_priority": "track",
     "last_updated": "2026-05-07T09:36:19Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -5043,10 +5355,18 @@
       "adoption": 0,
       "maturity": 2
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 9,
+      "practicality": 5,
+      "novelty": 4,
+      "ecosystem_value": 5
+    },
+    "llm_summary": {
+      "zh": "一个基于OpenAI的GitHub PR自动评审与重构代理，可集成到AI编码工具链中。",
+      "en": "An OpenAI-powered GitHub PR review and refactor agent that can be integrated into AI coding agent workflows."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "zhangdada802-art/ai-pr-review-agent",
     "tags": [],
     "maturity": "unknown",
@@ -5061,10 +5381,11 @@
     "source_type": "github",
     "resource_type": [
       "skills",
-      "agent-framework"
+      "rules"
     ],
     "target_tools": [
-      "opencode"
+      "opencode",
+      "claude-code"
     ],
     "summary": "OpenCode agents, commands, skills, and scripts",
     "i18n": {
@@ -5079,10 +5400,10 @@
     },
     "stars": 0,
     "forks": 0,
-    "total_score": 17,
+    "total_score": 41,
     "quantifiable_score": 17,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 24,
+    "tracking_priority": "track",
     "last_updated": "2026-07-07T17:13:32Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -5097,10 +5418,18 @@
       "adoption": 0,
       "maturity": 2
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 9,
+      "practicality": 7,
+      "novelty": 3,
+      "ecosystem_value": 5
+    },
+    "llm_summary": {
+      "zh": "一个为OpenCode/Claude Code提供自定义代理、命令和技能配置的仓库，安装简便。",
+      "en": "A configuration repository providing custom agents, commands, and skills for OpenCode/Claude Code, with easy setup."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "chadleeshaw/dot-agents",
     "tags": [],
     "maturity": "unknown",
@@ -5130,10 +5459,10 @@
     },
     "stars": 0,
     "forks": 0,
-    "total_score": 15,
+    "total_score": 18,
     "quantifiable_score": 15,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 3,
+    "tracking_priority": "reject",
     "last_updated": "2026-05-07T07:35:49Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -5146,10 +5475,18 @@
       "adoption": 0,
       "maturity": 0
     },
-    "quality_detail": {},
-    "llm_summary": null,
+    "quality_detail": {
+      "relevance": 3,
+      "practicality": 0,
+      "novelty": 0,
+      "ecosystem_value": 0
+    },
+    "llm_summary": {
+      "zh": "该项目模板名称暗示与AI PR审查相关，但仓库为空，无代码、文档或描述，无实际价值。",
+      "en": "The project name suggests AI PR review functionality, but the repository is empty with no code, documentation, or description, offering no value."
+    },
     "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "last_analyzed": "2026-07-15",
     "repo": "JUST2036/ai-pr-review-agent",
     "tags": [],
     "maturity": "unknown",
@@ -5181,10 +5518,10 @@
     },
     "stars": 0,
     "forks": 0,
-    "total_score": 15,
+    "total_score": 19,
     "quantifiable_score": 15,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 4,
+    "tracking_priority": "reject",
     "last_updated": "2026-07-08T14:56:55Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -5197,10 +5534,18 @@
       "adoption": 0,
       "maturity": 0
     },
-    "quality_detail": {},
-    "llm_summary": null,
+    "quality_detail": {
+      "relevance": 2,
+      "practicality": 0,
+      "novelty": 1,
+      "ecosystem_value": 1
+    },
+    "llm_summary": {
+      "zh": "一个为WorkBuddy CodeBuddy设计的钢琴教学技能，但仓库为空，缺乏实际内容。",
+      "en": "A piano teaching skill for WorkBuddy CodeBuddy, but the repository is empty and lacks any substantive content."
+    },
     "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "last_analyzed": "2026-07-15",
     "repo": "bettermen/piano-teacher",
     "tags": [],
     "maturity": "unknown",
@@ -5230,10 +5575,10 @@
     },
     "stars": 0,
     "forks": 0,
-    "total_score": 17,
+    "total_score": 28,
     "quantifiable_score": 17,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 11,
+    "tracking_priority": "index",
     "last_updated": "2026-07-10T18:46:23Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -5248,10 +5593,18 @@
       "adoption": 0,
       "maturity": 2
     },
-    "quality_detail": {},
-    "llm_summary": null,
+    "quality_detail": {
+      "relevance": 4,
+      "practicality": 2,
+      "novelty": 3,
+      "ecosystem_value": 2
+    },
+    "llm_summary": {
+      "zh": "一个用于数据管道的AI隐私和数据质量审查代理，但项目活跃度低，实用性有限。",
+      "en": "A portfolio project for an AI-powered privacy and data quality review agent for data pipelines, but with low activity and limited practicality."
+    },
     "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "last_analyzed": "2026-07-15",
     "repo": "Tharun1045/ai-privacy-review-agent",
     "tags": [],
     "maturity": "unknown",
@@ -5265,7 +5618,7 @@
     "url": "https://github.com/ayush488-glitch/ai-pr-review-agent",
     "source_type": "github",
     "resource_type": [
-      "tutorial"
+      "agent-framework"
     ],
     "target_tools": [],
     "summary": "Production-grade AI Pull Request Review Agent — LangGraph + ARQ + FastAPI",
@@ -5281,10 +5634,10 @@
     },
     "stars": 0,
     "forks": 1,
-    "total_score": 19,
+    "total_score": 43,
     "quantifiable_score": 19,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 24,
+    "tracking_priority": "track",
     "last_updated": "2026-06-04T20:04:05Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -5299,10 +5652,18 @@
       "adoption": 2,
       "maturity": 2
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 6,
+      "practicality": 7,
+      "novelty": 5,
+      "ecosystem_value": 6
+    },
+    "llm_summary": {
+      "zh": "一个生产级AI PR审查代理，基于LangGraph和FastAPI，采用多代理架构，虽非核心编码代理工具，但为AI辅助开发流程提供了有价值的基础设施。",
+      "en": "A production-grade AI PR review agent using LangGraph and FastAPI with multi-agent architecture; not a core coding agent tool but provides valuable infrastructure for AI-assisted development workflows."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "ayush488-glitch/ai-pr-review-agent",
     "tags": [],
     "maturity": "unknown",
@@ -5316,11 +5677,9 @@
     "url": "https://github.com/maskedtitan08/AI-PR_review-Agent",
     "source_type": "github",
     "resource_type": [
-      "agent-framework"
+      "tutorial"
     ],
-    "target_tools": [
-      "general-ai-coding"
-    ],
+    "target_tools": [],
     "summary": "An AI agent using LLama model to review PR on a github repo",
     "i18n": {
       "zh": {
@@ -5334,10 +5693,10 @@
     },
     "stars": 0,
     "forks": 0,
-    "total_score": 17,
+    "total_score": 28,
     "quantifiable_score": 17,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 11,
+    "tracking_priority": "index",
     "last_updated": "2026-05-20T03:41:07Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -5352,10 +5711,18 @@
       "adoption": 0,
       "maturity": 2
     },
-    "quality_detail": {},
-    "llm_summary": null,
+    "quality_detail": {
+      "relevance": 7,
+      "practicality": 1,
+      "novelty": 2,
+      "ecosystem_value": 1
+    },
+    "llm_summary": {
+      "zh": "一个使用LLama模型进行代码审查的简单AI代理项目，但缺乏完善文档和实际应用。",
+      "en": "A simple AI agent using LLama for code review, but lacks documentation and practical use."
+    },
     "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "last_analyzed": "2026-07-15",
     "repo": "maskedtitan08/AI-PR_review-Agent",
     "tags": [],
     "maturity": "unknown",

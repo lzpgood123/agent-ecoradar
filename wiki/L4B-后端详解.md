@@ -143,9 +143,9 @@ validate_data.py 检查：
 ### 每周 LLM 分析流程
 
 ```
-weekly_analysis.py (入口，每周一 03:30 via Hermes cron)
+weekly_analysis.py (入口；周一全量 / 工作日增量 via Hermes cron)
   ├─ pre_filter()           -> 移除 archived，按 stars 降序
-  ├─ run_analysis()         -> LLM 批量分析（3 并发，ThreadPoolExecutor）
+  ├─ run_analysis()         -> LLM 批量分析（batch_size=10 并发，ThreadPoolExecutor；候选 stars 降序）
   │    ├─ llm_api.py        -> SenseNova API 调用（13 key 轮询，429 指数退避）
   │    ├─ llm_prompts.py    -> 项目分析 prompt（输入: readme_preview + 元数据）
   │    └─ merge_analysis_result() -> 合并 LLM 结果到项目记录
@@ -167,7 +167,7 @@ weekly_analysis.py (入口，每周一 03:30 via Hermes cron)
 | parse_json_response() | 容错 JSON 解析：直接解析 -> markdown 代码块 -> 正则提取 -> 首尾花括号 |
 | call_llm() | 单次 API 调用（urllib，OpenAI 兼容格式） |
 | call_with_retry() | 重试逻辑：401/403 切 key，429 指数退避，最多 3 次 |
-| batch_analyze() | 批量并发分析（ThreadPoolExecutor，默认 3 并发） |
+| batch_analyze() | 批量并发分析（ThreadPoolExecutor；默认由 config `batch_size=10` 驱动） |
 
 ### 参照基准管理（benchmark_manager.py）
 
@@ -281,10 +281,14 @@ weekly_analysis.py (入口，每周一 03:30 via Hermes cron)
 **更新内容：** 管道流程、分类系统、评分系统、配置管理
 
 
-## Batch4 LLM 策略（2026-07-15）
+## Batch4 LLM 策略（2026-07-15，已收口 COMPLETE）
 
-- `config/llm-analysis.yaml`：`api.batch_size: 10`
-- `get_projects_to_analyze`：stars 降序
-- `KeyRotator`：线程锁保护
-- 脚本：`~/.hermes/scripts/search-in-coding-llm-daily.sh`；job id 见 `hermes cron list`（f110f12e4d96）
-- 禁止覆盖 `search-in-coding-daily.sh`（仍为 update_tracker 采集）
+- `config/llm-analysis.yaml`：`api.batch_size: 10`（`DEFAULT_BATCH_SIZE=10`）
+- `get_projects_to_analyze()`：跳过 archived；候选 **stars 降序**；优先 `last_analyzed is None` / 超过 7 天
+- `KeyRotator`：`threading.Lock` 保护 next/mark_failed/reset
+- cron：`script_timeout_seconds=3600`
+  - 采集 daily：`search-in-coding-daily.sh` → `update_tracker.py`（job `2a0c271a031f`，03:00）
+  - 周 LLM：`search-in-coding-weekly.sh` → `weekly_analysis.py`（job `2aa9da554787`，Mon 03:30）
+  - 日增量 LLM：`search-in-coding-llm-daily.sh` → `weekly_analysis.py --max-projects 200 --skip-benchmarks` + deploy（job `f110f12e4d96`，Tue–Sat 03:30）
+- **禁止覆盖** `search-in-coding-daily.sh`（仍为 update_tracker 采集）
+- 收口基线→终态（2026-07-15）：active no_last_analyzed **100→0**；total no_la 含 archived **205→105**；candidates_to_analyze **0**

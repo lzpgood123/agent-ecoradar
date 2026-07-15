@@ -1991,7 +1991,8 @@
     "url": "https://github.com/krumjahn/threads-growth-skill",
     "source_type": "github",
     "resource_type": [
-      "skills"
+      "skills",
+      "cli-tool"
     ],
     "target_tools": [
       "hermes-agent"
@@ -2009,10 +2010,10 @@
     },
     "stars": 24,
     "forks": 7,
-    "total_score": 21,
+    "total_score": 48,
     "quantifiable_score": 21,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 27,
+    "tracking_priority": "track",
     "last_updated": "2026-06-25T18:29:11Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -2027,10 +2028,18 @@
       "adoption": 2,
       "maturity": 2
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 7,
+      "novelty": 6,
+      "ecosystem_value": 6
+    },
+    "llm_summary": {
+      "zh": "针对Hermes Agent的Threads内容增长技能，提供基于真实数据的系统化内容优化CLI工具。",
+      "en": "A Hermes Agent skill for systematic Threads content growth using real data, offering a Python CLI for sync, drafting, dedup, and scheduling."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "krumjahn/threads-growth-skill",
     "tags": [],
     "maturity": "unknown",
@@ -2062,10 +2071,10 @@
     },
     "stars": 24,
     "forks": 2,
-    "total_score": 23,
+    "total_score": 56,
     "quantifiable_score": 23,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 33,
+    "tracking_priority": "track",
     "last_updated": "2026-07-11T05:13:18Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -2080,10 +2089,18 @@
       "adoption": 2,
       "maturity": 4
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 7,
+      "novelty": 8,
+      "ecosystem_value": 8
+    },
+    "llm_summary": {
+      "zh": "一个由Claude Code通过MCP控制的AI驱动图形编辑器，结合了SAM 2.1分割和polza.ai图像生成。",
+      "en": "An AI-first graphic editor controlled by Claude Code via MCP, integrating SAM 2.1 segmentation and polza.ai image generation."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "HelpFreedom/slojka",
     "tags": [],
     "maturity": "unknown",
@@ -2522,15 +2539,12 @@
     "url": "https://github.com/AmirShayegh/codex-claude-bridge",
     "source_type": "github",
     "resource_type": [
-      "mcp-server",
-      "cli-tool"
+      "mcp-server"
     ],
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "antigravity-cli",
-      "opencode",
-      "qoder"
+      "antigravity-cli"
     ],
     "summary": "Automated code review powered by OpenAI Codex. CLI + Claude Code MCP integration.",
     "i18n": {
@@ -2545,10 +2559,10 @@
     },
     "stars": 19,
     "forks": 1,
-    "total_score": 21,
+    "total_score": 53,
     "quantifiable_score": 21,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 32,
+    "tracking_priority": "track",
     "last_updated": "2026-07-02T08:30:14Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -2563,10 +2577,18 @@
       "adoption": 2,
       "maturity": 2
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 8,
+      "novelty": 7,
+      "ecosystem_value": 7
+    },
+    "llm_summary": {
+      "zh": "通过MCP服务器桥接Claude Code与Codex/Gemini进行自动化代码审查，实现零边际成本的代码审查流程。",
+      "en": "An MCP server that bridges Claude Code with OpenAI Codex or Google Gemini for automated code review, enabling zero-marginal-cost code review without copying between tools."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "AmirShayegh/codex-claude-bridge",
     "tags": [],
     "maturity": "unknown",
@@ -2609,10 +2631,10 @@
     },
     "stars": 18,
     "forks": 0,
-    "total_score": 21,
+    "total_score": 49,
     "quantifiable_score": 21,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 28,
+    "tracking_priority": "track",
     "last_updated": "2026-06-20T23:42:34Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -2627,10 +2649,18 @@
       "adoption": 0,
       "maturity": 4
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 9,
+      "practicality": 6,
+      "novelty": 7,
+      "ecosystem_value": 6
+    },
+    "llm_summary": {
+      "zh": "一款用于手机控制 OpenAI Codex 编程代理的移动应用，支持多代理管理和推送通知。",
+      "en": "Mobile app to control OpenAI Codex coding agents via WebSocket, enabling multi-agent management and push notifications."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "dhruvalgolakiya/taskdex",
     "tags": [],
     "maturity": "unknown",
@@ -2713,15 +2743,15 @@
     "url": "https://github.com/fefergrgrgrg/create-mcp",
     "source_type": "github",
     "resource_type": [
-      "mcp-server",
-      "cli-tool"
+      "cli-tool",
+      "mcp-server"
     ],
     "target_tools": [
+      "cursor",
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder",
-      "cursor"
+      "qoder"
     ],
     "summary": "CLI to set up and deploy MCP Servers to Cloudflare Workers in seconds. Just write TypeScript functions to make Cursor MCP tools.",
     "i18n": {
@@ -2736,10 +2766,10 @@
     },
     "stars": 17,
     "forks": 2,
-    "total_score": 23,
+    "total_score": 52,
     "quantifiable_score": 23,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 29,
+    "tracking_priority": "track",
     "last_updated": "2026-07-02T01:09:37Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -2754,10 +2784,18 @@
       "adoption": 2,
       "maturity": 4
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 9,
+      "practicality": 7,
+      "novelty": 6,
+      "ecosystem_value": 7
+    },
+    "llm_summary": {
+      "zh": "快速搭建并部署MCP服务器到Cloudflare Workers的命令行工具，专为Cursor Agent设计。",
+      "en": "CLI tool to quickly set up and deploy MCP servers to Cloudflare Workers, designed for Cursor Agent."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "fefergrgrgrg/create-mcp",
     "tags": [],
     "maturity": "unknown",
@@ -2902,8 +2940,7 @@
     "url": "https://github.com/gokeshenzhen/gen-tb-skill",
     "source_type": "github",
     "resource_type": [
-      "skills",
-      "cli-tool"
+      "skills"
     ],
     "target_tools": [
       "claude-code",
@@ -2922,10 +2959,10 @@
     },
     "stars": 15,
     "forks": 4,
-    "total_score": 23,
+    "total_score": 54,
     "quantifiable_score": 23,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 31,
+    "tracking_priority": "track",
     "last_updated": "2026-07-02T07:41:53Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -2940,10 +2977,18 @@
       "adoption": 2,
       "maturity": 4
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 8,
+      "novelty": 7,
+      "ecosystem_value": 6
+    },
+    "llm_summary": {
+      "zh": "为Claude Code和Codex CLI设计的技能，可从IP规格文档生成完整的UVM测试台框架，面向硬件验证工程师。",
+      "en": "A skill for Claude Code and Codex CLI that generates complete UVM testbench scaffolds from IP specification documents, targeting hardware verification (DV) engineers."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "gokeshenzhen/gen-tb-skill",
     "tags": [],
     "maturity": "unknown",
@@ -3059,10 +3104,10 @@
     },
     "stars": 15,
     "forks": 6,
-    "total_score": 23,
+    "total_score": 50,
     "quantifiable_score": 23,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 27,
+    "tracking_priority": "track",
     "last_updated": "2026-04-26T13:51:07Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -3077,10 +3122,18 @@
       "adoption": 2,
       "maturity": 4
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 9,
+      "practicality": 7,
+      "novelty": 5,
+      "ecosystem_value": 6
+    },
+    "llm_summary": {
+      "zh": "基于多图片API的MCP服务，为Cursor提供图片搜索、下载和AI图标生成功能。",
+      "en": "A MCP server integrating multiple image APIs for search, download, and AI icon generation, designed for Cursor IDE."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "yanjunz/mcp_search_images",
     "tags": [],
     "maturity": "unknown",
@@ -3161,8 +3214,7 @@
     "url": "https://github.com/nosolosoft/opencode-mcp",
     "source_type": "github",
     "resource_type": [
-      "mcp-server",
-      "cli-tool"
+      "mcp-server"
     ],
     "target_tools": [
       "opencode"
@@ -3180,10 +3232,10 @@
     },
     "stars": 12,
     "forks": 2,
-    "total_score": 23,
+    "total_score": 55,
     "quantifiable_score": 23,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 32,
+    "tracking_priority": "track",
     "last_updated": "2026-06-08T04:01:10Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -3198,10 +3250,18 @@
       "adoption": 2,
       "maturity": 4
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 9,
+      "practicality": 8,
+      "novelty": 7,
+      "ecosystem_value": 8
+    },
+    "llm_summary": {
+      "zh": "将OpenCode CLI功能桥接到MCP兼容客户端的MCP服务器，扩展了AI编码代理的互操作性。",
+      "en": "MCP server that bridges OpenCode CLI functionality to MCP-compatible clients, enhancing interoperability for AI coding agents."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "nosolosoft/opencode-mcp",
     "tags": [],
     "maturity": "unknown",
@@ -3353,7 +3413,7 @@
     "url": "https://github.com/willibrandon/CursorMCPMonitor",
     "source_type": "github",
     "resource_type": [
-      "mcp-server"
+      "cli-tool"
     ],
     "target_tools": [
       "cursor"
@@ -3371,10 +3431,10 @@
     },
     "stars": 12,
     "forks": 3,
-    "total_score": 16,
+    "total_score": 47,
     "quantifiable_score": 16,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 31,
+    "tracking_priority": "track",
     "last_updated": "2025-09-10T12:11:34Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -3389,10 +3449,18 @@
       "adoption": 2,
       "maturity": 4
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 9,
+      "practicality": 8,
+      "novelty": 7,
+      "ecosystem_value": 7
+    },
+    "llm_summary": {
+      "zh": "一个用于实时监控Cursor AI编辑器中MCP交互的.NET工具，帮助调试和分析上下文交换。",
+      "en": "A .NET CLI tool for real-time monitoring of MCP interactions in Cursor AI editor, aiding debugging and analysis of context exchanges."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "willibrandon/CursorMCPMonitor",
     "tags": [],
     "maturity": "unknown",
@@ -3414,7 +3482,7 @@
     "url": "https://github.com/StuMason/get-mcp-keys",
     "source_type": "github",
     "resource_type": [
-      "mcp-server"
+      "cli-tool"
     ],
     "target_tools": [
       "cursor"
@@ -3432,10 +3500,10 @@
     },
     "stars": 12,
     "forks": 3,
-    "total_score": 21,
+    "total_score": 52,
     "quantifiable_score": 21,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 31,
+    "tracking_priority": "track",
     "last_updated": "2026-06-10T19:31:02Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -3450,10 +3518,18 @@
       "adoption": 2,
       "maturity": 2
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 9,
+      "practicality": 9,
+      "novelty": 6,
+      "ecosystem_value": 7
+    },
+    "llm_summary": {
+      "zh": "一个轻量级工具，用于安全加载Cursor MCP服务器的API密钥，防止密钥泄露。",
+      "en": "A lightweight utility to securely load API keys for Cursor MCP servers, preventing secret leaks."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "StuMason/get-mcp-keys",
     "tags": [],
     "maturity": "unknown",
@@ -3748,10 +3824,10 @@
     },
     "stars": 10,
     "forks": 4,
-    "total_score": 23,
+    "total_score": 47,
     "quantifiable_score": 23,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 24,
+    "tracking_priority": "track",
     "last_updated": "2026-05-23T13:33:18Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -3766,10 +3842,18 @@
       "adoption": 2,
       "maturity": 4
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 7,
+      "practicality": 6,
+      "novelty": 5,
+      "ecosystem_value": 6
+    },
+    "llm_summary": {
+      "zh": "一个为Cursor IDE提供Trivy安全扫描能力的MCP服务器，作为实验性质的概念验证。",
+      "en": "An MCP server providing Trivy security scanning capabilities for the Cursor IDE, as a proof-of-concept experimental project."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "norbinsh/cursor-mcp-trivy",
     "tags": [],
     "maturity": "unknown",
@@ -3801,10 +3885,10 @@
     },
     "stars": 10,
     "forks": 4,
-    "total_score": 21,
+    "total_score": 49,
     "quantifiable_score": 21,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 28,
+    "tracking_priority": "track",
     "last_updated": "2026-06-29T05:38:04Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -3817,10 +3901,18 @@
       "adoption": 2,
       "maturity": 2
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 9,
+      "practicality": 7,
+      "novelty": 6,
+      "ecosystem_value": 6
+    },
+    "llm_summary": {
+      "zh": "为Hermes Agent打造的模块化技能包，助力SaaS创业从想法到发布。",
+      "en": "A modular Hermes Agent skill pack for guiding SaaS startup ideation to launch."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "wolulabs/hermes-founder-os",
     "tags": [],
     "maturity": "unknown",
@@ -3904,7 +3996,6 @@
     "url": "https://github.com/lmoncany/hermes-wordpress-skill",
     "source_type": "github",
     "resource_type": [
-      "mcp-server",
       "skills"
     ],
     "target_tools": [
@@ -3923,10 +4014,10 @@
     },
     "stars": 10,
     "forks": 2,
-    "total_score": 19,
+    "total_score": 47,
     "quantifiable_score": 19,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 28,
+    "tracking_priority": "track",
     "last_updated": "2026-07-06T03:51:56Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -3939,10 +4030,18 @@
       "adoption": 2,
       "maturity": 0
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 9,
+      "practicality": 7,
+      "novelty": 6,
+      "ecosystem_value": 6
+    },
+    "llm_summary": {
+      "zh": "Hermes Agent的一个WordPress集成技能，通过MCP协议实现自然语言管理网站，适用于特定场景。",
+      "en": "A skill for Hermes Agent that connects to WordPress via MCP, enabling natural language management of sites."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "lmoncany/hermes-wordpress-skill",
     "tags": [],
     "maturity": "unknown",
@@ -3956,12 +4055,15 @@
     "url": "https://github.com/aldegad/skill-hook-authoring",
     "source_type": "github",
     "resource_type": [
-      "skills",
-      "cli-tool"
+      "tutorial",
+      "skills"
     ],
     "target_tools": [
       "claude-code",
-      "codex-cli"
+      "codex-cli",
+      "antigravity-cli",
+      "cursor",
+      "hermes-agent"
     ],
     "summary": "Authoring guide for shared Claude Code + Codex CLI skills and hooks (cross-engine install pattern, modern PreToolUse decision schema, payload contract).",
     "i18n": {
@@ -3976,10 +4078,10 @@
     },
     "stars": 9,
     "forks": 0,
-    "total_score": 19,
+    "total_score": 54,
     "quantifiable_score": 19,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 35,
+    "tracking_priority": "track",
     "last_updated": "2026-07-05T23:16:59Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -3994,10 +4096,18 @@
       "adoption": 0,
       "maturity": 2
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 9,
+      "practicality": 8,
+      "novelty": 9,
+      "ecosystem_value": 9
+    },
+    "llm_summary": {
+      "zh": "跨多个AI编码代理（Claude Code、Codex CLI等）的技能和钩子编写指南，实现统一作者体验。",
+      "en": "A guide for authoring cross-engine skills and hooks that work across multiple AI coding agents like Claude Code, Codex CLI, and others."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "aldegad/skill-hook-authoring",
     "tags": [],
     "maturity": "unknown",
@@ -4011,8 +4121,7 @@
     "url": "https://github.com/franksde/agy-hud",
     "source_type": "github",
     "resource_type": [
-      "extension",
-      "cli-tool"
+      "extension"
     ],
     "target_tools": [
       "antigravity-cli"
@@ -4030,10 +4139,10 @@
     },
     "stars": 9,
     "forks": 1,
-    "total_score": 23,
+    "total_score": 54,
     "quantifiable_score": 23,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 31,
+    "tracking_priority": "track",
     "last_updated": "2026-06-27T06:55:14Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -4048,10 +4157,18 @@
       "adoption": 2,
       "maturity": 4
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 8,
+      "novelty": 6,
+      "ecosystem_value": 7
+    },
+    "llm_summary": {
+      "zh": "一个为 Antigravity CLI 设计的 HUD 插件，显示上下文使用、配额、模型信息和代理状态。",
+      "en": "A HUD plugin for Antigravity CLI that displays context usage, quota, model info, and agent status."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "franksde/agy-hud",
     "tags": [],
     "maturity": "unknown",
@@ -4200,7 +4317,8 @@
     "url": "https://github.com/ao92265/claude-code-playbook",
     "source_type": "github",
     "resource_type": [
-      "skills"
+      "skills",
+      "tutorial"
     ],
     "target_tools": [
       "claude-code"
@@ -4218,10 +4336,10 @@
     },
     "stars": 9,
     "forks": 0,
-    "total_score": 21,
+    "total_score": 52,
     "quantifiable_score": 21,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 31,
+    "tracking_priority": "track",
     "last_updated": "2026-07-02T16:14:59Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -4236,10 +4354,18 @@
       "adoption": 0,
       "maturity": 4
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 8,
+      "novelty": 6,
+      "ecosystem_value": 7
+    },
+    "llm_summary": {
+      "zh": "针对Claude Code的实战最佳实践、技能和配置模板集。",
+      "en": "A battle-tested collection of best practices, skills, hooks, and configuration templates for Claude Code."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "ao92265/claude-code-playbook",
     "tags": [],
     "maturity": "unknown",
@@ -4379,7 +4505,8 @@
     "url": "https://github.com/laofudev/laofu-qmt-skill",
     "source_type": "github",
     "resource_type": [
-      "skills"
+      "skills",
+      "cli-tool"
     ],
     "target_tools": [
       "workbuddy-codebuddy"
@@ -4397,10 +4524,10 @@
     },
     "stars": 8,
     "forks": 0,
-    "total_score": 19,
+    "total_score": 42,
     "quantifiable_score": 19,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 23,
+    "tracking_priority": "track",
     "last_updated": "2026-06-09T00:39:11Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -4415,10 +4542,18 @@
       "adoption": 0,
       "maturity": 2
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 6,
+      "practicality": 8,
+      "novelty": 5,
+      "ecosystem_value": 4
+    },
+    "llm_summary": {
+      "zh": "laofu-qmt-skill 是一个为 WorkBuddy AI 编码助手定制的 A 股行情数据技能，提供行情查询、K线、板块等9个实用命令，支持命令行独立使用。",
+      "en": "laofu-qmt-skill is a WorkBuddy AI coding agent skill that provides A-share stock market data, offering 9 commands for quotes, K-lines, sectors, etc., and can also be used as a standalone CLI tool."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "laofudev/laofu-qmt-skill",
     "tags": [],
     "maturity": "unknown",
@@ -4884,10 +5019,10 @@
     },
     "stars": 6,
     "forks": 0,
-    "total_score": 21,
+    "total_score": 54,
     "quantifiable_score": 21,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 33,
+    "tracking_priority": "track",
     "last_updated": "2026-05-20T02:21:45Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -4902,10 +5037,18 @@
       "adoption": 0,
       "maturity": 4
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 7,
+      "novelty": 8,
+      "ecosystem_value": 8
+    },
+    "llm_summary": {
+      "zh": "为 Godot 引擎集成 MCP 协议以支持 OpenCode 的定制分支。",
+      "en": "A custom Godot engine fork that integrates MCP protocol for OpenCode, enabling AI-assisted game development."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "chen9916/godot-opencode-mcp",
     "tags": [],
     "maturity": "unknown",
@@ -4919,7 +5062,7 @@
     "url": "https://github.com/nitingupta220/crito",
     "source_type": "github",
     "resource_type": [
-      "tutorial"
+      "cli-tool"
     ],
     "target_tools": [],
     "summary": "AI PR review agent on OpenRouter BYOK + free models (v1: code review only) — design & research",
@@ -4935,10 +5078,10 @@
     },
     "stars": 6,
     "forks": 0,
-    "total_score": 21,
+    "total_score": 42,
     "quantifiable_score": 21,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 21,
+    "tracking_priority": "track",
     "last_updated": "2026-06-20T07:12:45Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -4953,10 +5096,18 @@
       "adoption": 0,
       "maturity": 4
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 6,
+      "practicality": 6,
+      "novelty": 4,
+      "ecosystem_value": 5
+    },
+    "llm_summary": {
+      "zh": "一个基于OpenRouter免费模型的AI PR审核工具，支持BYOK，专注于代码审查。",
+      "en": "An AI PR review tool using OpenRouter free models with BYOK, focused on code review comments."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "nitingupta220/crito",
     "tags": [],
     "maturity": "unknown",
@@ -5049,10 +5200,10 @@
     },
     "stars": 6,
     "forks": 1,
-    "total_score": 21,
+    "total_score": 44,
     "quantifiable_score": 21,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 23,
+    "tracking_priority": "track",
     "last_updated": "2026-07-06T06:45:41Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -5067,10 +5218,18 @@
       "adoption": 2,
       "maturity": 2
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 9,
+      "practicality": 6,
+      "novelty": 3,
+      "ecosystem_value": 5
+    },
+    "llm_summary": {
+      "zh": "面向Claude Code课程的学习笔记与速查网站，整合了官方和社区资源，适合中文学习者。",
+      "en": "A static site serving as quick-reference notes for the Claude Code Engineering course, referencing official and community repositories."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "zhuligu/CC-Practice",
     "tags": [],
     "maturity": "unknown",
@@ -5102,10 +5261,10 @@
     },
     "stars": 6,
     "forks": 2,
-    "total_score": 18,
+    "total_score": 44,
     "quantifiable_score": 18,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 26,
+    "tracking_priority": "track",
     "last_updated": "2026-02-21T17:51:06Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -5120,10 +5279,18 @@
       "adoption": 2,
       "maturity": 2
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 8,
+      "novelty": 4,
+      "ecosystem_value": 6
+    },
+    "llm_summary": {
+      "zh": "一个为Cursor IDE设计的MCP服务器，可按类型自动整理下载文件夹中的文件。",
+      "en": "A simple MCP server for Cursor that automatically organizes downloads folder by file type."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "AlexanderVTr/cursor-mcp-file-organizer",
     "tags": [],
     "maturity": "unknown",
@@ -5274,10 +5441,10 @@
     },
     "stars": 5,
     "forks": 0,
-    "total_score": 21,
+    "total_score": 51,
     "quantifiable_score": 21,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 30,
+    "tracking_priority": "track",
     "last_updated": "2026-05-29T22:20:05Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -5292,10 +5459,18 @@
       "adoption": 0,
       "maturity": 4
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 8,
+      "novelty": 5,
+      "ecosystem_value": 7
+    },
+    "llm_summary": {
+      "zh": "一个从入门到精通的Claude Code实战教程，包含41个可运行示例，覆盖ECC、gstack、GSD、Managed Agents等特性，中英双语。",
+      "en": "A hands-on progressive tutorial for Claude Code with 41 runnable demos, covering ECC, gstack, GSD, and Managed Agents, bilingual in English and Chinese."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "DocJlm/claude-code-best-practices",
     "tags": [],
     "maturity": "unknown",
@@ -5309,9 +5484,7 @@
     "url": "https://github.com/vignesh2027/claude-best-practice",
     "source_type": "github",
     "resource_type": [
-      "agent-framework",
-      "skills",
-      "cli-tool"
+      "tutorial"
     ],
     "target_tools": [
       "claude-code",
@@ -5330,10 +5503,10 @@
     },
     "stars": 5,
     "forks": 1,
-    "total_score": 21,
+    "total_score": 48,
     "quantifiable_score": 21,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 27,
+    "tracking_priority": "track",
     "last_updated": "2026-06-20T06:26:19Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -5348,10 +5521,18 @@
       "adoption": 2,
       "maturity": 2
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 9,
+      "practicality": 6,
+      "novelty": 6,
+      "ecosystem_value": 6
+    },
+    "llm_summary": {
+      "zh": "Claude Code 最佳实践指南，涵盖从 vibe coding 到自主 AI 开发团队的模式。",
+      "en": "Comprehensive guide to Claude Code best practices, from vibe coding to autonomous AI development teams."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "vignesh2027/claude-best-practice",
     "tags": [],
     "maturity": "unknown",
@@ -5690,8 +5871,7 @@
     "url": "https://github.com/Traves-Theberge/opencode-mcp",
     "source_type": "github",
     "resource_type": [
-      "mcp-server",
-      "agent-framework"
+      "mcp-server"
     ],
     "target_tools": [
       "opencode"
@@ -5709,10 +5889,10 @@
     },
     "stars": 4,
     "forks": 2,
-    "total_score": 23,
+    "total_score": 54,
     "quantifiable_score": 23,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 31,
+    "tracking_priority": "track",
     "last_updated": "2026-05-28T11:48:25Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -5727,10 +5907,18 @@
       "adoption": 2,
       "maturity": 4
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 8,
+      "novelty": 6,
+      "ecosystem_value": 7
+    },
+    "llm_summary": {
+      "zh": "将OpenCode作为子代理集成到IDE和AI客户端的MCP服务器。",
+      "en": "MCP server that integrates OpenCode as a subagent for IDEs and AI clients."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "Traves-Theberge/opencode-mcp",
     "tags": [],
     "maturity": "unknown",
@@ -5744,7 +5932,7 @@
     "url": "https://github.com/francisco-m001/opencode-mcp-tool-search",
     "source_type": "github",
     "resource_type": [
-      "mcp-server"
+      "extension"
     ],
     "target_tools": [
       "opencode"
@@ -5762,10 +5950,10 @@
     },
     "stars": 4,
     "forks": 1,
-    "total_score": 20,
+    "total_score": 54,
     "quantifiable_score": 20,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 34,
+    "tracking_priority": "track",
     "last_updated": "2026-03-15T13:13:49Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -5780,10 +5968,18 @@
       "adoption": 2,
       "maturity": 4
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 7,
+      "novelty": 8,
+      "ecosystem_value": 9
+    },
+    "llm_summary": {
+      "zh": "专为OpenCode设计的动态MCP工具搜索插件，有效减少上下文窗口占用。",
+      "en": "A dynamic MCP tool search plugin for OpenCode that reduces context usage by loading tools on demand."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "francisco-m001/opencode-mcp-tool-search",
     "tags": [],
     "maturity": "unknown",
@@ -5797,7 +5993,6 @@
     "url": "https://github.com/hacimertgokhan/openmcp",
     "source_type": "github",
     "resource_type": [
-      "mcp-server",
       "cli-tool"
     ],
     "target_tools": [
@@ -5816,10 +6011,10 @@
     },
     "stars": 4,
     "forks": 1,
-    "total_score": 21,
+    "total_score": 48,
     "quantifiable_score": 21,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 27,
+    "tracking_priority": "track",
     "last_updated": "2026-06-18T07:22:28Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -5834,10 +6029,18 @@
       "adoption": 2,
       "maturity": 2
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 9,
+      "practicality": 7,
+      "novelty": 5,
+      "ecosystem_value": 6
+    },
+    "llm_summary": {
+      "zh": "一个用于管理OpenCode MCP服务器的桌面和命令行工具，提供直观的界面来查看、启用/禁用、删除和添加MCP服务器。",
+      "en": "A desktop and CLI manager for OpenCode MCP servers, providing an intuitive interface to view, enable/disable, remove, and add MCP servers."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "hacimertgokhan/openmcp",
     "tags": [],
     "maturity": "unknown",
@@ -6101,12 +6304,12 @@
     "url": "https://github.com/Pacoaldev/opencode-mcp",
     "source_type": "github",
     "resource_type": [
-      "mcp-server",
-      "skills",
       "extension"
     ],
     "target_tools": [
-      "opencode"
+      "opencode",
+      "antigravity-cli",
+      "cursor"
     ],
     "summary": "Opencode-mcp es una extension para vscode/antigravity que integra un panel de chat conectado a tu servidor local de Opencode, permitiendo usar tus agents, skills, tools y mcp directamente desde el editor.",
     "i18n": {
@@ -6121,10 +6324,10 @@
     },
     "stars": 3,
     "forks": 1,
-    "total_score": 23,
+    "total_score": 54,
     "quantifiable_score": 23,
-    "quality_score": 0,
-    "tracking_priority": "pending",
+    "quality_score": 31,
+    "tracking_priority": "track",
     "last_updated": "2026-07-02T14:48:23Z",
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
@@ -6139,10 +6342,18 @@
       "adoption": 2,
       "maturity": 4
     },
-    "quality_detail": {},
-    "llm_summary": null,
-    "benchmark_ref": "github-opencoworkai-open-cowork",
-    "last_analyzed": null,
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 7,
+      "novelty": 6,
+      "ecosystem_value": 8
+    },
+    "llm_summary": {
+      "zh": "一个多编辑器支持的OpenCode聊天面板扩展，将OpenCode的代理、技能、工具和MCP集成到VS Code、Antigravity和Cursor中。",
+      "en": "A multi-editor chat panel extension for OpenCode, integrating its agents, skills, tools, and MCP into VS Code, Antigravity, and Cursor."
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-15",
     "repo": "Pacoaldev/opencode-mcp",
     "tags": [],
     "maturity": "unknown",
