@@ -1,0 +1,12 @@
+baseline captured 2026-07-15
+metrics.projects=5165
+pending=201 track=4495 index=404 reject=65
+home=200 projects=200 search-index=200 detail-index=200 legacy-detail=404 curated-projects=200
+gzip projects: content-encoding gzip, ~760334 bytes compressed, ~6377867 uncompressed
+detail shards 0..51 present (52), detail-index 5165 entries
+search filter sim: mcp=1220 claude=2702 cursor=905 nonsense=0 (~4-6ms)
+default list pool 5090 (ex seed+reject)
+tutorial=953/5165=18.45% general-ai-coding=51/5165=0.99% empty_tools=1643
+quality_score>0 = 4950; pending with q>0 = 0
+CSP: style-src/font-src self blocks Google Fonts
+official seed /root path leaks = 5

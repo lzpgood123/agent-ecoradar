@@ -163,11 +163,11 @@ weekly_analysis.py (入口；周一全量 / 工作日增量 via Hermes cron)
 | 组件 | 说明 |
 |------|------|
 | load_api_keys() | 从 ~/.hermes/auth.json 读取 13 个 key（custom:sensenova 凭证池） |
-| KeyRotator | 轮询 key，失败 key 自动跳过，全部失败时重置 |
+| KeyRotator | 轮询 key + 线程锁；失败跳过；`mark_success`/`get_stats`；stats 用 key 后 8 位 |
 | parse_json_response() | 容错 JSON 解析：直接解析 -> markdown 代码块 -> 正则提取 -> 首尾花括号 |
 | call_llm() | 单次 API 调用（urllib，OpenAI 兼容格式） |
-| call_with_retry() | 重试逻辑：401/403 切 key，429 指数退避，最多 3 次 |
-| batch_analyze() | 批量并发分析（ThreadPoolExecutor；默认由 config `batch_size=10` 驱动） |
+| call_with_retry() | 重试：成功 mark_success；401/403/429/空响应 mark_failed(reason)；最多 3 次 |
+| batch_analyze() | 并发分析；返回 `(results_dict, key_stats)`；默认 workers 由 config `batch_size=10` |
 
 ### 参照基准管理（benchmark_manager.py）
 
@@ -213,14 +213,16 @@ weekly_analysis.py (入口；周一全量 / 工作日增量 via Hermes cron)
 
 - **Job ID:** 2aa9da554787
 - **名称:** Search in Coding weekly LLM analysis
-- **计划:** 每周一 03:30（`30 3 * * 1`）
+- **计划:** 每周一 05:00（`0 5 * * 1`）— 与 03:00 采集错开 2 小时
 - **模式:** no_agent=True（直接运行脚本，不经过 LLM 编排）
 - **脚本:** `~/.hermes/scripts/search-in-coding-weekly.sh`
 - **超时:** `cron.script_timeout_seconds=3600`（全量 LLM 分析约 16–48 分钟，默认 120s 会杀进程）
 - **部署:** 脚本内自动调用 deploy_site.py
-- **增量落盘:** `run_analysis()` 每批（3 个项目）后 `save_jsonish('data/projects.yaml')`
+- **增量落盘:** `run_analysis()` 每批后 `save_jsonish('data/projects.yaml')`
 - **字段拆分:** LLM `quality_detail` 写独立字段，不覆盖可量化 `score_detail`
 - **官方 seed 保护:** `source_type=official-seed` 强制 `tracking_priority=track`
+- **Key 监控:** 每次分析后写入 `data/llm-key-stats.json`（最近 30 条）
+- **429 降级:** 累计 429 比例 >30% 时 halved 剩余批次，标记 `degraded_mode: true`
 
 ### 配置文件
 
@@ -254,7 +256,7 @@ weekly_analysis.py (入口；周一全量 / 工作日增量 via Hermes cron)
 
 ## 测试覆盖
 
-12 个测试文件（pytest），114 个测试用例：
+12 个测试文件（pytest），190 个测试用例（2026-07-15 自运行加固后）：
 - test_pipeline_features.py - 管道功能测试（resource_types 误匹配、finalize 弱记录）
 - test_data_integrity.py - 数据完整性测试（i18n、review_state 一致性）
 - test_normalize_fields.py - normalize.py 字段映射和 resource_type 分类测试（25 个，批次 A 新增）
@@ -264,10 +266,13 @@ weekly_analysis.py (入口；周一全量 / 工作日增量 via Hermes cron)
 - test_migrate_data.py - 数据迁移测试
 - test_initial_collection.py - 历史回溯采集测试（分层查询、过滤、安全 merge、checkpoint）
 - test_translate_summaries.py - 翻译模块测试（JSON 解析、缓存、key 轮询）
-- test_llm_api.py - LLM API 封装测试（key 轮询、JSON 解析容错、重试逻辑）（12 个，第 3 批新增）
-- test_benchmark_manager.py - 参照基准管理测试（5 分数段、加载/保存、LLM 更新）（7 个，第 3 批新增）
-- test_weekly_analysis.py - 每周分析流程测试（预筛选、结果合并、项目选择）（10 个，第 3 批新增）
-- test_weekly_e2e.py - 端到端测试（mock LLM 全流程、None 处理、基准+快照）（4 个，第 3 批新增）
+- test_llm_api.py - LLM API 封装测试（key 轮询、JSON 解析容错、重试逻辑）
+- test_benchmark_manager.py - 参照基准管理测试（5 分数段、加载/保存、LLM 更新）
+- test_weekly_analysis.py - 每周分析流程测试（预筛选、结果合并、项目选择）
+- test_weekly_e2e.py - 端到端测试（mock LLM 全流程、None 处理、基准+快照）
+- test_refresh_track_projects.py - track 项目分批刷新（选择/排序/merge 保留 LLM 字段）
+- test_archive_low_score.py - 低分/reject 归档选择逻辑
+- test_cleanup_disk.py - raw/snapshots 过期清理逻辑
 
 运行命令：`source .venv/bin/activate && python3 -m pytest tests/ -v`
 
@@ -287,8 +292,9 @@ weekly_analysis.py (入口；周一全量 / 工作日增量 via Hermes cron)
 - `get_projects_to_analyze()`：跳过 archived；候选 **stars 降序**；优先 `last_analyzed is None` / 超过 7 天
 - `KeyRotator`：`threading.Lock` 保护 next/mark_failed/reset
 - cron：`script_timeout_seconds=3600`
-  - 采集 daily：`search-in-coding-daily.sh` → `update_tracker.py`（job `2a0c271a031f`，03:00）
-  - 周 LLM：`search-in-coding-weekly.sh` → `weekly_analysis.py`（job `2aa9da554787`，Mon 03:30）
-  - 日增量 LLM：`search-in-coding-llm-daily.sh` → `weekly_analysis.py --max-projects 200 --skip-benchmarks` + deploy（job `f110f12e4d96`，Tue–Sat 03:30）
-- **禁止覆盖** `search-in-coding-daily.sh`（仍为 update_tracker 采集）
+  - 采集 daily：`search-in-coding-daily.sh` → `update_tracker.py` + `refresh_track_projects.py`（job `2a0c271a031f`，03:00，source venv，不 deploy）
+  - 周 LLM：`search-in-coding-weekly.sh` → `weekly_analysis.py`（job `2aa9da554787`，Mon 05:00）
+  - 日增量 LLM：`search-in-coding-llm-daily.sh` → `weekly_analysis.py --max-projects 200 --skip-benchmarks` + deploy（job `f110f12e4d96`，Tue–Sat 05:00）
+  - weekly release Hermes cron `7388b6c788e8` 已 pause（GitHub Actions release.yml）
+- 运维脚本：`archive_low_score.py`、`cleanup_disk.py`；LLM key stats → `data/llm-key-stats.json`；429 降级
 - 收口基线→终态（2026-07-15）：active no_last_analyzed **100→0**；total no_la 含 archived **205→105**；candidates_to_analyze **0**

@@ -13,3 +13,5 @@ data/initial-collection-checkpoint.json
 
 # Weekly LLM analysis snapshots (not for git, large)
 data/snapshots/
+# Per-run LLM key usage stats (local ops monitoring)
+data/llm-key-stats.json
