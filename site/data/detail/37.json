@@ -329,7 +329,9 @@
       "codex-cli",
       "antigravity-cli",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "lovable",
+      "replit"
     ],
     "summary": "[EMNLP-2024] Build multimodal language agents for fast prototype and production",
     "i18n": {
@@ -1472,7 +1474,8 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "cursor"
+      "cursor",
+      "cline"
     ],
     "summary": "Claude Code learns from your corrections: self-correcting memory that compounds over 50+ sessions. Context engineering, parallel worktrees, agent teams, and 17 battle-tested skills.",
     "i18n": {
@@ -1816,7 +1819,9 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "warp",
+      "cline"
     ],
     "summary": "Terminal security for developers and AI agents. Intercepts homograph URLs, pipe-to-shell, ANSI injection, obfuscated payloads, data exfiltration, and malicious AI skills/configs before they execute.",
     "i18n": {
@@ -2109,7 +2114,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "cursor"
+      "cursor",
+      "cline"
     ],
     "summary": "Run Claude Design locally as an Agent Skill — Cursor, Claude Code & more. Produce polished UI mockups, prototypes, decks & wireframes as self-contained HTML, without claude.ai/design. Best with Opus 4.8.",
     "i18n": {
@@ -2180,7 +2186,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "A collection of production-ready slash commands for Claude Code",
     "i18n": {
@@ -2315,7 +2322,9 @@
     "resource_type": [
       "cli-tool"
     ],
-    "target_tools": [],
+    "target_tools": [
+      "codegeex"
+    ],
     "summary": "CodeGeeX4-ALL-9B, a versatile model for all AI software development scenarios, including code completion, code interpreter, web search, function calling, repository-level Q&A and much more.",
     "i18n": {
       "zh": {
@@ -2377,7 +2386,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "China Unicom's Yuanjing Wanwu Agent Platform is an enterprise-grade, multi-tenant AI agent development platform. It helps users build applications such as intelligent agents, workflows, and rag, and also supports model management. The platf",
     "i18n": {
@@ -2458,7 +2468,9 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "github-copilot",
+      "cline"
     ],
     "summary": "Beautiful git diff viewer, generate commits with AI, get summary of changes, all from the CLI",
     "i18n": {
@@ -2590,7 +2602,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "codex-cli"
+      "codex-cli",
+      "augment-code"
     ],
     "summary": "This repository contains various advanced techniques for Retrieval-Augmented Generation (RAG) systems.",
     "i18n": {
@@ -2727,7 +2740,7 @@
       "agent-framework"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "zed"
     ],
     "summary": "The Cradle framework is a first attempt at General Computer Control (GCC). Cradle supports agents to ace any computer task by enabling strong reasoning abilities, self-improvment, and skill curation, in a standardized general environment wi",
     "i18n": {
@@ -2808,7 +2821,9 @@
     ],
     "target_tools": [
       "claude-code",
-      "antigravity-cli"
+      "antigravity-cli",
+      "cline",
+      "augment-code"
     ],
     "summary": "Comprehensive resources on Generative AI, including a detailed roadmap, projects, use cases, interview preparation, and coding preparation.",
     "i18n": {
@@ -3033,7 +3048,15 @@
       "trae",
       "workbuddy-codebuddy",
       "cursor",
-      "hermes-agent"
+      "hermes-agent",
+      "github-copilot",
+      "windsurf",
+      "codegeex",
+      "cline",
+      "kilo-code",
+      "augment-code",
+      "replit",
+      "openclaw"
     ],
     "summary": "🧑‍🎨 A collection of Golang agentic skills that works",
     "i18n": {
@@ -3059,7 +3082,7 @@
     "languages": [
       "Go"
     ],
-    "review_state": "auto-indexed",
+    "review_state": "auto-curated",
     "llm_summary": {
       "zh": "高质量且易于使用的 Golang 专用 AI 代理技能集合，覆盖测试、安全性、可观测性等关键领域，与主流编码助手工具兼容。",
       "en": "A well-crafted collection of Golang-specific agentic skills for AI coding assistants, covering testing, security, observability, and more."
@@ -3867,7 +3890,10 @@
     "target_tools": [
       "claude-code",
       "antigravity-cli",
-      "hermes-agent"
+      "hermes-agent",
+      "aider",
+      "cline",
+      "openclaw"
     ],
     "summary": "A powerful Zotero AI and MCP plugin with ChatGPT, Gemini 3.5, Claude, DeepSeek V4, Grok, OpenRouter, Kimi 2.6, GLM 5, SiliconFlow, GPT-oss, Gemma 4, Qwen 3.7",
     "i18n": {
@@ -4094,7 +4120,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "CodeMachine is an open-source tool that orchestrates AI coding agents into repeatable, long-running workflows. ⚡️",
     "i18n": {
@@ -4168,7 +4195,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "A production-ready FastAPI template for building AI agent applications with LangGraph integration. This template provides a robust foundation for building scalable, secure, and maintainable AI agent services.",
     "i18n": {
@@ -4241,7 +4269,8 @@
       "rules"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "Shared starter template configuration and CLAUDE.md memory bank system for Claude Code",
     "i18n": {
@@ -4392,7 +4421,8 @@
       "mcp-server"
     ],
     "target_tools": [
-      "cursor"
+      "cursor",
+      "manus"
     ],
     "summary": "编程导航 AI 开发实战新项目，基于 Spring Boot 3 + Java 21 + Spring AI 构建 AI 恋爱大师应用和 ReAct 模式自主规划智能体YuManus，覆盖 AI 大模型接入、Spring AI 核心特性、Prompt 工程和优化、RAG 检索增强、向量数据库、Tool Calling 工具调用、MCP 模型上下文协议、AI Agent 开发（Manas Java 实现）、Cursor AI 工具等核心知识。用一套教程将程序员必知必会的 AI ",
     "i18n": {
@@ -4620,7 +4650,9 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline",
+      "openclaw"
     ],
     "summary": "Open-source credential gateway with a built-in vault. give your AI agents access to services without exposing keys.",
     "i18n": {
@@ -4820,7 +4852,9 @@
     "resource_type": [
       "agent-framework"
     ],
-    "target_tools": [],
+    "target_tools": [
+      "openclaw"
+    ],
     "summary": "Build your agent team in OpenClaw with one command.",
     "i18n": {
       "zh": {
@@ -5122,7 +5156,8 @@
       "rules"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "Research into how agentic AI coding assistants work. Reconstructed prompt patterns, agent coordination, and security classification",
     "i18n": {
@@ -5618,7 +5653,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "动手学Ollama，CPU玩转大模型部署，在线阅读地址：https://datawhalechina.github.io/handy-ollama/",
     "i18n": {
@@ -5690,7 +5726,8 @@
       "skills"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "openclaw"
     ],
     "summary": "⭐ All-in-one AI companion! Super Agent Party = Self hosted neuro sama + openclaw! ⭐ 全能AI伴侣！超级智能体派对 = 自托管neuro sama + openclaw!",
     "i18n": {
@@ -5772,7 +5809,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "A fast Rust based tool to serialize text-based files in a repository or directory for LLM consumption",
     "i18n": {
@@ -5843,7 +5881,9 @@
     "target_tools": [
       "codex-cli",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "replit"
     ],
     "summary": "✨ Fully autonomous AI Agent that can perform complicated tasks and projects using terminal, browser, and editor.",
     "i18n": {
@@ -6047,7 +6087,7 @@
       "cli-tool"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "openclaw"
     ],
     "summary": "Real-time AI assistant for Meta Ray-Ban smart glasses -- voice + vision + agentic actions via Gemini Live and OpenClaw",
     "i18n": {
@@ -6290,7 +6330,8 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "antigravity-cli"
+      "antigravity-cli",
+      "cline"
     ],
     "summary": "Chrome extension to extract styles from any website and generate DESIGN.md files and design skills for AI based on TypeUI",
     "i18n": {
@@ -6499,7 +6540,8 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "antigravity-cli"
+      "antigravity-cli",
+      "cline"
     ],
     "summary": "AI coding workstation: Claude Code + web UI + 8 AI CLIs + headless browser + 50+ tools",
     "i18n": {
@@ -6576,7 +6618,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "Fulling is an AI-powered Full-stack Engineer Agent. Built with Next.js, Claude, shadcn/ui, and PostgreSQL. Use kubernetes as infra.",
     "i18n": {
@@ -6653,7 +6696,7 @@
       "agent-framework"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "zed"
     ],
     "summary": "A local-first AI agent with persistent memory, emotional intelligence, and a peer-to-peer skills economy.",
     "i18n": {
@@ -6793,7 +6836,7 @@
       "tutorial"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "zed"
     ],
     "summary": "Mano-P: Open-source GUI-VLA agent for edge devices. #1 on OSWorld (specialized, 58.2%). Runs locally on Apple M4 Mac mini/MacBook — no data leaves your device.Mano-P 是一个开源 GUI-VLA 项目，支持在 Mac mini/MacBook 上或通过算力棒本地运行推理，实现纯视觉驱动的跨平台 GUI 自动化操作。",
     "i18n": {

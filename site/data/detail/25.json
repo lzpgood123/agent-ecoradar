@@ -14,7 +14,8 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "opencode"
+      "opencode",
+      "cline"
     ],
     "summary": "Better 'AskUserQuestion' - A lightweight MCP server/OpenCode plugin/Agent Skills + CLI interface which allows parallel AI agents ask questions to you. Be the human in the human-in-the-loop!",
     "i18n": {
@@ -86,7 +87,8 @@
       "mcp-server"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "An MCP server for Google Tag Manager. Connect it to your LLM, authenticate once, and start managing GTM through natural language.",
     "i18n": {
@@ -493,7 +495,8 @@
       "rules"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "kiro",
+      "aider"
     ],
     "summary": "A comprehensive resource designed to help developers effectively use AI tools to develop websites, apps, and other projects. ",
     "i18n": {
@@ -636,7 +639,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "Local context manager for Claude Code and Codex with workstreams, transcript binding, and branching.",
     "i18n": {
@@ -780,7 +784,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "Nix flake for OpenAI Codex CLI - native Rust binary, hourly updates, multi-platform caching",
     "i18n": {
@@ -996,7 +1001,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "codex-cli"
+      "codex-cli",
+      "cline"
     ],
     "summary": "MCP server connecting AI agents to ITASCA engines (PFC, FLAC, 3DEC, MPoint, MassFlow) — run numerical simulations through natural conversation",
     "i18n": {
@@ -1221,7 +1227,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "codex-cli"
+      "codex-cli",
+      "github-copilot"
     ],
     "summary": "Open-source, self-hostable alternative to Claude Tag — a Slack-style workspace where your team and its AI agents (Claude Code, Codex, GitHub Copilot, and more) work as teammates in channels, threads, DMs, and shared tasks. Your data stays o",
     "i18n": {
@@ -1368,7 +1375,8 @@
       "cli-tool"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "Cross-platform Claude Code desktop client by hwwn. Multi-workspace, remote mobile access, session branching, BYO LLM. macOS / Windows / Linux.",
     "i18n": {
@@ -1510,7 +1518,8 @@
       "rules"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "Claude Code Prompt Mechanism Visualizer — Electron desktop app",
     "i18n": {
@@ -1584,7 +1593,8 @@
       "skills"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "My collection of Claude skills",
     "i18n": {
@@ -1650,7 +1660,9 @@
       "rules"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline",
+      "manus"
     ],
     "summary": "A curated collection of resources, papers, tools, and best practices for Context Engineering in AI agents and Large Language Models (LLMs).",
     "i18n": {
@@ -1788,7 +1800,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "Paste images into remote Claude Code & Codex CLI over SSH — clipboard bridging for macOS and Windows.",
     "i18n": {
@@ -1940,7 +1953,8 @@
     "target_tools": [
       "trae",
       "cursor",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Cursor Agent Tools - A Python-based AI agent that replicates Cursor's coding assistant capabilities, enabling function calling, code generation, and intelligent coding assistance with Claude, OpenAI, and locally hosted Ollama models.",
     "i18n": {
@@ -2010,7 +2024,8 @@
       "skills"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "SRE thinking applied to Claude Code, based on Boris Cherny's Q&A. It enforces a strict 4-stage pipeline with gates between each step. You literally cannot skip verification. You cannot ship without approval.",
     "i18n": {
@@ -2083,7 +2098,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "codex-cli"
+      "codex-cli",
+      "cline"
     ],
     "summary": "Loop until it's better — drop-in agentic loops (autoresearch, scientific writing, data analysis, code/SQL/prompt optimization, red-teaming) as open-standard Agent Skills. Verification-gated; native on Claude Code, portable across Codex, Cur",
     "i18n": {
@@ -2169,7 +2185,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "Multi-AI orchestration framework for Claude Code — coordinate Claude, Codex, and Gemini with 7 workflow modes, parallel execution, and session unification",
     "i18n": {
@@ -2389,7 +2406,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "Claude Code usage governor: compact professional output, context slimming, tool-output filtering, telemetry, and drift guardrails.",
     "i18n": {
@@ -2462,7 +2480,8 @@
       "mcp-server"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "【Star-crossed coders unite!⭐️】Model Context Protocol (MCP) server implementation providing Google News search capabilities via SerpAPI, with automatic news categorization and multi-language support.",
     "i18n": {
@@ -2538,7 +2557,9 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "cursor"
+      "cursor",
+      "windsurf",
+      "openclaw"
     ],
     "summary": "PM skill for Claude Code, Codex, Cursor, and Windsurf: diagnose SaaS metrics, critique PRDs, plan roadmaps, run discovery, and coach PM career transitions.",
     "i18n": {
@@ -2626,7 +2647,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "A unified toolkit for efficient and effective coding agents (Karpathy principles, Caveman, Ponytail, RTK, CodeGraph, Context-Mode). Minimal setup under 30 seconds. Any OS.",
     "i18n": {
@@ -2714,7 +2736,11 @@
       "antigravity-cli",
       "opencode",
       "qoder",
-      "cursor"
+      "cursor",
+      "github-copilot",
+      "windsurf",
+      "aider",
+      "cline"
     ],
     "summary": "Keep one source of truth for your AI coding-agent rules. Convert and sync between AGENTS.md, CLAUDE.md, .cursorrules, Copilot, Windsurf, Cline, Aider & Gemini — or scaffold a fresh AGENTS.md. Zero dependencies.",
     "i18n": {
@@ -2792,7 +2818,10 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "kiro",
+      "aider",
+      "cline"
     ],
     "summary": "Free local AI client for DeepSeek, Qwen and ChatGPT with OpenAI/Anthropic-compatible API, CLI, code agent, memory, skills and VS Code plugin.",
     "i18n": {
@@ -2875,7 +2904,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "cursor"
+      "cursor",
+      "cline"
     ],
     "summary": "Curated list of MCP servers for 1C:Enterprise ecosystem | Каталог MCP-серверов для экосистемы 1С:Предприятие",
     "i18n": {
@@ -2946,7 +2976,8 @@
       "cli-tool"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "augment-code"
     ],
     "summary": "Comprehensive MCP server providing real-time framework documentation access for Claude Code with intelligent caching, multi-source integration, and context-aware assistance.",
     "i18n": {
@@ -3155,7 +3186,8 @@
       "cli-tool"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "warp"
     ],
     "summary": "macOS desktop dashboard for monitoring and managing multiple Claude Code sessions",
     "i18n": {
@@ -3293,7 +3325,7 @@
       "agent-framework"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "openclaw"
     ],
     "summary": "An agentic outbound marketing automation for startups (ClawCompatible)",
     "i18n": {
@@ -3510,7 +3542,8 @@
       "antigravity-cli",
       "opencode",
       "qoder",
-      "cursor"
+      "cursor",
+      "cline"
     ],
     "summary": "Extract design tokens (colors, typography, spacing, border radius, shadows) from any public website. Generates JSON and CSS custom properties for local projects. Available as an AI agent skill (Claude, Cursor, Codex) and standalone CLI.",
     "i18n": {
@@ -3592,7 +3625,8 @@
       "skills"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "openclaw"
     ],
     "summary": "管理和控制小米/米家智能家居设备的SIKIL，兼容claude code或openclaw等agent，支持设备发现、开关控制、亮度调节、颜色设置等功能。",
     "i18n": {
@@ -3875,7 +3909,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "cursor"
+      "cursor",
+      "cline"
     ],
     "summary": "Claude Code v2.1.88 source analysis: system prompts, 87 hidden feature flags, cost optimization, architecture diagrams, undercover mode, and comparison with Cursor/Cline. No source code redistributed.",
     "i18n": {
@@ -4096,7 +4131,9 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "zed",
+      "cline"
     ],
     "summary": "Fast CLI for Google Play Console, for developers optimized for your agentic development flows",
     "i18n": {
@@ -4306,7 +4343,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "MCP server, CLI, and Codex/Claude skill for embedded debugging with probe-rs, supporting ARM Cortex-M and RISC-V debug workflows.",
     "i18n": {
@@ -4607,7 +4645,9 @@
       "opencode",
       "qoder",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "replit"
     ],
     "summary": "🍣 TunaCode  AI CLI coding agent with safe git branches, rich tools & multi-LLM support.",
     "i18n": {
@@ -4893,7 +4933,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "Local, zero-dependency dashboard for Claude Code: live token usage and context, lost-session recovery, full-text search, and approve tool calls from your phone.",
     "i18n": {
@@ -5161,7 +5202,8 @@
       "tutorial"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "zed"
     ],
     "summary": "Content Repurposing Engine for Claude Code. Turn 1 piece of content into 10+ platform-optimized posts for Twitter, LinkedIn, Instagram, Facebook, YouTube, Skool, Reddit, and newsletters.",
     "i18n": {
@@ -5231,7 +5273,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Coding agent on your phone 🐢",
     "i18n": {
@@ -5369,7 +5412,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "Evidence-gated runner for Codex, Claude Code, OpenCode, and local coding agents. Routes tasks into scoped DAG lanes with replayable artifacts.",
     "i18n": {
@@ -5452,7 +5496,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "cursor"
+      "cursor",
+      "cline"
     ],
     "summary": "hostinger/api-mcp-server",
     "i18n": {
@@ -5593,7 +5638,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "Claude Code agents for the TALL stack, powered by Laravel Boost.",
     "i18n": {
@@ -5668,7 +5714,9 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline",
+      "openclaw"
     ],
     "summary": "An agentic memory database that cuts session tokens by 82–99%. One portable SQLite file — your agent's memory, anywhere.",
     "i18n": {
@@ -5883,7 +5931,8 @@
       "cli-tool"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "A Model Context Protocol (MCP) server providing AI assistants with access to healthcare data and medical information tools, including FDA drug info, PubMed, medRxiv, NCBI Bookshelf, clinical trials, ICD-10, DICOM metadata, and a medical cal",
     "i18n": {
@@ -5965,7 +6014,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "A fully functional web workspace for Claude Code CLI—chat, Kanban task board, task scheduling, multi-agent orchestration, MCP servers, skills, remote access (Web, SSH, Telegram), projects, and real-time data streaming.",
     "i18n": {
@@ -6264,7 +6314,7 @@
       "cli-tool"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "github-copilot"
     ],
     "summary": "Agentic CLI Tool for GitHub Repository Health Analysis",
     "i18n": {
@@ -6408,7 +6458,7 @@
       "mcp-server"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "zed"
     ],
     "summary": "A Cli, a webUI, and a MCP server for the Z-Image-Turbo text-to-image generation model (Tongyi-MAI/Z-Image-Turbo base model as well as quantized models)",
     "i18n": {
@@ -6633,7 +6683,9 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "warp",
+      "cline"
     ],
     "summary": "Git worktree-based task manager with integrated terminals for CLI coding agents",
     "i18n": {
@@ -6786,7 +6838,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "cursor"
+      "cursor",
+      "windsurf"
     ],
     "summary": "AGENTS.md/CLAUDE.md generator and ExecPlan harness for Codex, Claude Code, Cursor, Antigravity, OpenCode, Pi and other coding agents. Use api keys or authenticate with Codex or Claude Code",
     "i18n": {
@@ -6925,7 +6978,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "openclaw"
     ],
     "summary": "一套经过生产验证的 OpenClaw + Claude Code 实战知识库：涵盖生产部署、IM 接入、模型配置、安全加固，以及一系列可落地的 AI Agent 业务流项目（小红书发布 / 财务票据 / 智能早报 / CRM / 量化投研 / 密钥巡检自愈）。",
     "i18n": {
@@ -7206,7 +7260,8 @@
     "target_tools": [
       "claude-code",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "从0到1构建 Claude code (学习版)",
     "i18n": {

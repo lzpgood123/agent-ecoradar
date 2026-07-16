@@ -28,14 +28,24 @@ def ensure_official_seed(projects, tools):
     by_id = {p.get('id'): p for p in projects}
     now = datetime.date.today().isoformat()
     for t in tools:
+        # Only active tools get official seed profiles on the public index
+        if t.get('status', 'active') != 'active':
+            continue
         rid = 'official-' + t['id']
+        name = t.get('name') or t['id']
+        # Prefer website/docs/repo; closed tools without a public home still need a non-empty URL
+        url = (
+            t.get('website')
+            or t.get('docs')
+            or (f"https://github.com/{t['repo']}" if t.get('repo') else None)
+            or f"https://github.com/search?q={t['id']}"
+        )
         if rid not in by_id:
-            name = t['name']
             summary = f'Official seed profile for {name}'
             by_id[rid] = {
                 'id': rid,
                 'name': name,
-                'url': t.get('website') or t.get('docs') or (f"https://github.com/{t['repo']}" if t.get('repo') else ''),
+                'url': url,
                 'repo': t.get('repo'),
                 'source_type': 'official-seed',
                 'resource_type': ['cli-tool'],
@@ -61,6 +71,13 @@ def ensure_official_seed(projects, tools):
                 'last_analyzed': None,
                 'benchmark_ref': None,
             }
+        else:
+            # Repair empty URL on existing official seeds (e.g. closed tools with no website)
+            existing = by_id[rid]
+            if not existing.get('url'):
+                existing['url'] = url
+            if existing.get('repo') in (None, '') and t.get('repo'):
+                existing['repo'] = t.get('repo')
     return list(by_id.values())
 
 def project_score(p):

@@ -79,7 +79,8 @@
       "cli-tool"
     ],
     "target_tools": [
-      "cursor"
+      "cursor",
+      "windsurf"
     ],
     "summary": "Enable AI assistant clients like Cursor, Windsurf and Claude Desktop to control Unreal Engine through natural language using the Model Context Protocol (MCP).",
     "i18n": {
@@ -465,7 +466,9 @@
     "resource_type": [
       "agent-framework"
     ],
-    "target_tools": [],
+    "target_tools": [
+      "openclaw"
+    ],
     "summary": "A clean web dashboard for OpenClaw. Connect your Gateway, manage agents, and ship faster. ⭐️ Star if you like it!",
     "i18n": {
       "zh": {
@@ -1168,7 +1171,7 @@
       "mcp-server"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "github-copilot"
     ],
     "summary": "Keyboard-first local Markdown notes with Vim motions, diagrams, and MCP integration.",
     "i18n": {
@@ -1239,7 +1242,8 @@
       "claude-code",
       "codex-cli",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "✨ The open-source multi-agent platform. Every agent gets its own computer, desktop, network, and long-term memory.  You can bring your own key, or host your coding agent like Claude Code, Codex and so on.",
     "i18n": {
@@ -1307,7 +1311,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "The Agentic Framework of the PHP ecosystem to build production-ready AI driven applications. Connect components (LLMs, Tools, vector DBs, memory) to agents that can interact with your data.",
     "i18n": {
@@ -1381,7 +1386,9 @@
     ],
     "target_tools": [
       "claude-code",
-      "cursor"
+      "cursor",
+      "github-copilot",
+      "cline"
     ],
     "summary": "Cut AI token costs 95%+ on code exploration. The leading MCP server for precise, symbol-level GitHub code retrieval via tree-sitter AST. Works with Claude Code, Cursor & any MCP client. 313B+ tokens saved.",
     "i18n": {
@@ -1464,7 +1471,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "ChatWiki 微信公众号的AI知识库工作流Agent平台，RAG大模型AI客服机器人，致力于成为垂直领域的coze、n8n。",
     "i18n": {
@@ -1819,7 +1827,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "zed"
     ],
     "summary": "Turn Claude Code into your offensive security research assistant. Specialized AI subagents for authorized penetration testing plan engagements, analyze recon, research exploits, build detections, audit STIGs, and write reports.",
     "i18n": {
@@ -1969,7 +1978,7 @@
       "agent-framework"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "zed"
     ],
     "summary": "The first distributed AGI system. Thousands of autonomous AI agents collaboratively train models, share experiments via P2P gossip, and push breakthroughs here. Fully peer-to-peer. Join from your browser or CLI.",
     "i18n": {
@@ -2041,7 +2050,7 @@
       "tutorial"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "openclaw"
     ],
     "summary": "A lightweight web dashboard for viewing all your OpenClaw Bots/Agents/Models/Sessions status at a glance.",
     "i18n": {
@@ -2232,7 +2241,8 @@
       "claude-code",
       "codex-cli",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "🌸 Best framework to build web agents, and deploy serverless web automation functions on reliable browser infra.",
     "i18n": {
@@ -2303,7 +2313,9 @@
     ],
     "target_tools": [
       "claude-code",
-      "codex-cli"
+      "codex-cli",
+      "cline",
+      "lovable"
     ],
     "summary": "Free, high-quality text-to-speech API endpoint to replace OpenAI, Azure, or ElevenLabs",
     "i18n": {
@@ -2384,7 +2396,7 @@
       "agent-framework"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "zed"
     ],
     "summary": "AI coding agent optimized for small LLMs. 87% benchmark with 4B-active model.",
     "i18n": {
@@ -2717,7 +2729,10 @@
       "opencode",
       "qoder",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "warp",
+      "cline",
+      "replit"
     ],
     "summary": "✨ Agentic chat experience in your terminal. Build applications using natural language.",
     "i18n": {
@@ -2793,7 +2808,8 @@
       "skills"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "A collection of my favorite custom Claude Code resources to make life easier.",
     "i18n": {
@@ -3298,7 +3314,7 @@
       "agent-framework"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "augment-code"
     ],
     "summary": "AgentFlow: In-the-Flow Agentic System Optimization",
     "i18n": {
@@ -3429,7 +3445,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "Field Theory CLI for bookmarks, Library, commands, and agent workflows",
     "i18n": {
@@ -3610,7 +3627,7 @@
       "tutorial"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "lovable"
     ],
     "summary": "OpenLake is a high performance storage engine for efficient LLM inference and GPU Training",
     "i18n": {
@@ -3683,7 +3700,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "codex-cli"
+      "codex-cli",
+      "v0-dev"
     ],
     "summary": "Starter-kit to build constrained agents with Nextjs, FastAPI and Langchain",
     "i18n": {
@@ -3949,7 +3967,8 @@
       "skills"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "Two paired Claude skills · 90+ recon modules · 48 secret-regex patterns · 80+ dorks · 9 read-only credential validators · 27 attack-path templates · 5,500+ lines of structured tradecraft. Drop-in SKILL.md files that turn Claude into a god-m",
     "i18n": {
@@ -4284,7 +4303,9 @@
       "claude-code",
       "codex-cli",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "replit"
     ],
     "summary": "Skybridge is a full-stack TypeScript framework for MCP Apps and ChatGPT Apps. Type-safe. React-powered. Platform-agnostic.",
     "i18n": {
@@ -4601,7 +4622,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "hermes-agent"
+      "hermes-agent",
+      "openclaw"
     ],
     "summary": "A Kubernetes-native control plane for AI agent instance management, with governed AI access, runtime orchestration, and reusable resources across multiple agent runtimes.",
     "i18n": {
@@ -4672,7 +4694,10 @@
       "antigravity-cli",
       "trae",
       "cursor",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "lovable",
+      "replit"
     ],
     "summary": "Knowhere extracts, parses, and outputs structured chunks ready for AI Agents and RAG.",
     "i18n": {
@@ -4832,7 +4857,10 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "kiro",
+      "aider",
+      "replit"
     ],
     "summary": "A desktop app for isolated, parallel agentic development",
     "i18n": {
@@ -5177,7 +5205,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "Practical productivity tools for Claude Code, Codex-CLI, and similar CLI coding agents.",
     "i18n": {
@@ -5252,7 +5281,10 @@
     "target_tools": [
       "codex-cli",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "replit",
+      "openclaw"
     ],
     "summary": "Your on-phone / mobile AI Agent / Claw, capable of operating terminals and performing a wide range of tasks in the Android world || 你的手机 AI 代理，她可以操作终端，也可以完成 Android 世界的广泛任务 ",
     "i18n": {
@@ -5327,7 +5359,8 @@
     ],
     "target_tools": [
       "codex-cli",
-      "hermes-agent"
+      "hermes-agent",
+      "lovable"
     ],
     "summary": "GPT-5 coding examples",
     "i18n": {
@@ -5400,7 +5433,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "Bulk domain availability checking via RDAP, DNS, and WHOIS, with prefix/suffix permutations, regex patterns, MCP, and multiple output formats",
     "i18n": {
@@ -5598,7 +5632,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "A Systematic Analysis and Discussion of Claude Code for Designing Today's and Future AI Agent Systems",
     "i18n": {
@@ -5660,7 +5695,9 @@
       "agent-framework",
       "cli-tool"
     ],
-    "target_tools": [],
+    "target_tools": [
+      "github-copilot"
+    ],
     "summary": "The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub repositories.",
     "i18n": {
       "zh": {
@@ -5917,7 +5954,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "[CVPR 2025] Open-source, End-to-end, Vision-Language-Action model for GUI Agent & Computer Use.",
     "i18n": {
@@ -6220,7 +6258,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "openclaw"
     ],
     "summary": "A HTTP credential proxy and vault for AI agents like Claude Code, OpenClaw, Hermes, custom agents + harnesses, and more.",
     "i18n": {
@@ -6351,7 +6390,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "AI-powered icon generation CLI for React Native & Expo developers. Generate stunning app icons in seconds using OpenAI's latest models.",
     "i18n": {

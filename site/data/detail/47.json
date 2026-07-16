@@ -337,7 +337,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "YAML-native agent workflow execution engine, written in Rust",
     "i18n": {
@@ -784,7 +785,9 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "augment-code",
+      "replit"
     ],
     "summary": "[ICLR 2026] Youtu-GraphRAG: Vertically Unified Agents for Graph Retrieval-Augmented Complex Reasoning",
     "i18n": {
@@ -911,7 +914,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "codex-cli"
+      "codex-cli",
+      "lovable"
     ],
     "summary": "Langtrace 🔍 is an open-source,  Open Telemetry based end-to-end observability tool for LLM applications, providing real-time tracing, evaluations and metrics for popular LLMs, LLM frameworks, vectorDBs and more.. Integrate using Typescript,",
     "i18n": {
@@ -1120,7 +1124,9 @@
       "antigravity-cli",
       "opencode",
       "qoder",
-      "cursor"
+      "cursor",
+      "github-copilot",
+      "cline"
     ],
     "summary": "Universal AI context generator. Saves thousands of tokens per conversation in Claude Code, Cursor, Copilot, Codex, and more.",
     "i18n": {
@@ -1453,7 +1459,7 @@
       "agent-framework"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "manus"
     ],
     "summary": "Multi-Agent System Framework For Complex Tasks",
     "i18n": {
@@ -1904,7 +1910,8 @@
       "skills"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "提取抖音无水印视频链接，视频文案，douyin-mcp-server，mcp，claude skill，支持龙虾",
     "i18n": {
@@ -2032,7 +2039,9 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "opencode"
+      "opencode",
+      "kiro",
+      "aider"
     ],
     "summary": "Nimbalyst - The open-source visual workspace for Claude Code, Codex, and OpenCode. Run multiple coding agents in parallel, edit their work visually in markdown, mockups, and diagrams, and track tasks. Free, MIT-licensed desktop app for macO",
     "i18n": {
@@ -2170,7 +2179,9 @@
       "opencode",
       "qoder",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "replit"
     ],
     "summary": "Cougar CLI - An AI programming agent for the command line",
     "i18n": {
@@ -2306,7 +2317,7 @@
       "cli-tool"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "openclaw"
     ],
     "summary": "A personal 24x7 AI assistant like OpenClaw that runs on your messaging platforms. Send a message on WhatsApp, Telegram, Signal, or iMessage and get responses from Claude with full tool access, persistent memory, scheduled reminders, and int",
     "i18n": {
@@ -2381,7 +2392,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "cursor"
+      "cursor",
+      "cline"
     ],
     "summary": "🏄🏼‍♂️ The blackboard for coding agents - multi-session tool for claude code, cursor, codex, gemini",
     "i18n": {
@@ -2772,7 +2784,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "MedRAX: Medical Reasoning Agent for Chest X-ray - ICML 2025",
     "i18n": {
@@ -3127,7 +3140,9 @@
       "antigravity-cli",
       "opencode",
       "qoder",
-      "cursor"
+      "cursor",
+      "github-copilot",
+      "cline"
     ],
     "summary": "Coding Agent Session Manager for Claude Code / Gemini CLI / Codex CLI / Cursor Agent / Copilot CLI / Cline CLI / OpenCode / Kimi CLI",
     "i18n": {
@@ -3536,7 +3551,9 @@
     "resource_type": [
       "tutorial"
     ],
-    "target_tools": [],
+    "target_tools": [
+      "cline"
+    ],
     "summary": "Library of prompts from the Cline community",
     "i18n": {
       "zh": {
@@ -3596,7 +3613,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Build your own Cowork, AI Scientist and other SoTA Agents just by editing config files. Support anthropic skills. An infinite-horizon agent framework designed for long-running, complex tasks.",
     "i18n": {
@@ -3669,7 +3687,8 @@
       "claude-code",
       "codex-cli",
       "antigravity-cli",
-      "cursor"
+      "cursor",
+      "cline"
     ],
     "summary": "In Anthropic's official Claude plugin directory · 400 professional Agent Skills (PRDs, launches, compliance, CVs & more) for Claude, ChatGPT, Gemini, Cursor & Codex. Try free in-browser, or 'npx pm-claude-skills add'.",
     "i18n": {
@@ -3749,7 +3768,7 @@
       "tutorial"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "lovable"
     ],
     "summary": "该项目包括一个基于 GPT 等大语言模型的长篇小说生成器，同时还有各类小说生成 Prompt 以及教程。我们欢迎社区贡献，持续更新以提供最佳的小说创作体验。",
     "i18n": {
@@ -4090,7 +4109,9 @@
     ],
     "target_tools": [
       "trae",
-      "cursor"
+      "cursor",
+      "windsurf",
+      "kiro"
     ],
     "summary": "🤖 A comprehensive task management system specifically designed for AI assistants. Supports project management, task tracking, team collaboration, and seamless AI integration through MCP (Model Context Protocol). Built with modern tech stack",
     "i18n": {
@@ -4224,7 +4245,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "The Best AI Agent Framework for Agent Collaboration. ",
     "i18n": {
@@ -4292,7 +4314,9 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "cursor"
+      "cursor",
+      "windsurf",
+      "augment-code"
     ],
     "summary": "基于 Tauri 的跨平台桌面应用，用于管理多平台 AI 账号 Augment、Antigravity、Windsurf、Cursor、OpenAI（Codex、API）、Claude Code 与 API 账号，以及订阅、书签管理与邮箱管理。A Tauri-based cross-platform desktop app for managing multi-platform AI accounts (Augment, Antigravity, Windsurf, Curs",
     "i18n": {
@@ -4405,7 +4429,9 @@
     "resource_type": [
       "cli-tool"
     ],
-    "target_tools": [],
+    "target_tools": [
+      "github-copilot"
+    ],
     "summary": "Pick DeepSeek V4 from the Copilot Chat model picker — and keep everything else Copilot already gives you.",
     "i18n": {
       "zh": {
@@ -4470,7 +4496,9 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "github-copilot",
+      "cline"
     ],
     "summary": "Cross-vendor messaging for CLI AI coding agents — let Claude Code, Codex, Gemini & Copilot talk to each other in one team. Bash + SQLite, no daemon, no framework.",
     "i18n": {
@@ -4609,7 +4637,9 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "antigravity-cli"
+      "antigravity-cli",
+      "github-copilot",
+      "cline"
     ],
     "summary": "A desktop app that lets you use your AI subscriptions (Claude, ChatGPT, Gemini, GitHub Copilot) with any coding tool. Wraps CLIProxyAPI with a clean UI for managing connections and tracking usage.",
     "i18n": {
@@ -4739,7 +4769,8 @@
       "mcp-server"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "Google Search Console Insights with Claude AI for SEOs",
     "i18n": {
@@ -5071,7 +5102,7 @@
       "tutorial"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "zed"
     ],
     "summary": "An AI chat bot for small and medium-sized teams, supporting models such as Deepseek, Open AI, Claude, and Gemini. 专为中小团队设计的 AI 聊天应用，支持 Deepseek、Open AI、Claude、Gemini 等模型。",
     "i18n": {
@@ -5598,7 +5629,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "Open-source AI agent harness in native Rust — GUI, CLI, headless, and webapp from one binary. Multi-provider, MCP, skills, plugins, agent teams.",
     "i18n": {
@@ -5754,7 +5786,9 @@
     "target_tools": [
       "claude-code",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "replit"
     ],
     "summary": "A desktop MCP client designed as a tool unitary utility integration, accelerating AI adoption through the Model Context Protocol (MCP) and enabling cross-vendor LLM API orchestration.",
     "i18n": {
@@ -5911,7 +5945,9 @@
     "target_tools": [
       "claude-code",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "replit"
     ],
     "summary": "An IOS Simulator Skill for ClaudeCode. Use it to optimise Claude's ability to build, run and interact with your apps. I mainly use it as an xcodebuild wrapper to save context.",
     "i18n": {
@@ -6126,7 +6162,9 @@
     "target_tools": [
       "claude-code",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "replit"
     ],
     "summary": "A web UI for Claude Code agents",
     "i18n": {
@@ -6517,7 +6555,10 @@
       "codex-cli",
       "antigravity-cli",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "v0-dev",
+      "replit"
     ],
     "summary": "Formerly Better Chatbot. Navigator is an open-source AI workspace for agents, MCP and workflow automation.",
     "i18n": {
@@ -6666,7 +6707,9 @@
       "antigravity-cli",
       "opencode",
       "qoder",
-      "cursor"
+      "cursor",
+      "cline",
+      "openclaw"
     ],
     "summary": "Cookiy AI Skill for AI agents (Claude, Codex, Cursor, OpenClaw) — end-to-end user research: AI interviews, synthetic users, quant surveys, participant recruitment.",
     "i18n": {

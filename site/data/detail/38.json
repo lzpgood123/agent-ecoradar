@@ -89,7 +89,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "An agent capable of self-evolving and dynamically hardening security",
     "i18n": {
@@ -221,7 +222,10 @@
       "antigravity-cli",
       "opencode",
       "qoder",
-      "cursor"
+      "cursor",
+      "github-copilot",
+      "cline",
+      "openclaw"
     ],
     "summary": "📚 Sync skills across all AI CLI tools with one command and simplify team sharing. Supporting Codex, Claude Code, OpenClaw & more",
     "i18n": {
@@ -1164,7 +1168,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "A agent framework based on the tutorial hello-agents",
     "i18n": {
@@ -1413,7 +1418,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "codex-cli"
+      "codex-cli",
+      "lovable"
     ],
     "summary": "Python & JS/TS SDK for running AI-generated code/code interpreting in your AI app ",
     "i18n": {
@@ -1550,7 +1556,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "[Survey] A Comprehensive Survey of Self-Evolving AI Agents: A New Paradigm Bridging Foundation Models and Lifelong Agentic Systems",
     "i18n": {
@@ -1618,7 +1625,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Security Scanner for Agent Skills",
     "i18n": {
@@ -1685,7 +1693,8 @@
     "target_tools": [
       "claude-code",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Build, run and scale AI agents like API and microservices - observable,auditable and identity-aware from day one.",
     "i18n": {
@@ -1829,7 +1838,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "Official TestSprite CLI — AI-powered automated testing from your terminal",
     "i18n": {
@@ -1899,7 +1909,9 @@
       "rules"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline",
+      "openclaw"
     ],
     "summary": "Skill that audits and rewrites content to remove AI writing patterns. Use it with your favorite agents including Claude Code, OpenClaw, and Hermes.",
     "i18n": {
@@ -2167,7 +2179,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "An AI agent for teams, communities, and multi-user environments.",
     "i18n": {
@@ -2540,7 +2553,8 @@
       "cli-tool"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "warp"
     ],
     "summary": "Customize Claude Code's system prompts, create custom toolsets, input pattern highlighters, themes/thinking verbs/spinners, customize input box & user message styling, support AGENTS.md, unlock private/unreleased features, and much more.  S",
     "i18n": {
@@ -2623,7 +2637,8 @@
       "mcp-server"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "augment-code"
     ],
     "summary": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
     "i18n": {
@@ -2707,7 +2722,8 @@
       "extension"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "The most comprehensive toolkit for Claude Code -- 135 agents, 35 curated skills, 42 commands, 176+ plugins, 20 hooks, 15 rules, 7 templates, 14 MCP configs, 26 companion apps, 52 ecosystem entries, and more.",
     "i18n": {
@@ -2853,7 +2869,8 @@
       "rules"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "A practical Claude Code guide with clear mental models and copy-paste examples — setup, prompt engineering, slash commands, skills, hooks, subagents, agent teams, and MCP servers. Beginner path to power-user depth. Featured in Awesome Claud",
     "i18n": {
@@ -3007,7 +3024,8 @@
       "codex-cli",
       "antigravity-cli",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "LLM Agent Framework in ComfyUI includes MCP sever, Omost,GPT-sovits, ChatTTS,GOT-OCR2.0, and FLUX prompt nodes,access to Feishu,discord,and adapts to all llms with similar openai / aisuite interfaces, such as o1,ollama, gemini, grok, qwen, ",
     "i18n": {
@@ -3089,7 +3107,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "agentUniverse is a LLM multi-agent framework that allows developers to easily build multi-agent applications. ",
     "i18n": {
@@ -3225,7 +3244,8 @@
     ],
     "target_tools": [
       "codex-cli",
-      "opencode"
+      "opencode",
+      "openclaw"
     ],
     "summary": "Codex/ChatGPT multiple account load balancer & proxy with usage tracking, dashboard, and OpenCode-compatible endpoints",
     "i18n": {
@@ -3441,7 +3461,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "Turn any MCP, OpenAPI, or GraphQL server into a CLI — at runtime, with zero codegen",
     "i18n": {
@@ -3508,7 +3529,7 @@
       "tutorial"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "lovable"
     ],
     "summary": "Build a modern LLM from scratch. Every line commented. Explained like we are five.",
     "i18n": {
@@ -3647,7 +3668,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Write context once. Run agents anywhere. Own your data and the models.",
     "i18n": {
@@ -3802,7 +3824,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "codex-cli"
+      "codex-cli",
+      "cline"
     ],
     "summary": "One Hub All LLMs For You | 为个人打造的 LLM API 聚合网关",
     "i18n": {
@@ -4007,7 +4030,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "codex-cli"
+      "codex-cli",
+      "aider"
     ],
     "summary": "The AI Agent Workforce Platform. Run a hundred AI coding agents across your own machines — schedule, isolate, and steer them all from one console.",
     "i18n": {
@@ -4338,7 +4362,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "Build your own Claude Code from scratch.  🔍 Claude Code 开源了 50 万行代码，读不动？用 ~5000 行 TypeScript / Python 从零复现核心架构，11 章分步教程带你理解 coding agent 精髓",
     "i18n": {
@@ -4782,7 +4807,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "MCP server that enables AI assistants to interact with Google Gemini CLI, leveraging Gemini's massive token window for large file analysis and codebase understanding",
     "i18n": {
@@ -4985,7 +5011,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "The paper list of \"Memory in the Age of AI Agents: A Survey\"",
     "i18n": {
@@ -5114,7 +5141,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "🇫🇷  Skills pour agents IA spécialisés dans la bureaucratie française : Comptable, Notaire, ...",
     "i18n": {
@@ -5376,7 +5404,9 @@
       "codex-cli",
       "opencode",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit",
+      "openclaw"
     ],
     "summary": "A persistent, unified memory layer for all your AI agents (e.g. Claude Code, Codex), backed by Markdown and Milvus.",
     "i18n": {
@@ -5642,7 +5672,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "STEP-GUI: The top GUI agent solution in the galaxy.  Developed by the StepFun-GELab team and powered by StepFun’s cutting-edge research capabilities.",
     "i18n": {
@@ -6164,7 +6195,7 @@
       "mcp-server"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "aider"
     ],
     "summary": "ChatMCP is an AI chat client implementing the Model Context Protocol (MCP).",
     "i18n": {
@@ -6566,7 +6597,9 @@
       "mcp-server"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline",
+      "openclaw"
     ],
     "summary": "법제처 국가법령정보 MCP — 법령·판례·조례 조회부터 인용 환각 검증까지 · Korean law MCP for LLMs",
     "i18n": {
@@ -6641,7 +6674,8 @@
       "tutorial"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "kiro",
+      "aider"
     ],
     "summary": "AI IDE for hardware development, support Arduino, MicroPython, ESP32, STM32, RP2040, Nrf5x...",
     "i18n": {

@@ -89,7 +89,8 @@
       "skills"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "openclaw"
     ],
     "summary": "A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK",
     "i18n": {
@@ -217,7 +218,7 @@
       "tutorial"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "augment-code"
     ],
     "summary": "An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citations.",
     "i18n": {
@@ -358,7 +359,10 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "lovable",
+      "replit"
     ],
     "summary": "AIHawk aims to easy job hunt process by automating the job application process. Utilizing artificial intelligence, it enables users to apply for multiple jobs in a tailored way.",
     "i18n": {
@@ -438,7 +442,9 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "hermes-agent"
+      "hermes-agent",
+      "aider",
+      "openclaw"
     ],
     "summary": "Free, local, open-source 24/7 Cowork app for OpenClaw, Hermes Agent, Claude Code, Codex, OpenCode, Gemini CLI and 20+ more CLI | Customize your assistants | Star if you like it!",
     "i18n": {
@@ -525,7 +531,8 @@
       "antigravity-cli",
       "opencode",
       "qoder",
-      "hermes-agent"
+      "hermes-agent",
+      "cline"
     ],
     "summary": "runs anywhere. uses anything",
     "i18n": {
@@ -597,7 +604,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
     "i18n": {
@@ -675,7 +683,8 @@
       "cli-tool"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "CLI tool for configuring and monitoring Claude Code",
     "i18n": {
@@ -1029,7 +1038,9 @@
       "agent-framework"
     ],
     "target_tools": [
-      "codex-cli"
+      "codex-cli",
+      "augment-code",
+      "lovable"
     ],
     "summary": "This repository showcases various advanced techniques for Retrieval-Augmented Generation (RAG) systems. Each technique has a detailed notebook tutorial.",
     "i18n": {
@@ -1458,7 +1469,8 @@
       "skills"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "Clone any website with one command using AI coding agents",
     "i18n": {
@@ -1752,7 +1764,9 @@
       "tutorial"
     ],
     "target_tools": [
-      "cursor"
+      "cursor",
+      "windsurf",
+      "lovable"
     ],
     "summary": "An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others.",
     "i18n": {
@@ -1828,7 +1842,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Build and run agents you can see, understand and trust.",
     "i18n": {
@@ -2097,7 +2112,8 @@
       "claude-code",
       "codex-cli",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Get 10X more out of Claude Code, Codex or any coding agent",
     "i18n": {
@@ -2308,7 +2324,9 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "antigravity-cli"
+      "antigravity-cli",
+      "cline",
+      "lovable"
     ],
     "summary": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Ge",
     "i18n": {
@@ -2392,7 +2410,8 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "antigravity-cli"
+      "antigravity-cli",
+      "cline"
     ],
     "summary": "A list of free LLM inference resources accessible via API.",
     "i18n": {
@@ -2466,7 +2485,10 @@
       "opencode",
       "qoder",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "warp",
+      "cline",
+      "replit"
     ],
     "summary": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
     "i18n": {
@@ -2739,7 +2761,7 @@
       "agent-framework"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "manus"
     ],
     "summary": "Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity. 🔔 Official updates only via twitter @Martin993886460 (Beware of fake account)",
     "i18n": {
@@ -2813,7 +2835,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "Make Any Website into CLI & Use your logged-in browser by AI agent. ",
     "i18n": {
@@ -2950,7 +2973,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
     "i18n": {
@@ -3023,7 +3047,12 @@
       "claude-code",
       "codex-cli",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "kiro",
+      "aider",
+      "cline",
+      "junie",
+      "replit"
     ],
     "summary": "A powerful MCP toolkit for coding, providing semantic retrieval and editing capabilities  - the IDE for your agent",
     "i18n": {
@@ -3102,7 +3131,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
     "i18n": {
@@ -3374,7 +3404,11 @@
       "tutorial"
     ],
     "target_tools": [
-      "cursor"
+      "cursor",
+      "windsurf",
+      "kiro",
+      "zed",
+      "aider"
     ],
     "summary": "The Cursor for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your React App with AI",
     "i18n": {
@@ -3455,7 +3489,8 @@
       "tutorial"
     ],
     "target_tools": [
-      "hermes-agent"
+      "hermes-agent",
+      "openclaw"
     ],
     "summary": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
     "i18n": {
@@ -3522,7 +3557,10 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline",
+      "kilo-code",
+      "junie"
     ],
     "summary": "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.",
     "i18n": {
@@ -3974,7 +4012,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "An Open Phone Agent Model & Framework. Unlocking the AI Phone for Everyone",
     "i18n": {
@@ -4105,7 +4144,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "Create beautiful slides on the web using a coding agent's frontend skills",
     "i18n": {
@@ -4181,7 +4221,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "codex-cli"
+      "codex-cli",
+      "github-copilot"
     ],
     "summary": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI,",
     "i18n": {
@@ -4391,7 +4432,10 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "cursor"
+      "cursor",
+      "github-copilot",
+      "cline",
+      "manus"
     ],
     "summary": "Persistent file-based planning for AI coding agents and long-running agentic tasks. Crash-proof markdown plans that survive context loss and /clear, plus a deterministic completion gate and multi-agent shared state on disk. Manus-style. Wor",
     "i18n": {
@@ -4605,7 +4649,10 @@
       "claude-code",
       "codex-cli",
       "cursor",
-      "hermes-agent"
+      "hermes-agent",
+      "github-copilot",
+      "cline",
+      "openclaw"
     ],
     "summary": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
     "i18n": {
@@ -4940,7 +4987,9 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "warp",
+      "cline"
     ],
     "summary": "Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents. Built for multitasking, organization, and programmability.",
     "i18n": {
@@ -5684,7 +5733,8 @@
       "tutorial"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "zed"
     ],
     "summary": "A configuration framework that enhances Claude Code with specialized commands, cognitive personas, and development methodologies.",
     "i18n": {
@@ -5813,7 +5863,9 @@
       "agent-framework"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "zed",
+      "cline"
     ],
     "summary": "A collection of 100+ specialized Claude Code subagents covering a wide range of development use cases",
     "i18n": {
@@ -6220,7 +6272,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
     "i18n": {
@@ -6298,7 +6351,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.",
     "i18n": {
@@ -6563,7 +6617,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.",
     "i18n": {
@@ -6635,7 +6690,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "cursor"
+      "cursor",
+      "windsurf"
     ],
     "summary": "A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you ",
     "i18n": {
@@ -6701,7 +6757,7 @@
       "tutorial"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "lovable"
     ],
     "summary": "Automate browser based workflows with AI",
     "i18n": {
@@ -6778,7 +6834,9 @@
     "resource_type": [
       "tutorial"
     ],
-    "target_tools": [],
+    "target_tools": [
+      "augment-code"
+    ],
     "summary": "\"RAG-Anything: All-in-One RAG Framework\"",
     "i18n": {
       "zh": {
@@ -6903,7 +6961,10 @@
     ],
     "target_tools": [
       "claude-code",
-      "cursor"
+      "cursor",
+      "kiro",
+      "aider",
+      "cline"
     ],
     "summary": "A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more.",
     "i18n": {

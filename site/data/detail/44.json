@@ -8,7 +8,7 @@
       "cli-tool"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "github-copilot"
     ],
     "summary": "Local CLI Copilot, powered by Ollama. 💻🦙",
     "i18n": {
@@ -205,7 +205,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "一款包含了 Prompt管理，Skill管理，Agent管理的一站式AI工具箱，助你高效管理提示词，一键分发skills ，一站式管理Agent资产，并实现云同步，备份，版本管理 | An all-in-one AI toolbox for prompt, agent, and skills management. Reuse prompts, distribute skills with one click, manage agent assets, and support",
     "i18n": {
@@ -472,7 +473,9 @@
       "claude-code",
       "codex-cli",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "replit"
     ],
     "summary": "ktx is an executable context layer for data and analytics agents 🐙 Allow Claude Code, Codex, or other AI agents to query analytical databases accurately and with full context of your company",
     "i18n": {
@@ -748,7 +751,9 @@
       "codex-cli",
       "opencode",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "replit"
     ],
     "summary": "Run Coding Agents in Sandboxes. Control Them Over HTTP. Supports Claude Code, Codex, OpenCode, and Amp.",
     "i18n": {
@@ -983,7 +988,9 @@
     ],
     "target_tools": [
       "claude-code",
-      "codex-cli"
+      "codex-cli",
+      "cline",
+      "openclaw"
     ],
     "summary": "Hivemind turns your traces into reusable skills across agents",
     "i18n": {
@@ -1436,7 +1443,7 @@
       "agent-framework"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "augment-code"
     ],
     "summary": "OctoTools: An agentic framework with extensible tools for complex reasoning",
     "i18n": {
@@ -1564,7 +1571,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "AI Browser Automation",
     "i18n": {
@@ -1694,7 +1702,7 @@
       "tutorial"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "zed"
     ],
     "summary": "A high-performance inference engine for LLM, VLM, DiT and REC models, optimized for diverse AI accelerators. It is hosted in OpenAtom Foundation.",
     "i18n": {
@@ -1762,7 +1770,9 @@
     "resource_type": [
       "agent-framework"
     ],
-    "target_tools": [],
+    "target_tools": [
+      "zed"
+    ],
     "summary": "GPT based autonomous agent designed to create personalized newspapers tailored to user preferences. ",
     "i18n": {
       "zh": {
@@ -2160,7 +2170,9 @@
     ],
     "target_tools": [
       "claude-code",
-      "cursor"
+      "cursor",
+      "windsurf",
+      "cline"
     ],
     "summary": "An official Qdrant Model Context Protocol (MCP) server implementation",
     "i18n": {
@@ -2357,7 +2369,9 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit",
+      "openclaw"
     ],
     "summary": "  AI content workspace for Chinese creators: desktop writing, research, prompt   library, knowledge base, and multi-model workflows.",
     "i18n": {
@@ -2492,7 +2506,9 @@
     "resource_type": [
       "tutorial"
     ],
-    "target_tools": [],
+    "target_tools": [
+      "v0-dev"
+    ],
     "summary": "An open-source, self-hosted AI code review bot powered by Vercel.",
     "i18n": {
       "zh": {
@@ -2558,7 +2574,9 @@
     "target_tools": [
       "claude-code",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "zed",
+      "replit"
     ],
     "summary": "Lightweight coding agent written in Rust, optimized for memory footprint and performance",
     "i18n": {
@@ -2632,7 +2650,8 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "goose"
+      "goose",
+      "aider"
     ],
     "summary": "HTTP API for Claude Code, Goose, Aider, Gemini, Amp, and Codex",
     "i18n": {
@@ -2695,7 +2714,9 @@
       "mcp-server"
     ],
     "target_tools": [
-      "cursor"
+      "cursor",
+      "warp",
+      "v0-dev"
     ],
     "summary": "Run production apps without thinking about infrastructure. On your server or ours. Fully agentic.",
     "i18n": {
@@ -2969,7 +2990,9 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "cursor"
+      "cursor",
+      "windsurf",
+      "zed"
     ],
     "summary": "Your AI agent skills, finally organized. A macOS app to browse, edit, and manage skills across Claude Code, Cursor, Codex, Windsurf, and Amp.",
     "i18n": {
@@ -3183,7 +3206,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "An AI co-worker with its own computer. Self-evolving, persistent memory, MCP server, secure credential collection, email identity. Built on the Claude Agent SDK.",
     "i18n": {
@@ -3321,7 +3345,8 @@
     "target_tools": [
       "claude-code",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Agent skill to turn any arxiv paper into a working implementation",
     "i18n": {
@@ -3387,7 +3412,7 @@
       "agent-framework"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "github-copilot"
     ],
     "summary": "Open-Source Generative UI Framework",
     "i18n": {
@@ -3466,7 +3491,9 @@
     ],
     "target_tools": [
       "claude-code",
-      "cursor"
+      "cursor",
+      "github-copilot",
+      "cline"
     ],
     "summary": "Give your AI agent n8n superpowers. 537 nodes with full schemas, 7,700+ templates, Git-like sync, and TypeScript workflows.",
     "i18n": {
@@ -3612,7 +3639,9 @@
       "claude-code",
       "codex-cli",
       "antigravity-cli",
-      "opencode"
+      "opencode",
+      "github-copilot",
+      "cline"
     ],
     "summary": "A coding agent CLI hook that acts as a safety net, catching destructive git and filesystem commands before they execute. Supports Codex, Claude Code, OpenCode, Gemini CLI, Copilot CLI, Kimi Code and Pi.",
     "i18n": {
@@ -3816,7 +3845,8 @@
     "target_tools": [
       "codex-cli",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "AI video agents framework for next-gen video interactions and workflows.",
     "i18n": {
@@ -4191,7 +4221,7 @@
       "extension"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "github-copilot"
     ],
     "summary": "VS Code extension for LLM-assisted code/text completion",
     "i18n": {
@@ -4318,7 +4348,7 @@
       "tutorial"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "lovable"
     ],
     "summary": "E2B Desktop Sandbox for LLMs. E2B Sandbox with desktop graphical environment that you can connect to any LLM for secure computer use.",
     "i18n": {
@@ -4474,7 +4504,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "antigravity-cli"
+      "antigravity-cli",
+      "github-copilot"
     ],
     "summary": "Free, Micro AI Code Reviews That Run on Git Commit",
     "i18n": {
@@ -4549,7 +4580,7 @@
       "tutorial"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "lovable"
     ],
     "summary": "Generate music based on natural language prompts using LLMs running locally",
     "i18n": {
@@ -4834,7 +4865,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "모두 파싱해버리겠다 — HWP3·HWP·HWPX·HWPML·PDF·XLS·XLSX·DOCX → Markdown. 신구대조·양식 자동 채우기·MCP 통합 (CLI + MCP Server) | Parse Korean documents (HWP3-5, HWPX, HWPML, PDF, Office) to Markdown — CLI + MCP Server with form-filler & diff",
     "i18n": {
@@ -5033,7 +5065,7 @@
       "agent-framework"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "openclaw"
     ],
     "summary": "ClawTeam fork fully adapted for OpenClaw — multi-agent swarm coordination with OpenClaw as the default agent",
     "i18n": {
@@ -5309,7 +5341,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "codex-cli"
+      "codex-cli",
+      "cline"
     ],
     "summary": "AI automation skills specifically designed for Unity",
     "i18n": {
@@ -5522,7 +5555,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "AgentQL is a suite of tools for connecting your AI to the web. Featuring a query language and Playwright integrations for interacting with elements and extracting data quickly, precisely, and at scale. Includes REST API, Python and JavaScri",
     "i18n": {
@@ -5855,7 +5889,9 @@
     "resource_type": [
       "cli-tool"
     ],
-    "target_tools": [],
+    "target_tools": [
+      "github-copilot"
+    ],
     "summary": "Code editing environment with an AI copilot and real-time collaboration",
     "i18n": {
       "zh": {
@@ -5975,7 +6011,9 @@
     "resource_type": [
       "tutorial"
     ],
-    "target_tools": [],
+    "target_tools": [
+      "github-copilot"
+    ],
     "summary": "AI-powered git commit message rewriter using Ollama or GPT",
     "i18n": {
       "zh": {
@@ -6119,7 +6157,7 @@
       "mcp-server"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "github-copilot"
     ],
     "summary": "Model Context Protocol for WinDbg.",
     "i18n": {
@@ -6190,7 +6228,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "ReSearch: Learning to Reason with Search for LLMs via Reinforcement Learning & ReCall: Learning to Reason with Tool Call for LLMs via Reinforcement Learning",
     "i18n": {
@@ -6259,7 +6298,9 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "cursor"
+      "cursor",
+      "github-copilot",
+      "windsurf"
     ],
     "summary": "Spec-Driven Development for serious software developers. Spec Coding with with Claude, Cursor, Gemini, Codex. Kanban dashboard, git worktrees, auto-merge and more.",
     "i18n": {
@@ -6729,7 +6770,8 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "opencode"
+      "opencode",
+      "cline"
     ],
     "summary": "Route, manage, and analyze your LLM requests across multiple providers with a unified API interface.",
     "i18n": {

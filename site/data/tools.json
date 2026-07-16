@@ -436,5 +436,634 @@
         "name": "Hermes Agent"
       }
     }
+  },
+  {
+    "id": "github-copilot",
+    "name": "GitHub Copilot",
+    "vendor": "GitHub / Microsoft",
+    "primary_type": "ai-assistant",
+    "repo": "github/copilot.vim",
+    "website": "https://github.com/features/copilot",
+    "docs": "https://docs.github.com/en/copilot",
+    "aliases": [
+      "GitHub Copilot",
+      "Copilot",
+      "gh copilot",
+      "copilot.vim"
+    ],
+    "config_files": [],
+    "extension_points": [],
+    "related_concepts": [],
+    "tracking_priority": "medium",
+    "status": "active",
+    "tool_kind": "open",
+    "onboard_state": "done",
+    "onboarded_at": "2026-07-16T23:05:23.784202",
+    "i18n": {
+      "zh": {
+        "name": "GitHub Copilot"
+      },
+      "en": {
+        "name": "GitHub Copilot"
+      }
+    }
+  },
+  {
+    "id": "windsurf",
+    "name": "Windsurf",
+    "vendor": "Codeium / Exafunction",
+    "primary_type": "ai-ide",
+    "repo": "Exafunction/codeium",
+    "website": "https://windsurf.com",
+    "docs": "https://docs.windsurf.com",
+    "aliases": [
+      "Windsurf",
+      "Codeium Windsurf",
+      "windsurf editor"
+    ],
+    "config_files": [],
+    "extension_points": [],
+    "related_concepts": [],
+    "tracking_priority": "medium",
+    "status": "active",
+    "tool_kind": "open",
+    "onboard_state": "done",
+    "onboarded_at": "2026-07-16T23:08:41.286476",
+    "i18n": {
+      "zh": {
+        "name": "Windsurf"
+      },
+      "en": {
+        "name": "Windsurf"
+      }
+    }
+  },
+  {
+    "id": "kiro",
+    "name": "Kiro",
+    "vendor": "AWS",
+    "primary_type": "ai-ide",
+    "repo": null,
+    "website": "https://kiro.dev",
+    "docs": "https://kiro.dev/docs",
+    "aliases": [
+      "Kiro",
+      "Kiro IDE",
+      "AWS Kiro"
+    ],
+    "config_files": [],
+    "extension_points": [],
+    "related_concepts": [],
+    "tracking_priority": "medium",
+    "status": "active",
+    "tool_kind": "closed",
+    "onboard_state": "done",
+    "onboarded_at": "2026-07-16T23:16:44.161112",
+    "i18n": {
+      "zh": {
+        "name": "Kiro"
+      },
+      "en": {
+        "name": "Kiro"
+      }
+    }
+  },
+  {
+    "id": "zed",
+    "name": "Zed",
+    "vendor": "Zed Industries",
+    "primary_type": "ai-ide",
+    "repo": "zed-industries/zed",
+    "website": "https://zed.dev",
+    "docs": "https://zed.dev/docs",
+    "aliases": [
+      "Zed",
+      "Zed editor",
+      "zed.dev"
+    ],
+    "config_files": [],
+    "extension_points": [],
+    "related_concepts": [],
+    "tracking_priority": "medium",
+    "status": "active",
+    "tool_kind": "open",
+    "onboard_state": "done",
+    "onboarded_at": "2026-07-16T23:19:58.586630",
+    "i18n": {
+      "zh": {
+        "name": "Zed"
+      },
+      "en": {
+        "name": "Zed"
+      }
+    }
+  },
+  {
+    "id": "warp",
+    "name": "Warp",
+    "vendor": "Warp",
+    "primary_type": "terminal-agent",
+    "repo": "warpdotdev/Warp",
+    "website": "https://www.warp.dev",
+    "docs": "https://docs.warp.dev",
+    "aliases": [
+      "Warp",
+      "Warp terminal",
+      "Warp AI"
+    ],
+    "config_files": [],
+    "extension_points": [],
+    "related_concepts": [],
+    "tracking_priority": "medium",
+    "status": "active",
+    "tool_kind": "open",
+    "onboard_state": "done",
+    "onboarded_at": "2026-07-16T23:23:09.615960",
+    "i18n": {
+      "zh": {
+        "name": "Warp"
+      },
+      "en": {
+        "name": "Warp"
+      }
+    }
+  },
+  {
+    "id": "aider",
+    "name": "Aider",
+    "vendor": "Aider",
+    "primary_type": "terminal-agent",
+    "repo": "Aider-AI/aider",
+    "website": "https://aider.chat",
+    "docs": "https://aider.chat/docs",
+    "aliases": [
+      "Aider",
+      "aider-chat",
+      "Aider AI"
+    ],
+    "config_files": [],
+    "extension_points": [],
+    "related_concepts": [],
+    "tracking_priority": "medium",
+    "status": "active",
+    "tool_kind": "open",
+    "onboard_state": "done",
+    "onboarded_at": "2026-07-16T23:26:22.429842",
+    "i18n": {
+      "zh": {
+        "name": "Aider"
+      },
+      "en": {
+        "name": "Aider"
+      }
+    }
+  },
+  {
+    "id": "tongyi-lingma",
+    "name": "通义灵码",
+    "vendor": "Alibaba Cloud",
+    "primary_type": "ai-assistant",
+    "repo": null,
+    "website": "https://lingma.aliyun.com",
+    "docs": "https://help.aliyun.com/zh/lingma/",
+    "aliases": [
+      "通义灵码",
+      "Tongyi Lingma",
+      "Lingma",
+      "Alibaba Lingma"
+    ],
+    "config_files": [],
+    "extension_points": [],
+    "related_concepts": [],
+    "tracking_priority": "medium",
+    "status": "active",
+    "tool_kind": "closed",
+    "onboard_state": "done",
+    "onboarded_at": "2026-07-16T23:29:29.964974",
+    "i18n": {
+      "zh": {
+        "name": "通义灵码"
+      },
+      "en": {
+        "name": "通义灵码"
+      }
+    }
+  },
+  {
+    "id": "comate",
+    "name": "Comate",
+    "vendor": "Baidu",
+    "primary_type": "ai-assistant",
+    "repo": null,
+    "website": "https://comate.baidu.com",
+    "docs": "https://comate.baidu.com",
+    "aliases": [
+      "Comate",
+      "Baidu Comate",
+      "文心快码"
+    ],
+    "config_files": [],
+    "extension_points": [],
+    "related_concepts": [],
+    "tracking_priority": "medium",
+    "status": "active",
+    "tool_kind": "closed",
+    "onboard_state": "done",
+    "onboarded_at": "2026-07-16T23:32:40.766737",
+    "i18n": {
+      "zh": {
+        "name": "Comate"
+      },
+      "en": {
+        "name": "Comate"
+      }
+    }
+  },
+  {
+    "id": "codegeex",
+    "name": "CodeGeeX",
+    "vendor": "Zhipu AI",
+    "primary_type": "ai-assistant",
+    "repo": "THUDM/CodeGeeX",
+    "website": "https://codegeex.cn",
+    "docs": "https://codegeex.cn",
+    "aliases": [
+      "CodeGeeX",
+      "codegeex",
+      "智谱 CodeGeeX"
+    ],
+    "config_files": [],
+    "extension_points": [],
+    "related_concepts": [],
+    "tracking_priority": "medium",
+    "status": "active",
+    "tool_kind": "open",
+    "onboard_state": "done",
+    "onboarded_at": "2026-07-16T23:35:47.628076",
+    "i18n": {
+      "zh": {
+        "name": "CodeGeeX"
+      },
+      "en": {
+        "name": "CodeGeeX"
+      }
+    }
+  },
+  {
+    "id": "cline",
+    "name": "Cline",
+    "vendor": "Cline",
+    "primary_type": "ide-extension",
+    "repo": "cline/cline",
+    "website": "https://cline.bot",
+    "docs": "https://docs.cline.bot",
+    "aliases": [
+      "Cline",
+      "Claude Dev",
+      "cline.bot"
+    ],
+    "config_files": [],
+    "extension_points": [],
+    "related_concepts": [],
+    "tracking_priority": "medium",
+    "status": "active",
+    "tool_kind": "open",
+    "onboard_state": "done",
+    "onboarded_at": "2026-07-16T23:38:57.078053",
+    "i18n": {
+      "zh": {
+        "name": "Cline"
+      },
+      "en": {
+        "name": "Cline"
+      }
+    }
+  },
+  {
+    "id": "kilo-code",
+    "name": "Kilo Code",
+    "vendor": "Kilo",
+    "primary_type": "ide-extension",
+    "repo": "Kilo-Org/kilocode",
+    "website": "https://kilo.ai",
+    "docs": "https://kilo.ai",
+    "aliases": [
+      "Kilo Code",
+      "KiloCode",
+      "kilo-code"
+    ],
+    "config_files": [],
+    "extension_points": [],
+    "related_concepts": [],
+    "tracking_priority": "medium",
+    "status": "active",
+    "tool_kind": "open",
+    "onboard_state": "done",
+    "onboarded_at": "2026-07-16T23:42:10.191175",
+    "i18n": {
+      "zh": {
+        "name": "Kilo Code"
+      },
+      "en": {
+        "name": "Kilo Code"
+      }
+    }
+  },
+  {
+    "id": "junie",
+    "name": "Junie",
+    "vendor": "JetBrains",
+    "primary_type": "ai-assistant",
+    "repo": null,
+    "website": "https://www.jetbrains.com/junie/",
+    "docs": "https://www.jetbrains.com/help/junie/",
+    "aliases": [
+      "Junie",
+      "JetBrains Junie"
+    ],
+    "config_files": [],
+    "extension_points": [],
+    "related_concepts": [],
+    "tracking_priority": "medium",
+    "status": "active",
+    "tool_kind": "closed",
+    "onboard_state": "done",
+    "onboarded_at": "2026-07-16T23:45:15.699238",
+    "i18n": {
+      "zh": {
+        "name": "Junie"
+      },
+      "en": {
+        "name": "Junie"
+      }
+    }
+  },
+  {
+    "id": "continue",
+    "name": "Continue",
+    "vendor": "Continue",
+    "primary_type": "ide-extension",
+    "repo": "continuedev/continue",
+    "website": "https://continue.dev",
+    "docs": "https://docs.continue.dev",
+    "aliases": [
+      "Continue",
+      "Continue.dev",
+      "continue-dev"
+    ],
+    "config_files": [],
+    "extension_points": [],
+    "related_concepts": [],
+    "tracking_priority": "medium",
+    "status": "active",
+    "tool_kind": "open",
+    "onboard_state": "done",
+    "onboarded_at": "2026-07-16T23:48:24.327674",
+    "i18n": {
+      "zh": {
+        "name": "Continue"
+      },
+      "en": {
+        "name": "Continue"
+      }
+    }
+  },
+  {
+    "id": "augment-code",
+    "name": "Augment Code",
+    "vendor": "Augment",
+    "primary_type": "ai-assistant",
+    "repo": null,
+    "website": "https://www.augmentcode.com",
+    "docs": "https://docs.augmentcode.com",
+    "aliases": [
+      "Augment Code",
+      "Augment",
+      "augmentcode"
+    ],
+    "config_files": [],
+    "extension_points": [],
+    "related_concepts": [],
+    "tracking_priority": "medium",
+    "status": "active",
+    "tool_kind": "closed",
+    "onboard_state": "done",
+    "onboarded_at": "2026-07-16T23:51:52.720583",
+    "i18n": {
+      "zh": {
+        "name": "Augment Code"
+      },
+      "en": {
+        "name": "Augment Code"
+      }
+    }
+  },
+  {
+    "id": "tabnine",
+    "name": "Tabnine",
+    "vendor": "Tabnine",
+    "primary_type": "ai-assistant",
+    "repo": null,
+    "website": "https://www.tabnine.com",
+    "docs": "https://docs.tabnine.com",
+    "aliases": [
+      "Tabnine",
+      "TabNine",
+      "tabnine"
+    ],
+    "config_files": [],
+    "extension_points": [],
+    "related_concepts": [],
+    "tracking_priority": "medium",
+    "status": "active",
+    "tool_kind": "closed",
+    "onboard_state": "done",
+    "onboarded_at": "2026-07-16T23:55:20.756477",
+    "i18n": {
+      "zh": {
+        "name": "Tabnine"
+      },
+      "en": {
+        "name": "Tabnine"
+      }
+    }
+  },
+  {
+    "id": "manus",
+    "name": "Manus",
+    "vendor": "Manus",
+    "primary_type": "agent-platform",
+    "repo": null,
+    "website": "https://manus.im",
+    "docs": "https://manus.im",
+    "aliases": [
+      "Manus",
+      "Manus AI",
+      "manus.im"
+    ],
+    "config_files": [],
+    "extension_points": [],
+    "related_concepts": [],
+    "tracking_priority": "medium",
+    "status": "active",
+    "tool_kind": "closed",
+    "onboard_state": "done",
+    "onboarded_at": "2026-07-16T23:58:57.086682",
+    "i18n": {
+      "zh": {
+        "name": "Manus"
+      },
+      "en": {
+        "name": "Manus"
+      }
+    }
+  },
+  {
+    "id": "v0-dev",
+    "name": "v0.dev",
+    "vendor": "Vercel",
+    "primary_type": "ai-builder",
+    "repo": null,
+    "website": "https://v0.dev",
+    "docs": "https://v0.dev",
+    "aliases": [
+      "v0.dev",
+      "v0",
+      "Vercel v0"
+    ],
+    "config_files": [],
+    "extension_points": [],
+    "related_concepts": [],
+    "tracking_priority": "medium",
+    "status": "active",
+    "tool_kind": "closed",
+    "onboard_state": "done",
+    "onboarded_at": "2026-07-17T00:02:24.751597",
+    "i18n": {
+      "zh": {
+        "name": "v0.dev"
+      },
+      "en": {
+        "name": "v0.dev"
+      }
+    }
+  },
+  {
+    "id": "lovable",
+    "name": "Lovable",
+    "vendor": "Lovable",
+    "primary_type": "ai-builder",
+    "repo": null,
+    "website": "https://lovable.dev",
+    "docs": "https://docs.lovable.dev",
+    "aliases": [
+      "Lovable",
+      "Lovable.dev",
+      "GPT Engineer"
+    ],
+    "config_files": [],
+    "extension_points": [],
+    "related_concepts": [],
+    "tracking_priority": "medium",
+    "status": "active",
+    "tool_kind": "closed",
+    "onboard_state": "done",
+    "onboarded_at": "2026-07-17T00:05:43.563577",
+    "i18n": {
+      "zh": {
+        "name": "Lovable"
+      },
+      "en": {
+        "name": "Lovable"
+      }
+    }
+  },
+  {
+    "id": "replit",
+    "name": "Replit",
+    "vendor": "Replit",
+    "primary_type": "ai-builder",
+    "repo": null,
+    "website": "https://replit.com",
+    "docs": "https://docs.replit.com",
+    "aliases": [
+      "Replit",
+      "Replit Agent",
+      "Ghostwriter"
+    ],
+    "config_files": [],
+    "extension_points": [],
+    "related_concepts": [],
+    "tracking_priority": "medium",
+    "status": "active",
+    "tool_kind": "closed",
+    "onboard_state": "done",
+    "onboarded_at": "2026-07-17T00:08:47.656401",
+    "i18n": {
+      "zh": {
+        "name": "Replit"
+      },
+      "en": {
+        "name": "Replit"
+      }
+    }
+  },
+  {
+    "id": "bolt-new",
+    "name": "Bolt.new",
+    "vendor": "StackBlitz",
+    "primary_type": "ai-builder",
+    "repo": "stackblitz/bolt.new",
+    "website": "https://bolt.new",
+    "docs": "https://bolt.new",
+    "aliases": [
+      "Bolt.new",
+      "Bolt",
+      "StackBlitz Bolt"
+    ],
+    "config_files": [],
+    "extension_points": [],
+    "related_concepts": [],
+    "tracking_priority": "medium",
+    "status": "active",
+    "tool_kind": "open",
+    "onboard_state": "done",
+    "onboarded_at": "2026-07-17T00:11:56.589703",
+    "i18n": {
+      "zh": {
+        "name": "Bolt.new"
+      },
+      "en": {
+        "name": "Bolt.new"
+      }
+    }
+  },
+  {
+    "id": "openclaw",
+    "name": "OpenClaw",
+    "vendor": "OpenClaw",
+    "primary_type": "terminal-agent",
+    "repo": null,
+    "aliases": [
+      "OpenClaw",
+      "openclaw"
+    ],
+    "config_files": [],
+    "extension_points": [],
+    "related_concepts": [],
+    "tracking_priority": "medium",
+    "status": "active",
+    "tool_kind": "closed",
+    "onboard_state": "done",
+    "onboarded_at": "2026-07-17T00:15:22.981237",
+    "website": "https://github.com/search?q=openclaw",
+    "i18n": {
+      "zh": {
+        "name": "OpenClaw"
+      },
+      "en": {
+        "name": "OpenClaw"
+      }
+    }
   }
 ]

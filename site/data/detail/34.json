@@ -264,7 +264,9 @@
       "mcp-server"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline",
+      "openclaw"
     ],
     "summary": "162 production-ready AI agent templates for OpenClaw. SOUL.md configs across 19 categories. Submit yours!",
     "i18n": {
@@ -414,7 +416,8 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "antigravity-cli"
+      "antigravity-cli",
+      "github-copilot"
     ],
     "summary": "Surface AI blindspots before you ship. Put up to 8 AI models on every research, design or coding task.",
     "i18n": {
@@ -489,7 +492,7 @@
       "agent-framework"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "openclaw"
     ],
     "summary": "🦞 OpenClaw (Clawdbot/Moltbot) 汉化版 - 开源个人 AI 助手中文版 | Claude/ChatGPT LLM 接入 | WhatsApp/Telegram/Discord 多平台 | 每小时自动同步 | CLI + Dashboard 全中文 | 全流程搭建教程，以及排错指南！",
     "i18n": {
@@ -1111,7 +1114,10 @@
       "antigravity-cli",
       "opencode",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "replit",
+      "openclaw"
     ],
     "summary": "Multi-agent AI orchestration platform for automation, workflows, and developer tools. Golutra transforms Codex, Claude Code, and OpenClaw into a unified agent system with parallel execution, task orchestration, long-running workflows, and A",
     "i18n": {
@@ -1261,7 +1267,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Agent framework for the JVM. Pronounced Em-BAY-bel /ɛmˈbeɪbəl/",
     "i18n": {
@@ -1458,7 +1465,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "GPT Image 2 prompt gallery, image prompt library, agentic skill, and CLI for OpenAI image generation/editing",
     "i18n": {
@@ -1687,7 +1695,8 @@
       "codex-cli",
       "opencode",
       "cursor",
-      "hermes-agent"
+      "hermes-agent",
+      "cline"
     ],
     "summary": "AI coding platform for teams",
     "i18n": {
@@ -1822,7 +1831,8 @@
       "cli-tool"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "The missing DevTools for Claude Code — inspect session logs, tool calls, token usage, subagents, and context window in a visual UI. Free, open source.",
     "i18n": {
@@ -2299,7 +2309,8 @@
       "cli-tool"
     ],
     "target_tools": [
-      "opencode"
+      "opencode",
+      "warp"
     ],
     "summary": "Neovim 🤝 OpenCode for familiar flow.",
     "i18n": {
@@ -2372,7 +2383,9 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "augment-code",
+      "replit"
     ],
     "summary": "A modular Agentic RAG built with LangGraph — learn Retrieval-Augmented Generation Agents in minutes.",
     "i18n": {
@@ -2572,7 +2585,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "SimpleMem: Efficient Lifelong Memory for LLM Agents — Text & Multimodal",
     "i18n": {
@@ -2651,7 +2665,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "A faster, lighter, cheaper alternative to sandboxes. Run any coding agent inside an isolated Linux VM, with agent orchestration built in.",
     "i18n": {
@@ -2783,7 +2798,7 @@
       "skills"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "augment-code"
     ],
     "summary": "Open-source multimodal retrieval engine (Morphik Core). By Morphik — AI back office for skilled nursing & senior living (morphik.ai).",
     "i18n": {
@@ -3057,7 +3072,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "Developer Control Plane for your AI Agents",
     "i18n": {
@@ -3336,7 +3352,8 @@
       "claude-code",
       "codex-cli",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Agent Skills as a Memory Layer",
     "i18n": {
@@ -3560,7 +3577,10 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "cursor"
+      "cursor",
+      "github-copilot",
+      "windsurf",
+      "kiro"
     ],
     "summary": "Turn approved specs into long-running autonomous implementation. A minimal, adaptable SDD harness with Agent Skills for Claude Code, Codex, Cursor, Copilot, Windsurf, OpenCode, Gemini CLI, and Antigravity.",
     "i18n": {
@@ -3822,7 +3842,8 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "antigravity-cli"
+      "antigravity-cli",
+      "cline"
     ],
     "summary": "18 AI personas deliberate your hardest decisions across multiple LLM providers. Structured multi-round deliberation, confidence-weighted verdicts, genuine model diversity. Install as a Claude Code plugin — one command: /council",
     "i18n": {
@@ -3903,7 +3924,10 @@
       "antigravity-cli",
       "opencode",
       "qoder",
-      "cursor"
+      "cursor",
+      "github-copilot",
+      "windsurf",
+      "cline"
     ],
     "summary": "AI Skills, MCP Tools, and CLI for Unity Engine. Full AI develop and test loop. Use cli for quick setup. Efficient token usage, advanced tools. Any C# method may be turned into a tool by a single line. Works with Claude Code, Gemini, Copilot",
     "i18n": {
@@ -4048,7 +4072,9 @@
     "resource_type": [
       "tutorial"
     ],
-    "target_tools": [],
+    "target_tools": [
+      "zed"
+    ],
     "summary": "Transformers-compatible library for applying various compression algorithms to LLMs for optimized deployment with vLLM",
     "i18n": {
       "zh": {
@@ -4168,7 +4194,12 @@
       "mcp-server"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "zed",
+      "cline",
+      "continue",
+      "augment-code",
+      "v0-dev",
+      "lovable"
     ],
     "summary": "Laravel-focused MCP server for augmenting your AI powered local development experience.",
     "i18n": {
@@ -4295,7 +4326,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Expect tests your agent's code in a real browser",
     "i18n": {
@@ -4481,7 +4513,7 @@
       "agent-framework"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "zed"
     ],
     "summary": "DeepResearchAgent is a hierarchical multi-agent system designed not only for deep research tasks but also for general-purpose task solving. The framework leverages a top-level planning agent to coordinate multiple specialized lower-level ag",
     "i18n": {
@@ -4548,7 +4580,9 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "v0-dev",
+      "replit"
     ],
     "summary": "The Framework for Building Agents",
     "i18n": {
@@ -4741,7 +4775,9 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit",
+      "openclaw"
     ],
     "summary": "🦞 Just talk to your agent — it learns and EVOLVES 🧬.",
     "i18n": {
@@ -5006,7 +5042,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "zed"
     ],
     "summary": "Claude Code plugin that generates individualized knowledge systems from conversation. You describe how you think and work, have a conversation and get a complete second brain as markdown files you own.",
     "i18n": {
@@ -5137,7 +5174,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "codex-cli"
+      "codex-cli",
+      "openclaw"
     ],
     "summary": "GoClaw - GoClaw is OpenClaw rebuilt in Go — with multi-tenant isolation, 5-layer security, and native concurrency. Deploy AI agent teams at scale without compromising on safety.",
     "i18n": {
@@ -5216,7 +5254,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Biomni: a general-purpose biomedical AI agent",
     "i18n": {
@@ -5700,7 +5739,9 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "manus",
+      "replit"
     ],
     "summary": "II-Agent: a new open-source framework to build and deploy intelligent agents",
     "i18n": {
@@ -5773,7 +5814,9 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline",
+      "v0-dev"
     ],
     "summary": "The public gallery of animated pet for Codex, Claude Code, OpenCode y Gemini CLI",
     "i18n": {
@@ -5922,7 +5965,9 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "warp",
+      "cline"
     ],
     "summary": "Like htop, but for AI coding agents. Monitor Claude    Code & Codex CLI sessions, tokens, context window,    rate limits, and ports in real-time.",
     "i18n": {
@@ -6446,7 +6491,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Connect any AI model to 1200+ integrations (MCP, CLI, API)",
     "i18n": {
@@ -6791,7 +6837,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Universal memory layer for AI Agents. It provides scalable, extensible, and interoperable memory storage and retrieval to streamline AI agent state management for next-generation autonomous systems.",
     "i18n": {

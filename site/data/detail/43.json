@@ -346,7 +346,7 @@
       "tutorial"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "openclaw"
     ],
     "summary": "Connect to any agents with WeChat ClawBot.",
     "i18n": {
@@ -863,7 +863,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "A curated list of awesome things related to Anthropic Claude",
     "i18n": {
@@ -941,7 +942,9 @@
       "rules"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline",
+      "openclaw"
     ],
     "summary": "Supports GPT Image 2, Seedance & ComfyUI, with a 1,400+ prompt library, carefully crafted hooks and a multi-task orchestration system",
     "i18n": {
@@ -1221,7 +1224,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "🤖 MLE-Agent: Your intelligent companion for seamless AI engineering and research. 🔍 Integrate with arxiv and paper with code to provide better code/research plans 🧰 OpenAI, Anthropic, Gemini, Ollama, etc supported. :fireworks: Code RAG",
     "i18n": {
@@ -1603,7 +1607,9 @@
       "tutorial"
     ],
     "target_tools": [
-      "cursor"
+      "cursor",
+      "kiro",
+      "aider"
     ],
     "summary": "Open-source Cursor-style agent IDE — but built for reviewability and control. Built-in rust harness; supports 10+ CLIs.",
     "i18n": {
@@ -1681,7 +1687,8 @@
       "antigravity-cli",
       "opencode",
       "qoder",
-      "cursor"
+      "cursor",
+      "cline"
     ],
     "summary": "The control plane for AI coding agents.",
     "i18n": {
@@ -1960,7 +1967,9 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "manus",
+      "replit"
     ],
     "summary": "Lemon AI is the first Full-stack Open-source Self-Evolving General AI Agent, offering a fully local alternative to Agentic platforms like Manus & Genspark AI.🔔 Official updates   X(twitter) @LemonAI_cc",
     "i18n": {
@@ -2159,7 +2168,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "Display giant ASCII-art logos with colorful gradients in your terminal — like Claude Code or Gemini CLI.",
     "i18n": {
@@ -2230,7 +2240,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "Standards for building agents, better",
     "i18n": {
@@ -2423,7 +2434,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Bub it. Build it. A hook-first runtime for agents that live alongside people.",
     "i18n": {
@@ -2499,7 +2511,11 @@
       "opencode",
       "qoder",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "github-copilot",
+      "warp",
+      "cline",
+      "replit"
     ],
     "summary": "A fork of Windows Terminal with native agent integration, right in your command line.",
     "i18n": {
@@ -2825,7 +2841,8 @@
     "target_tools": [
       "claude-code",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Claude Code for Investing",
     "i18n": {
@@ -2896,7 +2913,8 @@
       "mcp-server"
     ],
     "target_tools": [
-      "hermes-agent"
+      "hermes-agent",
+      "openclaw"
     ],
     "summary": "Agent-native flight search & booking. Saved $116 across 5 routes vs Google Flights (verified). 400+ airlines in 5 seconds. Join the community - Star and spread the word",
     "i18n": {
@@ -2975,7 +2993,9 @@
       "agent-framework"
     ],
     "target_tools": [
-      "cursor"
+      "cursor",
+      "github-copilot",
+      "windsurf"
     ],
     "summary": "Grounded Docs MCP Server: Open-Source Alternative to Context7, Nia, and Ref.Tools",
     "i18n": {
@@ -3105,7 +3125,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "A Go framework for building production agent systems with graph workflows, tools, memory, A2A, AG-UI, MCP, evaluation, and observability.",
     "i18n": {
@@ -3339,7 +3360,8 @@
       "claude-code",
       "codex-cli",
       "antigravity-cli",
-      "goose"
+      "goose",
+      "cline"
     ],
     "summary": "A native Emacs buffer to interact with LLM agents powered by ACP",
     "i18n": {
@@ -3412,7 +3434,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Agent-R1: Training Powerful LLM Agents with End-to-End Reinforcement Learning",
     "i18n": {
@@ -3478,7 +3501,8 @@
       "mcp-server"
     ],
     "target_tools": [
-      "codex-cli"
+      "codex-cli",
+      "openclaw"
     ],
     "summary": "A simple yet powerful agent framework for personal assistants, designed to enable intelligent interaction, multi-agent collaboration, and seamless tool integration.",
     "i18n": {
@@ -3547,7 +3571,8 @@
       "tutorial"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "zed"
     ],
     "summary": "Karpathy's LLM-Wiki vision, fully realized — wiki-centric full-lifecycle AI research platform powered by Claude Code",
     "i18n": {
@@ -3610,7 +3635,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "hermes-agent"
+      "hermes-agent",
+      "openclaw"
     ],
     "summary": "Unified real-time search engine skill for AI agents.",
     "i18n": {
@@ -3677,7 +3703,7 @@
       "cli-tool"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "zed"
     ],
     "summary": "A collection of agent-optimized React Native skills for AI coding assistants.",
     "i18n": {
@@ -3859,7 +3885,10 @@
     ],
     "target_tools": [
       "claude-code",
-      "cursor"
+      "cursor",
+      "kiro",
+      "aider",
+      "cline"
     ],
     "summary": "Review-Gate V2 is a powerful rule for the Cursor IDE that helps you get up to 5x more value from your monthly requests. It creates an interactive loop where the AI waits for your follow-up commands—via text, voice, or image upload—allowing ",
     "i18n": {
@@ -3927,7 +3956,9 @@
     "target_tools": [
       "claude-code",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "replit"
     ],
     "summary": "Claude reads its own source code — 17-chapter architectural deep-dive  into Claude Code v2.1.88. EN/ZH bilingual.",
     "i18n": {
@@ -4531,7 +4562,7 @@
       "tutorial"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "zed"
     ],
     "summary": "A SOTA quantization algorithm for high-accuracy low-bit LLM inference, seamlessly optimized for CPU/XPU/CUDA, with multi-datatype support and full compatibility with vLLM, SGLang, and Transformers.",
     "i18n": {
@@ -4607,7 +4638,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "When Philosophy meets AI",
     "i18n": {
@@ -4877,7 +4909,9 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "cursor"
+      "cursor",
+      "windsurf",
+      "openclaw"
     ],
     "summary": "AI 解说大师 — Agent skill；封装 narrator-ai-cli 供 Claude/Codex 等工具调用",
     "i18n": {
@@ -5244,7 +5278,9 @@
     "target_tools": [
       "codex-cli",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "github-copilot",
+      "replit"
     ],
     "summary": "A Plugin-Based Multi-Agent System for In-Editor Academic Writing, Review, and Editing",
     "i18n": {
@@ -5391,7 +5427,10 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "zed",
+      "augment-code",
+      "replit"
     ],
     "summary": "[EMNLP 2025 Oral] MemoryOS is designed to provide a memory operating system for personalized AI agents.",
     "i18n": {
@@ -5592,7 +5631,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "Minimal AI coding agent (~1,000 lines of Python) inspired by Claude Code. Works with any LLM. Think NanoGPT for coding agents. Formerly NanoCoder.",
     "i18n": {
@@ -5872,7 +5912,9 @@
       "claude-code",
       "antigravity-cli",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "replit"
     ],
     "summary": "把最丝滑的通用 Agent 体验带进你的工作流，为 100x 专业用户而生的未来产品，正在实现 proactive Agent 阶段。基于 Claude Agent SDK 的完整开源实践，原生支持飞书群聊调用、灵活接入任意大模型供应商 —— 让顶级 Agent 能力真正跑在你每天用的地方。",
     "i18n": {
@@ -6474,7 +6516,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "AgentEvolver: Towards Efficient Self-Evolving Agent System",
     "i18n": {

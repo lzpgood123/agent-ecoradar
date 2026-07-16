@@ -12,7 +12,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "cursor"
+      "cursor",
+      "cline"
     ],
     "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
     "i18n": {
@@ -25,15 +26,15 @@
         "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote."
       }
     },
-    "stars": 82616,
-    "forks": 4486,
+    "stars": 83929,
+    "forks": 4563,
     "total_score": 89,
     "quantifiable_score": 49,
     "quality_score": 40,
     "tracking_priority": "track",
-    "last_updated": "2026-07-14T08:14:14Z",
+    "last_updated": "2026-07-15T18:56:01Z",
     "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
     "license": "mit",
     "languages": [
       "JavaScript"
@@ -66,15 +67,15 @@
         "summary": "An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention."
       }
     },
-    "stars": 194755,
-    "forks": 109680,
+    "stars": 194771,
+    "forks": 109643,
     "total_score": 88,
     "quantifiable_score": 49,
     "quality_score": 39,
     "tracking_priority": "track",
-    "last_updated": "2026-07-14T08:10:18Z",
+    "last_updated": "2026-07-15T19:05:29Z",
     "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
     "license": "mit",
     "languages": [
       "Rust"
@@ -100,7 +101,10 @@
       "opencode",
       "qoder",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "lovable",
+      "replit"
     ],
     "summary": "🙌 OpenHands: AI-Driven Development",
     "i18n": {
@@ -113,15 +117,15 @@
         "summary": "🙌 OpenHands: AI-Driven Development"
       }
     },
-    "stars": 80721,
-    "forks": 10300,
+    "stars": 80884,
+    "forks": 10335,
     "total_score": 88,
     "quantifiable_score": 49,
     "quality_score": 39,
     "tracking_priority": "track",
-    "last_updated": "2026-07-14T08:13:34Z",
+    "last_updated": "2026-07-15T18:43:30Z",
     "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
     "license": "other",
     "languages": [
       "Python"
@@ -147,7 +151,8 @@
       "codex-cli",
       "trae",
       "cursor",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
     "i18n": {
@@ -160,15 +165,15 @@
         "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server."
       }
     },
-    "stars": 59038,
-    "forks": 4377,
+    "stars": 59338,
+    "forks": 4401,
     "total_score": 88,
     "quantifiable_score": 49,
     "quality_score": 39,
     "tracking_priority": "track",
-    "last_updated": "2026-07-14T08:07:32Z",
+    "last_updated": "2026-07-15T19:10:01Z",
     "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
     "license": "apache-2.0",
     "languages": [
       "Python"
@@ -201,15 +206,15 @@
         "summary": "Skills for Real Engineers. Straight from my .claude directory."
       }
     },
-    "stars": 169034,
-    "forks": 14562,
+    "stars": 172027,
+    "forks": 14772,
     "total_score": 87,
     "quantifiable_score": 49,
     "quality_score": 38,
     "tracking_priority": "track",
-    "last_updated": "2026-07-14T08:12:04Z",
+    "last_updated": "2026-07-15T19:12:14Z",
     "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
     "license": "mit",
     "languages": [
       "Shell"
@@ -231,7 +236,9 @@
     ],
     "target_tools": [
       "claude-code",
-      "codex-cli"
+      "codex-cli",
+      "cline",
+      "openclaw"
     ],
     "summary": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Herme",
     "i18n": {
@@ -244,15 +251,15 @@
         "summary": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Herme"
       }
     },
-    "stars": 87150,
-    "forks": 7538,
+    "stars": 87380,
+    "forks": 7569,
     "total_score": 87,
     "quantifiable_score": 49,
     "quality_score": 38,
     "tracking_priority": "track",
-    "last_updated": "2026-07-14T08:15:28Z",
+    "last_updated": "2026-07-15T18:49:17Z",
     "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
     "license": "apache-2.0",
     "languages": [
       "JavaScript"
@@ -276,7 +283,8 @@
       "codex-cli",
       "opencode",
       "cursor",
-      "hermes-agent"
+      "hermes-agent",
+      "kiro"
     ],
     "summary": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
     "i18n": {
@@ -289,15 +297,15 @@
         "summary": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local"
       }
     },
-    "stars": 59807,
-    "forks": 3729,
+    "stars": 60171,
+    "forks": 3763,
     "total_score": 87,
     "quantifiable_score": 49,
     "quality_score": 38,
     "tracking_priority": "track",
-    "last_updated": "2026-07-14T08:09:45Z",
+    "last_updated": "2026-07-15T19:06:12Z",
     "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
     "license": "mit",
     "languages": [
       "TypeScript"
@@ -324,7 +332,8 @@
       "antigravity-cli",
       "opencode",
       "qoder",
-      "cursor"
+      "cursor",
+      "cline"
     ],
     "summary": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
     "i18n": {
@@ -337,15 +346,15 @@
         "summary": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees."
       }
     },
-    "stars": 55973,
-    "forks": 4611,
+    "stars": 56750,
+    "forks": 4663,
     "total_score": 87,
     "quantifiable_score": 49,
     "quality_score": 38,
     "tracking_priority": "track",
-    "last_updated": "2026-07-14T08:16:32Z",
+    "last_updated": "2026-07-15T18:57:42Z",
     "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
     "license": "mit",
     "languages": [
       "Python"
@@ -379,15 +388,15 @@
         "summary": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM"
       }
     },
-    "stars": 51186,
-    "forks": 5682,
+    "stars": 51250,
+    "forks": 5694,
     "total_score": 86,
     "quantifiable_score": 49,
     "quality_score": 37,
     "tracking_priority": "track",
-    "last_updated": "2026-07-14T08:14:08Z",
+    "last_updated": "2026-07-15T19:11:30Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
     "license": "apache-2.0",
     "languages": [
       "Rust"
@@ -412,7 +421,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "cursor"
+      "cursor",
+      "github-copilot"
     ],
     "summary": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
     "i18n": {
@@ -425,15 +435,15 @@
         "summary": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more."
       }
     },
-    "stars": 73911,
-    "forks": 6155,
+    "stars": 74275,
+    "forks": 6188,
     "total_score": 86,
     "quantifiable_score": 49,
     "quality_score": 37,
     "tracking_priority": "track",
-    "last_updated": "2026-07-14T08:13:22Z",
+    "last_updated": "2026-07-15T18:46:34Z",
     "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
     "license": "mit",
     "languages": [
       "TypeScript"
@@ -455,7 +465,9 @@
     "target_tools": [
       "claude-code",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "replit"
     ],
     "summary": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
     "i18n": {
@@ -468,15 +480,15 @@
         "summary": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1"
       }
     },
-    "stars": 70941,
-    "forks": 11540,
+    "stars": 71119,
+    "forks": 11564,
     "total_score": 86,
     "quantifiable_score": 49,
     "quality_score": 37,
     "tracking_priority": "track",
-    "last_updated": "2026-07-14T08:14:52Z",
+    "last_updated": "2026-07-15T17:50:50Z",
     "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
     "license": "mit",
     "languages": [
       "Python"
@@ -500,7 +512,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
     "i18n": {
@@ -513,15 +526,15 @@
         "summary": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies"
       }
     },
-    "stars": 70887,
-    "forks": 4394,
+    "stars": 71200,
+    "forks": 4429,
     "total_score": 86,
     "quantifiable_score": 49,
     "quality_score": 37,
     "tracking_priority": "track",
-    "last_updated": "2026-07-14T08:14:37Z",
+    "last_updated": "2026-07-15T18:58:34Z",
     "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
     "license": "apache-2.0",
     "languages": [
       "Rust"
@@ -557,15 +570,15 @@
         "summary": "🌊 The leading agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / "
       }
     },
-    "stars": 64361,
-    "forks": 7628,
+    "stars": 64531,
+    "forks": 7670,
     "total_score": 86,
     "quantifiable_score": 49,
     "quality_score": 37,
     "tracking_priority": "track",
-    "last_updated": "2026-07-14T08:09:27Z",
+    "last_updated": "2026-07-15T19:11:35Z",
     "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
     "license": "mit",
     "languages": [
       "TypeScript"
@@ -598,15 +611,15 @@
         "summary": "The best-benchmarked open-source AI memory system. And it's free."
       }
     },
-    "stars": 57308,
-    "forks": 7391,
+    "stars": 57357,
+    "forks": 7402,
     "total_score": 86,
     "quantifiable_score": 49,
     "quality_score": 37,
     "tracking_priority": "track",
-    "last_updated": "2026-07-14T07:58:33Z",
+    "last_updated": "2026-07-15T17:39:51Z",
     "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
     "license": "mit",
     "languages": [
       "Python"
@@ -627,7 +640,8 @@
       "rules"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
     "i18n": {
@@ -648,7 +662,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-06T15:07:41Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-16",
+    "last_seen": "2026-07-17",
     "license": "mit",
     "languages": [
       "JavaScript"
@@ -670,7 +684,7 @@
       "cli-tool"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "cline"
     ],
     "summary": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
     "i18n": {
@@ -683,15 +697,15 @@
         "summary": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant."
       }
     },
-    "stars": 64634,
-    "forks": 6909,
+    "stars": 64692,
+    "forks": 6917,
     "total_score": 85,
     "quantifiable_score": 49,
     "quality_score": 36,
     "tracking_priority": "track",
-    "last_updated": "2026-07-14T07:34:57Z",
+    "last_updated": "2026-07-15T18:44:57Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
     "license": "apache-2.0",
     "languages": [
       "TypeScript"
@@ -728,15 +742,15 @@
         "summary": "Production-grade engineering skills for AI coding agents."
       }
     },
-    "stars": 78091,
-    "forks": 8379,
+    "stars": 78537,
+    "forks": 8429,
     "total_score": 85,
     "quantifiable_score": 49,
     "quality_score": 36,
     "tracking_priority": "track",
-    "last_updated": "2026-07-14T08:16:02Z",
+    "last_updated": "2026-07-15T19:03:28Z",
     "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
     "license": "mit",
     "languages": [
       "JavaScript"
@@ -759,7 +773,9 @@
       "claude-code",
       "codex-cli",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "replit"
     ],
     "summary": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop ",
     "i18n": {
@@ -772,15 +788,15 @@
         "summary": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop "
       }
     },
-    "stars": 63174,
-    "forks": 4464,
+    "stars": 63839,
+    "forks": 4514,
     "total_score": 85,
     "quantifiable_score": 49,
     "quality_score": 36,
     "tracking_priority": "track",
-    "last_updated": "2026-07-14T08:14:28Z",
+    "last_updated": "2026-07-15T19:11:43Z",
     "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
     "license": "mit",
     "languages": [
       "JavaScript"
@@ -814,15 +830,15 @@
         "summary": "Spec-driven development (SDD) for AI coding assistants."
       }
     },
-    "stars": 60722,
-    "forks": 4209,
+    "stars": 61044,
+    "forks": 4233,
     "total_score": 85,
     "quantifiable_score": 49,
     "quality_score": 36,
     "tracking_priority": "track",
-    "last_updated": "2026-07-14T08:14:33Z",
+    "last_updated": "2026-07-15T18:58:57Z",
     "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
     "license": "mit",
     "languages": [
       "TypeScript"
@@ -855,15 +871,15 @@
         "summary": "Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors"
       }
     },
-    "stars": 59079,
-    "forks": 2787,
+    "stars": 59154,
+    "forks": 2795,
     "total_score": 85,
     "quantifiable_score": 49,
     "quality_score": 36,
     "tracking_priority": "track",
-    "last_updated": "2026-07-14T08:14:27Z",
+    "last_updated": "2026-07-15T19:10:33Z",
     "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
     "license": "mit",
     "languages": [
       "TypeScript"
@@ -882,7 +898,9 @@
     "resource_type": [
       "tutorial"
     ],
-    "target_tools": [],
+    "target_tools": [
+      "manus"
+    ],
     "summary": "No fortress, purely open ground.  OpenManus is Coming.",
     "i18n": {
       "zh": {
@@ -894,15 +912,15 @@
         "summary": "No fortress, purely open ground.  OpenManus is Coming."
       }
     },
-    "stars": 57397,
-    "forks": 9978,
+    "stars": 57444,
+    "forks": 9987,
     "total_score": 85,
     "quantifiable_score": 49,
     "quality_score": 36,
     "tracking_priority": "track",
-    "last_updated": "2026-07-14T07:56:43Z",
+    "last_updated": "2026-07-15T19:04:12Z",
     "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
     "license": "mit",
     "languages": [
       "Python"
@@ -923,7 +941,9 @@
       "agent-framework"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline",
+      "openclaw"
     ],
     "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
     "i18n": {
@@ -936,15 +956,15 @@
         "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary"
       }
     },
-    "stars": 52054,
-    "forks": 4522,
+    "stars": 52320,
+    "forks": 4572,
     "total_score": 85,
     "quantifiable_score": 49,
     "quality_score": 36,
     "tracking_priority": "track",
-    "last_updated": "2026-07-14T08:10:27Z",
+    "last_updated": "2026-07-15T18:59:54Z",
     "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
     "license": "mit",
     "languages": [
       "Python"
@@ -968,7 +988,10 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "cursor"
+      "cursor",
+      "github-copilot",
+      "cline",
+      "manus"
     ],
     "summary": "Persistent file-based planning for AI coding agents and long-running agentic tasks. Crash-proof markdown plans that survive context loss and /clear, plus a deterministic completion gate and multi-agent shared state on disk. Manus-style. Wor",
     "i18n": {
@@ -981,15 +1004,15 @@
         "summary": "Persistent file-based planning for AI coding agents and long-running agentic tasks. Crash-proof markdown plans that survive context loss and /clear, plus a deterministic completion gate and multi-agent shared state on disk. Manus-style. Wor"
       }
     },
-    "stars": 25320,
-    "forks": 2137,
+    "stars": 25389,
+    "forks": 2145,
     "total_score": 85,
     "quantifiable_score": 45,
     "quality_score": 40,
     "tracking_priority": "track",
-    "last_updated": "2026-07-14T08:15:45Z",
+    "last_updated": "2026-07-15T18:53:36Z",
     "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
     "license": "mit",
     "languages": [
       "Python"
@@ -1015,7 +1038,11 @@
       "antigravity-cli",
       "opencode",
       "qoder",
-      "cursor"
+      "cursor",
+      "kiro",
+      "warp",
+      "aider",
+      "cline"
     ],
     "summary": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
     "i18n": {
@@ -1028,15 +1055,15 @@
         "summary": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile."
       }
     },
-    "stars": 18668,
-    "forks": 1465,
+    "stars": 19768,
+    "forks": 1543,
     "total_score": 85,
     "quantifiable_score": 45,
     "quality_score": 40,
     "tracking_priority": "track",
-    "last_updated": "2026-07-14T08:21:29Z",
+    "last_updated": "2026-07-15T19:13:18Z",
     "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
     "license": "mit",
     "languages": [
       "TypeScript"
@@ -1069,15 +1096,15 @@
         "summary": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA"
       }
     },
-    "stars": 121763,
-    "forks": 18192,
+    "stars": 122075,
+    "forks": 18245,
     "total_score": 84,
     "quantifiable_score": 49,
     "quality_score": 35,
     "tracking_priority": "track",
-    "last_updated": "2026-07-14T08:11:51Z",
+    "last_updated": "2026-07-15T19:09:51Z",
     "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
     "license": "mit",
     "languages": [
       "TypeScript"
@@ -1103,7 +1130,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "hermes-agent"
+      "hermes-agent",
+      "openclaw"
     ],
     "summary": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
     "i18n": {
@@ -1116,15 +1144,15 @@
         "summary": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io"
       }
     },
-    "stars": 116990,
-    "forks": 7829,
+    "stars": 117561,
+    "forks": 7869,
     "total_score": 84,
     "quantifiable_score": 49,
     "quality_score": 35,
     "tracking_priority": "track",
-    "last_updated": "2026-07-14T08:05:22Z",
+    "last_updated": "2026-07-15T19:04:57Z",
     "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
     "license": "mit",
     "languages": [
       "Rust"
@@ -1150,7 +1178,11 @@
       "antigravity-cli",
       "qoder",
       "trae",
-      "cursor"
+      "cursor",
+      "github-copilot",
+      "windsurf",
+      "kiro",
+      "cline"
     ],
     "summary": "An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms",
     "i18n": {
@@ -1163,15 +1195,15 @@
         "summary": "An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms"
       }
     },
-    "stars": 105323,
-    "forks": 11171,
+    "stars": 106058,
+    "forks": 11249,
     "total_score": 84,
     "quantifiable_score": 49,
     "quality_score": 35,
     "tracking_priority": "track",
-    "last_updated": "2026-07-14T08:10:37Z",
+    "last_updated": "2026-07-15T19:01:45Z",
     "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
     "license": "mit",
     "languages": [
       "Python"
@@ -1196,7 +1228,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "cursor"
+      "cursor",
+      "openclaw"
     ],
     "summary": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database sc",
     "i18n": {
@@ -1209,15 +1242,15 @@
         "summary": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database sc"
       }
     },
-    "stars": 85308,
-    "forks": 8418,
+    "stars": 87589,
+    "forks": 8592,
     "total_score": 84,
     "quantifiable_score": 49,
     "quality_score": 35,
     "tracking_priority": "track",
-    "last_updated": "2026-07-14T08:15:57Z",
+    "last_updated": "2026-07-15T19:11:44Z",
     "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
     "license": "mit",
     "languages": [
       "Python"
@@ -1254,15 +1287,15 @@
         "summary": "🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / C"
       }
     },
-    "stars": 77955,
-    "forks": 8940,
+    "stars": 78548,
+    "forks": 9036,
     "total_score": 84,
     "quantifiable_score": 49,
     "quality_score": 35,
     "tracking_priority": "track",
-    "last_updated": "2026-07-14T08:15:39Z",
+    "last_updated": "2026-07-15T19:12:31Z",
     "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
     "license": "apache-2.0",
     "languages": [
       "TypeScript"
@@ -1283,7 +1316,8 @@
       "skills"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "from vibe coding to agentic engineering - practice makes claude perfect",
     "i18n": {
@@ -1296,15 +1330,15 @@
         "summary": "from vibe coding to agentic engineering - practice makes claude perfect"
       }
     },
-    "stars": 62560,
-    "forks": 6259,
+    "stars": 62653,
+    "forks": 6263,
     "total_score": 84,
     "quantifiable_score": 49,
     "quality_score": 35,
     "tracking_priority": "track",
-    "last_updated": "2026-07-14T08:09:35Z",
+    "last_updated": "2026-07-15T18:55:58Z",
     "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
     "license": "mit",
     "languages": [
       "HTML"
@@ -1329,7 +1363,18 @@
       "qoder",
       "trae",
       "workbuddy-codebuddy",
-      "cursor"
+      "cursor",
+      "github-copilot",
+      "windsurf",
+      "kiro",
+      "warp",
+      "junie",
+      "augment-code",
+      "manus",
+      "v0-dev",
+      "lovable",
+      "replit",
+      "bolt-new"
     ],
     "summary": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, ",
     "i18n": {
@@ -1342,21 +1387,316 @@
         "summary": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, "
       }
     },
-    "stars": 141905,
-    "forks": 34805,
+    "stars": 141948,
+    "forks": 34800,
     "total_score": 79,
     "quantifiable_score": 47,
     "quality_score": 32,
     "tracking_priority": "track",
-    "last_updated": "2026-07-14T07:45:39Z",
+    "last_updated": "2026-07-15T18:41:21Z",
     "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
     "license": "gpl-3.0",
     "languages": [],
     "review_state": "auto-curated",
     "llm_summary": {
       "zh": "一个汇集了数十种AI编程工具系统提示词和模型的大型仓库，极受欢迎，但内容创新性一般。",
       "en": "A massive collection of system prompts and models for dozens of AI coding tools, extremely popular but not highly novel."
+    }
+  },
+  {
+    "id": "github-sickn33-agentic-awesome-skills",
+    "name": "sickn33/agentic-awesome-skills",
+    "url": "https://github.com/sickn33/agentic-awesome-skills",
+    "source_type": "github",
+    "resource_type": [
+      "skills",
+      "extension",
+      "agent-framework",
+      "mcp-server",
+      "cli-tool"
+    ],
+    "target_tools": [
+      "claude-code",
+      "codex-cli",
+      "antigravity-cli",
+      "cursor",
+      "kiro",
+      "zed"
+    ],
+    "summary": "Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Autohand Code, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collecti",
+    "i18n": {
+      "zh": {
+        "name": "sickn33/agentic-awesome-skills",
+        "summary": "Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Autohand Code, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collecti"
+      },
+      "en": {
+        "name": "sickn33/agentic-awesome-skills",
+        "summary": "Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Autohand Code, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collecti"
+      }
+    },
+    "stars": 43331,
+    "forks": 6871,
+    "total_score": 82,
+    "quantifiable_score": 45,
+    "quality_score": 37,
+    "tracking_priority": "track",
+    "last_updated": "2026-07-15T19:07:38Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
+    "license": "mit",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-curated",
+    "llm_summary": {
+      "zh": "一个拥有1,900+可安装代理技能的庞大精选库，支持多种AI编码助手，并附带安装工具，广受社区欢迎。",
+      "en": "A massive curated library of 1,900+ installable agentic skills for multiple AI coding assistants, with an installer CLI and broad community adoption."
+    }
+  },
+  {
+    "id": "github-alibaba-nlp-deepresearch",
+    "name": "Alibaba-NLP/DeepResearch",
+    "url": "https://github.com/Alibaba-NLP/DeepResearch",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "trae",
+      "hermes-agent",
+      "tongyi-lingma",
+      "replit"
+    ],
+    "summary": "Tongyi Deep Research, the Leading Open-source Deep Research Agent",
+    "i18n": {
+      "zh": {
+        "name": "Alibaba-NLP/DeepResearch",
+        "summary": "Tongyi Deep Research, the Leading Open-source Deep Research Agent"
+      },
+      "en": {
+        "name": "Alibaba-NLP/DeepResearch",
+        "summary": "Tongyi Deep Research, the Leading Open-source Deep Research Agent"
+      }
+    },
+    "stars": 19661,
+    "forks": 1504,
+    "total_score": 78,
+    "quantifiable_score": 45,
+    "quality_score": 33,
+    "tracking_priority": "track",
+    "last_updated": "2026-07-15T18:39:35Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
+    "license": "apache-2.0",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-curated",
+    "llm_summary": {
+      "zh": "阿里巴巴开源深度研究代理，与AI编码工具集成以自动执行研究任务。",
+      "en": "An open-source deep research agent from Alibaba, designed to integrate with AI coding tools for automated research tasks."
+    }
+  },
+  {
+    "id": "github-baidu-baige-loongflow",
+    "name": "baidu-baige/LoongFlow",
+    "url": "https://github.com/baidu-baige/LoongFlow",
+    "source_type": "github",
+    "resource_type": [
+      "agent-framework"
+    ],
+    "target_tools": [
+      "trae",
+      "hermes-agent",
+      "comate",
+      "replit"
+    ],
+    "summary": "LoongFlow is an expert-grade Agent framework for Loop Engineering. Through a Plan-Execute-Summary loop and structured experiential memory, it enables AI to continuously think, execute, reflect, and evolve across complex software engineering",
+    "i18n": {
+      "zh": {
+        "name": "baidu-baige/LoongFlow",
+        "summary": "LoongFlow is an expert-grade Agent framework for Loop Engineering. Through a Plan-Execute-Summary loop and structured experiential memory, it enables AI to continuously think, execute, reflect, and evolve across complex software engineering"
+      },
+      "en": {
+        "name": "baidu-baige/LoongFlow",
+        "summary": "LoongFlow is an expert-grade Agent framework for Loop Engineering. Through a Plan-Execute-Summary loop and structured experiential memory, it enables AI to continuously think, execute, reflect, and evolve across complex software engineering"
+      }
+    },
+    "stars": 451,
+    "forks": 51,
+    "total_score": 63,
+    "quantifiable_score": 27,
+    "quality_score": 36,
+    "tracking_priority": "track",
+    "last_updated": "2026-07-15T02:29:20Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
+    "license": "apache-2.0",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-curated",
+    "llm_summary": {
+      "zh": "一个专注于循环工程的专业级AI代理框架，通过规划-执行-总结循环和结构化经验记忆实现持续进化。",
+      "en": "A professional-grade agent framework for loop engineering, enabling AI to continuously improve through Plan-Execute-Summary cycles and structured experiential memory."
+    }
+  },
+  {
+    "id": "github-samber-cc-skills-golang",
+    "name": "samber/cc-skills-golang",
+    "url": "https://github.com/samber/cc-skills-golang",
+    "source_type": "github",
+    "resource_type": [
+      "skills",
+      "agent-framework",
+      "extension"
+    ],
+    "target_tools": [
+      "claude-code",
+      "codex-cli",
+      "antigravity-cli",
+      "opencode",
+      "trae",
+      "workbuddy-codebuddy",
+      "cursor",
+      "hermes-agent",
+      "github-copilot",
+      "windsurf",
+      "codegeex",
+      "cline",
+      "kilo-code",
+      "augment-code",
+      "replit",
+      "openclaw"
+    ],
+    "summary": "🧑‍🎨 A collection of Golang agentic skills that works",
+    "i18n": {
+      "zh": {
+        "name": "samber/cc-skills-golang",
+        "summary": "🧑‍🎨 A collection of Golang agentic skills that works"
+      },
+      "en": {
+        "name": "samber/cc-skills-golang",
+        "summary": "🧑‍🎨 A collection of Golang agentic skills that works"
+      }
+    },
+    "stars": 2531,
+    "forks": 166,
+    "total_score": 71,
+    "quantifiable_score": 34,
+    "quality_score": 37,
+    "tracking_priority": "track",
+    "last_updated": "2026-07-14T08:52:36Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "Go"
+    ],
+    "review_state": "auto-curated",
+    "llm_summary": {
+      "zh": "高质量且易于使用的 Golang 专用 AI 代理技能集合，覆盖测试、安全性、可观测性等关键领域，与主流编码助手工具兼容。",
+      "en": "A well-crafted collection of Golang-specific agentic skills for AI coding assistants, covering testing, security, observability, and more."
+    }
+  },
+  {
+    "id": "github-continuedev-continue",
+    "name": "continuedev/continue",
+    "url": "https://github.com/continuedev/continue",
+    "source_type": "github",
+    "resource_type": [
+      "agent-framework",
+      "cli-tool"
+    ],
+    "target_tools": [
+      "codex-cli",
+      "antigravity-cli",
+      "opencode",
+      "qoder",
+      "trae",
+      "hermes-agent",
+      "cline",
+      "continue",
+      "replit"
+    ],
+    "summary": "open-source coding agent",
+    "i18n": {
+      "zh": {
+        "name": "continuedev/continue",
+        "summary": "开源编程代理"
+      },
+      "en": {
+        "name": "continuedev/continue",
+        "summary": "open-source coding agent"
+      }
+    },
+    "stars": 34898,
+    "forks": 5051,
+    "total_score": 80,
+    "quantifiable_score": 45,
+    "quality_score": 35,
+    "tracking_priority": "track",
+    "last_updated": "2026-07-15T18:58:14Z",
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-16",
+    "license": "apache-2.0",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-curated",
+    "llm_summary": {
+      "zh": "继续代码代理是领先的开源编码代理，提供IDE扩展和CLI工具，支持多种AI模型，拥有庞大的社区和丰富的文档。",
+      "en": "Continue is a leading open-source coding agent offering IDE extensions and CLI tools, with strong community adoption and comprehensive documentation."
+    }
+  },
+  {
+    "id": "github-jsuvic-agent-profile",
+    "name": "jsuvic/agent-profile",
+    "url": "https://github.com/jsuvic/agent-profile",
+    "source_type": "github",
+    "resource_type": [
+      "skills",
+      "cli-tool",
+      "mcp-server"
+    ],
+    "target_tools": [
+      "claude-code",
+      "codex-cli",
+      "antigravity-cli",
+      "opencode",
+      "qoder",
+      "cline",
+      "tabnine"
+    ],
+    "summary": "Configure Codex, Claude, and Tabnine to understand your project, follow its workflow, and respect its safety rules.",
+    "i18n": {
+      "zh": {
+        "name": "jsuvic/agent-profile",
+        "summary": "Configure Codex, Claude, and Tabnine to understand your project, follow its workflow, and respect its safety rules."
+      },
+      "en": {
+        "name": "jsuvic/agent-profile",
+        "summary": "Configure Codex, Claude, and Tabnine to understand your project, follow its workflow, and respect its safety rules."
+      }
+    },
+    "stars": 3,
+    "forks": 0,
+    "total_score": 56,
+    "quantifiable_score": 21,
+    "quality_score": 35,
+    "tracking_priority": "track",
+    "last_updated": "2026-07-14T09:34:43Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "apache-2.0",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-curated",
+    "llm_summary": {
+      "zh": "为AI编码工具提供统一配置管理，从单一YAML生成各工具专用指令。",
+      "en": "A unified configuration manager for AI coding tools that generates per-tool instructions from a single YAML file."
     }
   },
   {
@@ -1377,7 +1717,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "cursor"
+      "cursor",
+      "github-copilot"
     ],
     "summary": "Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI",
     "i18n": {
@@ -1390,15 +1731,15 @@
         "summary": "Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI"
       }
     },
-    "stars": 37889,
-    "forks": 4071,
+    "stars": 37936,
+    "forks": 4079,
     "total_score": 84,
     "quantifiable_score": 45,
     "quality_score": 39,
     "tracking_priority": "track",
-    "last_updated": "2026-07-14T08:11:15Z",
+    "last_updated": "2026-07-15T18:55:01Z",
     "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
     "license": "mit",
     "languages": [
       "Python"
@@ -1431,15 +1772,15 @@
         "summary": "Huashu Design · HTML-native design skill for Claude Code · Claude Code 里 HTML 原生的设计 skill · 高保真原型 / 幻灯片 / 动画 + 20 设计哲学 + 5 维评审 + MP4 导出 · Agent-agnostic"
       }
     },
-    "stars": 21389,
-    "forks": 2540,
+    "stars": 21480,
+    "forks": 2548,
     "total_score": 84,
     "quantifiable_score": 45,
     "quality_score": 39,
     "tracking_priority": "track",
-    "last_updated": "2026-07-14T08:18:04Z",
+    "last_updated": "2026-07-15T18:03:15Z",
     "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
     "license": "mit",
     "languages": [
       "HTML"
@@ -1466,7 +1807,8 @@
       "claude-code",
       "codex-cli",
       "antigravity-cli",
-      "cursor"
+      "cursor",
+      "openclaw"
     ],
     "summary": "337 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, complian",
     "i18n": {
@@ -1487,7 +1829,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-06T15:08:06Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-16",
+    "last_seen": "2026-07-17",
     "license": "mit",
     "languages": [
       "Python"
@@ -1496,266 +1838,6 @@
     "llm_summary": {
       "zh": "这是一个为多个AI编程代理（如Claude Code、Codex、Cursor等）提供超过350个生产就绪技能和插件的开源库，极具实用价值。",
       "en": "A comprehensive open-source library of over 350 production-ready skills and plugins for multiple AI coding agents, highly practical and valuable."
-    }
-  },
-  {
-    "id": "github-obra-superpowers",
-    "name": "obra/superpowers",
-    "url": "https://github.com/obra/superpowers",
-    "source_type": "github",
-    "resource_type": [
-      "skills",
-      "agent-framework"
-    ],
-    "target_tools": [
-      "hermes-agent"
-    ],
-    "summary": "An agentic skills framework & software development methodology that works.",
-    "i18n": {
-      "zh": {
-        "name": "obra/superpowers",
-        "summary": "An agentic skills framework & software development methodology that works."
-      },
-      "en": {
-        "name": "obra/superpowers",
-        "summary": "An agentic skills framework & software development methodology that works."
-      }
-    },
-    "stars": 254195,
-    "forks": 22711,
-    "total_score": 83,
-    "quantifiable_score": 49,
-    "quality_score": 34,
-    "tracking_priority": "track",
-    "last_updated": "2026-07-14T08:11:04Z",
-    "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
-    "license": "mit",
-    "languages": [
-      "Shell"
-    ],
-    "review_state": "auto-curated",
-    "llm_summary": {
-      "zh": "Superpowers 是一个为编码代理设计的技能框架和软件开发方法论。它提供可组合的技能和初始指令，指导代理高效完成软件开发任务。适合使用 Hermes-Agent 等 AI 编码工具的开发者。",
-      "en": "Superpowers is a skills framework and software development methodology for coding agents. It provides composable skills and initial instructions to guide agents in efficient software development. Suitable for developers using AI coding tools like Hermes-Agent."
-    }
-  },
-  {
-    "id": "github-affaan-m-ecc",
-    "name": "affaan-m/ECC",
-    "url": "https://github.com/affaan-m/ECC",
-    "source_type": "github",
-    "resource_type": [
-      "skills",
-      "agent-framework",
-      "cli-tool",
-      "mcp-server"
-    ],
-    "target_tools": [
-      "claude-code",
-      "codex-cli",
-      "opencode",
-      "cursor"
-    ],
-    "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-    "i18n": {
-      "zh": {
-        "name": "affaan-m/ECC",
-        "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
-      },
-      "en": {
-        "name": "affaan-m/ECC",
-        "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
-      }
-    },
-    "stars": 229393,
-    "forks": 35140,
-    "total_score": 83,
-    "quantifiable_score": 49,
-    "quality_score": 34,
-    "tracking_priority": "track",
-    "last_updated": "2026-07-14T08:11:12Z",
-    "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
-    "license": "mit",
-    "languages": [
-      "JavaScript"
-    ],
-    "review_state": "auto-curated",
-    "llm_summary": {
-      "zh": "一个整合了技能、直觉、记忆、安全性和研究优先开发的综合智能体框架优化系统，适用于主流AI编码代理。",
-      "en": "A comprehensive agent harness optimization system integrating skills, instincts, memory, security, and research-first development for major AI coding agents."
-    }
-  },
-  {
-    "id": "github-code-yeongyu-oh-my-openagent",
-    "name": "code-yeongyu/oh-my-openagent",
-    "url": "https://github.com/code-yeongyu/oh-my-openagent",
-    "source_type": "github",
-    "resource_type": [
-      "agent-framework",
-      "skills"
-    ],
-    "target_tools": [
-      "claude-code",
-      "codex-cli",
-      "antigravity-cli",
-      "opencode",
-      "cursor"
-    ],
-    "summary": "omo/lazycodex: The coding agent for tokenmaxxers;the one and only agent harness for complex codebases. For your Codex, for your OpenCode",
-    "i18n": {
-      "zh": {
-        "name": "code-yeongyu/oh-my-openagent",
-        "summary": "omo/lazycodex: The coding agent for tokenmaxxers;the one and only agent harness for complex codebases. For your Codex, for your OpenCode"
-      },
-      "en": {
-        "name": "code-yeongyu/oh-my-openagent",
-        "summary": "omo/lazycodex: The coding agent for tokenmaxxers;the one and only agent harness for complex codebases. For your Codex, for your OpenCode"
-      }
-    },
-    "stars": 65740,
-    "forks": 5363,
-    "total_score": 83,
-    "quantifiable_score": 49,
-    "quality_score": 34,
-    "tracking_priority": "track",
-    "last_updated": "2026-07-14T08:14:22Z",
-    "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
-    "license": "other",
-    "languages": [
-      "TypeScript"
-    ],
-    "review_state": "auto-curated",
-    "llm_summary": {
-      "zh": "一个多代理编排框架，统一了Codex、OpenCode等编码代理，旨在简化复杂代码库的代理使用。",
-      "en": "A multi-harness agent OS that unifies coding agents like Codex and OpenCode, aiming to simplify agent usage for complex codebases."
-    }
-  },
-  {
-    "id": "github-chromedevtools-chrome-devtools-mcp",
-    "name": "ChromeDevTools/chrome-devtools-mcp",
-    "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-    "source_type": "github",
-    "resource_type": [
-      "agent-framework",
-      "cli-tool",
-      "mcp-server"
-    ],
-    "target_tools": [
-      "general-ai-coding"
-    ],
-    "summary": "Chrome DevTools for coding agents",
-    "i18n": {
-      "zh": {
-        "name": "ChromeDevTools/chrome-devtools-mcp",
-        "summary": "Chrome DevTools for coding agents"
-      },
-      "en": {
-        "name": "ChromeDevTools/chrome-devtools-mcp",
-        "summary": "Chrome DevTools for coding agents"
-      }
-    },
-    "stars": 46887,
-    "forks": 3219,
-    "total_score": 83,
-    "quantifiable_score": 45,
-    "quality_score": 38,
-    "tracking_priority": "track",
-    "last_updated": "2026-07-14T07:56:35Z",
-    "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
-    "license": "apache-2.0",
-    "languages": [
-      "TypeScript"
-    ],
-    "review_state": "auto-curated",
-    "llm_summary": {
-      "zh": "为AI编码代理提供Chrome DevTools完整控制能力的成熟MCP服务器，用于调试和自动化。",
-      "en": "A production-ready MCP server that gives AI coding agents full Chrome DevTools control for debugging and automation."
-    }
-  },
-  {
-    "id": "github-pbakaus-impeccable",
-    "name": "pbakaus/impeccable",
-    "url": "https://github.com/pbakaus/impeccable",
-    "source_type": "github",
-    "resource_type": [
-      "tutorial"
-    ],
-    "target_tools": [],
-    "summary": "The design language that makes your AI harness better at design.",
-    "i18n": {
-      "zh": {
-        "name": "pbakaus/impeccable",
-        "summary": "The design language that makes your AI harness better at design."
-      },
-      "en": {
-        "name": "pbakaus/impeccable",
-        "summary": "The design language that makes your AI harness better at design."
-      }
-    },
-    "stars": 46488,
-    "forks": 2807,
-    "total_score": 83,
-    "quantifiable_score": 45,
-    "quality_score": 38,
-    "tracking_priority": "track",
-    "last_updated": "2026-07-14T08:09:47Z",
-    "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
-    "license": "apache-2.0",
-    "languages": [
-      "JavaScript"
-    ],
-    "review_state": "auto-curated",
-    "llm_summary": {
-      "zh": "Impeccable 为AI编程助手提供设计指导与规则，提升前端设计质量。",
-      "en": "Impeccable provides design guidance and rules for AI coding agents to improve frontend design quality."
-    }
-  },
-  {
-    "id": "github-alishahryar1-free-claude-code",
-    "name": "Alishahryar1/free-claude-code",
-    "url": "https://github.com/Alishahryar1/free-claude-code",
-    "source_type": "github",
-    "resource_type": [
-      "extension",
-      "cli-tool"
-    ],
-    "target_tools": [
-      "claude-code",
-      "codex-cli"
-    ],
-    "summary": "Use claude code, codex or pi for free in the terminal, VSCode extension, and discord like OpenClaw (voice supported)",
-    "i18n": {
-      "zh": {
-        "name": "Alishahryar1/free-claude-code",
-        "summary": "Use claude code, codex or pi for free in the terminal, VSCode extension, and discord like OpenClaw (voice supported)"
-      },
-      "en": {
-        "name": "Alishahryar1/free-claude-code",
-        "summary": "Use claude code, codex or pi for free in the terminal, VSCode extension, and discord like OpenClaw (voice supported)"
-      }
-    },
-    "stars": 40020,
-    "forks": 6540,
-    "total_score": 83,
-    "quantifiable_score": 45,
-    "quality_score": 38,
-    "tracking_priority": "track",
-    "last_updated": "2026-07-14T08:10:28Z",
-    "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
-    "license": "mit",
-    "languages": [
-      "Python"
-    ],
-    "review_state": "auto-curated",
-    "llm_summary": {
-      "zh": "一个代理工具，可以在终端、VSCode和Discord中免费使用Claude Code、Codex和Pi。",
-      "en": "A proxy tool that enables free usage of Claude Code, Codex, and Pi in multiple environments including terminal, VSCode, and Discord."
     }
   }
 ]

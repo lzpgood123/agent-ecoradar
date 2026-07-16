@@ -10,7 +10,9 @@
     ],
     "target_tools": [
       "claude-code",
-      "codex-cli"
+      "codex-cli",
+      "cline",
+      "lovable"
     ],
     "summary": "22 prompt engineering techniques with hands-on Jupyter Notebook tutorials, from fundamental concepts to advanced strategies for leveraging LLMs.",
     "i18n": {
@@ -371,7 +373,9 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit",
+      "openclaw"
     ],
     "summary": "ClawX is a desktop app that provides a graphical interface for OpenClaw AI agents. It turns CLI-based AI orchestration into a desktop experience without using the terminal. China website is https://clawx.com.cn.",
     "i18n": {
@@ -445,7 +449,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "codex-cli"
+      "codex-cli",
+      "cline"
     ],
     "summary": "Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost.",
     "i18n": {
@@ -716,7 +721,9 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline",
+      "lovable"
     ],
     "summary": "A CLI tool to convert your codebase into a single LLM prompt with source tree, prompt templating, and token counting.",
     "i18n": {
@@ -935,7 +942,10 @@
       "codex-cli",
       "trae",
       "cursor",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "lovable",
+      "replit"
     ],
     "summary": "The first open-source agent skills builder. Define skills by vibe workflow, run on Claude Code, Cursor, Codex & more. Build Clawdbot 🦞· APIs for Lovable · Bots for Slack & Lark/Feishu · Skills are infrastructure, not prompts.",
     "i18n": {
@@ -1014,7 +1024,8 @@
       "mcp-server"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "MCP 资源精选， MCP指南，Claude MCP，MCP Servers, MCP Clients",
     "i18n": {
@@ -1280,7 +1291,7 @@
       "agent-framework"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "openclaw"
     ],
     "summary": "A pixel office for your OpenClaw: turn invisible work states into a cozy little space with characters, daily notes, and guest agents. Code under MIT; art assets for non-commercial learning only.",
     "i18n": {
@@ -1486,7 +1497,8 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "antigravity-cli"
+      "antigravity-cli",
+      "cline"
     ],
     "summary": "Open-source Claude Design alternative. One-click import your Claude Code / Codex API key. Prompt → prototype / slides / PDF. Multi-model (Claude, GPT, Gemini, Kimi, GLM, Ollama). BYOK, local-first, MIT.",
     "i18n": {
@@ -1776,7 +1788,8 @@
       "tutorial"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "zed"
     ],
     "summary": "A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any business. This system helps you research, write, analyze, and optimize content that ranks well and serves your target audience.",
     "i18n": {
@@ -2303,7 +2316,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "cursor"
+      "cursor",
+      "cline"
     ],
     "summary": "🔥 Official Firecrawl MCP Server - Adds powerful web scraping and search to Cursor, Claude and any other LLM clients.",
     "i18n": {
@@ -2502,7 +2516,8 @@
       "codex-cli",
       "trae",
       "cursor",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "TalkToFigma: MCP integration between AI Agent (Cursor, Claude Code, Codex) and Figma, allowing Agentic AI to communicate with Figma for reading designs and modifying them programmatically.",
     "i18n": {
@@ -2648,7 +2663,7 @@
       "agent-framework"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "lovable"
     ],
     "summary": "🔍 An LLM-based Multi-agent Framework of Web Search Engine (like Perplexity.ai Pro and SearchGPT)",
     "i18n": {
@@ -2867,7 +2882,10 @@
       "antigravity-cli",
       "trae",
       "cursor",
-      "hermes-agent"
+      "hermes-agent",
+      "github-copilot",
+      "windsurf",
+      "kiro"
     ],
     "summary": "🦸 AI 编程超能力 · 中文增强版 — superpowers（116k+ ⭐）完整汉化 + 6 个中国原创 skills，让 Claude Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI 等 16 款 AI 编程工具真正会干活",
     "i18n": {
@@ -2945,7 +2963,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "codex-cli"
+      "codex-cli",
+      "lovable"
     ],
     "summary": "Turn any webpage into structured data using LLMs",
     "i18n": {
@@ -3223,7 +3242,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "cursor"
+      "cursor",
+      "cline"
     ],
     "summary": "Browser MCP is a Model Context Provider (MCP) server that allows AI applications to control your browser",
     "i18n": {
@@ -3295,7 +3315,9 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "github-copilot",
+      "cline"
     ],
     "summary": "Review-first terminal diff viewer for agentic coders",
     "i18n": {
@@ -3611,7 +3633,10 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "kiro",
+      "aider",
+      "replit"
     ],
     "summary": "The Open Source Agentic IDE. Create and orchestrate coding agents, show app previews and run git workflows. Use your favorite models across all providers.",
     "i18n": {
@@ -3936,7 +3961,8 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "antigravity-cli"
+      "antigravity-cli",
+      "openclaw"
     ],
     "summary": "The agent-native LLM router for OpenClaw. 41+ models, <1ms routing, USDC payments on Base & Solana via x402.",
     "i18n": {
@@ -4154,7 +4180,8 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "antigravity-cli"
+      "antigravity-cli",
+      "cline"
     ],
     "summary": "TypeScript AI agent orchestration framework with dynamic workflows. Describe the goal, not the graph: a coordinator plans the task DAG at runtime and runs it on any LLM (Claude, ChatGPT, Gemini, DeepSeek, or local models).",
     "i18n": {
@@ -4976,7 +5003,7 @@
       "cli-tool"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "augment-code"
     ],
     "summary": "Open-source context retrieval layer for AI agents",
     "i18n": {
@@ -5379,7 +5406,9 @@
       "skills"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline",
+      "lovable"
     ],
     "summary": "🥷 Engineering habits you already know, turned into skills Claude can run.",
     "i18n": {
@@ -5832,7 +5861,9 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "antigravity-cli"
+      "antigravity-cli",
+      "cline",
+      "lovable"
     ],
     "summary": "Multi-channel AI proxy with intelligent key rotation. 智能密钥轮询的多渠道 AI 代理。",
     "i18n": {
@@ -5901,7 +5932,7 @@
       "cli-tool"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "github-copilot"
     ],
     "summary": "AI coding assistant for Xcode",
     "i18n": {
@@ -6046,7 +6077,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Backlog.md - A tool for managing project collaboration between humans and AI Agents in a git ecosystem",
     "i18n": {
@@ -6121,7 +6153,9 @@
       "claude-code",
       "codex-cli",
       "antigravity-cli",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "openclaw"
     ],
     "summary": "On-screen aware AI assistant for your desktop. Uses current app context, multiple LLMs, and MCP tools to help you act across apps.",
     "i18n": {
@@ -6333,7 +6367,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "A multi-model AI agent desktop client — connect any AI provider, extend with MCP & skills, control from your phone. Built with Electron + Next.js.",
     "i18n": {
@@ -6406,7 +6441,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "The free AI already on your Mac. CLI tool, OpenAI-compatible server, and interactive chat — all on-device via Apple Intelligence. No API keys, no cloud, no downloads.",
     "i18n": {
@@ -6482,7 +6518,10 @@
       "agent-framework"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "windsurf",
+      "manus",
+      "v0-dev"
     ],
     "summary": "🧠 Curated collection of system prompts for top AI tools. Perfect for AI agent builders and prompt engineers. Incuding: ChatGPT, Claude, Perplexity, Manus, Claude-Code, Loveable, v0, Grok, same new, windsurf, notion, and MetaAI. ",
     "i18n": {
@@ -6550,7 +6589,10 @@
       "opencode",
       "qoder",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "lovable",
+      "replit"
     ],
     "summary": "Zero-Config Code Flow for Claude code & Codex",
     "i18n": {

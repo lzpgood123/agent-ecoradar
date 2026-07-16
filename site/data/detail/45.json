@@ -81,7 +81,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "antigravity-cli"
+      "antigravity-cli",
+      "cline"
     ],
     "summary": "AI 订阅卡网渠道比价工具：聚合100+卡网渠道包含 ChatGPT、Claude、Gemini、Grok 等多渠道报价，展示有货最低价、库存状态和原站购买链接。",
     "i18n": {
@@ -888,7 +889,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "🦾 Take control of your AI agents",
     "i18n": {
@@ -1135,7 +1137,11 @@
       "claude-code",
       "codex-cli",
       "opencode",
-      "workbuddy-codebuddy"
+      "workbuddy-codebuddy",
+      "windsurf",
+      "codegeex",
+      "kilo-code",
+      "augment-code"
     ],
     "summary": "An open source DevOps tool from the CNCF for packaging and versioning AI/ML models, datasets, code, and configuration into an OCI Artifact.",
     "i18n": {
@@ -1539,7 +1545,9 @@
       "antigravity-cli",
       "opencode",
       "qoder",
-      "cursor"
+      "cursor",
+      "github-copilot",
+      "cline"
     ],
     "summary": "Supercharge AI coding agents with portable skills. Install, translate & share skills across Claude Code, Cursor, Codex, Copilot & 40 more",
     "i18n": {
@@ -1616,7 +1624,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "🤖 Local-assist BOSS Zhipin CLI for AI agents — search, welfare filtering, shortlist, JSON-envelope output; low-risk & compliant by default.",
     "i18n": {
@@ -1948,7 +1957,8 @@
       "skills"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "zed"
     ],
     "summary": "Claude Code blog skill suite: 30 sub-skills, 5 agents, 5-gate v1.9.0 Blog Delivery Contract, dual-optimized for Google rankings and AI citations. Active development at AI-Marketing-Hub/claude-blog (AI Marketing Hub Pro community); public re",
     "i18n": {
@@ -2166,7 +2176,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "codex-cli"
+      "codex-cli",
+      "cline"
     ],
     "summary": "A thin orchestration dashboard over Claude Code for managing context, automation, and developer headspace. You need tentacles. 🦑",
     "i18n": {
@@ -2242,7 +2253,8 @@
       "claude-code",
       "codex-cli",
       "antigravity-cli",
-      "cursor"
+      "cursor",
+      "cline"
     ],
     "summary": "Engineering decisions engine that know when they're stale. Frame, compare, decide — with evidence decay and parity enforcement. For Claude Code, Cursor, Gemini CLI, Codex and more.",
     "i18n": {
@@ -2505,7 +2517,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "codex-cli"
+      "codex-cli",
+      "cline"
     ],
     "summary": "Turn code into clarity. Generate accurate technical docs and AI-ready context in minutes—perfectly structured for human teams and intelligent agents.",
     "i18n": {
@@ -2962,7 +2975,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "🔂 Ralph loop with PRs: Run Claude Code in a continuous loop, autonomously creating PRs, waiting for checks, and merging",
     "i18n": {
@@ -3161,7 +3175,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "Open Source Implementation of Karpathy's LLM Wiki. Upload documents, connect your Claude account via MCP, and have it write your wiki ! ",
     "i18n": {
@@ -3716,7 +3731,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "AgentNetworkProtocol(ANP) is an open source protocol for agent communication. Our vision is to define how agents connect with each other, building an open, secure, and efficient collaboration network for billions of intelligent agents.",
     "i18n": {
@@ -3841,7 +3857,10 @@
     "target_tools": [
       "claude-code",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "manus",
+      "replit",
+      "openclaw"
     ],
     "summary": "A more beautiful and easier-to-use alternative to OpenClaw. It features a nicer Web UI, built-in IM support, a sandboxed runtime and channel-based team collaboration. Under the hood, it is powered by a Claude Code–based agent.",
     "i18n": {
@@ -3985,7 +4004,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "cursor"
+      "cursor",
+      "cline"
     ],
     "summary": "MCP server for Apple Developer Documentation - Search iOS/macOS/SwiftUI/UIKit docs, WWDC videos, Swift/Objective-C APIs & code examples in Claude, Cursor & AI assistants",
     "i18n": {
@@ -4135,7 +4155,7 @@
       "tutorial"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "v0-dev"
     ],
     "summary": "Build your own generative UI chatbot using the Vercel AI SDK and Google Gemini",
     "i18n": {
@@ -4281,7 +4301,10 @@
       "antigravity-cli",
       "opencode",
       "qoder",
-      "cursor"
+      "cursor",
+      "github-copilot",
+      "cline",
+      "continue"
     ],
     "summary": "resume any AI coding session in another tool — Claude Code, Copilot, Gemini, Codex, Cursor",
     "i18n": {
@@ -4413,7 +4436,9 @@
       "claude-code",
       "codex-cli",
       "antigravity-cli",
-      "opencode"
+      "opencode",
+      "cline",
+      "augment-code"
     ],
     "summary": "Web, Desktop & Mobile client for Codex, Claude Code, OpenCode, Kimi, Augment Code, Qwen, fully end-to-end encrypted",
     "i18n": {
@@ -4875,7 +4900,8 @@
       "mcp-server"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "A Model Context Protocol (MCP) server that enables secure interaction with MySQL databases",
     "i18n": {
@@ -4946,7 +4972,7 @@
       "agent-framework"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "openclaw"
     ],
     "summary": "BitFun is a desktop-grade Agent runtimeand a ready-to-use suite of desktop Agent applications.with built-in Code Agent 、 Cowork Agent、Computer Use. It has memory, personality, and the ability to evolve over time",
     "i18n": {
@@ -5022,7 +5048,8 @@
       "claude-code",
       "codex-cli",
       "antigravity-cli",
-      "opencode"
+      "opencode",
+      "openclaw"
     ],
     "summary": "Command Your AI Agent Empire from the CEO Desk — A local-first AI agent office simulator that orchestrates CLI, OAuth, and API-connected agents (Claude Code, Codex CLI, Gemini CLI, OpenCode, and more) as a virtual autonomous company.",
     "i18n": {
@@ -5994,7 +6021,10 @@
     "resource_type": [
       "tutorial"
     ],
-    "target_tools": [],
+    "target_tools": [
+      "zed",
+      "manus"
+    ],
     "summary": "A community-driven AI automation framework that builds upon the incredible work of the open source community. Our goal is to combine language models with specialized tools for tasks like web search, crawling, and Python code execution, whil",
     "i18n": {
       "zh": {
@@ -6172,7 +6202,9 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "antigravity-cli"
+      "antigravity-cli",
+      "github-copilot",
+      "cline"
     ],
     "summary": "A macOS menu bar application that monitors AI coding assistant usage quotas. Keep track of your Claude, Codex, Antigravity ,and Gemini usage at a glance.",
     "i18n": {
@@ -6307,7 +6339,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "High-performance AI coding agent CLI written in Rust with zero unsafe code",
     "i18n": {
@@ -6565,7 +6598,8 @@
       "codex-cli",
       "opencode",
       "cursor",
-      "hermes-agent"
+      "hermes-agent",
+      "openclaw"
     ],
     "summary": "The living ecosystem where AI agents complete tasks through workflow loops, improve through iterative execution, are evaluated by mentor agents or humans in the loop, and turn completed work into reusable work experience and data to improve",
     "i18n": {

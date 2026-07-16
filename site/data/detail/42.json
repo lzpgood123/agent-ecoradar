@@ -7,7 +7,9 @@
     "resource_type": [
       "tutorial"
     ],
-    "target_tools": [],
+    "target_tools": [
+      "github-copilot"
+    ],
     "summary": "Bash-based Git worktree manager with editor and AI tool integration. Automates per-branch worktree creation, configuration copying, dependency installation, and workspace setup for efficient parallel development.",
     "i18n": {
       "zh": {
@@ -259,7 +261,7 @@
       "tutorial"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "openclaw"
     ],
     "summary": "Run a 1-billion parameter LLM on a $10 board with 256MB RAM",
     "i18n": {
@@ -453,7 +455,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "codex-cli"
+      "codex-cli",
+      "openclaw"
     ],
     "summary": "🦞 U-Claw 虾盘 - OpenClaw AI 助手离线安装 U 盘 | 👑 新品 U-King AI 装机管家：一键装好 Claude Code/Codex/OpenClaw → u-king.org | Remote support & custom AI development",
     "i18n": {
@@ -530,7 +533,7 @@
       "agent-framework"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "augment-code"
     ],
     "summary": "Agentic-RAG explores advanced Retrieval-Augmented Generation systems enhanced with AI LLM agents. ",
     "i18n": {
@@ -672,7 +675,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "A dev agent multiplexer for git worktrees and coding agents.",
     "i18n": {
@@ -861,7 +865,9 @@
     "resource_type": [
       "tutorial"
     ],
-    "target_tools": [],
+    "target_tools": [
+      "openclaw"
+    ],
     "summary": "⚡️ Superpowers for your Openclaw. Powerful prebuilt agent workflows.",
     "i18n": {
       "zh": {
@@ -988,7 +994,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Awesome List for Agentic RL",
     "i18n": {
@@ -1444,7 +1451,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "MCP Server para 70 APIs públicas brasileiras",
     "i18n": {
@@ -1516,7 +1524,10 @@
       "skills"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "windsurf",
+      "zed",
+      "cline"
     ],
     "summary": "An offline-first scientific writing workspace powered by Claude. LaTeX + Python + 100+ scientific skills all running locally.",
     "i18n": {
@@ -1727,7 +1738,9 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline",
+      "replit"
     ],
     "summary": "🚀 Rust 全量重构的 Claude Code - 性能提升 2.5x，体积减少 97% | High-performance Rust implementation of Claude Code with 2.5x faster startup and 97% smaller binary",
     "i18n": {
@@ -1797,7 +1810,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Meet Ava, the WhatsApp Agent",
     "i18n": {
@@ -1867,7 +1881,9 @@
     ],
     "target_tools": [
       "claude-code",
-      "opencode"
+      "opencode",
+      "aider",
+      "cline"
     ],
     "summary": "Use your Claude Max subscription with OpenCode, Pi, Droid, Aider, Crush, Cline. Proxy that bridges Anthropic's official SDK to enable Claude Max in third-party tools.",
     "i18n": {
@@ -2197,7 +2213,9 @@
       "skills"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "continue",
+      "openclaw"
     ],
     "summary": "This is NOT a third-party Claude Code client. ClawGod is a runtime patch applied on top of the official Claude Code. It works with any version — as Claude Code updates, the patch continues to take effect",
     "i18n": {
@@ -2274,7 +2292,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Ship your code, on autopilot. An open source agent that lives on your machines 24/7 and keeps your apps running. 🦀",
     "i18n": {
@@ -2606,7 +2625,8 @@
       "cli-tool"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "everything-claude-code 中文翻译项目：完整的 Claude Code 配置集合（agents, skills, hooks, commands, rules, MCPs）。源自 Anthropic 黑客松获胜者的实战配置，助力中文工程师高效理解与使用 Claude Code。",
     "i18n": {
@@ -2678,7 +2698,7 @@
       "agent-framework"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "zed"
     ],
     "summary": "Optimized Agentic and LLM Bulk Processing Over Your Data",
     "i18n": {
@@ -2896,7 +2916,9 @@
       "mcp-server",
       "cli-tool"
     ],
-    "target_tools": [],
+    "target_tools": [
+      "github-copilot"
+    ],
     "summary": "CopilotKit/open-mcp-client",
     "i18n": {
       "zh": {
@@ -3098,7 +3120,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "An open-source, code-first Java toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
     "i18n": {
@@ -3180,7 +3203,9 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "antigravity-cli"
+      "antigravity-cli",
+      "cline",
+      "openclaw"
     ],
     "summary": "Run OpenClaw AI Gateway on Android — standalone Flutter app with built-in terminal, web dashboard, and one-tap setup. Also available as a Termux CLI package.",
     "i18n": {
@@ -3643,7 +3668,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "Your autonomous engineering team in a CLI. The agent loop produces senior-level code that you can actually trust in prod because of non-negotiable feedback from independent reviewers. Supports Claude Code, OpenAI Codex, OpenCode, and Gemini",
     "i18n": {
@@ -3983,7 +4009,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "7×24 Desktop AI Agent for Everyone. Visual AI assistant with remote access, file management, and built-in AI browser.",
     "i18n": {
@@ -4251,7 +4278,8 @@
       "claude-code",
       "codex-cli",
       "cursor",
-      "hermes-agent"
+      "hermes-agent",
+      "openclaw"
     ],
     "summary": "Agent skills for Claude, Claude Code, Claude Cowork, Codex, Cursor, OpenClaw, Hermes Agent and other agentskills.io-compatible agents. See https://developertoolkit.ai to learn more how to use skills properly and create new ones.",
     "i18n": {
@@ -5087,7 +5115,9 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "warp",
+      "cline"
     ],
     "summary": "Open-source TypeScript terminal coding agent for DeepSeek-V4 — builds on DeepSeek's strong price-performance and ultra-cheap cache pricing, engineering byte-stable prefixes and cache-reusing forks so cross-session memory and a continuous se",
     "i18n": {
@@ -5158,7 +5188,9 @@
     "target_tools": [
       "codex-cli",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "augment-code",
+      "replit"
     ],
     "summary": "This repository provides an advanced Retrieval-Augmented Generation (RAG) solution for complex question answering. It uses sophisticated graph based algorithm to handle the tasks.",
     "i18n": {
@@ -5291,7 +5323,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "zed"
     ],
     "summary": "Collection of specialized AI subagents for Claude Code for personal use (full-stack development).",
     "i18n": {
@@ -5421,7 +5454,9 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "openclaw"
     ],
     "summary": "The memory-first self-improving agent harness built on EverOS.",
     "i18n": {
@@ -6143,7 +6178,8 @@
       "codex-cli",
       "opencode",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "The open-source alternative to vibe-island, designed for heavy code agent users, supporting cc/codex/opencode, terminal/ghostty/cmux/kaku/iterm. 开源的vibe-island替代品，为重度code agent用户设计，支持cc/codex/opencode, terminal/ghostty/cmux/kaku/iterm",
     "i18n": {
@@ -6292,7 +6328,7 @@
       "agent-framework"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "manus"
     ],
     "summary": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
     "i18n": {
@@ -6355,7 +6391,9 @@
     ],
     "target_tools": [
       "claude-code",
-      "codex-cli"
+      "codex-cli",
+      "github-copilot",
+      "kiro"
     ],
     "summary": "Claude Code settings, commands and agents for vibe coding",
     "i18n": {
@@ -6515,7 +6553,10 @@
       "claude-code",
       "codex-cli",
       "opencode",
-      "cursor"
+      "cursor",
+      "github-copilot",
+      "kiro",
+      "cline"
     ],
     "summary": "You're the boss, agents are your team. They handle tasks on their own, message each other, and review each other's work. You just watch the kanban board and give high-level commands. Codex/Claude/Grok/GitHub Copilot/Cursor/Kiro/Z.AI/MiniMax",
     "i18n": {

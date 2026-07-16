@@ -9,7 +9,8 @@
       "cli-tool"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "github-copilot"
     ],
     "summary": "SciPilot Skills family - Publication-grade scientific figure copilot for Claude Code ",
     "i18n": {
@@ -71,7 +72,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "86 product management skills from Lenny's Podcast for Claude Code and AI agents. Hiring, user research, strategy, shipping, and more.",
     "i18n": {
@@ -410,7 +412,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "The Cloud Sandbox Built for AI Agents",
     "i18n": {
@@ -599,7 +602,8 @@
       "cli-tool"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "Web-based interface for Claude CLI with streaming chat responses",
     "i18n": {
@@ -919,7 +923,9 @@
       "cli-tool",
       "extension"
     ],
-    "target_tools": [],
+    "target_tools": [
+      "github-copilot"
+    ],
     "summary": "社媒助手开源版 - 小红书、抖音、快手等平台数据采集的浏览器插件，可通过API调用，支持Docker部署。",
     "i18n": {
       "zh": {
@@ -1373,7 +1379,9 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "github-copilot",
+      "cline"
     ],
     "summary": "Beautiful vim-style powerline for Claude Code",
     "i18n": {
@@ -1512,7 +1520,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "AgentSociety 2 is a modern, LLM-native agent simulation platform designed for social science research and experimental design. It provides a flexible framework for creating and managing intelligent agents in simulated environments.",
     "i18n": {
@@ -2127,7 +2136,8 @@
       "cli-tool"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "SPEC-First Agentic Development Kit for Claude Code — 24 AI agents + 52 skills with TDD/DDD quality gates, 16-language projects, 4-language docs. Go CLI, zero deps.",
     "i18n": {
@@ -2274,7 +2284,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "Open CLI for integrating AI search, recommendation, and conversational retrieval into agent systems and business systems",
     "i18n": {
@@ -2417,7 +2428,7 @@
       "agent-framework"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "zed"
     ],
     "summary": "A Python framework that emulates Grok Heavy functionality using intelligent multi-agent orchestration. Deploy 4 (or more) specialized AI agents in parallel to deliver comprehensive, multi-perspective analysis on any query.",
     "i18n": {
@@ -2537,7 +2548,8 @@
       "tutorial"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "Plan-Apply-Unify Loop — Structured AI-assisted development for Claude Code. Quality over speed-for-speed's-sake.",
     "i18n": {
@@ -2607,7 +2619,8 @@
       "cli-tool"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "zed"
     ],
     "summary": "The Ultimate Claude Code Docker Development Environment - Run Claude AI's coding assistant in a fully containerized, reproducible environment with pre-configured development profiles.",
     "i18n": {
@@ -2791,7 +2804,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "codex-cli"
+      "codex-cli",
+      "github-copilot"
     ],
     "summary": "Reverse engineered Windows Copilot into an OpenAI-compatible API. Access GPT-4 and GPT-5 models through a simple REST interface without API keys or billing.",
     "i18n": {
@@ -2921,7 +2935,9 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit",
+      "openclaw"
     ],
     "summary": "The most Token-efficient open-source AI Agent",
     "i18n": {
@@ -2988,7 +3004,9 @@
     "target_tools": [
       "claude-code",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "github-copilot",
+      "replit"
     ],
     "summary": "A dev environment for AI agents.",
     "i18n": {
@@ -3177,7 +3195,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "A-MEM: Agentic Memory for LLM Agents",
     "i18n": {
@@ -4030,7 +4049,9 @@
       "codex-cli",
       "antigravity-cli",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit",
+      "openclaw"
     ],
     "summary": "AI coding dream team of agents for VS Code. Claude Code + openai Codex collaborate in brainstorm mode, debate solutions, and synthesize the best approach for your code.",
     "i18n": {
@@ -4112,7 +4133,7 @@
       "agent-framework"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "augment-code"
     ],
     "summary": "The collaborative spreadsheet for AI. Chain cells into powerful pipelines, experiment with prompts and models, and evaluate LLM responses in real-time. Work together seamlessly to build and iterate on AI applications.",
     "i18n": {
@@ -4196,7 +4217,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "The agent that remembers and learns.",
     "i18n": {
@@ -4407,7 +4429,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Schema-Guided Reasoning (SGR) has agentic system design created by neuraldeep community",
     "i18n": {
@@ -4809,7 +4832,8 @@
       "antigravity-cli",
       "opencode",
       "qoder",
-      "cursor"
+      "cursor",
+      "cline"
     ],
     "summary": "Universal skill installer and package manager for AI coding agents. One command, 12+ runtimes. npx ai-agent-skills",
     "i18n": {
@@ -5425,7 +5449,8 @@
     "target_tools": [
       "codex-cli",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "A desktop multi-agent harness built with Rust, Tauri, and React, powered by langgraph-rust.",
     "i18n": {
@@ -5828,7 +5853,9 @@
     "resource_type": [
       "cli-tool"
     ],
-    "target_tools": [],
+    "target_tools": [
+      "github-copilot"
+    ],
     "summary": "📖 The user manual for GitHub Copilot Workspace",
     "i18n": {
       "zh": {
@@ -5937,7 +5964,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "aider",
+      "lovable"
     ],
     "summary": "Low code tool to rapidly build and coordinate multi-agent teams",
     "i18n": {
@@ -6019,7 +6047,7 @@
       "cli-tool"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "github-copilot"
     ],
     "summary": "Pentest Copilot is an AI-powered browser based ethical hacking assistant tool designed to streamline pentesting workflows.",
     "i18n": {
@@ -6155,7 +6183,9 @@
       "opencode",
       "qoder",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "replit"
     ],
     "summary": "🚀 MassGen is an open-source multi-agent scaling system that runs in your terminal, autonomously orchestrating frontier models and agents to collaborate, reason, and produce high-quality results. | Join us on Discord: discord.massgen.ai",
     "i18n": {
@@ -6315,7 +6345,8 @@
     "target_tools": [
       "antigravity-cli",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Hexabot v3 is an AI workflow automation platform, combining workflows, actions, agents, and conversational channels in one runtime.",
     "i18n": {
@@ -6400,7 +6431,8 @@
       "claude-code",
       "codex-cli",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "AI agent expert in PostgreSQL",
     "i18n": {
@@ -6534,7 +6566,9 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "warp",
+      "cline"
     ],
     "summary": "The coding agent that answers to you, your model, your machine, your rules.",
     "i18n": {
@@ -6609,7 +6643,7 @@
       "tutorial"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "augment-code"
     ],
     "summary": "Awesome AI Memory | LLM Memory | A curated knowledge base on AI memory for LLMs and agents, covering long-term memory, reasoning, retrieval, and memory-native system design.  Awesome-AI-Memory 是一个 集中式、持续更新的 AI 记忆知识库，系统性整理了与 大模型记忆（LLM Memory",
     "i18n": {

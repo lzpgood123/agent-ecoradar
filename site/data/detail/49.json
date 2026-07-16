@@ -346,7 +346,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Hercules is the world’s first open-source testing agent, enabling UI, API, Security, Accessibility, and Visual validations – all without code or maintenance. Automate testing effortlessly and let Hercules handle the heavy lifting! ⚡",
     "i18n": {
@@ -427,7 +428,9 @@
     ],
     "target_tools": [
       "claude-code",
-      "antigravity-cli"
+      "antigravity-cli",
+      "cline",
+      "lovable"
     ],
     "summary": "Raycast extension to use GPT, Claude, Llama, and more... all for FREE! + Full support for custom APIs.",
     "i18n": {
@@ -636,7 +639,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "cursor"
+      "cursor",
+      "cline"
     ],
     "summary": "Meta Ads (Facebook/Instagram) MCP server for Claude, ChatGPT, Perplexity & Cursor — the Meta node of Pipeboard’s 5-platform family (+ Google, TikTok, Snap, Reddit). Hosted remote MCP, badged Meta Business Partner, free plan — no self-hostin",
     "i18n": {
@@ -829,7 +833,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "Beautiful Claude Code Chat Interface for VS Code",
     "i18n": {
@@ -898,7 +903,9 @@
       "agent-framework"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline",
+      "v0-dev"
     ],
     "summary": "Unified interface for AI chat, Agentic workflows and more ...",
     "i18n": {
@@ -1166,7 +1173,8 @@
       "claude-code",
       "codex-cli",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "NekroAgent 是一个面向多人互动场景的跨平台 Agent 框架，集 Claude Code 沙盒执行、工作区编排、长期记忆、结构化 MCP 管理与可视化控制台于一体，兼具高扩展性、多模态交互、实时状态推送和自动化运行能力。项目支持 QQ、Discord、Telegram、Minecraft、BilibiliLive、WeChat、Email、SSE(SDK) 等多种平台接入，应用于构建高智能聊天机器人，可扩展为具备代码执行、工具调用、插件协作和复杂任务处理能力的通用 ",
     "i18n": {
@@ -1419,7 +1427,8 @@
       "tutorial"
     ],
     "target_tools": [
-      "hermes-agent"
+      "hermes-agent",
+      "aider"
     ],
     "summary": "Chat with AI large language models running natively in your browser. Enjoy private, server-free, seamless AI conversations.",
     "i18n": {
@@ -1750,7 +1759,8 @@
       "skills"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "openclaw"
     ],
     "summary": "Clone any .pptx into your own deck — OpenAI gpt-image-2 mimics the layout, you supply the content. 10 bundled styles. | 把任何 .pptx 模板\"抄\"成你的 PPT：gpt-image-2 仿版式、你换内容，另含 10 套精选风格。Claude Code / OpenClaw skill. ",
     "i18n": {
@@ -1820,7 +1830,7 @@
       "agent-framework"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "lovable"
     ],
     "summary": "Dynamiq is an orchestration framework for agentic AI and LLM applications",
     "i18n": {
@@ -1889,7 +1899,7 @@
       "cli-tool"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "lovable"
     ],
     "summary": "Open-source CLI for unrestricted AI - Access powerful models without censorship",
     "i18n": {
@@ -2028,7 +2038,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Bring agents to any interfaces",
     "i18n": {
@@ -2336,7 +2347,8 @@
       "cli-tool"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "My personal Claude Code configuration - rules, hooks, agents, skills, and commands",
     "i18n": {
@@ -2801,7 +2813,9 @@
       "tutorial"
     ],
     "target_tools": [
-      "cursor"
+      "cursor",
+      "windsurf",
+      "cline"
     ],
     "summary": "If using CLINE/RooCode/Cursor/Windsurf Setup these rules. Usable for newbies riding AI wave and experienced folks both . Combines: (1) Memory,(2) Reasoning into subtasks (3) Prompts for best practices.",
     "i18n": {
@@ -3355,7 +3369,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "Switch between multiple Claude Code accounts, with automatic rate-limit rotation, usage dashboard, and parallel sessions",
     "i18n": {
@@ -3625,7 +3640,7 @@
       "agent-framework"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "zed"
     ],
     "summary": "Agentlens is a trusted agent trading platform.  Here, you can quickly find the Agent that meets your needs, and you can also publish your own Agent to turn it into your digital asset.  We encourage everyone to transform their areas of exper",
     "i18n": {
@@ -3899,7 +3914,8 @@
     "target_tools": [
       "codex-cli",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "The Continuous-Improvement Stack for Agents. Our environment data and evals power agent improvement and monitoring.",
     "i18n": {
@@ -4051,7 +4067,9 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "cursor"
+      "cursor",
+      "windsurf",
+      "cline"
     ],
     "summary": "MCP server for Google Ads, Meta Ads & GA4 — works with ChatGPT, Claude, Cursor, n8n, Windsurf & more. 250+ tools for campaign management, analytics & optimization.",
     "i18n": {
@@ -4269,7 +4287,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "cursor"
+      "cursor",
+      "cline"
     ],
     "summary": "Private web search for AI assistants via SearXNG — supports Claude, Cursor, and any MCP client",
     "i18n": {
@@ -4409,7 +4428,8 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "cursor"
+      "cursor",
+      "cline"
     ],
     "summary": "Your AI forgets. This remembers. Spec-driven coding harness for vibecoders, product owners, CEOs and real builders — self-improving context memory, 15 agents, 33 skills working with /goal, agent-team, & workflow on autopilot loops with 0 ne",
     "i18n": {
@@ -4494,7 +4514,8 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "opencode"
+      "opencode",
+      "cline"
     ],
     "summary": "AI workflow automation plugin for intelligent code generation with Claude/Codex",
     "i18n": {
@@ -4841,7 +4862,10 @@
       "claude-code",
       "codex-cli",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "augment-code",
+      "replit"
     ],
     "summary": "TypeScript AI AI Function Calling Framework enhanced by compiler skills.",
     "i18n": {
@@ -5282,7 +5306,9 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "lovable",
+      "replit"
     ],
     "summary": "Agents-flex is A lightweight Java AI agent development framework (positioned as a counterpart to Spring AI). It supports features such as RAG, MCP, Skills, Text2SQL , LLM Wiki, Sub-agents, Web Search, TTS (synchronous and streaming), and ST",
     "i18n": {
@@ -5652,7 +5678,9 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "lovable",
+      "replit"
     ],
     "summary": "🐝  The First Self-Improving agents with RL / Prompting Optimization",
     "i18n": {
@@ -6039,7 +6067,7 @@
       "tutorial"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "lovable"
     ],
     "summary": "Scan GitHub for available OpenAI API Keys",
     "i18n": {
@@ -6171,7 +6199,9 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "antigravity-cli"
+      "antigravity-cli",
+      "aider",
+      "cline"
     ],
     "summary": "Multi-agent autonomous SDLC framework. Spec to deployed app. PRD, GitHub issue, OpenAPI/JSON/YAML, or one-line brief. 5 AI providers, 8 quality gates.",
     "i18n": {

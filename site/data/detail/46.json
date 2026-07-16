@@ -8,7 +8,8 @@
       "tutorial"
     ],
     "target_tools": [
-      "hermes-agent"
+      "hermes-agent",
+      "aider"
     ],
     "summary": "Platform for AI-powered software engineers",
     "i18n": {
@@ -78,7 +79,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "A curated list of papers and resources based on the survey \"Agentic Reasoning for Large Language Models\"",
     "i18n": {
@@ -286,7 +288,8 @@
       "tutorial"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "zed",
+      "openclaw"
     ],
     "summary": "Build, Evaluate, and Deploy GUI Agents — online RL training, standardized benchmarks, and real-device deployment in one framework.",
     "i18n": {
@@ -475,7 +478,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "This project lets you create your own AI desktop companion with customizable characters and voice conversations that respond in just 1 second. Features include long-term memory, visual recognition, voice cloning and LLM training. Compatible",
     "i18n": {
@@ -1065,7 +1069,7 @@
       "skills"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "augment-code"
     ],
     "summary": "This repository collects papers for \"A Survey on Knowledge Distillation of Large Language Models\". We break down KD into Knowledge Elicitation and Distillation Algorithms, and explore the Skill & Vertical Distillation of LLMs.",
     "i18n": {
@@ -1144,7 +1148,9 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "cursor"
+      "cursor",
+      "github-copilot",
+      "windsurf"
     ],
     "summary": "🧠 RepoBrain (formerly Antigravity) — Give your repo a brain. ChatGPT for your codebase: works in Claude Code, Cursor, Codex, Windsurf & more.",
     "i18n": {
@@ -1424,7 +1430,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "An open-source, code-first Typescript toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
     "i18n": {
@@ -1507,7 +1514,9 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "zed",
+      "cline"
     ],
     "summary": "Markdown memory system for you and your AI agent",
     "i18n": {
@@ -1656,7 +1665,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Large Language Model based Multi-Agents: A Survey of Progress and Challenges (In IJCAI 2024)",
     "i18n": {
@@ -1726,7 +1736,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Create AI Agents in a No-Code Visual Builder or TypeScript SDK with full 2-way sync. For shipping AI assistants and multi-agent AI workflows.",
     "i18n": {
@@ -1809,7 +1820,8 @@
       "mcp-server"
     ],
     "target_tools": [
-      "codex-cli"
+      "codex-cli",
+      "augment-code"
     ],
     "summary": "The SmythOS Runtime Environment (SRE) is an open-source, cloud-native runtime for agentic AI. Secure, modular, and production-ready, it lets developers build, run, and manage intelligent agents across local, cloud, and edge environments.",
     "i18n": {
@@ -1892,7 +1904,8 @@
       "cli-tool"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "Offensive-security MCP server with 205 wrapped tools, 17 specialist agents, and 60 SPA-aware probes for OWASP Top 10. CLI + MCP, BYO LLM. No API key needed on MCP path.",
     "i18n": {
@@ -1974,7 +1987,7 @@
       "tutorial"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "cline"
     ],
     "summary": "Chat2API enables zero-cost access to leading AI models by leveraging official web UIs. It supports providers such as DeepSeek, GLM, Kimi, MiniMax, Qwen, and Z.ai, and seamlessly integrates with tools like openlcaw, Cline, and Roo-Code.",
     "i18n": {
@@ -2419,7 +2432,9 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "cursor"
+      "cursor",
+      "github-copilot",
+      "cline"
     ],
     "summary": "Install our local first extensions for your favorite AI IDE or Terminal Agent. Process your histories into reusable skills with Lore. Sync your conversations to the cloud. File issues and requests.",
     "i18n": {
@@ -2565,7 +2580,7 @@
       "agent-framework"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "openclaw"
     ],
     "summary": "PinchBench is a benchmarking system for evaluating LLM models as OpenClaw coding agents. Made with 🦀 by the humans at https://kilo.ai",
     "i18n": {
@@ -2578,15 +2593,15 @@
         "summary": "PinchBench is a benchmarking system for evaluating LLM models as OpenClaw coding agents. Made with 🦀 by the humans at https://kilo.ai"
       }
     },
-    "stars": 1277,
+    "stars": 1281,
     "forks": 147,
     "total_score": 68,
     "quantifiable_score": 34,
     "quality_score": 34,
     "tracking_priority": "track",
-    "last_updated": "2026-07-13T15:02:17Z",
+    "last_updated": "2026-07-16T13:21:47Z",
     "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
+    "last_seen": "2026-07-17",
     "license": "mit",
     "languages": [
       "Python"
@@ -2685,7 +2700,8 @@
       "mcp-server"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "Natural voice conversations with Claude Code",
     "i18n": {
@@ -2886,7 +2902,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "A lightweight, rollbackable, and visual Long-Term Memory Server for MCP Agents. Say goodbye to Vector RAG and amnesia. Empower your AI with persistent, graph-like structured memory across any model, session, or tool. Drop-in replacement for",
     "i18n": {
@@ -3227,7 +3244,9 @@
     ],
     "target_tools": [
       "claude-code",
-      "codex-cli"
+      "codex-cli",
+      "github-copilot",
+      "cline"
     ],
     "summary": "Chat with any codebase in under two minutes | Fully local or via third-party APIs",
     "i18n": {
@@ -3570,7 +3589,9 @@
       "skills",
       "cli-tool"
     ],
-    "target_tools": [],
+    "target_tools": [
+      "github-copilot"
+    ],
     "summary": "A refined collection of Hypervelocity Engineering components (instructions, prompts, agents, and skills) to start your project off right, or upgrade your existing projects to get the most out of GitHub Copilot",
     "i18n": {
       "zh": {
@@ -3718,7 +3739,11 @@
       "claude-code",
       "codex-cli",
       "opencode",
-      "workbuddy-codebuddy"
+      "workbuddy-codebuddy",
+      "windsurf",
+      "codegeex",
+      "kilo-code",
+      "augment-code"
     ],
     "summary": "QuantaAlpha transforms how you discover quantitative alpha factors by combining LLM intelligence with evolutionary strategies. Just describe your research direction, and watch as factors are automatically mined, evolved, and validated throu",
     "i18n": {
@@ -3905,7 +3930,8 @@
       "tutorial"
     ],
     "target_tools": [
-      "opencode"
+      "opencode",
+      "openclaw"
     ],
     "summary": "all opencode features deeply integrated inside Discord. each project is a channel. each session a thread",
     "i18n": {
@@ -4166,7 +4192,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "A framework for comprehensive diagnosis and optimization of agents using simulated, realistic synthetic interactions",
     "i18n": {
@@ -4294,7 +4321,8 @@
       "tutorial"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "openclaw"
     ],
     "summary": "A lightweight, open-source OpenClaw version built into your Claude Code.",
     "i18n": {
@@ -4357,7 +4385,8 @@
     "target_tools": [
       "claude-code",
       "opencode",
-      "cursor"
+      "cursor",
+      "zed"
     ],
     "summary": "Spec-Driven Development with AI Sub-Agents. An orchestrator + 9 specialized sub-agents for structured feature development. Zero dependencies. Pure Markdown. Works with Claude Code, OpenCode, Cursor, and more.",
     "i18n": {
@@ -4594,7 +4623,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "World2Agent(W2A) is an open protocol that standardizes how Al agents perceive the real world.",
     "i18n": {
@@ -4792,7 +4822,8 @@
     "target_tools": [
       "claude-code",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Claude Code dashboard with usage stats, error analysis, and sharable feature",
     "i18n": {
@@ -5037,7 +5068,8 @@
       "tutorial"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "A full-featured web-based Claude Code client that provides complete interactive functionality for managing Claude Code projects",
     "i18n": {
@@ -5103,7 +5135,9 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "openclaw"
     ],
     "summary": "a recursive self-improving harness designed to help your agents (and future iterations of those agents) succeed on any task",
     "i18n": {
@@ -5180,7 +5214,9 @@
     ],
     "target_tools": [
       "claude-code",
-      "codex-cli"
+      "codex-cli",
+      "cline",
+      "openclaw"
     ],
     "summary": "Open-source workspace where your agents and team share one memory. Any runtime, your infra — self-host in one command, no per-agent fees.",
     "i18n": {
@@ -5577,7 +5613,9 @@
     ],
     "target_tools": [
       "claude-code",
-      "codex-cli"
+      "codex-cli",
+      "github-copilot",
+      "cline"
     ],
     "summary": "Open-source @agent mentions for Slack and GitHub. OpenTag routes tagged requests to Codex, Claude Code, then returns results in thread.",
     "i18n": {
@@ -5705,7 +5743,9 @@
     "resource_type": [
       "cli-tool"
     ],
-    "target_tools": [],
+    "target_tools": [
+      "github-copilot"
+    ],
     "summary": "Will 保哥整理的最佳 GitHub Copilot 設定",
     "i18n": {
       "zh": {
@@ -5827,7 +5867,9 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "antigravity-cli"
+      "antigravity-cli",
+      "kiro",
+      "cline"
     ],
     "summary": "This is a project that unifies the management of LLM APIs. It can call multiple backend services through a unified API interface, convert them to the OpenAI format uniformly, and support load balancing. Currently supported backend services ",
     "i18n": {
@@ -6103,7 +6145,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Agent-driven automated CVE discovery platform for source code auditing, vulnerability verification, and report generation.",
     "i18n": {
@@ -6184,7 +6227,10 @@
       "opencode",
       "trae",
       "cursor",
-      "hermes-agent"
+      "hermes-agent",
+      "windsurf",
+      "cline",
+      "replit"
     ],
     "summary": "Hand-crafted Claude Code Skills focused on improving agent results quality. Compatible with OpenCode, Cursor, Antigravity, Gemini CLI, and others.",
     "i18n": {
@@ -6378,7 +6424,9 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline",
+      "openclaw"
     ],
     "summary": "CLI for Apple's Messages.app so your agent can send and receive text messages/iMessages.",
     "i18n": {
@@ -6445,7 +6493,8 @@
       "codex-cli",
       "antigravity-cli",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": " Bringing together outstanding artificial intelligence (AI) open source projects from around the world. ",
     "i18n": {
@@ -6582,7 +6631,8 @@
       "skills"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "manus",
+      "openclaw"
     ],
     "summary": "AIPex: AI browser automation assistant, no migration and privacy first. Alternative to Manus Browser Operator、 Claude Chrome and Agent Browser",
     "i18n": {

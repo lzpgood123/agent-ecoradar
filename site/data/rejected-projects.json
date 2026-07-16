@@ -1,394 +1,376 @@
 [
   {
-    "id": "github-shubhambhardwaj001-ai-pr-review-agent",
-    "name": "ShubhamBhardwaj001/ai-pr-review-agent",
-    "url": "https://github.com/ShubhamBhardwaj001/ai-pr-review-agent",
+    "id": "github-riniepel-demo-org-skills-expand-your-team-with-copilot",
+    "name": "riniepel-demo-org/skills-expand-your-team-with-copilot",
+    "url": "https://github.com/riniepel-demo-org/skills-expand-your-team-with-copilot",
     "source_type": "github",
     "resource_type": [
-      "tutorial"
-    ],
-    "target_tools": [],
-    "summary": "ai-pr-review-agent",
-    "i18n": {
-      "zh": {
-        "name": "ShubhamBhardwaj001/ai-pr-review-agent",
-        "summary": "AI PR 审查代理"
-      },
-      "en": {
-        "name": "ShubhamBhardwaj001/ai-pr-review-agent",
-        "summary": "ai-pr-review-agent"
-      }
-    },
-    "stars": 0,
-    "forks": 0,
-    "total_score": 17,
-    "quantifiable_score": 17,
-    "quality_score": 0,
-    "tracking_priority": "reject",
-    "last_updated": "2026-05-24T14:04:23Z",
-    "first_seen": "2026-07-13",
-    "last_seen": "2026-07-16",
-    "license": null,
-    "languages": [
-      "Python"
-    ],
-    "review_state": "auto-rejected",
-    "llm_summary": {
-      "zh": "一个空的仓库，只有一个标题和单行描述，没有实际内容、代码或文档。",
-      "en": "An empty repository with just a title and a one-line description, lacking any actual code, documentation, or license."
-    }
-  },
-  {
-    "id": "github-andrianinalydiano-codex-web",
-    "name": "AndrianinaLydiano/codex-web",
-    "url": "https://github.com/AndrianinaLydiano/codex-web",
-    "source_type": "github",
-    "resource_type": [
-      "agent-framework"
-    ],
-    "target_tools": [
-      "codex-cli"
-    ],
-    "summary": "First test with openai codex code agent",
-    "i18n": {
-      "zh": {
-        "name": "AndrianinaLydiano/codex-web",
-        "summary": "首次使用 OpenAI Codex code agent 进行测试"
-      },
-      "en": {
-        "name": "AndrianinaLydiano/codex-web",
-        "summary": "First test with openai codex code agent"
-      }
-    },
-    "stars": 0,
-    "forks": 0,
-    "total_score": 18,
-    "quantifiable_score": 12,
-    "quality_score": 6,
-    "tracking_priority": "reject",
-    "last_updated": "2025-08-21T10:18:33Z",
-    "first_seen": "2026-07-13",
-    "last_seen": "2026-07-16",
-    "license": "mit",
-    "languages": [
-      "TypeScript"
-    ],
-    "review_state": "auto-rejected",
-    "llm_summary": {
-      "zh": "一个简单的OpenAI Codex测试项目，实际为社交媒体内容生成器前端，无实际AI代理功能。",
-      "en": "A simple test project for OpenAI Codex, actually a frontend for a social media content generator, with no real AI agent functionality."
-    }
-  },
-  {
-    "id": "github-flyliyiyun-startup-operations",
-    "name": "flyliyiyun/startup-operations",
-    "url": "https://github.com/flyliyiyun/startup-operations",
-    "source_type": "github",
-    "resource_type": [
-      "skills"
-    ],
-    "target_tools": [
-      "workbuddy-codebuddy"
-    ],
-    "summary": "WorkBuddy AI Skill for startup operations — management, hiring, remote teams, crisis management",
-    "i18n": {
-      "zh": {
-        "name": "flyliyiyun/startup-operations",
-        "summary": "WorkBuddy AI Skill 面向初创企业运营 — 管理、招聘、远程团队、危机管理"
-      },
-      "en": {
-        "name": "flyliyiyun/startup-operations",
-        "summary": "WorkBuddy AI Skill for startup operations — management, hiring, remote teams, crisis management"
-      }
-    },
-    "stars": 0,
-    "forks": 0,
-    "total_score": 18,
-    "quantifiable_score": 12,
-    "quality_score": 6,
-    "tracking_priority": "reject",
-    "last_updated": "2026-04-16T12:37:32Z",
-    "first_seen": "2026-07-13",
-    "last_seen": "2026-07-16",
-    "license": null,
-    "languages": [],
-    "review_state": "auto-rejected",
-    "llm_summary": {
-      "zh": "一个用于创业运营的WorkBuddy AI技能，但仓库为空，无README或代码。",
-      "en": "An empty WorkBuddy AI skill for startup operations with no README or code."
-    }
-  },
-  {
-    "id": "github-just2036-ai-pr-review-agent",
-    "name": "JUST2036/ai-pr-review-agent",
-    "url": "https://github.com/JUST2036/ai-pr-review-agent",
-    "source_type": "github",
-    "resource_type": [
-      "tutorial"
-    ],
-    "target_tools": [],
-    "summary": "JUST2036/ai-pr-review-agent",
-    "i18n": {
-      "zh": {
-        "name": "JUST2036/ai-pr-review-agent",
-        "summary": "JUST2036/AI-PR-审查代理"
-      },
-      "en": {
-        "name": "JUST2036/ai-pr-review-agent",
-        "summary": "JUST2036/ai-pr-review-agent"
-      }
-    },
-    "stars": 0,
-    "forks": 0,
-    "total_score": 18,
-    "quantifiable_score": 15,
-    "quality_score": 3,
-    "tracking_priority": "reject",
-    "last_updated": "2026-05-07T07:35:49Z",
-    "first_seen": "2026-07-13",
-    "last_seen": "2026-07-16",
-    "license": null,
-    "languages": [],
-    "review_state": "auto-rejected",
-    "llm_summary": {
-      "zh": "该项目模板名称暗示与AI PR审查相关，但仓库为空，无代码、文档或描述，无实际价值。",
-      "en": "The project name suggests AI PR review functionality, but the repository is empty with no code, documentation, or description, offering no value."
-    }
-  },
-  {
-    "id": "github-sujwalnaik-ai-pr-review-agent",
-    "name": "Sujwalnaik/ai-pr-review-agent",
-    "url": "https://github.com/Sujwalnaik/ai-pr-review-agent",
-    "source_type": "github",
-    "resource_type": [
-      "tutorial"
-    ],
-    "target_tools": [],
-    "summary": "Sujwalnaik/ai-pr-review-agent",
-    "i18n": {
-      "zh": {
-        "name": "Sujwalnaik/ai-pr-review-agent",
-        "summary": "Sujwalnaik/ai-pr-review-agent 项目，一个基于AI的PR审查代理工具。"
-      },
-      "en": {
-        "name": "Sujwalnaik/ai-pr-review-agent",
-        "summary": "Sujwalnaik/ai-pr-review-agent"
-      }
-    },
-    "stars": 0,
-    "forks": 0,
-    "total_score": 19,
-    "quantifiable_score": 12,
-    "quality_score": 7,
-    "tracking_priority": "reject",
-    "last_updated": "2026-02-15T15:16:19Z",
-    "first_seen": "2026-07-13",
-    "last_seen": "2026-07-16",
-    "license": null,
-    "languages": [],
-    "review_state": "auto-rejected",
-    "llm_summary": {
-      "zh": "该仓库为空，无任何内容，无法使用。",
-      "en": "Empty repository with no content, not usable."
-    }
-  },
-  {
-    "id": "github-bettermen-piano-teacher",
-    "name": "bettermen/piano-teacher",
-    "url": "https://github.com/bettermen/piano-teacher",
-    "source_type": "github",
-    "resource_type": [
-      "skills"
-    ],
-    "target_tools": [
-      "workbuddy-codebuddy"
-    ],
-    "summary": "AI Piano Teacher — comprehensive piano learning assistant for WorkBuddy Agent Skills",
-    "i18n": {
-      "zh": {
-        "name": "bettermen/piano-teacher",
-        "summary": "AI钢琴老师——WorkBuddy Agent Skills的全面钢琴学习助手"
-      },
-      "en": {
-        "name": "bettermen/piano-teacher",
-        "summary": "AI Piano Teacher — comprehensive piano learning assistant for WorkBuddy Agent Skills"
-      }
-    },
-    "stars": 0,
-    "forks": 0,
-    "total_score": 19,
-    "quantifiable_score": 15,
-    "quality_score": 4,
-    "tracking_priority": "reject",
-    "last_updated": "2026-07-08T14:56:55Z",
-    "first_seen": "2026-07-13",
-    "last_seen": "2026-07-16",
-    "license": null,
-    "languages": [],
-    "review_state": "auto-rejected",
-    "llm_summary": {
-      "zh": "一个为WorkBuddy CodeBuddy设计的钢琴教学技能，但仓库为空，缺乏实际内容。",
-      "en": "A piano teaching skill for WorkBuddy CodeBuddy, but the repository is empty and lacks any substantive content."
-    }
-  },
-  {
-    "id": "github-adhiman1995-codebuddy",
-    "name": "adhiman1995/Codebuddy",
-    "url": "https://github.com/adhiman1995/Codebuddy",
-    "source_type": "github",
-    "resource_type": [
-      "tutorial"
-    ],
-    "target_tools": [
-      "workbuddy-codebuddy"
-    ],
-    "summary": "CodeBuddy — AI Code Review Assistant",
-    "i18n": {
-      "zh": {
-        "name": "adhiman1995/Codebuddy",
-        "summary": "CodeBuddy — AI代码审查助手"
-      },
-      "en": {
-        "name": "adhiman1995/Codebuddy",
-        "summary": "CodeBuddy — AI Code Review Assistant"
-      }
-    },
-    "stars": 0,
-    "forks": 0,
-    "total_score": 20,
-    "quantifiable_score": 15,
-    "quality_score": 5,
-    "tracking_priority": "reject",
-    "last_updated": "2026-06-12T18:26:31Z",
-    "first_seen": "2026-07-13",
-    "last_seen": "2026-07-16",
-    "license": null,
-    "languages": [],
-    "review_state": "auto-rejected",
-    "llm_summary": {
-      "zh": "空仓库，项目可能已废弃。",
-      "en": "Empty repository, project likely abandoned."
-    }
-  },
-  {
-    "id": "github-joonghyun-lee-frieren-deus-ex-antigravity",
-    "name": "Joonghyun-Lee-Frieren/deus-ex-antigravity",
-    "url": "https://github.com/Joonghyun-Lee-Frieren/deus-ex-antigravity",
-    "source_type": "github",
-    "resource_type": [
-      "extension",
+      "skills",
+      "agent-framework",
       "cli-tool"
     ],
     "target_tools": [
-      "antigravity-cli"
+      "github-copilot"
     ],
-    "summary": "antigravity cli plugin",
+    "summary": "Exercise: Expand your team with GitHub Copilot coding agent",
     "i18n": {
       "zh": {
-        "name": "Joonghyun-Lee-Frieren/deus-ex-antigravity",
-        "summary": "antigravity CLI 插件"
+        "name": "riniepel-demo-org/skills-expand-your-team-with-copilot",
+        "summary": "Exercise: Expand your team with GitHub Copilot coding agent"
       },
       "en": {
-        "name": "Joonghyun-Lee-Frieren/deus-ex-antigravity",
-        "summary": "antigravity cli plugin"
+        "name": "riniepel-demo-org/skills-expand-your-team-with-copilot",
+        "summary": "Exercise: Expand your team with GitHub Copilot coding agent"
       }
     },
-    "stars": 0,
+    "stars": 2,
     "forks": 0,
-    "total_score": 22,
-    "quantifiable_score": 19,
-    "quality_score": 3,
+    "total_score": 10,
+    "quantifiable_score": 10,
+    "quality_score": 0,
     "tracking_priority": "reject",
-    "last_updated": "2026-06-04T00:13:49Z",
-    "first_seen": "2026-07-13",
-    "last_seen": "2026-07-16",
+    "last_updated": "2025-07-10T09:09:48Z",
+    "first_seen": "2026-07-16",
+    "last_seen": "2026-07-17",
     "license": "mit",
     "languages": [
       "JavaScript"
     ],
     "review_state": "auto-rejected",
-    "llm_summary": {
-      "zh": "一个用于antigravity CLI的插件，与AI编码代理生态系统无关。",
-      "en": "A plugin for the antigravity CLI, unrelated to AI coding agent ecosystem."
-    }
+    "llm_summary": null
   },
   {
-    "id": "github-pradeep873511-sudo-ai-pr-review-agent",
-    "name": "pradeep873511-sudo/ai-pr-review-agent",
-    "url": "https://github.com/pradeep873511-sudo/ai-pr-review-agent",
+    "id": "github-unkloud-junie-guidelines",
+    "name": "unkloud/junie-guidelines",
+    "url": "https://github.com/unkloud/junie-guidelines",
     "source_type": "github",
     "resource_type": [
-      "tutorial"
+      "extension",
+      "agent-framework"
     ],
-    "target_tools": [],
-    "summary": "pradeep873511-sudo/ai-pr-review-agent",
+    "target_tools": [
+      "junie"
+    ],
+    "summary": "My guideline for jetbrains junie coding agent",
     "i18n": {
       "zh": {
-        "name": "pradeep873511-sudo/ai-pr-review-agent",
-        "summary": "pradeep873511-sudo/ai-pr-review-agent 项目：AI驱动的PR审查工具"
+        "name": "unkloud/junie-guidelines",
+        "summary": "My guideline for jetbrains junie coding agent"
       },
       "en": {
-        "name": "pradeep873511-sudo/ai-pr-review-agent",
-        "summary": "pradeep873511-sudo/ai-pr-review-agent"
+        "name": "unkloud/junie-guidelines",
+        "summary": "My guideline for jetbrains junie coding agent"
       }
     },
     "stars": 0,
     "forks": 0,
-    "total_score": 23,
-    "quantifiable_score": 17,
-    "quality_score": 6,
+    "total_score": 10,
+    "quantifiable_score": 10,
+    "quality_score": 0,
     "tracking_priority": "reject",
-    "last_updated": "2026-06-25T07:38:26Z",
-    "first_seen": "2026-07-13",
-    "last_seen": "2026-07-16",
+    "last_updated": "2025-12-06T07:53:44Z",
+    "first_seen": "2026-07-16",
+    "last_seen": "2026-07-17",
+    "license": "cc0-1.0",
+    "languages": [],
+    "review_state": "auto-rejected",
+    "llm_summary": null
+  },
+  {
+    "id": "github-sapientpants-sonarqube-mcp-server",
+    "name": "sapientpants/sonarqube-mcp-server",
+    "url": "https://github.com/sapientpants/sonarqube-mcp-server",
+    "source_type": "github",
+    "resource_type": [
+      "mcp-server"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Model Context Protocol (MCP) server for SonarQube",
+    "i18n": {
+      "zh": {
+        "name": "sapientpants/sonarqube-mcp-server",
+        "summary": "Model Context Protocol (MCP) server for SonarQube"
+      },
+      "en": {
+        "name": "sapientpants/sonarqube-mcp-server",
+        "summary": "Model Context Protocol (MCP) server for SonarQube"
+      }
+    },
+    "stars": 100,
+    "forks": 16,
+    "total_score": 26,
+    "quantifiable_score": 26,
+    "quality_score": 0,
+    "tracking_priority": "reject",
+    "last_updated": "2026-07-05T03:14:11Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
     "license": null,
+    "languages": [],
+    "review_state": "auto-rejected",
+    "llm_summary": null
+  },
+  {
+    "id": "github-pathonaiorg-litemultiagent",
+    "name": "PathOnAIOrg/LiteMultiAgent",
+    "url": "https://github.com/PathOnAIOrg/LiteMultiAgent",
+    "source_type": "github",
+    "resource_type": [
+      "agent-framework"
+    ],
+    "target_tools": [
+      "trae",
+      "hermes-agent",
+      "lovable",
+      "replit"
+    ],
+    "summary": "The Library for LLM-based multi-agent applications",
+    "i18n": {
+      "zh": {
+        "name": "PathOnAIOrg/LiteMultiAgent",
+        "summary": "The Library for LLM-based multi-agent applications"
+      },
+      "en": {
+        "name": "PathOnAIOrg/LiteMultiAgent",
+        "summary": "The Library for LLM-based multi-agent applications"
+      }
+    },
+    "stars": 102,
+    "forks": 20,
+    "total_score": 27,
+    "quantifiable_score": 27,
+    "quality_score": 0,
+    "tracking_priority": "reject",
+    "last_updated": "2026-01-30T01:25:13Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "other",
     "languages": [
       "Python"
     ],
     "review_state": "auto-rejected",
-    "llm_summary": {
-      "zh": "空仓库，无实际代码或文档，对AI编程助手生态无价值。",
-      "en": "Empty repository with no code or documentation, no value to the AI coding agent ecosystem."
-    }
+    "llm_summary": null
   },
   {
-    "id": "github-c1ph3r404-antigravitycli-plugin",
-    "name": "C1ph3r404/AntigravityCli-Plugin",
-    "url": "https://github.com/C1ph3r404/AntigravityCli-Plugin",
+    "id": "github-lijigang-ljg-skill-xray-paper",
+    "name": "lijigang/ljg-skill-xray-paper",
+    "url": "https://github.com/lijigang/ljg-skill-xray-paper",
     "source_type": "github",
     "resource_type": [
-      "extension",
-      "cli-tool"
+      "skills"
     ],
     "target_tools": [
-      "antigravity-cli"
+      "claude-code"
     ],
-    "summary": "plugin for antigravity cli to expand model, thinking values",
+    "summary": "论文X光机 — Claude Code Skill，解构学术论文，提炼餐巾纸公式",
     "i18n": {
       "zh": {
-        "name": "C1ph3r404/AntigravityCli-Plugin",
-        "summary": "用于 antigravity cli 的插件，以扩展模型和思考值"
+        "name": "lijigang/ljg-skill-xray-paper",
+        "summary": "论文X光机 — Claude Code Skill，解构学术论文，提炼餐巾纸公式"
       },
       "en": {
-        "name": "C1ph3r404/AntigravityCli-Plugin",
-        "summary": "plugin for antigravity cli to expand model, thinking values"
+        "name": "lijigang/ljg-skill-xray-paper",
+        "summary": "论文X光机 — Claude Code Skill，解构学术论文，提炼餐巾纸公式"
       }
     },
-    "stars": 0,
-    "forks": 0,
-    "total_score": 24,
-    "quantifiable_score": 17,
-    "quality_score": 7,
+    "stars": 588,
+    "forks": 42,
+    "total_score": 28,
+    "quantifiable_score": 28,
+    "quality_score": 0,
     "tracking_priority": "reject",
-    "last_updated": "2026-06-21T14:36:16Z",
-    "first_seen": "2026-07-13",
-    "last_seen": "2026-07-16",
+    "last_updated": "2026-07-13T14:35:33Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
     "license": "mit",
     "languages": [],
     "review_state": "auto-rejected",
-    "llm_summary": {
-      "zh": "一个为Antigravity CLI设计的插件仓库，但目前只有空壳，无实际代码。",
-      "en": "A plugin repository for Antigravity CLI, but currently contains no code."
-    }
+    "llm_summary": null
+  },
+  {
+    "id": "github-lijigang-ljg-skill-xray-book",
+    "name": "lijigang/ljg-skill-xray-book",
+    "url": "https://github.com/lijigang/ljg-skill-xray-book",
+    "source_type": "github",
+    "resource_type": [
+      "skills"
+    ],
+    "target_tools": [
+      "claude-code"
+    ],
+    "summary": "深度拆书机 — Claude Code Skill，三轮认知压缩提取书籍可学习结构",
+    "i18n": {
+      "zh": {
+        "name": "lijigang/ljg-skill-xray-book",
+        "summary": "深度拆书机 — Claude Code Skill，三轮认知压缩提取书籍可学习结构"
+      },
+      "en": {
+        "name": "lijigang/ljg-skill-xray-book",
+        "summary": "深度拆书机 — Claude Code Skill，三轮认知压缩提取书籍可学习结构"
+      }
+    },
+    "stars": 444,
+    "forks": 35,
+    "total_score": 28,
+    "quantifiable_score": 28,
+    "quality_score": 0,
+    "tracking_priority": "reject",
+    "last_updated": "2026-07-09T12:34:27Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [],
+    "review_state": "auto-rejected",
+    "llm_summary": null
+  },
+  {
+    "id": "github-maxnowack-anthropic-proxy",
+    "name": "maxnowack/anthropic-proxy",
+    "url": "https://github.com/maxnowack/anthropic-proxy",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "claude-code"
+    ],
+    "summary": "Proxy server that converts Anthropic API requests to OpenAI format and sends it to OpenRouter. It's used to use Claude Code with OpenRouter instead of the Anthropic API",
+    "i18n": {
+      "zh": {
+        "name": "maxnowack/anthropic-proxy",
+        "summary": "Proxy server that converts Anthropic API requests to OpenAI format and sends it to OpenRouter. It's used to use Claude Code with OpenRouter instead of the Anthropic API"
+      },
+      "en": {
+        "name": "maxnowack/anthropic-proxy",
+        "summary": "Proxy server that converts Anthropic API requests to OpenAI format and sends it to OpenRouter. It's used to use Claude Code with OpenRouter instead of the Anthropic API"
+      }
+    },
+    "stars": 416,
+    "forks": 45,
+    "total_score": 28,
+    "quantifiable_score": 28,
+    "quality_score": 0,
+    "tracking_priority": "reject",
+    "last_updated": "2026-06-30T04:46:50Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": null,
+    "languages": [
+      "JavaScript"
+    ],
+    "review_state": "auto-rejected",
+    "llm_summary": null
+  },
+  {
+    "id": "github-lijigang-ljg-skill-explain-words",
+    "name": "lijigang/ljg-skill-explain-words",
+    "url": "https://github.com/lijigang/ljg-skill-explain-words",
+    "source_type": "github",
+    "resource_type": [
+      "skills"
+    ],
+    "target_tools": [
+      "claude-code"
+    ],
+    "summary": "单词灵魂解剖师 — Claude Code Skill，深度解构英文单词，生成博物馆级 HTML 卡片",
+    "i18n": {
+      "zh": {
+        "name": "lijigang/ljg-skill-explain-words",
+        "summary": "单词灵魂解剖师 — Claude Code Skill，深度解构英文单词，生成博物馆级 HTML 卡片"
+      },
+      "en": {
+        "name": "lijigang/ljg-skill-explain-words",
+        "summary": "单词灵魂解剖师 — Claude Code Skill，深度解构英文单词，生成博物馆级 HTML 卡片"
+      }
+    },
+    "stars": 212,
+    "forks": 20,
+    "total_score": 28,
+    "quantifiable_score": 28,
+    "quality_score": 0,
+    "tracking_priority": "reject",
+    "last_updated": "2026-07-03T02:01:33Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [],
+    "review_state": "auto-rejected",
+    "llm_summary": null
+  },
+  {
+    "id": "github-hyprmcp-jetski",
+    "name": "hyprmcp/jetski",
+    "url": "https://github.com/hyprmcp/jetski",
+    "source_type": "github",
+    "resource_type": [
+      "mcp-server"
+    ],
+    "target_tools": [
+      "general-ai-coding"
+    ],
+    "summary": "Authentication, analytics, and prompt visibility for MCP servers with zero code changes. Supports OAuth2.1, DCR, real-time logs, and client onboarding out of the box",
+    "i18n": {
+      "zh": {
+        "name": "hyprmcp/jetski",
+        "summary": "Authentication, analytics, and prompt visibility for MCP servers with zero code changes. Supports OAuth2.1, DCR, real-time logs, and client onboarding out of the box"
+      },
+      "en": {
+        "name": "hyprmcp/jetski",
+        "summary": "Authentication, analytics, and prompt visibility for MCP servers with zero code changes. Supports OAuth2.1, DCR, real-time logs, and client onboarding out of the box"
+      }
+    },
+    "stars": 210,
+    "forks": 9,
+    "total_score": 28,
+    "quantifiable_score": 28,
+    "quality_score": 0,
+    "tracking_priority": "reject",
+    "last_updated": "2026-05-26T08:00:53Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-rejected",
+    "llm_summary": null
+  },
+  {
+    "id": "github-lijigang-ljg-explain-concept",
+    "name": "lijigang/ljg-explain-concept",
+    "url": "https://github.com/lijigang/ljg-explain-concept",
+    "source_type": "github",
+    "resource_type": [
+      "skills"
+    ],
+    "target_tools": [
+      "claude-code"
+    ],
+    "summary": "Claude Code skill: 8-dimensional concept anatomist. Deconstructs any concept into epiphany.",
+    "i18n": {
+      "zh": {
+        "name": "lijigang/ljg-explain-concept",
+        "summary": "Claude Code skill: 8-dimensional concept anatomist. Deconstructs any concept into epiphany."
+      },
+      "en": {
+        "name": "lijigang/ljg-explain-concept",
+        "summary": "Claude Code skill: 8-dimensional concept anatomist. Deconstructs any concept into epiphany."
+      }
+    },
+    "stars": 210,
+    "forks": 13,
+    "total_score": 28,
+    "quantifiable_score": 28,
+    "quality_score": 0,
+    "tracking_priority": "reject",
+    "last_updated": "2026-06-18T15:14:22Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [],
+    "review_state": "auto-rejected",
+    "llm_summary": null
   }
 ]

@@ -1,629 +1,127 @@
-- id: github-parinacharyagit-secureagent
-  name: ParinAcharyaGit/SecureAgent
-  url: https://github.com/ParinAcharyaGit/SecureAgent
-  repo: ParinAcharyaGit/SecureAgent
+- id: github-riniepel-demo-org-skills-expand-your-team-with-copilot
+  name: riniepel-demo-org/skills-expand-your-team-with-copilot
+  url: https://github.com/riniepel-demo-org/skills-expand-your-team-with-copilot
+  repo: riniepel-demo-org/skills-expand-your-team-with-copilot
   source_type: github
-  resource_type:
-  - tutorial
-  target_tools: []
-  summary: AI PR review Agent
-  i18n:
-    zh:
-      name: ParinAcharyaGit/SecureAgent
-      summary: AI PR 审查代理
-    en:
-      name: ParinAcharyaGit/SecureAgent
-      summary: AI PR review Agent
-  status: unknown
-  license: null
-  stars: 0
-  forks: 0
-  last_updated: '2025-02-16T23:06:45Z'
-  first_seen: '2026-07-13'
-  last_seen: '2026-07-13'
-  maturity: unknown
-  languages:
-  - TypeScript
-  topics: []
-  readme_preview: '# AI Review Agent
-
-
-    This is a GitHub App that reviews pull requests and submits reviews with AI.
-
-
-    ## Setup
-
-
-    1. Download NGROK [here](https://download.ngrok.com/). This will be used to create
-    a secure tunnel to your local server.
-
-
-    2. Run NGROK in your terminal with the following command:
-
-
-    ```
-
-    ngrok http 3000
-
-    ```
-
-
-    Here you''ll see a URL in the format of `https://.ngrok.app`. Make sure to save
-    this URL as you''ll need it to configure your GitHub App.
-
-
-    3. Create a new [GitHub App here](https://github.c'
-  tags: []
-  review_state: auto-rejected
-  quantifiable_score: 6
-  quality_score: 0
-  total_score: 6
-  score_detail:
-    stars: 0
-    activity: 4
-    adoption: 0
-    maturity: 2
-  tracking_priority: reject
-  last_analyzed: null
-  benchmark_ref: github-qdhenry-claude-code-mcp-manager
-  rejection_reason: 'Auto-rejected: low score (6), archived, or weak relevance.'
-- id: github-ayushkh420-ai-pr-review-agent
-  name: ayushkh420/AI-PR-Review-Agent
-  url: https://github.com/ayushkh420/AI-PR-Review-Agent
-  repo: ayushkh420/AI-PR-Review-Agent
-  source_type: github
-  resource_type:
-  - agent-framework
-  target_tools: []
-  summary: An autonomous code review agent system that uses AI to analyze GitHub pull
-    requests
-  i18n:
-    zh:
-      name: ayushkh420/AI-PR-Review-Agent
-      summary: 一个自主的代码审查代理系统，利用AI分析GitHub pull requests
-    en:
-      name: ayushkh420/AI-PR-Review-Agent
-      summary: An autonomous code review agent system that uses AI to analyze GitHub
-        pull requests
-  status: unknown
-  license: null
-  stars: 0
-  forks: 1
-  last_updated: '2025-01-07T14:24:13Z'
-  first_seen: '2026-07-13'
-  last_seen: '2026-07-13'
-  maturity: unknown
-  languages:
-  - Python
-  topics: []
-  readme_preview: "# \U0001F50D AI PR-Reviewer\nAn intelligent code review assistant\
-    \ powered by Llama 3.2 that automatically analyzes GitHub pull requests and provides\
-    \ detailed feedback using LangGraph workflows.\n\n## ✨ Features\n\n- Automated\
-    \ code review using Llama 3.2\n- Advanced workflow management with LangGraph\n\
-    - Multi-agent analysis system:\n  - Code style and best practices review\n  -\
-    \ Security vulnerability detection\n  - Performance optimization suggestions\n\
-    - Real-time analysis status tracking\n- Asynchronous processing f"
-  tags: []
-  review_state: auto-rejected
-  quantifiable_score: 8
-  quality_score: 0
-  total_score: 8
-  score_detail:
-    stars: 0
-    activity: 4
-    adoption: 2
-    maturity: 2
-  tracking_priority: reject
-  last_analyzed: null
-  benchmark_ref: github-qdhenry-claude-code-mcp-manager
-  rejection_reason: 'Auto-rejected: low score (8), archived, or weak relevance.'
-- id: github-rainbowbreeze-ai-press-review-agent
-  name: rainbowbreeze/ai_press_review_agent
-  url: https://github.com/rainbowbreeze/ai_press_review_agent
-  repo: rainbowbreeze/ai_press_review_agent
-  source_type: github
-  resource_type:
-  - tutorial
-  target_tools: []
-  summary: A service that monitors multiple YouTube channels for new videos and sends
-    detailed summaries to a Telegram chat.
-  i18n:
-    zh:
-      name: rainbowbreeze/ai_press_review_agent
-      summary: 一项服务，用于监控多个YouTube频道的新视频，并将详细摘要发送到Telegram聊天。
-    en:
-      name: rainbowbreeze/ai_press_review_agent
-      summary: A service that monitors multiple YouTube channels for new videos and
-        sends detailed summaries to a Telegram chat.
-  status: unknown
-  license: gpl-3.0
-  stars: 5
-  forks: 0
-  last_updated: '2025-06-03T00:49:29Z'
-  first_seen: '2026-07-13'
-  last_seen: '2026-07-13'
-  maturity: unknown
-  languages:
-  - Python
-  topics: []
-  readme_preview: '# AI Press Review Agent
-
-
-    A service that monitors multiple YouTube channels for new videos and sends detailed
-    summaries to a Telegram chat.
-
-
-    ## Setup for cloud run
-
-
-    1. Create a `.env.yaml` file with the following variables:
-
-    ```yaml
-
-    YOUTUBE_API_KEY: "your_youtube_api_key"
-
-    TELEGRAM_BOT_TOKEN: "your_telegram_bot_token"
-
-    TELEGRAM_CHAT_ID: "your_telegram_chat_id"
-
-    YOUTUBE_CHANNEL_IDS: "channel_id1,channel_id2,channel_id3"
-
-    GEMINI_API_KEY: "your_gemini_api_key"
-
-    WEBSHARE_PROXY_USERNAME: "your_webshare_user'
-  tags: []
-  review_state: auto-rejected
-  quantifiable_score: 10
-  quality_score: 0
-  total_score: 10
-  score_detail:
-    stars: 2
-    activity: 4
-    adoption: 0
-    maturity: 4
-  tracking_priority: reject
-  last_analyzed: null
-  benchmark_ref: github-qdhenry-claude-code-mcp-manager
-  rejection_reason: 'Auto-rejected: low score (10), archived, or weak relevance.'
-- id: github-kailasmahavarkar-pr-review-bot-backend
-  name: KailasMahavarkar/pr_review_bot_backend
-  url: https://github.com/KailasMahavarkar/pr_review_bot_backend
-  repo: KailasMahavarkar/pr_review_bot_backend
-  source_type: github
-  resource_type:
-  - tutorial
-  target_tools: []
-  summary: FastAPI backend for AI PR review agent
-  i18n:
-    zh:
-      name: KailasMahavarkar/pr_review_bot_backend
-      summary: FastAPI后端用于AI PR审查代理
-    en:
-      name: KailasMahavarkar/pr_review_bot_backend
-      summary: FastAPI backend for AI PR review agent
-  status: unknown
-  license: null
-  stars: 0
-  forks: 0
-  last_updated: '2025-12-13T20:45:14Z'
-  first_seen: '2026-07-13'
-  last_seen: '2026-07-13'
-  maturity: unknown
-  languages:
-  - Python
-  topics: []
-  readme_preview: '# PR Review Bot - Backend
-
-
-    FastAPI server for the PR Review Bot.
-
-
-    ## Setup
-
-
-    ```bash
-
-    pip install -r requirements.txt
-
-    cp env.example .env
-
-    # Edit .env with your config
-
-    ```
-
-
-    ## Run
-
-
-    ```bash
-
-    # Run migrations
-
-    alembic upgrade head
-
-
-    # Start server
-
-    uvicorn app.main:app --reload --port 8000
-
-    ```
-
-
-    ## Docker
-
-
-    ```bash
-
-    docker build -t pr-review-backend .
-
-    docker run -p 8000:8000 --env-file .env pr-review-backend
-
-    ```
-
-
-    ## API
-
-
-    - `GET /api/agents` - List agents
-
-    - `POST /api/agents` - Create agent
-
-    - `GET /api/revie'
-  tags: []
-  review_state: auto-rejected
-  quantifiable_score: 10
-  quality_score: 0
-  total_score: 10
-  score_detail:
-    stars: 0
-    activity: 8
-    adoption: 0
-    maturity: 2
-  tracking_priority: reject
-  last_analyzed: null
-  benchmark_ref: github-qdhenry-claude-code-mcp-manager
-  rejection_reason: 'Auto-rejected: low score (10), archived, or weak relevance.'
-- id: github-sumi451-ai-pr-review-agent
-  name: Sumi451/ai_pr_review_agent
-  url: https://github.com/Sumi451/ai_pr_review_agent
-  repo: Sumi451/ai_pr_review_agent
-  source_type: github
-  resource_type:
-  - agent-framework
-  target_tools:
-  - general-ai-coding
-  summary: A ai agent that analyses github pull requests.
-  i18n:
-    zh:
-      name: Sumi451/ai_pr_review_agent
-      summary: 一个分析 GitHub pull requests 的 AI 代理。
-    en:
-      name: Sumi451/ai_pr_review_agent
-      summary: A ai agent that analyses github pull requests.
-  status: unknown
-  license: null
-  stars: 0
-  forks: 0
-  last_updated: '2025-11-01T08:25:29Z'
-  first_seen: '2026-07-13'
-  last_seen: '2026-07-13'
-  maturity: unknown
-  languages:
-  - Python
-  topics: []
-  readme_preview: '# AI Pull Request Review Agent'
-  tags: []
-  review_state: auto-rejected
-  quantifiable_score: 10
-  quality_score: 0
-  total_score: 10
-  score_detail:
-    stars: 0
-    activity: 8
-    adoption: 0
-    maturity: 2
-  tracking_priority: reject
-  last_analyzed: null
-  benchmark_ref: github-qdhenry-claude-code-mcp-manager
-  rejection_reason: 'Auto-rejected: low score (10), archived, or weak relevance.'
-- id: github-chittesh24-ai-pr-review-agent
-  name: chittesh24/AI_PR_Review_Agent
-  url: https://github.com/chittesh24/AI_PR_Review_Agent
-  repo: chittesh24/AI_PR_Review_Agent
-  source_type: github
-  resource_type:
-  - tutorial
-  target_tools: []
-  summary: chittesh24/AI_PR_Review_Agent
-  i18n:
-    zh:
-      name: chittesh24/AI_PR_Review_Agent
-      summary: chittesh24/AI_PR_Review_Agent 项目
-    en:
-      name: chittesh24/AI_PR_Review_Agent
-      summary: chittesh24/AI_PR_Review_Agent
-  status: unknown
-  license: null
-  stars: 0
-  forks: 0
-  last_updated: '2025-11-07T08:31:32Z'
-  first_seen: '2026-07-13'
-  last_seen: '2026-07-13'
-  maturity: unknown
-  languages:
-  - Python
-  topics: []
-  readme_preview: "# AI PR Review Agent (OpenRouter + GPT-5 Mini default)\r\n\r\n\
-    This repository contains a GitHub Actions-based PR reviewer that:\r\n\r\n- Fetches\
-    \ a PR diff\r\n- Runs Semgrep + pip-audit for static & dependency checks\r\n-\
-    \ Sends a combined prompt to OpenRouter (configurable model)\r\n- Posts a summary\
-    \ and inline comments back to the PR\r\n\r\n## Setup\r\n\r\n1. Add secrets to\
-    \ your repository (Settings → Secrets and variables → Actions):\r\n   - `OPENROUTER_API_KEY`\
-    \ : your OpenRouter API key (sk-or-...)\r\n   - (optional) `"
-  tags: []
-  review_state: auto-rejected
-  quantifiable_score: 10
-  quality_score: 0
-  total_score: 10
-  score_detail:
-    stars: 0
-    activity: 8
-    adoption: 0
-    maturity: 2
-  tracking_priority: reject
-  last_analyzed: null
-  benchmark_ref: github-qdhenry-claude-code-mcp-manager
-  rejection_reason: 'Auto-rejected: low score (10), archived, or weak relevance.'
-- id: github-likhithsai2580-qoder-repo-wiki-export
-  name: Likhithsai2580/qoder-repo-wiki-export
-  url: https://github.com/Likhithsai2580/qoder-repo-wiki-export
-  repo: Likhithsai2580/qoder-repo-wiki-export
-  source_type: github
-  resource_type:
-  - tutorial
-  target_tools:
-  - qoder
-  summary: qoder repo wiki export
-  i18n:
-    zh:
-      name: Likhithsai2580/qoder-repo-wiki-export
-      summary: qoder 仓库 wiki 导出
-    en:
-      name: Likhithsai2580/qoder-repo-wiki-export
-      summary: qoder repo wiki export
-  status: unknown
-  license: null
-  stars: 9
-  forks: 1
-  last_updated: '2025-09-23T09:14:24Z'
-  first_seen: '2026-07-13'
-  last_seen: '2026-07-13'
-  maturity: unknown
-  languages: []
-  topics: []
-  readme_preview: '# Repo Wiki Export
-
-
-    A small Visual Studio Code extension that provides a command to export a repository''s
-    Wiki into a `.repo-wiki` package.
-
-
-    ## What it does
-
-
-    - Adds a single command (`repoWiki.exportAll`) that appears in the Command Palette
-    as "Export RepoWiki to .repo-wiki".
-
-    - When invoked the extension is expected to collect the repository Wiki contents
-    and export them into a `.repo-wiki` file.
-
-
-    Note: this README describes the extension metadata as declared in `package.json`.
-    The actual runtim'
-  tags: []
-  review_state: auto-rejected
-  quantifiable_score: 12
-  quality_score: 0
-  total_score: 12
-  score_detail:
-    stars: 2
-    activity: 8
-    adoption: 2
-    maturity: 0
-  tracking_priority: reject
-  last_analyzed: null
-  benchmark_ref: github-qdhenry-claude-code-mcp-manager
-  rejection_reason: 'Auto-rejected: low score (12), archived, or weak relevance.'
-- id: github-hyophyop-artifacts-skill
-  name: hyophyop/artifacts-skill
-  url: https://github.com/hyophyop/artifacts-skill
-  repo: hyophyop/artifacts-skill
-  source_type: github
-  summary: 'Codex CLI skill: plan/todo/walkthrough artifacts + repo-local ChromaDB
-    recall'
-  i18n:
-    zh:
-      name: hyophyop/artifacts-skill
-      summary: Codex CLI 技能：计划/待办/操作指南产物 + 仓库本地 ChromaDB 召回
-    en:
-      name: hyophyop/artifacts-skill
-      summary: 'Codex CLI skill: plan/todo/walkthrough artifacts + repo-local ChromaDB
-        recall'
-  status: unknown
-  stars: 0
-  forks: 0
-  last_updated: '2026-01-08T19:19:41Z'
-  first_seen: '2026-07-06'
-  last_seen: '2026-07-06'
-  maturity: unknown
-  languages:
-  - Python
-  tags: []
-  target_tools:
-  - codex-cli
-  review_state: auto-rejected
-  license: mit
   resource_type:
   - skills
+  - agent-framework
   - cli-tool
-  quantifiable_score: 12
+  target_tools:
+  - github-copilot
+  summary: 'Exercise: Expand your team with GitHub Copilot coding agent'
+  i18n:
+    zh:
+      name: riniepel-demo-org/skills-expand-your-team-with-copilot
+      summary: 'Exercise: Expand your team with GitHub Copilot coding agent'
+    en:
+      name: riniepel-demo-org/skills-expand-your-team-with-copilot
+      summary: 'Exercise: Expand your team with GitHub Copilot coding agent'
+  status: unknown
+  license: mit
+  stars: 2
+  forks: 0
+  last_updated: '2025-07-10T09:09:48Z'
+  first_seen: '2026-07-16'
+  last_seen: '2026-07-17'
+  maturity: unknown
+  languages:
+  - JavaScript
+  topics: []
+  readme_preview: ''
+  tags: []
+  review_state: auto-rejected
+  quantifiable_score: 10
   quality_score: 0
-  total_score: 12
+  total_score: 10
   score_detail:
-    stars: 0
-    activity: 8
+    stars: 2
+    activity: 4
     adoption: 0
     maturity: 4
   tracking_priority: reject
   last_analyzed: null
-  benchmark_ref: github-qdhenry-claude-code-mcp-manager
-  readme_preview: '# artifacts (Codex skill)
-
-
-    This repository contains the `artifacts` skill for OpenAI Codex CLI.
-
-
-    The skill creates a structured, repo-local audit trail for each task request (plan
-    → todo → walkthrough), and indexes the finished work into a repo-local ChromaDB
-    index for 7-day recall.
-
-
-    ## Features
-
-
-    - **Confirm-before-execute workflow**: generate `plan.md` + `todo.md` first, ask
-    for confirmation, then implement.
-
-    - **Detailed artifacts**: the real plan/process/validation lives in `.artifacts/artifac'
+  benchmark_ref: null
+  rejection_reason: 'Auto-rejected: low score (10), archived, or weak relevance.'
+- id: github-unkloud-junie-guidelines
+  name: unkloud/junie-guidelines
+  url: https://github.com/unkloud/junie-guidelines
+  repo: unkloud/junie-guidelines
+  source_type: github
+  resource_type:
+  - extension
+  - agent-framework
+  target_tools:
+  - junie
+  summary: My guideline for jetbrains junie coding agent
+  i18n:
+    zh:
+      name: unkloud/junie-guidelines
+      summary: My guideline for jetbrains junie coding agent
+    en:
+      name: unkloud/junie-guidelines
+      summary: My guideline for jetbrains junie coding agent
+  status: unknown
+  license: cc0-1.0
+  stars: 0
+  forks: 0
+  last_updated: '2025-12-06T07:53:44Z'
+  first_seen: '2026-07-16'
+  last_seen: '2026-07-17'
+  maturity: unknown
+  languages: []
   topics: []
-  rejection_reason: 'Auto-rejected: low score (12), archived, or weak relevance.'
-- id: github-ktr0731-go-mcp
-  name: ktr0731/go-mcp
-  url: https://github.com/ktr0731/go-mcp
-  repo: ktr0731/go-mcp
+  readme_preview: ''
+  tags: []
+  review_state: auto-rejected
+  quantifiable_score: 10
+  quality_score: 0
+  total_score: 10
+  score_detail:
+    stars: 0
+    activity: 8
+    adoption: 0
+    maturity: 2
+  tracking_priority: reject
+  last_analyzed: null
+  benchmark_ref: null
+  rejection_reason: 'Auto-rejected: low score (10), archived, or weak relevance.'
+- id: github-sapientpants-sonarqube-mcp-server
+  name: sapientpants/sonarqube-mcp-server
+  url: https://github.com/sapientpants/sonarqube-mcp-server
+  repo: sapientpants/sonarqube-mcp-server
   source_type: github
   resource_type:
   - mcp-server
   target_tools:
   - general-ai-coding
-  summary: 'deprecated: use the official MCP sdk! (https://github.com/modelcontextprotocol/go-sdk)
-    / ⚡ A type-safe, intuitive Go SDK for building MCP servers with ease and confidence'
+  summary: Model Context Protocol (MCP) server for SonarQube
   i18n:
     zh:
-      name: ktr0731/go-mcp
-      summary: 'deprecated: use the official MCP sdk! (https://github.com/modelcontextprotocol/go-sdk)
-        / ⚡ A type-safe, intuitive Go SDK for building MCP servers with ease and confidence'
+      name: sapientpants/sonarqube-mcp-server
+      summary: Model Context Protocol (MCP) server for SonarQube
     en:
-      name: ktr0731/go-mcp
-      summary: 'deprecated: use the official MCP sdk! (https://github.com/modelcontextprotocol/go-sdk)
-        / ⚡ A type-safe, intuitive Go SDK for building MCP servers with ease and confidence'
-  status: archived
-  license: mit
-  stars: 143
-  forks: 6
-  last_updated: '2026-02-15T11:31:53Z'
-  first_seen: '2026-07-14'
-  last_seen: '2026-07-14'
-  maturity: unknown
-  languages:
-  - Go
-  topics:
-  - golang
-  - mcp
-  - mcp-server
-  - model-context-protocol
-  readme_preview: "# ⚡ go-mcp\n\n  A type‑safe, intuitive Go SDK for MCP server development\n\
-    \n  \U0001F914 What is go‑mcp? •\n  ✨ Features •\n  \U0001F3C1 Quick Start •\n\
-    \  \U0001F50D Examples •\n  ✅ Supported Features •\n  \U0001F91D Contributing\n\
-    \n---\n\n## \U0001F914 What is go‑mcp?\n\n**go‑mcp** is a Go SDK for building\
-    \ MCP (Model Context Protocol) servers with ease and confidence. It provides a\
-    \ type‑safe, intuitive interface that makes server development a breeze.\n\n---\n\
-    \n## ✨ Features\n\n- \U0001F512 **Type‑Safe** – Code generation ensures your tools\
-    \ and prompt parameters are st"
-  tags: []
-  review_state: auto-rejected
-  quantifiable_score: 25
-  quality_score: 0
-  total_score: 25
-  score_detail:
-    stars: 4
-    activity: 12
-    adoption: 2
-    maturity: 7
-  tracking_priority: reject
-  last_analyzed: null
-  benchmark_ref: github-opencoworkai-open-cowork
-  readme_checked: true
-  rejection_reason: 'Auto-rejected: low score (25), archived, or weak relevance.'
-- id: github-wshobson-mcp-trader
-  name: wshobson/mcp-trader
-  url: https://github.com/wshobson/mcp-trader
-  repo: wshobson/mcp-trader
-  source_type: github
-  resource_type:
-  - mcp-server
-  target_tools:
-  - claude-code
-  summary: A Model Context Protocol (MCP) server for stock traders
-  i18n:
-    zh:
-      name: wshobson/mcp-trader
-      summary: A Model Context Protocol (MCP) server for stock traders
-    en:
-      name: wshobson/mcp-trader
-      summary: A Model Context Protocol (MCP) server for stock traders
+      name: sapientpants/sonarqube-mcp-server
+      summary: Model Context Protocol (MCP) server for SonarQube
   status: archived
   license: null
-  stars: 272
-  forks: 67
-  last_updated: '2026-07-13T19:16:10Z'
+  stars: 100
+  forks: 16
+  last_updated: '2026-07-05T03:14:11Z'
   first_seen: '2026-07-14'
   last_seen: '2026-07-14'
   maturity: unknown
   languages: []
   topics:
-  - anthropic
-  - fintech
   - mcp
+  - model-context-protocol
+  - sonarqube
+  - model-context-protocol-servers
+  - typescript
   - mcp-server
-  - pandas
-  - technical-analysis
-  - tiingo-api
-  - trading
-  - artificial-intelligence
-  - pandas-ta
-  - financial-analysis
-  - investing
-  - python
-  - equities
-  - finance
-  - claude
-  readme_preview: '# 📦 Project Archived
-
-
-    **This project has been superseded by a completely new MCP server.**
-
-
-    ## New MCP Server
-
-
-    A new, completely rewritten MCP server is now available at:
-
-
-    **🔗 https://github.com/wshobson/maverick-mcp**
-
-
-    ## What This Means
-
-
-    - This repository (`mcp-trader`) is now archived and will no longer receive updates
-
-    - The new repository contains a completely new MCP server with enhanced capabilities
-
-    - This is not a migration of the same codebase, but rather a fresh implementation
-
-
-    ## Getti'
+  - sonarcloud
+  readme_preview: This project is no longer maintained. Please refer to the official
+    version at [sonarqube-mcp-server](https://github.com/SonarSource/sonarqube-mcp-server).
   tags: []
   review_state: auto-rejected
   quantifiable_score: 26
@@ -639,4 +137,559 @@
   benchmark_ref: github-opencoworkai-open-cowork
   readme_checked: true
   rejection_reason: 'Auto-rejected: low score (26), archived, or weak relevance.'
+- id: github-pathonaiorg-litemultiagent
+  name: PathOnAIOrg/LiteMultiAgent
+  url: https://github.com/PathOnAIOrg/LiteMultiAgent
+  repo: PathOnAIOrg/LiteMultiAgent
+  source_type: github
+  resource_type:
+  - agent-framework
+  target_tools:
+  - trae
+  - hermes-agent
+  - lovable
+  - replit
+  summary: The Library for LLM-based multi-agent applications
+  i18n:
+    zh:
+      name: PathOnAIOrg/LiteMultiAgent
+      summary: The Library for LLM-based multi-agent applications
+    en:
+      name: PathOnAIOrg/LiteMultiAgent
+      summary: The Library for LLM-based multi-agent applications
+  status: archived
+  license: other
+  stars: 102
+  forks: 20
+  last_updated: '2026-01-30T01:25:13Z'
+  first_seen: '2026-07-14'
+  last_seen: '2026-07-14'
+  maturity: unknown
+  languages:
+  - Python
+  topics:
+  - agent
+  - gpt
+  - llm
+  - multi-agent
+  - agent-based-framework
+  - llm-agent
+  - llm-framework
+  - multi-agent-systems
+  - web-agent
+  - agentic-agi
+  - agentic-framework
+  - agentic-workflow
+  - ai-agent
+  - ai-agents
+  - autonomous-agent
+  - autonomous-agents
+  - llm-agents
+  readme_preview: '# LiteMultiAgent
+
+    [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15500241.svg)](https://doi.org/10.5281/zenodo.15500241)
+
+
+    In our exploration of building multi-agent systems, we have investigated AutoGen,
+    CrewAI, LangGraph, and MetaGPT, but failed to find a multi-agent system that intuitively
+    makes multi-agent systems more efficient. We have found that most examples provided
+    by these frameworks could be accomplished with just one agent. We reimplemented
+    the multi-agent examples using only one'
+  tags: []
+  review_state: auto-rejected
+  quantifiable_score: 27
+  quality_score: 0
+  total_score: 27
+  score_detail:
+    stars: 4
+    activity: 12
+    adoption: 4
+    maturity: 7
+  tracking_priority: reject
+  last_analyzed: null
+  benchmark_ref: github-opencoworkai-open-cowork
+  readme_checked: true
+  rejection_reason: 'Auto-rejected: low score (27), archived, or weak relevance.'
+- id: github-lijigang-ljg-skill-xray-paper
+  name: lijigang/ljg-skill-xray-paper
+  url: https://github.com/lijigang/ljg-skill-xray-paper
+  repo: lijigang/ljg-skill-xray-paper
+  source_type: github
+  resource_type:
+  - skills
+  target_tools:
+  - claude-code
+  summary: 论文X光机 — Claude Code Skill，解构学术论文，提炼餐巾纸公式
+  i18n:
+    zh:
+      name: lijigang/ljg-skill-xray-paper
+      summary: 论文X光机 — Claude Code Skill，解构学术论文，提炼餐巾纸公式
+    en:
+      name: lijigang/ljg-skill-xray-paper
+      summary: 论文X光机 — Claude Code Skill，解构学术论文，提炼餐巾纸公式
+  status: archived
+  license: mit
+  stars: 588
+  forks: 42
+  last_updated: '2026-07-13T14:35:33Z'
+  first_seen: '2026-07-14'
+  last_seen: '2026-07-14'
+  maturity: unknown
+  languages: []
+  topics: []
+  readme_preview: '# ljg-skill-xray-paper
+
+
+    论文 X 光机 — 一个 [Claude Code](https://docs.anthropic.com/en/docs/claude-code) Skill，只做两件事：论文说了什么
+    + 对我意味着什么。
+
+
+    ## 功能
+
+
+    - 支持 arxiv ID、URL、PDF 路径等多种输入（自动转 `/html/` 格式抓取全文）
+
+    - **零术语规则**：承重概念必须场景化（3 级渐进），去掉技术名字仍能理解
+
+    - **一句话压缩**：电梯里跟外行朋友说的那句大白话 + 餐巾纸图
+
+    - **认知碰撞卡片**：ASCII art 直观展示论文洞见与个人认知的碰撞
+
+    - **多种碰撞形状**：分叉、张力、阈值、缺口、翻转——选跟碰撞匹配的空间结构
+
+    - **诚实原则**：delta ≈ 0 就说 0，不造空卡片
+
+    - 生成 Org-mode 格式报告（Denote 规范），自带模板
+
+
+    ## 安装
+
+
+    ```bash
+
+    claude plugin add lijigang/ljg-skill-xray-paper
+
+    ```
+
+
+    ## 使用
+
+
+    ```
+
+    /ljg-xray'
+  tags: []
+  review_state: auto-rejected
+  quantifiable_score: 28
+  quality_score: 0
+  total_score: 28
+  score_detail:
+    stars: 4
+    activity: 15
+    adoption: 4
+    maturity: 5
+  tracking_priority: reject
+  last_analyzed: null
+  benchmark_ref: github-opencoworkai-open-cowork
+  readme_checked: true
+  rejection_reason: 'Auto-rejected: low score (28), archived, or weak relevance.'
+- id: github-lijigang-ljg-skill-xray-book
+  name: lijigang/ljg-skill-xray-book
+  url: https://github.com/lijigang/ljg-skill-xray-book
+  repo: lijigang/ljg-skill-xray-book
+  source_type: github
+  resource_type:
+  - skills
+  target_tools:
+  - claude-code
+  summary: 深度拆书机 — Claude Code Skill，三轮认知压缩提取书籍可学习结构
+  i18n:
+    zh:
+      name: lijigang/ljg-skill-xray-book
+      summary: 深度拆书机 — Claude Code Skill，三轮认知压缩提取书籍可学习结构
+    en:
+      name: lijigang/ljg-skill-xray-book
+      summary: 深度拆书机 — Claude Code Skill，三轮认知压缩提取书籍可学习结构
+  status: archived
+  license: mit
+  stars: 444
+  forks: 35
+  last_updated: '2026-07-09T12:34:27Z'
+  first_seen: '2026-07-14'
+  last_seen: '2026-07-14'
+  maturity: unknown
+  languages: []
+  topics: []
+  readme_preview: '# ljg-skill-xray-book
+
+
+    深度拆书机 (Deep Book X-Ray) — 一个 [Claude Code](https://docs.anthropic.com/en/docs/claude-code)
+    Skill，基于 Epiplexity 原理，通过三轮认知压缩最大化提取书籍中的可学习结构。
+
+
+    ## 功能
+
+
+    - 支持书名、书籍内容或链接输入
+
+    - 三轮认知压缩：骨架扫描 → 血肉解剖 → 灵魂提取
+
+    - 餐巾纸极限压缩：公式 + 草图 + 一句话
+
+    - 生成 Org-mode 格式报告，含 ASCII 结构图
+
+
+    ## 安装
+
+
+    ```bash
+
+    /plugin marketplace add lijigang/ljg-skill-xray-book
+
+    /plugin install ljg-xray-book
+
+    ```
+
+
+    ## 使用
+
+
+    在 Claude Code 中输入：
+
+
+    ```
+
+    /ljg-xray-book 《思考，快与慢》
+
+    ```
+
+
+    ## 输出示例
+
+
+    生成的 Org-mode 报告包含：
+
+
+    - **NAPKIN** — 餐巾纸公式、一句话、草图
+
+    - **ROUND '
+  tags: []
+  review_state: auto-rejected
+  quantifiable_score: 28
+  quality_score: 0
+  total_score: 28
+  score_detail:
+    stars: 4
+    activity: 15
+    adoption: 4
+    maturity: 5
+  tracking_priority: reject
+  last_analyzed: null
+  benchmark_ref: github-opencoworkai-open-cowork
+  readme_checked: true
+  rejection_reason: 'Auto-rejected: low score (28), archived, or weak relevance.'
+- id: github-maxnowack-anthropic-proxy
+  name: maxnowack/anthropic-proxy
+  url: https://github.com/maxnowack/anthropic-proxy
+  repo: maxnowack/anthropic-proxy
+  source_type: github
+  resource_type:
+  - tutorial
+  target_tools:
+  - claude-code
+  summary: Proxy server that converts Anthropic API requests to OpenAI format and
+    sends it to OpenRouter. It's used to use Claude Code with OpenRouter instead of
+    the Anthropic API
+  i18n:
+    zh:
+      name: maxnowack/anthropic-proxy
+      summary: Proxy server that converts Anthropic API requests to OpenAI format
+        and sends it to OpenRouter. It's used to use Claude Code with OpenRouter instead
+        of the Anthropic API
+    en:
+      name: maxnowack/anthropic-proxy
+      summary: Proxy server that converts Anthropic API requests to OpenAI format
+        and sends it to OpenRouter. It's used to use Claude Code with OpenRouter instead
+        of the Anthropic API
+  status: archived
+  license: null
+  stars: 416
+  forks: 45
+  last_updated: '2026-06-30T04:46:50Z'
+  first_seen: '2026-07-14'
+  last_seen: '2026-07-14'
+  maturity: unknown
+  languages:
+  - JavaScript
+  topics:
+  - anthropic
+  - claude-code
+  - llm
+  - openrouter
+  readme_preview: '# anthropic-proxy
+
+
+    A proxy server that transforms Anthropic API requests to OpenAI format and sends
+    it to openrouter.ai. This enables you to use Anthropic''s API format while connecting
+    to OpenAI-compatible endpoints.
+
+
+    ## Usage
+
+
+    With this command, you can start the proxy server with your OpenRouter API key
+    on port 3000:
+
+
+    ```bash
+
+    OPENROUTER_API_KEY=your-api-key npx anthropic-proxy
+
+    ```
+
+
+    Environment variables:
+
+
+    - `OPENROUTER_API_KEY`: Your OpenRouter API key (required when using OpenRouter)
+
+    - `ANTHR'
+  tags: []
+  review_state: auto-rejected
+  quantifiable_score: 28
+  quality_score: 0
+  total_score: 28
+  score_detail:
+    stars: 4
+    activity: 15
+    adoption: 4
+    maturity: 5
+  tracking_priority: reject
+  last_analyzed: null
+  benchmark_ref: github-opencoworkai-open-cowork
+  readme_checked: true
+  rejection_reason: 'Auto-rejected: low score (28), archived, or weak relevance.'
+- id: github-lijigang-ljg-skill-explain-words
+  name: lijigang/ljg-skill-explain-words
+  url: https://github.com/lijigang/ljg-skill-explain-words
+  repo: lijigang/ljg-skill-explain-words
+  source_type: github
+  resource_type:
+  - skills
+  target_tools:
+  - claude-code
+  summary: 单词灵魂解剖师 — Claude Code Skill，深度解构英文单词，生成博物馆级 HTML 卡片
+  i18n:
+    zh:
+      name: lijigang/ljg-skill-explain-words
+      summary: 单词灵魂解剖师 — Claude Code Skill，深度解构英文单词，生成博物馆级 HTML 卡片
+    en:
+      name: lijigang/ljg-skill-explain-words
+      summary: 单词灵魂解剖师 — Claude Code Skill，深度解构英文单词，生成博物馆级 HTML 卡片
+  status: archived
+  license: mit
+  stars: 212
+  forks: 20
+  last_updated: '2026-07-03T02:01:33Z'
+  first_seen: '2026-07-14'
+  last_seen: '2026-07-14'
+  maturity: unknown
+  languages: []
+  topics: []
+  readme_preview: '# ljg-skill-explain-words
+
+
+    单词灵魂解剖师 (Word Soul Master) — 一个 [Claude Code](https://docs.anthropic.com/en/docs/claude-code)
+    Skill，深度解构英文单词的核心语义，直击词的灵魂。
+
+
+    ## 功能
+
+
+    - 核心语义：原始画面 + 核心意象公式 + 深层解释
+
+    - 一语道破：中英双语哲学金句
+
+    - 直接在对话中 Markdown 输出，轻量无依赖
+
+
+    ## 安装
+
+
+    ```bash
+
+    /plugin marketplace add lijigang/ljg-skill-explain-words
+
+    /plugin install ljg-explain-words
+
+    ```
+
+
+    ## 使用
+
+
+    在 Claude Code 中输入：
+
+
+    ```
+
+    /ljg-explain-words Serendipity
+
+    ```
+
+
+    ## 输出示例
+
+
+    ```
+
+    ## Catharsis  /kəˈθɑːrsɪs/  宣泄；净化
+
+
+    原始画面：一个人蹲在河边，用清水冲洗伤口上的脓血...
+
+
+    核心意象：积压的污浊 + 强烈的'
+  tags: []
+  review_state: auto-rejected
+  quantifiable_score: 28
+  quality_score: 0
+  total_score: 28
+  score_detail:
+    stars: 4
+    activity: 15
+    adoption: 4
+    maturity: 5
+  tracking_priority: reject
+  last_analyzed: null
+  benchmark_ref: github-opencoworkai-open-cowork
+  readme_checked: true
+  rejection_reason: 'Auto-rejected: low score (28), archived, or weak relevance.'
+- id: github-hyprmcp-jetski
+  name: hyprmcp/jetski
+  url: https://github.com/hyprmcp/jetski
+  repo: hyprmcp/jetski
+  source_type: github
+  resource_type:
+  - mcp-server
+  target_tools:
+  - general-ai-coding
+  summary: Authentication, analytics, and prompt visibility for MCP servers with zero
+    code changes. Supports OAuth2.1, DCR, real-time logs, and client onboarding out
+    of the box
+  i18n:
+    zh:
+      name: hyprmcp/jetski
+      summary: Authentication, analytics, and prompt visibility for MCP servers with
+        zero code changes. Supports OAuth2.1, DCR, real-time logs, and client onboarding
+        out of the box
+    en:
+      name: hyprmcp/jetski
+      summary: Authentication, analytics, and prompt visibility for MCP servers with
+        zero code changes. Supports OAuth2.1, DCR, real-time logs, and client onboarding
+        out of the box
+  status: archived
+  license: mit
+  stars: 210
+  forks: 9
+  last_updated: '2026-05-26T08:00:53Z'
+  first_seen: '2026-07-14'
+  last_seen: '2026-07-14'
+  maturity: unknown
+  languages:
+  - TypeScript
+  topics:
+  - go
+  - golang
+  - mcp
+  - angular
+  - kubernetes
+  - mcp-analytics
+  - metacontroller
+  - typescript
+  - ai
+  - authentication
+  - dynamic-client-registration
+  - mcp-gateway
+  - mcp-proxy
+  - mcp-security
+  - model-context-protocol
+  - oauth2
+  - oauth2-proxy
+  readme_preview: '[![GitHub Repo stars](https://img.shields.io/github/stars/hyprmcp/jetski?style=flat)](https://github.com/hyprmcp/jetski)
+
+    [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+    [![Docs](https://img.shields.io/badge/docs-hyprmcp.com%2Fdocs-blue)](https://hyprmcp.com/docs/getting-started/?utm_source=github)
+
+    [![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
+    [![Discord](https://img.shields.io/badge/HyprMCP-Discord-%235865'
+  tags: []
+  review_state: auto-rejected
+  quantifiable_score: 28
+  quality_score: 0
+  total_score: 28
+  score_detail:
+    stars: 4
+    activity: 15
+    adoption: 2
+    maturity: 7
+  tracking_priority: reject
+  last_analyzed: null
+  benchmark_ref: github-opencoworkai-open-cowork
+  readme_checked: true
+  rejection_reason: 'Auto-rejected: low score (28), archived, or weak relevance.'
+- id: github-lijigang-ljg-explain-concept
+  name: lijigang/ljg-explain-concept
+  url: https://github.com/lijigang/ljg-explain-concept
+  repo: lijigang/ljg-explain-concept
+  source_type: github
+  resource_type:
+  - skills
+  target_tools:
+  - claude-code
+  summary: 'Claude Code skill: 8-dimensional concept anatomist. Deconstructs any concept
+    into epiphany.'
+  i18n:
+    zh:
+      name: lijigang/ljg-explain-concept
+      summary: 'Claude Code skill: 8-dimensional concept anatomist. Deconstructs any
+        concept into epiphany.'
+    en:
+      name: lijigang/ljg-explain-concept
+      summary: 'Claude Code skill: 8-dimensional concept anatomist. Deconstructs any
+        concept into epiphany.'
+  status: archived
+  license: mit
+  stars: 210
+  forks: 13
+  last_updated: '2026-06-18T15:14:22Z'
+  first_seen: '2026-07-14'
+  last_seen: '2026-07-14'
+  maturity: unknown
+  languages: []
+  topics: []
+  readme_preview: "# ljg-explain-concept\n\nA Claude Code skill that deconstructs\
+    \ any concept through **8 exploration dimensions**, then compresses all insights\
+    \ into a single epiphany.\n\n## What it does\n\nGiven any concept (e.g. \"entropy\"\
+    , \"recursion\", \"freedom\"), the skill performs:\n\n1. **Preprocessing** — clarify\
+    \ definition, identify core morphemes\n2. **8-Dimensional Exploration**:\n   -\
+    \ Historical tracing\n   - Dialectical analysis\n   - Phenomenological reduction\n\
+    \   - Linguistic deconstruction\n   - Mathematical forma"
+  tags: []
+  review_state: auto-rejected
+  quantifiable_score: 28
+  quality_score: 0
+  total_score: 28
+  score_detail:
+    stars: 4
+    activity: 15
+    adoption: 4
+    maturity: 5
+  tracking_priority: reject
+  last_analyzed: null
+  benchmark_ref: github-opencoworkai-open-cowork
+  readme_checked: true
+  rejection_reason: 'Auto-rejected: low score (28), archived, or weak relevance.'
 

@@ -140,7 +140,9 @@
     "resource_type": [
       "agent-framework"
     ],
-    "target_tools": [],
+    "target_tools": [
+      "v0-dev"
+    ],
     "summary": "Recursive-Open-Meta-Agent v0.1 (Beta). A meta-agent framework to build high-performance multi-agent systems.",
     "i18n": {
       "zh": {
@@ -274,7 +276,7 @@
       "agent-framework"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "openclaw"
     ],
     "summary": "An open-source Collaborative Multi-Agent OS for transparent, human-in-the-loop task coordination via Matrix rooms.",
     "i18n": {
@@ -463,7 +465,8 @@
       "tutorial"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "manus",
+      "openclaw"
     ],
     "summary": "OpenClaw: Use All Major AI Models NO API Token! Claude/ChatGPT/Gemini/DeepSeek/Doubao/Grok/Qwen/Manus/Kimi",
     "i18n": {
@@ -647,7 +650,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "Fast, scriptable CLI for the App Store Connect API. Automate TestFlight, builds, submissions, signing, analytics, screenshots, subscriptions, and more. JSON-first, no interactive prompts",
     "i18n": {
@@ -865,7 +869,7 @@
       "mcp-server"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "zed"
     ],
     "summary": "Install, run and deploy your own decentralized AI agent service",
     "i18n": {
@@ -1008,7 +1012,8 @@
       "tutorial"
     ],
     "target_tools": [
-      "codex-cli"
+      "codex-cli",
+      "kiro"
     ],
     "summary": "Chrome扩展：支持Codex(自动开通plus账号) / kiro 注册、验证码获取、CPA/sub回调验证与自动恢复",
     "i18n": {
@@ -1199,7 +1204,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "antigravity-cli"
+      "antigravity-cli",
+      "cline"
     ],
     "summary": "将 GeminiCLI 和 Antigravity 转换为 OpenAI 、GEMINI 和 Claude API 接口",
     "i18n": {
@@ -1436,7 +1442,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "cursor"
+      "cursor",
+      "lovable"
     ],
     "summary": "A curated list of vibe coding references, collaborating with AI to write code.",
     "i18n": {
@@ -1656,7 +1663,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Eko (Eko Keeps Operating) - Build Production-ready Agentic Workflow with Natural Language - eko.fellou.ai",
     "i18n": {
@@ -1812,7 +1820,11 @@
       "claude-code",
       "codex-cli",
       "opencode",
-      "workbuddy-codebuddy"
+      "workbuddy-codebuddy",
+      "windsurf",
+      "codegeex",
+      "kilo-code",
+      "augment-code"
     ],
     "summary": "Kodezi Chronos is a debugging-first language model that achieves state-of-the-art results on SWE-bench Lite (80.33%) and 67% real-world fix accuracy, over six times better than GPT-4. Built with Adaptive Graph-Guided Retrieval and Persisten",
     "i18n": {
@@ -1897,7 +1909,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "cursor"
+      "cursor",
+      "warp"
     ],
     "summary": "Warcraft III Peon voice notifications (+ more!) for Claude Code, Codex, IDEs, and any AI agent. Stop babysitting your terminal. Employ a Peon today.",
     "i18n": {
@@ -1974,7 +1987,9 @@
       "opencode",
       "qoder",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "replit"
     ],
     "summary": "ByteRover CLI (brv) - The portable memory layer for  autonomous coding agents (formerly Cipher)",
     "i18n": {
@@ -2121,7 +2136,9 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "lovable",
+      "replit"
     ],
     "summary": "Magicrew. The first open-source all-in-one AI productivity platform (Generalist AI Agent + Workflow Engine + IM + Online collaborative office system)",
     "i18n": {
@@ -2387,7 +2404,9 @@
       "antigravity-cli",
       "trae",
       "cursor",
-      "hermes-agent"
+      "hermes-agent",
+      "github-copilot",
+      "replit"
     ],
     "summary": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
     "i18n": {
@@ -2524,7 +2543,7 @@
       "cli-tool"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "openclaw"
     ],
     "summary": "Peekaboo is a macOS CLI & optional MCP server that enables AI agents to capture screenshots of applications, or the entire system, with optional visual question answering through local or remote AI models.",
     "i18n": {
@@ -2870,7 +2889,9 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit",
+      "openclaw"
     ],
     "summary": "Agent Skills 终极指南：快速入门、资源推荐、精选技能与实用工具 ｜The Ultimate Guide to Agent Skills: QuickStart, Resources, Features&Toolkit",
     "i18n": {
@@ -3135,7 +3156,9 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit",
+      "openclaw"
     ],
     "summary": "An Agentic Framework for Reflective PowerPoint Generation",
     "i18n": {
@@ -3710,7 +3733,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "antigravity-cli"
+      "antigravity-cli",
+      "cline"
     ],
     "summary": "📜 Entire CLI hooks into your Git workflow to capture AI agent sessions as you work. Sessions are indexed alongside commits, creating a searchable record of how code was written in your repo.",
     "i18n": {
@@ -3779,7 +3803,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "codex-cli"
+      "codex-cli",
+      "github-copilot"
     ],
     "summary": "GitHub Agentic Workflows",
     "i18n": {
@@ -3993,7 +4018,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Modular SenseNova skills for building AI-powered office assistants and productivity workflows",
     "i18n": {
@@ -4134,7 +4160,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "codex-cli"
+      "codex-cli",
+      "cline"
     ],
     "summary": "Autonomous game development for Godot, Bevy, and Babylon.js with Claude Code and Codex",
     "i18n": {
@@ -4207,7 +4234,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Autonomous Hacking Agent for Red Team",
     "i18n": {
@@ -4902,7 +4930,7 @@
       "tutorial"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "zed"
     ],
     "summary": "🌟100+ 原创 LLM / RL 原理图📚，《大模型算法》作者巨献！💥（100+  LLM/RL Algorithm Maps ）",
     "i18n": {
@@ -4975,7 +5003,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "The first AI agent that builds permissionless integrations through reverse engineering platforms' internal APIs.",
     "i18n": {
@@ -5131,7 +5160,8 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "opencode"
+      "opencode",
+      "cline"
     ],
     "summary": "Semi-automated research assistant for academic research and software development. Supports Claude Code, Codex CLI, Kimi Code CLI, and OpenCode across ideation, coding, experiments, writing, and publication.",
     "i18n": {
@@ -5269,7 +5299,7 @@
       "cli-tool"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "warp"
     ],
     "summary": "Turn any browser into your terminal & command your agents on the go.",
     "i18n": {
@@ -6037,7 +6067,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "A trilingual (繁中 / English / 简中) learning roadmap for agentic AI: from LLM basics to multi-agent systems, with 240+ curated resources and hands-on examples. 中文 AI agent 學習地圖。",
     "i18n": {
@@ -6255,7 +6286,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Build distributed, production-grade, long-running agents.",
     "i18n": {
@@ -6546,7 +6578,10 @@
       "antigravity-cli",
       "opencode",
       "cursor",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "lovable",
+      "openclaw"
     ],
     "summary": "🛰️ A CLI tool for tracking token usage from OpenCode, Claude Code, 🦞OpenClaw, Pi, Codex, Gemini, Cursor, AmpCode, Factory Droid, Kimi, and more! • 🏅Global Leaderboard + 2D/3D Contributions Graph",
     "i18n": {
@@ -6704,7 +6739,12 @@
       "claude-code",
       "codex-cli",
       "opencode",
-      "workbuddy-codebuddy"
+      "workbuddy-codebuddy",
+      "windsurf",
+      "codegeex",
+      "cline",
+      "kilo-code",
+      "augment-code"
     ],
     "summary": "Claude Code Guide - Setup, Commands, workflows, agents, skills & tips-n-tricks go from beginner to power user!",
     "i18n": {

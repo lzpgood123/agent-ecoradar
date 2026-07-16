@@ -79,7 +79,10 @@
       "claude-code",
       "codex-cli",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "lovable",
+      "replit"
     ],
     "summary": "Cascading runtime for AI agents. Optimize cost, latency, quality, and policy decisions inside the agent loop.",
     "i18n": {
@@ -375,7 +378,8 @@
     ],
     "target_tools": [
       "codex-cli",
-      "antigravity-cli"
+      "antigravity-cli",
+      "openclaw"
     ],
     "summary": "AI Agent 驱动的开源视频生成工作台 — 小说→角色/场景/道具设计→剧本→分镜图→视频，跨镜头角色与场景一致 | Open-source AI video workspace powered by AI Agents, Nano Banana 2 & Veo 3.1 / Grok / Seedance / OpenAI",
     "i18n": {
@@ -454,7 +458,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "🚀 An open-source, hands-on curriculum bridging the gap from basic RL concepts to LLM alignment, RLVR, and advanced Agentic systems. ",
     "i18n": {
@@ -615,7 +620,12 @@
       "antigravity-cli",
       "opencode",
       "qoder",
-      "workbuddy-codebuddy"
+      "workbuddy-codebuddy",
+      "windsurf",
+      "codegeex",
+      "cline",
+      "kilo-code",
+      "augment-code"
     ],
     "summary": "An open-source coding agent for the Grok API",
     "i18n": {
@@ -763,7 +773,11 @@
       "antigravity-cli",
       "opencode",
       "qoder",
-      "cursor"
+      "cursor",
+      "github-copilot",
+      "kiro",
+      "warp",
+      "cline"
     ],
     "summary": "Visible multi-agent CLI workspace for mixing Codex, Claude, Gemini, Kimi, Qwen, Cursor, Copilot, Pi, OpenCode, and other AI coding agents",
     "i18n": {
@@ -1376,7 +1390,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": " 🔥 Comprehensive survey on Context Engineering: from prompt engineering to production-grade AI systems. hundreds of papers, frameworks, and  implementation guides for LLMs and AI agents.",
     "i18n": {
@@ -1451,7 +1466,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "Markdown to WeChat CLI | 一键排版发布到微信公众号：支持 40+ 排版样式和专业主题 、AI 配图 、批量发布 、多账号管理",
     "i18n": {
@@ -1537,7 +1553,8 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "opencode"
+      "opencode",
+      "cline"
     ],
     "summary": "Cross-CLI skill for Obsidian: turn your vault into a living AI-first second brain across Claude Code, Codex, Gemini, OpenCode, Hermes, and Pi. 44 commands - self-rewriting notes, local+hybrid semantic search, key-less web research, /obsidia",
     "i18n": {
@@ -1622,7 +1639,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "cursor"
+      "cursor",
+      "github-copilot"
     ],
     "summary": "Control what your AI can see. LeanCTX (Lean Context) is the context intelligence layer for AI agents — one local Rust binary that decides what they read, remembers what they learn, guards what they touch, and proves what they save. 60–90% f",
     "i18n": {
@@ -2012,7 +2030,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "codex-cli"
+      "codex-cli",
+      "github-copilot"
     ],
     "summary": "Agent Package Manager",
     "i18n": {
@@ -2145,7 +2164,9 @@
     ],
     "target_tools": [
       "claude-code",
-      "codex-cli"
+      "codex-cli",
+      "cline",
+      "openclaw"
     ],
     "summary": "The simplest desktop client for OpenClaw 🦞 — bridge your Agent to WeChat, Feishu, Slack & Discord in one click. Works with Claude Code, Codex & any LLM. BYOK, Oauth, local-first, chat from your phone 24/7.",
     "i18n": {
@@ -2422,7 +2443,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "ReMe: Memory Management Kit for Agents - Remember Me, Refine Me.",
     "i18n": {
@@ -2491,7 +2513,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Amazon Bedrock Agentcore accelerates AI agents into production with the scale, reliability, and security, critical to real-world deployment.",
     "i18n": {
@@ -2629,7 +2652,7 @@
       "cli-tool"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "github-copilot"
     ],
     "summary": "Semantic version control => entity-level diffs, blame, and impact analysis on top of git. 28 languages via tree-sitter. Built for coding agents.",
     "i18n": {
@@ -2705,7 +2728,9 @@
       "mcp-server"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline",
+      "openclaw"
     ],
     "summary": "A single hub to find Claude Skills, Agents, Commands, Hooks, Plugins, and Marketplace collections to extend Claude Code, Claude Desktop, Agent SDK and OpenClaw",
     "i18n": {
@@ -3156,7 +3181,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "Deep dive into Claude Code internals — architecture, agent loop, context engineering, and more. / 深入解析 Claude Code 源码：架构、Agent 循环、上下文工程、工具系统等",
     "i18n": {
@@ -3228,7 +3254,8 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "cursor"
+      "cursor",
+      "cline"
     ],
     "summary": "Zero-dependency, token-efficient database MCP server for Postgres, MySQL, SQL Server, MariaDB, SQLite.",
     "i18n": {
@@ -3310,7 +3337,8 @@
       "skills"
     ],
     "target_tools": [
-      "codex-cli"
+      "codex-cli",
+      "openclaw"
     ],
     "summary": "支持小红书自动发布、自动评论、自动检索的 Skill。支持 OpenClaw、Codex、CC 等",
     "i18n": {
@@ -3576,7 +3604,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "Stop configuring your AI stack. Start using it. One command brings a complete pre-wired LLM stack with hundreds of services to explore.",
     "i18n": {
@@ -3719,7 +3748,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "🚀 EvoAgentX: Building a Self-Evolving Ecosystem of AI Agents",
     "i18n": {
@@ -3794,7 +3824,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "企业级 Agentic RAG 智能体 - 全链路覆盖文档解析、多路检索、意图识别、问题重写、会话记忆、MCP 工具调用与深度思考。面向真实业务场景，从 0 到 1 完整工程实现。",
     "i18n": {
@@ -4182,7 +4213,7 @@
       "agent-framework"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "openclaw"
     ],
     "summary": "0 - 1 learn OpenClaw: sections to build an claw-AI agent from scratch",
     "i18n": {
@@ -4307,7 +4338,8 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "antigravity-cli"
+      "antigravity-cli",
+      "cline"
     ],
     "summary": "Enterprise-grade (40m+ LOC) codebase intelligence, zero-setup, local & private Plugin/Skill/Extension or MCP: hybrid semantic search, polyglot dependency graphs, symbol-level impact analysis & call-flow, interactive HTML viewer, cross-proje",
     "i18n": {
@@ -4519,7 +4551,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "This is the official website for TuriX Computer-use-Agent",
     "i18n": {
@@ -4655,7 +4688,8 @@
       "skills"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
     "i18n": {
@@ -4792,7 +4826,10 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "cursor"
+      "cursor",
+      "kiro",
+      "aider",
+      "cline"
     ],
     "summary": "(Crystal is now Nimbalyst) Run multiple Codex and Claude Code AI sessions in parallel git worktrees. Test, compare approaches & manage AI-assisted development workflows in one desktop app.",
     "i18n": {
@@ -5080,7 +5117,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "FireRed-OpenStoryline is an AI video editing agent that transforms manual editing into intention-driven directing through natural language interaction, LLM-powered planning, and precise tool orchestration. It facilitates transparent, human-",
     "i18n": {
@@ -5151,7 +5189,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "🏆 Top-1 on 5+ benchmarks | Web UI | Supports MiroThinker, Claude, Kimi, OpenAI",
     "i18n": {
@@ -5546,7 +5585,9 @@
     ],
     "target_tools": [
       "codex-cli",
-      "cursor"
+      "cursor",
+      "windsurf",
+      "warp"
     ],
     "summary": "Open source AI terminal for cloud and infrastructure management, enabling you to deploy, troubleshoot, and automate services using natural language and intelligent agents.",
     "i18n": {
@@ -5624,7 +5665,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "PipesHub is an open-source fully extensible AI context layer that unifies your business data for explainable enterprise search and agentic workflow automation.",
     "i18n": {
@@ -5702,7 +5744,8 @@
       "tutorial"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "Native macOS menu bar app for tracking Claude AI usage limits in real-time. Built with Swift/SwiftUI.",
     "i18n": {
@@ -6114,7 +6157,8 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "opencode"
+      "opencode",
+      "kiro"
     ],
     "summary": "An improved implementation of the Ralph Wiggum technique for autonomous AI agent orchestration",
     "i18n": {
@@ -6404,7 +6448,8 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "cursor"
+      "cursor",
+      "github-copilot"
     ],
     "summary": "A lightweight desktop app to manage, sync, and organize AI agent skills across 15+ coding tools — Cursor, Claude Code, Codex, Copilot, and more.",
     "i18n": {
@@ -6468,7 +6513,8 @@
       "qoder",
       "trae",
       "workbuddy-codebuddy",
-      "hermes-agent"
+      "hermes-agent",
+      "openclaw"
     ],
     "summary": "Open-source work mate. Open-source personal desktop AI agent.Go runtime for office/ITops/marketing workflows.",
     "i18n": {
@@ -6546,7 +6592,9 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "aider",
+      "replit"
     ],
     "summary": "🦜💬 Web app for interacting with any LangGraph agent (PY & TS) via a chat interface.",
     "i18n": {
@@ -6736,7 +6784,7 @@
       "cli-tool"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "github-copilot"
     ],
     "summary": "Curated lessons on getting started building agents with Copilot Studio",
     "i18n": {
@@ -6861,7 +6909,7 @@
       "cli-tool"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "openclaw"
     ],
     "summary": "Headless CLI client for stateful Agent Client Protocol (ACP) sessions",
     "i18n": {

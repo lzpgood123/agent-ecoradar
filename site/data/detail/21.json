@@ -8,7 +8,8 @@
       "tutorial"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "一个现代化的 Claude Code API 代理服务，提供智能负载均衡、用户管理和使用统计功能。",
     "i18n": {
@@ -71,7 +72,8 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "cursor"
+      "cursor",
+      "github-copilot"
     ],
     "summary": "🎨 Open-source design MCP server + shadcn/ui registry — AI design systems for Claude Code, Cursor, Codex, GitHub Copilot & any MCP client. 31 brand-grade themes (Linear, Stripe, Vercel, Notion, Apple, Supabase, Figma…) + design tokens, UI pr",
     "i18n": {
@@ -153,7 +155,8 @@
       "tutorial"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "Docker container with Claude Code pre-installed and ready to use. ⚠️ development has moved to VibePod",
     "i18n": {
@@ -225,7 +228,9 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "warp",
+      "cline"
     ],
     "summary": "A native Rust terminal interface for Claude Code",
     "i18n": {
@@ -519,7 +524,8 @@
       "claude-code",
       "codex-cli",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "A small, shared skill library by builders, for builders.",
     "i18n": {
@@ -591,7 +597,9 @@
     "target_tools": [
       "claude-code",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit",
+      "openclaw"
     ],
     "summary": "Email, SMS & phone-call infrastructure for AI agents — send and receive real email and text messages, and place agent-driven outbound voice calls, all programmatically",
     "i18n": {
@@ -673,7 +681,8 @@
       "extension"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "LSP plugins for Claude Code — Bash/Shell, C/C++/Objective-C, C#, Clojure, Dart/Flutter, Elixir, Gleam, Go, Java, Kotlin, Lua, Nix, OCaml, PHP, Python, Ruby, Rust, Swift, Terraform, TypeScript/JavaScript, YAML & Zig",
     "i18n": {
@@ -826,7 +835,8 @@
       "cli-tool"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "MCP server giving AI assistants full access to Apple Mail - read, search, compose, organize & analyze emails via natural language",
     "i18n": {
@@ -899,7 +909,9 @@
     ],
     "target_tools": [
       "claude-code",
-      "cursor"
+      "cursor",
+      "windsurf",
+      "cline"
     ],
     "summary": "An MCP Server for Ollama",
     "i18n": {
@@ -981,7 +993,8 @@
       "claude-code",
       "codex-cli",
       "antigravity-cli",
-      "opencode"
+      "opencode",
+      "github-copilot"
     ],
     "summary": "Hook-based token compressor for 5 AI CLI hosts (Claude Code, Copilot CLI, OpenCode, Gemini CLI, Codex CLI). Up to 95% bash compression, signature-mode for code reads, cross-call dedup, MCP server, self-teaching protocol. Zero runtime deps.",
     "i18n": {
@@ -1063,7 +1076,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "codex-cli"
+      "codex-cli",
+      "cline"
     ],
     "summary": "Agent SKILL for Obsidian.md plugin development",
     "i18n": {
@@ -1365,7 +1379,8 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "cursor"
+      "cursor",
+      "cline"
     ],
     "summary": "Mine your Claude Code and Codex logs into a local you.md agent profile.",
     "i18n": {
@@ -1569,7 +1584,8 @@
       "skills"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "A collection of Claude Skills",
     "i18n": {
@@ -2053,7 +2069,15 @@
       "trae",
       "workbuddy-codebuddy",
       "cursor",
-      "hermes-agent"
+      "hermes-agent",
+      "github-copilot",
+      "windsurf",
+      "codegeex",
+      "cline",
+      "kilo-code",
+      "augment-code",
+      "replit",
+      "openclaw"
     ],
     "summary": "🧑‍🎨 A collection of agentic skills that works",
     "i18n": {
@@ -2136,7 +2160,10 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "lovable",
+      "replit"
     ],
     "summary": "Job search Agent (AI) searches and applies to jobs on your behalf, creating tailored applications for positions that match your skills, making your entire job search hassle-free.",
     "i18n": {
@@ -2513,7 +2540,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "openclaw"
     ],
     "summary": "Pure instruction-pack skill wrapping Ai2's Asta MCP server (Semantic Scholar). Intent-to-tool routing, safe defaults, multi-agent.",
     "i18n": {
@@ -2805,7 +2833,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "codex-cli"
+      "codex-cli",
+      "cline"
     ],
     "summary": "  AI-assisted Lean project automation with DAG blueprints, proof orchestration, and multi-agent coding/proving workflows.",
     "i18n": {
@@ -2946,7 +2975,8 @@
       "tutorial"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "AI resume optimization system for Claude Code. Analyzes job postings, ranks requirements by priority, and automatically selects your most relevant achievements. Write your experience once in YAML, generate unlimited tailored PDFs in 60 less",
     "i18n": {
@@ -3175,7 +3205,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "轻量级本地 AI 编程助手，基于 Claude Code 精简改造",
     "i18n": {
@@ -3242,7 +3273,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "The world’s first open-source MCP monetization platform, to quickly create and sell your own MCP server in just minutes. | XPack 是全球首个开源 MCP 交易平台，帮助你在10分钟内快速搭建自己的 MCP 商店并立刻开始销售 MCP 服务。",
     "i18n": {
@@ -3599,7 +3631,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "codex-cli"
+      "codex-cli",
+      "lovable"
     ],
     "summary": "Build programmatically custom agentic workflows, AI Agents, RAG systems for java",
     "i18n": {
@@ -3886,7 +3919,8 @@
       "cli-tool"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "Unofficial Go SDK for Claude Code CLI integration. See the Claude Agent SDK documentation for more information. This project has been renamed from claude-code-sdk-go.",
     "i18n": {
@@ -3959,7 +3993,8 @@
       "skills"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "Claude Code skills for social media — a complete AI social team for SMBs. Brand setup, content calendar, captions, creative, and performance review.",
     "i18n": {
@@ -4117,7 +4152,9 @@
     ],
     "target_tools": [
       "claude-code",
-      "cursor"
+      "cursor",
+      "github-copilot",
+      "cline"
     ],
     "summary": "AI-native codebase intelligence skills — generate persistent .nexus-map/ knowledge bases and instantly query file structure, dependency graphs, and change impact. Built for Copilot, Cursor, and any tool-calling LLM. 面向 AI 编程助手的代码库感知技能——生成持久",
     "i18n": {
@@ -4274,7 +4311,9 @@
       "codex-cli",
       "opencode",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit",
+      "openclaw"
     ],
     "summary": " Academic research skills suite for AI Agent — literature search/download (WoS+Elsevier+Springer), PDF   extraction, figure cropping, review writing, Zotero sync, and PPT/Html generation. ",
     "i18n": {
@@ -4352,7 +4391,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "mission control for agent skills",
     "i18n": {
@@ -4584,7 +4624,9 @@
       "antigravity-cli",
       "opencode",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "github-copilot",
+      "replit"
     ],
     "summary": "Community-driven workflows for Antigravity AI. Like Claude Skills - reusable prompts and automation for AI coding assistants.",
     "i18n": {
@@ -4664,7 +4706,8 @@
       "mcp-server"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "Bridge Claude Code CLI with Feishu/Lark via WebSocket. 飞书 × Claude Code 实时对话。",
     "i18n": {
@@ -4736,7 +4779,10 @@
     ],
     "target_tools": [
       "claude-code",
-      "cursor"
+      "cursor",
+      "github-copilot",
+      "windsurf",
+      "cline"
     ],
     "summary": "Thinking partner skill for AI agents — 150+ mental models, orientation detection, cognitive operations. Works with Claude Code, Cursor, Windsurf, Cline, GitHub Copilot.",
     "i18n": {
@@ -4874,7 +4920,8 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "cursor"
+      "cursor",
+      "cline"
     ],
     "summary": "Honey (I Shrunk the AI) by GreenPT: a cross-tool coding skill that cuts AI coding-agent token usage and LLM API costs — write less code, less prose, and denser agent-to-agent handoffs (−53%, lossless in benchmarks) with no loss of quality. ",
     "i18n": {
@@ -5088,7 +5135,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Troubleshooting skills for Alibaba Cloud ECS",
     "i18n": {
@@ -5165,7 +5213,9 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "warp",
+      "cline"
     ],
     "summary": "File-based kanban board for autonomous agentic loop. CLI and TUI for multi-agent workflows. Skills included.",
     "i18n": {
@@ -5244,7 +5294,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "Mobile App for OpenCode and more",
     "i18n": {
@@ -5312,7 +5363,9 @@
     "target_tools": [
       "claude-code",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "aider",
+      "replit"
     ],
     "summary": "A 7×6 framework for agent architecture. 28 patterns, each placed at a coordinate, runnable Python code with verified engineering slices from Claude Code, Aider, OpenHands, DeerFlow. Companion to Designing AI Agents (Manning) by Jia Huang.",
     "i18n": {
@@ -5474,7 +5527,12 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "cursor"
+      "cursor",
+      "github-copilot",
+      "windsurf",
+      "zed",
+      "warp",
+      "augment-code"
     ],
     "summary": "Cognitive architecture for AI-augmented software development. Specialized agents, structured workflows, and multi-platform deployment. Claude Code · Codex · Copilot · Cursor · Factory · Warp · Windsurf.",
     "i18n": {
@@ -5559,7 +5617,9 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline",
+      "openclaw"
     ],
     "summary": "Self-hosted framework for orchestrating fleets of specialist AI agents — ensemble reasoning and a full agentic coding pipeline, model-agnostic and local-friendly.",
     "i18n": {
@@ -5645,7 +5705,10 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "warp",
+      "aider",
+      "cline"
     ],
     "summary": "Mobile-first web UI for managing AI coding sessions (Claude Code, Codex, Aider, Gemini CLI, Amp, Pi). Self-hosted with multi-pane terminals, git integration, and session orchestration.",
     "i18n": {
@@ -5720,7 +5783,8 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "antigravity-cli"
+      "antigravity-cli",
+      "cline"
     ],
     "summary": "Symfony UX skills for Claude, Gemini, Codex, ... Live Component, Twig Component, Turbo, Stimulus",
     "i18n": {
@@ -5940,7 +6004,9 @@
       "claude-code",
       "codex-cli",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "replit"
     ],
     "summary": "Install engineering discipline into any AI coding assistant. Composable skills for design, implementation, review, and team standards. Better process, not just better prompts.",
     "i18n": {
@@ -6153,7 +6219,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "The easiest way to run multiple Claude Code sessions, each in its own container, with a dashboard to manage them all. Quick setup with battle-tested sensible defaults and skills.",
     "i18n": {
@@ -6296,7 +6363,8 @@
       "claude-code",
       "codex-cli",
       "cursor",
-      "hermes-agent"
+      "hermes-agent",
+      "openclaw"
     ],
     "summary": "Reusable Skills for LLMQuant Agent, Claude Code, Claude.ai, Cursor, Hermes Agent, OpenClaw and Codex, grounded in LLMQuant Data",
     "i18n": {
@@ -6379,7 +6447,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "cursor"
+      "cursor",
+      "cline"
     ],
     "summary": "Notion MCP server for Claude, Cursor, ChatGPT & Claude Desktop. Connect AI agents to Notion via Model Context Protocol — pages, databases, blocks, comments, files.",
     "i18n": {
@@ -6456,7 +6525,8 @@
       "mcp-server"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "A Model Context Protocol (MCP) server that implements the Zettelkasten knowledge management methodology, allowing you to create, link, explore and synthesize atomic notes through Claude and other MCP-compatible clients.",
     "i18n": {
@@ -6598,7 +6668,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "openclaw"
     ],
     "summary": "Drop-in memory harness for AI agents — 3-tier memory, compaction tree, hybrid search. One command to set up. Works with Claude Code and OpenClaw.",
     "i18n": {
@@ -6745,7 +6816,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "cursor"
+      "cursor",
+      "github-copilot"
     ],
     "summary": "Pre-configured agent skills for Vibe Coded projects. These skills provide AI coding assistants (Claude Code, Cursor, etc.) with specific guidelines for code quality and design standards.",
     "i18n": {
@@ -6819,7 +6891,9 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "antigravity-cli"
+      "antigravity-cli",
+      "cline",
+      "lovable"
     ],
     "summary": "AI Coding assistant for large and complex codebases.",
     "i18n": {
@@ -6904,7 +6978,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "Carbon Code 是一款类似 Claude Code 的代码开发工具，也是中国第一个基于 DeepSeek 的代码开发工具，Token 成本节省 90% 以上。它可以实现自动任务拆分、自动开发、MCP 测试，以及与 Claude、Codex 等多 Agent 协作，能力接近 Claude Sonnet 4.6",
     "i18n": {
@@ -6983,7 +7058,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "Node.js/TypeScript MCP server for Atlassian Bitbucket. Enables AI systems (LLMs) to interact with workspaces, repositories, and pull requests via tools (list, get, comment, search). Connects AI directly to version control workflows through ",
     "i18n": {
@@ -7206,7 +7282,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "codex-cli"
+      "codex-cli",
+      "cline"
     ],
     "summary": "MESH-API  — Off-Grid AI & API Router & with MCP server & over 30 API extensions for Meshtastic & MeshCore - Seamlessly connect LM Studio, Ollama, AI Providers , 3rd-party APIs, Agents & Home Assistant to your LoRa mesh.   Supports custom co",
     "i18n": {

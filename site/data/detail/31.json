@@ -10,7 +10,8 @@
     "target_tools": [
       "antigravity-cli",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "RikkaHub is an Android APP that supports for multiple LLM providers.",
     "i18n": {
@@ -86,7 +87,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Fara-7B: An Efficient Agentic Model for Computer Use",
     "i18n": {
@@ -156,7 +158,9 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit",
+      "openclaw"
     ],
     "summary": "OpenSquilla — Token-Efficient AI Agent with same budget, higher intelligence density",
     "i18n": {
@@ -290,7 +294,8 @@
       "rules"
     ],
     "target_tools": [
-      "cursor"
+      "cursor",
+      "windsurf"
     ],
     "summary": "Magic to turn Cursor/Windsurf as 90% of Devin",
     "i18n": {
@@ -354,7 +359,9 @@
     ],
     "target_tools": [
       "claude-code",
-      "codex-cli"
+      "codex-cli",
+      "github-copilot",
+      "cline"
     ],
     "summary": "Tutorials, Guides and Agent Skills Directories",
     "i18n": {
@@ -950,7 +957,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "codex-cli"
+      "codex-cli",
+      "github-copilot"
     ],
     "summary": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
     "i18n": {
@@ -1141,7 +1149,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "Find the local LLM that actually runs and performs best on your hardware. Ranked by real, recency-aware benchmarks, not parameter count. One command, run it instantly.",
     "i18n": {
@@ -1405,7 +1414,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "The 100 line AI agent that solves GitHub issues or helps you in your command line. Radically simple, no huge configs, no giant monorepo—but scores >74% on SWE-bench verified!",
     "i18n": {
@@ -1553,7 +1563,8 @@
     "target_tools": [
       "antigravity-cli",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "A visual playground for agentic workflows: Iterate over your agents 10x faster",
     "i18n": {
@@ -1636,7 +1647,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "A slide framework built for agents.",
     "i18n": {
@@ -1832,7 +1844,10 @@
       "opencode",
       "trae",
       "cursor",
-      "hermes-agent"
+      "hermes-agent",
+      "windsurf",
+      "cline",
+      "replit"
     ],
     "summary": "A workshop that teaches you how to build your own coding agent. Similar to Roo code, Cline, Amp, Cursor, Windsurf or OpenCode.",
     "i18n": {
@@ -1901,7 +1916,9 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "warp",
+      "replit"
     ],
     "summary": "The most powerful AI agent and AI chat software on Android/Operit是一款Android上能力最为强大、发展最久的AI Agent",
     "i18n": {
@@ -1972,7 +1989,8 @@
       "skills"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "openclaw"
     ],
     "summary": "Generate draw.io diagrams from natural language — 11 presets (UML, SysML/MBSE, BPMN, network, C4…), 36 tools: codebase/CI/infra-to-diagram, image→editable diagram, mind maps, build-up animation, exec-view compression, click-through runbooks",
     "i18n": {
@@ -2056,7 +2074,9 @@
       "mcp-server"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline",
+      "openclaw"
     ],
     "summary": "Self-hosted AI agent orchestration platform: dispatch tasks, run multi-agent workflows, monitor spend, and govern operations from one mission control dashboard.",
     "i18n": {
@@ -2135,7 +2155,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "AI for All: The First Systematic Vibe Coding Tutorial | From Zero to Full-Stack, Bring Your Ideas to Life | Live at: www.vibevibe.cn   ；全民AI学习第一课，首个系统化 Vibe Coding 开源教程 | 零基础到全栈实战，让人人都能借助 AI 实现自己的想法与创意 | 在线地址：www.vibevibe.cn",
     "i18n": {
@@ -2206,7 +2227,8 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "antigravity-cli"
+      "antigravity-cli",
+      "openclaw"
     ],
     "summary": "List of Permanent Free LLM API  (API Keys)",
     "i18n": {
@@ -2282,7 +2304,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "An open source template for building cloud agents.",
     "i18n": {
@@ -2352,7 +2375,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "多模型协作工作流引擎 — /ccg:go 一个命令，AI 自动分析意图、选择策略、编排 Codex + Gemini + Claude 协作执行",
     "i18n": {
@@ -2430,7 +2454,8 @@
       "claude-code",
       "trae",
       "cursor",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Rules and Knowledge to work better with agents such as Claude Code or Cursor",
     "i18n": {
@@ -2490,7 +2515,8 @@
       "skills"
     ],
     "target_tools": [
-      "codex-cli"
+      "codex-cli",
+      "zed"
     ],
     "summary": "A collection of 130+ specialized Codex subagents covering a wide range of development use cases.",
     "i18n": {
@@ -2809,7 +2835,8 @@
       "mcp-server"
     ],
     "target_tools": [
-      "codex-cli"
+      "codex-cli",
+      "lovable"
     ],
     "summary": "A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines",
     "i18n": {
@@ -3086,7 +3113,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Nexent is a zero-code platform for auto-generating production-grade AI agents using Harness Engineering principles — unified tools, skills, memory, and orchestration with built-in constraints, feedback loops, and control planes.",
     "i18n": {
@@ -3232,7 +3260,8 @@
     "target_tools": [
       "codex-cli",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Next-generation AI Agent Optimization Platform: Cozeloop addresses challenges in AI agent development by providing full-lifecycle management capabilities from development, debugging, and evaluation to monitoring.  ",
     "i18n": {
@@ -3311,7 +3340,7 @@
       "cli-tool"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "warp"
     ],
     "summary": "🎃 A fast, out-of-the-box terminal built for AI coding.",
     "i18n": {
@@ -3381,7 +3410,8 @@
       "mcp-server"
     ],
     "target_tools": [
-      "cursor"
+      "cursor",
+      "cline"
     ],
     "summary": "Playwright Model Context Protocol Server - Tool to automate Browsers and APIs in Claude Desktop, Cline, Cursor IDE and More 🔌",
     "i18n": {
@@ -3506,7 +3536,8 @@
       "tutorial"
     ],
     "target_tools": [
-      "hermes-agent"
+      "hermes-agent",
+      "openclaw"
     ],
     "summary": "OpenClaw-RL: Train any agent simply by talking",
     "i18n": {
@@ -3581,7 +3612,7 @@
       "tutorial"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "openclaw"
     ],
     "summary": "MimiClaw: Run OpenClaw on a $5 chip. No OS(Linux). No Node.js. No Mac mini. No Raspberry Pi. No VPS. Hardware agents OS.",
     "i18n": {
@@ -3777,7 +3808,8 @@
       "mcp-server"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "Claude Skill: Multi-source content processor for NotebookLM. Supports WeChat articles, web pages, YouTube, PDF, Markdown, search queries → Podcast/PPT/MindMap/Quiz etc.",
     "i18n": {
@@ -3912,7 +3944,10 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "github-copilot",
+      "replit",
+      "openclaw"
     ],
     "summary": "Open-source, desktop-grade AI agent that gets real work done — data analysis, slides, docs, video & web research. Built on OpenClaw; runs tools on your real desktop and takes commands from your phone via WeChat, Feishu, DingTalk & Telegram.",
     "i18n": {
@@ -4053,7 +4088,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "The RL Bridge for LLM-based Agent Applications. Made Simple & Flexible.",
     "i18n": {
@@ -4125,7 +4161,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Your super agent for work: local-first, learn your working context in mins and never forget it.",
     "i18n": {
@@ -4209,7 +4246,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "面向企业级市场的一站式AI应用开发框架，支持多厂商大模型统一接入与管理，具备安全可控的企业知识库与高精度检索优化能力，提供可视化流程编排、自主决策智能体与多智能体协同调度，兼容主流 Agent Skill 协议，帮助企业与开发者零门槛快速构建安全、高效、可落地的AI智能体应用与行业解决方案。",
     "i18n": {
@@ -4277,7 +4315,9 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "aider",
+      "replit"
     ],
     "summary": "MaiSaka, an LLM-based intelligent agent, is a digital lifeform devoted to understanding you and interacting in the style of a real human. She does not pursue perfection, nor does she seek efficiency; instead, she values warmth, authenticity",
     "i18n": {
@@ -4605,7 +4645,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "cursor"
+      "cursor",
+      "cline"
     ],
     "summary": "The most comprehensive Claude Code guide: agentic workflows, hooks, skills, MCP servers, quizzes, and production-ready templates. 430K+ lines.",
     "i18n": {
@@ -4688,7 +4729,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices)",
     "i18n": {
@@ -4759,7 +4801,10 @@
       "mcp-server"
     ],
     "target_tools": [
-      "cursor"
+      "cursor",
+      "windsurf",
+      "cline",
+      "v0-dev"
     ],
     "summary": "It's like v0 but in your Cursor/WindSurf/Cline. 21st dev Magic MCP server for working with your frontend like Magic",
     "i18n": {
@@ -4889,7 +4934,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "All-in-One Sandbox for AI Agents that combines Browser, Shell, File, MCP and VSCode Server in a single Docker container.",
     "i18n": {
@@ -5018,7 +5064,9 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "github-copilot",
+      "replit"
     ],
     "summary": "An AI-powered custom node for ComfyUI designed to enhance workflow automation and provide intelligent assistance",
     "i18n": {
@@ -5093,7 +5141,8 @@
       "tutorial"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "A high-performance LLM inference API and Chat UI that integrates DeepSeek R1's CoT reasoning traces with Anthropic Claude models.",
     "i18n": {
@@ -5291,7 +5340,8 @@
       "claude-code",
       "codex-cli",
       "antigravity-cli",
-      "cursor"
+      "cursor",
+      "github-copilot"
     ],
     "summary": "A pixel desktop pet that watches Claude Code, Codex, Cursor & other AI coding agents — so you don't have to.",
     "i18n": {
@@ -5362,7 +5412,9 @@
       "tutorial"
     ],
     "target_tools": [
-      "codex-cli"
+      "codex-cli",
+      "github-copilot",
+      "lovable"
     ],
     "summary": "An AI-powered data science team of agents to help you perform common data science tasks 10X faster.",
     "i18n": {
@@ -5437,7 +5489,8 @@
       "skills"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "Claude Autoresearch Skill — Autonomous goal-directed iteration for Claude Code. Inspired by Karpathy's autoresearch. Modify → Verify → Keep/Discard → Repeat forever.",
     "i18n": {
@@ -5760,7 +5813,9 @@
     ],
     "target_tools": [
       "claude-code",
-      "codex-cli"
+      "codex-cli",
+      "cline",
+      "openclaw"
     ],
     "summary": "Claude Code + OpenClaw + Codex 中文教程 | 39篇完整教程 + 1张速查卡 | 80万+内容量 | 1500+实操示例 | AI Coding / Agent 三线学习路径",
     "i18n": {
@@ -5952,7 +6007,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "codex-cli"
+      "codex-cli",
+      "cline"
     ],
     "summary": "Kodu is an autonomous coding agent that lives in your IDE. It is a VSCode extension that can help you build your dream project step by step by leveraging the latest technologies in automated coding agents ",
     "i18n": {
@@ -6088,7 +6144,7 @@
       "tutorial"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "kiro"
     ],
     "summary": "The LLM's practical guide: From the fundamentals to deploying advanced LLM and RAG apps to AWS using LLMOps best practices",
     "i18n": {
@@ -6160,7 +6216,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Agent-ready RPA suite with out-of-the-box automation tools. Built for individuals and enterprises.",
     "i18n": {
@@ -6483,7 +6540,9 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "warp",
+      "cline"
     ],
     "summary": "Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider.",
     "i18n": {

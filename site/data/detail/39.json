@@ -8,7 +8,7 @@
       "tutorial"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "lovable"
     ],
     "summary": "Awesome LLM Books: Curated list of books on Large Language Models",
     "i18n": {
@@ -158,7 +158,8 @@
       "claude-code",
       "codex-cli",
       "antigravity-cli",
-      "cursor"
+      "cursor",
+      "kiro"
     ],
     "summary": "Observal is a local registry and analytics platform for your AI components.  Setup Observal, define the scope and share your Skills, MCPs and Agents.",
     "i18n": {
@@ -245,7 +246,9 @@
       "antigravity-cli",
       "opencode",
       "qoder",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "openclaw"
     ],
     "summary": "Aix-DB 基于 LangChain/LangGraph 框架，结合 MCP Skills 多智能体协作架构，实现自然语言到数据洞察的端到端转换。",
     "i18n": {
@@ -325,7 +328,7 @@
       "cli-tool"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "openclaw"
     ],
     "summary": "14-stage Fusion Pipeline for LLM token compression — reversible compression, AST-aware code analysis, intelligent content routing. Zero LLM inference cost. MIT licensed.",
     "i18n": {
@@ -681,7 +684,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "A curated collection of skills for AI coding agents. Skills are packaged instructions and scripts that extend agent capabilities across development, documentation, planning, and professional workflows.",
     "i18n": {
@@ -811,7 +815,7 @@
       "tutorial"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "zed"
     ],
     "summary": "Distributed AI/LLM for the people. Share compute privately or publicly to power your agents and chat.",
     "i18n": {
@@ -1131,7 +1135,9 @@
     "target_tools": [
       "claude-code",
       "opencode",
-      "cursor"
+      "cursor",
+      "windsurf",
+      "openclaw"
     ],
     "summary": "One brain, many harnesses. Portable .agent/ folder (memory + skills + protocols) that plugs into Claude Code, Cursor, Windsurf, OpenCode, OpenClaw, Hermes, or DIY Python — and keeps its knowledge when you switch.",
     "i18n": {
@@ -1255,7 +1261,7 @@
       "tutorial"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "zed"
     ],
     "summary": " A personalized language-learning tool that combines Duolingo-style lessons with your own curated vocabulary lists. Seamlessly add words from books, articles, or videos, and revisit them through interactive quizzes and LLM-generated lessons",
     "i18n": {
@@ -1855,7 +1861,9 @@
       "cli-tool"
     ],
     "target_tools": [
-      "opencode"
+      "opencode",
+      "lovable",
+      "openclaw"
     ],
     "summary": "Find, benchmark and install in CLI 170+ FREE coding LLM models across 15+ providers in real time",
     "i18n": {
@@ -2132,7 +2140,9 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "github-copilot",
+      "replit"
     ],
     "summary": "Connect any AI copilot or autonomous agent to your enterprise tools — through a single, secure MCP/Agent gateway with built-in identity, access control, and full observability.",
     "i18n": {
@@ -2202,7 +2212,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "codex-cli"
+      "codex-cli",
+      "cline"
     ],
     "summary": " JSON-driven multi-agent  cadence-team development framework with   intelligent CLI orchestration (Gemini/Qwen/Codex),   context-first architecture, and automated workflow   execution",
     "i18n": {
@@ -2449,7 +2460,11 @@
     "resource_type": [
       "cli-tool"
     ],
-    "target_tools": [],
+    "target_tools": [
+      "github-copilot",
+      "windsurf",
+      "zed"
+    ],
     "summary": "Your Creative Copilot for Video Editing",
     "i18n": {
       "zh": {
@@ -2703,7 +2718,9 @@
     "target_tools": [
       "trae",
       "cursor",
-      "hermes-agent"
+      "hermes-agent",
+      "windsurf",
+      "replit"
     ],
     "summary": "Shrimp Task Manager is a task tool built for AI Agents, emphasizing chain-of-thought, reflection, and style consistency. It converts natural language into structured dev tasks with dependency tracking and iterative refinement, enabling agen",
     "i18n": {
@@ -2989,7 +3006,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "[Embodied-AI-Survey-2025] Paper List and Resource Repository for Embodied AI",
     "i18n": {
@@ -3063,7 +3081,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "Sharper context. Fewer tokens. Open-source middleware for Claude Code.",
     "i18n": {
@@ -3194,7 +3213,7 @@
       "agent-framework"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "openclaw"
     ],
     "summary": "Team9 is a collaborative workspace for AI agents, currently built on OpenClaw and its ecosystem.",
     "i18n": {
@@ -3263,7 +3282,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "codex-cli"
+      "codex-cli",
+      "cline"
     ],
     "summary": "Provider-neutral Agent Skill for Codex, Claude Code, and agentic harness design.",
     "i18n": {
@@ -3337,7 +3357,8 @@
     "target_tools": [
       "antigravity-cli",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "GenAI Processors is a lightweight Python library that enables efficient, parallel content processing.",
     "i18n": {
@@ -3614,7 +3635,10 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "opencode"
+      "opencode",
+      "kiro",
+      "cline",
+      "openclaw"
     ],
     "summary": "👻 Proxy API gateway for Kiro IDE & CLI (Amazon Q Developer / AWS CodeWhisperer). Use free Claude models with any client.",
     "i18n": {
@@ -4059,7 +4083,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "A production-oriented multi-agent orchestration framework.",
     "i18n": {
@@ -4124,7 +4149,7 @@
       "agent-framework"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "openclaw"
     ],
     "summary": "The world's first Autonomous Product Engine (APE): AI agents research your market, generate features, and ship code as PRs. Convoy mode, crash recovery, cost tracking, 80+ API endpoints. Self-hosted via OpenClaw Gateway.",
     "i18n": {
@@ -4325,7 +4350,8 @@
       "tutorial"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "windsurf",
+      "zed"
     ],
     "summary": "[NeurIPS 2025] Image editing is worth a single LoRA! 0.1% training data for fantastic image editing! Surpasses GPT-4o in ID persistence~ MoE ckpt released! Only 4GB VRAM is enough to run! ",
     "i18n": {
@@ -4396,7 +4422,9 @@
       "mcp-server",
       "cli-tool"
     ],
-    "target_tools": [],
+    "target_tools": [
+      "zed"
+    ],
     "summary": "A Model Context Protocol (MCP) server for creating, reading, and manipulating Microsoft Word documents. This server enables AI assistants to work with Word documents through a standardized interface, providing rich document editing capabili",
     "i18n": {
       "zh": {
@@ -4453,7 +4481,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "Open-source auth gateway connecting 1000+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.",
     "i18n": {
@@ -4534,7 +4563,9 @@
       "skills"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline",
+      "replit"
     ],
     "summary": "A general purpose scientific writer",
     "i18n": {
@@ -4602,7 +4633,9 @@
       "mcp-server"
     ],
     "target_tools": [
-      "cursor"
+      "cursor",
+      "windsurf",
+      "cline"
     ],
     "summary": "Completely free, private, UI based Tech Documentation MCP server. Designed for coders and software developers in mind. Easily integrate into Cursor, Windsurf, Cline, Roo Code, Claude Desktop App ",
     "i18n": {
@@ -4675,7 +4708,7 @@
       "extension"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "github-copilot"
     ],
     "summary": "Vim plugin for LLM-assisted code/text completion",
     "i18n": {
@@ -4744,7 +4777,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "AI Marketing Suite for Claude Code. 15 marketing skills with parallel subagents — audit any website, generate copy, email sequences, ad campaigns, content calendars, competitive intelligence, and client-ready PDF reports.",
     "i18n": {
@@ -5155,7 +5189,9 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit",
+      "openclaw"
     ],
     "summary": "Let Skills Evolve Collectively with Agentic Evolver ",
     "i18n": {
@@ -5366,7 +5402,8 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "opencode"
+      "opencode",
+      "github-copilot"
     ],
     "summary": "The Enterprise Architecture Governance Harness — strategy, architecture, delivery, and assurance for AI coding assistants",
     "i18n": {
@@ -5449,7 +5486,7 @@
       "agent-framework"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "openclaw"
     ],
     "summary": "🧠 Curated collection of 1209+ best OpenClaw skills — weekly updated by MyClaw.ai",
     "i18n": {
@@ -5520,7 +5557,9 @@
       "extension"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "warp",
+      "cline"
     ],
     "summary": "Seamless integration between Claude Code AI assistant and Neovim",
     "i18n": {
@@ -5595,7 +5634,10 @@
       "opencode",
       "trae",
       "workbuddy-codebuddy",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "replit",
+      "openclaw"
     ],
     "summary": "Collaborative multi-agent AI coding workspace: aggregate sessions from Claude Code, Codex, OpenCode, Pi, Grok Build, etc. Desktop app, self-hosted server, or Docker.",
     "i18n": {
@@ -5674,7 +5716,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "Agentless🐱:  an agentless approach to automatically solve software development problems",
     "i18n": {
@@ -6138,7 +6181,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "A collection of sample apps and recipes built with the TinyFish web agent. Open-source examples for you to learn & build!",
     "i18n": {
@@ -6420,7 +6464,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "🚀你的私人数据分析助手。通过对话式交互，自动生成可视化报表与商业洞察，让数据决策变得像聊天一样简单。  🚀 Your personal data analysis assistant. Say goodbye to complex SQL and Excel formulas.  An LLM-powered data analysis agent. Chat with your data to instantly generate visualizations and bu",
     "i18n": {
@@ -6490,7 +6535,7 @@
       "agent-framework"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "openclaw"
     ],
     "summary": "基于 AI Agent + MCP 工具链 + 渗透 Skill 编排， 配合大语言模型， 自然语言输入 → 自动完成「信息收集 → 漏洞发现 → 漏洞利用 → 报告生成」全流程。",
     "i18n": {
@@ -6745,7 +6790,8 @@
       "tutorial"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "Opinionated defaults, documentation, and workflows for Claude Code at Trail of Bits",
     "i18n": {

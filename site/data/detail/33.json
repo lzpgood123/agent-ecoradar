@@ -9,7 +9,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models",
     "i18n": {
@@ -264,7 +265,8 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "cursor"
+      "cursor",
+      "openclaw"
     ],
     "summary": "Browser automation CLI built for AI agents. Break through anti-bot walls, hand off to humans across platforms when stuck. Parallel multi-task execution, independent multi-session operation, isolated multi-account browsing.",
     "i18n": {
@@ -424,7 +426,7 @@
       "tutorial"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "kiro"
     ],
     "summary": "🤖 𝗟𝗲𝗮𝗿𝗻 for 𝗳𝗿𝗲𝗲 how to 𝗯𝘂𝗶𝗹𝗱 an end-to-end 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝗼𝗻-𝗿𝗲𝗮𝗱𝘆 𝗟𝗟𝗠 & 𝗥𝗔𝗚 𝘀𝘆𝘀𝘁𝗲𝗺 using 𝗟𝗟𝗠𝗢𝗽𝘀 best practices: ~ 𝘴𝘰𝘶𝘳𝘤𝘦 𝘤𝘰𝘥𝘦 + 12 𝘩𝘢𝘯𝘥𝘴-𝘰𝘯 𝘭𝘦𝘴𝘴𝘰𝘯𝘴",
     "i18n": {
@@ -701,7 +703,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "DeepAnalyze is the first agentic LLM for autonomous data science. 🎈你的AI数据分析师，自动分析大量数据，一键生成专业分析报告！",
     "i18n": {
@@ -975,7 +978,8 @@
     ],
     "target_tools": [
       "codex-cli",
-      "antigravity-cli"
+      "antigravity-cli",
+      "github-copilot"
     ],
     "summary": "Local persistent memory store for LLM applications including claude desktop, github copilot, codex, antigravity, etc.",
     "i18n": {
@@ -1131,7 +1135,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "An AI agent that writes (actually useful) code for you",
     "i18n": {
@@ -1523,7 +1528,11 @@
       "opencode",
       "trae",
       "workbuddy-codebuddy",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "kilo-code",
+      "junie",
+      "replit"
     ],
     "summary": "Costrict - strict AI coder for enterprises, quality first, including AI Agent, AI CodeReview, AI Completion. ",
     "i18n": {
@@ -1727,7 +1736,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "hermes-agent"
+      "hermes-agent",
+      "openclaw"
     ],
     "summary": "Unified real-time search engine skill for AI agents. ",
     "i18n": {
@@ -2014,7 +2024,8 @@
       "cli-tool"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "Zotero MCP: Connects your Zotero research library with Claude and other AI assistants via the Model Context Protocol to discuss papers, get summaries, analyze citations, and more.",
     "i18n": {
@@ -2225,7 +2236,8 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "antigravity-cli"
+      "antigravity-cli",
+      "cline"
     ],
     "summary": "One delightful Ruby framework for every major AI provider. Build AI agents, chatbots, RAG apps, and multimodal workflows in beautiful, expressive code.",
     "i18n": {
@@ -2558,7 +2570,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "AdalFlow: The library to build & auto-optimize LLM applications.",
     "i18n": {
@@ -2640,7 +2653,7 @@
       "tutorial"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "github-copilot"
     ],
     "summary": "CSGHub is a brand-new open-source platform for managing LLMs, developed by the OpenCSG team. It offers both open-source and on-premise/SaaS solutions, with features comparable to Hugging Face. Gain full control over the lifecycle of LLMs, d",
     "i18n": {
@@ -2785,7 +2798,7 @@
       "tutorial"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "manus"
     ],
     "summary": "A live stream development of RL tunning for LLM agents",
     "i18n": {
@@ -3045,7 +3058,9 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit",
+      "openclaw"
     ],
     "summary": "A full-stack AI Red Teaming platform securing AI ecosystems via OpenClaw Security Scan, Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.",
     "i18n": {
@@ -3194,7 +3209,7 @@
       "agent-framework"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "openclaw"
     ],
     "summary": "AI Agent Orchestration Dashboard - Manage AI agents, assign tasks, and coordinate multi-agent collaboration via OpenClaw Gateway.",
     "i18n": {
@@ -3324,7 +3339,7 @@
       "rules"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "zed"
     ],
     "summary": "An AI Gateway, registry, and proxy that sits in front of any MCP, A2A, or REST/gRPC APIs, exposing a unified endpoint with centralized discovery, guardrails and management. Optimizes Agent & Tool calling, and supports plugins.",
     "i18n": {
@@ -3479,7 +3494,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "openclaw"
     ],
     "summary": "网文/小说写作 skill 包，覆盖长篇与短篇网络小说的扫榜、拆文、写作、去AI味、封面图全流程",
     "i18n": {
@@ -3614,7 +3630,8 @@
       "cli-tool"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "github-copilot"
     ],
     "summary": "Turn GitHub Copilot into OpenAI/Anthropic API compatible server. Usable with Claude Code!",
     "i18n": {
@@ -3681,7 +3698,9 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit",
+      "openclaw"
     ],
     "summary": "Your First AI Agents Company",
     "i18n": {
@@ -3752,7 +3771,9 @@
       "codex-cli",
       "opencode",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "replit"
     ],
     "summary": "The world's first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern alternative to Pencil.",
     "i18n": {
@@ -3900,7 +3921,10 @@
       "antigravity-cli",
       "trae",
       "cursor",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "lovable",
+      "replit"
     ],
     "summary": "Claudable is an open-source web builder that leverages local CLI agents, such as Claude Code, Codex, Gemini CLI, Qwen Code, and Cursor Agent, to build and deploy products effortlessly.",
     "i18n": {
@@ -4045,7 +4069,8 @@
       "agent-framework"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "kiro",
+      "aider"
     ],
     "summary": "Kiro is an agentic IDE that works alongside you from prototype to production.",
     "i18n": {
@@ -4112,7 +4137,7 @@
       "agent-framework"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "openclaw"
     ],
     "summary": "Self-hosted, open-source agent skill registry for enterprises. Publish & version skill packages, govern with RBAC and audit logs, deploy   on-premise with Docker or Kubernetes.",
     "i18n": {
@@ -4322,7 +4347,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "AI watermark remover. CLI and Python library to strip visible and invisible AI watermarks (Gemini / Nano Banana sparkle, SynthID) and provenance metadata (C2PA, EXIF, IPTC) from images.",
     "i18n": {
@@ -4404,7 +4430,8 @@
       "mcp-server"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "cline"
     ],
     "summary": "The Unofficial and Awesome Home Assistant MCP Server",
     "i18n": {
@@ -4539,7 +4566,9 @@
       "codex-cli",
       "antigravity-cli",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "replit"
     ],
     "summary": "Enterprise AI Platform with guardrails, MCP registry, gateway & orchestrator",
     "i18n": {
@@ -4702,7 +4731,8 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "cline"
     ],
     "summary": "Every API has a secret identity. This finds it, absorbs every feature from every competing tool, then builds the GOAT CLI — designed for AI agents first, with SQLite sync, offline search, and compound insight commands.",
     "i18n": {
@@ -4972,7 +5002,9 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder"
+      "qoder",
+      "github-copilot",
+      "cline"
     ],
     "summary": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
     "i18n": {
@@ -5242,7 +5274,9 @@
     "target_tools": [
       "codex-cli",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "manus",
+      "replit"
     ],
     "summary": "Like Manus, Computer Use Agent(CUA) and Omniparser, we are computer-using agents.AI-driven local automation assistant that uses natural language to make computers work by themselves",
     "i18n": {
@@ -5381,7 +5415,8 @@
     "target_tools": [
       "claude-code",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "《御舆：解码 Agent Harness》42万字拆解 AI Agent 的Harness骨架与神经 —— Claude Code 架构深度剖析，15 章从对话循环到构建你自己的 Agent Harness。在线阅读网站：",
     "i18n": {
@@ -6192,7 +6227,8 @@
     ],
     "target_tools": [
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "replit"
     ],
     "summary": "[NeurIPS 2025] Open-source Multi-agent Poster Generation from Papers",
     "i18n": {
@@ -6268,7 +6304,9 @@
       "opencode",
       "qoder",
       "trae",
-      "hermes-agent"
+      "hermes-agent",
+      "cline",
+      "replit"
     ],
     "summary": "Code, Build and Evaluate agents - excellent Model and Skills/MCP/ACP/A2A Support",
     "i18n": {
@@ -6344,7 +6382,8 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "antigravity-cli"
+      "antigravity-cli",
+      "cline"
     ],
     "summary": "Claude / Codex / Gemini API Proxy - CCX",
     "i18n": {
@@ -6738,7 +6777,9 @@
     ],
     "target_tools": [
       "claude-code",
-      "antigravity-cli"
+      "antigravity-cli",
+      "cline",
+      "openclaw"
     ],
     "summary": "Proxy that exposes Antigravity provided claude / gemini models, so we can use them in Claude Code and OpenClaw (Clawdbot)",
     "i18n": {
