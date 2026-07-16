@@ -296,4 +296,380 @@
   status: active
   tool_kind: open
   onboard_state: done
+- id: github-copilot
+  name: GitHub Copilot
+  vendor: GitHub / Microsoft
+  primary_type: ai-assistant
+  repo: github/copilot.vim
+  website: https://github.com/features/copilot
+  docs: https://docs.github.com/en/copilot
+  aliases:
+  - GitHub Copilot
+  - Copilot
+  - gh copilot
+  - copilot.vim
+  config_files: []
+  extension_points: []
+  related_concepts: []
+  tracking_priority: medium
+  status: draft
+  tool_kind: open
+  onboard_state: pending
+- id: windsurf
+  name: Windsurf
+  vendor: Codeium / Exafunction
+  primary_type: ai-ide
+  repo: Exafunction/codeium
+  website: https://windsurf.com
+  docs: https://docs.windsurf.com
+  aliases:
+  - Windsurf
+  - Codeium Windsurf
+  - windsurf editor
+  config_files: []
+  extension_points: []
+  related_concepts: []
+  tracking_priority: medium
+  status: draft
+  tool_kind: open
+  onboard_state: pending
+- id: kiro
+  name: Kiro
+  vendor: AWS
+  primary_type: ai-ide
+  repo: null
+  website: https://kiro.dev
+  docs: https://kiro.dev/docs
+  aliases:
+  - Kiro
+  - Kiro IDE
+  - AWS Kiro
+  config_files: []
+  extension_points: []
+  related_concepts: []
+  tracking_priority: medium
+  status: draft
+  tool_kind: closed
+  onboard_state: pending
+- id: zed
+  name: Zed
+  vendor: Zed Industries
+  primary_type: ai-ide
+  repo: zed-industries/zed
+  website: https://zed.dev
+  docs: https://zed.dev/docs
+  aliases:
+  - Zed
+  - Zed editor
+  - zed.dev
+  config_files: []
+  extension_points: []
+  related_concepts: []
+  tracking_priority: medium
+  status: draft
+  tool_kind: open
+  onboard_state: pending
+- id: warp
+  name: Warp
+  vendor: Warp
+  primary_type: terminal-agent
+  repo: warpdotdev/Warp
+  website: https://www.warp.dev
+  docs: https://docs.warp.dev
+  aliases:
+  - Warp
+  - Warp terminal
+  - Warp AI
+  config_files: []
+  extension_points: []
+  related_concepts: []
+  tracking_priority: medium
+  status: draft
+  tool_kind: open
+  onboard_state: pending
+- id: aider
+  name: Aider
+  vendor: Aider
+  primary_type: terminal-agent
+  repo: Aider-AI/aider
+  website: https://aider.chat
+  docs: https://aider.chat/docs
+  aliases:
+  - Aider
+  - aider-chat
+  - Aider AI
+  config_files: []
+  extension_points: []
+  related_concepts: []
+  tracking_priority: medium
+  status: draft
+  tool_kind: open
+  onboard_state: pending
+- id: tongyi-lingma
+  name: 通义灵码
+  vendor: Alibaba Cloud
+  primary_type: ai-assistant
+  repo: null
+  website: https://lingma.aliyun.com
+  docs: https://help.aliyun.com/zh/lingma/
+  aliases:
+  - 通义灵码
+  - Tongyi Lingma
+  - Lingma
+  - Alibaba Lingma
+  config_files: []
+  extension_points: []
+  related_concepts: []
+  tracking_priority: medium
+  status: draft
+  tool_kind: closed
+  onboard_state: pending
+- id: comate
+  name: Comate
+  vendor: Baidu
+  primary_type: ai-assistant
+  repo: null
+  website: https://comate.baidu.com
+  docs: https://comate.baidu.com
+  aliases:
+  - Comate
+  - Baidu Comate
+  - 文心快码
+  config_files: []
+  extension_points: []
+  related_concepts: []
+  tracking_priority: medium
+  status: draft
+  tool_kind: closed
+  onboard_state: pending
+- id: codegeex
+  name: CodeGeeX
+  vendor: Zhipu AI
+  primary_type: ai-assistant
+  repo: THUDM/CodeGeeX
+  website: https://codegeex.cn
+  docs: https://codegeex.cn
+  aliases:
+  - CodeGeeX
+  - codegeex
+  - 智谱 CodeGeeX
+  config_files: []
+  extension_points: []
+  related_concepts: []
+  tracking_priority: medium
+  status: draft
+  tool_kind: open
+  onboard_state: pending
+- id: cline
+  name: Cline
+  vendor: Cline
+  primary_type: ide-extension
+  repo: cline/cline
+  website: https://cline.bot
+  docs: https://docs.cline.bot
+  aliases:
+  - Cline
+  - Claude Dev
+  - cline.bot
+  config_files: []
+  extension_points: []
+  related_concepts: []
+  tracking_priority: medium
+  status: draft
+  tool_kind: open
+  onboard_state: pending
+- id: kilo-code
+  name: Kilo Code
+  vendor: Kilo
+  primary_type: ide-extension
+  repo: Kilo-Org/kilocode
+  website: https://kilo.ai
+  docs: https://kilo.ai
+  aliases:
+  - Kilo Code
+  - KiloCode
+  - kilo-code
+  config_files: []
+  extension_points: []
+  related_concepts: []
+  tracking_priority: medium
+  status: draft
+  tool_kind: open
+  onboard_state: pending
+- id: junie
+  name: Junie
+  vendor: JetBrains
+  primary_type: ai-assistant
+  repo: null
+  website: https://www.jetbrains.com/junie/
+  docs: https://www.jetbrains.com/help/junie/
+  aliases:
+  - Junie
+  - JetBrains Junie
+  config_files: []
+  extension_points: []
+  related_concepts: []
+  tracking_priority: medium
+  status: draft
+  tool_kind: closed
+  onboard_state: pending
+- id: continue
+  name: Continue
+  vendor: Continue
+  primary_type: ide-extension
+  repo: continuedev/continue
+  website: https://continue.dev
+  docs: https://docs.continue.dev
+  aliases:
+  - Continue
+  - Continue.dev
+  - continue-dev
+  config_files: []
+  extension_points: []
+  related_concepts: []
+  tracking_priority: medium
+  status: draft
+  tool_kind: open
+  onboard_state: pending
+- id: augment-code
+  name: Augment Code
+  vendor: Augment
+  primary_type: ai-assistant
+  repo: null
+  website: https://www.augmentcode.com
+  docs: https://docs.augmentcode.com
+  aliases:
+  - Augment Code
+  - Augment
+  - augmentcode
+  config_files: []
+  extension_points: []
+  related_concepts: []
+  tracking_priority: medium
+  status: draft
+  tool_kind: closed
+  onboard_state: pending
+- id: tabnine
+  name: Tabnine
+  vendor: Tabnine
+  primary_type: ai-assistant
+  repo: null
+  website: https://www.tabnine.com
+  docs: https://docs.tabnine.com
+  aliases:
+  - Tabnine
+  - TabNine
+  - tabnine
+  config_files: []
+  extension_points: []
+  related_concepts: []
+  tracking_priority: medium
+  status: draft
+  tool_kind: closed
+  onboard_state: pending
+- id: manus
+  name: Manus
+  vendor: Manus
+  primary_type: agent-platform
+  repo: null
+  website: https://manus.im
+  docs: https://manus.im
+  aliases:
+  - Manus
+  - Manus AI
+  - manus.im
+  config_files: []
+  extension_points: []
+  related_concepts: []
+  tracking_priority: medium
+  status: draft
+  tool_kind: closed
+  onboard_state: pending
+- id: v0-dev
+  name: v0.dev
+  vendor: Vercel
+  primary_type: ai-builder
+  repo: null
+  website: https://v0.dev
+  docs: https://v0.dev
+  aliases:
+  - v0.dev
+  - v0
+  - Vercel v0
+  config_files: []
+  extension_points: []
+  related_concepts: []
+  tracking_priority: medium
+  status: draft
+  tool_kind: closed
+  onboard_state: pending
+- id: lovable
+  name: Lovable
+  vendor: Lovable
+  primary_type: ai-builder
+  repo: null
+  website: https://lovable.dev
+  docs: https://docs.lovable.dev
+  aliases:
+  - Lovable
+  - Lovable.dev
+  - GPT Engineer
+  config_files: []
+  extension_points: []
+  related_concepts: []
+  tracking_priority: medium
+  status: draft
+  tool_kind: closed
+  onboard_state: pending
+- id: replit
+  name: Replit
+  vendor: Replit
+  primary_type: ai-builder
+  repo: null
+  website: https://replit.com
+  docs: https://docs.replit.com
+  aliases:
+  - Replit
+  - Replit Agent
+  - Ghostwriter
+  config_files: []
+  extension_points: []
+  related_concepts: []
+  tracking_priority: medium
+  status: draft
+  tool_kind: closed
+  onboard_state: pending
+- id: bolt-new
+  name: Bolt.new
+  vendor: StackBlitz
+  primary_type: ai-builder
+  repo: stackblitz/bolt.new
+  website: https://bolt.new
+  docs: https://bolt.new
+  aliases:
+  - Bolt.new
+  - Bolt
+  - StackBlitz Bolt
+  config_files: []
+  extension_points: []
+  related_concepts: []
+  tracking_priority: medium
+  status: draft
+  tool_kind: open
+  onboard_state: pending
+- id: openclaw
+  name: OpenClaw
+  vendor: OpenClaw
+  primary_type: terminal-agent
+  repo: null
+  aliases:
+  - OpenClaw
+  - openclaw
+  config_files: []
+  extension_points: []
+  related_concepts: []
+  tracking_priority: medium
+  status: draft
+  tool_kind: closed
+  onboard_state: pending
 
