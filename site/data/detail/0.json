@@ -361,14 +361,7 @@
       "rules"
     ],
     "target_tools": [
-      "claude-code",
-      "codex-cli",
-      "antigravity-cli",
-      "cursor",
-      "github-copilot",
-      "windsurf",
-      "cline",
-      "openclaw"
+      "claude-code"
     ],
     "summary": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
     "i18n": {
@@ -389,7 +382,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-06T15:07:41Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "JavaScript"
@@ -742,7 +735,7 @@
     "languages": [
       "TypeScript"
     ],
-    "review_state": "auto-curated",
+    "review_state": "auto-indexed",
     "llm_summary": {
       "zh": "继续代码代理是领先的开源编码代理，提供IDE扩展和CLI工具，支持多种AI模型，拥有庞大的社区和丰富的文档。",
       "en": "Continue is a leading open-source coding agent offering IDE extensions and CLI tools, with strong community adoption and comprehensive documentation."
@@ -925,7 +918,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-06T15:06:02Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [],
     "review_state": "auto-indexed",
@@ -971,12 +964,7 @@
       "codex-cli",
       "antigravity-cli",
       "cursor",
-      "openclaw",
-      "hermes-agent",
-      "aider",
-      "windsurf",
-      "kilo-code",
-      "opencode"
+      "openclaw"
     ],
     "summary": "337 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, complian",
     "i18n": {
@@ -997,7 +985,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-06T15:08:06Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "Python"
@@ -1079,7 +1067,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-06T14:57:22Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [],
     "review_state": "auto-indexed",
@@ -1185,8 +1173,7 @@
       "skills"
     ],
     "target_tools": [
-      "claude-code",
-      "github-copilot"
+      "claude-code"
     ],
     "summary": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
     "i18n": {
@@ -1207,7 +1194,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-06T15:04:23Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "Python"
@@ -1268,7 +1255,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-06T11:56:37Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "apache-2.0",
     "languages": [
       "Shell"
@@ -1308,8 +1295,7 @@
       "skills"
     ],
     "target_tools": [
-      "claude-code",
-      "codex-cli"
+      "claude-code"
     ],
     "summary": "Trail of Bits Claude Code skills for security research, vulnerability detection, and audit workflows",
     "i18n": {
@@ -1330,7 +1316,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-06T13:28:01Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "cc-by-sa-4.0",
     "languages": [
       "Python"
@@ -1393,7 +1379,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-06T14:41:47Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "CSS"
@@ -1454,7 +1440,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-06T14:58:03Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "TypeScript"
@@ -1511,8 +1497,7 @@
       "cli-tool"
     ],
     "target_tools": [
-      "antigravity-cli",
-      "claude-code"
+      "antigravity-cli"
     ],
     "summary": "Conductor is a Gemini CLI extension that allows you to specify, plan, and implement software features.",
     "i18n": {
@@ -1533,7 +1518,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-06T14:14:22Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "apache-2.0",
     "languages": [],
     "review_state": "auto-indexed",
@@ -1598,7 +1583,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-05T10:29:51Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "cc0-1.0",
     "languages": [
       "Python"
@@ -1660,7 +1645,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-05T13:45:00Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "cc0-1.0",
     "languages": [
       "Python"
@@ -1713,8 +1698,7 @@
       "mcp-server"
     ],
     "target_tools": [
-      "claude-code",
-      "codex-cli"
+      "claude-code"
     ],
     "summary": "Open-source Claude Code skills for SEO, GEO, Google Ads, Meta Ads",
     "i18n": {
@@ -1735,7 +1719,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-06T13:45:56Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "TypeScript"
@@ -1784,10 +1768,7 @@
       "skills"
     ],
     "target_tools": [
-      "claude-code",
-      "opencode",
-      "codex-cli",
-      "hermes-agent"
+      "claude-code"
     ],
     "summary": "A Claude Code skill bundle for bug hunting and external red-team work — 71 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
     "i18n": {
@@ -1808,7 +1789,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-06T12:21:22Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "other",
     "languages": [
       "Python"
@@ -1887,7 +1868,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-06T10:52:30Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "JavaScript"
@@ -1941,8 +1922,7 @@
       "rules"
     ],
     "target_tools": [
-      "cursor",
-      "claude-code"
+      "cursor"
     ],
     "summary": "神级Cursor Rule",
     "i18n": {
@@ -1963,7 +1943,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-06T07:52:21Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [],
     "review_state": "auto-indexed",
@@ -2022,7 +2002,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-06T11:56:24Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [],
     "review_state": "auto-indexed",
@@ -2060,7 +2040,7 @@
       "skills"
     ],
     "target_tools": [
-      "codex-cli"
+      "claude-code"
     ],
     "summary": "用 Claude Code Skills 做的视频剪辑 Agent",
     "i18n": {
@@ -2081,7 +2061,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-06T13:36:58Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "apache-2.0",
     "languages": [
       "HTML"
@@ -2142,7 +2122,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-06T15:04:41Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "Python"
@@ -2184,11 +2164,7 @@
       "agent-framework"
     ],
     "target_tools": [
-      "claude-code",
-      "codex-cli",
-      "antigravity-cli",
-      "opencode",
-      "cursor"
+      "claude-code"
     ],
     "summary": "MCP server and Claude Code skill for Excalidraw — programmatic canvas toolkit to create, edit, and export diagrams via AI agents with real-time canvas sync.",
     "i18n": {
@@ -2209,7 +2185,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-06T14:25:50Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "TypeScript"
@@ -2270,7 +2246,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-06T03:11:44Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [],
     "review_state": "auto-indexed",
@@ -2334,7 +2310,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-06T12:51:38Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "TypeScript"
@@ -2410,7 +2386,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-06T13:26:33Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [],
     "review_state": "auto-indexed",
@@ -2470,7 +2446,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-06T02:57:29Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [],
     "review_state": "auto-indexed",
@@ -2512,9 +2488,7 @@
       "mcp-server"
     ],
     "target_tools": [
-      "claude-code",
-      "cursor",
-      "windsurf"
+      "claude-code"
     ],
     "summary": "Claude Code as one-shot MCP server to have an agent in your agent.",
     "i18n": {
@@ -2535,7 +2509,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-05T14:12:45Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "JavaScript"
@@ -2600,7 +2574,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-09T09:31:25Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "Python"
@@ -2642,10 +2616,9 @@
       "cli-tool"
     ],
     "target_tools": [
-      "claude-code",
       "cursor",
       "github-copilot",
-      "windsurf"
+      "augment-code"
     ],
     "summary": "3D & AR SDK for Android (Jetpack Compose + Filament), iOS (SwiftUI + RealityKit), and Web. AI-first: llms.txt, MCP server, Copilot/Cursor rules. The only Compose-native 3D library.",
     "i18n": {
@@ -2666,7 +2639,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-06T11:06:00Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "apache-2.0",
     "languages": [
       "Kotlin"
@@ -2727,8 +2700,7 @@
       "skills"
     ],
     "target_tools": [
-      "claude-code",
-      "codex-cli"
+      "claude-code"
     ],
     "summary": "Claude Code skill for improving website AEO (AI Engine Optimization) and GEO (Generative Engine Optimization) scores — 16 foundational checks, 6 intelligence dimensions, framework-specific fixes",
     "i18n": {
@@ -2749,7 +2721,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-05T10:30:10Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "HTML"
@@ -2823,7 +2795,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-03T13:12:00Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "JavaScript"
@@ -2896,7 +2868,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-04T15:37:02Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [],
     "review_state": "auto-indexed",
@@ -2955,7 +2927,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-05T16:44:49Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "Java"
@@ -3030,7 +3002,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-02T17:17:26Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [],
     "review_state": "auto-indexed",
@@ -3090,7 +3062,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-30T16:53:23Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "apache-2.0",
     "languages": [
       "JavaScript"
@@ -3136,8 +3108,7 @@
       "rules"
     ],
     "target_tools": [
-      "cursor",
-      "zed"
+      "cursor"
     ],
     "summary": "刘小排 Idea To Business 课程配套的极简starter。 特色功能包括：1. 极简！只有新手必须的功能！ 2. 自带Cursor Rule！ Cursor可以完全理解项目架构 3. 和课程深度结合 4.包含SaaS的基建功能：Landing Page、更换主题颜色、注册、登录、订阅支付、积分购买",
     "i18n": {
@@ -3158,7 +3129,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-05T09:11:38Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "TypeScript"
@@ -3199,9 +3170,7 @@
       "agent-framework"
     ],
     "target_tools": [
-      "claude-code",
-      "hermes-agent",
-      "openclaw"
+      "hermes-agent"
     ],
     "summary": "A curated registry of reusable Mercury Agent, Open Claw or Hermes Agent skills designed for real developer workflows, persistent memory, and token-efficient execution.",
     "i18n": {
@@ -3222,7 +3191,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-06T00:09:03Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "JavaScript"
@@ -3289,7 +3258,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-05T14:03:15Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "apache-2.0",
     "languages": [
       "Shell"
@@ -3357,7 +3326,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-01T05:43:53Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "0bsd",
     "languages": [
       "TypeScript"
@@ -3418,7 +3387,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-04T08:33:37Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "other",
     "languages": [
       "Shell"
@@ -3497,7 +3466,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-29T21:04:18Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [],
     "review_state": "auto-indexed",
@@ -3556,7 +3525,7 @@
     "tracking_priority": "index",
     "last_updated": "2026-07-06T05:51:10Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "Python"
@@ -3617,7 +3586,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-04T15:46:08Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [],
     "review_state": "auto-indexed",
@@ -3681,7 +3650,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-24T09:39:31Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "JavaScript"
@@ -3742,7 +3711,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-05T00:59:03Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "JavaScript"
@@ -3805,7 +3774,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-05T20:18:13Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "apache-2.0",
     "languages": [],
     "review_state": "auto-indexed",
@@ -3844,9 +3813,7 @@
       "extension"
     ],
     "target_tools": [
-      "claude-code",
-      "cursor",
-      "windsurf"
+      "cursor"
     ],
     "summary": "Unity MCP Plugin (UPM) — Editor bridge for AI-assisted game development. Enables Claude, Cursor & MCP-compatible AI to control Unity Editor with 268 tools: scenes, GameObjects, components, builds, profiling, Shader Graph, Amplify Shader Edi",
     "i18n": {
@@ -3867,7 +3834,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-06T08:30:55Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "other",
     "languages": [
       "C#"
@@ -3929,8 +3896,8 @@
       "cli-tool"
     ],
     "target_tools": [
-      "codex-cli",
       "claude-code",
+      "codex-cli",
       "openclaw"
     ],
     "summary": "面向 Codex CLI 的演示工作流 skills 集合，包括商业级可编辑 PPT 协作与网页 demo 配音视频合成等可复盘、可复用流程。A Codex CLI skill collection for reusable presentation workflows, covering editable PPT diagram collaboration and end-to-end web demo video synthesis.",
@@ -3952,7 +3919,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-30T11:42:41Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "Python"
@@ -4023,7 +3990,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-29T09:18:58Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "Python"
@@ -4097,7 +4064,7 @@
     "tracking_priority": "index",
     "last_updated": "2026-05-20T18:40:10Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "apache-2.0",
     "languages": [],
     "review_state": "auto-indexed",
@@ -4156,7 +4123,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-27T01:06:42Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "TypeScript"
@@ -4218,7 +4185,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-22T12:26:45Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "other",
     "languages": [
       "Shell"
@@ -4280,7 +4247,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-06T13:40:45Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "Python"
@@ -4362,7 +4329,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-27T13:18:51Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "apache-2.0",
     "languages": [],
     "review_state": "auto-indexed",
@@ -4427,7 +4394,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-18T18:10:11Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "Python"
@@ -4488,7 +4455,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-19T09:49:09Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "JavaScript"
@@ -4552,7 +4519,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-29T09:06:36Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "Python"
@@ -4626,7 +4593,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-04-06T23:41:35Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "TypeScript"
@@ -4687,7 +4654,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-27T01:06:43Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [],
     "review_state": "auto-indexed",
@@ -4746,7 +4713,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-27T01:06:43Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [],
     "review_state": "auto-indexed",
@@ -4819,7 +4786,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-27T01:06:43Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "Python"
@@ -4881,7 +4848,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-28T15:50:18Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "isc",
     "languages": [
       "TypeScript"
@@ -4947,7 +4914,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-30T16:57:10Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "cc0-1.0",
     "languages": [
       "Python"
@@ -5018,7 +4985,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-30T16:53:57Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [],
     "review_state": "auto-indexed",
@@ -5056,9 +5023,7 @@
       "extension",
       "cli-tool"
     ],
-    "target_tools": [
-      "antigravity-cli"
-    ],
+    "target_tools": [],
     "summary": "A Google Gemini-CLI extension than enables Gemini Computer Use from the CLI",
     "i18n": {
       "zh": {
@@ -5078,7 +5043,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-09T19:23:57Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "apache-2.0",
     "languages": [
       "Python"
@@ -5139,7 +5104,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-27T01:06:44Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "Shell"
@@ -5210,7 +5175,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-30T16:54:23Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "apache-2.0",
     "languages": [
       "TypeScript"
@@ -5260,11 +5225,7 @@
       "claude-code",
       "opencode",
       "cursor",
-      "windsurf",
-      "cline",
-      "continue",
-      "zed",
-      "github-copilot"
+      "windsurf"
     ],
     "summary": "MCP server for OpenCode AI — 70 tools, 10 resources, 5 prompts. Use npx opencode-mcp with Claude Desktop, Claude Code, Cursor, Windsurf, or any MCP client.",
     "i18n": {
@@ -5285,7 +5246,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-06T03:29:54Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "TypeScript"
@@ -5349,9 +5310,8 @@
     ],
     "target_tools": [
       "cursor",
-      "windsurf",
       "github-copilot",
-      "zed"
+      "windsurf"
     ],
     "summary": "❇️ neatly composed rules for ai ides like cursor, windsurf, vscode microsoft github copilot, reliverse ai, etc. optimized for modern frontend development with next.js 15, react 19, typescript 5, tailwind 4, shadcn/ui, drizzle orm, better au",
     "i18n": {
@@ -5372,7 +5332,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-04T14:20:45Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [],
     "review_state": "auto-indexed",
@@ -5448,7 +5408,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-27T01:06:45Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [],
     "review_state": "auto-indexed",
@@ -5486,11 +5446,9 @@
       "rules"
     ],
     "target_tools": [
-      "bolt-new",
-      "lovable",
+      "cursor",
       "windsurf",
-      "trae",
-      "cursor"
+      "bolt-new"
     ],
     "summary": "A searchable collection of AI prompts and code gen cursor rules, for bolt.new, loveable, windsurf, trae, to enhance your workflow for developers.",
     "i18n": {
@@ -5511,7 +5469,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-27T01:06:45Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "TypeScript"
@@ -5555,9 +5513,7 @@
       "mcp-server"
     ],
     "target_tools": [
-      "cursor",
-      "claude-code",
-      "openclaw"
+      "cursor"
     ],
     "summary": "Installs MCPs in cursor for you, give it a git URL and let it rip",
     "i18n": {
@@ -5578,7 +5534,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-14T23:09:46Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "TypeScript"
@@ -5639,7 +5595,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-29T20:39:49Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "Shell"
@@ -5688,9 +5644,7 @@
       "agent-framework"
     ],
     "target_tools": [
-      "hermes-agent",
-      "claude-code",
-      "openclaw"
+      "hermes-agent"
     ],
     "summary": "The complete, interactive map of Hermes Agent skills — 70+ curated, verified, open source. 🗺️",
     "i18n": {
@@ -5711,7 +5665,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-01T06:23:14Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "HTML"
@@ -5782,7 +5736,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-04-09T07:52:19Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "Shell"
@@ -5822,8 +5776,7 @@
       "skills"
     ],
     "target_tools": [
-      "hermes-agent",
-      "github-copilot"
+      "hermes-agent"
     ],
     "summary": "A curated collection of production-ready Hermes Agent skills — brainstorming, PRD workflows, debugging, Apple integrations, MLOps, document processing, and more.",
     "i18n": {
@@ -5844,7 +5797,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-05T11:29:58Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "Python"
@@ -5884,9 +5837,7 @@
       "mcp-server"
     ],
     "target_tools": [
-      "cursor",
-      "claude-code",
-      "github-copilot"
+      "cursor"
     ],
     "summary": "johnneerdael/multiplatform-cursor-mcp",
     "i18n": {
@@ -5907,7 +5858,7 @@
     "tracking_priority": "track",
     "last_updated": "2025-07-30T20:15:33Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "TypeScript"
@@ -5968,7 +5919,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-04-26T16:27:50Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "Python"
@@ -6030,7 +5981,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-04-30T06:55:14Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "apache-2.0",
     "languages": [],
     "review_state": "auto-indexed",
@@ -6090,7 +6041,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-30T16:52:40Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "apache-2.0",
     "languages": [],
     "review_state": "auto-indexed",
@@ -6149,7 +6100,7 @@
     "tracking_priority": "track",
     "last_updated": "2025-12-07T06:58:40Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "Python"
@@ -6211,7 +6162,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-03T09:32:18Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "cc0-1.0",
     "languages": [],
     "review_state": "auto-indexed",
@@ -6273,7 +6224,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-01T14:48:32Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "Shell"
@@ -6346,7 +6297,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-04T23:13:09Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "Python"
@@ -6407,7 +6358,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-06T10:11:38Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "agpl-3.0",
     "languages": [
       "TypeScript"
@@ -6469,10 +6420,7 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "cursor",
-      "windsurf",
-      "aider",
-      "antigravity-cli"
+      "cursor"
     ],
     "summary": "AI coding runtime hygiene for Claude Code, Codex, Cursor, MCP servers, and developer caches. Try: npx z-clean audit",
     "i18n": {
@@ -6493,7 +6441,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-10T13:53:05Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "JavaScript"
@@ -6554,8 +6502,7 @@
       "rules"
     ],
     "target_tools": [
-      "claude-code",
-      "cursor"
+      "claude-code"
     ],
     "summary": "Claude Code best practices -- applied to application design. Interactive HLD/LLD visualization, implementation example. LLM-agnostic, DB-governed, GDPR-ready.",
     "i18n": {
@@ -6576,7 +6523,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-27T17:33:26Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "other",
     "languages": [],
     "review_state": "auto-indexed",
@@ -6650,7 +6597,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-05-11T10:36:29Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [],
     "review_state": "auto-indexed",
@@ -6709,7 +6656,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-05-11T11:09:31Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [],
     "review_state": "auto-indexed",

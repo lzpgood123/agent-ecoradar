@@ -4987,10 +4987,7 @@
       "tutorial"
     ],
     "target_tools": [
-      "claude-code",
-      "codex-cli",
-      "aider",
-      "cursor"
+      "claude-code"
     ],
     "summary": "Build mods for Claude Code: Hook any request, modify any response, /model \"with-your-custom-model\", intelligent model routing using your logic or ours",
     "i18n": {
@@ -5011,7 +5008,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-16T16:52:04Z",
     "first_seen": "2026-07-14",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "other",
     "languages": [
       "Python"

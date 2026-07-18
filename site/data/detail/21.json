@@ -854,7 +854,8 @@
     "resource_type": [
       "skills",
       "agent-framework",
-      "cli-tool"
+      "cli-tool",
+      "mcp-server"
     ],
     "target_tools": [
       "claude-code",
@@ -1155,8 +1156,8 @@
     },
     "stars": 196,
     "forks": 17,
-    "total_score": 48,
-    "quantifiable_score": 25,
+    "total_score": 50,
+    "quantifiable_score": 27,
     "quality_score": 23,
     "tracking_priority": "track",
     "last_updated": "2026-07-16T18:12:25Z",
@@ -1175,7 +1176,7 @@
       "stars": 4,
       "activity": 15,
       "adoption": 4,
-      "maturity": 2
+      "maturity": 4
     },
     "quality_detail": {
       "relevance": 6,
@@ -3891,8 +3892,8 @@
     },
     "stars": 188,
     "forks": 11,
-    "total_score": 60,
-    "quantifiable_score": 25,
+    "total_score": 62,
+    "quantifiable_score": 27,
     "quality_score": 35,
     "tracking_priority": "track",
     "last_updated": "2026-07-16T18:55:23Z",
@@ -3910,7 +3911,7 @@
     "score_detail": {
       "stars": 4,
       "activity": 15,
-      "adoption": 2,
+      "adoption": 4,
       "maturity": 4
     },
     "quality_detail": {

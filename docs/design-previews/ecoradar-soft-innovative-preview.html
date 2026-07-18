@@ -1,0 +1,1251 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="ledger-cream" data-mode="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agent EcoRadar — 柔和创新布局预览</title>
+  <meta name="description" content="基于 Editorial Light 的柔和色系，探索更有趣的页面构造；保留现站功能架构与产品文案。">
+  <meta name="theme-color" content="#F6F1E8">
+  <style>
+    /* ========== Soft beautiful themes ========== */
+    html[data-theme="ledger-cream"] {
+      --bg: #F6F1E8; --bg-2: #FFFDF8; --ink: #1C1917; --ink-2: #44403C; --muted: #78716C;
+      --line: rgba(28,25,23,.10); --line-strong: rgba(28,25,23,.16);
+      --panel: #FFFDF8; --panel-2: #F3EEE4; --soft: #EFE7DA;
+      --accent: #0F766E; --accent-2: #14B8A6; --accent-soft: rgba(15,118,110,.10);
+      --secondary: #9A3412; --secondary-soft: rgba(154,52,18,.08);
+      --warm: #B45309; --warm-soft: rgba(180,83,9,.08);
+      --score-grad: linear-gradient(180deg, #14B8A6, #0F766E); --score-text: #042f2e;
+      --accent-grad: linear-gradient(90deg, #0F766E, #B45309);
+      --chart-fill: linear-gradient(180deg, rgba(15,118,110,.75), rgba(180,83,9,.25));
+      --shadow: 0 14px 40px rgba(28,25,23,.07);
+      --radius: 18px; --radius-sm: 12px; --radius-pill: 999px;
+      --font: "Iowan Old Style", "Palatino Linotype", Palatino, "Songti SC", "Noto Serif SC", Georgia, serif;
+      --font-ui: system-ui, -apple-system, "Segoe UI", Roboto, "PingFang SC", "Noto Sans SC", sans-serif;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      --page-bg:
+        radial-gradient(900px 420px at 8% -8%, rgba(20,184,166,.10), transparent 55%),
+        radial-gradient(700px 360px at 92% 0%, rgba(180,83,9,.08), transparent 50%),
+        linear-gradient(180deg, #FBF7F0, #F6F1E8 40%, #F3EBDF);
+      --banner-bg: rgba(255,253,248,.92); --banner-border: rgba(15,118,110,.18); --banner-text: #44403C;
+    }
+    html[data-theme="mist-lilac"] {
+      --bg: #F4F0F8; --bg-2: #FCFAFF; --ink: #1F1630; --ink-2: #4B3F63; --muted: #7C7193;
+      --line: rgba(31,22,48,.10); --line-strong: rgba(31,22,48,.15);
+      --panel: #FCFAFF; --panel-2: #EEE7F7; --soft: #E8E0F3;
+      --accent: #7C3AED; --accent-2: #A78BFA; --accent-soft: rgba(124,58,237,.10);
+      --secondary: #DB2777; --secondary-soft: rgba(219,39,119,.08);
+      --warm: #C026D3; --warm-soft: rgba(192,38,211,.08);
+      --score-grad: linear-gradient(180deg, #C4B5FD, #7C3AED); --score-text: #2e1065;
+      --accent-grad: linear-gradient(90deg, #7C3AED, #DB2777);
+      --chart-fill: linear-gradient(180deg, rgba(124,58,237,.75), rgba(219,39,119,.25));
+      --shadow: 0 14px 40px rgba(49,30,80,.08);
+      --radius: 20px; --radius-sm: 14px; --radius-pill: 999px;
+      --font: "Iowan Old Style", Palatino, "Songti SC", Georgia, serif;
+      --font-ui: system-ui, -apple-system, "Segoe UI", Roboto, "PingFang SC", "Noto Sans SC", sans-serif;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      --page-bg:
+        radial-gradient(820px 400px at 12% -6%, rgba(167,139,250,.16), transparent 55%),
+        radial-gradient(700px 360px at 90% 4%, rgba(244,114,182,.12), transparent 50%),
+        linear-gradient(180deg, #FCFAFF, #F4F0F8 50%, #EFE8F8);
+      --banner-bg: rgba(252,250,255,.92); --banner-border: rgba(124,58,237,.16); --banner-text: #4B3F63;
+    }
+    html[data-theme="peach-breeze"] {
+      --bg: #FBF3EC; --bg-2: #FFF9F4; --ink: #2A1A14; --ink-2: #5C4338; --muted: #8B6F63;
+      --line: rgba(42,26,20,.10); --line-strong: rgba(42,26,20,.15);
+      --panel: #FFF9F4; --panel-2: #F5E6DB; --soft: #F0DDD0;
+      --accent: #EA580C; --accent-2: #FB923C; --accent-soft: rgba(234,88,12,.10);
+      --secondary: #0F766E; --secondary-soft: rgba(15,118,110,.08);
+      --warm: #C2410C; --warm-soft: rgba(194,65,12,.08);
+      --score-grad: linear-gradient(180deg, #FDBA74, #EA580C); --score-text: #431407;
+      --accent-grad: linear-gradient(90deg, #EA580C, #0F766E);
+      --chart-fill: linear-gradient(180deg, rgba(234,88,12,.75), rgba(15,118,110,.22));
+      --shadow: 0 14px 40px rgba(80,40,20,.07);
+      --radius: 18px; --radius-sm: 12px; --radius-pill: 999px;
+      --font: "Iowan Old Style", Palatino, "Songti SC", Georgia, serif;
+      --font-ui: system-ui, -apple-system, "Segoe UI", Roboto, "PingFang SC", "Noto Sans SC", sans-serif;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      --page-bg:
+        radial-gradient(860px 400px at 10% -8%, rgba(251,146,60,.14), transparent 55%),
+        radial-gradient(720px 360px at 92% 0%, rgba(20,184,166,.10), transparent 50%),
+        linear-gradient(180deg, #FFF9F4, #FBF3EC 45%, #F6E9DF);
+      --banner-bg: rgba(255,249,244,.92); --banner-border: rgba(234,88,12,.16); --banner-text: #5C4338;
+    }
+    html[data-theme="celadon-ink"] {
+      --bg: #EEF5F1; --bg-2: #F7FBF8; --ink: #14221C; --ink-2: #3A5248; --muted: #6B8176;
+      --line: rgba(20,34,28,.10); --line-strong: rgba(20,34,28,.15);
+      --panel: #F7FBF8; --panel-2: #E3EFE8; --soft: #D9E9E0;
+      --accent: #047857; --accent-2: #34D399; --accent-soft: rgba(4,120,87,.10);
+      --secondary: #1D4ED8; --secondary-soft: rgba(29,78,216,.08);
+      --warm: #0E7490; --warm-soft: rgba(14,116,144,.08);
+      --score-grad: linear-gradient(180deg, #6EE7B7, #047857); --score-text: #022c22;
+      --accent-grad: linear-gradient(90deg, #047857, #1D4ED8);
+      --chart-fill: linear-gradient(180deg, rgba(4,120,87,.75), rgba(29,78,216,.22));
+      --shadow: 0 14px 40px rgba(20,40,30,.07);
+      --radius: 16px; --radius-sm: 11px; --radius-pill: 999px;
+      --font: "Iowan Old Style", Palatino, "Songti SC", Georgia, serif;
+      --font-ui: system-ui, -apple-system, "Segoe UI", Roboto, "PingFang SC", "Noto Sans SC", sans-serif;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      --page-bg:
+        radial-gradient(820px 400px at 12% -8%, rgba(52,211,153,.12), transparent 55%),
+        radial-gradient(700px 360px at 90% 0%, rgba(59,130,246,.08), transparent 50%),
+        linear-gradient(180deg, #F7FBF8, #EEF5F1 50%, #E5F0EA);
+      --banner-bg: rgba(247,251,248,.92); --banner-border: rgba(4,120,87,.16); --banner-text: #3A5248;
+    }
+    html[data-theme="sky-linen"] {
+      --bg: #EEF4FA; --bg-2: #F8FBFE; --ink: #132033; --ink-2: #3B4D63; --muted: #6B7C90;
+      --line: rgba(19,32,51,.10); --line-strong: rgba(19,32,51,.15);
+      --panel: #F8FBFE; --panel-2: #E4EEF7; --soft: #D9E7F4;
+      --accent: #0284C7; --accent-2: #38BDF8; --accent-soft: rgba(2,132,199,.10);
+      --secondary: #7C3AED; --secondary-soft: rgba(124,58,237,.08);
+      --warm: #0369A1; --warm-soft: rgba(3,105,161,.08);
+      --score-grad: linear-gradient(180deg, #7DD3FC, #0284C7); --score-text: #082f49;
+      --accent-grad: linear-gradient(90deg, #0284C7, #7C3AED);
+      --chart-fill: linear-gradient(180deg, rgba(2,132,199,.75), rgba(124,58,237,.22));
+      --shadow: 0 14px 40px rgba(20,40,70,.07);
+      --radius: 18px; --radius-sm: 12px; --radius-pill: 999px;
+      --font: "Iowan Old Style", Palatino, "Songti SC", Georgia, serif;
+      --font-ui: system-ui, -apple-system, "Segoe UI", Roboto, "PingFang SC", "Noto Sans SC", sans-serif;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      --page-bg:
+        radial-gradient(860px 400px at 10% -8%, rgba(56,189,248,.14), transparent 55%),
+        radial-gradient(700px 360px at 92% 0%, rgba(167,139,250,.10), transparent 50%),
+        linear-gradient(180deg, #F8FBFE, #EEF4FA 50%, #E6EFF7);
+      --banner-bg: rgba(248,251,254,.92); --banner-border: rgba(2,132,199,.16); --banner-text: #3B4D63;
+    }
+    html[data-theme="rose-clay"] {
+      --bg: #F8EFEC; --bg-2: #FFF8F6; --ink: #2A1714; --ink-2: #5B3D38; --muted: #8A6A64;
+      --line: rgba(42,23,20,.10); --line-strong: rgba(42,23,20,.15);
+      --panel: #FFF8F6; --panel-2: #F1E1DC; --soft: #EAD5CF;
+      --accent: #BE123C; --accent-2: #FB7185; --accent-soft: rgba(190,18,60,.10);
+      --secondary: #9A3412; --secondary-soft: rgba(154,52,18,.08);
+      --warm: #C2410C; --warm-soft: rgba(194,65,12,.08);
+      --score-grad: linear-gradient(180deg, #FDA4AF, #BE123C); --score-text: #4c0519;
+      --accent-grad: linear-gradient(90deg, #BE123C, #9A3412);
+      --chart-fill: linear-gradient(180deg, rgba(190,18,60,.72), rgba(154,52,18,.22));
+      --shadow: 0 14px 40px rgba(70,25,20,.07);
+      --radius: 18px; --radius-sm: 12px; --radius-pill: 999px;
+      --font: "Iowan Old Style", Palatino, "Songti SC", Georgia, serif;
+      --font-ui: system-ui, -apple-system, "Segoe UI", Roboto, "PingFang SC", "Noto Sans SC", sans-serif;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      --page-bg:
+        radial-gradient(820px 400px at 12% -8%, rgba(251,113,133,.12), transparent 55%),
+        radial-gradient(700px 360px at 90% 0%, rgba(251,146,60,.08), transparent 50%),
+        linear-gradient(180deg, #FFF8F6, #F8EFEC 50%, #F2E5E1);
+      --banner-bg: rgba(255,248,246,.92); --banner-border: rgba(190,18,60,.14); --banner-text: #5B3D38;
+    }
+    html[data-theme="matcha-paper"] {
+      --bg: #F2F5EA; --bg-2: #FAFBF5; --ink: #1A2412; --ink-2: #445236; --muted: #6E7B5B;
+      --line: rgba(26,36,18,.10); --line-strong: rgba(26,36,18,.15);
+      --panel: #FAFBF5; --panel-2: #E7EDD9; --soft: #DCE5C9;
+      --accent: #4D7C0F; --accent-2: #84CC16; --accent-soft: rgba(77,124,15,.10);
+      --secondary: #A16207; --secondary-soft: rgba(161,98,7,.08);
+      --warm: #CA8A04; --warm-soft: rgba(202,138,4,.08);
+      --score-grad: linear-gradient(180deg, #BEF264, #4D7C0F); --score-text: #1a2e05;
+      --accent-grad: linear-gradient(90deg, #4D7C0F, #A16207);
+      --chart-fill: linear-gradient(180deg, rgba(77,124,15,.75), rgba(161,98,7,.22));
+      --shadow: 0 14px 40px rgba(30,40,15,.07);
+      --radius: 16px; --radius-sm: 11px; --radius-pill: 999px;
+      --font: "Iowan Old Style", Palatino, "Songti SC", Georgia, serif;
+      --font-ui: system-ui, -apple-system, "Segoe UI", Roboto, "PingFang SC", "Noto Sans SC", sans-serif;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      --page-bg:
+        radial-gradient(820px 400px at 10% -8%, rgba(132,204,22,.12), transparent 55%),
+        radial-gradient(700px 360px at 92% 0%, rgba(202,138,4,.08), transparent 50%),
+        linear-gradient(180deg, #FAFBF5, #F2F5EA 50%, #EAF0DF);
+      --banner-bg: rgba(250,251,245,.92); --banner-border: rgba(77,124,15,.16); --banner-text: #445236;
+    }
+    html[data-theme="citrus-fog"] {
+      --bg: #F6F4EA; --bg-2: #FCFAF2; --ink: #222014; --ink-2: #524E38; --muted: #7A755C;
+      --line: rgba(34,32,20,.10); --line-strong: rgba(34,32,20,.15);
+      --panel: #FCFAF2; --panel-2: #EEE9D6; --soft: #E6E0C9;
+      --accent: #CA8A04; --accent-2: #FACC15; --accent-soft: rgba(202,138,4,.12);
+      --secondary: #0F766E; --secondary-soft: rgba(15,118,110,.08);
+      --warm: #B45309; --warm-soft: rgba(180,83,9,.08);
+      --score-grad: linear-gradient(180deg, #FDE047, #CA8A04); --score-text: #422006;
+      --accent-grad: linear-gradient(90deg, #CA8A04, #0F766E);
+      --chart-fill: linear-gradient(180deg, rgba(202,138,4,.75), rgba(15,118,110,.22));
+      --shadow: 0 14px 40px rgba(50,45,15,.07);
+      --radius: 18px; --radius-sm: 12px; --radius-pill: 999px;
+      --font: "Iowan Old Style", Palatino, "Songti SC", Georgia, serif;
+      --font-ui: system-ui, -apple-system, "Segoe UI", Roboto, "PingFang SC", "Noto Sans SC", sans-serif;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      --page-bg:
+        radial-gradient(820px 400px at 12% -8%, rgba(250,204,21,.14), transparent 55%),
+        radial-gradient(700px 360px at 90% 0%, rgba(20,184,166,.08), transparent 50%),
+        linear-gradient(180deg, #FCFAF2, #F6F4EA 50%, #EFEBD8);
+      --banner-bg: rgba(252,250,242,.92); --banner-border: rgba(202,138,4,.18); --banner-text: #524E38;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--font-ui);
+      color: var(--ink);
+      background: var(--page-bg);
+      min-height: 100vh;
+      font-size: 14px;
+      line-height: 1.55;
+    }
+    body::before {
+      content: "";
+      position: fixed; inset: 0; pointer-events: none; z-index: 0; opacity: .35;
+      background-image:
+        radial-gradient(circle at 20% 20%, rgba(0,0,0,.03) 0 1px, transparent 1px),
+        radial-gradient(circle at 80% 40%, rgba(0,0,0,.025) 0 1px, transparent 1px);
+      background-size: 18px 18px, 22px 22px;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    button, input, select { font: inherit; color: inherit; }
+    button { cursor: pointer; }
+    .shell { position: relative; z-index: 1; width: min(1280px, calc(100% - 32px)); margin: 0 auto; }
+
+    .preview-banner {
+      position: sticky; top: 0; z-index: 40;
+      background: var(--banner-bg); border-bottom: 1px solid var(--banner-border);
+      color: var(--banner-text); text-align: center; font-size: 12px; padding: 10px 14px;
+      backdrop-filter: blur(10px);
+    }
+    .preview-banner strong { color: var(--warm); }
+
+    .theme-dock {
+      position: sticky; top: 41px; z-index: 39;
+      background: color-mix(in srgb, var(--bg) 86%, white);
+      border-bottom: 1px solid var(--line);
+      backdrop-filter: blur(12px);
+      padding: 10px 0;
+    }
+    .theme-dock .shell { display: grid; gap: 8px; }
+    .theme-dock-label {
+      font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted);
+      font-family: var(--font-ui);
+    }
+    .theme-tabs { display: flex; flex-wrap: wrap; gap: 6px; }
+    .theme-tab {
+      border: 1px solid var(--line); background: var(--panel); color: var(--ink-2);
+      border-radius: var(--radius-pill); padding: 7px 11px; font-size: 12px; font-weight: 650;
+    }
+    .theme-tab.active {
+      color: var(--accent); border-color: color-mix(in srgb, var(--accent) 40%, transparent);
+      background: var(--accent-soft); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 8%, transparent);
+    }
+    .theme-blurb { color: var(--muted); font-size: 12px; }
+
+    /* ===== Innovative construction: research desk ===== */
+    .utility {
+      display: flex; justify-content: space-between; gap: 12px; align-items: center; flex-wrap: wrap;
+      padding: 18px 0 8px;
+    }
+    .brand {
+      display: flex; gap: 12px; align-items: center; min-width: 0;
+    }
+    .mark {
+      width: 42px; height: 42px; border-radius: 14px; flex: 0 0 auto;
+      border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
+      background:
+        radial-gradient(circle at 35% 30%, color-mix(in srgb, var(--accent-2) 40%, white), transparent 45%),
+        linear-gradient(145deg, var(--panel), var(--soft));
+      position: relative;
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,.5);
+    }
+    .mark::after {
+      content: ""; position: absolute; inset: 50% auto auto 50%; width: 8px; height: 8px;
+      transform: translate(-50%,-50%); border-radius: 50%; background: var(--accent);
+      box-shadow: 0 0 0 5px color-mix(in srgb, var(--accent) 15%, transparent);
+    }
+    .brand h1 {
+      font-family: var(--font); font-size: 24px; font-weight: 700; letter-spacing: -.03em; line-height: 1.1;
+    }
+    .brand .subtitle { color: var(--ink-2); font-size: 12.5px; max-width: 48ch; margin-top: 3px; font-family: var(--font-ui); }
+
+    .utility-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+    .lang-switch, .report-bar, .mode-toggle {
+      display: inline-flex; gap: 4px; padding: 4px; border: 1px solid var(--line);
+      border-radius: var(--radius-pill); background: var(--panel);
+    }
+    .lang-switch button, .report-bar a, .mode-toggle button {
+      border: 0; background: transparent; color: var(--muted);
+      padding: 7px 11px; border-radius: var(--radius-pill); font-size: 12px; font-weight: 650;
+      text-decoration: none;
+    }
+    .lang-switch button.active, .report-bar a.active, .mode-toggle button.active,
+    .lang-switch button[aria-pressed="true"] {
+      background: var(--accent-soft); color: var(--accent);
+    }
+    .fav-btn, .ghost-btn, .page-btn, .modal-close, .clear-filters {
+      border: 1px solid var(--line-strong); background: var(--panel); color: var(--ink-2);
+      border-radius: var(--radius-sm); padding: 9px 12px;
+    }
+    .fav-btn:hover, .ghost-btn:hover, .page-btn:hover { background: var(--soft); color: var(--ink); }
+    .fav-btn:focus-visible, .ghost-btn:focus-visible, .theme-tab:focus-visible, .tag:focus-visible,
+    .tool-chip:focus-visible, .disc-card:focus-visible, .lang-switch button:focus-visible,
+    .report-bar a:focus-visible, .page-btn:focus-visible, .modal-close:focus-visible,
+    .mode-toggle button:focus-visible, .sortable:focus-visible {
+      outline: none; box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 18%, transparent);
+    }
+
+    /* Ledger hero: title + big numbers */
+    .ledger {
+      display: grid;
+      grid-template-columns: 1.05fr 1.35fr;
+      gap: 14px;
+      margin: 10px 0 14px;
+    }
+    .ledger-intro, .metric, .chart-card, .disc-card, .search-side, .search-main, .detail-panel, .modal {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+    }
+    .ledger-intro {
+      border-radius: calc(var(--radius) + 4px);
+      padding: 22px;
+      position: relative;
+      overflow: hidden;
+      min-height: 210px;
+      display: flex; flex-direction: column; justify-content: space-between;
+    }
+    .ledger-intro::before {
+      content: ""; position: absolute; right: -40px; top: -40px; width: 180px; height: 180px;
+      border-radius: 50%;
+      background: radial-gradient(circle, color-mix(in srgb, var(--accent) 18%, transparent), transparent 70%);
+    }
+    .kicker {
+      font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase;
+      color: var(--accent); margin-bottom: 10px; position: relative;
+    }
+    .ledger-intro h2 {
+      font-family: var(--font); font-size: clamp(28px, 3.4vw, 40px); font-weight: 700;
+      letter-spacing: -.03em; line-height: 1.08; max-width: 12ch; position: relative;
+    }
+    .ledger-intro p {
+      margin-top: 12px; color: var(--ink-2); max-width: 36ch; font-size: 13.5px; position: relative;
+    }
+    .ledger-metrics {
+      display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 10px;
+    }
+    .metric {
+      border-radius: var(--radius); padding: 14px;
+      background:
+        linear-gradient(180deg, color-mix(in srgb, var(--panel) 70%, white), var(--panel));
+    }
+    .metric .k { font-size: 11px; color: var(--muted); margin-bottom: 6px; }
+    .metric .v {
+      font-family: var(--font); font-size: clamp(26px, 3vw, 34px); font-weight: 700;
+      letter-spacing: -.04em; line-height: 1; color: var(--ink);
+    }
+    .metric:nth-child(1) .v { color: var(--accent); }
+    .metric:nth-child(2) .v { color: var(--secondary); }
+    .metric.wide { grid-column: span 1; }
+
+    /* Atlas: charts as facing pages */
+    .atlas {
+      display: grid; grid-template-columns: 1.2fr .8fr; gap: 12px; margin-bottom: 28px;
+    }
+    .chart-card { border-radius: var(--radius); padding: 14px; min-height: 250px; }
+    .chart-card-title { font-size: 14px; font-weight: 750; margin-bottom: 2px; font-family: var(--font); }
+    .chart-card-sub { color: var(--muted); font-size: 12px; margin-bottom: 12px; }
+    .hbar, .vbar { display: grid; gap: 8px; }
+    .hbar-row { display: grid; grid-template-columns: 112px 1fr 40px; gap: 8px; align-items: center; }
+    .hbar-row .name { color: var(--ink-2); font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .hbar-row .track, .vbar-col .track {
+      height: 8px; border-radius: var(--radius-pill); background: var(--soft); overflow: hidden;
+    }
+    .hbar-row .fill { display: block; height: 100%; border-radius: inherit; background: var(--accent-grad); }
+    .hbar-row .n, .vbar-col .n { font-family: var(--mono); font-size: 11px; color: var(--muted); text-align: right; }
+    .vbar {
+      grid-template-columns: repeat(10, minmax(0,1fr));
+      align-items: end; height: 150px; gap: 7px; padding-top: 8px;
+    }
+    .vbar-col { display: grid; gap: 6px; align-content: end; }
+    .vbar-col .track { height: var(--h); min-height: 4px; background: transparent; }
+    .vbar-col .fill {
+      display: block; width: 100%; height: 100%; border-radius: 8px 8px 4px 4px; background: var(--chart-fill);
+    }
+    .vbar-col .label { text-align: center; color: var(--muted); font-size: 10px; font-family: var(--mono); }
+
+    /* Section heads */
+    .section { margin-bottom: 30px; }
+    .section-head {
+      display: flex; justify-content: space-between; gap: 12px; align-items: end; flex-wrap: wrap;
+      margin-bottom: 12px;
+    }
+    .section-head h2 {
+      font-family: var(--font); font-size: 22px; letter-spacing: -.02em; font-weight: 700;
+    }
+    .hint { color: var(--muted); font-size: 13px; }
+
+    /* Discovery: horizontal filmstrip */
+    .tape-wrap {
+      position: relative;
+      border-radius: calc(var(--radius) + 2px);
+      border: 1px solid var(--line);
+      background: color-mix(in srgb, var(--panel) 70%, var(--soft));
+      padding: 14px;
+      box-shadow: var(--shadow);
+    }
+    .tape {
+      display: grid; grid-auto-flow: column; grid-auto-columns: minmax(240px, 280px);
+      gap: 12px; overflow-x: auto; padding-bottom: 6px; scroll-snap-type: x mandatory;
+    }
+    .tape::-webkit-scrollbar { height: 8px; }
+    .tape::-webkit-scrollbar-thumb { background: color-mix(in srgb, var(--accent) 28%, transparent); border-radius: 999px; }
+    .disc-card {
+      scroll-snap-align: start;
+      border-radius: var(--radius); padding: 14px; min-height: 168px;
+      display: flex; flex-direction: column; gap: 8px; cursor: pointer;
+      transition: transform .2s ease, border-color .2s ease;
+    }
+    .disc-card:hover {
+      transform: translateY(-2px);
+      border-color: color-mix(in srgb, var(--accent) 35%, transparent);
+    }
+    .disc-card h3 { font-size: 14px; font-weight: 750; letter-spacing: -.02em; }
+    .disc-card p { color: var(--muted); font-size: 12.5px; flex: 1; }
+    .pills { display: flex; flex-wrap: wrap; gap: 6px; }
+    .pill {
+      font-size: 11px; padding: 3px 8px; border-radius: var(--radius-pill);
+      border: 1px solid var(--line); color: var(--ink-2); background: color-mix(in srgb, var(--soft) 70%, white);
+    }
+    .pill.tool { color: var(--secondary); border-color: color-mix(in srgb, var(--secondary) 28%, transparent); background: var(--secondary-soft); }
+    .pill.type { color: var(--warm); border-color: color-mix(in srgb, var(--warm) 28%, transparent); background: var(--warm-soft); }
+    .pill.score {
+      color: var(--score-text); background: var(--score-grad); border: 0; font-weight: 700; font-family: var(--mono);
+    }
+    .meta-row { display: flex; justify-content: space-between; gap: 8px; color: var(--muted); font-size: 12px; }
+
+    /* Tools: constellation chips */
+    .constellation {
+      display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+      padding: 16px; border-radius: calc(var(--radius) + 2px);
+      border: 1px dashed color-mix(in srgb, var(--accent) 28%, var(--line));
+      background:
+        radial-gradient(circle at 10% 20%, color-mix(in srgb, var(--accent) 8%, transparent), transparent 30%),
+        radial-gradient(circle at 90% 80%, color-mix(in srgb, var(--secondary) 8%, transparent), transparent 28%),
+        var(--panel);
+      box-shadow: var(--shadow);
+    }
+    .tool-chip {
+      border: 1px solid var(--line); background: color-mix(in srgb, var(--panel) 80%, white);
+      color: var(--ink); border-radius: var(--radius-pill); padding: 8px 12px;
+      display: inline-flex; gap: 8px; align-items: center;
+      transition: transform .15s ease, border-color .15s ease, background .15s ease;
+    }
+    .tool-chip:hover { transform: translateY(-1px); border-color: color-mix(in srgb, var(--accent) 35%, transparent); }
+    .tool-chip.active {
+      background: var(--accent-soft); border-color: color-mix(in srgb, var(--accent) 40%, transparent); color: var(--accent);
+    }
+    .tool-chip .dot {
+      width: calc(8px + var(--w) * 10px); height: calc(8px + var(--w) * 10px);
+      border-radius: 50%; background: var(--accent-grad); opacity: .9;
+      box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 10%, transparent);
+    }
+    .tool-chip .name { font-size: 12.5px; font-weight: 700; }
+    .tool-chip .count { font-family: var(--mono); font-size: 11px; color: var(--muted); }
+    .tool-chip.active .count { color: var(--accent); }
+
+    /* Search: split desk */
+    .search-desk {
+      display: grid; grid-template-columns: 300px 1fr; gap: 12px; align-items: start;
+    }
+    .search-side, .search-main { border-radius: calc(var(--radius) + 2px); }
+    .search-side {
+      position: sticky; top: 120px; padding: 14px; display: grid; gap: 14px;
+    }
+    .search-main { padding: 14px; min-width: 0; }
+    .side-block { display: grid; gap: 8px; }
+    .filter-label { font-size: 12px; color: var(--muted); font-weight: 700; }
+    #q, #toolTagSearch, select#sort {
+      width: 100%; background: var(--bg-2); border: 1px solid var(--line);
+      border-radius: var(--radius-sm); padding: 10px 12px; outline: none;
+    }
+    #q:focus, #toolTagSearch:focus, select#sort:focus {
+      border-color: color-mix(in srgb, var(--accent) 40%, transparent);
+      box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 10%, transparent);
+    }
+    .tag-group { display: flex; flex-wrap: wrap; gap: 7px; }
+    .tag {
+      border: 1px solid var(--line); background: var(--bg-2); color: var(--ink-2);
+      border-radius: var(--radius-pill); padding: 6px 10px; font-size: 12px;
+    }
+    .tag.active {
+      color: var(--accent); border-color: color-mix(in srgb, var(--accent) 40%, transparent); background: var(--accent-soft);
+    }
+    .checks { display: grid; gap: 8px; color: var(--ink-2); font-size: 13px; }
+    .checks label { display: inline-flex; gap: 6px; align-items: center; }
+
+    .active-filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
+    .active-filters:empty { display: none; }
+    .af-chip {
+      display: inline-flex; align-items: center; gap: 6px; padding: 6px 10px;
+      border-radius: var(--radius-pill); background: var(--secondary-soft);
+      border: 1px solid color-mix(in srgb, var(--secondary) 25%, transparent);
+      color: var(--secondary); font-size: 12px;
+    }
+    .af-chip button { border: 0; background: transparent; color: inherit; font-size: 14px; line-height: 1; }
+    .result-count {
+      display: flex; justify-content: space-between; gap: 10px; align-items: center;
+      color: var(--muted); font-size: 13px; margin-bottom: 10px;
+    }
+    .table-wrapper { overflow: auto; border: 1px solid var(--line); border-radius: var(--radius-sm); }
+    table { width: 100%; border-collapse: collapse; min-width: 720px; }
+    th, td { padding: 11px 12px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+    th {
+      position: sticky; top: 0; background: color-mix(in srgb, var(--panel) 88%, var(--soft));
+      color: var(--muted); font-size: 12px; font-weight: 700; z-index: 1;
+    }
+    th.sortable { cursor: pointer; user-select: none; }
+    th.sortable:hover { color: var(--ink); }
+    td { color: var(--ink-2); }
+    td.name-cell { color: var(--ink); font-weight: 700; }
+    td.name-cell button {
+      border: 0; background: transparent; color: inherit; font: inherit; font-weight: 700;
+      text-align: left; cursor: pointer;
+    }
+    td.name-cell button:hover { color: var(--accent); }
+    tr:hover td { background: color-mix(in srgb, var(--soft) 55%, white); }
+    .score-cell { font-family: var(--mono); color: var(--accent); font-weight: 700; }
+    .fav-star { border: 0; background: transparent; color: var(--muted); font-size: 16px; margin-right: 6px; }
+    .fav-star.on { color: var(--warm); }
+    .pagination { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 12px; }
+    .page-btn.active {
+      background: var(--accent-soft); border-color: color-mix(in srgb, var(--accent) 35%, transparent); color: var(--accent);
+    }
+
+    footer {
+      padding: 8px 0 36px; color: var(--muted); font-size: 12px;
+      display: flex; gap: 8px; flex-wrap: wrap;
+    }
+
+    /* detail + modal */
+    .detail-overlay { position: fixed; inset: 0; z-index: 60; pointer-events: none; }
+    .detail-overlay.open { pointer-events: auto; }
+    .detail-scrim {
+      position: absolute; inset: 0; background: rgba(28,25,23,.28); opacity: 0; transition: opacity .2s ease;
+    }
+    .detail-overlay.open .detail-scrim { opacity: 1; }
+    .detail-panel {
+      position: absolute; top: 0; right: 0; height: 100%; width: min(420px, 100%);
+      border-radius: 0; transform: translateX(104%); transition: transform .28s ease;
+      overflow: auto; padding: 18px; background: var(--panel);
+    }
+    .detail-overlay.open .detail-panel { transform: none; }
+    .detail-head { display: flex; justify-content: space-between; gap: 10px; align-items: start; margin-bottom: 12px; }
+    .detail-head h2 { font-family: var(--font); font-size: 20px; letter-spacing: -.02em; }
+    .detail-meta { color: var(--muted); font-size: 12px; margin: 8px 0 14px; }
+    .detail-block { margin-bottom: 16px; }
+    .detail-block h3 { font-size: 12px; color: var(--muted); margin-bottom: 8px; letter-spacing: .06em; text-transform: uppercase; }
+    .score-bars { display: grid; gap: 8px; }
+    .score-bars .row { display: grid; grid-template-columns: 72px 1fr 36px; gap: 8px; align-items: center; font-size: 12px; }
+    .score-bars .track { height: 7px; border-radius: var(--radius-pill); background: var(--soft); overflow: hidden; }
+    .score-bars .fill { display:block; height:100%; background: var(--accent-grad); }
+
+    .modal-backdrop { position: fixed; inset: 0; background: rgba(28,25,23,.28); z-index: 70; }
+    .modal {
+      position: fixed; z-index: 71; left: 50%; top: 50%; transform: translate(-50%,-50%);
+      width: min(820px, calc(100% - 28px)); max-height: min(80vh, 760px);
+      display: flex; flex-direction: column; background: var(--panel);
+    }
+    .modal[hidden], .modal-backdrop[hidden] { display: none !important; }
+    .modal-head {
+      display: flex; justify-content: space-between; gap: 12px; align-items: start;
+      padding: 18px 18px 10px; border-bottom: 1px solid var(--line);
+    }
+    .modal-head h2 { font-family: var(--font); font-size: 20px; }
+    .modal-head .meta { color: var(--muted); font-size: 12px; margin-top: 2px; }
+    .modal-close { width: 36px; height: 36px; display: grid; place-items: center; padding: 0; font-size: 20px; }
+    .modal-tabs { display: flex; gap: 8px; flex-wrap: wrap; padding: 12px 18px; border-bottom: 1px solid var(--line); }
+    .modal-tabs button {
+      border: 1px solid var(--line); background: var(--bg-2); color: var(--ink-2);
+      border-radius: var(--radius-pill); padding: 7px 12px; font-size: 12px; font-weight: 650;
+    }
+    .modal-tabs button.active {
+      color: var(--accent); border-color: color-mix(in srgb, var(--accent) 35%, transparent); background: var(--accent-soft);
+    }
+    .modal-body { padding: 18px; overflow: auto; color: var(--ink-2); font-size: 13.5px; }
+    .modal-body h3 { color: var(--ink); font-size: 15px; margin: 14px 0 8px; font-family: var(--font); }
+    .modal-body ul { padding-left: 18px; display: grid; gap: 6px; }
+    .modal-body p { margin-bottom: 8px; }
+
+    .layout-note {
+      margin: 8px 0 18px; padding: 10px 12px; border-radius: 12px;
+      border: 1px dashed color-mix(in srgb, var(--accent) 25%, var(--line));
+      background: color-mix(in srgb, var(--accent-soft) 70%, white);
+      color: var(--ink-2); font-size: 12px;
+    }
+
+    @media (max-width: 1040px) {
+      .ledger, .atlas, .search-desk { grid-template-columns: 1fr; }
+      .search-side { position: static; }
+      .ledger-metrics { grid-template-columns: repeat(2, minmax(0,1fr)); }
+    }
+    @media (max-width: 640px) {
+      .shell { width: min(1280px, calc(100% - 22px)); }
+      .ledger-metrics { grid-template-columns: 1fr 1fr; }
+      .hbar-row { grid-template-columns: 86px 1fr 34px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      * { transition: none !important; animation: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <div class="preview-banner">
+    <strong>柔和创新布局预览</strong>
+    · 色系围绕 Editorial Light
+    · 页面构造做了研究台/胶片带/星座筛选实验
+    · 功能块与产品文案仍对齐现站 · 未部署
+  </div>
+
+  <div class="theme-dock">
+    <div class="shell">
+      <div class="theme-dock-label">Soft beautiful themes · 8 styles</div>
+      <div class="theme-tabs" id="themeTabs" role="tablist" aria-label="Theme switcher"></div>
+      <div class="theme-blurb" id="themeBlurb"></div>
+    </div>
+  </div>
+
+  <div class="shell">
+    <div class="layout-note">
+      构造实验：顶部工具条压缩 → 账本式指标 → 对开图表 → 横向“最新发现”胶片带 → 工具星座点选 → 搜索桌左右分栏。
+      文案仍用现站 i18n（总记录 / 最新发现 / 生态项目搜索…），不是营销 landing。
+    </div>
+
+    <header class="utility">
+      <div class="brand">
+        <div class="mark" aria-hidden="true"></div>
+        <div>
+          <h1>Agent EcoRadar</h1>
+          <p class="subtitle" data-i18n="subtitle">智能体生态雷达：自动扫描、评分并索引 AI Coding Agent 生态</p>
+        </div>
+      </div>
+      <div class="utility-actions">
+        <div class="lang-switch" aria-label="Language switcher">
+          <button id="langZh" type="button" aria-pressed="true" class="active">中文</button>
+          <button id="langEn" type="button" aria-pressed="false">English</button>
+        </div>
+        <button id="exportFav" class="fav-btn" type="button" data-i18n="exportFav">导出收藏</button>
+        <input id="favExportUrl" type="text" readonly hidden>
+        <div class="report-bar" aria-label="Reports">
+          <a href="#" data-report="curated-top.md" data-i18n="navTop">推荐榜</a>
+          <a href="#" data-report="weekly-report.md" data-i18n="navWeekly">生态周报</a>
+          <a href="#" data-report="tool-comparison.md" data-i18n="navCompare">工具对比</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Ledger hero -->
+    <section class="ledger" aria-label="Overview">
+      <article class="ledger-intro">
+        <div>
+          <div class="kicker">research desk</div>
+          <h2 data-i18n="searchTitle">生态项目搜索</h2>
+          <p data-i18n="searchHint">多选标签筛选，支持 OR/AND 切换</p>
+        </div>
+        <div class="pills">
+          <span class="pill type">GitHub only</span>
+          <span class="pill tool">100 分制</span>
+          <span class="pill">31 tools</span>
+        </div>
+      </article>
+      <div id="metrics" class="ledger-metrics" aria-label="Statistics"></div>
+    </section>
+
+    <section class="atlas" id="chartsSection" aria-label="Overview charts">
+      <article class="chart-card">
+        <h3 class="chart-card-title" data-i18n="toolChartTitle">工具覆盖分布</h3>
+        <p class="chart-card-sub" data-i18n="toolChartSub">各目标工具关联项目数 · 单位：项目</p>
+        <div id="toolChart"></div>
+      </article>
+      <article class="chart-card">
+        <h3 class="chart-card-title" data-i18n="scoreChartTitle">分数分布</h3>
+        <p class="chart-card-sub" data-i18n="scoreChartSub">项目 total_score 分桶 · 单位：项目数</p>
+        <div id="scoreChart"></div>
+      </article>
+    </section>
+
+    <!-- Zone 1: Discovery filmstrip -->
+    <section class="section" id="discoverySection">
+      <div class="section-head">
+        <div>
+          <h2 data-i18n="discoveryTitle">最新发现</h2>
+          <p class="hint" data-i18n="discoveryHint">按发现时间排序的高质量项目 Top 12</p>
+        </div>
+      </div>
+      <div class="tape-wrap">
+        <div id="discovery" class="tape"></div>
+      </div>
+    </section>
+
+    <!-- Zone 2: Tool constellation -->
+    <section class="section" id="toolOverviewSection">
+      <div class="section-head">
+        <div>
+          <h2 data-i18n="toolOverviewTitle">工具生态概览</h2>
+          <p class="hint" data-i18n="toolOverviewHint">点击工具卡片查看该工具的生态资源</p>
+        </div>
+        <button type="button" id="toolOverviewToggle" class="ghost-btn" data-action="toggle-tool-overview"></button>
+      </div>
+      <div id="toolOverview" class="constellation" aria-label="Tool constellation"></div>
+    </section>
+
+    <!-- Zone 3: Search desk -->
+    <section class="section" id="searchZone">
+      <div class="section-head">
+        <div>
+          <h2 data-i18n="searchTitle">生态项目搜索</h2>
+          <p class="hint" data-i18n="searchHint">多选标签筛选，支持 OR/AND 切换</p>
+        </div>
+      </div>
+
+      <div class="search-desk">
+        <aside class="search-side">
+          <div class="side-block">
+            <div class="filter-label" data-i18n="searchPlaceholder">搜索项目名称或描述...</div>
+            <input id="q" data-i18n-placeholder="searchPlaceholder" placeholder="搜索项目名称或描述..." aria-label="Search">
+          </div>
+
+          <div class="side-block">
+            <div class="filter-label" data-i18n="filterTools">工具</div>
+            <input id="toolTagSearch" type="search" data-i18n-placeholder="toolTagSearchPlaceholder" placeholder="搜索工具..." aria-label="Search tools">
+            <button type="button" id="toolTagsExpand" class="ghost-btn" data-action="toggle-tool-tags"></button>
+            <div id="toolTags" class="tag-group" role="group" aria-label="Tool filter"></div>
+          </div>
+
+          <div class="side-block">
+            <div class="filter-label" data-i18n="filterTypes">类型</div>
+            <div id="typeTags" class="tag-group" role="group" aria-label="Type filter"></div>
+          </div>
+
+          <div class="side-block">
+            <div id="modeToggle" class="mode-toggle" role="radiogroup" aria-label="Match mode">
+              <button class="active" role="radio" aria-checked="true" data-mode="or" data-i18n="modeOR">任一匹配</button>
+              <button role="radio" aria-checked="false" data-mode="and" data-i18n="modeAND">全部匹配</button>
+            </div>
+          </div>
+
+          <div class="side-block">
+            <div class="filter-label" data-i18n="sortScore">分数</div>
+            <select id="sort" aria-label="Sort">
+              <option value="score" data-i18n="sortScore">分数</option>
+              <option value="stars" data-i18n="sortStars">Stars</option>
+              <option value="updated" data-i18n="sortUpdated">最近更新</option>
+              <option value="match" data-i18n="sortMatch">标签匹配</option>
+              <option value="recent" data-i18n="sortRecent">最近发现</option>
+              <option value="name" data-i18n="sortName">名称</option>
+            </select>
+          </div>
+
+          <div class="checks">
+            <label><input id="curatedOnly" type="checkbox"> <span data-i18n="curatedOnly">只看推荐</span></label>
+            <label><input id="recentOnly" type="checkbox"> <span data-i18n="recentOnly">只看最近新增</span></label>
+            <label><input id="favoritesOnly" type="checkbox"> <span data-i18n="favoritesOnly">只看收藏</span></label>
+          </div>
+        </aside>
+
+        <div class="search-main">
+          <div id="activeFilters" class="active-filters"></div>
+          <div class="result-count">
+            <span id="resultCount"></span>
+            <button id="clearFilters" class="clear-filters" data-i18n="clearFilters" hidden>清空筛选</button>
+          </div>
+          <div class="table-wrapper">
+            <table role="table">
+              <thead>
+                <tr>
+                  <th class="sortable" data-sort="name" data-i18n="thName">名称</th>
+                  <th data-i18n="thType">类型</th>
+                  <th data-i18n="thTools">工具</th>
+                  <th class="sortable" data-sort="score" data-i18n="thScore">分数</th>
+                  <th class="sortable" data-sort="stars" data-i18n="thStars">Stars</th>
+                  <th data-i18n="thLink">链接</th>
+                </tr>
+              </thead>
+              <tbody id="rows"></tbody>
+            </table>
+          </div>
+          <div id="pagination" class="pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <span data-i18n="footerUpdated">数据更新于</span>: <span id="lastUpdated">2026-07-17</span> ·
+      <a href="https://github.com/lzpgood123/agent-ecoradar" target="_blank" rel="noopener">GitHub</a> ·
+      <span data-i18n="footerDesc">智能体生态雷达</span>
+    </footer>
+  </div>
+
+  <aside id="detailOverlay" class="detail-overlay" aria-hidden="true">
+    <div class="detail-scrim" data-action="close-detail"></div>
+    <div class="detail-panel" role="dialog" aria-modal="true" aria-label="Project details">
+      <div class="detail-head">
+        <div>
+          <h2 id="detailTitle">—</h2>
+          <div class="detail-meta" id="detailMeta"></div>
+        </div>
+        <button type="button" class="modal-close" data-action="close-detail" aria-label="Close">×</button>
+      </div>
+      <div id="detailBody"></div>
+    </div>
+  </aside>
+
+  <div id="reportBackdrop" class="modal-backdrop" hidden></div>
+  <div id="reportModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="reportModalTitle" hidden>
+    <div class="modal-head">
+      <div>
+        <h2 id="reportModalTitle">推荐榜</h2>
+        <p class="meta" data-i18n="reportMeta">报告</p>
+      </div>
+      <button type="button" class="modal-close" data-action="close-report" aria-label="Close report">×</button>
+    </div>
+    <div class="modal-tabs" role="tablist" aria-label="Report tabs">
+      <button type="button" role="tab" data-report="curated-top.md" data-i18n="navTop">推荐榜</button>
+      <button type="button" role="tab" data-report="weekly-report.md" data-i18n="navWeekly">生态周报</button>
+      <button type="button" role="tab" data-report="tool-comparison.md" data-i18n="navCompare">工具对比</button>
+    </div>
+    <div id="reportModalBody" class="modal-body report-content"></div>
+  </div>
+
+  <script>
+    const THEMES = [
+      { id: 'ledger-cream', label: '01 Ledger Cream', blurb: '你认可的 Editorial 方向：奶油纸 + 青绿/铜棕', mode: 'light' },
+      { id: 'mist-lilac', label: '02 Mist Lilac', blurb: '薄雾丁香：浅紫底 + 紫/玫红点缀', mode: 'light' },
+      { id: 'peach-breeze', label: '03 Peach Breeze', blurb: '蜜桃微风：暖杏纸 + 珊瑚橙/鼠尾草绿', mode: 'light' },
+      { id: 'celadon-ink', label: '04 Celadon Ink', blurb: '青瓷墨色：豆青纸 + 墨绿/靛蓝', mode: 'light' },
+      { id: 'sky-linen', label: '05 Sky Linen', blurb: '天空亚麻：淡天蓝 + 晴空蓝/淡紫', mode: 'light' },
+      { id: 'rose-clay', label: '06 Rose Clay', blurb: '玫瑰陶土：粉米纸 + 玫红/陶棕', mode: 'light' },
+      { id: 'matcha-paper', label: '07 Matcha Paper', blurb: '抹茶纸笺：嫩绿纸 + 抹茶/琥珀', mode: 'light' },
+      { id: 'citrus-fog', label: '08 Citrus Fog', blurb: '柑橘薄雾：浅柠雾 + 金黄/青绿', mode: 'light' }
+    ];
+
+    const UI = {
+      zh: {
+        subtitle: '智能体生态雷达：自动扫描、评分并索引 AI Coding Agent 生态',
+        navWeekly: '生态周报', navCompare: '工具对比', navTop: '推荐榜', reportMeta: '报告',
+        toolChartTitle: '工具覆盖分布', toolChartSub: '各目标工具关联项目数 · 单位：项目',
+        scoreChartTitle: '分数分布', scoreChartSub: '项目 total_score 分桶 · 单位：项目数',
+        discoveryTitle: '最新发现', discoveryHint: '按发现时间排序的高质量项目 Top 12',
+        toolOverviewTitle: '工具生态概览', toolOverviewHint: '点击工具卡片查看该工具的生态资源',
+        searchTitle: '生态项目搜索', searchHint: '多选标签筛选，支持 OR/AND 切换',
+        searchPlaceholder: '搜索项目名称或描述...',
+        filterTools: '工具', filterTypes: '类型', toolTagSearchPlaceholder: '搜索工具...',
+        expandTools: '展开全部工具', collapseTools: '收起工具',
+        expandToolOverview: '显示全部工具', collapseToolOverview: '只看 Top 工具',
+        sortScore: '分数', sortStars: 'Stars', sortUpdated: '最近更新', sortMatch: '标签匹配', sortRecent: '最近发现', sortName: '名称',
+        modeOR: '任一匹配', modeAND: '全部匹配',
+        details: '详情', open: '打开', exportFav: '导出收藏',
+        curatedOnly: '只看推荐', recentOnly: '只看最近新增', favoritesOnly: '只看收藏',
+        thName: '名称', thType: '类型', thTools: '工具', thScore: '分数', thStars: 'Stars', thLink: '链接',
+        showing: '显示', clearFilters: '清空筛选', pageOf: '第 {cur} 页 / 共 {total} 页',
+        footerUpdated: '数据更新于', footerDesc: '智能体生态雷达',
+        noResults: '没有符合条件的项目', adjustFilter: '试试调整筛选条件',
+        scoreDetail: '评分明细', quantifiable: '可量化分', quality: '质量分',
+        scoreBreakdown: '评分分项', qualityBreakdown: '质量分项', qualityPending: '质量分待 LLM 分析',
+        metrics: { projects: '总记录', curated: '推荐', rejected: '噪声', official_tools: '官方工具', ecosystem_projects: '生态项目' },
+        resourceTypes: {
+          'mcp-server': 'MCP Server', 'mcp-client': 'MCP Client', skills: 'Skills', rules: 'Rules',
+          'agent-framework': 'Agent 框架', 'cli-tool': 'CLI 工具', tutorial: '教程', extension: '扩展'
+        }
+      },
+      en: {
+        subtitle: 'Agent EcoRadar: auto-scanned index of the AI coding agent ecosystem',
+        navWeekly: 'Weekly Report', navCompare: 'Tool Comparison', navTop: 'Top Picks', reportMeta: 'Report',
+        toolChartTitle: 'Tool Coverage', toolChartSub: 'Projects linked to each target tool · unit: projects',
+        scoreChartTitle: 'Score Distribution', scoreChartSub: 'total_score buckets · unit: project count',
+        discoveryTitle: 'Latest Discoveries', discoveryHint: 'Top 12 high-quality projects by discovery date',
+        toolOverviewTitle: 'Tool Ecosystem Overview', toolOverviewHint: 'Click a tool card to browse its ecosystem resources',
+        searchTitle: 'Ecosystem Search', searchHint: 'Multi-select tag filtering with OR/AND toggle',
+        searchPlaceholder: 'Search project name or description...',
+        filterTools: 'Tools', filterTypes: 'Types', toolTagSearchPlaceholder: 'Search tools...',
+        expandTools: 'Show all tools', collapseTools: 'Collapse tools',
+        expandToolOverview: 'Show all tools', collapseToolOverview: 'Show top tools',
+        sortScore: 'Score', sortStars: 'Stars', sortUpdated: 'Recently Updated', sortMatch: 'Tag Match', sortRecent: 'Recently Discovered', sortName: 'Name',
+        modeOR: 'Any match', modeAND: 'All match',
+        details: 'Details', open: 'Open', exportFav: 'Export Favorites',
+        curatedOnly: 'Curated only', recentOnly: 'Recent only', favoritesOnly: 'Favorites only',
+        thName: 'Name', thType: 'Type', thTools: 'Tools', thScore: 'Score', thStars: 'Stars', thLink: 'Link',
+        showing: 'Showing', clearFilters: 'Clear filters', pageOf: 'Page {cur} of {total}',
+        footerUpdated: 'Data updated', footerDesc: 'Agent EcoRadar',
+        noResults: 'No projects match your filters', adjustFilter: 'Try adjusting your filters',
+        scoreDetail: 'Score Details', quantifiable: 'Quantifiable', quality: 'Quality',
+        scoreBreakdown: 'Score Breakdown', qualityBreakdown: 'Quality Breakdown', qualityPending: 'Quality score pending LLM analysis',
+        metrics: { projects: 'Records', curated: 'Curated', rejected: 'Rejected', official_tools: 'Official', ecosystem_projects: 'Ecosystem' },
+        resourceTypes: {
+          'mcp-server': 'MCP Server', 'mcp-client': 'MCP Client', skills: 'Skills', rules: 'Rules',
+          'agent-framework': 'Agent Framework', 'cli-tool': 'CLI Tool', tutorial: 'Tutorial', extension: 'Extension'
+        }
+      }
+    };
+
+    const METRICS = { projects: 5275, curated: 40, rejected: 10, official_tools: 31, ecosystem_projects: 5244 };
+    const TOOL_COVERAGE = [
+      ['claude-code', 'Claude Code', 2297], ['codex-cli', 'OpenAI Codex CLI', 1296], ['cline', 'Cline', 1082],
+      ['antigravity-cli', 'Antigravity / Gemini CLI', 693], ['opencode', 'OpenCode', 663], ['hermes-agent', 'Hermes Agent', 546],
+      ['cursor', 'Cursor', 520], ['github-copilot', 'GitHub Copilot', 410], ['windsurf', 'Windsurf', 360],
+      ['qoder', 'Qoder / QoderWork', 364], ['trae', 'Trae / Trae Work', 280], ['aider', 'Aider', 240],
+      ['zed', 'Zed', 180], ['warp', 'Warp', 150], ['goose', 'Goose', 23]
+    ];
+    const TOOLS = [
+      { id: 'claude-code', name: 'Claude Code', vendor: 'Anthropic' },
+      { id: 'codex-cli', name: 'OpenAI Codex CLI', vendor: 'OpenAI' },
+      { id: 'antigravity-cli', name: 'Antigravity CLI / Gemini CLI', vendor: 'Google' },
+      { id: 'opencode', name: 'OpenCode', vendor: 'Anomaly' },
+      { id: 'goose', name: 'Goose', vendor: 'AAIF / Block' },
+      { id: 'qoder', name: 'Qoder / QoderWork', vendor: 'Alibaba' },
+      { id: 'trae', name: 'Trae / Trae Work', vendor: 'ByteDance' },
+      { id: 'workbuddy-codebuddy', name: 'WorkBuddy / CodeBuddy', vendor: 'Tencent' },
+      { id: 'cursor', name: 'Cursor', vendor: 'Anysphere' },
+      { id: 'hermes-agent', name: 'Hermes Agent', vendor: 'Nous Research' },
+      { id: 'github-copilot', name: 'GitHub Copilot', vendor: 'GitHub / Microsoft' },
+      { id: 'windsurf', name: 'Windsurf', vendor: 'Codeium' },
+      { id: 'kiro', name: 'Kiro', vendor: 'AWS' },
+      { id: 'zed', name: 'Zed', vendor: 'Zed Industries' },
+      { id: 'warp', name: 'Warp', vendor: 'Warp' },
+      { id: 'aider', name: 'Aider', vendor: 'Aider' },
+      { id: 'cline', name: 'Cline', vendor: 'Cline' }
+    ];
+    const TYPES = ['agent-framework', 'skills', 'mcp-server', 'cli-tool', 'tutorial', 'extension', 'rules'];
+    const PROJECTS = [
+      { id: 'openai-codex-cli', name: 'OpenAI Codex CLI', url: 'https://github.com/openai/codex', resource_type: ['cli-tool', 'agent-framework'], target_tools: ['codex-cli'], summary: 'OpenAI 官方发布的本地 AI 编码代理命令行工具，生态核心之一。', llm_summary: { zh: 'OpenAI 官方发布的本地 AI 编码代理命令行工具，生态核心之一。' }, stars: 97660, total_score: 90, quantifiable_score: 55, quality_score: 35, first_seen: '2026-07-10', last_updated: '2026-07-16', curated: true, score_detail: { stars: 15, activity: 14, adoption: 14, maturity: 12 }, quality_detail: { relevance: 10, practicality: 9, novelty: 7, ecosystem_value: 9 } },
+      { id: 'mattpocock-skills', name: 'mattpocock/skills', url: 'https://github.com/mattpocock/skills', resource_type: ['skills'], target_tools: ['claude-code'], summary: '由 Matt Pocock 维护的 Claude Code 技能集合，覆盖常见工程任务。', llm_summary: { zh: '这是一个由知名开发者 Matt Pocock 制作的 Claude Code 技能集合。提供了大量实用的、经过实战检验的 Skills。' }, stars: 172027, total_score: 87, quantifiable_score: 52, quality_score: 35, first_seen: '2026-07-12', last_updated: '2026-07-16', curated: true },
+      { id: 'openhands', name: 'OpenHands/OpenHands', url: 'https://github.com/OpenHands/OpenHands', resource_type: ['agent-framework', 'cli-tool'], target_tools: ['codex-cli', 'antigravity-cli', 'opencode'], summary: '自托管的 AI 驱动开发控制中心，可集成多种代码代理。', llm_summary: { zh: 'OpenHands 是一个自托管的 AI 驱动开发控制中心，可集成多种代码代理，支持自动化工作流。' }, stars: 80884, total_score: 88, quantifiable_score: 54, quality_score: 34, first_seen: '2026-07-11', last_updated: '2026-07-15', curated: true },
+      { id: 'headroom', name: 'headroomlabs-ai/headroom', url: 'https://github.com/headroomlabs-ai/headroom', resource_type: ['mcp-server', 'agent-framework', 'rules'], target_tools: ['claude-code', 'codex-cli', 'trae'], summary: '针对 AI 编码代理的上下文压缩层，可显著减少 token 消耗。', llm_summary: { zh: '针对 AI 编码代理的上下文压缩层，可显著减少 token 消耗，兼容多种工具。' }, stars: 59338, total_score: 88, quantifiable_score: 53, quality_score: 35, first_seen: '2026-07-13', last_updated: '2026-07-16', curated: true },
+      { id: 'claude-mem', name: 'thedotmack/claude-mem', url: 'https://github.com/thedotmack/claude-mem', resource_type: ['agent-framework', 'skills'], target_tools: ['claude-code', 'codex-cli', 'cline'], summary: '为 AI 编程代理提供持久化上下文记忆的压缩系统。', llm_summary: { zh: '一个为 AI 编程代理提供持久化上下文记忆的压缩系统，支持多种主流工具。' }, stars: 87380, total_score: 87, quantifiable_score: 52, quality_score: 35, first_seen: '2026-07-14', last_updated: '2026-07-16', curated: false },
+      { id: 'codegraph', name: 'colbymchenry/codegraph', url: 'https://github.com/colbymchenry/codegraph', resource_type: ['cli-tool'], target_tools: ['claude-code', 'codex-cli', 'opencode'], summary: '预索引代码知识图并自动同步，为多个 AI 编码代理提供高效上下文。', llm_summary: { zh: 'CodeGraph 预索引代码知识图并自动同步，为多个 AI 编码代理提供高效上下文。' }, stars: 60171, total_score: 87, quantifiable_score: 51, quality_score: 36, first_seen: '2026-07-14', last_updated: '2026-07-15', curated: true },
+      { id: 'subagents-0xfurai', name: '0xfurai/claude-code-subagents', url: 'https://github.com/0xfurai/claude-code-subagents', resource_type: ['skills', 'rules'], target_tools: ['claude-code'], summary: 'Claude Code 子代理与规则集合。', llm_summary: { zh: 'Claude Code 子代理与规则集合，便于拆分复杂工程任务。' }, stars: 420, total_score: 62, quantifiable_score: 38, quality_score: 24, first_seen: '2026-07-17', last_updated: '2026-07-17', curated: false, recent: true },
+      { id: 'comfy-prompt-lib', name: 'Comfy-Org/comfy-claude-prompt-library', url: 'https://github.com/Comfy-Org/comfy-claude-prompt-library', resource_type: ['rules'], target_tools: ['claude-code'], summary: '面向 Claude 的提示词与规则库。', llm_summary: { zh: '面向 Claude 的提示词与规则库，偏工作流约定。' }, stars: 310, total_score: 60, quantifiable_score: 36, quality_score: 24, first_seen: '2026-07-17', last_updated: '2026-07-17', curated: false, recent: true },
+      { id: 'farfield', name: 'achimala/farfield', url: 'https://github.com/achimala/farfield', resource_type: ['cli-tool'], target_tools: ['claude-code', 'cursor'], summary: 'CLI 工具，辅助编码代理管理本地任务与上下文。', llm_summary: { zh: 'CLI 工具，辅助编码代理管理本地任务与上下文。' }, stars: 180, total_score: 60, quantifiable_score: 37, quality_score: 23, first_seen: '2026-07-17', last_updated: '2026-07-17', curated: false, recent: true },
+      { id: 'cursor-rules-pack', name: 'example/cursor-rules-pack', url: 'https://github.com/example/cursor-rules-pack', resource_type: ['rules'], target_tools: ['cursor'], summary: 'Cursor rules 模板包。', llm_summary: { zh: 'Cursor rules 模板包，覆盖命名、测试与 PR 约定。' }, stars: 2100, total_score: 74, quantifiable_score: 44, quality_score: 30, first_seen: '2026-07-15', last_updated: '2026-07-16', curated: false },
+      { id: 'mcp-filesystem', name: 'modelcontextprotocol/servers', url: 'https://github.com/modelcontextprotocol/servers', resource_type: ['mcp-server'], target_tools: ['claude-code', 'cursor', 'cline'], summary: '官方与社区 MCP server 集合。', llm_summary: { zh: '官方与社区 MCP server 集合，覆盖文件系统、浏览器、数据库等能力。' }, stars: 42000, total_score: 85, quantifiable_score: 50, quality_score: 35, first_seen: '2026-07-09', last_updated: '2026-07-16', curated: true },
+      { id: 'copilot-instructions', name: 'example/copilot-instructions', url: 'https://github.com/example/copilot-instructions', resource_type: ['rules', 'tutorial'], target_tools: ['github-copilot'], summary: 'GitHub Copilot 仓库级指令示例。', llm_summary: { zh: 'GitHub Copilot 仓库级指令与审查清单示例。' }, stars: 890, total_score: 68, quantifiable_score: 40, quality_score: 28, first_seen: '2026-07-16', last_updated: '2026-07-16', curated: false, recent: true },
+      { id: 'hermes-skills-kit', name: 'example/hermes-skills-kit', url: 'https://github.com/example/hermes-skills-kit', resource_type: ['skills', 'extension'], target_tools: ['hermes-agent'], summary: 'Hermes Agent 技能与扩展样例。', llm_summary: { zh: 'Hermes Agent 技能与扩展样例，演示长期会话下的工具编排。' }, stars: 640, total_score: 71, quantifiable_score: 42, quality_score: 29, first_seen: '2026-07-15', last_updated: '2026-07-16', curated: false },
+      { id: 'windsurf-workflows', name: 'example/windsurf-workflows', url: 'https://github.com/example/windsurf-workflows', resource_type: ['extension', 'tutorial'], target_tools: ['windsurf'], summary: 'Windsurf 工作流与扩展配置示例。', llm_summary: { zh: 'Windsurf 工作流与扩展配置示例。' }, stars: 520, total_score: 66, quantifiable_score: 39, quality_score: 27, first_seen: '2026-07-14', last_updated: '2026-07-15', curated: false },
+      { id: 'aider-polyglot', name: 'example/aider-polyglot-recipes', url: 'https://github.com/example/aider-polyglot-recipes', resource_type: ['skills', 'tutorial'], target_tools: ['aider'], summary: 'Aider 多语言改写配方。', llm_summary: { zh: 'Aider 多语言改写与提交粒度配方。' }, stars: 2700, total_score: 73, quantifiable_score: 43, quality_score: 30, first_seen: '2026-07-13', last_updated: '2026-07-15', curated: false }
+    ];
+    const REPORTS = {
+      'curated-top.md': { titleKey: 'navTop', html: `<p>自动 curated 推荐集（示意），当前站点 curated = 40。</p><h3>Top picks</h3><ul><li>OpenAI Codex CLI — 90</li><li>OpenHands/OpenHands — 88</li><li>headroomlabs-ai/headroom — 88</li><li>mattpocock/skills — 87</li></ul>` },
+      'weekly-report.md': { titleKey: 'navWeekly', html: `<p>生态周报（示意）。</p><ul><li>projects ≈ 5275 · official_tools = 31</li><li>curated 40 · rejected 10</li></ul>` },
+      'tool-comparison.md': { titleKey: 'navCompare', html: `<p>工具对比（示意）。</p><ul><li>Claude Code：2297</li><li>OpenAI Codex CLI：1296</li><li>Cline：1082</li></ul>` }
+    };
+
+    const state = {
+      lang: 'zh', q: '', tools: new Set(), types: new Set(), mode: 'or', sort: 'score', dir: 'desc',
+      curatedOnly: false, recentOnly: false, favoritesOnly: false, page: 1, pageSize: 20,
+      favs: new Set(JSON.parse(localStorage.getItem('ecoradar_preview_favs') || '[]')),
+      toolTagsExpanded: false, toolOverviewExpanded: false, toolTagQuery: ''
+    };
+
+    const $ = (id) => document.getElementById(id);
+    const t = (key) => (UI[state.lang] && UI[state.lang][key]) || UI.zh[key] || key;
+    const tm = (key) => (UI[state.lang].metrics && UI[state.lang].metrics[key]) || UI.zh.metrics[key] || key;
+    const tr = (type) => (UI[state.lang].resourceTypes && UI[state.lang].resourceTypes[type]) || type;
+    const toolName = (id) => (TOOLS.find(x => x.id === id) || {}).name || id;
+    const fmt = (n) => Number(n).toLocaleString('en-US');
+    const esc = (s) => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    const summaryOf = (p) => (state.lang === 'zh' && p.llm_summary && p.llm_summary.zh) ? p.llm_summary.zh : (p.summary || '');
+
+    function applyTheme(id) {
+      const meta = THEMES.find(x => x.id === id) || THEMES[0];
+      document.documentElement.setAttribute('data-theme', meta.id);
+      document.documentElement.setAttribute('data-mode', meta.mode);
+      document.querySelectorAll('.theme-tab').forEach(btn => {
+        const on = btn.dataset.theme === meta.id;
+        btn.classList.toggle('active', on);
+        btn.setAttribute('aria-selected', on);
+      });
+      $('themeBlurb').textContent = meta.label + ' — ' + meta.blurb;
+      try { localStorage.setItem('ecoradar_soft_theme', meta.id); } catch (e) {}
+      const bg = getComputedStyle(document.documentElement).getPropertyValue('--bg').trim();
+      const metaTheme = document.querySelector('meta[name="theme-color"]');
+      if (metaTheme && bg) metaTheme.setAttribute('content', bg);
+    }
+    function initThemes() {
+      $('themeTabs').innerHTML = THEMES.map(x => `<button type="button" class="theme-tab" role="tab" data-theme="${x.id}">${x.label}</button>`).join('');
+      $('themeTabs').addEventListener('click', (e) => {
+        const btn = e.target.closest('[data-theme]');
+        if (btn) applyTheme(btn.dataset.theme);
+      });
+      let initial = 'ledger-cream';
+      try { initial = localStorage.getItem('ecoradar_soft_theme') || initial; } catch (e) {}
+      const qs = new URLSearchParams(location.search).get('theme');
+      if (qs && THEMES.some(x => x.id === qs)) initial = qs;
+      if (!THEMES.some(x => x.id === initial)) initial = THEMES[0].id;
+      applyTheme(initial);
+    }
+
+    function applyLanguage() {
+      document.documentElement.lang = state.lang === 'zh' ? 'zh-CN' : 'en';
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        if (el.matches && el.matches('th[data-sort]')) return;
+        el.textContent = t(el.dataset.i18n);
+      });
+      document.querySelectorAll('[data-i18n-placeholder]').forEach(el => { el.placeholder = t(el.dataset.i18nPlaceholder); });
+      $('langZh').classList.toggle('active', state.lang === 'zh');
+      $('langZh').setAttribute('aria-pressed', state.lang === 'zh');
+      $('langEn').classList.toggle('active', state.lang === 'en');
+      $('langEn').setAttribute('aria-pressed', state.lang === 'en');
+      renderSortIndicators();
+      renderAll();
+    }
+
+    function renderMetrics() {
+      $('metrics').innerHTML = Object.keys(METRICS).map(k => `
+        <div class="metric"><div class="k">${esc(tm(k))}</div><div class="v">${fmt(METRICS[k])}</div></div>
+      `).join('');
+    }
+    function renderCharts() {
+      const max = Math.max(...TOOL_COVERAGE.map(x => x[2]));
+      $('toolChart').innerHTML = `<div class="hbar">${TOOL_COVERAGE.slice(0, 10).map(([, name, n]) => `
+        <div class="hbar-row" title="${esc(name)}">
+          <div class="name">${esc(name)}</div>
+          <div class="track"><i class="fill" style="width:${Math.max(4, n / max * 100)}%"></i></div>
+          <div class="n">${fmt(n)}</div>
+        </div>`).join('')}</div>`;
+      const buckets = [['0-10',8],['10-20',14],['20-30',22],['30-40',31],['40-50',40],['50-60',52],['60-70',46],['70-80',28],['80-90',16],['90-100',7]];
+      const bmax = Math.max(...buckets.map(x => x[1]));
+      $('scoreChart').innerHTML = `<div class="vbar">${buckets.map(([label, n]) => `
+        <div class="vbar-col">
+          <div class="n">${n}</div>
+          <div class="track" style="--h:${Math.max(8, n / bmax * 120)}px"><i class="fill"></i></div>
+          <div class="label">${label}</div>
+        </div>`).join('')}</div>`;
+    }
+    function renderDiscovery() {
+      const list = [...PROJECTS].sort((a,b) => (b.first_seen||'').localeCompare(a.first_seen||'') || (b.total_score||0)-(a.total_score||0)).slice(0,12);
+      $('discovery').innerHTML = list.map(p => `
+        <article class="disc-card" tabindex="0" data-action="detail" data-id="${esc(p.id)}">
+          <div class="meta-row">
+            <div class="pills">${(p.resource_type||[]).slice(0,2).map(x => `<span class="pill type">${esc(tr(x))}</span>`).join('')}</div>
+            <span class="pill score">${p.total_score}</span>
+          </div>
+          <h3>${esc(p.name)}</h3>
+          <p>${esc(summaryOf(p))}</p>
+          <div class="meta-row"><span>★ ${fmt(p.stars)}</span><span>${esc(p.first_seen||'')}</span></div>
+        </article>`).join('');
+    }
+    function coverageOf(id) {
+      const hit = TOOL_COVERAGE.find(x => x[0] === id);
+      return hit ? hit[2] : 80;
+    }
+    function renderToolOverview() {
+      const max = Math.max(...TOOL_COVERAGE.map(x => x[2]));
+      const items = TOOLS.map(tool => ({ ...tool, count: coverageOf(tool.id) })).sort((a,b) => b.count - a.count);
+      const shown = state.toolOverviewExpanded ? items : items.slice(0, 10);
+      const btn = $('toolOverviewToggle');
+      btn.hidden = items.length <= 10;
+      btn.textContent = state.toolOverviewExpanded ? t('collapseToolOverview') : `${t('expandToolOverview')} (${items.length})`;
+      $('toolOverview').innerHTML = shown.map(tool => {
+        const w = Math.max(0.15, tool.count / max);
+        return `<button type="button" class="tool-chip ${state.tools.has(tool.id) ? 'active' : ''}" data-action="tool-filter" data-id="${esc(tool.id)}" style="--w:${w.toFixed(3)}">
+          <span class="dot" aria-hidden="true"></span>
+          <span class="name">${esc(tool.name)}</span>
+          <span class="count">${fmt(tool.count)}</span>
+        </button>`;
+      }).join('');
+    }
+    function renderTagButtons() {
+      const q = state.toolTagQuery.trim().toLowerCase();
+      const tools = TOOLS.filter(tool => !q || tool.name.toLowerCase().includes(q) || tool.id.includes(q));
+      const visible = state.toolTagsExpanded ? tools : tools.slice(0, 10);
+      $('toolTags').innerHTML = visible.map(tool => `<button type="button" class="tag ${state.tools.has(tool.id) ? 'active' : ''}" data-action="tool-tag" data-id="${esc(tool.id)}">${esc(tool.name)}</button>`).join('');
+      const expand = $('toolTagsExpand');
+      expand.hidden = tools.length <= 10;
+      expand.textContent = state.toolTagsExpanded ? t('collapseTools') : `${t('expandTools')} (${tools.length})`;
+      $('typeTags').innerHTML = TYPES.map(type => `<button type="button" class="tag ${state.types.has(type) ? 'active' : ''}" data-action="type-tag" data-id="${esc(type)}">${esc(tr(type))}</button>`).join('');
+    }
+    function matchTags(arr, selected) {
+      if (!selected.size) return true;
+      const set = new Set(arr || []);
+      return state.mode === 'and' ? [...selected].every(x => set.has(x)) : [...selected].some(x => set.has(x));
+    }
+    function filteredProjects() {
+      let list = PROJECTS.filter(p => {
+        if (state.curatedOnly && !p.curated) return false;
+        if (state.recentOnly && !(p.recent || (p.first_seen || '') >= '2026-07-16')) return false;
+        if (state.favoritesOnly && !state.favs.has(p.id)) return false;
+        if (!matchTags(p.target_tools, state.tools)) return false;
+        if (!matchTags(p.resource_type, state.types)) return false;
+        if (state.q) {
+          const blob = [p.name, p.summary, ...(p.resource_type||[]), ...(p.target_tools||[])].join(' ').toLowerCase();
+          if (!blob.includes(state.q.toLowerCase())) return false;
+        }
+        return true;
+      });
+      const dir = state.dir === 'asc' ? 1 : -1;
+      list.sort((a, b) => {
+        let cmp = 0;
+        if (state.sort === 'name') cmp = a.name.localeCompare(b.name);
+        else if (state.sort === 'stars') cmp = (a.stars || 0) - (b.stars || 0);
+        else if (state.sort === 'updated') cmp = (a.last_updated || '').localeCompare(b.last_updated || '');
+        else if (state.sort === 'recent') cmp = (a.first_seen || '').localeCompare(b.first_seen || '');
+        else if (state.sort === 'match') {
+          const score = (p) => [...state.tools].filter(x => (p.target_tools||[]).includes(x)).length + [...state.types].filter(x => (p.resource_type||[]).includes(x)).length;
+          cmp = score(a) - score(b) || (a.total_score || 0) - (b.total_score || 0);
+        } else cmp = (a.total_score || 0) - (b.total_score || 0);
+        return cmp * dir;
+      });
+      return list;
+    }
+    function hasActiveFilters() {
+      return !!(state.q || state.tools.size || state.types.size || state.curatedOnly || state.recentOnly || state.favoritesOnly);
+    }
+    function renderActiveFilters() {
+      const chips = [];
+      if (state.q) chips.push({ key: 'q', label: `q: ${state.q}` });
+      [...state.tools].forEach(id => chips.push({ key: 'tool:' + id, label: toolName(id) }));
+      [...state.types].forEach(type => chips.push({ key: 'type:' + type, label: tr(type) }));
+      if (state.curatedOnly) chips.push({ key: 'curated', label: t('curatedOnly') });
+      if (state.recentOnly) chips.push({ key: 'recent', label: t('recentOnly') });
+      if (state.favoritesOnly) chips.push({ key: 'fav', label: t('favoritesOnly') });
+      $('activeFilters').innerHTML = chips.map(c => `<span class="af-chip">${esc(c.label)} <button type="button" data-action="remove-filter" data-key="${esc(c.key)}">×</button></span>`).join('');
+      $('clearFilters').hidden = !hasActiveFilters();
+    }
+    function renderSortIndicators() {
+      document.querySelectorAll('th.sortable').forEach(th => {
+        const field = th.dataset.sort;
+        const label = t(field === 'name' ? 'thName' : field === 'stars' ? 'thStars' : 'thScore');
+        th.textContent = label + (state.sort === field ? (state.dir === 'asc' ? ' ↑' : ' ↓') : '');
+      });
+    }
+    function renderSearchZone() {
+      const list = filteredProjects();
+      const pages = Math.max(1, Math.ceil(list.length / state.pageSize));
+      if (state.page > pages) state.page = pages;
+      const start = (state.page - 1) * state.pageSize;
+      const pageItems = list.slice(start, start + state.pageSize);
+      $('resultCount').textContent = `${t('showing')} ${list.length} / ${PROJECTS.length}`;
+      renderActiveFilters();
+      renderSortIndicators();
+      if (!pageItems.length) {
+        $('rows').innerHTML = `<tr><td colspan="6">${esc(t('noResults'))} · ${esc(t('adjustFilter'))}</td></tr>`;
+      } else {
+        $('rows').innerHTML = pageItems.map(p => `
+          <tr>
+            <td class="name-cell">
+              <button type="button" class="fav-star ${state.favs.has(p.id) ? 'on' : ''}" data-action="fav" data-id="${esc(p.id)}">${state.favs.has(p.id) ? '★' : '☆'}</button>
+              <button type="button" data-action="detail" data-id="${esc(p.id)}">${esc(p.name)}</button>
+            </td>
+            <td><div class="pills">${(p.resource_type||[]).map(x => `<span class="pill type">${esc(tr(x))}</span>`).join('')}</div></td>
+            <td><div class="pills">${(p.target_tools||[]).map(x => `<span class="pill tool">${esc(toolName(x))}</span>`).join('')}</div></td>
+            <td class="score-cell">${p.total_score}</td>
+            <td>${fmt(p.stars)}</td>
+            <td><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(t('open'))}</a></td>
+          </tr>`).join('');
+      }
+      $('pagination').innerHTML = Array.from({ length: pages }, (_, i) => {
+        const n = i + 1;
+        return `<button type="button" class="page-btn ${n === state.page ? 'active' : ''}" data-action="page" data-page="${n}">${n}</button>`;
+      }).join('') + `<span style="color:var(--muted);font-size:12px;align-self:center;margin-left:6px">${esc(t('pageOf').replace('{cur}', state.page).replace('{total}', pages))}</span>`;
+    }
+    function openDetail(id) {
+      const p = PROJECTS.find(x => x.id === id); if (!p) return;
+      $('detailTitle').textContent = p.name;
+      $('detailMeta').textContent = `★ ${fmt(p.stars)} · score ${p.total_score} · ${p.first_seen || ''}`;
+      const q = p.quantifiable_score || 0, quality = p.quality_score || 0;
+      const sd = p.score_detail || {}, qd = p.quality_detail || {};
+      $('detailBody').innerHTML = `
+        <div class="pills" style="margin-bottom:12px">
+          ${(p.resource_type||[]).map(x => `<span class="pill type">${esc(tr(x))}</span>`).join('')}
+          ${(p.target_tools||[]).map(x => `<span class="pill tool">${esc(toolName(x))}</span>`).join('')}
+        </div>
+        <div class="detail-block"><h3>${esc(t('details'))}</h3><p style="color:var(--ink-2)">${esc(summaryOf(p))}</p></div>
+        <div class="detail-block"><h3>${esc(t('scoreDetail'))}</h3>
+          <div class="score-bars">
+            <div class="row"><span>${esc(t('quantifiable'))}</span><div class="track"><i class="fill" style="width:${q/60*100}%"></i></div><span>${q}/60</span></div>
+            <div class="row"><span>${esc(t('quality'))}</span><div class="track"><i class="fill" style="width:${quality/40*100}%"></i></div><span>${quality ? quality + '/40' : '—'}</span></div>
+          </div>
+          ${quality ? '' : `<p style="margin-top:8px;color:var(--muted);font-size:12px">${esc(t('qualityPending'))}</p>`}
+        </div>
+        ${Object.keys(sd).length ? `<div class="detail-block"><h3>${esc(t('scoreBreakdown'))}</h3><div class="score-bars">${Object.entries(sd).map(([k,v]) => `<div class="row"><span>${esc(k)}</span><div class="track"><i class="fill" style="width:${Math.min(100,v/15*100)}%"></i></div><span>${v}</span></div>`).join('')}</div></div>` : ''}
+        ${Object.keys(qd).length ? `<div class="detail-block"><h3>${esc(t('qualityBreakdown'))}</h3><div class="score-bars">${Object.entries(qd).map(([k,v]) => `<div class="row"><span>${esc(k)}</span><div class="track"><i class="fill" style="width:${Math.min(100,v/10*100)}%"></i></div><span>${v}</span></div>`).join('')}</div></div>` : ''}
+        <div class="detail-block"><a class="fav-btn" href="${esc(p.url)}" target="_blank" rel="noopener" style="display:inline-flex">${esc(t('open'))}</a></div>`;
+      const ov = $('detailOverlay'); ov.classList.add('open'); ov.setAttribute('aria-hidden', 'false');
+    }
+    function closeDetail() { const ov = $('detailOverlay'); ov.classList.remove('open'); ov.setAttribute('aria-hidden', 'true'); }
+    function openReport(file) {
+      const report = REPORTS[file] || REPORTS['curated-top.md'];
+      $('reportModalTitle').textContent = t(report.titleKey);
+      $('reportModalBody').innerHTML = report.html;
+      document.querySelectorAll('.modal-tabs [data-report], .report-bar [data-report]').forEach(el => el.classList.toggle('active', el.getAttribute('data-report') === file));
+      $('reportBackdrop').hidden = false; $('reportModal').hidden = false;
+    }
+    function closeReport() {
+      $('reportBackdrop').hidden = true; $('reportModal').hidden = true;
+      document.querySelectorAll('.report-bar [data-report], .modal-tabs [data-report]').forEach(el => el.classList.remove('active'));
+    }
+    function clearAll() {
+      state.q = ''; state.tools.clear(); state.types.clear();
+      state.curatedOnly = state.recentOnly = state.favoritesOnly = false; state.page = 1;
+      $('q').value = ''; $('curatedOnly').checked = false; $('recentOnly').checked = false; $('favoritesOnly').checked = false;
+      renderAll();
+    }
+    function saveFavs() { localStorage.setItem('ecoradar_preview_favs', JSON.stringify([...state.favs])); }
+    function renderAll() {
+      renderMetrics(); renderCharts(); renderDiscovery(); renderToolOverview(); renderTagButtons(); renderSearchZone();
+    }
+
+    $('langZh').onclick = () => { state.lang = 'zh'; applyLanguage(); };
+    $('langEn').onclick = () => { state.lang = 'en'; applyLanguage(); };
+    $('q').addEventListener('input', (e) => { state.q = e.target.value; state.page = 1; renderSearchZone(); });
+    $('toolTagSearch').addEventListener('input', (e) => { state.toolTagQuery = e.target.value; renderTagButtons(); });
+    $('sort').addEventListener('change', (e) => { state.sort = e.target.value; state.page = 1; renderSearchZone(); });
+    $('curatedOnly').addEventListener('change', (e) => { state.curatedOnly = e.target.checked; state.page = 1; renderSearchZone(); });
+    $('recentOnly').addEventListener('change', (e) => { state.recentOnly = e.target.checked; state.page = 1; renderSearchZone(); });
+    $('favoritesOnly').addEventListener('change', (e) => { state.favoritesOnly = e.target.checked; state.page = 1; renderSearchZone(); });
+    $('clearFilters').onclick = clearAll;
+    $('modeToggle').addEventListener('click', (e) => {
+      const btn = e.target.closest('button[data-mode]'); if (!btn) return;
+      state.mode = btn.dataset.mode;
+      [...$('modeToggle').querySelectorAll('button')].forEach(b => { const on = b === btn; b.classList.toggle('active', on); b.setAttribute('aria-checked', on); });
+      state.page = 1; renderSearchZone();
+    });
+    document.querySelectorAll('th.sortable').forEach(th => {
+      th.addEventListener('click', () => {
+        const field = th.dataset.sort;
+        if (state.sort === field) state.dir = state.dir === 'asc' ? 'desc' : 'asc';
+        else { state.sort = field; state.dir = 'desc'; }
+        if (['name','score','stars'].includes(field)) $('sort').value = field;
+        state.page = 1; renderSearchZone();
+      });
+    });
+    document.addEventListener('click', (e) => {
+      const el = e.target.closest('[data-action], [data-report]'); if (!el) return;
+      if (el.matches('[data-report]')) { e.preventDefault(); openReport(el.getAttribute('data-report')); return; }
+      const action = el.dataset.action, id = el.dataset.id;
+      if (action === 'detail') openDetail(id);
+      if (action === 'close-detail') closeDetail();
+      if (action === 'close-report') closeReport();
+      if (action === 'fav') { if (state.favs.has(id)) state.favs.delete(id); else state.favs.add(id); saveFavs(); renderSearchZone(); }
+      if (action === 'tool-tag') { if (state.tools.has(id)) state.tools.delete(id); else state.tools.add(id); state.page = 1; renderToolOverview(); renderTagButtons(); renderSearchZone(); }
+      if (action === 'type-tag') { if (state.types.has(id)) state.types.delete(id); else state.types.add(id); state.page = 1; renderTagButtons(); renderSearchZone(); }
+      if (action === 'tool-filter') { state.tools.clear(); state.tools.add(id); state.page = 1; renderToolOverview(); renderTagButtons(); renderSearchZone(); $('searchZone').scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+      if (action === 'toggle-tool-tags') { state.toolTagsExpanded = !state.toolTagsExpanded; renderTagButtons(); }
+      if (action === 'toggle-tool-overview') { state.toolOverviewExpanded = !state.toolOverviewExpanded; renderToolOverview(); }
+      if (action === 'page') { state.page = Number(el.dataset.page || 1); renderSearchZone(); }
+      if (action === 'remove-filter') {
+        const key = el.dataset.key || '';
+        if (key === 'q') { state.q = ''; $('q').value = ''; }
+        else if (key.startsWith('tool:')) state.tools.delete(key.slice(5));
+        else if (key.startsWith('type:')) state.types.delete(key.slice(5));
+        else if (key === 'curated') { state.curatedOnly = false; $('curatedOnly').checked = false; }
+        else if (key === 'recent') { state.recentOnly = false; $('recentOnly').checked = false; }
+        else if (key === 'fav') { state.favoritesOnly = false; $('favoritesOnly').checked = false; }
+        state.page = 1; renderToolOverview(); renderTagButtons(); renderSearchZone();
+      }
+    });
+    $('reportBackdrop').addEventListener('click', closeReport);
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') { closeDetail(); closeReport(); } });
+    $('exportFav').addEventListener('click', () => {
+      const url = location.href.split('#')[0] + '#favorites=' + encodeURIComponent([...state.favs].join(','));
+      const input = $('favExportUrl');
+      input.hidden = false; input.type = 'text'; input.value = url;
+      input.style.cssText = 'display:inline-block;width:min(420px,100%);margin-left:8px;background:var(--bg-2);border:1px solid var(--line);border-radius:10px;padding:8px 10px;color:var(--ink-2)';
+      input.select();
+    });
+
+    initThemes();
+    applyLanguage();
+  </script>
+</body>
+</html>

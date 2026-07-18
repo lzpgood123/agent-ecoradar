@@ -5,7 +5,9 @@
     "url": "https://github.com/jqueryscript/codex-commands-cheat-sheet",
     "source_type": "github",
     "resource_type": [
-      "tutorial"
+      "mcp-server",
+      "skills",
+      "cli-tool"
     ],
     "target_tools": [
       "codex-cli"
@@ -29,7 +31,7 @@
     "tracking_priority": "index",
     "last_updated": "2026-06-18T06:21:43Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [],
     "review_state": "auto-indexed",
@@ -74,7 +76,8 @@
     "url": "https://github.com/shanraisshan/codex-cli-hooks",
     "source_type": "github",
     "resource_type": [
-      "extension"
+      "cli-tool",
+      "agent-framework"
     ],
     "target_tools": [
       "codex-cli"
@@ -98,7 +101,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-09T23:42:07Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "Python"
@@ -156,7 +159,7 @@
     "url": "https://github.com/bentoner/codex-516-hook",
     "source_type": "github",
     "resource_type": [
-      "extension"
+      "cli-tool"
     ],
     "target_tools": [
       "codex-cli"
@@ -180,7 +183,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-12T02:21:47Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "Python"
@@ -217,8 +220,7 @@
     "url": "https://github.com/yangyifan18/codex-hooks",
     "source_type": "github",
     "resource_type": [
-      "cli-tool",
-      "skills"
+      "cli-tool"
     ],
     "target_tools": [
       "codex-cli"
@@ -242,7 +244,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-04-24T10:27:20Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "TypeScript"
@@ -279,7 +281,7 @@
     "url": "https://github.com/fox328230966-alt/codex-toolkit",
     "source_type": "github",
     "resource_type": [
-      "rules",
+      "agent-framework",
       "cli-tool"
     ],
     "target_tools": [
@@ -304,7 +306,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-08T06:15:53Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "JavaScript"
@@ -350,7 +352,8 @@
     "url": "https://github.com/Yarrow-Cai/hookcats",
     "source_type": "github",
     "resource_type": [
-      "extension"
+      "extension",
+      "cli-tool"
     ],
     "target_tools": [
       "claude-code",
@@ -375,7 +378,7 @@
     "tracking_priority": "index",
     "last_updated": "2026-06-17T13:26:36Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "Python"
@@ -412,7 +415,7 @@
     "url": "https://github.com/tharanee-bit/Codex-Fusion",
     "source_type": "github",
     "resource_type": [
-      "extension"
+      "tutorial"
     ],
     "target_tools": [
       "claude-code",
@@ -437,7 +440,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-03T00:06:11Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "Shell"
@@ -480,8 +483,7 @@
     "url": "https://github.com/joslynSmall/codex-rtk-hooks",
     "source_type": "github",
     "resource_type": [
-      "cli-tool",
-      "rules"
+      "cli-tool"
     ],
     "target_tools": [
       "codex-cli"
@@ -505,7 +507,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-04-27T08:18:50Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "Python"
@@ -542,7 +544,8 @@
     "url": "https://github.com/Kvadratni/speech-mcp",
     "source_type": "github",
     "resource_type": [
-      "mcp-server"
+      "mcp-server",
+      "extension"
     ],
     "target_tools": [
       "goose"
@@ -566,7 +569,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-15T12:35:04Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "Python"
@@ -627,7 +630,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-02-27T06:48:53Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "gpl-3.0",
     "languages": [
       "Python"
@@ -664,8 +667,8 @@
     "url": "https://github.com/jg8481/Robot-Framework-AI-Agent-Datadriver",
     "source_type": "github",
     "resource_type": [
-      "agent-framework",
-      "tutorial"
+      "mcp-server",
+      "agent-framework"
     ],
     "target_tools": [
       "goose"
@@ -689,7 +692,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-03-05T22:46:46Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "HTML"
@@ -733,7 +736,7 @@
     "source_type": "github",
     "resource_type": [
       "mcp-server",
-      "skills"
+      "agent-framework"
     ],
     "target_tools": [
       "goose"
@@ -757,7 +760,7 @@
     "tracking_priority": "index",
     "last_updated": "2026-03-19T17:41:59Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "other",
     "languages": [
       "Python"
@@ -822,7 +825,7 @@
     "tracking_priority": "index",
     "last_updated": "2026-07-01T19:02:37Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "JavaScript"
@@ -859,12 +862,12 @@
     "url": "https://github.com/sandraschi/goose-mcp",
     "source_type": "github",
     "resource_type": [
-      "mcp-server"
+      "mcp-server",
+      "extension",
+      "cli-tool"
     ],
     "target_tools": [
-      "claude-code",
-      "goose",
-      "cursor"
+      "goose"
     ],
     "summary": "MCP server wrapping the goose CLI for sessions, recipes, providers, and extensions",
     "i18n": {
@@ -885,7 +888,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-16T13:10:29Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "TypeScript"
@@ -928,7 +931,8 @@
     "url": "https://github.com/zzstoatzz/geese",
     "source_type": "github",
     "resource_type": [
-      "tutorial"
+      "mcp-server",
+      "extension"
     ],
     "target_tools": [
       "goose"
@@ -952,7 +956,7 @@
     "tracking_priority": "track",
     "last_updated": "2025-01-31T21:05:07Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "Python"
@@ -989,7 +993,8 @@
     "url": "https://github.com/pleasedodisturb/focuspipe",
     "source_type": "github",
     "resource_type": [
-      "mcp-server"
+      "mcp-server",
+      "extension"
     ],
     "target_tools": [
       "goose"
@@ -1013,7 +1018,7 @@
     "tracking_priority": "index",
     "last_updated": "2026-04-12T18:45:09Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "agpl-3.0",
     "languages": [],
     "review_state": "auto-indexed",
@@ -1048,8 +1053,7 @@
     "url": "https://github.com/cbruyndoncx/goose-cookbook",
     "source_type": "github",
     "resource_type": [
-      "skills",
-      "tutorial"
+      "agent-framework"
     ],
     "target_tools": [
       "goose"
@@ -1073,7 +1077,7 @@
     "tracking_priority": "index",
     "last_updated": "2026-01-29T13:50:21Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "unlicense",
     "languages": [],
     "review_state": "auto-indexed",
@@ -1132,7 +1136,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-01-29T13:49:12Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "HTML"
@@ -1193,7 +1197,7 @@
     "tracking_priority": "index",
     "last_updated": "2026-05-20T11:07:52Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "PowerShell"
@@ -1234,7 +1238,6 @@
     ],
     "target_tools": [
       "claude-code",
-      "antigravity-cli",
       "opencode",
       "goose"
     ],
@@ -1257,7 +1260,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-03-12T02:22:37Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [],
     "review_state": "auto-indexed",
@@ -1292,8 +1295,7 @@
     "url": "https://github.com/n0thinbutskyn3t/copy-system-template",
     "source_type": "github",
     "resource_type": [
-      "agent-framework",
-      "skills"
+      "tutorial"
     ],
     "target_tools": [
       "claude-code",
@@ -1318,7 +1320,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-03-18T17:20:06Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [],
     "review_state": "auto-indexed",
@@ -1353,7 +1355,7 @@
     "url": "https://github.com/vtemian/octto",
     "source_type": "github",
     "resource_type": [
-      "extension"
+      "agent-framework"
     ],
     "target_tools": [
       "opencode"
@@ -1377,7 +1379,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-16T13:30:09Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "TypeScript"
@@ -1414,7 +1416,7 @@
     "url": "https://github.com/achimala/farfield",
     "source_type": "github",
     "resource_type": [
-      "cli-tool"
+      "agent-framework"
     ],
     "target_tools": [
       "codex-cli",
@@ -1439,7 +1441,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-13T14:35:47Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "TypeScript"
@@ -1476,7 +1478,7 @@
     "url": "https://github.com/joshuadavidthomas/opencode-agent-memory",
     "source_type": "github",
     "resource_type": [
-      "agent-framework"
+      "tutorial"
     ],
     "target_tools": [
       "opencode"
@@ -1500,7 +1502,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-16T08:58:16Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "TypeScript"
@@ -1537,7 +1539,7 @@
     "url": "https://github.com/WilliamJudge94/oh-my-opencode-dashboard",
     "source_type": "github",
     "resource_type": [
-      "tutorial"
+      "agent-framework"
     ],
     "target_tools": [
       "opencode"
@@ -1561,7 +1563,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-11T11:09:30Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "TypeScript"
@@ -1598,6 +1600,7 @@
     "url": "https://github.com/joshuadavidthomas/opencode-agent-skills",
     "source_type": "github",
     "resource_type": [
+      "skills",
       "extension"
     ],
     "target_tools": [
@@ -1622,7 +1625,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-16T15:35:15Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "TypeScript"
@@ -1659,12 +1662,10 @@
     "url": "https://github.com/qqzhangyanhua/learn-opencode-agent",
     "source_type": "github",
     "resource_type": [
-      "tutorial"
+      "agent-framework"
     ],
     "target_tools": [
-      "opencode",
-      "claude-code",
-      "hermes-agent"
+      "opencode"
     ],
     "summary": "从零理解如何构建 AI Agent",
     "i18n": {
@@ -1685,7 +1686,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-16T11:49:12Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "Vue"
@@ -1722,8 +1723,7 @@
     "url": "https://github.com/vbgate/opencodedocs",
     "source_type": "github",
     "resource_type": [
-      "cli-tool",
-      "tutorial"
+      "agent-framework"
     ],
     "target_tools": [
       "opencode"
@@ -1747,7 +1747,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-09T13:27:35Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "TypeScript"
@@ -1784,7 +1784,7 @@
     "url": "https://github.com/veschin/opencode-agents",
     "source_type": "github",
     "resource_type": [
-      "skills"
+      "tutorial"
     ],
     "target_tools": [
       "opencode"
@@ -1808,7 +1808,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-14T00:30:09Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "Makefile"
@@ -1845,7 +1845,7 @@
     "url": "https://github.com/danilofalcao/opencode-observability",
     "source_type": "github",
     "resource_type": [
-      "extension"
+      "agent-framework"
     ],
     "target_tools": [
       "opencode"
@@ -1869,7 +1869,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-14T21:10:29Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "Vue"
@@ -1909,7 +1909,7 @@
     "url": "https://github.com/jcarlosrodicio/opencode-agent-orchestration-kit",
     "source_type": "github",
     "resource_type": [
-      "tutorial"
+      "agent-framework"
     ],
     "target_tools": [
       "opencode"
@@ -1933,7 +1933,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-16T15:18:22Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "apache-2.0",
     "languages": [
       "JavaScript"
@@ -2007,7 +2007,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-07T12:08:33Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "TypeScript"
@@ -2044,12 +2044,10 @@
     "url": "https://github.com/diskd-ai/ccbox",
     "source_type": "github",
     "resource_type": [
-      "cli-tool"
+      "agent-framework"
     ],
     "target_tools": [
       "codex-cli",
-      "claude-code",
-      "antigravity-cli",
       "opencode"
     ],
     "summary": "ccbox: Remote control to manage Codex/Claude/Gemini/Opencode agent sessions",
@@ -2071,7 +2069,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-23T21:06:12Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "Rust"
@@ -2108,8 +2106,7 @@
     "url": "https://github.com/happycastle114/opencode-openmemory",
     "source_type": "github",
     "resource_type": [
-      "extension",
-      "skills"
+      "agent-framework"
     ],
     "target_tools": [
       "opencode"
@@ -2133,7 +2130,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-07T05:41:34Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "TypeScript"
@@ -2195,7 +2192,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-12T15:15:34Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [],
     "review_state": "auto-indexed",
@@ -2243,7 +2240,8 @@
     "url": "https://github.com/cboone/agent-harness-plugins",
     "source_type": "github",
     "resource_type": [
-      "skills"
+      "skills",
+      "extension"
     ],
     "target_tools": [
       "claude-code",
@@ -2269,7 +2267,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-05-11T21:41:28Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "Shell"
@@ -2318,7 +2316,7 @@
     "url": "https://github.com/lst97/opencode-commands",
     "source_type": "github",
     "resource_type": [
-      "tutorial"
+      "skills"
     ],
     "target_tools": [
       "opencode"
@@ -2342,7 +2340,7 @@
     "tracking_priority": "index",
     "last_updated": "2026-06-12T09:08:43Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [],
     "review_state": "auto-indexed",
@@ -2403,7 +2401,7 @@
     "tracking_priority": "index",
     "last_updated": "2025-10-14T23:59:01Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "Shell"
@@ -2440,13 +2438,10 @@
     "url": "https://github.com/julianperezpesce/ai-first",
     "source_type": "github",
     "resource_type": [
-      "cli-tool"
+      "tutorial"
     ],
     "target_tools": [
-      "opencode",
-      "codex-cli",
-      "claude-code",
-      "cursor"
+      "opencode"
     ],
     "summary": "OpenCode command to generate AI context for repositories",
     "i18n": {
@@ -2467,7 +2462,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-05-23T20:08:30Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "TypeScript"
@@ -2504,7 +2499,6 @@
     "url": "https://github.com/shihyuho/opencode-command-inject",
     "source_type": "github",
     "resource_type": [
-      "cli-tool",
       "skills"
     ],
     "target_tools": [
@@ -2529,7 +2523,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-13T09:15:41Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "TypeScript"
@@ -2566,7 +2560,7 @@
     "url": "https://github.com/jeremykamber/opencode_config",
     "source_type": "github",
     "resource_type": [
-      "skills"
+      "tutorial"
     ],
     "target_tools": [
       "opencode"
@@ -2590,7 +2584,7 @@
     "tracking_priority": "index",
     "last_updated": "2026-04-19T01:09:06Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [],
     "review_state": "auto-indexed",
@@ -2625,7 +2619,8 @@
     "url": "https://github.com/nguyenngothuong/opencode-commands",
     "source_type": "github",
     "resource_type": [
-      "skills"
+      "skills",
+      "agent-framework"
     ],
     "target_tools": [
       "opencode"
@@ -2649,7 +2644,7 @@
     "tracking_priority": "index",
     "last_updated": "2026-01-30T15:19:03Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [],
     "review_state": "auto-indexed",
@@ -2684,7 +2679,7 @@
     "url": "https://github.com/skyiky/quip",
     "source_type": "github",
     "resource_type": [
-      "skills"
+      "tutorial"
     ],
     "target_tools": [
       "opencode"
@@ -2708,7 +2703,7 @@
     "tracking_priority": "index",
     "last_updated": "2026-02-23T20:34:04Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [],
     "review_state": "auto-indexed",
@@ -2743,7 +2738,7 @@
     "url": "https://github.com/toxdes/promptr",
     "source_type": "github",
     "resource_type": [
-      "extension"
+      "tutorial"
     ],
     "target_tools": [
       "opencode"
@@ -2767,7 +2762,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-08T08:37:37Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "C"
@@ -2808,7 +2803,7 @@
     "url": "https://github.com/jyphonest/-Qoder-MCP-",
     "source_type": "github",
     "resource_type": [
-      "tutorial"
+      "mcp-server"
     ],
     "target_tools": [
       "qoder"
@@ -2832,7 +2827,7 @@
     "tracking_priority": "index",
     "last_updated": "2026-02-25T05:04:38Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [],
     "review_state": "auto-indexed",
@@ -2891,7 +2886,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-16T13:31:54Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "Java"
@@ -2952,7 +2947,7 @@
     "tracking_priority": "index",
     "last_updated": "2026-04-20T03:01:46Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "Python"
@@ -3013,7 +3008,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-13T11:25:47Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "Python"
@@ -3053,8 +3048,7 @@
       "skills"
     ],
     "target_tools": [
-      "qoder",
-      "workbuddy-codebuddy"
+      "qoder"
     ],
     "summary": "Qoder Skill - Qoder 全自动 Bug 诊断与修复 Skill —— 多 Agent 协作编排，从 Bug 采集到修复审查一站式完成。",
     "i18n": {
@@ -3075,7 +3069,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-15T06:54:25Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "JavaScript"
@@ -3136,7 +3130,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-28T14:53:15Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "Python"
@@ -3173,11 +3167,10 @@
     "url": "https://github.com/trae-community/trae-mcp",
     "source_type": "github",
     "resource_type": [
-      "mcp-server",
-      "tutorial"
+      "mcp-server"
     ],
     "target_tools": [
-      "trae"
+      "general-ai-coding"
     ],
     "summary": "MCP practices in AI coding | MCP 在 AI 编程中的实践",
     "i18n": {
@@ -3198,7 +3191,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-13T19:05:18Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [],
     "review_state": "auto-indexed",
@@ -3233,18 +3226,13 @@
     "url": "https://github.com/Claws-ZH/create-opc-wiki",
     "source_type": "github",
     "resource_type": [
-      "cli-tool",
-      "mcp-server"
+      "mcp-server",
+      "extension",
+      "agent-framework"
     ],
     "target_tools": [
-      "claude-code",
       "codex-cli",
-      "opencode",
-      "trae",
-      "cursor",
-      "hermes-agent",
-      "github-copilot",
-      "openclaw"
+      "cursor"
     ],
     "summary": "Build your own local LLM Wiki in 30 seconds. Multi-agent native (Claude/Codex/Cursor/VSCode/Trae), MCP server built-in, Astro static site publishing.",
     "i18n": {
@@ -3265,7 +3253,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-06T21:20:19Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "TypeScript"
@@ -3308,11 +3296,10 @@
     "url": "https://github.com/noah-zll/unity-skills-trae-mcp",
     "source_type": "github",
     "resource_type": [
+      "skills",
       "mcp-server"
     ],
-    "target_tools": [
-      "trae"
-    ],
+    "target_tools": [],
     "summary": "可以直接在Trae编辑器中使用UnitySkills的MCP",
     "i18n": {
       "zh": {
@@ -3332,7 +3319,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-07T08:17:13Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "JavaScript"
@@ -3369,11 +3356,9 @@
     "url": "https://github.com/viking-v/Trae_MCP",
     "source_type": "github",
     "resource_type": [
-      "tutorial"
+      "mcp-server"
     ],
-    "target_tools": [
-      "trae"
-    ],
+    "target_tools": [],
     "summary": "viking-v/Trae_MCP",
     "i18n": {
       "zh": {
@@ -3393,7 +3378,7 @@
     "tracking_priority": "index",
     "last_updated": "2026-04-13T16:26:06Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "HTML"
@@ -3421,7 +3406,7 @@
     "tags": [],
     "maturity": "unknown",
     "status": "unknown",
-    "readme_preview": "\nCloses #3\n# 梦之缘平台（方案B：后端可信化）\n\n## 结构\n- 前端静态页：根目录 `*.html` 与 `js/*`\n- 后端（Laravel）：[backend/](file:///E:/make/CZOWPcVFHILt2YYVJOp0-master-6d735223c1f1d4da5289c50b873d3d8cb50f54d3/backend)\n- 可视化质量报告：`reports/plato/`\n- 方案执行手册：`docs/方案B-执行手册.md`\n- 上线准备计划：`docs/上线准备计划.md`\n- 架构与依赖可视化：`docs/架构与依赖可视化.md`\n- MCP工具选型与实施方案：`docs/MCP工具选型与实施方案.md`\n- MCP使用公约：`docs/MCP使用公约.md`\n- MCP字段字典与状态机（MVP）：`docs/MCP-字段字典与状态机-MVP.md`\n- MCP 1页速查卡：`docs/MCP-1页速查卡.md`\n- 项目进度与关键路径执行计划：`docs/项目进度与关键路径执行计划.md`\n- 周报模板：`docs/周报模板.m",
+    "readme_preview": "\nCloses #3\n# 梦之缘平台（方案B：后端可信化）\n\n## 结构\n- 前端静态页：根目录 `*.html` 与 `js/*`\n- 后端（Laravel）：[backend/](file:///E:/make/CZOWPcVFHILt2YYVJOp0-master-6d735223c1f1d4da5289c50b873d3d8cb50f54d3/backend)\n- 可视化质量报告：`reports/plato/`\n- 方案执行手册：`docs/方案B-执行手册.md`\n- 上线准备计划：`docs/上线准备计划.md`\n- 架构与依赖可视化：`docs/架构与依赖可视化.md`\n- MCP工具选型与实施方案：`docs/MCP工具选型与实施方案.md`\n- MCP使用公约：`docs/MCP使用公约.md`\n- MCP字段字典与状态机（MVP）：`docs/MCP-字段字典与状态机-MVP.md`\n- MCP 1页速查卡：`docs/MCP-1页速查卡.md`\n- 项目进度与关键路径执行计划：`docs/项目进度与关键路径执行计划.md`\n- 周报模板：`docs/周报模板.md`\n\n## 本地运行（开发）\n### 1) 启动后端 API（8000）\n在 `backend/` 目录：\n- `php artisan migrate:fresh --seed`\n- `php artisan serve --host=127.0.0.1 --port=8000`\n\n默认管理员：\n- 邮箱：`admin@example.com`\n- 密码：`admin123456`\n\n### 2) 启动前端静态服务（3000）\n在仓库根目录：\n- `python -m http.server 3000`\n\n访问：\n- `http://localhost:3000/index.html`\n\n## API 概览\n- 认证：`POST /api/auth/register`、`POST /api/auth/login`、`POST /api/auth/logout`、`GET /api/auth/user`\n- 用户侧：`POST /api/activations`、`GET /api/activations/me`、`GET /api/commissions/me`、`GET /api/team/me`、`GET /api/team/me/tree`、`GET /api/invite-codes/me`\n- 管理侧：`GET /api/admin/dashboard`、`GET /api/admin/users`、`PATCH /api/admin/users/{id}`、`GET /api/admin/activations`、`POST /api/admin/activations/{id}/approve|reject`、`GET /api/admin/commissions`\n",
     "topics": []
   },
   {
@@ -3430,6 +3415,7 @@
     "url": "https://github.com/Sipioteo/traefik-mcpbouncer",
     "source_type": "github",
     "resource_type": [
+      "mcp-server",
       "extension"
     ],
     "target_tools": [
@@ -3454,7 +3440,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-05-20T02:12:15Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "Go"
@@ -3499,12 +3485,9 @@
     "url": "https://github.com/luoyuchuan10/mineclaw-trae-mcp",
     "source_type": "github",
     "resource_type": [
-      "mcp-server",
-      "skills"
+      "mcp-server"
     ],
-    "target_tools": [
-      "trae"
-    ],
+    "target_tools": [],
     "summary": "let trae in minecraft mcp",
     "i18n": {
       "zh": {
@@ -3524,7 +3507,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-05-10T04:12:02Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "JavaScript"
@@ -3564,7 +3547,7 @@
       "skills"
     ],
     "target_tools": [
-      "trae"
+      "general-ai-coding"
     ],
     "summary": "AI coding execution control skills | AI 编程执行约束技能",
     "i18n": {
@@ -3585,7 +3568,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-13T03:49:31Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "Python"
@@ -3646,7 +3629,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-22T15:44:08Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "Python"
@@ -3683,11 +3666,12 @@
     "url": "https://github.com/yihui504/TRAE-skills-from-CC-plugins",
     "source_type": "github",
     "resource_type": [
-      "skills"
+      "skills",
+      "extension"
     ],
     "target_tools": [
-      "trae",
-      "claude-code"
+      "claude-code",
+      "trae"
     ],
     "summary": "\"A series of skills adapted for TRAE_CN SOLO, sourced from well-known Claude Code plugins.\"",
     "i18n": {
@@ -3708,7 +3692,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-07T11:07:27Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [],
     "review_state": "auto-indexed",
@@ -3752,9 +3736,7 @@
     "resource_type": [
       "skills"
     ],
-    "target_tools": [
-      "trae"
-    ],
+    "target_tools": [],
     "summary": "A Trae Skill for fetching research reports from various sources",
     "i18n": {
       "zh": {
@@ -3774,7 +3756,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-03-09T14:55:24Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "JavaScript"
@@ -3811,7 +3793,8 @@
     "url": "https://github.com/2426366814/trae-skills-hub",
     "source_type": "github",
     "resource_type": [
-      "skills"
+      "skills",
+      "mcp-server"
     ],
     "target_tools": [
       "trae"
@@ -3835,7 +3818,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-07T07:25:19Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "Python"
@@ -3878,12 +3861,9 @@
     "url": "https://github.com/silence1900/tianyancha-scraper",
     "source_type": "github",
     "resource_type": [
-      "skills",
-      "tutorial"
+      "skills"
     ],
-    "target_tools": [
-      "trae"
-    ],
+    "target_tools": [],
     "summary": "Trae Skill for scraping Tianyancha company information",
     "i18n": {
       "zh": {
@@ -3903,7 +3883,7 @@
     "tracking_priority": "index",
     "last_updated": "2026-03-23T08:17:36Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "Python"
@@ -3931,7 +3911,7 @@
     "tags": [],
     "maturity": "unknown",
     "status": "unknown",
-    "readme_preview": "# 天眼查企业信息批量采集工具\n\n## 1. 简介\n本工具用于批量采集天眼查上的企业信息，包括：\n- 统一社会信用代码\n- 注册资本\n- 注册时间\n- 经营状态（如：存续、注销、吊销等）\n\n**核心优势**：\n- **精准搜索**：使用天眼查站内搜索，避免搜索引擎带来的同名误判。\n- **自动连接**：通过连接手动开启的 Chrome 浏览器进行采集，规避部分反爬检测。\n- **智能暂停**：内置防封控机制，每查询 40 条或连续失败时会自动暂停，等待人工介入。\n\n## 2. 环境准备\n\n### 2.1 安装依赖\n确保已安装 Python 3.7+，然后运行：\n```bash\npip install playwright openpyxl\nplaywright install chromium\n```\n\n### 2.2 启动 Chrome 调试模式（必须步骤）\n采集前，必须先关闭所有 Chrome 窗口，然后用命令行启动一个开启了远程调试端口的 Chrome。\n\n**macOS:**\n```bash\n/Applications/Google\\ Chrome.app/Contents/M",
+    "readme_preview": "# 天眼查企业信息批量采集工具\n\n## 1. 简介\n本工具用于批量采集天眼查上的企业信息，包括：\n- 统一社会信用代码\n- 注册资本\n- 注册时间\n- 经营状态（如：存续、注销、吊销等）\n\n**核心优势**：\n- **精准搜索**：使用天眼查站内搜索，避免搜索引擎带来的同名误判。\n- **自动连接**：通过连接手动开启的 Chrome 浏览器进行采集，规避部分反爬检测。\n- **智能暂停**：内置防封控机制，每查询 40 条或连续失败时会自动暂停，等待人工介入。\n\n## 2. 环境准备\n\n### 2.1 安装依赖\n确保已安装 Python 3.7+，然后运行：\n```bash\npip install playwright openpyxl\nplaywright install chromium\n```\n\n### 2.2 启动 Chrome 调试模式（必须步骤）\n采集前，必须先关闭所有 Chrome 窗口，然后用命令行启动一个开启了远程调试端口的 Chrome。\n\n**macOS:**\n```bash\n/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --remote-debugging-port=9222 --user-data-dir=\"$HOME/chrome-debug-profile\"\n```\n\n**Windows:**\n```bash\n\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --remote-debugging-port=9222 --user-data-dir=\"%USERPROFILE%\\chrome-debug-profile\"\n```\n\n> **注意**：启动后会弹出一个新的 Chrome 窗口，请在该窗口中打开 [天眼查](https://www.tianyancha.com) 并**登录账号**。\n\n## 3. 使用方法\n\n1.  **准备数据**：将待查询的企业名称填入 `files/企业信息查询表.xlsx`（从第3行开始读取）。\n2.  **运行脚本**：\n    ```bash\n    python final_scraper.py\n    ```\n3.  **查看结果**：采集完成后，结果保存在 `files/企业信息查询结果_final.xlsx`。\n\n## 4. 注意事项与人工介入\n\n### 4.1 查询限制\n天眼查对连续访问有严格限制。脚本已内置保护机制：\n- **每 40 条暂停**：脚本会自动暂停，提示“已连续查询 40 条”。\n- **连续失败暂停**：如果连续 3 次未查到信息，脚本也会暂停。\n\n### 4.2 如何人工介入\n当终端显示 `⚠️ 检测到需要人工介入` 时：\n1.  **切回浏览器**：手动刷新当前页面，或在页面上完成滑块/点击验证。\n2.  **确认正常**：确保页面能正常显示企业详情。\n3.  **继续运行**：回到终端，按下 **回车键 (Enter)**，脚本将继续执行。\n\n### 4.3 数据准确性\n- 脚本会比对搜索结果与目标名称的前 4 个字，若不匹配则跳过，防止抓取到错误公司。\n- “已注销”或“吊销”的企业会在备注栏中高亮标注。\n- 非独立法人实体（如分公司、部门）可能无法查到独立信用代码，需人工核实。\n\n## 5. 文件结构\n```\n.\n├── final_scraper.py          # 主程序脚本\n├── files/\n│   ├── 企业信息查询表.xlsx    # 输入文件\n│   ├── 企业信息查询结果_final.xlsx # 输出文件\n│   └── progress_final.json   # 断点续爬记录（自动生成）\n└── README.md                 # 使用说明\n```\n",
     "topics": []
   },
   {
@@ -3942,9 +3922,7 @@
     "resource_type": [
       "skills"
     ],
-    "target_tools": [
-      "trae"
-    ],
+    "target_tools": [],
     "summary": "Trae skill that turns multiple resume versions and JDs into tailored Word resumes",
     "i18n": {
       "zh": {
@@ -3964,7 +3942,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-04-08T13:46:35Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "Python"
@@ -4003,12 +3981,7 @@
     "resource_type": [
       "skills"
     ],
-    "target_tools": [
-      "trae",
-      "claude-code",
-      "cursor",
-      "cline"
-    ],
+    "target_tools": [],
     "summary": "TRAE Skills 自动化工作流",
     "i18n": {
       "zh": {
@@ -4028,7 +4001,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-06T10:21:57Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "Python"
@@ -4065,12 +4038,9 @@
     "url": "https://github.com/shan8065/novel-writing-agent-platform",
     "source_type": "github",
     "resource_type": [
-      "agent-framework",
-      "tutorial"
+      "skills"
     ],
-    "target_tools": [
-      "trae"
-    ],
+    "target_tools": [],
     "summary": "基于Trae Skill系统的小说创作智能体平台，包含13个专门化智能体",
     "i18n": {
       "zh": {
@@ -4090,7 +4060,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-04-17T09:49:24Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "Python"
@@ -4151,7 +4121,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-04-03T11:29:00Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [],
     "review_state": "auto-indexed",
@@ -4217,7 +4187,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-08T08:32:53Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [],
     "review_state": "auto-indexed",
@@ -4254,9 +4224,7 @@
     "resource_type": [
       "skills"
     ],
-    "target_tools": [
-      "trae"
-    ],
+    "target_tools": [],
     "summary": "Trae skill · 让 AI 扮演 B 站健身 UP 主「老赵健身」",
     "i18n": {
       "zh": {
@@ -4276,7 +4244,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-12T06:09:09Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "other",
     "languages": [],
     "review_state": "auto-indexed",
@@ -4313,9 +4281,7 @@
     "resource_type": [
       "skills"
     ],
-    "target_tools": [
-      "trae"
-    ],
+    "target_tools": [],
     "summary": "TRAE Skills for academic research: literature radar (检索), paper reader (精读), review weaver (综述) — focused on economics & management",
     "i18n": {
       "zh": {
@@ -4335,7 +4301,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-10T07:45:06Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "Python"
@@ -4374,9 +4340,7 @@
     "resource_type": [
       "skills"
     ],
-    "target_tools": [
-      "trae"
-    ],
+    "target_tools": [],
     "summary": "本项目是专为备考 中级系统集成项目管理工程师（软考中级）的考生设计的智能化考试辅导工具。基于 TRAE Skill 架构实现，提供30天科学学习计划、每日分值预测、记忆口诀速记、历年真题解析、8大类案例答题模板、必考法规汇总等核心功能。",
     "i18n": {
       "zh": {
@@ -4396,7 +4360,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-16T15:05:00Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [],
     "review_state": "auto-indexed",
@@ -4431,11 +4395,9 @@
     "url": "https://github.com/whl1226/-trae-skill",
     "source_type": "github",
     "resource_type": [
-      "extension"
+      "skills"
     ],
-    "target_tools": [
-      "trae"
-    ],
+    "target_tools": [],
     "summary": "一键导入 trae skill",
     "i18n": {
       "zh": {
@@ -4455,7 +4417,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-04-21T03:28:51Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "Python"
@@ -4494,9 +4456,7 @@
     "resource_type": [
       "skills"
     ],
-    "target_tools": [
-      "trae"
-    ],
+    "target_tools": [],
     "summary": "Trae Skill: AI模拟面试官",
     "i18n": {
       "zh": {
@@ -4516,7 +4476,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-03T07:31:44Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "Python"
@@ -4555,9 +4515,7 @@
     "resource_type": [
       "skills"
     ],
-    "target_tools": [
-      "trae"
-    ],
+    "target_tools": [],
     "summary": "Trae Skill: 短视频脚本生成器",
     "i18n": {
       "zh": {
@@ -4577,7 +4535,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-02T05:00:20Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "Python"
@@ -4616,9 +4574,7 @@
     "resource_type": [
       "skills"
     ],
-    "target_tools": [
-      "trae"
-    ],
+    "target_tools": [],
     "summary": "Trae Skill: 数据异常预警分析",
     "i18n": {
       "zh": {
@@ -4638,7 +4594,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-18T10:31:14Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "Python"
@@ -4677,9 +4633,7 @@
     "resource_type": [
       "skills"
     ],
-    "target_tools": [
-      "trae"
-    ],
+    "target_tools": [],
     "summary": "TRAE skill enforcing iterative discussion and confirmation before any task execution",
     "i18n": {
       "zh": {
@@ -4699,7 +4653,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-14T09:08:37Z",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [],
     "review_state": "auto-indexed",
@@ -4726,6 +4680,1558 @@
     "maturity": "unknown",
     "status": "unknown",
     "readme_preview": "# 迭代讨论（Iterative Discussion）\n\n[中文](#中文) | [English](README.en.md)\n\n一个 TRAE 技能，**在任何任务执行前强制走迭代讨论与确认流程**。通过批量提问、单独追问、方案确认、spec 确认、执行后追问五阶段，确保动手前与用户对齐，避免未审视假设导致的返工。\n\n> **切换语言：[English](README.en.md)**\n\n---\n\n<a name=\"中文\"></a>\n## 它做什么\n\n任何任务——无论多小——在动手实施前都必须走完 5 阶段确认流程，且结束后必须追问用户是否还有下一阶段，而不是自行结束对话。\n\n技能本身只是一段 prompt（一个 `SKILL.md` 文件）加一条 `user_rule` 强制 TRAE 每个任务都调用它。没有任何运行时代码，机制是：\n\n1. **SKILL.md 指令文本** —— 规定何时问、问什么、怎么问\n2. **`AskUserQuestion` 工具调用** —— 渲染交互式问题卡片，把用户选择回传给 AI\n3. **HARD-GATE 强制门** —— 硬约束，用户未批准前禁止任何实施动作\n\n## 五阶段流程\n\n```mermaid\nflowchart LR\n    A[阶段1<br/>批量提问<br/>一次2-4个问题] --> B{仍有歧义?}\n    B -- 是 --> C[阶段2<br/>单独追问<br/>每次1问]\n    B -- 否 --> D[阶段3<br/>方案+确认<br/>1-3个方案, AI自判数量]\n    C --> D\n    D --> E[阶段4<br/>spec文档+确认<br/>按任务类型弹性]\n    E --> F[阶段5<br/>执行+自检+报告]\n    F --> G{有下一阶段?}\n    G -- 是 --> A\n    G -- \"否（用户说结束）\" --> H[结束]\n```\n\n### 阶段说明\n\n- **阶段 1 批量提问**：收到任务后立即用 `AskUserQuestion` 单次调用，提 2-4 个关键问题，覆盖目的、约束、成功标准、歧义点。每问 2-4 个选项，必有\"其他\"。\n- **阶段 2 单独追问**：审阅回答，对仍模糊的点逐个单独追问（每次 1 问），直到无歧义。若阶段 1 已充分可跳过。\n- **阶段 3 方案+确认**：按任务复杂度给方案——明显只有一种做法就给 1 个 + 权衡；有多条路径就给 2-3 个对比。用 `AskUserQuestion` 让用户选/改/否。未确认不动手。\n- **阶段 4 spec+确认**：按下方任务类型表生成 spec 文档，用 `AskUserQuestion` 确认。**禁止用 `NotifyUser` 做确认**（它会中断对话）。\n- **阶段 5 执行+追问**：执行任务 → 自检 → 报告 → 用 `AskUserQuestion` 问\"是否有下一阶段任务/补充/调整/重做/结束\"。用户说\"结束\"才结束；说有则回到阶段 1。\n\n## 按任务类型的 spec 规范\n\nspec 文档详略按任务类型弹性调整——不搞一刀切的三件套：\n\n| 任务类型 | spec 文档 | 提问侧重 | 验证标准 |\n|---|---|---|---|\n| **debug 任务** | 可省；根因复杂则写 `spec.md`（症状+根因+修复方案） | 复现条件、影响范围、是否需保留临时绕过 | 原症状消失、无回归 |\n| **工程重构** | 必出 `spec.md` + `checklist.md` | 重构动机、对外接口是否变、回滚策略 | 行为不变 + 测试全绿 |\n| **功能实现** | 必出三件套：`spec.md` + `checklist.md` + `tasks.md` | 目的、边界、成功标准、歧义点 | 满足 spec 验收项 |\n| **运维任务** | `spec.md` 几行；高危操作必出 `checklist.md` | 影响范围、回滚、时间窗 | 操作完成 + 系统正常 |\n| **其他/不确定** | AI 判断，倾向从简 | 目的、约束 | 目标达成 |\n\n**spec 可省的明确条件**：debug 根因简单、任务本身是\"制作技能/读文件/单行修复\"等极简任务、或用户明确说\"跳过 spec 直接做\"。即便省 spec，阶段 3（方案确认）和阶段 5（追问）也不省。\n\n## 优缺点\n\n**优点**\n- 消除未审视假设导致的返工——哪怕\"简单\"任务也过一道 sanity check\n- 阶段 1 批量提问（一次 2-4 问）比逐个问更快收集关键细节\n- 弹性 spec 规则避",
+    "topics": []
+  },
+  {
+    "id": "github-nandagopal1988-ai-pr-review-agent",
+    "name": "nandagopal1988/ai-pr-review-agent",
+    "url": "https://github.com/nandagopal1988/ai-pr-review-agent",
+    "source_type": "github",
+    "resource_type": [
+      "cli-tool"
+    ],
+    "target_tools": [],
+    "summary": "nandagopal1988/ai-pr-review-agent",
+    "i18n": {
+      "zh": {
+        "name": "nandagopal1988/ai-pr-review-agent",
+        "summary": "nandagopal1988/ai-pr-review-agent"
+      },
+      "en": {
+        "name": "nandagopal1988/ai-pr-review-agent",
+        "summary": "nandagopal1988/ai-pr-review-agent"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 40,
+    "quantifiable_score": 19,
+    "quality_score": 21,
+    "tracking_priority": "track",
+    "last_updated": "2026-06-27T13:27:04Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": "other",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "ai-pr-review-agent 是一个基于AI的PR审查代理工具，利用大语言模型自动审查代码变更。核心功能包括自动分析PR差异、提供改进建议和检测潜在问题。适合希望提高代码审查效率的开发团队。",
+      "en": "ai-pr-review-agent is an AI-powered PR review agent that uses LLMs to automatically review code changes. It analyzes PR diffs, provides improvement suggestions, and detects potential issues. Suitable for development teams wanting to improve code review efficiency."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 3,
+      "novelty": 5,
+      "ecosystem_value": 5
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "nandagopal1988/ai-pr-review-agent",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-saiswaroopt514-ai-pr-review-agent",
+    "name": "saiswaroopt514/ai-pr-review-agent",
+    "url": "https://github.com/saiswaroopt514/ai-pr-review-agent",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [],
+    "summary": "saiswaroopt514/ai-pr-review-agent",
+    "i18n": {
+      "zh": {
+        "name": "saiswaroopt514/ai-pr-review-agent",
+        "summary": "saiswaroopt514/ai-pr-review-agent"
+      },
+      "en": {
+        "name": "saiswaroopt514/ai-pr-review-agent",
+        "summary": "saiswaroopt514/ai-pr-review-agent"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 28,
+    "quantifiable_score": 17,
+    "quality_score": 11,
+    "tracking_priority": "index",
+    "last_updated": "2026-06-26T09:35:53Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "JavaScript"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "saiswaroopt514/ai-pr-review-agent 是一个基于 JavaScript 的 AI PR 审查代理项目。它似乎旨在自动审查 GitHub Pull Request，但缺乏实质内容、文档和星标，可能只是一个实验性仓库或空仓。适合对 PR 审查自动化感兴趣的开发者参考，但现阶段不具备可用性。",
+      "en": "saiswaroopt514/ai-pr-review-agent is a JavaScript-based AI PR review agent project. It aims to automate GitHub Pull Request reviews, but lacks substantive code, documentation, and community engagement, likely an experimental or empty repository. It may serve as a reference for developers interested in PR review automation, but is not currently usable."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 7,
+      "practicality": 2,
+      "novelty": 1,
+      "ecosystem_value": 1
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-18",
+    "repo": "saiswaroopt514/ai-pr-review-agent",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-joonghyun-lee-frieren-deus-ex-antigravity",
+    "name": "Joonghyun-Lee-Frieren/deus-ex-antigravity",
+    "url": "https://github.com/Joonghyun-Lee-Frieren/deus-ex-antigravity",
+    "source_type": "github",
+    "resource_type": [
+      "extension",
+      "agent-framework"
+    ],
+    "target_tools": [
+      "antigravity-cli"
+    ],
+    "summary": "antigravity cli plugin",
+    "i18n": {
+      "zh": {
+        "name": "Joonghyun-Lee-Frieren/deus-ex-antigravity",
+        "summary": "antigravity cli plugin"
+      },
+      "en": {
+        "name": "Joonghyun-Lee-Frieren/deus-ex-antigravity",
+        "summary": "antigravity cli plugin"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 54,
+    "quantifiable_score": 19,
+    "quality_score": 35,
+    "tracking_priority": "track",
+    "last_updated": "2026-06-04T00:13:49Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": "mit",
+    "languages": [
+      "JavaScript"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "deus-ex-antigravity 是一个为 Antigravity CLI（即 Gemini CLI）设计的扩展插件，提供丰富的命令、技能和子代理来增强代码开发工作流。核心功能包括目标驱动的工作循环、动态团队组装、工作空间和任务板管理、模型路由、钩子系统等，大幅提升 Gemini CLI 的自动化和协作能力。适合使用 Gemini CLI 进行复杂代码开发任务的开发者，尤其是希望自动化多步骤实现和团队协作的用户。",
+      "en": "Deus Ex Antigravity is an extension plugin for Antigravity CLI (formerly Gemini CLI), providing rich commands, skills, and sub-agents to enhance coding workflows. Its core features include goal-driven loops, dynamic team assembly, workspace and taskboard management, model routing, and hook systems, significantly boosting automation and collaboration. It is suitable for developers using Gemini CLI for complex coding tasks, especially those who want to automate multi-step implementation and team collaboration."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 10,
+      "novelty": 8,
+      "ecosystem_value": 7
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "Joonghyun-Lee-Frieren/deus-ex-antigravity",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-c1ph3r404-antigravitycli-plugin",
+    "name": "C1ph3r404/AntigravityCli-Plugin",
+    "url": "https://github.com/C1ph3r404/AntigravityCli-Plugin",
+    "source_type": "github",
+    "resource_type": [
+      "extension"
+    ],
+    "target_tools": [
+      "antigravity-cli"
+    ],
+    "summary": "plugin for antigravity cli to expand model, thinking values",
+    "i18n": {
+      "zh": {
+        "name": "C1ph3r404/AntigravityCli-Plugin",
+        "summary": "plugin for antigravity cli to expand model, thinking values"
+      },
+      "en": {
+        "name": "C1ph3r404/AntigravityCli-Plugin",
+        "summary": "plugin for antigravity cli to expand model, thinking values"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 28,
+    "quantifiable_score": 17,
+    "quality_score": 11,
+    "tracking_priority": "index",
+    "last_updated": "2026-06-21T14:36:16Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": "mit",
+    "languages": [],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "AntigravityCli-Plugin 是一个针对 Antigravity CLI 的插件项目，旨在扩展其模型和思考值功能。目前仓库内容极为简单，仅包含基本描述，缺乏实际代码或文档。适合留意其后续发展，但目前对开发者没有直接帮助。",
+      "en": "AntigravityCli-Plugin is a plugin project for Antigravity CLI aiming to expand model and thinking values. The repository currently contains only a minimal description with no code or documentation. It may be worth monitoring for future updates, but at present it offers little to developers."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 1,
+      "novelty": 1,
+      "ecosystem_value": 1
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-18",
+    "repo": "C1ph3r404/AntigravityCli-Plugin",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-andrianinalydiano-codex-web",
+    "name": "AndrianinaLydiano/codex-web",
+    "url": "https://github.com/AndrianinaLydiano/codex-web",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "codex-cli"
+    ],
+    "summary": "First test with openai codex code agent",
+    "i18n": {
+      "zh": {
+        "name": "AndrianinaLydiano/codex-web",
+        "summary": "First test with openai codex code agent"
+      },
+      "en": {
+        "name": "AndrianinaLydiano/codex-web",
+        "summary": "First test with openai codex code agent"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 26,
+    "quantifiable_score": 12,
+    "quality_score": 14,
+    "tracking_priority": "index",
+    "last_updated": "2025-08-21T10:18:33Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": "mit",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "这是一个基于 OpenAI Codex 演示生成的前端应用项目，用于 SaaS 社交媒体内容生成器。项目使用 Vite + React + TypeScript 构建，提供了基本的认证和页面路由，适合学习如何用 Codex 快速搭建原型。",
+      "en": "This is a frontend application generated with OpenAI Codex as a demo, serving as a SaaS social media content generator. Built with Vite + React + TypeScript, it provides basic authentication and page routing, suitable for learning how to quickly prototype with Codex."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 8,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {
+      "relevance": 5,
+      "practicality": 5,
+      "novelty": 2,
+      "ecosystem_value": 2
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-18",
+    "repo": "AndrianinaLydiano/codex-web",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-bettermen-piano-teacher",
+    "name": "bettermen/piano-teacher",
+    "url": "https://github.com/bettermen/piano-teacher",
+    "source_type": "github",
+    "resource_type": [
+      "skills"
+    ],
+    "target_tools": [
+      "workbuddy-codebuddy"
+    ],
+    "summary": "AI Piano Teacher — comprehensive piano learning assistant for WorkBuddy Agent Skills",
+    "i18n": {
+      "zh": {
+        "name": "bettermen/piano-teacher",
+        "summary": "AI Piano Teacher — comprehensive piano learning assistant for WorkBuddy Agent Skills"
+      },
+      "en": {
+        "name": "bettermen/piano-teacher",
+        "summary": "AI Piano Teacher — comprehensive piano learning assistant for WorkBuddy Agent Skills"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 25,
+    "quantifiable_score": 15,
+    "quality_score": 10,
+    "tracking_priority": "index",
+    "last_updated": "2026-07-08T14:56:55Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "该项目是一个针对 WorkBuddy/CodeBuddy 的 AI 钢琴教学助手技能。目前没有实际代码或文档，仅有描述。适合对 WorkBuddy 生态感兴趣但尚未开始开发的开发者参考。",
+      "en": "This project is an AI piano teaching assistant skill for WorkBuddy/CodeBuddy. It currently has no code or documentation, only a description. It may be of interest to developers exploring WorkBuddy agent skills."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 0
+    },
+    "quality_detail": {
+      "relevance": 5,
+      "practicality": 0,
+      "novelty": 3,
+      "ecosystem_value": 2
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-18",
+    "repo": "bettermen/piano-teacher",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-thegamerzed-cline-mastery",
+    "name": "theGamerZed/Cline-Mastery",
+    "url": "https://github.com/theGamerZed/Cline-Mastery",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "cline"
+    ],
+    "summary": "using cline coding agent to build a fully functional series/movies database",
+    "i18n": {
+      "zh": {
+        "name": "theGamerZed/Cline-Mastery",
+        "summary": "using cline coding agent to build a fully functional series/movies database"
+      },
+      "en": {
+        "name": "theGamerZed/Cline-Mastery",
+        "summary": "using cline coding agent to build a fully functional series/movies database"
+      }
+    },
+    "stars": 0,
+    "forks": null,
+    "total_score": 40,
+    "quantifiable_score": 17,
+    "quality_score": 23,
+    "tracking_priority": "track",
+    "last_updated": "2026-06-28T21:09:03Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "HTML"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "该项目是一个使用Cline编码代理构建完整电影/系列数据库的教程。它展示了如何通过Cline的自动化能力快速搭建数据驱动的Web应用。适合希望学习Cline实际应用的新手开发者。",
+      "en": "This project is a tutorial on using the Cline coding agent to build a fully functional series/movies database. It demonstrates how to leverage Cline's automation capabilities to quickly create a data-driven web application. Suitable for novice developers who want to learn practical applications of Cline."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 5,
+      "novelty": 3,
+      "ecosystem_value": 5
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "theGamerZed/Cline-Mastery",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-cheggin-agent-session-management",
+    "name": "Cheggin/agent-session-management",
+    "url": "https://github.com/Cheggin/agent-session-management",
+    "source_type": "github",
+    "resource_type": [
+      "cli-tool"
+    ],
+    "target_tools": [
+      "continue"
+    ],
+    "summary": "Agent session management (ASM) allows you to easily fork and continue coding agent sessions no matter the provider.",
+    "i18n": {
+      "zh": {
+        "name": "Cheggin/agent-session-management",
+        "summary": "Agent session management (ASM) allows you to easily fork and continue coding agent sessions no matter the provider."
+      },
+      "en": {
+        "name": "Cheggin/agent-session-management",
+        "summary": "Agent session management (ASM) allows you to easily fork and continue coding agent sessions no matter the provider."
+      }
+    },
+    "stars": 0,
+    "forks": null,
+    "total_score": 38,
+    "quantifiable_score": 17,
+    "quality_score": 21,
+    "tracking_priority": "track",
+    "last_updated": "2026-05-26T19:40:49Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "Rust"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "Agent Session Management (ASM) 是一个用于管理AI编码代理会话的开源工具。它允许用户在不同提供商的编码代理之间轻松fork和继续会话，提高工作流连续性。适合在多代理环境中切换使用的开发者。",
+      "en": "Agent Session Management (ASM) is an open-source tool for managing AI coding agent sessions. It allows users to easily fork and continue sessions across different providers, improving workflow continuity. Suitable for developers who switch between multiple coding agents."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 2,
+      "novelty": 6,
+      "ecosystem_value": 5
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-18",
+    "repo": "Cheggin/agent-session-management",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-unkloud-junie-guidelines",
+    "name": "unkloud/junie-guidelines",
+    "url": "https://github.com/unkloud/junie-guidelines",
+    "source_type": "github",
+    "resource_type": [
+      "rules"
+    ],
+    "target_tools": [
+      "junie"
+    ],
+    "summary": "My guideline for jetbrains junie coding agent",
+    "i18n": {
+      "zh": {
+        "name": "unkloud/junie-guidelines",
+        "summary": "My guideline for jetbrains junie coding agent"
+      },
+      "en": {
+        "name": "unkloud/junie-guidelines",
+        "summary": "My guideline for jetbrains junie coding agent"
+      }
+    },
+    "stars": 0,
+    "forks": null,
+    "total_score": 23,
+    "quantifiable_score": 8,
+    "quality_score": 15,
+    "tracking_priority": "index",
+    "last_updated": "2025-12-06T07:53:44Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [],
+    "review_state": "auto-rejected",
+    "llm_summary": {
+      "zh": "该项目是 JetBrains Junie 编码代理的个人指南，包含配置 Junie 的规则和最佳实践。虽然内容简单，但对 Junie 用户有一定参考价值。适合希望定制 Junie 行为的开发者。",
+      "en": "This project is a personal guideline for JetBrains Junie coding agent, providing rules and best practices for configuring Junie. Though simple, it offers some reference value for Junie users. Suitable for developers who want to customize Junie's behavior."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 8,
+      "adoption": 0,
+      "maturity": 0
+    },
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 3,
+      "novelty": 2,
+      "ecosystem_value": 2
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-18",
+    "repo": "unkloud/junie-guidelines",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-terrificdm-openclaw-kirocli-coding-agent",
+    "name": "terrificdm/openclaw-kirocli-coding-agent",
+    "url": "https://github.com/terrificdm/openclaw-kirocli-coding-agent",
+    "source_type": "github",
+    "resource_type": [
+      "skills",
+      "tutorial"
+    ],
+    "target_tools": [
+      "kiro",
+      "codex-cli",
+      "claude-code",
+      "opencode",
+      "openclaw"
+    ],
+    "summary": "OpenClaw coding agent skill with Kiro CLI support",
+    "i18n": {
+      "zh": {
+        "name": "terrificdm/openclaw-kirocli-coding-agent",
+        "summary": "OpenClaw coding agent skill with Kiro CLI support"
+      },
+      "en": {
+        "name": "terrificdm/openclaw-kirocli-coding-agent",
+        "summary": "OpenClaw coding agent skill with Kiro CLI support"
+      }
+    },
+    "stars": 6,
+    "forks": 1,
+    "total_score": 50,
+    "quantifiable_score": 19,
+    "quality_score": 31,
+    "tracking_priority": "track",
+    "last_updated": "2026-07-08T16:45:05Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "该项目是一个为 OpenClaw 框架设计的 coding-agent 技能，主要用于集成 Kiro CLI 等 AI 编码助手。核心功能包括启动和管理后台编码会话、处理多轮对话、监控进度和捕获输出，适合需要通过聊天界面（如 WhatsApp、Discord）协调编码任务的用户。",
+      "en": "This project is a coding-agent skill for the OpenClaw framework, designed to integrate AI coding assistants like Kiro CLI. It enables starting and managing background coding sessions, handling multi-turn conversations, and coordinating tasks through chat interfaces, suitable for users who want to orchestrate coding agents via messaging platforms."
+    },
+    "score_detail": {
+      "stars": 2,
+      "activity": 15,
+      "adoption": 2,
+      "maturity": 0
+    },
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 8,
+      "novelty": 6,
+      "ecosystem_value": 7
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "terrificdm/openclaw-kirocli-coding-agent",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-rajatgupta0493-code-kiro-coding-agent",
+    "name": "rajatgupta0493-code/kiro-coding-agent",
+    "url": "https://github.com/rajatgupta0493-code/kiro-coding-agent",
+    "source_type": "github",
+    "resource_type": [
+      "agent-framework"
+    ],
+    "target_tools": [
+      "kiro"
+    ],
+    "summary": "Coding Agent compatible with Kiro CLI.",
+    "i18n": {
+      "zh": {
+        "name": "rajatgupta0493-code/kiro-coding-agent",
+        "summary": "Coding Agent compatible with Kiro CLI."
+      },
+      "en": {
+        "name": "rajatgupta0493-code/kiro-coding-agent",
+        "summary": "Coding Agent compatible with Kiro CLI."
+      }
+    },
+    "stars": 0,
+    "forks": null,
+    "total_score": 28,
+    "quantifiable_score": 14,
+    "quality_score": 14,
+    "tracking_priority": "index",
+    "last_updated": "2026-02-07T18:41:33Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "kiro-coding-agent 是一个与 Kiro CLI 兼容的编码代理项目。它旨在为 Kiro 开发者提供自动化编码能力，但项目目前缺乏文档和许可证，成熟度较低。适合对 Kiro 生态感兴趣且愿意自行探索代码的开发者。",
+      "en": "kiro-coding-agent is a coding agent compatible with the Kiro CLI. It aims to provide automated coding capabilities for Kiro developers, but currently lacks documentation and license, indicating low maturity. Suitable for developers interested in the Kiro ecosystem who are willing to explore the code on their own."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 12,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 7,
+      "practicality": 2,
+      "novelty": 3,
+      "ecosystem_value": 2
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-18",
+    "repo": "rajatgupta0493-code/kiro-coding-agent",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-canonical-kiro-sdk",
+    "name": "canonical/kiro-sdk",
+    "url": "https://github.com/canonical/kiro-sdk",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "kiro"
+    ],
+    "summary": "A Workshops SDK for AWS Kiro coding agent",
+    "i18n": {
+      "zh": {
+        "name": "canonical/kiro-sdk",
+        "summary": "A Workshops SDK for AWS Kiro coding agent"
+      },
+      "en": {
+        "name": "canonical/kiro-sdk",
+        "summary": "A Workshops SDK for AWS Kiro coding agent"
+      }
+    },
+    "stars": 0,
+    "forks": null,
+    "total_score": 32,
+    "quantifiable_score": 17,
+    "quality_score": 15,
+    "tracking_priority": "index",
+    "last_updated": "2026-06-19T21:03:59Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "Shell"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "canonical/kiro-sdk 是一个为 AWS Kiro 编码代理开发的 Workshops SDK 项目。目前仅包含 Shell 脚本，缺乏实际代码和文档，可能是一个初始模板或实验性项目。适合对 Kiro 工作坊开发感兴趣的开发者探索，但尚未达到可用状态。",
+      "en": "canonical/kiro-sdk is a Workshops SDK for the AWS Kiro coding agent. Currently it contains only Shell scripts with no documentation or working code, likely an initial template or experimental project. It may interest developers exploring Kiro workshop development, but is not yet usable."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 2,
+      "novelty": 3,
+      "ecosystem_value": 2
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-18",
+    "repo": "canonical/kiro-sdk",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-peterruler-claude-code-openrouter",
+    "name": "peterruler/claude-code-openrouter",
+    "url": "https://github.com/peterruler/claude-code-openrouter",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial",
+      "cli-tool"
+    ],
+    "target_tools": [
+      "claude-code"
+    ],
+    "summary": "claude code coding agent for free",
+    "i18n": {
+      "zh": {
+        "name": "peterruler/claude-code-openrouter",
+        "summary": "claude code coding agent for free"
+      },
+      "en": {
+        "name": "peterruler/claude-code-openrouter",
+        "summary": "claude code coding agent for free"
+      }
+    },
+    "stars": 4,
+    "forks": 0,
+    "total_score": 47,
+    "quantifiable_score": 19,
+    "quality_score": 28,
+    "tracking_priority": "track",
+    "last_updated": "2026-07-08T10:26:41Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "HTML"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "Claude Code OpenRouter 是一个让用户通过 OpenRouter 免费使用 Claude Code 的包装脚本项目。它提供了详细的安装指南，包括在 Windows 通过 WSL 安装、获取 OpenRouter 密钥、配置免费模型等步骤，适合希望不付费使用 Claude Code 的开发者。",
+      "en": "Claude Code OpenRouter is a wrapper script that allows users to run Claude Code through OpenRouter for free. It provides a comprehensive setup guide covering installation, API key configuration, and model selection, suitable for developers who want to use Claude Code without paying for Anthropic API."
+    },
+    "score_detail": {
+      "stars": 2,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 9,
+      "practicality": 8,
+      "novelty": 5,
+      "ecosystem_value": 6
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "peterruler/claude-code-openrouter",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-soumyajit-dey-660-claude-code-steup",
+    "name": "Soumyajit-Dey-660/claude-code-steup",
+    "url": "https://github.com/Soumyajit-Dey-660/claude-code-steup",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [],
+    "summary": "Setup claude code coding agent",
+    "i18n": {
+      "zh": {
+        "name": "Soumyajit-Dey-660/claude-code-steup",
+        "summary": "Setup claude code coding agent"
+      },
+      "en": {
+        "name": "Soumyajit-Dey-660/claude-code-steup",
+        "summary": "Setup claude code coding agent"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 32,
+    "quantifiable_score": 14,
+    "quality_score": 18,
+    "tracking_priority": "index",
+    "last_updated": "2026-03-25T06:35:55Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "该项目名为UIGen，是一个基于AI的React组件生成器。它使用Claude AI模型根据用户描述生成组件，并提供实时预览和代码编辑功能。适合希望快速生成React组件原型的前端开发者。",
+      "en": "UIGen is an AI-powered React component generator. It uses Claude AI to generate components based on user descriptions, with live preview and code editing. Ideal for frontend developers looking to quickly prototype React components."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 12,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 6,
+      "practicality": 6,
+      "novelty": 3,
+      "ecosystem_value": 3
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-18",
+    "repo": "Soumyajit-Dey-660/claude-code-steup",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-sinjorjob-claude-code-coding-agents-audio-guide",
+    "name": "sinjorjob/claude-code-coding-agents-audio-guide",
+    "url": "https://github.com/sinjorjob/claude-code-coding-agents-audio-guide",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "claude-code"
+    ],
+    "summary": "Anthropic Eric 氏の Code w/ Claude 講演「How to Vibe Code in Prod Responsibly」を日本語で再構成した音声ナレーション付き Web ガイド。Claude Opus 4.7 によりゼロから生成。",
+    "i18n": {
+      "zh": {
+        "name": "sinjorjob/claude-code-coding-agents-audio-guide",
+        "summary": "Anthropic Eric 氏の Code w/ Claude 講演「How to Vibe Code in Prod Responsibly」を日本語で再構成した音声ナレーション付き Web ガイド。Claude Opus 4.7 によりゼロから生成。"
+      },
+      "en": {
+        "name": "sinjorjob/claude-code-coding-agents-audio-guide",
+        "summary": "Anthropic Eric 氏の Code w/ Claude 講演「How to Vibe Code in Prod Responsibly」を日本語で再構成した音声ナレーション付き Web ガイド。Claude Opus 4.7 によりゼロから生成。"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 37,
+    "quantifiable_score": 17,
+    "quality_score": 20,
+    "tracking_priority": "track",
+    "last_updated": "2026-04-20T21:20:22Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "CSS"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "这是一个将 Anthropic Eric 的 Claude Code 演讲「How to Vibe Code in Prod Responsibly」重新构造成日语并配以语音解说的 Web 指南。项目完全由 Claude Opus 4.7 生成，内容核心是 Claude Code 的生产级使用建议，适合日语使用者或希望从不同视角了解 Claude Code 实践的开发者。",
+      "en": "This is a Japanese audio guide web page that reconstructs Anthropic Eric's Claude Code talk 'How to Vibe Code in Prod Responsibly'. It was entirely generated by Claude Opus 4.7 and includes voice narration, suitable for Japanese speakers or developers seeking a different perspective on Claude Code best practices."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 5,
+      "novelty": 3,
+      "ecosystem_value": 4
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-18",
+    "repo": "sinjorjob/claude-code-coding-agents-audio-guide",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-tpffounder-superpowers",
+    "name": "tpffounder/superpowers",
+    "url": "https://github.com/tpffounder/superpowers",
+    "source_type": "github",
+    "resource_type": [
+      "skills",
+      "agent-framework"
+    ],
+    "target_tools": [
+      "claude-code",
+      "codex-cli",
+      "antigravity-cli",
+      "opencode",
+      "cursor",
+      "github-copilot"
+    ],
+    "summary": "Claude Code + coding agent skills framework & software development methodology",
+    "i18n": {
+      "zh": {
+        "name": "tpffounder/superpowers",
+        "summary": "Claude Code + coding agent skills framework & software development methodology"
+      },
+      "en": {
+        "name": "tpffounder/superpowers",
+        "summary": "Claude Code + coding agent skills framework & software development methodology"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 52,
+    "quantifiable_score": 19,
+    "quality_score": 33,
+    "tracking_priority": "track",
+    "last_updated": "2026-07-08T18:51:51Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": "mit",
+    "languages": [
+      "Shell"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "Superpowers 是一个为编码代理提供的技能框架和软件开发方法论。它通过一系列可组合的技能（如 TDD、计划编写、子代理驱动开发）来规范代理的行为，支持多种主流编码工具。适合希望提升代理协作质量和效率的开发者。",
+      "en": "Superpowers is a skills framework and software development methodology for coding agents. It provides composable skills like TDD, plan writing, and subagent-driven development to standardize agent behavior, supporting multiple mainstream coding tools. It is suitable for developers who want to improve the quality and efficiency of their agent collaborations."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 8,
+      "novelty": 7,
+      "ecosystem_value": 8
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "tpffounder/superpowers",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-odumag99-openclaw-claude-code-comm-mcp",
+    "name": "odumag99/openclaw-claude-code-comm-mcp",
+    "url": "https://github.com/odumag99/openclaw-claude-code-comm-mcp",
+    "source_type": "github",
+    "resource_type": [
+      "mcp-server"
+    ],
+    "target_tools": [
+      "openclaw",
+      "claude-code"
+    ],
+    "summary": "MCP Channel Server bridging OpenClaw (main AI) and Claude Code (coding agent)",
+    "i18n": {
+      "zh": {
+        "name": "odumag99/openclaw-claude-code-comm-mcp",
+        "summary": "MCP Channel Server bridging OpenClaw (main AI) and Claude Code (coding agent)"
+      },
+      "en": {
+        "name": "odumag99/openclaw-claude-code-comm-mcp",
+        "summary": "MCP Channel Server bridging OpenClaw (main AI) and Claude Code (coding agent)"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 47,
+    "quantifiable_score": 14,
+    "quality_score": 33,
+    "tracking_priority": "track",
+    "last_updated": "2026-03-25T17:59:27Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "JavaScript"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "openclaw-claude-code-comm-mcp 是一个 MCP 通道服务器，用于在 OpenClaw（主 AI）和 Claude Code（编码代理）之间建立双向通信桥接。它允许 OpenClaw 以 supervisor 身份向 Claude Code 发送任务指令、接收结果，并处理权限请求的传递。适合同时使用 OpenClaw 和 Claude Code 进行 AI 辅助编码的开发者，尤其是需要让主 AI 管理编码代理工作流的场景。",
+      "en": "openclaw-claude-code-comm-mcp is an MCP Channel Server that bridges OpenClaw (main AI) and Claude Code (coding agent). It enables bidirectional communication, allowing OpenClaw to send tasks, receive reports, and relay permission verdicts. This is useful for developers who want a supervisor AI to manage a coding agent in a multi-agent workflow."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 12,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 8,
+      "novelty": 7,
+      "ecosystem_value": 8
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "odumag99/openclaw-claude-code-comm-mcp",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-opokumarvin-cli-agent-architects-notebook",
+    "name": "opokumarvin/cli-agent-architects-notebook",
+    "url": "https://github.com/opokumarvin/cli-agent-architects-notebook",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "claude-code",
+      "codex-cli"
+    ],
+    "summary": "Master Agent CLI Patterns 2026 - Ultimate Guide to Claude Code & Coding Agents",
+    "i18n": {
+      "zh": {
+        "name": "opokumarvin/cli-agent-architects-notebook",
+        "summary": "Master Agent CLI Patterns 2026 - Ultimate Guide to Claude Code & Coding Agents"
+      },
+      "en": {
+        "name": "opokumarvin/cli-agent-architects-notebook",
+        "summary": "Master Agent CLI Patterns 2026 - Ultimate Guide to Claude Code & Coding Agents"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 41,
+    "quantifiable_score": 17,
+    "quality_score": 24,
+    "tracking_priority": "track",
+    "last_updated": "2026-07-16T18:00:51Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "HTML"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "该项目是一个关于2026年AI驱动CLI代理架构的全面指南，专注于Claude Code和Codex CLI。它提供了系统设计、配置示例、安全性和性能优化等详细内容，适合希望深入理解CLI代理设计模式的开发者。",
+      "en": "This project is a comprehensive guide to AI-driven CLI agent architecture in 2026, focusing on Claude Code and Codex CLI. It covers system design, configuration examples, security, and performance optimization, suitable for developers seeking deep understanding of CLI agent design patterns."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 3,
+      "novelty": 5,
+      "ecosystem_value": 6
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "opokumarvin/cli-agent-architects-notebook",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "ai-agent",
+      "ai-coding",
+      "azure-openai",
+      "bun",
+      "carla-simulator",
+      "claude",
+      "claude-code",
+      "cli",
+      "intelligent-agents",
+      "learning-agents",
+      "llm",
+      "mcp",
+      "memory",
+      "openai-codex",
+      "openai-gym",
+      "pytorch-carla"
+    ]
+  },
+  {
+    "id": "github-locknet11-claude-speckit-loop",
+    "name": "locknet11/claude-speckit-loop",
+    "url": "https://github.com/locknet11/claude-speckit-loop",
+    "source_type": "github",
+    "resource_type": [
+      "skills",
+      "extension"
+    ],
+    "target_tools": [
+      "claude-code"
+    ],
+    "summary": "Spec-Driven Development loop for the Claude Code coding agent: Spec Kit + a custom Ralph Wiggum loop, triggered by /sdd-loop.",
+    "i18n": {
+      "zh": {
+        "name": "locknet11/claude-speckit-loop",
+        "summary": "Spec-Driven Development loop for the Claude Code coding agent: Spec Kit + a custom Ralph Wiggum loop, triggered by /sdd-loop."
+      },
+      "en": {
+        "name": "locknet11/claude-speckit-loop",
+        "summary": "Spec-Driven Development loop for the Claude Code coding agent: Spec Kit + a custom Ralph Wiggum loop, triggered by /sdd-loop."
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 49,
+    "quantifiable_score": 17,
+    "quality_score": 32,
+    "tracking_priority": "track",
+    "last_updated": "2026-07-10T16:13:34Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "JavaScript"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "claude-speckit-loop 是一个为 Claude Code 开发的插件，用于自动化 Spec-Driven Development 流程。它通过 /sdd-loop 命令驱动 GitHub Spec Kit 的四个阶段，支持单功能和多功能模式，每个功能在独立子代理上下文中运行，避免上下文溢出。适合使用 Claude Code 并采用 Spec Kit 进行项目开发的团队。",
+      "en": "claude-speckit-loop is a plugin for Claude Code that automates the Spec-Driven Development workflow. It drives the four phases of GitHub Spec Kit via the /sdd-loop command, supporting single and multi-feature modes with fresh subagent contexts per feature to prevent context overflow. It's suitable for teams using Claude Code and Spec Kit for project development."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 8,
+      "novelty": 7,
+      "ecosystem_value": 7
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "locknet11/claude-speckit-loop",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-blushyes-code-flow-map",
+    "name": "Blushyes/code-flow-map",
+    "url": "https://github.com/Blushyes/code-flow-map",
+    "source_type": "github",
+    "resource_type": [
+      "skills"
+    ],
+    "target_tools": [
+      "claude-code"
+    ],
+    "summary": "把代码逻辑追踪成可点击的交互式数据流图（含重构对比模式）——给 Claude Code / coding agent 用的 skill",
+    "i18n": {
+      "zh": {
+        "name": "Blushyes/code-flow-map",
+        "summary": "把代码逻辑追踪成可点击的交互式数据流图（含重构对比模式）——给 Claude Code / coding agent 用的 skill"
+      },
+      "en": {
+        "name": "Blushyes/code-flow-map",
+        "summary": "把代码逻辑追踪成可点击的交互式数据流图（含重构对比模式）——给 Claude Code / coding agent 用的 skill"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 49,
+    "quantifiable_score": 17,
+    "quality_score": 32,
+    "tracking_priority": "track",
+    "last_updated": "2026-06-18T19:54:44Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "HTML"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "code-flow-map 是一个为 Claude Code 等 AI 编码代理设计的技能，能将代码逻辑追踪成可点击的交互式数据流图。它支持节点 I/O 查看、全局数据流向高亮以及新旧重构对比。适合需要可视化理解代码逻辑的开发者使用。",
+      "en": "code-flow-map is a skill designed for Claude Code and other AI coding agents to trace code logic into interactive data flow diagrams. It supports viewing node I/O, highlighting global data flow, and comparing old vs new architectures. Suitable for developers who need to visually understand code logic."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 7,
+      "novelty": 7,
+      "ecosystem_value": 8
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "Blushyes/code-flow-map",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-hackerqed-claude-code-commands",
+    "name": "HackerQED/claude-code-commands",
+    "url": "https://github.com/HackerQED/claude-code-commands",
+    "source_type": "github",
+    "resource_type": [
+      "skills"
+    ],
+    "target_tools": [
+      "claude-code"
+    ],
+    "summary": "HackerQED/claude-code-commands",
+    "i18n": {
+      "zh": {
+        "name": "HackerQED/claude-code-commands",
+        "summary": "HackerQED/claude-code-commands"
+      },
+      "en": {
+        "name": "HackerQED/claude-code-commands",
+        "summary": "HackerQED/claude-code-commands"
+      }
+    },
+    "stars": 14,
+    "forks": 0,
+    "total_score": 35,
+    "quantifiable_score": 12,
+    "quality_score": 23,
+    "tracking_priority": "track",
+    "last_updated": "2025-12-28T05:56:30Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "Shell"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "这是一个为 Claude Code 提供可复用命令的仓库，主要包含 update-overview 和 prompt 两个命令，帮助用户生成项目概览和拆解模糊任务。适合使用 Claude Code 进行项目开发的用户，尤其是需要系统化工作流的开发者。",
+      "en": "This repository provides reusable commands for Claude Code, including update-overview and prompt commands to generate project overviews and decompose vague tasks. It is suitable for developers using Claude Code who want a systematic workflow."
+    },
+    "score_detail": {
+      "stars": 2,
+      "activity": 8,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 7,
+      "practicality": 6,
+      "novelty": 5,
+      "ecosystem_value": 5
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-18",
+    "repo": "HackerQED/claude-code-commands",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-alexanderbaggett-looper",
+    "name": "AlexanderBaggett/Looper",
+    "url": "https://github.com/AlexanderBaggett/Looper",
+    "source_type": "github",
+    "resource_type": [
+      "cli-tool"
+    ],
+    "target_tools": [
+      "codex-cli"
+    ],
+    "summary": "A simple Utility for Looping codex cli commands in a web interface",
+    "i18n": {
+      "zh": {
+        "name": "AlexanderBaggett/Looper",
+        "summary": "A simple Utility for Looping codex cli commands in a web interface"
+      },
+      "en": {
+        "name": "AlexanderBaggett/Looper",
+        "summary": "A simple Utility for Looping codex cli commands in a web interface"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 46,
+    "quantifiable_score": 19,
+    "quality_score": 27,
+    "tracking_priority": "track",
+    "last_updated": "2026-07-12T01:18:29Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": "mit",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "Looper 是一个为 OpenAI Codex CLI 设计的循环提示工具，提供本地 Web 界面来运行重复性提示并支持无限循环和条件循环。它通过读取本地 Codex 任务流式输出结果，适合需要反复测试同一提示的开发者。",
+      "en": "Looper is a utility for OpenAI Codex CLI that provides a local web interface for running repeatable prompts, with infinite and conditional loop support. It streams Codex CLI events into a console, ideal for developers who need to iterate on prompts."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 7,
+      "novelty": 5,
+      "ecosystem_value": 5
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "AlexanderBaggett/Looper",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-polykarpo-codex-bridge-oss",
+    "name": "polykarpo/codex-bridge-oss",
+    "url": "https://github.com/polykarpo/codex-bridge-oss",
+    "source_type": "github",
+    "resource_type": [
+      "cli-tool"
+    ],
+    "target_tools": [
+      "codex-cli"
+    ],
+    "summary": "Local-first guarded Codex CLI command-bus runner for OSS maintainer workflows",
+    "i18n": {
+      "zh": {
+        "name": "polykarpo/codex-bridge-oss",
+        "summary": "Local-first guarded Codex CLI command-bus runner for OSS maintainer workflows"
+      },
+      "en": {
+        "name": "polykarpo/codex-bridge-oss",
+        "summary": "Local-first guarded Codex CLI command-bus runner for OSS maintainer workflows"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 45,
+    "quantifiable_score": 19,
+    "quality_score": 26,
+    "tracking_priority": "track",
+    "last_updated": "2026-06-09T08:17:25Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": "mit",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "Codex Bridge 是一个本地优先的受保护 Codex CLI 命令总线运行器，专为 OSS 维护者设计。它通过解析 GitHub Issues 中的结构化任务卡片，强制应用安全防护（如默认 dry-run、显式批准、写入路径白名单），确保 Codex 操作的安全执行。适合需要安全集成 Codex CLI 辅助工作流的开源维护者。",
+      "en": "Codex Bridge is a local-first, guarded command-bus runner for the Codex CLI, designed for OSS maintainer workflows. It parses structured task cards from GitHub issues, enforces safety guardrails (dry-run by default, explicit approvals, allowed write paths), and runs Codex commands only when local and task-level approvals are present. It is ideal for maintainers who want AI-assisted automation without giving unrestricted access to their repositories."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 7,
+      "novelty": 5,
+      "ecosystem_value": 6
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "polykarpo/codex-bridge-oss",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "ai-agents",
+      "automation",
+      "codex",
+      "github-issues",
+      "maintainer-tools",
+      "safety"
+    ]
+  },
+  {
+    "id": "github-pixxelboy-codex-gitbranch-hook",
+    "name": "pixxelboy/codex-gitbranch-hook",
+    "url": "https://github.com/pixxelboy/codex-gitbranch-hook",
+    "source_type": "github",
+    "resource_type": [
+      "cli-tool",
+      "tutorial"
+    ],
+    "target_tools": [
+      "codex-cli"
+    ],
+    "summary": "Codex CLI hook to display Git branch",
+    "i18n": {
+      "zh": {
+        "name": "pixxelboy/codex-gitbranch-hook",
+        "summary": "Codex CLI hook to display Git branch"
+      },
+      "en": {
+        "name": "pixxelboy/codex-gitbranch-hook",
+        "summary": "Codex CLI hook to display Git branch"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 35,
+    "quantifiable_score": 19,
+    "quality_score": 16,
+    "tracking_priority": "index",
+    "last_updated": "2026-05-11T10:41:08Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": "mit",
+    "languages": [
+      "Shell"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "Codex Git Branch Hook 是一个为 OpenAI Codex CLI 设计的钩子工具，用于在会话启动时显示当前 Git 分支，并在 TUI 状态栏中持久显示分支名。该项目已归档，因为 Codex 现已原生支持该功能，不再需要额外安装。适合历史参考或了解 Codex 钩子系统的开发者。",
+      "en": "Codex Git Branch Hook is a hook tool for OpenAI Codex CLI that displays the current Git branch at session start and in the persistent TUI status line. This project is archived because Codex now natively supports this feature, making the hook unnecessary. It remains as a historical reference for understanding Codex hooks."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {
+      "relevance": 6,
+      "practicality": 5,
+      "novelty": 2,
+      "ecosystem_value": 3
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-18",
+    "repo": "pixxelboy/codex-gitbranch-hook",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-cdot65-prisma-airs-codex-hooks",
+    "name": "cdot65/prisma-airs-codex-hooks",
+    "url": "https://github.com/cdot65/prisma-airs-codex-hooks",
+    "source_type": "github",
+    "resource_type": [
+      "extension"
+    ],
+    "target_tools": [
+      "codex-cli"
+    ],
+    "summary": "Codex CLI hooks integrating Prisma AIRS (AI Runtime Security) scanning into the agentic workflow",
+    "i18n": {
+      "zh": {
+        "name": "cdot65/prisma-airs-codex-hooks",
+        "summary": "Codex CLI hooks integrating Prisma AIRS (AI Runtime Security) scanning into the agentic workflow"
+      },
+      "en": {
+        "name": "cdot65/prisma-airs-codex-hooks",
+        "summary": "Codex CLI hooks integrating Prisma AIRS (AI Runtime Security) scanning into the agentic workflow"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 53,
+    "quantifiable_score": 19,
+    "quality_score": 34,
+    "tracking_priority": "track",
+    "last_updated": "2026-07-02T00:31:09Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": "apache-2.0",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "Prisma AIRS Codex Hooks 是集成 Prisma AIRS 安全扫描到 OpenAI Codex CLI 的钩子工具。它能在代码代理工作流中实时阻断 prompt 注入、恶意代码和数据泄露，并提供配置和验证命令。适合需要企业级安全管控的 Codex CLI 用户。",
+      "en": "Prisma AIRS Codex Hooks is a set of hooks that integrate Prisma AIRS security scanning into the OpenAI Codex CLI. It blocks prompt injection, malicious code, and DLP violations in real time within the agentic workflow, offering configuration and verification commands. Suitable for enterprise users of Codex CLI who require security governance."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 8,
+      "novelty": 9,
+      "ecosystem_value": 9
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "cdot65/prisma-airs-codex-hooks",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
     "topics": []
   }
 ]

@@ -5527,8 +5527,8 @@
     },
     "stars": 211,
     "forks": 3,
-    "total_score": 51,
-    "quantifiable_score": 23,
+    "total_score": 53,
+    "quantifiable_score": 25,
     "quality_score": 28,
     "tracking_priority": "track",
     "last_updated": "2026-07-16T09:17:44Z",
@@ -5547,7 +5547,7 @@
       "stars": 4,
       "activity": 15,
       "adoption": 2,
-      "maturity": 2
+      "maturity": 4
     },
     "quality_detail": {
       "relevance": 8,
@@ -6437,8 +6437,7 @@
       "tutorial"
     ],
     "target_tools": [
-      "claude-code",
-      "codex-cli"
+      "claude-code"
     ],
     "summary": "A Claude Code hook that blocks your prompt until you do your push-ups, counted live via webcam. Random reps, session-persistent debt (no closing the tab to skip), streak stats, and three trigger modes. Your AI works hard, so should you.",
     "i18n": {
@@ -6459,7 +6458,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-14T21:30:06Z",
     "first_seen": "2026-07-14",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "Python"

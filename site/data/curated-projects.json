@@ -12,8 +12,20 @@
     ],
     "target_tools": [
       "claude-code",
+      "codex-cli",
+      "github-copilot",
+      "opencode",
+      "antigravity-cli",
+      "qoder",
       "cursor",
-      "cline"
+      "windsurf",
+      "cline",
+      "hermes-agent",
+      "kiro",
+      "zed",
+      "aider",
+      "junie",
+      "openclaw"
     ],
     "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
     "i18n": {
@@ -96,15 +108,7 @@
       "cli-tool"
     ],
     "target_tools": [
-      "codex-cli",
-      "antigravity-cli",
-      "opencode",
-      "qoder",
-      "trae",
-      "hermes-agent",
-      "cline",
-      "lovable",
-      "replit"
+      "general-ai-coding"
     ],
     "summary": "🙌 OpenHands: AI-Driven Development",
     "i18n": {
@@ -149,10 +153,14 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "trae",
       "cursor",
-      "hermes-agent",
-      "replit"
+      "aider",
+      "github-copilot",
+      "openclaw",
+      "opencode",
+      "cline",
+      "continue",
+      "goose"
     ],
     "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
     "i18n": {
@@ -193,7 +201,8 @@
       "skills"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "claude-code",
+      "codex-cli"
     ],
     "summary": "Skills for Real Engineers. Straight from my .claude directory.",
     "i18n": {
@@ -237,8 +246,10 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "cline",
-      "openclaw"
+      "openclaw",
+      "antigravity-cli",
+      "opencode",
+      "hermes-agent"
     ],
     "summary": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Herme",
     "i18n": {
@@ -281,6 +292,7 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
+      "antigravity-cli",
       "opencode",
       "cursor",
       "hermes-agent",
@@ -328,12 +340,8 @@
     ],
     "target_tools": [
       "claude-code",
-      "codex-cli",
-      "antigravity-cli",
-      "opencode",
-      "qoder",
       "cursor",
-      "cline"
+      "openclaw"
     ],
     "summary": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
     "i18n": {
@@ -422,7 +430,12 @@
       "antigravity-cli",
       "opencode",
       "cursor",
-      "github-copilot"
+      "github-copilot",
+      "hermes-agent",
+      "cline",
+      "trae",
+      "kiro",
+      "openclaw"
     ],
     "summary": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
     "i18n": {
@@ -463,11 +476,7 @@
       "agent-framework"
     ],
     "target_tools": [
-      "claude-code",
-      "trae",
-      "hermes-agent",
-      "cline",
-      "replit"
+      "claude-code"
     ],
     "summary": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
     "i18n": {
@@ -512,8 +521,13 @@
       "codex-cli",
       "antigravity-cli",
       "opencode",
-      "qoder",
-      "cline"
+      "cursor",
+      "hermes-agent",
+      "github-copilot",
+      "windsurf",
+      "cline",
+      "kilo-code",
+      "openclaw"
     ],
     "summary": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
     "i18n": {
@@ -598,7 +612,10 @@
       "mcp-server"
     ],
     "target_tools": [
-      "general-ai-coding"
+      "claude-code",
+      "codex-cli",
+      "antigravity-cli",
+      "cursor"
     ],
     "summary": "The best-benchmarked open-source AI memory system. And it's free.",
     "i18n": {
@@ -640,8 +657,7 @@
       "rules"
     ],
     "target_tools": [
-      "claude-code",
-      "cline"
+      "claude-code"
     ],
     "summary": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
     "i18n": {
@@ -662,7 +678,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-06T15:07:41Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "JavaScript"
@@ -728,8 +744,12 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
+      "cursor",
       "antigravity-cli",
-      "cursor"
+      "opencode",
+      "windsurf",
+      "github-copilot",
+      "kiro"
     ],
     "summary": "Production-grade engineering skills for AI coding agents.",
     "i18n": {
@@ -772,10 +792,7 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "trae",
-      "hermes-agent",
-      "cline",
-      "replit"
+      "cursor"
     ],
     "summary": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop ",
     "i18n": {
@@ -942,7 +959,6 @@
     ],
     "target_tools": [
       "claude-code",
-      "cline",
       "openclaw"
     ],
     "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
@@ -990,7 +1006,6 @@
       "codex-cli",
       "cursor",
       "github-copilot",
-      "cline",
       "manus"
     ],
     "summary": "Persistent file-based planning for AI coding agents and long-running agentic tasks. Crash-proof markdown plans that survive context loss and /clear, plus a deterministic completion gate and multi-agent shared state on disk. Manus-style. Wor",
@@ -1035,14 +1050,8 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "antigravity-cli",
       "opencode",
-      "qoder",
-      "cursor",
-      "kiro",
-      "warp",
-      "aider",
-      "cline"
+      "cursor"
     ],
     "summary": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
     "i18n": {
@@ -1175,14 +1184,12 @@
     "target_tools": [
       "claude-code",
       "codex-cli",
-      "antigravity-cli",
       "qoder",
       "trae",
       "cursor",
       "github-copilot",
       "windsurf",
-      "kiro",
-      "cline"
+      "kiro"
     ],
     "summary": "An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms",
     "i18n": {
@@ -1229,7 +1236,14 @@
       "antigravity-cli",
       "opencode",
       "cursor",
-      "openclaw"
+      "openclaw",
+      "workbuddy-codebuddy",
+      "kilo-code",
+      "github-copilot",
+      "aider",
+      "hermes-agent",
+      "kiro",
+      "trae"
     ],
     "summary": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database sc",
     "i18n": {
@@ -1316,8 +1330,7 @@
       "skills"
     ],
     "target_tools": [
-      "claude-code",
-      "cline"
+      "claude-code"
     ],
     "summary": "from vibe coding to agentic engineering - practice makes claude perfect",
     "i18n": {
@@ -1347,6 +1360,268 @@
     "llm_summary": {
       "zh": "Claude Code最佳实践大全，从新手到专家指南",
       "en": "Comprehensive best practices guide for Claude Code, from beginner to advanced."
+    }
+  },
+  {
+    "id": "github-chromedevtools-chrome-devtools-mcp",
+    "name": "ChromeDevTools/chrome-devtools-mcp",
+    "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+    "source_type": "github",
+    "resource_type": [
+      "agent-framework",
+      "cli-tool",
+      "mcp-server"
+    ],
+    "target_tools": [
+      "claude-code",
+      "codex-cli",
+      "antigravity-cli",
+      "opencode",
+      "cursor",
+      "github-copilot",
+      "windsurf",
+      "cline",
+      "junie",
+      "kiro",
+      "warp",
+      "qoder"
+    ],
+    "summary": "Chrome DevTools for coding agents",
+    "i18n": {
+      "zh": {
+        "name": "ChromeDevTools/chrome-devtools-mcp",
+        "summary": "Chrome DevTools for coding agents"
+      },
+      "en": {
+        "name": "ChromeDevTools/chrome-devtools-mcp",
+        "summary": "Chrome DevTools for coding agents"
+      }
+    },
+    "stars": 47017,
+    "forks": 3229,
+    "total_score": 83,
+    "quantifiable_score": 45,
+    "quality_score": 38,
+    "tracking_priority": "track",
+    "last_updated": "2026-07-15T18:08:44Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
+    "license": "apache-2.0",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-curated",
+    "llm_summary": {
+      "zh": "为AI编码代理提供Chrome DevTools完整控制能力的成熟MCP服务器，用于调试和自动化。",
+      "en": "A production-ready MCP server that gives AI coding agents full Chrome DevTools control for debugging and automation."
+    }
+  },
+  {
+    "id": "github-jnmetacode-superpowers-zh",
+    "name": "jnMetaCode/superpowers-zh",
+    "url": "https://github.com/jnMetaCode/superpowers-zh",
+    "source_type": "github",
+    "resource_type": [
+      "skills",
+      "cli-tool",
+      "mcp-server",
+      "rules"
+    ],
+    "target_tools": [
+      "claude-code",
+      "codex-cli",
+      "antigravity-cli",
+      "opencode",
+      "openclaw",
+      "qoder",
+      "trae",
+      "workbuddy-codebuddy",
+      "cursor",
+      "hermes-agent",
+      "github-copilot",
+      "windsurf",
+      "kiro",
+      "aider",
+      "tongyi-lingma"
+    ],
+    "summary": "🦸 AI 编程超能力 · 中文增强版 — superpowers（116k+ ⭐）完整汉化 + 6 个中国原创 skills，让 Claude Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI 等 16 款 AI 编程工具真正会干活",
+    "i18n": {
+      "zh": {
+        "name": "jnMetaCode/superpowers-zh",
+        "summary": "🦸 AI 编程超能力 · 中文增强版 — superpowers（116k+ ⭐）完整汉化 + 6 个中国原创 skills，让 Claude Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI 等 16 款 AI 编程工具真正会干活"
+      },
+      "en": {
+        "name": "jnMetaCode/superpowers-zh",
+        "summary": "🦸 AI 编程超能力 · 中文增强版 — superpowers（116k+ ⭐）完整汉化 + 6 个中国原创 skills，让 Claude Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI 等 16 款 AI 编程工具真正会干活"
+      }
+    },
+    "stars": 6856,
+    "forks": 657,
+    "total_score": 74,
+    "quantifiable_score": 38,
+    "quality_score": 36,
+    "tracking_priority": "track",
+    "last_updated": "2026-07-14T09:30:57Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "JavaScript"
+    ],
+    "review_state": "auto-curated",
+    "llm_summary": {
+      "zh": "superpowers-zh 是著名 AI 编程工具技能集 superpowers 的中文增强版，包含完整汉化和多个原创技能，支持大量主流 AI 编码工具。",
+      "en": "superpowers-zh is the enhanced Chinese edition of the famous superpowers skill set for AI coding tools, with full translations and original skills supporting many mainstream AI coding agents."
+    }
+  },
+  {
+    "id": "github-tencentcloudbase-cloudbase-mcp",
+    "name": "TencentCloudBase/CloudBase-MCP",
+    "url": "https://github.com/TencentCloudBase/CloudBase-MCP",
+    "source_type": "github",
+    "resource_type": [
+      "mcp-server",
+      "agent-framework"
+    ],
+    "target_tools": [
+      "claude-code",
+      "codex-cli",
+      "antigravity-cli",
+      "opencode",
+      "cursor",
+      "windsurf",
+      "workbuddy-codebuddy",
+      "tongyi-lingma",
+      "comate",
+      "augment-code",
+      "cline",
+      "github-copilot",
+      "trae",
+      "openclaw"
+    ],
+    "summary": "   CloudBase MCP - Connect CloudBase to your AI Agent.     Go from AI prompt to live app. ",
+    "i18n": {
+      "zh": {
+        "name": "TencentCloudBase/CloudBase-MCP",
+        "summary": "   CloudBase MCP - Connect CloudBase to your AI Agent.     Go from AI prompt to live app. "
+      },
+      "en": {
+        "name": "TencentCloudBase/CloudBase-MCP",
+        "summary": "   CloudBase MCP - Connect CloudBase to your AI Agent.     Go from AI prompt to live app. "
+      }
+    },
+    "stars": 1050,
+    "forks": 131,
+    "total_score": 66,
+    "quantifiable_score": 34,
+    "quality_score": 32,
+    "tracking_priority": "track",
+    "last_updated": "2026-07-14T09:10:47Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "mit",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-curated",
+    "llm_summary": {
+      "zh": "一个将腾讯云CloudBase接入AI助手的MCP服务，实现从提示词到应用一键部署。",
+      "en": "An MCP server connecting Tencent Cloud's CloudBase to AI agents, enabling one-click deployment from prompts to live apps."
+    }
+  },
+  {
+    "id": "github-zai-org-codegeex4",
+    "name": "zai-org/CodeGeeX4",
+    "url": "https://github.com/zai-org/CodeGeeX4",
+    "source_type": "github",
+    "resource_type": [
+      "cli-tool"
+    ],
+    "target_tools": [
+      "codegeex"
+    ],
+    "summary": "CodeGeeX4-ALL-9B, a versatile model for all AI software development scenarios, including code completion, code interpreter, web search, function calling, repository-level Q&A and much more.",
+    "i18n": {
+      "zh": {
+        "name": "zai-org/CodeGeeX4",
+        "summary": "CodeGeeX4-ALL-9B, a versatile model for all AI software development scenarios, including code completion, code interpreter, web search, function calling, repository-level Q&A and much more."
+      },
+      "en": {
+        "name": "zai-org/CodeGeeX4",
+        "summary": "CodeGeeX4-ALL-9B, a versatile model for all AI software development scenarios, including code completion, code interpreter, web search, function calling, repository-level Q&A and much more."
+      }
+    },
+    "stars": 2559,
+    "forks": 263,
+    "total_score": 63,
+    "quantifiable_score": 34,
+    "quality_score": 29,
+    "tracking_priority": "track",
+    "last_updated": "2026-07-14T06:54:41Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-14",
+    "license": "apache-2.0",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-curated",
+    "llm_summary": {
+      "zh": "CodeGeeX4是面向多语言代码生成的开源模型，配备 IDE 扩展，适合集成到 AI 编码工具生态。",
+      "en": "CodeGeeX4 is an open-source multilingual code generation model with IDE extensions, directly useful for AI coding agent tools."
+    }
+  },
+  {
+    "id": "github-pantheon-security-medusa",
+    "name": "Pantheon-Security/medusa",
+    "url": "https://github.com/Pantheon-Security/medusa",
+    "source_type": "github",
+    "resource_type": [
+      "skills",
+      "mcp-server"
+    ],
+    "target_tools": [
+      "claude-code",
+      "codex-cli",
+      "antigravity-cli",
+      "cursor",
+      "windsurf",
+      "kiro",
+      "github-copilot",
+      "aider",
+      "cline",
+      "continue",
+      "augment-code",
+      "tabnine",
+      "zed"
+    ],
+    "summary": "AI-first security scanner. NEW in v2026.7: Claude Code compromise detection — vet .claude/ hooks, permissions & skills before you clone — plus an always-on AI attack-signature scanner and native Rust & PHP rules. Also: medusa scan --git to ",
+    "i18n": {
+      "zh": {
+        "name": "Pantheon-Security/medusa",
+        "summary": "AI-first security scanner. NEW in v2026.7: Claude Code compromise detection — vet .claude/ hooks, permissions & skills before you clone — plus an always-on AI attack-signature scanner and native Rust & PHP rules. Also: medusa scan --git to "
+      },
+      "en": {
+        "name": "Pantheon-Security/medusa",
+        "summary": "AI-first security scanner. NEW in v2026.7: Claude Code compromise detection — vet .claude/ hooks, permissions & skills before you clone — plus an always-on AI attack-signature scanner and native Rust & PHP rules. Also: medusa scan --git to "
+      }
+    },
+    "stars": 936,
+    "forks": 153,
+    "total_score": 67,
+    "quantifiable_score": 30,
+    "quality_score": 37,
+    "tracking_priority": "track",
+    "last_updated": "2026-07-15T16:29:20Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
+    "license": "agpl-3.0",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-curated",
+    "llm_summary": {
+      "zh": "专门针对AI编码代理安全性的扫描器，尤其关注Claude Code的配置检测。",
+      "en": "AI-first security scanner for detecting vulnerabilities in AI coding agent configurations, with special focus on Claude Code."
     }
   },
   {
@@ -1402,301 +1677,6 @@
     "llm_summary": {
       "zh": "一个汇集了数十种AI编程工具系统提示词和模型的大型仓库，极受欢迎，但内容创新性一般。",
       "en": "A massive collection of system prompts and models for dozens of AI coding tools, extremely popular but not highly novel."
-    }
-  },
-  {
-    "id": "github-sickn33-agentic-awesome-skills",
-    "name": "sickn33/agentic-awesome-skills",
-    "url": "https://github.com/sickn33/agentic-awesome-skills",
-    "source_type": "github",
-    "resource_type": [
-      "skills",
-      "extension",
-      "agent-framework",
-      "mcp-server",
-      "cli-tool"
-    ],
-    "target_tools": [
-      "claude-code",
-      "codex-cli",
-      "antigravity-cli",
-      "cursor",
-      "kiro",
-      "zed"
-    ],
-    "summary": "Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Autohand Code, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collecti",
-    "i18n": {
-      "zh": {
-        "name": "sickn33/agentic-awesome-skills",
-        "summary": "Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Autohand Code, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collecti"
-      },
-      "en": {
-        "name": "sickn33/agentic-awesome-skills",
-        "summary": "Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Autohand Code, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collecti"
-      }
-    },
-    "stars": 43331,
-    "forks": 6871,
-    "total_score": 82,
-    "quantifiable_score": 45,
-    "quality_score": 37,
-    "tracking_priority": "track",
-    "last_updated": "2026-07-15T19:07:38Z",
-    "first_seen": "2026-07-14",
-    "last_seen": "2026-07-16",
-    "license": "mit",
-    "languages": [
-      "Python"
-    ],
-    "review_state": "auto-curated",
-    "llm_summary": {
-      "zh": "一个拥有1,900+可安装代理技能的庞大精选库，支持多种AI编码助手，并附带安装工具，广受社区欢迎。",
-      "en": "A massive curated library of 1,900+ installable agentic skills for multiple AI coding assistants, with an installer CLI and broad community adoption."
-    }
-  },
-  {
-    "id": "github-alibaba-nlp-deepresearch",
-    "name": "Alibaba-NLP/DeepResearch",
-    "url": "https://github.com/Alibaba-NLP/DeepResearch",
-    "source_type": "github",
-    "resource_type": [
-      "tutorial"
-    ],
-    "target_tools": [
-      "trae",
-      "hermes-agent",
-      "tongyi-lingma",
-      "replit"
-    ],
-    "summary": "Tongyi Deep Research, the Leading Open-source Deep Research Agent",
-    "i18n": {
-      "zh": {
-        "name": "Alibaba-NLP/DeepResearch",
-        "summary": "Tongyi Deep Research, the Leading Open-source Deep Research Agent"
-      },
-      "en": {
-        "name": "Alibaba-NLP/DeepResearch",
-        "summary": "Tongyi Deep Research, the Leading Open-source Deep Research Agent"
-      }
-    },
-    "stars": 19661,
-    "forks": 1504,
-    "total_score": 78,
-    "quantifiable_score": 45,
-    "quality_score": 33,
-    "tracking_priority": "track",
-    "last_updated": "2026-07-15T18:39:35Z",
-    "first_seen": "2026-07-14",
-    "last_seen": "2026-07-16",
-    "license": "apache-2.0",
-    "languages": [
-      "Python"
-    ],
-    "review_state": "auto-curated",
-    "llm_summary": {
-      "zh": "阿里巴巴开源深度研究代理，与AI编码工具集成以自动执行研究任务。",
-      "en": "An open-source deep research agent from Alibaba, designed to integrate with AI coding tools for automated research tasks."
-    }
-  },
-  {
-    "id": "github-baidu-baige-loongflow",
-    "name": "baidu-baige/LoongFlow",
-    "url": "https://github.com/baidu-baige/LoongFlow",
-    "source_type": "github",
-    "resource_type": [
-      "agent-framework"
-    ],
-    "target_tools": [
-      "trae",
-      "hermes-agent",
-      "comate",
-      "replit"
-    ],
-    "summary": "LoongFlow is an expert-grade Agent framework for Loop Engineering. Through a Plan-Execute-Summary loop and structured experiential memory, it enables AI to continuously think, execute, reflect, and evolve across complex software engineering",
-    "i18n": {
-      "zh": {
-        "name": "baidu-baige/LoongFlow",
-        "summary": "LoongFlow is an expert-grade Agent framework for Loop Engineering. Through a Plan-Execute-Summary loop and structured experiential memory, it enables AI to continuously think, execute, reflect, and evolve across complex software engineering"
-      },
-      "en": {
-        "name": "baidu-baige/LoongFlow",
-        "summary": "LoongFlow is an expert-grade Agent framework for Loop Engineering. Through a Plan-Execute-Summary loop and structured experiential memory, it enables AI to continuously think, execute, reflect, and evolve across complex software engineering"
-      }
-    },
-    "stars": 451,
-    "forks": 51,
-    "total_score": 63,
-    "quantifiable_score": 27,
-    "quality_score": 36,
-    "tracking_priority": "track",
-    "last_updated": "2026-07-15T02:29:20Z",
-    "first_seen": "2026-07-14",
-    "last_seen": "2026-07-16",
-    "license": "apache-2.0",
-    "languages": [
-      "Python"
-    ],
-    "review_state": "auto-curated",
-    "llm_summary": {
-      "zh": "一个专注于循环工程的专业级AI代理框架，通过规划-执行-总结循环和结构化经验记忆实现持续进化。",
-      "en": "A professional-grade agent framework for loop engineering, enabling AI to continuously improve through Plan-Execute-Summary cycles and structured experiential memory."
-    }
-  },
-  {
-    "id": "github-samber-cc-skills-golang",
-    "name": "samber/cc-skills-golang",
-    "url": "https://github.com/samber/cc-skills-golang",
-    "source_type": "github",
-    "resource_type": [
-      "skills",
-      "agent-framework",
-      "extension"
-    ],
-    "target_tools": [
-      "claude-code",
-      "codex-cli",
-      "antigravity-cli",
-      "opencode",
-      "trae",
-      "workbuddy-codebuddy",
-      "cursor",
-      "hermes-agent",
-      "github-copilot",
-      "windsurf",
-      "codegeex",
-      "cline",
-      "kilo-code",
-      "augment-code",
-      "replit",
-      "openclaw"
-    ],
-    "summary": "🧑‍🎨 A collection of Golang agentic skills that works",
-    "i18n": {
-      "zh": {
-        "name": "samber/cc-skills-golang",
-        "summary": "🧑‍🎨 A collection of Golang agentic skills that works"
-      },
-      "en": {
-        "name": "samber/cc-skills-golang",
-        "summary": "🧑‍🎨 A collection of Golang agentic skills that works"
-      }
-    },
-    "stars": 2531,
-    "forks": 166,
-    "total_score": 71,
-    "quantifiable_score": 34,
-    "quality_score": 37,
-    "tracking_priority": "track",
-    "last_updated": "2026-07-14T08:52:36Z",
-    "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
-    "license": "mit",
-    "languages": [
-      "Go"
-    ],
-    "review_state": "auto-curated",
-    "llm_summary": {
-      "zh": "高质量且易于使用的 Golang 专用 AI 代理技能集合，覆盖测试、安全性、可观测性等关键领域，与主流编码助手工具兼容。",
-      "en": "A well-crafted collection of Golang-specific agentic skills for AI coding assistants, covering testing, security, observability, and more."
-    }
-  },
-  {
-    "id": "github-continuedev-continue",
-    "name": "continuedev/continue",
-    "url": "https://github.com/continuedev/continue",
-    "source_type": "github",
-    "resource_type": [
-      "agent-framework",
-      "cli-tool"
-    ],
-    "target_tools": [
-      "codex-cli",
-      "antigravity-cli",
-      "opencode",
-      "qoder",
-      "trae",
-      "hermes-agent",
-      "cline",
-      "continue",
-      "replit"
-    ],
-    "summary": "open-source coding agent",
-    "i18n": {
-      "zh": {
-        "name": "continuedev/continue",
-        "summary": "开源编程代理"
-      },
-      "en": {
-        "name": "continuedev/continue",
-        "summary": "open-source coding agent"
-      }
-    },
-    "stars": 34898,
-    "forks": 5051,
-    "total_score": 80,
-    "quantifiable_score": 45,
-    "quality_score": 35,
-    "tracking_priority": "track",
-    "last_updated": "2026-07-15T18:58:14Z",
-    "first_seen": "2026-07-13",
-    "last_seen": "2026-07-16",
-    "license": "apache-2.0",
-    "languages": [
-      "TypeScript"
-    ],
-    "review_state": "auto-curated",
-    "llm_summary": {
-      "zh": "继续代码代理是领先的开源编码代理，提供IDE扩展和CLI工具，支持多种AI模型，拥有庞大的社区和丰富的文档。",
-      "en": "Continue is a leading open-source coding agent offering IDE extensions and CLI tools, with strong community adoption and comprehensive documentation."
-    }
-  },
-  {
-    "id": "github-jsuvic-agent-profile",
-    "name": "jsuvic/agent-profile",
-    "url": "https://github.com/jsuvic/agent-profile",
-    "source_type": "github",
-    "resource_type": [
-      "skills",
-      "cli-tool",
-      "mcp-server"
-    ],
-    "target_tools": [
-      "claude-code",
-      "codex-cli",
-      "antigravity-cli",
-      "opencode",
-      "qoder",
-      "cline",
-      "tabnine"
-    ],
-    "summary": "Configure Codex, Claude, and Tabnine to understand your project, follow its workflow, and respect its safety rules.",
-    "i18n": {
-      "zh": {
-        "name": "jsuvic/agent-profile",
-        "summary": "Configure Codex, Claude, and Tabnine to understand your project, follow its workflow, and respect its safety rules."
-      },
-      "en": {
-        "name": "jsuvic/agent-profile",
-        "summary": "Configure Codex, Claude, and Tabnine to understand your project, follow its workflow, and respect its safety rules."
-      }
-    },
-    "stars": 3,
-    "forks": 0,
-    "total_score": 56,
-    "quantifiable_score": 21,
-    "quality_score": 35,
-    "tracking_priority": "track",
-    "last_updated": "2026-07-14T09:34:43Z",
-    "first_seen": "2026-07-14",
-    "last_seen": "2026-07-14",
-    "license": "apache-2.0",
-    "languages": [
-      "TypeScript"
-    ],
-    "review_state": "auto-curated",
-    "llm_summary": {
-      "zh": "为AI编码工具提供统一配置管理，从单一YAML生成各工具专用指令。",
-      "en": "A unified configuration manager for AI coding tools that generates per-tool instructions from a single YAML file."
     }
   },
   {
@@ -1759,7 +1739,11 @@
       "skills"
     ],
     "target_tools": [
-      "claude-code"
+      "claude-code",
+      "codex-cli",
+      "cursor",
+      "openclaw",
+      "hermes-agent"
     ],
     "summary": "Huashu Design · HTML-native design skill for Claude Code · Claude Code 里 HTML 原生的设计 skill · 高保真原型 / 幻灯片 / 动画 + 20 设计哲学 + 5 维评审 + MP4 导出 · Agent-agnostic",
     "i18n": {
@@ -1829,7 +1813,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-06T15:08:06Z",
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "Python"
@@ -1838,6 +1822,53 @@
     "llm_summary": {
       "zh": "这是一个为多个AI编程代理（如Claude Code、Codex、Cursor等）提供超过350个生产就绪技能和插件的开源库，极具实用价值。",
       "en": "A comprehensive open-source library of over 350 production-ready skills and plugins for multiple AI coding agents, highly practical and valuable."
+    }
+  },
+  {
+    "id": "github-obra-superpowers",
+    "name": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "source_type": "github",
+    "resource_type": [
+      "skills",
+      "agent-framework"
+    ],
+    "target_tools": [
+      "claude-code",
+      "antigravity-cli",
+      "codex-cli",
+      "cursor",
+      "github-copilot",
+      "opencode"
+    ],
+    "summary": "An agentic skills framework & software development methodology that works.",
+    "i18n": {
+      "zh": {
+        "name": "obra/superpowers",
+        "summary": "An agentic skills framework & software development methodology that works."
+      },
+      "en": {
+        "name": "obra/superpowers",
+        "summary": "An agentic skills framework & software development methodology that works."
+      }
+    },
+    "stars": 255324,
+    "forks": 22820,
+    "total_score": 83,
+    "quantifiable_score": 49,
+    "quality_score": 34,
+    "tracking_priority": "track",
+    "last_updated": "2026-07-15T19:11:34Z",
+    "first_seen": "2026-07-14",
+    "last_seen": "2026-07-16",
+    "license": "mit",
+    "languages": [
+      "Shell"
+    ],
+    "review_state": "auto-curated",
+    "llm_summary": {
+      "zh": "Superpowers 是一个为编码代理设计的技能框架和软件开发方法论。它提供可组合的技能和初始指令，指导代理高效完成软件开发任务。适合使用 Hermes-Agent 等 AI 编码工具的开发者。",
+      "en": "Superpowers is a skills framework and software development methodology for coding agents. It provides composable skills and initial instructions to guide agents in efficient software development. Suitable for developers using AI coding tools like Hermes-Agent."
     }
   }
 ]

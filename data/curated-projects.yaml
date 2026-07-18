@@ -10,8 +10,20 @@
   - cli-tool
   target_tools:
   - claude-code
+  - codex-cli
+  - github-copilot
+  - opencode
+  - antigravity-cli
+  - qoder
   - cursor
+  - windsurf
   - cline
+  - hermes-agent
+  - kiro
+  - zed
+  - aider
+  - junie
+  - openclaw
   summary: Makes your AI agent think like the laziest senior dev in the room. The
     best code is the code you never wrote.
   i18n:
@@ -44,13 +56,28 @@
   - llm
   - prompt-engineering
   - yagni
-  readme_preview: "Ponytail\n\n  He says nothing. He writes one line. It works.\n\n\
-    \  \n  \n  \n  \n  \n\n  \n  \n\n  ~54% less code (up to 94%) &middot; ~20% cheaper\
-    \ &middot; ~27% faster &middot; 100% safe\n  Measured on real Claude Code sessions\
-    \ editing a real open-source repo (FastAPI + React), against the same agent with\
-    \ no skill. ~54% is the mean across 12 feature tasks (Haiku 4.5, n=4); it reaches\
-    \ 94% where an agent over-builds (a date picker) and is near zero where the code\
-    \ is already minimal. ponytail keeps every safety "
+  readme_preview: "<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme:\
+    \ dark)\" srcset=\"assets/logo-dark.png\">\n    <img src=\"assets/logo.png\" width=\"\
+    220\" alt=\"Ponytail, the lazy senior dev\">\n  </picture>\n</p>\n\n<h1 align=\"\
+    center\">Ponytail</h1>\n\n<p align=\"center\">\n  <em>He says nothing. He writes\
+    \ one line. It works.</em>\n</p>\n\n<p align=\"center\">\n  <img src=\"https://img.shields.io/github/stars/DietrichGebert/ponytail?style=flat-square&color=111111&label=stars\"\
+    \ alt=\"Stars\">\n  <img src=\"https://img.shields.io/github/v/release/DietrichGebert/ponytail?style=flat-square&color=111111&label=release\"\
+    \ alt=\"Release\">\n  <img src=\"https://img.shields.io/npm/v/@dietrichgebert/ponytail?style=flat-square&color=111111&label=npm\"\
+    \ alt=\"npm\">\n  <img src=\"https://img.shields.io/badge/works%20with-20%20agents-111111?style=flat-square\"\
+    \ alt=\"Works with 20 agents\">\n  <img src=\"https://img.shields.io/badge/license-MIT-111111?style=flat-square\"\
+    \ alt=\"MIT license\">\n</p>\n\n<p align=\"center\">\n  <a href=\"https://trendshift.io/repositories/50668\"\
+    \ target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://trendshift.io/api/badge/trendshift/repositories/50668/daily\"\
+    \ alt=\"DietrichGebert/ponytail | Trendshift\" width=\"250\" height=\"55\"/></a>\n\
+    \  <a href=\"https://trendshift.io/repositories/50668\" target=\"_blank\" rel=\"\
+    noopener noreferrer\"><img src=\"https://trendshift.io/api/badge/trendshift/repositories/50668/weekly\"\
+    \ alt=\"DietrichGebert/ponytail | Trendshift\" width=\"250\" height=\"55\"/></a>\n\
+    </p>\n\n<p align=\"center\">\n  <strong>~54% less code (up to 94%) &middot; ~20%\
+    \ cheaper &middot; ~27% faster &middot; 100% safe</strong><br>\n  <sub>Measured\
+    \ on real Claude Code sessions editing a real open-source repo (FastAPI + React),\
+    \ against the same agent with no skill. ~54% is the mean across 12 feature tasks\
+    \ (Haiku 4.5, n=4); it reaches 94% where an agent over-builds (a date picker)\
+    \ and is near zero where the code is already minimal. ponytail keeps every safety\
+    \ guard while a bare \"write one-liners\" prompt drops one. (The ea"
   tags: []
   review_state: auto-curated
   quantifiable_score: 49
@@ -75,6 +102,11 @@
     en: A popular tool that makes AI coding agents output minimal code by adopting
       a lazy senior developer mindset, significantly reducing code volume and improving
       efficiency.
+  readme_full_checked: true
+  has_readme_full: true
+  retarget_reason: Ponytail is a prompt engineering ruleset/plugin supporting many
+    AI coding agents; README lists install instructions for these tools directly.
+  retargeted_at: '2026-07-17'
   recommendation_level: try-now
   curation_note: 'Auto-selected by scoring rules: source=github, score=89, resource_types=agent-framework,
     skills, rules, cli-tool.'
@@ -113,7 +145,22 @@
     >\n    <img src=\"https://img.shields.io/badge/LazyCodex-codex%20for%20no--brainers-111111?style=for-the-badge&logo=github&logoColor=white\"\
     \ alt=\"LazyCodex banner\" />\n  </a>\n  <a href=\"https://github.com/Yeachan-Heo/gajae-code\"\
     >\n    <img src=\"https://img.shields.io/badge/Gajae--Code-red--claw%20agent%20harness-B22222?style=for-the-badge&logo=github&logoColor=white\"\
-    \ alt=\"Gajae-Code banner\" />\n  </a>\n</p>\n\n<p align=\""
+    \ alt=\"Gajae-Code banner\" />\n  </a>\n</p>\n\n<p align=\"center\">\n  <a href=\"\
+    https://github.com/code-yeongyu/lazycodex\">\n    <img src=\"https://opengraph.githubassets.com/lazycodex-card/code-yeongyu/lazycodex\"\
+    \ alt=\"LazyCodex GitHub card\" width=\"280\" />\n  </a>\n  <a href=\"https://github.com/Yeachan-Heo/gajae-code\"\
+    >\n    <img src=\"https://opengraph.githubassets.com/gajae-code-card/Yeachan-Heo/gajae-code\"\
+    \ alt=\"Gajae-Code GitHub card\" width=\"280\" />\n  </a>\n</p>\n\n<h3 align=\"\
+    center\">start with the real crab-powered harnesses</h3>\n\n<p align=\"center\"\
+    >\n  <a href=\"https://github.com/code-yeongyu/lazycodex\"><b>github.com/code-yeongyu/lazycodex</b></a>\n\
+    \  <br/>\n  <a href=\"https://github.com/Yeachan-Heo/gajae-code\"><b>github.com/Yeachan-Heo/gajae-code</b></a>\n\
+    </p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/code-yeongyu/lazycodex\"\
+    >\n    <img src=\"https://img.shields.io/badge/Open-LazyCodex-111111?style=flat-square&logo=github&logoColor=white\"\
+    \ alt=\"Open LazyCodex on GitHub\" />\n  </a>\n  <a href=\"https://github.com/Yeachan-Heo/gajae-code\"\
+    >\n    <img src=\"https://img.shields.io/badge/Open-Gajae--Code-B22222?style=flat-square&logo=github&logoColor=white\"\
+    \ alt=\"Open Gajae-Code on GitHub\" />\n  </a>\n</p>\n\n<p align=\"center\">\n\
+    \  <a href=\"https://discord.gg/GtjhvgjnV\">\n    <img src=\"https://img.shields.io/badge/Discord-join%20the%20harness%20lab-5865F2?style=for-the-badge&logo=discord&logoColor=white\"\
+    \ alt=\"Join the harness lab on Discord\" />\n  </a>\n  <a href=\"https://discord.gg/4Rt79F7dF\"\
+    >\n    <img src=\"https://img.shields.io/badge/Discord-join%20the%20crab"
   tags: []
   review_state: auto-curated
   quantifiable_score: 49
@@ -136,6 +183,11 @@
     zh: 一个完全由AI代理自主开发并维护的博物馆展品项目，基于Rust和LazyCodex/Gajae-Code，展示了零人工干预的全栈开发能力。
     en: A fully autonomous museum exhibit built in Rust using LazyCodex and Gajae-Code,
       demonstrating AI coding agents managing the entire project without human intervention.
+  readme_full_checked: true
+  has_readme_full: true
+  readme_checked: true
+  retarget_reason: 项目基于 LazyCodex（与 OpenAI Codex 相关）和 Gajae-Code，且当前标签为 codex-cli。
+  retargeted_at: '2026-07-17'
   recommendation_level: try-now
   curation_note: 'Auto-selected by scoring rules: source=github, score=88, resource_types=agent-framework.'
 - id: github-openhands-openhands
@@ -147,15 +199,7 @@
   - agent-framework
   - cli-tool
   target_tools:
-  - codex-cli
-  - antigravity-cli
-  - opencode
-  - qoder
-  - trae
-  - hermes-agent
-  - cline
-  - lovable
-  - replit
+  - general-ai-coding
   summary: '🙌 OpenHands: AI-Driven Development'
   i18n:
     zh:
@@ -184,13 +228,29 @@
   - developer-tools
   - gpt
   - openai
-  readme_preview: "The self-hosted developer control center for coding agents and\
-    \ automations.\n  \n  \n    Run OpenHands, Claude Code, Codex, Gemini, or any\
-    \ ACP-compatible agent across local, remote, and cloud backends.\n  \n\n  \n \
-    \ \n  \n  \n  \n\n  Quickstart |\n  Docs |\n  Self-Hosting |\n  ACP Agents |\n\
-    \  Automations |\n  Slack\n\n  \n\nOpenHands Agent Canvas turns your coding agents\
-    \ into a self-hosted, always-on engineering team. It's a developer control center\
-    \ for starting conversations and automating everyday tasks — like gene"
+  readme_preview: "<a name=\"readme-top\"></a>\n<div align=\"center\">\n  <img src=\"\
+    https://assets.openhands.dev/logo-whitebackground.png\" alt=\"OpenHands logo\"\
+    \ width=\"340\">\n  <p align=\"center\">\n    <strong>The self-hosted developer\
+    \ control center for coding agents and automations.</strong>\n  </p>\n  <p align=\"\
+    center\">\n    Run OpenHands, Claude Code, Codex, Gemini, or any ACP-compatible\
+    \ agent across local, remote, and cloud backends.\n  </p>\n</div>\n<div align=\"\
+    center\">\n  <a href=\"https://github.com/OpenHands/incubator-program\"><img src=\"\
+    https://img.shields.io/badge/status-beta-blue?style=for-the-badge\" alt=\"Project\
+    \ status beta\"></a>\n  <a href=\"https://github.com/OpenHands/agent-canvas/actions/workflows/ci.yml\"\
+    ><img src=\"https://img.shields.io/github/actions/workflow/status/OpenHands/agent-canvas/ci.yml?branch=main&style=for-the-badge\"\
+    \ alt=\"CI status\"></a>\n  <a href=\"https://www.npmjs.com/package/@openhands/agent-canvas\"\
+    ><img src=\"https://img.shields.io/npm/v/%40openhands%2Fagent-canvas?style=for-the-badge&logo=npm\"\
+    \ alt=\"npm version\"></a>\n  <a href=\"https://docs.openhands.dev/openhands/usage/agent-canvas/backends\"\
+    ><img src=\"https://img.shields.io/badge/Documentation-000?logo=googledocs&logoColor=FFE165&style=for-the-badge\"\
+    \ alt=\"Documentation\"></a>\n  <a href=\"https://go.openhands.dev/slack\"><img\
+    \ src=\"https://img.shields.io/badge/Slack-Join%20the%20community-611f69?logo=slack&logoColor=white&style=for-the-badge\"\
+    \ alt=\"Join us on Slack\"></a>\n</div>\n<div align=\"center\">\n  <a href=\"\
+    #quickstart\">Quickstart</a> |\n  <a href=\"https://docs.openhands.dev/overview/introduction\"\
+    >Docs</a> |\n  <a href=\"https://docs.openhands.dev/openhands/usage/agent-canvas/backend-setup/vm\"\
+    >Self-Hosting</a> |\n  <a href=\"https://docs.openhands.dev/openhands/usage/agent-canvas/acp-agents\"\
+    >ACP Agents</a> |\n  <a href=\"https://docs.openhands.dev/openhands/usage/agent-canvas/prebuilt-automations\"\
+    >Automations</a> |\n  <a href=\"https://go.openhands.dev/slack\">Slack</a>\n</div>\n\
+    <p align=\"center\">\n  <img src=\"https://assets.openhands.dev"
   tags: []
   review_state: auto-curated
   quantifiable_score: 49
@@ -214,6 +274,11 @@
     zh: OpenHands是一个自托管的AI驱动开发控制中心，可集成多种代码代理，支持自动化工作流。
     en: OpenHands is a self-hosted developer control center for AI-driven coding agents,
       enabling integration of multiple agents and automation.
+  readme_full_checked: true
+  has_readme_full: true
+  retarget_reason: OpenHands 是一个自托管的开发者控制中心，支持多种 AI 编码代理（如 Claude Code、Codex），本身不是具体的编码工具，属于通用
+    AI 编码平台。
+  retargeted_at: '2026-07-17'
   recommendation_level: try-now
   curation_note: 'Auto-selected by scoring rules: source=github, score=88, resource_types=agent-framework,
     cli-tool.'
@@ -229,10 +294,14 @@
   target_tools:
   - claude-code
   - codex-cli
-  - trae
   - cursor
-  - hermes-agent
-  - replit
+  - aider
+  - github-copilot
+  - openclaw
+  - opencode
+  - cline
+  - continue
+  - goose
   summary: Compress tool outputs, logs, files, and RAG chunks before they reach the
     LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers.
     Library, proxy, MCP server.
@@ -278,13 +347,31 @@
   - prompt-engineering
   - tokens
   - typescript
-  readme_preview: "██╗  ██╗███████╗ █████╗ ██████╗ ██████╗  ██████╗  ██████╗ ███╗\
-    \   ███╗\n  ██║  ██║██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔═══██╗██╔═══██╗████╗ ████║\n\
-    \  ███████║█████╗  ███████║██║  ██║██████╔╝██║   ██║██║   ██║██╔████╔██║\n  ██╔══██║██╔══╝\
-    \  ██╔══██║██║  ██║██╔══██╗██║   ██║██║   ██║██║╚██╔╝██║\n  ██║  ██║███████╗██║\
-    \  ██║██████╔╝██║  ██║╚██████╔╝╚██████╔╝██║ ╚═╝ ██║\n  ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═════╝\
-    \ ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝     ╚═╝\n              The context compression\
-    \ layer for AI agents\n\n60–95% fewe"
+  readme_preview: "<div align=\"center\"><pre>\n  ██╗  ██╗███████╗ █████╗ ██████╗\
+    \ ██████╗  ██████╗  ██████╗ ███╗   ███╗\n  ██║  ██║██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔═══██╗██╔═══██╗████╗\
+    \ ████║\n  ███████║█████╗  ███████║██║  ██║██████╔╝██║   ██║██║   ██║██╔████╔██║\n\
+    \  ██╔══██║██╔══╝  ██╔══██║██║  ██║██╔══██╗██║   ██║██║   ██║██║╚██╔╝██║\n  ██║\
+    \  ██║███████╗██║  ██║██████╔╝██║  ██║╚██████╔╝╚██████╔╝██║ ╚═╝ ██║\n  ╚═╝  ╚═╝╚══════╝╚═╝\
+    \  ╚═╝╚═════╝ ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝     ╚═╝\n              The context\
+    \ compression layer for AI agents\n</pre></div>\n\n<p align=\"center\"><strong>60–95%\
+    \ fewer tokens (for JSON data), 15-20% fewer tokens (for coding agents) · library\
+    \ · proxy · MCP · content-aware compressors · local-first · reversible</strong></p>\n\
+    \n<p align=\"center\">\n  <a href=\"https://github.com/chopratejas/headroom/actions/workflows/ci.yml\"\
+    ><img src=\"https://github.com/chopratejas/headroom/actions/workflows/ci.yml/badge.svg\"\
+    \ alt=\"CI\"></a>\n  <a href=\"https://app.codecov.io/gh/chopratejas/headroom\"\
+    ><img src=\"https://codecov.io/gh/chopratejas/headroom/graph/badge.svg\" alt=\"\
+    codecov\"></a>\n  <a href=\"https://pypi.org/project/headroom-ai/\"><img src=\"\
+    https://img.shields.io/pypi/v/headroom-ai.svg\" alt=\"PyPI\"></a>\n  <a href=\"\
+    https://www.npmjs.com/package/headroom-ai\"><img src=\"https://img.shields.io/npm/v/headroom-ai.svg\"\
+    \ alt=\"npm\"></a>\n  <a href=\"https://huggingface.co/chopratejas/kompress-v2-base\"\
+    ><img src=\"https://img.shields.io/badge/model-Kompress--v2--base-yellow.svg\"\
+    \ alt=\"Model: Kompress-v2-base\"></a>\n  <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/license-Apache%202.0-blue.svg\"\
+    \ alt=\"License: Apache 2.0\"></a>\n  <a href=\"https://headroom-docs.vercel.app/docs\"\
+    ><img src=\"https://img.shields.io/badge/docs-online-blue.svg\" alt=\"Docs\"></a>\n\
+    </p>\n\n<!-- mcp-name: io.github.headroomlabs-ai/headroom -->\n\n<p align=\"center\"\
+    >\n  <a href=\"https://headroom-docs.vercel.app/docs\">Docs</a> ·\n  <a href=\"\
+    #get-started-60-seconds\">Install</a> ·\n  <a href=\"#proof\">Proof</a> ·\n  <a\
+    \ href=\"#agent-compatibility-matri"
   tags: []
   review_state: auto-curated
   quantifiable_score: 49
@@ -308,6 +395,10 @@
     zh: 针对AI编码代理的上下文压缩层，可显著减少token消耗，兼容多种工具。
     en: A context compression layer for AI coding agents that reduces token usage
       by 20-95%, compatible with multiple tools.
+  readme_full_checked: true
+  has_readme_full: true
+  retarget_reason: Headroom 直接支持这些 AI 编码工具，通过 `headroom wrap` 或代理集成，提供上下文压缩。
+  retargeted_at: '2026-07-17'
   recommendation_level: try-now
   curation_note: 'Auto-selected by scoring rules: source=github, score=88, resource_types=mcp-server,
     agent-framework, rules.'
@@ -319,7 +410,8 @@
   resource_type:
   - skills
   target_tools:
-  - general-ai-coding
+  - claude-code
+  - codex-cli
   summary: Skills for Real Engineers. Straight from my .claude directory.
   i18n:
     zh:
@@ -343,7 +435,26 @@
     \    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"\
     https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skills-repo-dark_2x.png\"\
     >\n      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skill-repo-light_2x.png\"\
-    >\n      <img alt=\"Skills\" src=\"https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skill-repo-light_2x"
+    >\n      <img alt=\"Skills\" src=\"https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skill-repo-light_2x.png\"\
+    \ width=\"369\">\n    </picture>\n  </a>\n</p>\n\n# Skills For Real Engineers\n\
+    \n[![skills.sh](https://skills.sh/b/mattpocock/skills)](https://skills.sh/mattpocock/skills)\n\
+    \nMy agent skills that I use every day to do real engineering - not vibe coding.\n\
+    \nDeveloping real applications is hard. Approaches like GSD, BMAD, and Spec-Kit\
+    \ try to help by owning the process. But while doing so, they take away your control\
+    \ and make bugs in the process hard to resolve.\n\nThese skills are designed to\
+    \ be small, easy to adapt, and composable. They work with any model. They're based\
+    \ on decades of engineering experience. Hack around with them. Make them your\
+    \ own. Enjoy.\n\nIf you want to keep up with changes to these skills, and any\
+    \ new ones I create, you can join ~60,000 other devs on my newsletter:\n\n[Sign\
+    \ Up To The Newsletter](https://www.aihero.dev/s/skills-newsletter)\n\n## Quickstart\
+    \ (30-second setup)\n\n1. Run the skills.sh installer:\n\n```bash\nnpx skills@latest\
+    \ add mattpocock/skills\n```\n\n2. Pick the skills you want, and which coding\
+    \ agents you want to install them on. **Make sure you select `/setup-matt-pocock-skills`**.\n\
+    \n3. Run `/setup-matt-pocock-skills` in your agent. It will:\n   - Ask you which\
+    \ issue tracker you want to use (GitHub, Linear, or local files)\n   - Ask you\
+    \ what labels you apply to tickets when you triage them (`/triage` uses labels)\n\
+    \   - Ask you where you want to save any docs we create\n\n4. Bam - you're ready\
+    \ to go.\n\n## Install as a Claude Code plugin\n\nPrefer a plug-and-play install "
   tags: []
   review_state: auto-curated
   quantifiable_score: 49
@@ -369,6 +480,11 @@
       Matt Pocock. It provides a large number of practical, battle-tested skills to
       help AI coding assistants handle engineering tasks more efficiently. Suitable
       for all engineers using Claude Code.
+  readme_full_checked: true
+  has_readme_full: true
+  readme_checked: true
+  retarget_reason: README 明确提到项目来自 .claude 目录，并提供 Claude Code 和 Codex CLI 的安装方式，说明两者为主要目标工具。
+  retargeted_at: '2026-07-17'
   recommendation_level: try-now
   curation_note: 'Auto-selected by scoring rules: source=github, score=87, resource_types=skills.'
 - id: github-thedotmack-claude-mem
@@ -382,8 +498,10 @@
   target_tools:
   - claude-code
   - codex-cli
-  - cline
   - openclaw
+  - antigravity-cli
+  - opencode
+  - hermes-agent
   summary: Persistent Context Across Sessions for Every Agent –  Captures everything
     your agent does during sessions, compresses it with AI, and injects relevant context
     back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Herme
@@ -431,20 +549,35 @@
   - embeddings
   - memory-engine
   - rag
-  readme_preview: "\U0001F1E8\U0001F1F3 中文 •\n  \U0001F1F9\U0001F1FC 繁體中文 •\n  \U0001F1EF\
-    \U0001F1F5 日本語 •\n  \U0001F1F5\U0001F1F9 Português •\n  \U0001F1E7\U0001F1F7 Português\
-    \ •\n  \U0001F1F0\U0001F1F7 한국어 •\n  \U0001F1EA\U0001F1F8 Español •\n  \U0001F1E9\
-    \U0001F1EA Deutsch •\n  \U0001F1EB\U0001F1F7 Français •\n  \U0001F1EE\U0001F1F1\
-    \ עברית •\n  \U0001F1F8\U0001F1E6 العربية •\n  \U0001F1F7\U0001F1FA Русский •\n\
-    \  \U0001F1F5\U0001F1F1 Polski •\n  \U0001F1E8\U0001F1FF Čeština •\n  \U0001F1F3\
-    \U0001F1F1 Nederlands •\n  \U0001F1F9\U0001F1F7 Türkçe •\n  \U0001F1FA\U0001F1E6\
-    \ Українська •\n  \U0001F1FB\U0001F1F3 Tiếng Việt •\n  \U0001F1F5\U0001F1ED Tagalog\
-    \ •\n  \U0001F1EE\U0001F1E9 Indonesia •\n  \U0001F1F9\U0001F1ED ไทย •\n  \U0001F1EE\
-    \U0001F1F3 हिन्दी •\n  \U0001F1E7\U0001F1E9 বাংলা •\n  \U0001F1F5\U0001F1F0 اردو\
-    \ •\n  \U0001F1F7\U0001F1F4 Română •\n  \U0001F1F8\U0001F1EA Svenska •\n  \U0001F1EE\
-    \U0001F1F9 Italiano •\n  \U0001F1EC\U0001F1F7 Ελληνικά •\n  \U0001F1ED\U0001F1FA\
-    \ Magyar •\n  \U0001F1EB\U0001F1EE Suomi •\n  \U0001F1E9\U0001F1F0 Dansk •\n \
-    \ \U0001F1F3\U0001F1F4 Norsk\n\nPersistent memory compression system built "
+  readme_preview: "<h1 align=\"center\">\n  <br>\n  <a href=\"https://github.com/thedotmack/claude-mem\"\
+    >\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"\
+    https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/claude-mem-logo-for-dark-mode.webp\"\
+    >\n      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/claude-mem-logo-for-light-mode.webp\"\
+    >\n      <img src=\"https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/claude-mem-logo-for-light-mode.webp\"\
+    \ alt=\"Claude-Mem\" width=\"400\">\n    </picture>\n  </a>\n  <br>\n  <a href=\"\
+    https://vercel.com/open-source-program\">\n    <img alt=\"Vercel OSS Program\"\
+    \ src=\"https://vercel.com/oss/program-badge-2026.svg\" />\n  </a>\n</h1>\n\n\
+    <p align=\"center\">\n  <a href=\"docs/i18n/README.zh.md\">\U0001F1E8\U0001F1F3\
+    \ 中文</a> •\n  <a href=\"docs/i18n/README.zh-tw.md\">\U0001F1F9\U0001F1FC 繁體中文</a>\
+    \ •\n  <a href=\"docs/i18n/README.ja.md\">\U0001F1EF\U0001F1F5 日本語</a> •\n  <a\
+    \ href=\"docs/i18n/README.pt.md\">\U0001F1F5\U0001F1F9 Português</a> •\n  <a href=\"\
+    docs/i18n/README.pt-br.md\">\U0001F1E7\U0001F1F7 Português</a> •\n  <a href=\"\
+    docs/i18n/README.ko.md\">\U0001F1F0\U0001F1F7 한국어</a> •\n  <a href=\"docs/i18n/README.es.md\"\
+    >\U0001F1EA\U0001F1F8 Español</a> •\n  <a href=\"docs/i18n/README.de.md\">\U0001F1E9\
+    \U0001F1EA Deutsch</a> •\n  <a href=\"docs/i18n/README.fr.md\">\U0001F1EB\U0001F1F7\
+    \ Français</a> •\n  <a href=\"docs/i18n/README.he.md\">\U0001F1EE\U0001F1F1 עברית</a>\
+    \ •\n  <a href=\"docs/i18n/README.ar.md\">\U0001F1F8\U0001F1E6 العربية</a> •\n\
+    \  <a href=\"docs/i18n/README.ru.md\">\U0001F1F7\U0001F1FA Русский</a> •\n  <a\
+    \ href=\"docs/i18n/README.pl.md\">\U0001F1F5\U0001F1F1 Polski</a> •\n  <a href=\"\
+    docs/i18n/README.cs.md\">\U0001F1E8\U0001F1FF Čeština</a> •\n  <a href=\"docs/i18n/README.nl.md\"\
+    >\U0001F1F3\U0001F1F1 Nederlands</a> •\n  <a href=\"docs/i18n/README.tr.md\">\U0001F1F9\
+    \U0001F1F7 Türkçe</a> •\n  <a href=\"docs/i18n/README.uk.md\">\U0001F1FA\U0001F1E6\
+    \ Українська</a> •\n  <a href=\"docs/i18n/README.vi.md\">\U0001F1FB\U0001F1F3\
+    \ Tiếng Việt</a> •\n  <a href=\"docs/i18n/README.tl.md\">\U0001F1F5\U0001F1ED\
+    \ Tagalog</a> •\n  <a href=\"docs/i18n/README.id.md\">\U0001F1EE\U0001F1E9 Indonesia</a>\
+    \ •\n  <a href=\"docs/i18n/README.th.md\">\U0001F1F9\U0001F1ED ไทย</a> •\n  <a\
+    \ href=\"docs/i18n/README.hi.md\">\U0001F1EE\U0001F1F3 हिन्दी</a> •\n  <a href=\"\
+    docs/i18n/README.bn.md\">\U0001F1E7\U0001F1E9 বাংলা</a> •\n  <a href=\"docs"
   tags: []
   review_state: auto-curated
   quantifiable_score: 49
@@ -468,6 +601,11 @@
     zh: 一个为AI编程代理提供持久化上下文记忆的压缩系统，支持多种主流工具。
     en: A persistent memory compression system for AI coding agents that captures
       and injects relevant context across sessions, compatible with multiple tools.
+  readme_full_checked: true
+  has_readme_full: true
+  retarget_reason: README 明确声明兼容 Claude Code、OpenClaw、Codex CLI、Gemini CLI (Antigravity)、OpenCode
+    和 Hermes Agent，并提供了针对这些工具的安装命令。
+  retargeted_at: '2026-07-17'
   recommendation_level: try-now
   curation_note: 'Auto-selected by scoring rules: source=github, score=87, resource_types=agent-framework,
     skills.'
@@ -481,6 +619,7 @@
   target_tools:
   - claude-code
   - codex-cli
+  - antigravity-cli
   - opencode
   - cursor
   - hermes-agent
@@ -510,7 +649,10 @@
   languages:
   - TypeScript
   topics: []
-  readme_preview: '# CodeGraph
+  readme_preview: '<div align="center">
+
+
+    # CodeGraph
 
 
     ## 🎉 1.0 Released!
@@ -532,7 +674,39 @@
     ### [Documentation & Website →](https://colbymchenry.github.io/codegraph/)
 
 
-    [![npm version](https://img.shields.io/npm/v/@colbymchenry/codegraph.svg)]('
+    [![npm version](https://img.shields.io/npm/v/@colbymchenry/codegraph.svg)](https://www.npmjs.com/package/@colbymchenry/codegraph)
+
+    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+    [![Self-contained](https://img.shields.io/badge/Node.js-bundled%20%C2%B7%20none%20required-brightgreen.svg)](https://nodejs.org/)
+
+    [![npm provenance](https://img.shields.io/badge/npm-provenance-brightgreen.svg)](#verified-releases)
+
+    [![Attested builds](https://img.shields.io/badge/releases-signed%20%26%20attested-brightgreen.svg)](#verified-releases)
+
+
+    [![Windows](https://img.shields.io/badge/Windows-supported-blue.svg)](#supported-platforms)
+
+    [![macOS](https://img.shields.io/badge/macOS-supported-blue.svg)](#supported-platforms)
+
+    [![Linux](https://img.shields.io/badge/Linux-supported-blue.svg)](#supported-platforms)
+
+
+    [![Claude Code](https://img.shields.io/badge/Claude_Code-supported-blueviolet.svg)](#supported-agents)
+
+    [![Cursor](https://img.shields.io/badge/Cursor-supported-blueviolet.svg)](#supported-agents)
+
+    [![Codex](https://img.shields.io/badge/Codex-supported-blueviolet.svg)](#supported-agents)
+
+    [![opencode](https://img.shields.io/badge/opencode-supported-blueviolet.svg)](#supported-agents)
+
+    [![Hermes Agent](https://img.shields.io/badge/Hermes_Agent-supported-blueviolet.svg)](#supported-agents)
+
+    [![Gemini](https://img.shields.io/badge/Gemini-supported-blueviolet.svg)](#supported-agents)
+
+    [![Antigravity](https://img.shields.io/badge/Antigravity-supported-blueviolet.svg)](#supported-agents)
+
+    [![Kiro]('
   tags: []
   review_state: auto-curated
   quantifiable_score: 49
@@ -557,6 +731,11 @@
     en: CodeGraph pre-indexes your codebase into a knowledge graph that auto-syncs,
       providing efficient context for multiple AI coding agents and significantly
       reducing token usage and tool calls.
+  readme_full_checked: true
+  has_readme_full: true
+  retarget_reason: 项目README明确列出了支持的AI编码工具：Claude Code, Codex CLI, Gemini CLI (Antigravity),
+    OpenCode, Cursor, Hermes Agent, Kiro，并提供了针对这些工具的集成。
+  retargeted_at: '2026-07-17'
   recommendation_level: watch
   curation_note: 'Auto-selected by scoring rules: source=github, score=87, resource_types=cli-tool.'
 - id: github-panniantong-agent-reach
@@ -570,12 +749,8 @@
   - mcp-server
   target_tools:
   - claude-code
-  - codex-cli
-  - antigravity-cli
-  - opencode
-  - qoder
   - cursor
-  - cline
+  - openclaw
   summary: Give your AI agent eyes to see the entire internet. Read & search Twitter,
     Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.
   i18n:
@@ -615,14 +790,31 @@
   - web-scraper
   - xiaohongshu
   - youtube-transcript
-  readme_preview: "\U0001F441️ Agent Reach\n\n  给你的 AI Agent 一键装上互联网能力\n\n  当下最稳的接入方式，替你选好、装好、体检好——接入方式会换代，你不用操心\n\
-    \n  \n\n  \n  \n  \n\n  快速开始 · English · 日本語 · 한국어 · 支持平台 · 设计理念\n\n---\n\n##\
-    \ 为什么需要 Agent Reach？\n\nAI Agent 已经能帮你写代码、改文档、管项目——但你让它去网上找点东西，它就抓瞎了：\n\n- \U0001F4FA\
-    \ \"帮我看看这个 YouTube 教程讲了什么\" → **看不了**，拿不到字幕\n- \U0001F426 \"帮我搜一下推特上大家怎么评价这个产品\"\
-    \ → **搜不了**，Twitter API 要付费\n- \U0001F4D6 \"去 Reddit 上看看有没有人遇到过同样的 bug\" → **403\
-    \ 被封**，服务器 IP 被拒\n- \U0001F4D5 \"帮我看看小红书上这个品的口碑\" → **打不开**，必须登录才能看\n- \U0001F4FA\
-    \ \"B站上有个技术视频，帮我总结一下\" → **拿不到**，通用下载工具被 B站风控全面拦截\n- \U0001F50D \"帮我在网上搜一下最新的\
-    \ LLM 框架对比\" → **没有好用的搜索**，要么付费"
+  readme_preview: "<h1 align=\"center\">\U0001F441️ Agent Reach</h1>\n\n<p align=\"\
+    center\">\n  <strong>给你的 AI Agent 一键装上互联网能力</strong>\n</p>\n\n<p align=\"center\"\
+    >\n  当下最稳的接入方式，替你选好、装好、体检好——接入方式会换代，你不用操心\n</p>\n\n<p align=\"center\">\n  <a\
+    \ href=\"https://trendshift.io/repositories/24387\"><img src=\"https://trendshift.io/api/badge/repositories/24387\"\
+    \ alt=\"Trendshift GitHub Trending #1 Repository of the Day\"></a>\n</p>\n\n<p\
+    \ align=\"center\">\n  <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge\"\
+    \ alt=\"MIT License\"></a>\n  <a href=\"https://www.python.org/\"><img src=\"\
+    https://img.shields.io/badge/Python-3.10+-green.svg?style=for-the-badge&logo=python&logoColor=white\"\
+    \ alt=\"Python 3.10+\"></a>\n  <a href=\"https://github.com/Panniantong/agent-reach/stargazers\"\
+    ><img src=\"https://img.shields.io/github/stars/Panniantong/agent-reach?style=for-the-badge\"\
+    \ alt=\"GitHub Stars\"></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"#快速上手\"\
+    >快速开始</a> · <a href=\"docs/README_en.md\">English</a> · <a href=\"docs/README_ja.md\"\
+    >日本語</a> · <a href=\"docs/README_ko.md\">한국어</a> · <a href=\"#支持的平台\">支持平台</a>\
+    \ · <a href=\"#设计理念\">设计理念</a>\n</p>\n\n---\n\n## 为什么需要 Agent Reach？\n\nAI Agent\
+    \ 已经能帮你写代码、改文档、管项目——但你让它去网上找点东西，它就抓瞎了：\n\n- \U0001F4FA \"帮我看看这个 YouTube 教程讲了什么\"\
+    \ → **看不了**，拿不到字幕\n- \U0001F426 \"帮我搜一下推特上大家怎么评价这个产品\" → **搜不了**，Twitter API 要付费\n\
+    - \U0001F4D6 \"去 Reddit 上看看有没有人遇到过同样的 bug\" → **403 被封**，服务器 IP 被拒\n- \U0001F4D5\
+    \ \"帮我看看小红书上这个品的口碑\" → **打不开**，必须登录才能看\n- \U0001F4FA \"B站上有个技术视频，帮我总结一下\" → **拿不到**，通用下载工具被\
+    \ B站风控全面拦截\n- \U0001F50D \"帮我在网上搜一下最新的 LLM 框架对比\" → **没有好用的搜索**，要么付费要么质量差\n- \U0001F310\
+    \ \"帮我看看这个网页写了啥\" → **抓回来一堆 HTML 标签**，根本没法读\n- \U0001F4E6 \"这个 GitHub 仓库是干嘛的？Issue\
+    \ 里说了什么？\" → 能用，但认证配置很麻烦\n- \U0001F4E1 \"帮我订阅这几个 RSS 源，有更新告诉我\" → 要自己装库写代码\n\n\
+    **这些不难实现，但是需要自己折腾配置**\n\n每个平台都有自己的门槛——要付费的 API、要绕过的封锁、要登录的账号、要清洗的数据。你要一个一个去踩坑、装工具、调配置，光是让\
+    \ Agent 能读个推特就得折腾半天。\n\n**Agent Reach 把这件事变成一句话：**\n\n```\n帮我安装 Agent Reach：https://raw.githubusercontent.com/Panniantong/agent-reach/main/docs/install.md\n\
+    ```\n\n复制给你的 Agent，几分钟后它就能读推特、搜 Reddit、看 YouTube、刷小红书了。\n\n**已经装过了？更新也是一句话：**\n\
+    \n```\n帮我更新 Agent Reach：https://raw.githubusercontent.com/Panniantong/agent-reach/main/docs/u"
   tags: []
   review_state: auto-curated
   quantifiable_score: 49
@@ -647,6 +839,11 @@
     en: Agent Reach is a CLI tool that gives AI agents zero-cost access to read and
       search multiple internet platforms (Twitter, Reddit, YouTube, GitHub, Bilibili,
       XiaoHongShu), significantly enhancing their information-gathering capability.
+  readme_full_checked: true
+  has_readme_full: true
+  retarget_reason: README 明确说明兼容 Claude Code、Cursor、OpenClaw 等 Agent，并提供专属安装指南（如 OpenClaw
+    的 exec 权限配置），且 topics 包含 claude-code 和 cursor。
+  retargeted_at: '2026-07-17'
   recommendation_level: try-now
   curation_note: 'Auto-selected by scoring rules: source=github, score=87, resource_types=agent-framework,
     cli-tool, mcp-server.'
@@ -690,7 +887,24 @@
     \n<p align=\"center\">\n  <a href=\"https://opensource.org/licenses/Apache-2.0\"\
     \n    ><img src=\"https://img.shields.io/badge/License-Apache_2.0-blue.svg\"></a>\n\
     \  <a href=\"https://discord.gg/goose-oss\"\n    ><img src=\"https://img.shields.io/discord/1287729918100246654?logo=discord&logoColor=white&label=Join+Us&color=blueviolet\"\
-    \ alt=\"Discord\"></a>\n  <a href=\"https:"
+    \ alt=\"Discord\"></a>\n  <a href=\"https://github.com/aaif-goose/goose/actions/workflows/ci.yml\"\
+    \n     ><img src=\"https://img.shields.io/github/actions/workflow/status/aaif-goose/goose/ci.yml?branch=main\"\
+    \ alt=\"CI\"></a>\n  <a href=\"https://insights.linuxfoundation.org/project/goose\"\
+    ><img src=\"https://insights.linuxfoundation.org/api/badge/health-score?project=goose\"\
+    ></a>\n  <a href=\"https://repology.org/project/goose-cli/versions\"><img src=\"\
+    https://repology.org/badge/tiny-repos/goose-cli.svg\" alt=\"Packaging status\"\
+    ></a>\n</p>\n\n<a href=\"https://trendshift.io/repositories/25298?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-25298\"\
+    \ target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://trendshift.io/api/badge/repositories/25298\"\
+    \ alt=\"aaif-goose%2Fgoose | Trendshift\" width=\"250\" height=\"55\"/></a>\n\n\
+    </div>\n\n\ngoose is a general-purpose AI agent that runs on your machine. Not\
+    \ just for code — use it for research, writing, automation, data analysis, or\
+    \ anything you need to get done.\n\nA native desktop app for macOS, Linux, and\
+    \ Windows. A full CLI for terminal workflows. An API to embed it anywhere. Built\
+    \ in Rust for performance and portability.\n\ngoose works with 15+ providers —\
+    \ Anthropic, OpenAI, Google, Ollama, OpenRouter, Azure, Bedrock, and more. Use\
+    \ API keys or your existing Claude, ChatGPT, or Gemini subscriptions via [ACP](https://goose-docs.ai/docs/guides/acp-providers).\
+    \ Connect to 70+ extensions via the [Model Context Protocol](https://modelcontextprotocol.io/)\
+    \ open standard.\n\ngoose "
   tags: []
   review_state: auto-curated
   quantifiable_score: 49
@@ -713,6 +927,10 @@
     zh: Goose 是一个流行的开源 AI 代理，支持桌面、CLI 和 API 接口，可使用任何 LLM 进行代码生成、执行和测试。
     en: Goose is a popular open-source AI agent that offers desktop, CLI, and API
       interfaces for code generation, execution, and testing with any LLM.
+  has_readme_full: true
+  readme_full_checked: true
+  retarget_reason: 该项目是Goose AI Agent本身，由AAIF维护，属于列表中记录的Goose工具。
+  retargeted_at: '2026-07-17'
   recommendation_level: try-now
   curation_note: 'Auto-selected by scoring rules: source=github, score=86, resource_types=agent-framework,
     mcp-server.'
@@ -731,6 +949,11 @@
   - opencode
   - cursor
   - github-copilot
+  - hermes-agent
+  - cline
+  - trae
+  - kiro
+  - openclaw
   summary: Graphs that teach > graphs that impress. Turn any code into an interactive
     knowledge graph you can explore, search, and ask questions about. Works with Claude
     Code, Codex, Cursor, Copilot, Gemini CLI, and more.
@@ -773,13 +996,31 @@
   - codebase-analysis
   - developer-tools-ai-agent
   - vibe-coding
-  readme_preview: "Understand Anything\n\n  Turn any codebase, knowledge base, or\
-    \ docs into an interactive knowledge graph you can explore, search, and ask questions\
-    \ about.\n  \n  Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and\
-    \ more.\n\n  Understand Anything. Understand Anyone.\n  \n  AI should help people,\
-    \ not replace them.\n\n  \n\n  English | 简体中文 | 繁體中文 | 日本語 | 한국어 | Español | Türkçe\
-    \ | Русский\n\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n\n  \n\n  An\
-    \ open-source project from Egonex\n  \n  Originally created by Lum11"
+  readme_preview: "<h1 align=\"center\">Understand Anything</h1>\n\n<p align=\"center\"\
+    >\n  <strong>Turn any codebase, knowledge base, or docs into an interactive knowledge\
+    \ graph you can explore, search, and ask questions about.</strong>\n  <br />\n\
+    \  <em>Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.</em>\n\
+    </p>\n\n<p align=\"center\">\n  <strong>Understand Anything. <a href=\"https://egonex.ai\"\
+    >Understand Anyone.</a></strong>\n  <br />\n  <em>AI should help people, not replace\
+    \ them.</em>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://trendshift.io/repositories/23482\"\
+    \ target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/23482\"\
+    \ alt=\"Understand Anything | Trendshift\" style=\"width: 250px; height: 55px;\"\
+    \ width=\"250\" height=\"55\"/></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"\
+    README.md\">English</a> | <a href=\"READMEs/README.zh-CN.md\">简体中文</a> | <a href=\"\
+    READMEs/README.zh-TW.md\">繁體中文</a> | <a href=\"READMEs/README.ja-JP.md\">日本語</a>\
+    \ | <a href=\"READMEs/README.ko-KR.md\">한국어</a> | <a href=\"READMEs/README.es-ES.md\"\
+    >Español</a> | <a href=\"READMEs/README.tr-TR.md\">Türkçe</a> | <a href=\"READMEs/README.ru-RU.md\"\
+    >Русский</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"#-quick-start\"><img src=\"\
+    https://img.shields.io/badge/Quick_Start-blue\" alt=\"Quick Start\" /></a>\n \
+    \ <a href=\"https://github.com/Egonex-AI/Understand-Anything/blob/main/LICENSE\"\
+    ><img src=\"https://img.shields.io/badge/License-MIT-yellow\" alt=\"License: MIT\"\
+    \ /></a>\n  <a href=\"https://docs.anthropic.com/en/docs/claude-code\"><img src=\"\
+    https://img.shields.io/badge/Claude_Code-8A2BE2\" alt=\"Claude Code\" /></a>\n\
+    \  <a href=\"#codex\"><img src=\"https://img.shields.io/badge/Codex-000000\" alt=\"\
+    Codex\" /></a>\n  <a href=\"#vs-code--github-copilot\"><img src=\"https://img.shields.io/badge/Copilot-24292e\"\
+    \ alt=\"Copilot\" /></a>\n  <a href=\"#copilot-cli\"><img src=\"https://img.shields.io/badge/Copilot_CLI-24292e\"\
+    \ alt=\"Copilot CLI\" /></a>\n  <a href=\"#gemini-cli\"><img src=\"https://img.shields.io/badge/Gemini_CLI-4285F4\"\
+    \ alt=\"Gemini CLI\" /></a>\n  <a href=\"#opencode\""
   tags: []
   review_state: auto-curated
   quantifiable_score: 49
@@ -803,6 +1044,10 @@
     zh: 将任意代码库转化为交互式知识图谱，供AI编码代理使用。
     en: An open-source tool that converts any codebase into interactive knowledge
       graphs for AI coding agents.
+  readme_full_checked: true
+  has_readme_full: true
+  retarget_reason: README明确列出这些平台的支持和安装方法，项目topics和标签也包含这些工具。
+  retargeted_at: '2026-07-17'
   recommendation_level: try-now
   curation_note: 'Auto-selected by scoring rules: source=github, score=86, resource_types=cli-tool,
     skills.'
@@ -815,10 +1060,6 @@
   - agent-framework
   target_tools:
   - claude-code
-  - trae
-  - hermes-agent
-  - cline
-  - replit
   summary: Bash is all you need -  A nano claude code–like 「agent harness」, built
     from 0 to 1
   i18n:
@@ -854,6 +1095,11 @@
   readme_preview: '[English](./README.md) | [中文](./README-zh.md) | [日本語](./README-ja.md)
 
 
+    <a href="https://trendshift.io/repositories/19746" target="_blank"><img src="https://trendshift.io/api/badge/repositories/19746"
+    alt="shareAI-lab%2Flearn-claude-code | Trendshift" style="width: 250px; height:
+    55px;" width="250" height="55"/></a>
+
+
     # Learn Claude Code -- Harness Engineering for Real Agents
 
 
@@ -866,7 +1112,36 @@
     **Agency -- the capacity to perceive, reason, and act -- comes from model training,
     not from external code orchestration.** But a working agent product needs both
     the model and the harness. The model is the driver. The harness is the vehicle.
-    T'
+    This repository teaches you how to build the vehicle.
+
+
+    ### Where Agency Comes From
+
+
+    At the core of every agent is a neural network -- a Transformer, an RNN, a trained
+    function -- shaped by billions of gradient updates on sequences of perception,
+    reasoning, and action. Agency was never bestowed by the surrounding code. It was
+    learned during training.
+
+
+    Humans are the original proof. A biological neural network, refined by millions
+    of years of evolutionary pressure, perceives the world through senses, reasons
+    through a brain, and acts through a body. When DeepMind, OpenAI, or Anthropic
+    say "agent," they all mean the same core thing: **a model that learned to act
+    through training, plus the infrastructure that lets it operate in a specific environment.**
+
+
+    The historical record is unambiguous:
+
+
+    - **2013 -- DeepMind DQN plays Atari.** A single neural network, receiving only
+    raw pixels and game scores, learned 7 Atari 2600 games -- surpassing prior algorithms
+    and beating human experts in 3 of them. By 2015, scaled to [49 games at professional
+    tester level](https://www.nature.com/articles/nature14236), published in *Nature*.
+    No game-specific rules. One model, learning from experience.
+
+
+    - **2019 -- OpenAI Five conquers Dota 2.** Five neural net'
   tags: []
   review_state: auto-curated
   quantifiable_score: 49
@@ -890,6 +1165,10 @@
     zh: 从零构建类Claude Code的Agent Harness的实践教程，高星项目，教育价值大。
     en: A practical tutorial for building a Claude Code-like agent harness from scratch,
       highly starred and educationally valuable.
+  readme_full_checked: true
+  has_readme_full: true
+  retarget_reason: 项目是学习Claude Code的教程，核心是构建类Claude Code的agent harness，主题明确包含claude-code。
+  retargeted_at: '2026-07-17'
   recommendation_level: try-now
   curation_note: 'Auto-selected by scoring rules: source=github, score=86, resource_types=agent-framework.'
 - id: github-rtk-ai-rtk
@@ -904,8 +1183,13 @@
   - codex-cli
   - antigravity-cli
   - opencode
-  - qoder
+  - cursor
+  - hermes-agent
+  - github-copilot
+  - windsurf
   - cline
+  - kilo-code
+  - openclaw
   summary: CLI proxy that reduces LLM token consumption by 60-90% on common dev commands.
     Single Rust binary, zero dependencies
   i18n:
@@ -941,13 +1225,32 @@
   - productivity
   - rust
   - token-optimization
-  readme_preview: "High-performance CLI proxy that reduces LLM token consumption by\
-    \ 60-90%\n\n  \n  \n  \n  \n  \n\n  Website &bull;\n  Install &bull;\n  Troubleshooting\
-    \ &bull;\n  Architecture &bull;\n  Discord\n\n  English &bull;\n  Francais &bull;\n\
-    \  中文 &bull;\n  日本語 &bull;\n  한국어 &bull;\n  Espanol &bull;\n  Português\n\n---\n\
-    \nrtk filters and compresses command outputs before they reach your LLM context.\
-    \ Single Rust binary, 100+ supported commands,  Estimates based on medium-sized\
-    \ TypeScript/Rust projects. Actual savings vary by proje"
+  readme_preview: "<p align=\"center\">\n  <img src=\"https://avatars.githubusercontent.com/u/258253854?v=4\"\
+    \ alt=\"RTK - Rust Token Killer\" width=\"500\">\n</p>\n\n<p align=\"center\"\
+    >\n  <strong>High-performance CLI proxy that reduces LLM token consumption by\
+    \ 60-90%</strong>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/rtk-ai/rtk/actions\"\
+    ><img src=\"https://github.com/rtk-ai/rtk/workflows/Security%20Check/badge.svg\"\
+    \ alt=\"CI\"></a>\n  <a href=\"https://github.com/rtk-ai/rtk/releases\"><img src=\"\
+    https://img.shields.io/github/v/release/rtk-ai/rtk\" alt=\"Release\"></a>\n  <a\
+    \ href=\"https://opensource.org/licenses/Apache-2.0\"><img src=\"https://img.shields.io/badge/License-Apache_2.0-blue.svg\"\
+    \ alt=\"License: Apache 2.0\"></a>\n  <a href=\"https://discord.gg/RySmvNF5kF\"\
+    ><img src=\"https://img.shields.io/discord/1470188214710046894?label=Discord&logo=discord\"\
+    \ alt=\"Discord\"></a>\n  <a href=\"https://formulae.brew.sh/formula/rtk\"><img\
+    \ src=\"https://img.shields.io/homebrew/v/rtk\" alt=\"Homebrew\"></a>\n</p>\n\n\
+    <p align=\"center\">\n  <a href=\"https://www.rtk-ai.app\">Website</a> &bull;\n\
+    \  <a href=\"#installation\">Install</a> &bull;\n  <a href=\"https://www.rtk-ai.app/guide/troubleshooting\"\
+    >Troubleshooting</a> &bull;\n  <a href=\"docs/contributing/ARCHITECTURE.md\">Architecture</a>\
+    \ &bull;\n  <a href=\"https://discord.gg/RySmvNF5kF\">Discord</a>\n</p>\n\n<p\
+    \ align=\"center\">\n  <a href=\"README.md\">English</a> &bull;\n  <a href=\"\
+    README_fr.md\">Francais</a> &bull;\n  <a href=\"README_zh.md\">中文</a> &bull;\n\
+    \  <a href=\"README_ja.md\">日本語</a> &bull;\n  <a href=\"README_ko.md\">한국어</a>\
+    \ &bull;\n  <a href=\"README_es.md\">Espanol</a> &bull;\n  <a href=\"README_pt.md\"\
+    >Português</a>\n</p>\n\n---\n\nrtk filters and compresses command outputs before\
+    \ they reach your LLM context. Single Rust binary, 100+ supported commands, <10ms\
+    \ overhead.\n\n## Token Savings (30-min Claude Code Session)\n\n| Operation |\
+    \ Frequency | Standard | rtk | Savings |\n|-----------|-----------|----------|-----|---------|\n\
+    | `ls` / `tree` | 10x | 2,000 | 400 | -80% |\n| `cat` / `read` | 20x | 40,000\
+    \ | 12,00"
   tags: []
   review_state: auto-curated
   quantifiable_score: 49
@@ -972,6 +1275,11 @@
     en: A high-performance CLI proxy that drastically reduces LLM token consumption
       by intelligently filtering and compressing command output, serving as a crucial
       cost-optimization tool for AI coding agents.
+  readme_full_checked: true
+  has_readme_full: true
+  retarget_reason: 项目rtk是一个通用CLI代理，通过命令重写减少LLM token消耗，在README中明确列出支持包括Claude Code、Codex、Gemini
+    CLI、OpenCode、Cursor、Hermes、GitHub Copilot、Windsurf、Cline、Kilo Code、OpenClaw等多种AI编码工具。
+  retargeted_at: '2026-07-17'
   recommendation_level: watch
   curation_note: 'Auto-selected by scoring rules: source=github, score=86, resource_types=cli-tool.'
 - id: github-ruvnet-ruflo
@@ -1034,14 +1342,41 @@
   - typescript
   - ai-agents
   - harness
-  readme_preview: '[![Ruflo Banner](ruflo/assets/ruflo-small.jpeg)](https://cognitum.one/agentic-engineering)
+  readme_preview: '<div align="center">
+
+
+    [![Ruflo Banner](ruflo/assets/ruflo-small.jpeg)](https://cognitum.one/agentic-engineering)
 
     [![Agentics Foundation Banner](docs/assets/sv-summit.png)](https://agentics.org/siliconvalley/?UTM=GH-RuFlo-SV)
 
 
+
+    <!-- Try Ruflo — the 4 badges first-time visitors actually act on -->
+
     [![Try the UI Beta — flo.ruv.io](https://img.shields.io/badge/_Try_the_UI_Beta-flo.ruv.io-6366f1?style=for-the-badge&logoColor=white&logo=svelte)](https://flo.ruv.io/)
 
-    [![npm version (ruflo)](https://img.shields.io/npm/v/ruflo?label=npx%20ruflo&style=for-the-badge&logo=npm&color=cb3837)](https:/'
+    [![npm version (ruflo)](https://img.shields.io/npm/v/ruflo?label=npx%20ruflo&style=for-the-badge&logo=npm&color=cb3837)](https://www.npmjs.com/package/ruflo)
+
+    [![MIT License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
+    [![Star on GitHub](https://img.shields.io/github/stars/ruvnet/claude-flow?style=for-the-badge&logo=github&color=gold)](https://github.com/ruvnet/claude-flow)
+
+
+    <!-- Ecosystem strip (collapsed visually with flat-square) -->
+
+    [![Goal Planner](https://img.shields.io/badge/_Goal_Planner-goal.ruv.io-8b5cf6?style=flat-square&logoColor=white&logo=react)](https://goal.ruv.io/)
+
+    [![Live Agents](https://img.shields.io/badge/_Live_Agents-goal.ruv.io%2Fagents-10b981?style=flat-square&logoColor=white&logo=react)](https://goal.ruv.io/agents)
+
+    [![🕸️ RuVector Agentic DB](https://img.shields.io/badge/RuVector_Agentic-DB-06b6d4?style=flat-square&logoColor=white&logo=graphql)](https://github.com/ruvnet/ruvector)
+
+    [![Ecosystem downloads](https://img.shields.io/badge/ecosystem%20downloads-8.1M%2B-blue?style=flat-square&logo=npm)](https://github.com/ruvnet/ruflo/blob/main/data/clone-data.proof.json)
+
+    [![Git clones (14d)](https://img.shields.io/badge/git%20clones%2014d-106k-blueviolet?style=flat-square&logo=github)](https://github.com/ruvnet/ruflo/blob/main/data/clone-data.ledger.json)
+
+    [![Claude Code](https://img.shields.io/badge/Claude%20Code-Plugin-D97757?style=flat-square&logoColor=white&logo=anthropic)](https://github.com/ruvnet/claude-flow)
+
+    [![Codex Plugin]('
   tags: []
   review_state: auto-curated
   quantifiable_score: 49
@@ -1065,6 +1400,11 @@
     zh: 领先的智能体元控制框架，支持多智能体群部署、自适应记忆和 RAG，原生集成 Claude Code。
     en: A leading agent meta-harness for deploying intelligent multi-agent swarms
       with native Claude Code integration, adaptive memory, and RAG.
+  readme_full_checked: true
+  has_readme_full: true
+  retarget_reason: The project is explicitly built as a meta-harness for Claude Code
+    and Codex, with plugins and integrations for both.
+  retargeted_at: '2026-07-17'
   recommendation_level: try-now
   curation_note: 'Auto-selected by scoring rules: source=github, score=86, resource_types=agent-framework,
     mcp-server, skills.'
@@ -1076,7 +1416,10 @@
   resource_type:
   - mcp-server
   target_tools:
-  - general-ai-coding
+  - claude-code
+  - codex-cli
+  - antigravity-cli
+  - cursor
   summary: The best-benchmarked open-source AI memory system. And it's free.
   i18n:
     zh:
@@ -1102,7 +1445,13 @@
   - mcp
   - memory
   - python
-  readme_preview: '# MemPalace
+  readme_preview: '<div align="center">
+
+
+    <img src="assets/mempalace_logo.png" alt="MemPalace" width="240">
+
+
+    # MemPalace
 
 
     Local-first AI memory. Verbatim storage, pluggable backend, 96.6% R@5 raw on LongMemEval
@@ -1118,11 +1467,70 @@
     [![][discord-shield]][discord-link]
 
 
+    </div>
+
+
     > [!CAUTION]
 
     > **Beware of impostor sites.** MemPalace has no other official websites. The
     **only** official sources are this **[GitHub repository](https://github.com/MemPalace/mempalace)**,
-    the **[PyPI package](https://pypi.org/project'
+    the **[PyPI package](https://pypi.org/project/mempalace/)**, and the docs at **[mempalaceofficial.com](https://mempalaceofficial.com)**.
+    Any other domain (including `.tech`, `.net`, or other `.com` variants) is an impostor
+    and may distribute malware. Details and timeline: [docs/HISTORY.md](docs/HISTORY.md).
+
+
+    > [!IMPORTANT]
+
+    > **Claude Code sessions expire in 30 days without auto-save hooks wired.** [Read
+    this →](https://github.com/MemPalace/mempalace/discussions/1388)
+
+    >
+
+    > Need the shortest recovery/setup path? Use the [Claude Code retention setup
+    checklist](https://mempalaceofficial.com/guide/claude-code-retention.html).
+
+
+    ---
+
+
+    ## What it is
+
+
+    MemPalace stores your conversation history as verbatim text and retrieves
+
+    it with semantic search. It does not summarize, extract, or paraphrase.
+
+    The index is structured — people and projects become *wings*, topics
+
+    become *rooms*, and original content lives in *drawers* — so searches
+
+    can be scoped rather than run against a flat corpus.
+
+
+    The retrieval layer is pluggable. The current default is ChromaDB; the
+
+    interface is defined in [`mempalace/backends/base.py`](mempalace/backends/base.py)
+
+    and alternative backends can be dropped in without touching the rest of
+
+    the system.
+
+
+    Nothing leaves your machine unless you opt in.
+
+
+    Architecture, concepts, and mining flows:
+
+    [mempalaceofficial.com/concepts/the-palace](https://mempalaceofficial.com/concepts/the-palace.html).
+
+
+    ---
+
+
+    ## Install
+
+
+    MemPalace sh'
   tags: []
   review_state: auto-curated
   quantifiable_score: 49
@@ -1146,6 +1554,11 @@
     zh: 最佳基准测试的开源AI记忆系统，本地优先，可插拔后端，高召回率，对AI编程代理生态有重要价值。
     en: Best-benchmarked open-source AI memory system, local-first with pluggable
       backend, high recall, valuable for AI coding agent ecosystem.
+  readme_full_checked: true
+  has_readme_full: true
+  retarget_reason: 该项目提供 AI 记忆系统，并为 Claude Code、Codex CLI、Cursor IDE 和 Gemini CLI
+    提供自动保存钩子和集成指南。
+  retargeted_at: '2026-07-17'
   recommendation_level: try-now
   curation_note: 'Auto-selected by scoring rules: source=github, score=86, resource_types=mcp-server.'
 - id: github-juliusbrussee-caveman
@@ -1158,7 +1571,6 @@
   - rules
   target_tools:
   - claude-code
-  - cline
   summary: 🪨 why use many token when few token do trick — Claude Code skill that cuts
     65% of tokens by talking like caveman
   i18n:
@@ -1175,7 +1587,7 @@
   forks: 4758
   last_updated: '2026-07-06T15:07:41Z'
   first_seen: '2026-07-13'
-  last_seen: '2026-07-17'
+  last_seen: '2026-07-18'
   maturity: unknown
   languages:
   - JavaScript
@@ -1190,13 +1602,31 @@
   - prompt-engineering
   - skill
   - tokens
-  readme_preview: "why use many token when few do trick\n\n  Make your AI coding agent\
-    \ talk like a caveman.\n  Same answers, 65% fewer output tokens. Brain still big.\
-    \ Mouth small.\n\n  \n  \n  \n  \n\n  See it ·\n  Install ·\n  Levels ·\n  What\
-    \ you get ·\n  Benchmarks ·\n  Ecosystem ·\n  Caveman 2\n\n---\n\nCaveman is a\
-    \ skill/plugin for [Claude Code](https://docs.anthropic.com/en/docs/claude-code),\
-    \ Codex, Gemini, Cursor, Windsurf, Cline, Copilot, and 30+ other agents. Install\
-    \ once. Agent drops the filler and answers in tight caveman-"
+  readme_preview: "<p align=\"center\">\n  <img src=\"docs/assets/caveman-logo-banner.png\"\
+    \ alt=\"Caveman\" width=\"720\">\n</p>\n\n<p align=\"center\">\n  <strong>why\
+    \ use many token when few do trick</strong>\n</p>\n\n<p align=\"center\">\n  Make\
+    \ your AI coding agent talk like a caveman.<br>\n  Same answers, <strong>65% fewer\
+    \ output tokens</strong>. Brain still big. Mouth small.\n</p>\n\n<p align=\"center\"\
+    >\n  <a href=\"https://github.com/JuliusBrussee/caveman/stargazers\"><img src=\"\
+    https://img.shields.io/github/stars/JuliusBrussee/caveman?style=flat&color=yellow\"\
+    \ alt=\"Stars\"></a>\n  <a href=\"./INSTALL.md\"><img src=\"https://img.shields.io/badge/works_with-30%2B_agents-orange?style=flat\"\
+    \ alt=\"30+ agents\"></a>\n  <a href=\"https://github.com/JuliusBrussee/caveman/commits/main\"\
+    ><img src=\"https://img.shields.io/github/last-commit/JuliusBrussee/caveman?style=flat\"\
+    \ alt=\"Last commit\"></a>\n  <a href=\"LICENSE\"><img src=\"https://img.shields.io/github/license/JuliusBrussee/caveman?style=flat\"\
+    \ alt=\"License\"></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"#before--after\"\
+    >See it</a> ·\n  <a href=\"#install\">Install</a> ·\n  <a href=\"#pick-your-grunt\"\
+    >Levels</a> ·\n  <a href=\"#what-you-get\">What you get</a> ·\n  <a href=\"#benchmarks\"\
+    >Benchmarks</a> ·\n  <a href=\"#the-whole-cave\">Ecosystem</a> ·\n  <a href=\"\
+    #caveman-2\">Caveman 2</a>\n</p>\n\n---\n\nCaveman is a skill/plugin for [Claude\
+    \ Code](https://docs.anthropic.com/en/docs/claude-code), Codex, Gemini, Cursor,\
+    \ Windsurf, Cline, Copilot, and 30+ other agents. Install once. Agent drops the\
+    \ filler and answers in tight caveman-speak, keeping code, commands, and errors\
+    \ byte-for-byte exact. You save output tokens on every reply, forever.\n\n## Before\
+    \ / After\n\n<table>\n<tr>\n<th width=\"50%\">\U0001F5E3️ Normal agent — 69 tokens</th>\n\
+    <th width=\"50%\"><img src=\"docs/assets/dancing-rock.svg\" width=\"18\" height=\"\
+    18\" alt=\"\"> Caveman agent — 19 tokens</th>\n</tr>\n<tr>\n<td valign=\"top\"\
+    >\n\n> The reason your React component is re-rendering is likely because you're\
+    \ creating a new object reference on each render cycle. When you pass "
   tags: []
   review_state: auto-curated
   quantifiable_score: 49
@@ -1219,6 +1649,11 @@
     zh: 通过让AI说‘穴居人语’大幅节省token的幽默技能，适用于主流AI编程代理。
     en: A humorous skill that drastically reduces token usage by making AI talk like
       a caveman, applicable to mainstream AI coding agents.
+  has_readme_full: true
+  readme_full_checked: true
+  retarget_reason: Caveman 是一个跨多个 AI 编码工具的 prompt 技能，README 明确列出与 Claude Code、Codex
+    CLI、Gemini CLI、Cursor、GitHub Copilot、Windsurf、Cline、OpenClaw 等兼容，并强调适用于 30+ agent。
+  retargeted_at: '2026-07-17'
   recommendation_level: try-now
   curation_note: 'Auto-selected by scoring rules: source=github, score=85, resource_types=skills,
     rules.'
@@ -1258,7 +1693,26 @@
     \ align=\"center\">\n\n<div align=\"center\">\n<table>\n<tbody>\n<td align=\"\
     center\">\n<a href=\"https://docs.cline.bot\" target=\"_blank\"><strong>Docs</strong></a>\n\
     </td>\n<td align=\"center\">\n<a href=\"https://discord.gg/cline\" target=\"_blank\"\
-    ><strong>Discord</strong></a>\n</td>\n<td align=\"center\">\n<a href=\"https://"
+    ><strong>Discord</strong></a>\n</td>\n<td align=\"center\">\n<a href=\"https://www.reddit.com/r/cline/\"\
+    \ target=\"_blank\"><strong>r/cline</strong></a>\n</td>\n<td align=\"center\"\
+    >\n<a href=\"https://github.com/cline/cline/discussions/categories/feature-requests?discussions_q=is%3Aopen+category%3A%22Feature+Requests%22+sort%3Atop\"\
+    \ target=\"_blank\"><strong>Feature Requests</strong></a>\n</td>\n<td align=\"\
+    center\">\n<a href=\"https://cline.bot/join-us\" target=\"_blank\"><strong>Join\
+    \ us!</strong></a>\n</td>\n</tbody>\n</table>\n</div>\n\n</div>\n\n<br>\n\n<div\
+    \ align=\"center\">\n<table>\n<tr>\n<td align=\"center\" width=\"50%\">\n\n###\
+    \ CLI\n\nRun Cline in your terminal.\nInteractive chat or fully headless\nfor\
+    \ CI/CD and scripting.\n\n```\nnpm i -g cline\n```\n\n<a href=\"./apps/cli/README.md\"\
+    >Learn more</a>\n<br><br>\n\n</td>\n<td align=\"center\" width=\"50%\">\n\n###\
+    \ Kanban\n\nRun many agents in parallel from a\nweb-based task board. Each card\
+    \ gets its own\nworktree, auto-commit, and dependency chains.\n\n```\nnpm i -g\
+    \ kanban\n```\n\n<a href=\"https://github.com/cline/kanban\">Learn more</a>\n\
+    <br><br>\n\n</td>\n</tr>\n<tr>\n<td align=\"center\" width=\"50%\">\n\n### VS\
+    \ Code Extension\n\nAI coding assistant in your editor.\nCreate files, run commands,\
+    \ browse the web,\nand use tools with human-in-the-loop approval.\n\n<a href=\"\
+    https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev\">Install\
+    \ from VS Marketplace</a>\n<br><br>\n\n</td>\n<td align=\"center\" width=\"50%\"\
+    >\n\n### JetBrains Plugin\n\nThe same Cline experience in IntelliJ IDEA,\nPyCharm,\
+    \ WebStorm, GoLand, and the rest of\nthe JetBrains family.\n\n<a href=\"https://plugins.jetbrai"
   tags: []
   review_state: auto-curated
   quantifiable_score: 49
@@ -1281,6 +1735,10 @@
     zh: Cline 是一个强大的开源自主编程代理，可作为 SDK、IDE 扩展或命令行工具使用。
     en: Cline is a powerful open-source autonomous coding agent that can be used as
       an SDK, IDE extension, or CLI assistant.
+  has_readme_full: true
+  readme_full_checked: true
+  retarget_reason: 项目本身是 Cline 编码代理工具的官方仓库，提供 CLI、IDE 扩展、SDK 等。
+  retargeted_at: '2026-07-17'
   recommendation_level: try-now
   curation_note: 'Auto-selected by scoring rules: source=github, score=85, resource_types=extension,
     agent-framework, cli-tool.'
@@ -1295,8 +1753,12 @@
   target_tools:
   - claude-code
   - codex-cli
-  - antigravity-cli
   - cursor
+  - antigravity-cli
+  - opencode
+  - windsurf
+  - github-copilot
+  - kiro
   summary: Production-grade engineering skills for AI coding agents.
   i18n:
     zh:
@@ -1325,10 +1787,29 @@
   readme_preview: "# Agent Skills\n\n**Production-grade engineering skills for AI\
     \ coding agents.**\n\nSkills encode the workflows, quality gates, and best practices\
     \ that senior engineers use when building software. These ones are packaged so\
-    \ AI agents follow them consistently across every phase of development.\n\n![Addy's\
-    \ Agent Skills](https://addyosmani.com/assets/images/addys-agent-skills.jpg)\n\
+    \ AI agents follow them consistently across every phase of development.\n\n<a\
+    \ href=\"https://trendshift.io/repositories/25200\" target=\"_blank\"><img src=\"\
+    https://trendshift.io/api/badge/repositories/25200\" alt=\"addyosmani%2Fagent-skills\
+    \ | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"\
+    55\"/></a>\n\n![Addy's Agent Skills](https://addyosmani.com/assets/images/addys-agent-skills.jpg)\n\
     \n```\n  DEFINE          PLAN           BUILD          VERIFY         REVIEW \
-    \         SHIP\n ┌──────┐      ┌──────┐      ┌──────┐"
+    \         SHIP\n ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐\
+    \      ┌──────┐\n │ Idea │ ───▶ │ Spec │ ───▶ │ Code │ ───▶ │ Test │ ───▶ │  QA\
+    \  │ ───▶ │  Go  │\n │Refine│      │  PRD │      │ Impl │      │Debug │      │\
+    \ Gate │      │ Live │\n └──────┘      └──────┘      └──────┘      └──────┘  \
+    \    └──────┘      └──────┘\n  /spec          /plan          /build        /test\
+    \         /review       /ship\n```\n\n---\n\n## Commands\n\n8 slash commands that\
+    \ map to the development lifecycle. Each one activates the right skills automatically.\n\
+    \n| What you're doing | Command | Key principle |\n|-------------------|---------|---------------|\n\
+    | Define what to build | `/spec` | Spec before code |\n| Plan how to build it\
+    \ | `/plan` | Small, atomic tasks |\n| Build incrementally | `/build` | One slice\
+    \ at a time |\n| Prove it works | `/test` | Tests are proof |\n| Review before\
+    \ merge | `/review` | Improve code health |\n| Audit web performance | `/webperf`\
+    \ | Measure before you optimize |\n| Simplify the code | `/code-simplify` | Clarity\
+    \ over cleverness |\n| Ship to production | `/ship` | Faster is safer |\n\nWant\
+    \ fewer manual steps once the spec exists? **`/build auto`** generates the plan\
+    \ and implements every task in a single approved pass — you approve the plan once,\
+    \ then it runs autonomously. It removes the hu"
   tags: []
   review_state: auto-curated
   quantifiable_score: 49
@@ -1352,6 +1833,11 @@
     zh: 为AI编码代理提供生产级工程技能的规则和最佳实践集合。
     en: A production-grade collection of engineering skills and best practices packaged
       for AI coding agents.
+  readme_full_checked: true
+  has_readme_full: true
+  retarget_reason: 项目README明确提供了针对Claude Code、Codex CLI、Cursor、Antigravity CLI、OpenCode、Windsurf、GitHub
+    Copilot、Kiro等多种AI编码工具的skills安装指南，且topics和当前标签也包含了这些工具。
+  retargeted_at: '2026-07-17'
   recommendation_level: try-now
   curation_note: 'Auto-selected by scoring rules: source=github, score=85, resource_types=skills,
     agent-framework.'
@@ -1365,10 +1851,7 @@
   target_tools:
   - claude-code
   - codex-cli
-  - trae
-  - hermes-agent
-  - cline
-  - replit
+  - cursor
   summary: 'Taste-Skill - gives your AI good taste. stops the AI from generating boring,
     generic slop '
   i18n:
@@ -1404,13 +1887,33 @@
   - codex
   - design
   - frontend
-  readme_preview: "# Taste Skill\n\n  The Anti-Slop Frontend Framework for AI Agents\n\
-    \n  \n\nSponsors\n\n  \n    \n    Emil Kowalski · animations.dev\n  \n  \n   \
-    \ \n    \n  \n\nBecome a sponsor\n\nPortable **Agent Skills** that upgrade AI-built\
-    \ interfaces: stronger layout, typography, motion, and spacing instead of boilerplate-looking\
-    \ UIs. This repo also includes **image-generation skills** for reference boards\
-    \ (web, mobile, brand kits). Pair them with **ChatGPT Images** or similar generators,\
-    \ then hand the frames to Codex, Cursor,"
+  readme_preview: "<p align=\"center\">\n  <img src=\"assets/readme-banner.webp\"\
+    \ alt=\"Taste Skill - Anti-slop Agent Skills for premium frontends\" width=\"\
+    100%\" />\n</p>\n\n# Taste Skill\n\n<p align=\"center\">\n  <em>The Anti-Slop\
+    \ Frontend Framework for AI Agents</em>\n</p>\n\n<p align=\"center\" style=\"\
+    margin-bottom: 8px;\">\n  <a href=\"https://tasteskill.dev\" title=\"Visit tasteskill.dev\"\
+    ><img src=\"assets/readme-buttons/btn-site.webp\" alt=\"Visit tasteskill.dev\"\
+    \ height=\"56\" /></a>\n</p>\n\n<h3 align=\"center\">Sponsors</h3>\n\n<table align=\"\
+    center\">\n  <tr>\n    <td align=\"center\" width=\"76\"><a href=\"https://www.sent.dm\"\
+    ><img src=\"assets/sponsors/sentdm.png\" alt=\"Sent.dm\" width=\"62\" height=\"\
+    62\" /></a></td>\n    <td><sub><a href=\"https://www.sent.dm\"><strong>Sent.dm</strong></a>\
+    \ · messaging APIs for SMS, WhatsApp, and RCS</sub></td>\n  </tr>\n  <tr>\n  \
+    \  <td align=\"center\" width=\"76\"><a href=\"https://animations.dev\"><img src=\"\
+    assets/sponsors/animations-dev.webp\" alt=\"animations.dev\" width=\"62\" height=\"\
+    62\" /></a></td>\n    <td><sub><a href=\"https://github.com/emilkowalski\"><strong>Emil\
+    \ Kowalski</strong></a> · <a href=\"https://animations.dev\">animations.dev</a></sub></td>\n\
+    \  </tr>\n  <tr>\n    <td align=\"center\" width=\"76\"><a href=\"https://vercel.com/open-source-program\"\
+    ><img src=\"assets/sponsors/vercel-logo.svg\" alt=\"Vercel\" width=\"62\" height=\"\
+    62\" /></a></td>\n    <td><a href=\"https://vercel.com/open-source-program\"><img\
+    \ src=\"assets/vercel-oss-program-badge.svg\" alt=\"Vercel Open Source Program\"\
+    \ height=\"32\" /></a></td>\n  </tr>\n</table>\n\n<p align=\"center\"><sub><a\
+    \ href=\"https://github.com/sponsors/Leonxlnx\">Become a sponsor</a></sub></p>\n\
+    \nPortable **Agent Skills** that upgrade AI-built interfaces: stronger layout,\
+    \ typography, motion, and spacing instead of boilerplate-looking UIs. This repo\
+    \ also includes **image-generation skills** for reference boards (web, mobile,\
+    \ brand kits). Pair them with **ChatGPT Images** or similar generators, then hand\
+    \ the frames to Codex, Cursor, or Claude Code for implementation.\n\n<p align=\"\
+    center\">"
   tags: []
   review_state: auto-curated
   quantifiable_score: 49
@@ -1434,6 +1937,10 @@
     zh: 给AI代理提供良好品味的前端技能框架，专为消除模板化低质量输出而设计。
     en: An anti-slop frontend framework for AI agents that upgrades AI-built interfaces
       with better layout, typography, motion, and spacing.
+  readme_full_checked: true
+  has_readme_full: true
+  retarget_reason: README明确说明与Codex, Cursor, Claude Code配合使用，且安装方式兼容这些工具。
+  retargeted_at: '2026-07-17'
   recommendation_level: try-now
   curation_note: 'Auto-selected by scoring rules: source=github, score=85, resource_types=skills.'
 - id: github-fission-ai-openspec
@@ -1475,14 +1982,27 @@
   - spec-driven-development
   - specification
   - sdd
-  readme_preview: 'The most loved spec framework.
-
-
-    [![Stars](https://img.shields.io/github/stars/Fission-AI/OpenSpec?style=flat-square&label=Stars)](https://github.com/Fission-AI/OpenSpec/stargazers)
-
-    [![Downloads](https://img.shields.io/npm/dm/@fission-ai/openspec?style=flat-square&label=Downloads/mo)](https://www.npmjs.com/package/@fission-ai/openspec)
-
-    [![Contributors](https://img.shields.io/github/contributors/Fission-AI/OpenSpec?style=flat-square&label=Contributors)](https://github.com/Fission-AI/OpenSpec/graph'
+  readme_preview: "<p align=\"center\">\n  <a href=\"https://github.com/Fission-AI/OpenSpec\"\
+    >\n    <picture>\n      <source srcset=\"assets/openspec_bg.png\">\n      <img\
+    \ src=\"assets/openspec_bg.png\" alt=\"OpenSpec logo\">\n    </picture>\n  </a>\n\
+    </p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/Fission-AI/OpenSpec/actions/workflows/ci.yml\"\
+    ><img alt=\"CI\" src=\"https://github.com/Fission-AI/OpenSpec/actions/workflows/ci.yml/badge.svg\"\
+    \ /></a>\n  <a href=\"https://www.npmjs.com/package/@fission-ai/openspec\"><img\
+    \ alt=\"npm version\" src=\"https://img.shields.io/npm/v/@fission-ai/openspec?style=flat-square\"\
+    \ /></a>\n  <a href=\"./LICENSE\"><img alt=\"License: MIT\" src=\"https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square\"\
+    \ /></a>\n  <a href=\"https://discord.gg/YctCnvvshC\"><img alt=\"Discord\" src=\"\
+    https://img.shields.io/discord/1411657095639601154?style=flat-square&logo=discord&logoColor=white&label=Discord&suffix=%20online\"\
+    \ /></a>\n</p>\n\n<details>\n<summary><strong>The most loved spec framework.</strong></summary>\n\
+    \n[![Stars](https://img.shields.io/github/stars/Fission-AI/OpenSpec?style=flat-square&label=Stars)](https://github.com/Fission-AI/OpenSpec/stargazers)\n\
+    [![Downloads](https://img.shields.io/npm/dm/@fission-ai/openspec?style=flat-square&label=Downloads/mo)](https://www.npmjs.com/package/@fission-ai/openspec)\n\
+    [![Contributors](https://img.shields.io/github/contributors/Fission-AI/OpenSpec?style=flat-square&label=Contributors)](https://github.com/Fission-AI/OpenSpec/graphs/contributors)\n\
+    \n</details>\n<p></p>\nOur philosophy:\n\n```text\n→ fluid not rigid\n→ iterative\
+    \ not waterfall\n→ easy not complex\n→ built for brownfield not just greenfield\n\
+    → scalable from personal projects to enterprises\n```\n\n> [!TIP]\n> **New workflow\
+    \ now available!** We've rebuilt OpenSpec with a new artifact-guided workflow.\n\
+    >\n> Run `/opsx:propose \"your idea\"` to get started. → [Learn more here](docs/opsx.md)\n\
+    \n<p align=\"center\">\n  Follow <a href=\"https://x.com/0xTab\">@0xTab on X</a>\
+    \ for updates · Join the <a href=\"https://discord.g"
   tags: []
   review_state: auto-curated
   quantifiable_score: 49
@@ -1506,6 +2026,10 @@
     zh: 为AI编码助手设计的规范驱动开发框架，通过结构化规范提升代码生成质量。
     en: A spec-driven development framework for AI coding assistants, enabling structured
       specification and planning to improve code generation.
+  readme_full_checked: true
+  has_readme_full: true
+  retarget_reason: OpenSpec 是一个规范驱动的开发框架，用于 AI 编码助手，但不特定于任何单一工具，而是与多个 AI 编码工具集成。
+  retargeted_at: '2026-07-17'
   recommendation_level: try-now
   curation_note: 'Auto-selected by scoring rules: source=github, score=85, resource_types=agent-framework,
     cli-tool.'
@@ -1554,7 +2078,24 @@
 
 
     [![Website](https://img.shields.io/badge/Website-context7.com-blue)](https://context7.com)
-    [![smithery badge](https://smithery.ai/badge/@upstash/context7-mcp)](https://sm'
+    [![smithery badge](https://smithery.ai/badge/@upstash/context7-mcp)](https://smithery.ai/server/@upstash/context7-mcp)
+    [![NPM Version](https://img.shields.io/npm/v/%40upstash%2Fcontext7-mcp?color=red)](https://www.npmjs.com/package/@upstash/context7-mcp)
+    [![MIT licensed](https://img.shields.io/npm/l/%40upstash%2Fcontext7-mcp)](./LICENSE)
+
+
+    [![繁體中文](https://img.shields.io/badge/docs-繁體中文-yellow)](./i18n/README.zh-TW.md)
+    [![简体中文](https://img.shields.io/badge/docs-简体中文-yellow)](./i18n/README.zh-CN.md)
+    [![日本語](https://img.shields.io/badge/docs-日本語-b7003a)](./i18n/README.ja.md) [![한국어
+    문서](https://img.shields.io/badge/docs-한국어-green)](./i18n/README.ko.md) [![Documentación
+    en Español](https://img.shields.io/badge/docs-Español-orange)](./i18n/README.es.md)
+    [![Documentation en Français](https://img.shields.io/badge/docs-Français-blue)](./i18n/README.fr.md)
+    [![Documentação em Português (Brasil)](<https://img.shields.io/badge/docs-Português%20(Brasil)-purple>)](./i18n/README.pt-BR.md)
+    [![Documentazione in italiano](https://img.shields.io/badge/docs-Italian-red)](./i18n/README.it.md)
+    [![Dokumentasi Bahasa Indonesia](https://img.shields.io/badge/docs-Bahasa%20Indonesia-pink)](./i18n/README.id-ID.md)
+    [![Dokumentation auf Deutsch](https://img.shields.io/badge/docs-Deutsch-darkgreen)](./i18n/README.de.md)
+    [![Документация на русском языке](https://img.shields.io/badge/docs-Русский-darkblue)](./i18n/README.ru.md)
+    [![Українська документація](https://img.shields.io/badge/docs-Українська-lightblue)](./i18n/README.uk.md)
+    [![Türkçe Doküman](https://img.shields.io/badge/docs-Tü'
   tags: []
   review_state: auto-curated
   quantifiable_score: 49
@@ -1578,6 +2119,11 @@
     zh: Context7 是一个 MCP 服务器，为 LLM 和 AI 代码编辑器提供最新的代码文档。
     en: Context7 is an MCP server that provides LLMs and AI code editors with up-to-date
       code documentation from various libraries and frameworks.
+  readme_full_checked: true
+  has_readme_full: true
+  retarget_reason: Context7 是一个通用的 MCP 服务器，为 LLM 和 AI 代码编辑器提供最新文档，不专属于某个具体工具，而是可被多种
+    AI 编码工具使用。
+  retargeted_at: '2026-07-17'
   recommendation_level: try-now
   curation_note: 'Auto-selected by scoring rules: source=github, score=85, resource_types=mcp-server.'
 - id: github-foundationagents-openmanus
@@ -1608,19 +2154,24 @@
   languages:
   - Python
   topics: []
-  readme_preview: 'English | [中文](README_zh.md) | [한국어](README_ko.md) | [日本語](README_ja.md)
-
-
-    [![GitHub stars](https://img.shields.io/github/stars/FoundationAgents/OpenManus?style=social)](https://github.com/FoundationAgents/OpenManus/stargazers)
-
-    &ensp;
-
-    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-    &ensp;
-
-    [![Discord Follow](https://dcbadge.vercel.app/api/server/DYn29wFk9z?style=flat)](https://discord.gg/DYn29wFk9z)
-
-    [![Demo](https://img.shields.io/badge/D'
+  readme_preview: "<p align=\"center\">\n  <img src=\"assets/logo.jpg\" width=\"200\"\
+    />\n</p>\n\nEnglish | [中文](README_zh.md) | [한국어](README_ko.md) | [日本語](README_ja.md)\n\
+    \n[![GitHub stars](https://img.shields.io/github/stars/FoundationAgents/OpenManus?style=social)](https://github.com/FoundationAgents/OpenManus/stargazers)\n\
+    &ensp;\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\
+    \ &ensp;\n[![Discord Follow](https://dcbadge.vercel.app/api/server/DYn29wFk9z?style=flat)](https://discord.gg/DYn29wFk9z)\n\
+    [![Demo](https://img.shields.io/badge/Demo-Hugging%20Face-yellow)](https://huggingface.co/spaces/lyh-917/OpenManusDemo)\n\
+    [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15186407.svg)](https://doi.org/10.5281/zenodo.15186407)\n\
+    \n# \U0001F44B OpenManus\n\nManus is incredible, but OpenManus can achieve any\
+    \ idea without an *Invite Code* \U0001F6EB!\n\nOur team members [@Xinbin Liang](https://github.com/mannaandpoem)\
+    \ and [@Jinyu Xiang](https://github.com/XiangJinyu) (core authors), along with\
+    \ [@Zhaoyang Yu](https://github.com/MoshiQAQ), [@Jiayi Zhang](https://github.com/didiforgithub),\
+    \ and [@Sirui Hong](https://github.com/stellaHSR), we are from [@MetaGPT](https://github.com/geekan/MetaGPT).\
+    \ The prototype is launched within 3 hours and we are keeping building!\n\nIt's\
+    \ a simple implementation, so we welcome any suggestions, contributions, and feedback!\n\
+    \nEnjoy your own agent with OpenManus!\n\nWe're also excited to introduce [OpenManus-RL](https://github.com/OpenManus/OpenManus-RL),\
+    \ an open-source project dedicated to reinforcement learning (RL)- based (such\
+    \ as GRPO) tuning methods for LLM agents, developed collaboratively by researchers\
+    \ from UIUC and OpenManus.\n\n## Project Demo\n\n<video src=\"https://private-user-images.githubusercontent.com/61239030/420168772-6dcfd0d2-9142-45d9-b74e-d10aa75073c6.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDEzMTgwNTksIm5iZiI6MTc0MTMxNzc1OSwicGF0a"
   tags: []
   review_state: auto-curated
   quantifiable_score: 49
@@ -1645,6 +2196,10 @@
     en: OpenManus is an open-source general AI agent framework that provides powerful
       autonomous task execution and supports multiple tool integrations, making it
       a critical foundation component for the ecosystem.
+  readme_full_checked: true
+  has_readme_full: true
+  retarget_reason: 该项目是 Manus 的开源实现，旨在提供类似 Manus 的通用 AI 代理框架。
+  retargeted_at: '2026-07-17'
   recommendation_level: watch
   curation_note: 'Auto-selected by scoring rules: source=github, score=85, resource_types=tutorial.'
 - id: github-mvanhorn-last30days-skill
@@ -1657,7 +2212,6 @@
   - agent-framework
   target_tools:
   - claude-code
-  - cline
   - openclaw
   summary: AI agent skill that researches any topic across Reddit, X, YouTube, HN,
     Polymarket, and the web - then synthesizes a grounded summary
@@ -1701,13 +2255,31 @@
   - tiktok
   - trends
   - web-search
-  readme_preview: "# /last30days\n\n  \n\n  \n    \n  \n  \n  \n    \n  \n\n**An AI\
-    \ agent-led search engine scored by upvotes, likes, and real money - not editors.**\n\
-    \nThis README tracks the current v3 pipeline. The runtime skill spec lives in\
-    \ [skills/last30days/SKILL.md](skills/last30days/SKILL.md), which is the source\
-    \ of truth for the latest command and setup behavior.\n\n**Claude Code (recommended\
-    \ — auto-updates via marketplace):**\n```\n/plugin marketplace add mvanhorn/last30days-skill\n\
-    /plugin install last30days\n```\n\n**Codex, "
+  readme_preview: "# /last30days\n\n<p align=\"center\">\n  <img src=\"media/pr-assets/last30days-ad.gif\"\
+    \ width=\"720\" alt=\"last30days - an AI agent-led search engine that searches\
+    \ people, not editors\" />\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/mvanhorn/last30days-skill\"\
+    >\n    <img src=\"https://img.shields.io/badge/%231-Repository%20Of%20The%20Day-6f42c1?style=for-the-badge&logo=github&label=GITHUB%20TRENDING\"\
+    \ alt=\"GitHub Trending #1 Repository Of The Day\" />\n  </a>\n  <br/>\n  <a href=\"\
+    https://trendshift.io/repositories/21997\" target=\"_blank\">\n    <img src=\"\
+    https://trendshift.io/api/badge/repositories/21997\" alt=\"mvanhorn/last30days-skill\
+    \ | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"\
+    55\"/>\n  </a>\n</p>\n\n**An AI agent-led search engine scored by upvotes, likes,\
+    \ and real money - not editors.**\n\nThis README tracks the current v3 pipeline.\
+    \ The runtime skill spec lives in [skills/last30days/SKILL.md](skills/last30days/SKILL.md),\
+    \ which is the source of truth for the latest command and setup behavior.\n\n\
+    **Claude Code (recommended — auto-updates via marketplace):**\n```\n/plugin marketplace\
+    \ add mvanhorn/last30days-skill\n/plugin install last30days\n```\n\n**Codex, Cursor,\
+    \ Copilot, Gemini CLI, or any of 50+ [Agent Skills](https://agentskills.io) hosts:**\n\
+    ```\nnpx skills add mvanhorn/last30days-skill -g\n```\n(`-g` installs globally\
+    \ for your user, available across all projects. Drop it to scope per-project.)\n\
+    \nMore install options (claude.ai web, OpenClaw, manual) in the [Install](#install)\
+    \ section below.\n\nZero config. Reddit, HN, Polymarket, and GitHub work immediately.\
+    \ Run it once and the setup wizard unlocks X, YouTube, TikTok, arXiv, Techmeme,\
+    \ and more in 30 seconds.\n\n---\n\nReddit upvotes. X likes. YouTube transcripts.\
+    \ TikTok engagement. Polymarket odds backed by real money and insider information.\
+    \ That's millions of people voting with their attention and their wallets every\
+    \ day. /last30days searches all of it in parallel, scores it by what real people\
+    \ actually engage with,"
   tags: []
   review_state: auto-curated
   quantifiable_score: 49
@@ -1731,6 +2303,10 @@
     zh: 一个专为Claude Code设计的AI技能，能够跨平台研究并合成摘要，增强代理的信息搜索能力。
     en: An AI skill for Claude Code that researches multiple platforms and synthesizes
       grounded summaries, enhancing agent information gathering.
+  readme_full_checked: true
+  has_readme_full: true
+  retarget_reason: 项目 tags 和 README 均明确标注并推荐以 Claude Code 和 OpenClaw 作为主要宿主工具。
+  retargeted_at: '2026-07-17'
   recommendation_level: try-now
   curation_note: 'Auto-selected by scoring rules: source=github, score=85, resource_types=skills,
     agent-framework.'
@@ -1748,7 +2324,6 @@
   - codex-cli
   - cursor
   - github-copilot
-  - cline
   - manus
   summary: Persistent file-based planning for AI coding agents and long-running agentic
     tasks. Crash-proof markdown plans that survive context loss and /clear, plus a
@@ -1798,7 +2373,14 @@
   - github-copilot
   - llm-agents
   - long-running-agents
-  readme_preview: '# Planning with Files
+  readme_preview: '<div align="center">
+
+    <img src="media/v3-banner.png" alt="planning-with-files" width="100%">
+
+    </div>
+
+
+    # Planning with Files
 
 
     > 📣 **New in [v3.0.0](https://github.com/OthmanAdi/planning-with-files/releases/tag/v3.0.0):**
@@ -1812,7 +2394,30 @@
     >
 
     > **planning-with-files** is a persistent file-based planning skill for **AI coding
-    agents**. It keeps `task_plan.md`, `findings'
+    agents**. It keeps `task_plan.md`, `findings.md`, and `progress.md` on disk so
+    the agent survives **context loss**, `/clear`, and crashes, with an opt-in completion
+    gate that holds the agent until the plan is actually done. It installs across
+    60+ agents via the SKILL.md standard.
+
+
+    [![Benchmark](https://img.shields.io/badge/Benchmark-96.7%25_pass_rate_(v2.21.0%2C_sonnet--4--6)-brightgreen)](docs/evals.md)
+
+    [![A/B Verified](https://img.shields.io/badge/A%2FB_Blind-3%2F3_wins-brightgreen)](docs/evals.md)
+
+    [![Competitive Benchmark](https://img.shields.io/badge/Benchmark_v1-2.7x_faster_recovery_vs_6_methods-brightgreen)](docs/evals.md#test-5-competitive-benchmark-v1-seven-planning-methods-head-to-head-2026-07-06-internal)
+
+    [![SkillCheck Validated](https://img.shields.io/badge/SkillCheck-Validated-4c1)](https://getskillcheck.com)
+
+    [![Security Verified](https://img.shields.io/badge/Security-Audited_%26_Fixed_v2.21.0-blue)](docs/evals.md)
+
+
+    [![Skills Playground](https://skillsplayground.com/badges/installs/othmanadi-planning-with-files-planning-with-files.svg)](https://skillsplayground.com/skills/othmanadi-planning-with-files-planning-with-files/)
+
+    [![Downloads](https://skill-history.com/badge/othmanadi/planning-with-files.svg)](https://skill-history.com/othmanadi/planning-with-files)
+
+    [![Version](https://img.shields.io/badge/version-3.5.1-brightgreen)](https://github.com/OthmanAdi/planning-with-files/releases)
+
+    [![License: MIT](https:/'
   tags: []
   review_state: auto-curated
   quantifiable_score: 45
@@ -1836,6 +2441,10 @@
     zh: 基于持久化文件的规划技能，防止AI编码代理在会话和上下文重置中丢失任务进度。
     en: Persistent file-based planning skill that prevents AI agents from losing track
       of their tasks across sessions and context resets.
+  readme_full_checked: true
+  has_readme_full: true
+  retarget_reason: 项目是持久化文件规划技能，明确支持并标注了这些工具，在 topics 和当前标签中直接关联。
+  retargeted_at: '2026-07-17'
   recommendation_level: try-now
   curation_note: 'Auto-selected by scoring rules: source=github, score=85, resource_types=agent-framework,
     skills, cli-tool.'
@@ -1850,14 +2459,8 @@
   target_tools:
   - claude-code
   - codex-cli
-  - antigravity-cli
   - opencode
-  - qoder
   - cursor
-  - kiro
-  - warp
-  - aider
-  - cline
   summary: Orca is the ADE for working with a fleet of parallel agents. Run any coding
     agent with your own subscription. Available on desktop and mobile.
   i18n:
@@ -1898,13 +2501,32 @@
   - ai-agents
   - devtools
   - yc-backed
-  readme_preview: "Orca\n\n  \n  \n  \n  \n  \n  \n\n  Español · Português · 中文 ·\
-    \ 日本語 · 한국어\n\n  The AI Orchestrator for 100x builders.\n  Run Codex, ClaudeCode,\
-    \ OpenCode or Pi side-by-side — each in its own worktree, tracked in one place.\n\
-    \nDownload Orca\n\n  \n\n## Features\n\n### Mobile Companion\n\nMonitor and steer\
+  readme_preview: "<h1 align=\"center\">\n  <a href=\"https://onOrca.dev\"><img src=\"\
+    resources/build/icon.png\" alt=\"Orca\" width=\"64\" valign=\"middle\" /></a>\
+    \ Orca\n</h1>\n\n<p align=\"center\">\n  <a href=\"https://github.com/stablyai/orca/stargazers\"\
+    ><img src=\"https://badgen.net/github/stars/stablyai/orca?label=%E2%98%85\" alt=\"\
+    GitHub stars\" /></a>\n  <a href=\"https://github.com/stablyai/orca/releases\"\
+    ><img src=\"docs/assets/readme-downloads.svg\" alt=\"Total downloads across all\
+    \ releases\" /></a>\n  <img src=\"https://badgen.net/github/license/stablyai/orca\"\
+    \ alt=\"License\" />\n  <a href=\"https://discord.gg/fzjDKHxv8Q\"><img src=\"\
+    https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white\" alt=\"\
+    Join the Orca Discord\" /></a>\n  <a href=\"https://x.com/orca_build\"><img src=\"\
+    https://img.shields.io/badge/X-000000?logo=x&logoColor=white\" alt=\"Follow Orca\
+    \ on X\" /></a>\n  <img src=\"https://img.shields.io/badge/macOS%20%7C%20Windows%20%7C%20Linux-4493F8?style=flat-square\"\
+    \ alt=\"Supported platforms: macOS, Windows, and Linux\" />\n</p>\n\n<p align=\"\
+    center\">\n  <sub><a href=\"docs/readme/README.es.md\">Español</a> · <a href=\"\
+    docs/readme/README.pt.md\">Português</a> · <a href=\"docs/readme/README.zh-CN.md\"\
+    >中文</a> · <a href=\"docs/readme/README.ja.md\">日本語</a> · <a href=\"docs/readme/README.ko.md\"\
+    >한국어</a></sub>\n</p>\n\n<p align=\"center\">\n  <strong>The AI Orchestrator for\
+    \ 100x builders.</strong><br/>\n  Run Codex, ClaudeCode, OpenCode or Pi side-by-side\
+    \ — each in its own worktree, tracked in one place.\n</p>\n\n<h3 align=\"center\"\
+    ><a href=\"https://onorca.dev/download\"><ins>Download Orca</ins></a></h3>\n\n\
+    <p align=\"center\">\n  <img src=\"docs/assets/readme-hero.jpg\" alt=\"Orca desktop\
+    \ app running agents in parallel worktrees, with the Orca mobile companion app\
+    \ in the corner\" width=\"960\" />\n</p>\n\n## Features\n\n<table>\n<tr>\n<td\
+    \ width=\"50%\" valign=\"middle\">\n\n### Mobile Companion\n\nMonitor and steer\
     \ your agents from your phone — get notified when an agent finishes and send follow-ups\
-    \ from anywhere.\n\n[iOS App Store](https://apps.apple.com/us/app/orca-ide/id6766130217)\
-    \ · [TestFlight](https://testflight.apple.com/joi"
+    \ from anywhere.\n\n[iOS App Store](https://apps.apple.com/us/a"
   tags: []
   review_state: auto-curated
   quantifiable_score: 45
@@ -1929,6 +2551,8 @@
     en: Orca is an AI orchestrator for running multiple coding agents in parallel
       with worktree isolation and mobile monitoring, directly supporting Claude Code,
       Codex, OpenCode, and others.
+  readme_full_checked: true
+  has_readme_full: true
   recommendation_level: try-now
   curation_note: 'Auto-selected by scoring rules: source=github, score=85, resource_types=agent-framework,
     cli-tool.'
@@ -1973,7 +2597,36 @@
 
     When I heard Karpathy say this, I wanted to find out how. How does one person
     ship like a team of twenty? Peter Steinberger built [OpenClaw](https://github.com/openclaw/openclaw)
-    — 247K GitHub stars — essen'
+    — 247K GitHub stars — essentially solo with AI agents. The revolution is here.
+    A single builder with the right tooling can move faster than a traditional team.
+
+
+    I''m [Garry Tan](https://x.com/garrytan), President & CEO of [Y Combinator](https://www.ycombinator.com/).
+    I''ve worked with thousands of startups — Coinbase, Instacart, Rippling — when
+    they were one or two people in a garage. Before YC, I was one of the first eng/PM/designers
+    at Palantir, cofounded Posterous (sold to Twitter), and built Bookface, YC''s
+    internal social network.
+
+
+    **gstack is my answer.** I''ve been building products for twenty years, and right
+    now I''m shipping more products than I ever have. In the last 60 days: 3 production
+    services, 40+ shipped features, part-time, while running YC full-time. On logical
+    code change — not raw LOC, which AI inflates — my 2026 run rate is **~810× my
+    2013 pace** (11,417 vs 14 logical lines/day). Year-to-date (through April 18),
+    2026 has already produced **240× the entire 2013 year**. Measured across 40 public
+    + private `garrytan/*` repos including Bookface, after excluding one demo repo.
+    AI wrote most of it. The point isn''t who typed it, it''s what shipped.
+
+
+    > The LOC critics aren''t wrong that raw line counts inflate with AI. They are
+    wrong that normalized-for-inflation, I''m less productive. I''m more productive,
+    by a lot. Full methodology, caveats, and reproduction script: **[On the LOC Controversy](docs/ON_THE_LOC_CONTROVERSY.md)**.
+
+
+    **2026 — 1,237 contributions and counting:**
+
+
+    ![GitHub contributions'
   tags: []
   review_state: auto-curated
   quantifiable_score: 49
@@ -1997,6 +2650,11 @@
     en: A collection of 23 opinionated Claude Code tools designed to act as CEO, Designer,
       Engineering Manager, Release Manager, Doc Engineer, and QA, based on Garry Tan's
       personal setup.
+  readme_full_checked: true
+  has_readme_full: true
+  readme_checked: true
+  retarget_reason: 该项目是 Garry Tan 为 Claude Code 定制的技能集，README 和标签都明确指向 Claude Code，并提供了安装和使用说明。
+  retargeted_at: '2026-07-17'
   recommendation_level: watch
   curation_note: 'Auto-selected by scoring rules: source=github, score=84, resource_types=tutorial.'
 - id: github-farion1231-cc-switch
@@ -2064,14 +2722,56 @@
 
 
     ### The All-in-One Manager for Claude Code, Claude Desktop, Codex, Gemini CLI,
-    OpenCode, OpenClaw & Hermes Agent
+    Grok Build, OpenCode, OpenClaw & Hermes Agent
 
 
     [![Version](https://img.shields.io/github/v/release/farion1231/cc-switch?color=blue&label=version)](https://github.com/farion1231/cc-switch/releases)
 
     [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)](https://github.com/farion1231/cc-switch/releases)
 
-    [![Built with Tauri](https://img.shields.io/badg'
+    [![Built with Tauri](https://img.shields.io/badge/built%20with-Tauri%202-orange.svg)](https://tauri.app/)
+
+    [![Downloads](https://img.shields.io/github/downloads/farion1231/cc-switch/total)](https://github.com/farion1231/cc-switch/releases/latest)
+
+
+    <a href="https://trendshift.io/repositories/15372" target="_blank"><img src="https://trendshift.io/api/badge/repositories/15372"
+    alt="farion1231%2Fcc-switch | Trendshift" style="width: 250px; height: 55px;"
+    width="250" height="55"/></a>
+
+    <a href="https://www.star-history.com/#farion1231/cc-switch&Date"><picture><source
+    media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/badge?repo=farion1231/cc-switch&theme=dark"
+    /><img alt="Star History Rank" src="https://api.star-history.com/badge?repo=farion1231/cc-switch"
+    width="196" height="55" /></picture></a>
+
+
+    ### 🌐 The Only Official Website: **[ccswitch.io](https://ccswitch.io)**
+
+
+    English | [中文](README_ZH.md) | [日本語](README_JA.md) | [Deutsch](README_DE.md) |
+    [Changelog](CHANGELOG.md)
+
+
+    </div>
+
+
+    ## ❤️Sponsor
+
+
+    > [Want to appear here?](mailto:farion1231@gmail.com)
+
+
+    <details open>
+
+    <summary>Click to collapse</summary>
+
+
+    [![Kimi K2.7 Code](assets/partners/banners/kimi-banner-en.png)](https://platform.kimi.ai?aff=cc-switch)
+
+
+    Kimi K2.7 Code is an open-source, coding-focused agentic model developed by Moonshot
+    AI. It delivers stronger coding and agent performance, with substantial improvements
+    in real-world long-horizon coding tasks. These gains translate into higher end-to-end
+    task success rates across complex softwar'
   tags: []
   review_state: auto-curated
   quantifiable_score: 49
@@ -2094,6 +2794,12 @@
     zh: 一个跨平台的桌面应用，用于统一管理多种AI编码助手（如Claude Code、Codex等），提供提供者管理和MCP集成。
     en: A cross-platform desktop manager for multiple AI coding assistant CLIs, integrating
       provider management and MCP support.
+  readme_full_checked: true
+  has_readme_full: true
+  readme_checked: true
+  retarget_reason: CC Switch 是一个跨平台桌面助手，用于管理 Claude Code、Codex CLI、Gemini CLI、OpenCode、OpenClaw
+    和 Hermes Agent 等多个 AI 编码工具。
+  retargeted_at: '2026-07-17'
   recommendation_level: try-now
   curation_note: 'Auto-selected by scoring rules: source=github, score=84, resource_types=cli-tool,
     mcp-server, skills.'
@@ -2108,14 +2814,12 @@
   target_tools:
   - claude-code
   - codex-cli
-  - antigravity-cli
   - qoder
   - trae
   - cursor
   - github-copilot
   - windsurf
   - kiro
-  - cline
   summary: An AI SKILL that provide design intelligence for building professional
     UI/UX multiple platforms
   i18n:
@@ -2163,7 +2867,22 @@
     >\U0001F1FA\U0001F1F8 English</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"\
     https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/releases\"><img src=\"\
     https://img.shields.io/github/v/release/nextlevelbuilder/ui-ux-pro-max-skill?style=for-the-badge&color=blue\"\
-    \ alt=\"GitHub Rel"
+    \ alt=\"GitHub Release\"></a>\n  <img src=\"https://img.shields.io/badge/reasoning_rules-161-green?style=for-the-badge\"\
+    \ alt=\"161 Reasoning Rules\">\n  <img src=\"https://img.shields.io/badge/UI_styles-84-purple?style=for-the-badge\"\
+    \ alt=\"84 UI Styles\">\n  <img src=\"https://img.shields.io/badge/python-3.x-yellow?style=for-the-badge&logo=python&logoColor=white\"\
+    \ alt=\"Python 3.x\">\n  <a href=\"https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/LICENSE\"\
+    ><img src=\"https://img.shields.io/github/license/nextlevelbuilder/ui-ux-pro-max-skill?style=for-the-badge&color=green\"\
+    \ alt=\"License\"></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://www.npmjs.com/package/ui-ux-pro-max-cli\"\
+    ><img src=\"https://img.shields.io/npm/v/ui-ux-pro-max-cli?style=flat-square&logo=npm&label=CLI\"\
+    \ alt=\"npm\"></a>\n  <a href=\"https://www.npmjs.com/package/ui-ux-pro-max-cli\"\
+    ><img src=\"https://img.shields.io/npm/dm/ui-ux-pro-max-cli?style=flat-square&label=downloads\"\
+    \ alt=\"npm downloads\"></a>\n  <a href=\"https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/stargazers\"\
+    ><img src=\"https://img.shields.io/github/stars/nextlevelbuilder/ui-ux-pro-max-skill?style=flat-square&logo=github\"\
+    \ alt=\"GitHub stars\"></a>\n  <a href=\"https://paypal.me/uiuxpromax\"><img src=\"\
+    https://img.shields.io/badge/PayPal-Support%20Development-00457C?style=flat-square&logo=paypal&logoColor=white\"\
+    \ alt=\"PayPal\"></a>\n</p>\n\nAn AI skill that provides design intelligence for\
+    \ building professional UI/UX across multiple platforms and frameworks.\n\n<p\
+    \ align=\"center\">\n  <a h"
   tags: []
   review_state: auto-curated
   quantifiable_score: 49
@@ -2186,6 +2905,11 @@
     zh: 一个为多种AI编程助手提供专业UI/UX设计能力的技能包，极受欢迎且实用性强。
     en: A skill package that provides professional UI/UX design intelligence for multiple
       AI coding agents, extremely popular and practical.
+  readme_full_checked: true
+  has_readme_full: true
+  readme_checked: true
+  retarget_reason: 项目README明确支持这些工具，且Topics标签中列出了这些工具，作为AI UI/UX设计技能，直接关联到这些编码工具。
+  retargeted_at: '2026-07-17'
   recommendation_level: try-now
   curation_note: 'Auto-selected by scoring rules: source=github, score=84, resource_types=skills,
     cli-tool.'
@@ -2204,6 +2928,13 @@
   - opencode
   - cursor
   - openclaw
+  - workbuddy-codebuddy
+  - kilo-code
+  - github-copilot
+  - aider
+  - hermes-agent
+  - kiro
+  - trae
   summary: AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini
     CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts,
     docs, papers, images, or videos into a queryable knowledge graph. App code + database
@@ -2243,20 +2974,36 @@
   - leiden
   - rag
   - tree-sitter
-  readme_preview: "Read this in other languages\n\n\U0001F1FA\U0001F1F8 English |\
-    \ \U0001F1E8\U0001F1F3 简体中文 | \U0001F1EF\U0001F1F5 日本語 | \U0001F1F0\U0001F1F7\
-    \ 한국어 | \U0001F1E9\U0001F1EA Deutsch | \U0001F1EB\U0001F1F7 Français | \U0001F1EA\
-    \U0001F1F8 Español | \U0001F1EE\U0001F1F3 हिन्दी | \U0001F1E7\U0001F1F7 Português\
-    \ | \U0001F1F7\U0001F1FA Русский | \U0001F1F8\U0001F1E6 العربية | \U0001F1EE\U0001F1F7\
-    \ فارسی | \U0001F1EE\U0001F1F9 Italiano | \U0001F1F5\U0001F1F1 Polski | \U0001F1F3\
-    \U0001F1F1 Nederlands | \U0001F1F9\U0001F1F7 Türkçe | \U0001F1FA\U0001F1E6 Українська\
-    \ | \U0001F1FB\U0001F1F3 Tiếng Việt | \U0001F1EE\U0001F1E9 Bahasa Indonesia |\
-    \ \U0001F1F8\U0001F1EA Svenska | \U0001F1EC\U0001F1F7 Ελληνικά | \U0001F1F7\U0001F1F4\
-    \ Română | \U0001F1E8\U0001F1FF Čeština | \U0001F1EB\U0001F1EE Suomi | \U0001F1E9\
-    \U0001F1F0 Dansk | \U0001F1F3\U0001F1F4 Norsk | \U0001F1ED\U0001F1FA Magyar |\
-    \ \U0001F1F9\U0001F1ED ภาษาไทย | \U0001F1FA\U0001F1FF Oʻzbekcha | \U0001F1F9\U0001F1FC\
-    \ 繁體中文 | \U0001F1F5\U0001F1ED Filipino | \U0001F1EE\U0001F1F1 עברית\n\n  \n  \n\
-    \  \n  \n  \n\nType `/graphify` in your AI coding assista"
+  readme_preview: "<p align=\"center\">\n  <a href=\"https://graphify.com\"><img src=\"\
+    https://raw.githubusercontent.com/Graphify-Labs/graphify/v8/docs/logo.png\" width=\"\
+    300\" height=\"140\" alt=\"Graphify\"/></a>\n</p>\n\n<p align=\"center\">\n  <a\
+    \ href=\"https://trendshift.io/repositories/25296?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-25296\"\
+    \ target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://trendshift.io/api/badge/repositories/25296\"\
+    \ alt=\"Graphify-Labs%2Fgraphify | Trendshift\" width=\"250\" height=\"55\"/></a>\n\
+    </p>\n\n<div align=\"center\">\n<details><summary><b>Read this in other languages</b></summary>\n\
+    \n\U0001F1FA\U0001F1F8 <a href=\"README.md\">English</a> | \U0001F1E8\U0001F1F3\
+    \ <a href=\"docs/translations/README.zh-CN.md\">简体中文</a> | \U0001F1EF\U0001F1F5\
+    \ <a href=\"docs/translations/README.ja-JP.md\">日本語</a> | \U0001F1F0\U0001F1F7\
+    \ <a href=\"docs/translations/README.ko-KR.md\">한국어</a> | \U0001F1E9\U0001F1EA\
+    \ <a href=\"docs/translations/README.de-DE.md\">Deutsch</a> | \U0001F1EB\U0001F1F7\
+    \ <a href=\"docs/translations/README.fr-FR.md\">Français</a> | \U0001F1EA\U0001F1F8\
+    \ <a href=\"docs/translations/README.es-ES.md\">Español</a> | \U0001F1EE\U0001F1F3\
+    \ <a href=\"docs/translations/README.hi-IN.md\">हिन्दी</a> | \U0001F1E7\U0001F1F7\
+    \ <a href=\"docs/translations/README.pt-BR.md\">Português</a> | \U0001F1F7\U0001F1FA\
+    \ <a href=\"docs/translations/README.ru-RU.md\">Русский</a> | \U0001F1F8\U0001F1E6\
+    \ <a href=\"docs/translations/README.ar-SA.md\">العربية</a> | \U0001F1EE\U0001F1F7\
+    \ <a href=\"docs/translations/README.fa-IR.md\">فارسی</a> | \U0001F1EE\U0001F1F9\
+    \ <a href=\"docs/translations/README.it-IT.md\">Italiano</a> | \U0001F1F5\U0001F1F1\
+    \ <a href=\"docs/translations/README.pl-PL.md\">Polski</a> | \U0001F1F3\U0001F1F1\
+    \ <a href=\"docs/translations/README.nl-NL.md\">Nederlands</a> | \U0001F1F9\U0001F1F7\
+    \ <a href=\"docs/translations/README.tr-TR.md\">Türkçe</a> | \U0001F1FA\U0001F1E6\
+    \ <a href=\"docs/translations/README.uk-UA.md\">Українська</a> | \U0001F1FB\U0001F1F3\
+    \ <a href=\"docs/translations/README.vi-VN.md\">Tiếng Việt</a> | \U0001F1EE\U0001F1E9\
+    \ <a href=\"docs/translations/README.id-ID.md\">Bahasa Indonesia</a> | \U0001F1F8\
+    \U0001F1EA <a href=\"docs/translations/README.sv-SE.md\">Svenska</a> | \U0001F1EC\
+    \U0001F1F7 <a href=\"docs/translations/README.el-GR.md\">Ελληνικά</a> | \U0001F1F7\
+    \U0001F1F4 <a href=\"docs/translations/README.ro-RO.md\">Română</a> | \U0001F1E8\
+    \U0001F1FF <a href=\"docs/translations/README.cs-CZ.md\">Čeština</"
   tags: []
   review_state: auto-curated
   quantifiable_score: 49
@@ -2280,6 +3027,11 @@
     zh: 将代码、文档等转化为可查询知识图谱，支持多种AI编码助手的技能插件。
     en: A skill that transforms codebases into queryable knowledge graphs, compatible
       with multiple AI coding assistants.
+  readme_full_checked: true
+  has_readme_full: true
+  retarget_reason: 项目README明确列出并提供了针对这些AI编码工具的安装命令，包括Claude Code、Codex、Gemini CLI、OpenCode、Cursor、OpenClaw、CodeBuddy、Kilo
+    Code、GitHub Copilot、Aider、Hermes、Kiro和Trae。
+  retargeted_at: '2026-07-17'
   recommendation_level: try-now
   curation_note: 'Auto-selected by scoring rules: source=github, score=84, resource_types=skills,
     cli-tool.'
@@ -2344,15 +3096,28 @@
   - claude-code-for-design
   - codex-design
   - cursor-design
-  readme_preview: 'Open Design: The open-source Claude Design alternative
-
-
-    > 🔥 **Open Design 0.13.0 — _Stay in Flow_ is here.** Long design sessions used
-    to break on every interruption — a run lost its place, a model picker made you
-    guess, an export needed one more detour. 0.13.0 keeps the session alive: resume
-    Codex / OpenCode / Pi / Open Design Cloud runs across turns, pick the right model
-    faster, and hand off screenshot-backed PPTX / PDF without leaving the app. [Download
-    0.13.0](https://github.com/nexu-io/open'
+  readme_preview: "<h1 align=\"center\">Open Design: The open-source Claude Design\
+    \ alternative</h1>\n\n> \U0001F525 **Open Design 0.13.0 — _Stay in Flow_ is here.**\
+    \ Long design sessions used to break on every interruption — a run lost its place,\
+    \ a model picker made you guess, an export needed one more detour. 0.13.0 keeps\
+    \ the session alive: resume Codex / OpenCode / Pi / Open Design Cloud runs across\
+    \ turns, pick the right model faster, and hand off screenshot-backed PPTX / PDF\
+    \ without leaving the app. [Download 0.13.0](https://github.com/nexu-io/open-design/releases)\
+    \ · [Release notes](https://github.com/nexu-io/open-design/releases/tag/open-design-v0.13.0)\n\
+    >\n> ⚡ **Open Design Cloud — the official model service.** One recharge to use\
+    \ GPT, Claude, Gemini, and DeepSeek inside Open Design: 20+ flagship models, zero\
+    \ config, billed by real token usage. [Try Open Design Cloud](https://open-design.ai/cloud/?utm_source=github&utm_medium=referral&utm_content=readme_try_cloud)\n\
+    >\n> \U0001F3C5 **The Open Design Fellow program is now open.** If you also believe\
+    \ design should be open — become an Open Design Fellow, shape the product alongside\
+    \ the core team, and help more people take part in defining the future of design.\
+    \ Details → [`MAINTAINERS.md`](MAINTAINERS.md) and [Discord](https://discord.gg/mHAjSMV6gz).\n\
+    \n<p align=\"center\">\n  <img src=\"https://repo-assets.open-design.ai/resources/images/hero.png\"\
+    \ alt=\"Open Design hero banner — the headline &quot;The open-source Claude Design\
+    \ alternative&quot; over a classical scene of columns and robed figures on a digital-code\
+    \ backdrop, with stat cards for design systems, plugins, coding agents, and media\
+    \ providers\" width=\"100%\" />\n</p>\n\n<p align=\"center\">\n  <a href=\"https://open-design.ai/?utm_source=github&utm_medium=referral&utm_content=readme_website\"\
+    >Website</a> ·\n  <a href=\"https://open-design.ai/?utm_source=github&utm_medium=referral&utm_content=readme_download\"\
+    >Download</a> ·\n  <a href=\"https://open-design.ai/cloud/?utm_source=github&utm_medium=referral&utm_content=readme_"
   tags: []
   review_state: auto-curated
   quantifiable_score: 49
@@ -2376,6 +3141,8 @@
     zh: Open Design 是一个开源的、本地优先的桌面应用，将编码代理转变为设计引擎，用于生成原型、文档和媒体。
     en: Open Design is an open-source, local-first desktop app that turns coding agents
       into a design engine for generating prototypes, documents, and media.
+  readme_full_checked: true
+  has_readme_full: true
   recommendation_level: try-now
   curation_note: 'Auto-selected by scoring rules: source=github, score=84, resource_types=agent-framework,
     skills.'
@@ -2389,7 +3156,6 @@
   - skills
   target_tools:
   - claude-code
-  - cline
   summary: from vibe coding to agentic engineering - practice makes claude perfect
   i18n:
     zh:
@@ -2430,10 +3196,26 @@
   - pakistani-developer
   - ai-agents
   readme_preview: "# claude-code-best-practice\nfrom vibe coding to agentic engineering\
-    \ - practice makes claude perfect\n\n![updated with Claude Code](https://img.shields.io/badge/updated_with_Claude_Code-Jul%2014%2C%202026%209%3A48%20AM%20PKT-white?style=flat&labelColor=555)\
-    \ \n\n[![Best Practice](!/tags/best-practice.svg)](best-practice/) [![Implemented](!/tags/implemented.svg)](implementation/)\
-    \ [![Orchestration Workflow](!/tags/orchestration-workflow.svg)](orchestration-workflow/orchestration-workflow.md)\
-    \ [![Claude]("
+    \ - practice makes claude perfect\n\n![updated with Claude Code](https://img.shields.io/badge/updated_with_Claude_Code-Jul%2017%2C%202026%209%3A43%20AM%20PKT-white?style=flat&labelColor=555)\
+    \ <a href=\"https://github.com/shanraisshan/claude-code-best-practice/stargazers\"\
+    ><img src=\"https://img.shields.io/github/stars/shanraisshan/claude-code-best-practice?style=flat&label=%E2%98%85&labelColor=555&color=white\"\
+    \ alt=\"GitHub Stars\"></a><br>\n\n[![Best Practice](!/tags/best-practice.svg)](best-practice/)\
+    \ [![Implemented](!/tags/implemented.svg)](implementation/) [![Orchestration Workflow](!/tags/orchestration-workflow.svg)](orchestration-workflow/orchestration-workflow.md)\
+    \ [![Claude](!/tags/claude.svg)](https://code.claude.com/docs) [![Boris](!/tags/boris-cherny.svg)](#-tips-and-tricks)\
+    \ [![Community](!/tags/community.svg)](#-subscribe) ![Click on these badges below\
+    \ to see the actual sources](!/tags/click-badges.svg)<br>\n<img src=\"!/tags/a.svg\"\
+    \ height=\"14\"> = Agents · <img src=\"!/tags/c.svg\" height=\"14\"> = Commands\
+    \ · <img src=\"!/tags/s.svg\" height=\"14\"> = Skills\n\n<p align=\"center\">\n\
+    \  <img src=\"!/claude-jumping.svg\" alt=\"Claude Code mascot jumping\" width=\"\
+    120\" height=\"100\"><br>\n  <a href=\"https://github.com/trending\"><img src=\"\
+    !/root/github-trending-day.svg\" alt=\"GitHub Trending #1 Repository Of The Day\"\
+    ></a>\n</p>\n\n<p align=\"center\">\n  <img src=\"!/root/supported-label.svg\"\
+    \ alt=\"Supported by:\" height=\"34\">&nbsp;&nbsp;<a href=\"https://disrupt.com/?utm_source=github&utm_campaign=shayan_claude_code_best_practice\"\
+    ><img src=\"!/root/supported-disrupt.svg\" alt=\"Disrupt.com — Ventures Reimagined\"\
+    \ height=\"34\"></a>&nbsp;&nbsp;<a href=\"https://claudekit.cc/?utm_source=github&utm_medium=sponsorship&utm_campaign=shayan_claude_code_best_practice\"\
+    ><img src=\"!/root/supported-claudekit.svg\" alt=\"ClaudeKit — Production-ready\
+    \ skills and workflows\" height=\"34\"></a>\n</p>\n\n<p align=\"center\">\n  <img\
+    \ src=\"!/root/boris-slider.gif\" alt=\"Boris"
   tags: []
   review_state: auto-curated
   quantifiable_score: 49
@@ -2456,9 +3238,625 @@
   llm_summary:
     zh: Claude Code最佳实践大全，从新手到专家指南
     en: Comprehensive best practices guide for Claude Code, from beginner to advanced.
+  readme_full_checked: true
+  has_readme_full: true
+  retarget_reason: 项目名称和README明确专注于Claude Code的最佳实践、配置、技巧和工作流，是Claude Code的专属实践指南。
+  retargeted_at: '2026-07-17'
   recommendation_level: try-now
   curation_note: 'Auto-selected by scoring rules: source=github, score=84, resource_types=agent-framework,
     skills.'
+- id: github-chromedevtools-chrome-devtools-mcp
+  name: ChromeDevTools/chrome-devtools-mcp
+  url: https://github.com/ChromeDevTools/chrome-devtools-mcp
+  repo: ChromeDevTools/chrome-devtools-mcp
+  source_type: github
+  resource_type:
+  - agent-framework
+  - cli-tool
+  - mcp-server
+  target_tools:
+  - claude-code
+  - codex-cli
+  - antigravity-cli
+  - opencode
+  - cursor
+  - github-copilot
+  - windsurf
+  - cline
+  - junie
+  - kiro
+  - warp
+  - qoder
+  summary: Chrome DevTools for coding agents
+  i18n:
+    zh:
+      name: ChromeDevTools/chrome-devtools-mcp
+      summary: Chrome DevTools for coding agents
+    en:
+      name: ChromeDevTools/chrome-devtools-mcp
+      summary: Chrome DevTools for coding agents
+  status: unknown
+  license: apache-2.0
+  stars: 47017
+  forks: 3229
+  last_updated: '2026-07-15T18:08:44Z'
+  first_seen: '2026-07-14'
+  last_seen: '2026-07-16'
+  maturity: unknown
+  languages:
+  - TypeScript
+  topics:
+  - mcp-server
+  - puppeteer
+  - chrome-devtools
+  - browser
+  - chrome
+  - debugging
+  - devtools
+  - mcp
+  readme_preview: "# Chrome DevTools for agents\n\n[![npm chrome-devtools-mcp package](https://img.shields.io/npm/v/chrome-devtools-mcp.svg)](https://npmjs.org/package/chrome-devtools-mcp)\n\
+    \nChrome DevTools for agents (`chrome-devtools-mcp`) lets your coding agent (such\
+    \ as Antigravity, Claude, Cursor or Copilot)\ncontrol and inspect a live Chrome\
+    \ browser. It acts as a Model-Context-Protocol\n(MCP) server, giving your AI coding\
+    \ assistant access to the full power of\nChrome DevTools for reliable automation,\
+    \ in-depth debugging, and performance analysis.\nA [CLI](docs/cli.md) is also\
+    \ provided for use without MCP.\n\n## [Tool reference](./docs/tool-reference.md)\
+    \ | [Changelog](./CHANGELOG.md) | [Contributing](./CONTRIBUTING.md) | [Troubleshooting](./docs/troubleshooting.md)\
+    \ | [Design Principles](./docs/design-principles.md)\n\n## Key features\n\n- **Get\
+    \ performance insights**: Uses [Chrome\n  DevTools](https://github.com/ChromeDevTools/devtools-frontend)\
+    \ to record\n  traces and extract actionable performance insights.\n- **Advanced\
+    \ browser debugging**: Analyze network requests, take screenshots and\n  check\
+    \ browser console messages (with source-mapped stack traces).\n- **Reliable automation**.\
+    \ Uses\n  [puppeteer](https://github.com/puppeteer/puppeteer) to automate actions\
+    \ in\n  Chrome and automatically wait for action results.\n\n## Disclaimers\n\n\
+    `chrome-devtools-mcp` exposes content of the browser instance to the MCP clients\n\
+    allowing them to inspect, debug, and modify any data in the browser or DevTools.\n\
+    Avoid sharing sensitive or personal information that you don't want to share with\n\
+    MCP clients.\n\n`chrome-devtools-mcp` officially supports Google Chrome and [Chrome\
+    \ for Testing](https://developer.chrome.com/blog/chrome-for-testing/) only.\n\
+    Other Chromium-based browsers may work, but this is not guaranteed, and you may\
+    \ encounter unexpected behavior. Use at your own discretion.\nWe are committed\
+    \ to providing fixes and support for the latest version of [Extended Stable Chrome](https://chromiumdash.appspot.com/schedule"
+  tags: []
+  review_state: auto-curated
+  quantifiable_score: 45
+  quality_score: 38
+  total_score: 83
+  score_detail:
+    stars: 16
+    activity: 15
+    adoption: 10
+    maturity: 4
+  tracking_priority: track
+  last_analyzed: '2026-07-15'
+  benchmark_ref: official-hermes-agent
+  readme_checked: true
+  quality_detail:
+    relevance: 10
+    practicality: 10
+    novelty: 8
+    ecosystem_value: 10
+  llm_summary:
+    zh: 为AI编码代理提供Chrome DevTools完整控制能力的成熟MCP服务器，用于调试和自动化。
+    en: A production-ready MCP server that gives AI coding agents full Chrome DevTools
+      control for debugging and automation.
+  readme_full_checked: true
+  has_readme_full: true
+  retarget_reason: README 提供了这些工具的 MCP 配置示例，项目设计为与这些 AI 编码工具集成。
+  retargeted_at: '2026-07-17'
+  recommendation_level: try-now
+  curation_note: 'Auto-selected by scoring rules: source=github, score=83, resource_types=agent-framework,
+    cli-tool, mcp-server.'
+- id: github-jnmetacode-superpowers-zh
+  name: jnMetaCode/superpowers-zh
+  url: https://github.com/jnMetaCode/superpowers-zh
+  repo: jnMetaCode/superpowers-zh
+  source_type: github
+  resource_type:
+  - skills
+  - cli-tool
+  - mcp-server
+  - rules
+  target_tools:
+  - claude-code
+  - codex-cli
+  - antigravity-cli
+  - opencode
+  - openclaw
+  - qoder
+  - trae
+  - workbuddy-codebuddy
+  - cursor
+  - hermes-agent
+  - github-copilot
+  - windsurf
+  - kiro
+  - aider
+  - tongyi-lingma
+  summary: 🦸 AI 编程超能力 · 中文增强版 — superpowers（116k+ ⭐）完整汉化 + 6 个中国原创 skills，让 Claude
+    Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI 等 16
+    款 AI 编程工具真正会干活
+  i18n:
+    zh:
+      name: jnMetaCode/superpowers-zh
+      summary: 🦸 AI 编程超能力 · 中文增强版 — superpowers（116k+ ⭐）完整汉化 + 6 个中国原创 skills，让 Claude
+        Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI
+        等 16 款 AI 编程工具真正会干活
+    en:
+      name: jnMetaCode/superpowers-zh
+      summary: 🦸 AI 编程超能力 · 中文增强版 — superpowers（116k+ ⭐）完整汉化 + 6 个中国原创 skills，让 Claude
+        Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI
+        等 16 款 AI 编程工具真正会干活
+  status: unknown
+  license: mit
+  stars: 6856
+  forks: 657
+  last_updated: '2026-07-14T09:30:57Z'
+  first_seen: '2026-07-14'
+  last_seen: '2026-07-14'
+  maturity: unknown
+  languages:
+  - JavaScript
+  topics:
+  - ai-coding
+  - chinese
+  - claude-code
+  - cursor
+  - mcp
+  - skills
+  - superpowers
+  - tdd
+  - agent-skills
+  - agentic-coding
+  - code-review
+  - kiro
+  - npm-package
+  - prompt-engineering
+  - trae
+  - gemini-cli
+  readme_preview: '# superpowers-zh（AI 编程超能力 · 中文增强版）
+
+
+    🌐 **简体中文** | [繁體中文](README.zh-Hant.md) | [English (upstream)](https://github.com/obra/superpowers)
+
+
+    > 🦸 **superpowers（250k+ ⭐）完整汉化 + 4 个中国原创 skills** — 让 Claude Code / Copilot CLI
+    / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI / Qoder 等 **20 款 AI 编程工具**真正会干活。从头脑风暴到代码审查，从
+    TDD 到调试，每个 skill 都是经过实战验证的工作方法论。
+
+
+    Chinese community edition of [superpowers](https://github.com/obra/superpowers)
+    — 20 skills across 20 AI coding tools, including full translations and China-specific
+    development skills.
+
+
+    [![官网 sp.aiolaola.com](https://img.shields.io/badge/🌐_官网-sp.aiolaola.com-F59E0B)](https://sp.aiolaola.com)
+
+    [![GitHub stars](https://img.shields.io/github/stars/jnMetaCode/superpowers-zh?style=social)](https://github.com/jnMetaCode/superpowers-zh)
+
+    [![npm version](https://img.shields.io/npm/v/superpowers-zh)](https://www.npmjs.com/package/superpowers-zh)
+
+    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+    [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
+
+
+    > 📖 **免费配套学习** → [从零学会 AI 编程](https://aiolaola.com/?utm_source=github&utm_campaign=superpowers)：180
+    节免费实操课 + 《AI 编程实战三卷书》在线阅读 + 实战社区 · superpowers 装好后配上方法论效率翻倍 · 永久免费
+
+
+    > 🆕 **v1.7.0 更新亮点**（[完整 Release Notes →](RELEASE-NOTES.zh.md)）
+
+    > - 🌍 **全局安装** `npx superpowers-zh --global` —— 一次安装、所有项目共享，多项目党告别逐个重装
+
+    > - 🧩 新增 **腾讯 CodeBuddy** 与 **华为云码道 CodeArts** 两款国产 IDE（工具数 18 → 20）
+
+    > - 🌐 官网 [sp.aiolaola.com](https://sp.aiolaola.com) + README 新增**繁体中文**（简 / 繁
+    / EN 三语）
+
+
+    ### 📊 项目规模
+
+
+    | 📦 翻译 Skills | 🇨🇳 中国特色 Skills | 🤖 支持工具 |
+
+    |:---:|:---:|:---:|
+
+    | **14** | **6** | **Claude Code / Copilot CLI / Hermes Agent / Cursor / Windsurf
+    / Kiro / Gemini CLI / Codex / Aider / Trae / VS Code (Copilot) / DeerFlow / OpenCode
+    / OpenClaw / Qwen Code / Antigravity / Claw Code / Qoder / CodeBuddy（腾讯）/ CodeArts（华为云码道）**
+    |
+
+
+    ---
+
+
+    ## ❤️ 赞助商 &nbsp;<sub>🙏 想出现在这里？联系 **jnMetaCode@qq.com** 赞助</sub>
+
+
+    <table>
+
+    <tr>
+
+    <td width="400" '
+  tags: []
+  review_state: auto-curated
+  quantifiable_score: 38
+  quality_score: 36
+  total_score: 74
+  score_detail:
+    stars: 12
+    activity: 15
+    adoption: 7
+    maturity: 4
+  tracking_priority: track
+  last_analyzed: '2026-07-15'
+  benchmark_ref: official-hermes-agent
+  readme_checked: true
+  quality_detail:
+    relevance: 10
+    practicality: 10
+    novelty: 7
+    ecosystem_value: 9
+  llm_summary:
+    zh: superpowers-zh 是著名 AI 编程工具技能集 superpowers 的中文增强版，包含完整汉化和多个原创技能，支持大量主流 AI 编码工具。
+    en: superpowers-zh is the enhanced Chinese edition of the famous superpowers skill
+      set for AI coding tools, with full translations and original skills supporting
+      many mainstream AI coding agents.
+  readme_full_checked: true
+  has_readme_full: true
+  retarget_reason: 项目README明确列出支持20款AI编程工具，其中15款存在于给定工具列表中，包括Claude Code、Codex CLI、Antigravity
+    CLI（含Gemini CLI）、OpenCode、OpenClaw、Qoder、Trae、CodeBuddy、Cursor、Hermes Agent、GitHub
+    Copilot、Windsurf、Kiro、Aider、通义灵码。
+  retargeted_at: '2026-07-17'
+  recommendation_level: try-now
+  curation_note: 'Auto-selected by scoring rules: source=github, score=74, resource_types=skills,
+    cli-tool, mcp-server, rules.'
+- id: github-tencentcloudbase-cloudbase-mcp
+  name: TencentCloudBase/CloudBase-MCP
+  url: https://github.com/TencentCloudBase/CloudBase-MCP
+  repo: TencentCloudBase/CloudBase-MCP
+  source_type: github
+  resource_type:
+  - mcp-server
+  - agent-framework
+  target_tools:
+  - claude-code
+  - codex-cli
+  - antigravity-cli
+  - opencode
+  - cursor
+  - windsurf
+  - workbuddy-codebuddy
+  - tongyi-lingma
+  - comate
+  - augment-code
+  - cline
+  - github-copilot
+  - trae
+  - openclaw
+  summary: '   CloudBase MCP - Connect CloudBase to your AI Agent.     Go from AI
+    prompt to live app. '
+  i18n:
+    zh:
+      name: TencentCloudBase/CloudBase-MCP
+      summary: '   CloudBase MCP - Connect CloudBase to your AI Agent.     Go from
+        AI prompt to live app. '
+    en:
+      name: TencentCloudBase/CloudBase-MCP
+      summary: '   CloudBase MCP - Connect CloudBase to your AI Agent.     Go from
+        AI prompt to live app. '
+  status: unknown
+  license: mit
+  stars: 1050
+  forks: 131
+  last_updated: '2026-07-14T09:10:47Z'
+  first_seen: '2026-07-14'
+  last_seen: '2026-07-14'
+  maturity: unknown
+  languages:
+  - TypeScript
+  topics:
+  - ai
+  - cloudbase
+  - mcp
+  - miniprogram
+  - tencent
+  - web
+  - aicoding
+  - supabase
+  - vibe-coding
+  - database
+  - postgresql
+  readme_preview: '![](scripts/assets/toolkit-better.gif)
+
+
+    CloudBase MCP
+
+
+    **🪐 AI 编程，一键上线**
+
+    连接 AI IDE 与腾讯云 CloudBase 的部署桥梁，让你的 AI 应用即刻上线
+
+    💡 像 Vercel + Supabase，但全程 AI 驱动——从提示词直达生产环境
+
+
+    [English](./README-EN.md) · **简体中文** · [文档][docs] · [更新日志][changelog] · [反馈问题][github-issues-link]
+
+
+    [![][npm-version-shield]][npm-link]
+
+    [![][npm-downloads-shield]][npm-link]
+
+    [![][github-stars-shield]][github-stars-link]
+
+    [![][github-forks-shield]][github-forks-link]
+
+    [![][github-issues-shield]][github-issues-link]
+
+    ![][github-license-shiel'
+  tags: []
+  review_state: auto-curated
+  quantifiable_score: 34
+  quality_score: 32
+  total_score: 66
+  score_detail:
+    stars: 8
+    activity: 15
+    adoption: 7
+    maturity: 4
+  tracking_priority: track
+  last_analyzed: '2026-07-15'
+  benchmark_ref: github-continuedev-continue
+  readme_checked: true
+  quality_detail:
+    relevance: 9
+    practicality: 9
+    novelty: 7
+    ecosystem_value: 7
+  llm_summary:
+    zh: 一个将腾讯云CloudBase接入AI助手的MCP服务，实现从提示词到应用一键部署。
+    en: An MCP server connecting Tencent Cloud's CloudBase to AI agents, enabling
+      one-click deployment from prompts to live apps.
+  retarget_reason: CloudBase MCP is a universal MCP server that connects multiple
+    AI coding tools (listed in its README) to Tencent CloudBase for one-click deployment.
+  retargeted_at: '2026-07-18'
+  recommendation_level: try-now
+  curation_note: 'Auto-selected by scoring rules: source=github, score=66, resource_types=mcp-server,
+    agent-framework.'
+- id: github-zai-org-codegeex4
+  name: zai-org/CodeGeeX4
+  url: https://github.com/zai-org/CodeGeeX4
+  repo: zai-org/CodeGeeX4
+  source_type: github
+  resource_type:
+  - cli-tool
+  target_tools:
+  - codegeex
+  summary: CodeGeeX4-ALL-9B, a versatile model for all AI software development scenarios,
+    including code completion, code interpreter, web search, function calling, repository-level
+    Q&A and much more.
+  i18n:
+    zh:
+      name: zai-org/CodeGeeX4
+      summary: CodeGeeX4-ALL-9B, a versatile model for all AI software development
+        scenarios, including code completion, code interpreter, web search, function
+        calling, repository-level Q&A and much more.
+    en:
+      name: zai-org/CodeGeeX4
+      summary: CodeGeeX4-ALL-9B, a versatile model for all AI software development
+        scenarios, including code completion, code interpreter, web search, function
+        calling, repository-level Q&A and much more.
+  status: unknown
+  license: apache-2.0
+  stars: 2559
+  forks: 263
+  last_updated: '2026-07-14T06:54:41Z'
+  first_seen: '2026-07-14'
+  last_seen: '2026-07-14'
+  maturity: unknown
+  languages:
+  - Python
+  topics: []
+  readme_preview: "![](resources/logo.jpeg)\n\n<p align=\"center\">\n    \U0001F3E0\
+    \ <a href=\"https://codegeex.cn\" target=\"_blank\">Homepage</a>｜\U0001F6E0 Extensions\
+    \ <a href=\"https://marketplace.visualstudio.com/items?itemName=aminer.codegeex\"\
+    \ target=\"_blank\">VS Code</a>, <a href=\"https://plugins.jetbrains.com/plugin/20587-codegeex\"\
+    \ target=\"_blank\">Jetbrains</a>｜\U0001F917 <a href=\"https://huggingface.co/THUDM/codegeex4-all-9b\"\
+    \ target=\"_blank\">HF Repo</a> | \U0001FAA7 <a href=\"https://huggingface.co/spaces/THUDM/CodeGeeX\"\
+    \ target=\"_blank\">HF DEMO</a>\n</p>\n\n[English](./README.md) | [中文](./README_zh.md)\
+    \ | [日本語](./README_ja.md)\n\n# CodeGeeX4: Open Multilingual Code Generation Model\n\
+    \nWe introduce CodeGeeX4-ALL-9B, the open-source version of the latest CodeGeeX4\
+    \ model series. It is a multilingual code generation model continually trained\
+    \ on the [GLM-4-9B](https://github.com/THUDM/GLM-4), significantly enhancing its\
+    \ code generation capabilities. Using a single CodeGeeX4-ALL-9B model, it can\
+    \ support comprehensive functions such as code completion and generation, code\
+    \ interpreter, web search, function call, repository-level code Q&A, covering\
+    \ various scenarios of software development. CodeGeeX4-ALL-9B has achieved highly\
+    \ competitive performance  on public benchmarks, such as [BigCodeBench](https://huggingface.co/datasets/bigcode/bigcodebench)\
+    \ and [NaturalCodeBench](https://github.com/THUDM/NaturalCodeBench). It is currently\
+    \ the most powerful code generation model with less than 10B parameters, even\
+    \ surpassing much larger general-purpose models, achieving the best balance in\
+    \ terms of inference speed and model performance.\n\n## Model List\n\n| Model\
+    \             | Type | Seq Length | Download                                 \
+    \                                                                            \
+    \                                                                            \
+    \           |\n|-------------------|------|------------|---------------------------------------------------------------------------------------------------------------------"
+  tags: []
+  review_state: auto-curated
+  quantifiable_score: 34
+  quality_score: 29
+  total_score: 63
+  score_detail:
+    stars: 8
+    activity: 15
+    adoption: 7
+    maturity: 4
+  tracking_priority: track
+  last_analyzed: '2026-07-15'
+  benchmark_ref: github-continuedev-continue
+  readme_checked: true
+  quality_detail:
+    relevance: 8
+    practicality: 8
+    novelty: 6
+    ecosystem_value: 7
+  llm_summary:
+    zh: CodeGeeX4是面向多语言代码生成的开源模型，配备 IDE 扩展，适合集成到 AI 编码工具生态。
+    en: CodeGeeX4 is an open-source multilingual code generation model with IDE extensions,
+      directly useful for AI coding agent tools.
+  readme_full_checked: true
+  has_readme_full: true
+  retarget_reason: 项目是 CodeGeeX4 模型的开源版本，直接对应工具列表中的 CodeGeeX（codegeex）。
+  retargeted_at: '2026-07-18'
+  recommendation_level: watch
+  curation_note: 'Auto-selected by scoring rules: source=github, score=63, resource_types=cli-tool.'
+- id: github-pantheon-security-medusa
+  name: Pantheon-Security/medusa
+  url: https://github.com/Pantheon-Security/medusa
+  repo: Pantheon-Security/medusa
+  source_type: github
+  resource_type:
+  - skills
+  - mcp-server
+  target_tools:
+  - claude-code
+  - codex-cli
+  - antigravity-cli
+  - cursor
+  - windsurf
+  - kiro
+  - github-copilot
+  - aider
+  - cline
+  - continue
+  - augment-code
+  - tabnine
+  - zed
+  summary: 'AI-first security scanner. NEW in v2026.7: Claude Code compromise detection
+    — vet .claude/ hooks, permissions & skills before you clone — plus an always-on
+    AI attack-signature scanner and native Rust & PHP rules. Also: medusa scan --git
+    to '
+  i18n:
+    zh:
+      name: Pantheon-Security/medusa
+      summary: 'AI-first security scanner. NEW in v2026.7: Claude Code compromise
+        detection — vet .claude/ hooks, permissions & skills before you clone — plus
+        an always-on AI attack-signature scanner and native Rust & PHP rules. Also:
+        medusa scan --git to '
+    en:
+      name: Pantheon-Security/medusa
+      summary: 'AI-first security scanner. NEW in v2026.7: Claude Code compromise
+        detection — vet .claude/ hooks, permissions & skills before you clone — plus
+        an always-on AI attack-signature scanner and native Rust & PHP rules. Also:
+        medusa scan --git to '
+  status: unknown
+  license: agpl-3.0
+  stars: 936
+  forks: 153
+  last_updated: '2026-07-15T16:29:20Z'
+  first_seen: '2026-07-14'
+  last_seen: '2026-07-16'
+  maturity: unknown
+  languages:
+  - Python
+  topics:
+  - devsecops
+  - open-source
+  - python
+  - sast
+  - scanner
+  - security
+  - static-analysis
+  - vulnerability-scanner
+  - ai-security
+  - code-analysis
+  - llm-security
+  - mcp
+  - cve-detection
+  - nextjs
+  - react
+  - agent-security
+  - security-tools
+  readme_preview: '# 🐍 MEDUSA - AI Security Scanner
+
+
+    [![PyPI](https://img.shields.io/pypi/v/medusa-security?label=PyPI&color=blue)](https://pypi.org/project/medusa-security/)
+
+    [![Downloads](https://img.shields.io/pypi/dm/medusa-security?label=Downloads&color=brightgreen)](https://pypi.org/project/medusa-security/)
+
+    [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
+
+    [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+
+    [![Tests](https://github.com/Pantheon-Security/medusa/actions/workflows/test.yml/badge.svg)](https://github.com/Pantheon-Security/medusa/actions/workflows/test.yml)
+
+    [![Windows](https://img.shields.io/badge/Windows-✓-brightgreen.svg)](https://github.com/Pantheon-Security/medusa)
+
+    [![macOS](https://img.shields.io/badge/macOS-✓-brightgreen.svg)](https://github.com/Pantheon-Security/medusa)
+
+    [![Linux](https://img.shields.io/badge/Linux-✓-brightgreen.svg)](https://github.com/Pantheon-Security/medusa)
+
+
+    **AI-first security scanner with 40,000+ detection patterns for AI/ML, agents,
+    and LLM applications.**
+
+    **🤖 Works out of the box - no tool installation required.**
+
+    **🚨 200 CVEs: Log4Shell, Spring4Shell, XZ Utils, LangChain RCE, MCP-Remote RCE,
+    React2Shell**
+
+    **🔥 `medusa scan --git <URL>` — Scan any repo for AI supply chain attacks (repo
+    poisoning, prompt injection, MCP tool poisoning)**
+
+    **🔐 `medusa secrets scan` — Find leaked API keys in your Claude / Cursor / Copilot
+    / shell history. 21 issuer types. Interactive in-place redaction.**
+
+    **🚀 v2026.7.0: Claude Code compromise detection, an always-on AI attack-signature
+    scanner, native Rust & PHP security rules, and rule-level diagnostics — on top
+    of 40,000+ detection patterns.**
+
+
+    ---
+
+
+    ## 🎯 What is MEDUSA?
+
+
+    MEDUSA is an AI-first security scanner with **40,000+ detection patterns** that
+    works out of the box. Simply install and scan - no external tool installation
+    required. MEDUSA''s built-in rules detect vulnerabilities in AI/ML'
+  tags: []
+  review_state: auto-curated
+  quantifiable_score: 30
+  quality_score: 37
+  total_score: 67
+  score_detail:
+    stars: 4
+    activity: 15
+    adoption: 7
+    maturity: 4
+  tracking_priority: track
+  last_analyzed: '2026-07-15'
+  benchmark_ref: github-continuedev-continue
+  readme_checked: true
+  quality_detail:
+    relevance: 10
+    practicality: 9
+    novelty: 9
+    ecosystem_value: 9
+  llm_summary:
+    zh: 专门针对AI编码代理安全性的扫描器，尤其关注Claude Code的配置检测。
+    en: AI-first security scanner for detecting vulnerabilities in AI coding agent
+      configurations, with special focus on Claude Code.
+  readme_full_checked: true
+  has_readme_full: true
+  retarget_reason: 项目是AI安全扫描器，专门检测Claude Code、Codex CLI、Gemini CLI、Cursor、Windsurf、Kiro、GitHub
+    Copilot、Aider、Cline、Continue、Augment Code、Tabnine、Zed等AI编码工具的配置漏洞、供应链攻击和秘密泄露。
+  retargeted_at: '2026-07-17'
+  recommendation_level: try-now
+  curation_note: 'Auto-selected by scoring rules: source=github, score=67, resource_types=skills,
+    mcp-server.'
 - id: github-x1xhlol-system-prompts-and-models-of-ai-tools
   name: x1xhlol/system-prompts-and-models-of-ai-tools
   url: https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools
@@ -2537,7 +3935,24 @@
     </p>\n\n<div align=\"center\" markdown=\"1\">\n\n### [Make your AI agents self-healing](https://github.com/latitude-dev/latitude-llm)\
     \  \n[Open Source.](https://github.com/latitude-dev/latitude-llm)\n\n</div>\n\n\
     ---\n\n<a href=\"https://discord.gg/NwzrWErdMU\" target=\"_blank\">\n  <img src=\"\
-    https://img.shields."
+    https://img.shields.io/discord/1402660735833604126?label=LeaksLab%20Discord&logo=discord&style=for-the-badge\"\
+    \ alt=\"LeaksLab Discord\" />\n</a>\n\n\n<a href=\"https://trendshift.io/repositories/14084\"\
+    \ target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/14084\"\
+    \ alt=\"x1xhlol%2Fsystem-prompts-and-models-of-ai-tools | Trendshift\" style=\"\
+    width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n\n\n[![Build\
+    \ Status](https://app.cloudback.it/badge/x1xhlol/system-prompts-and-models-of-ai-tools)](https://cloudback.it)\n\
+    [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/x1xhlol/system-prompts-and-models-of-ai-tools)\n\
+    \n---\n\n## Security Notice for AI Startups\n\n> **Warning:** If you're an AI\
+    \ startup, make sure your data is secure. Exposed prompts or AI models can easily\
+    \ become a target for hackers.\n\n> **Important:** Interested in securing your\
+    \ AI systems?  \n> Check out **[ZeroLeaks](https://zeroleaks.ai/)**, a service\
+    \ designed to help startups **identify and secure** prompt injection and system\
+    \ prompt extraction risks.\n\n---\n\n## Support the Project\n\nIf you find this\
+    \ collection valuable and appreciate the effort involved in obtaining and sharing\
+    \ these insights, please consider supporting the project.\n\nYou can show your\
+    \ support via:\n\n- **Cryptocurrency:**  \n  - **BTC:** `bc1q7zldmzjwspnaa48udvelwe6k3fef7xrrhg5625`\
+    \  \n  - **LTC:** `LRWgqwEYDwqau1WeiTs6Mjg85NJ7m3fsdQ`  \n  - **ETH:** `0x3f844B2cc3c4b7242964373fB0A41C4fdffB192A`\n\
+    - **Patreon:** https://patreon.com/lucknite\n- **Ko-fi:** htt"
   tags: []
   review_state: auto-curated
   quantifiable_score: 47
@@ -2560,561 +3975,14 @@
     zh: 一个汇集了数十种AI编程工具系统提示词和模型的大型仓库，极受欢迎，但内容创新性一般。
     en: A massive collection of system prompts and models for dozens of AI coding
       tools, extremely popular but not highly novel.
+  readme_full_checked: true
+  has_readme_full: true
+  readme_checked: true
+  retarget_reason: 项目收集并披露多个AI编码工具的系统提示和模型，其README和Topics明确列出了这些工具，且当前标签已涵盖大部分。
+  retargeted_at: '2026-07-17'
   recommendation_level: try-now
   curation_note: 'Auto-selected by scoring rules: source=github, score=79, resource_types=extension,
     agent-framework.'
-- id: github-sickn33-agentic-awesome-skills
-  name: sickn33/agentic-awesome-skills
-  url: https://github.com/sickn33/agentic-awesome-skills
-  repo: sickn33/agentic-awesome-skills
-  source_type: github
-  resource_type:
-  - skills
-  - extension
-  - agent-framework
-  - mcp-server
-  - cli-tool
-  target_tools:
-  - claude-code
-  - codex-cli
-  - antigravity-cli
-  - cursor
-  - kiro
-  - zed
-  summary: Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor,
-    Codex CLI, Autohand Code, Gemini CLI, Antigravity, and more. Includes specialized
-    plugins, installer CLI, bundles, workflows, and official/community skill collecti
-  i18n:
-    zh:
-      name: sickn33/agentic-awesome-skills
-      summary: Installable GitHub library of 1,900+ agentic skills for Claude Code,
-        Cursor, Codex CLI, Autohand Code, Gemini CLI, Antigravity, and more. Includes
-        specialized plugins, installer CLI, bundles, workflows, and official/community
-        skill collecti
-    en:
-      name: sickn33/agentic-awesome-skills
-      summary: Installable GitHub library of 1,900+ agentic skills for Claude Code,
-        Cursor, Codex CLI, Autohand Code, Gemini CLI, Antigravity, and more. Includes
-        specialized plugins, installer CLI, bundles, workflows, and official/community
-        skill collecti
-  status: unknown
-  license: mit
-  stars: 43331
-  forks: 6871
-  last_updated: '2026-07-15T19:07:38Z'
-  first_seen: '2026-07-14'
-  last_seen: '2026-07-16'
-  maturity: unknown
-  languages:
-  - Python
-  topics:
-  - agentic-skills
-  - ai-agents
-  - antigravity
-  - claude-code
-  - mcp
-  - ai-workflows
-  - codex-cli
-  - developer-tools
-  - gemini-cli
-  - skill-library
-  - agent-skills
-  - ai-agent-skills
-  - antigravity-skills
-  - claude-code-skills
-  - codex-skills
-  - cursor-skills
-  - gemini-skills
-  - ai-coding
-  - cursor
-  - kiro
-  readme_preview: '[![Agentic Awesome Skills social preview](apps/web-app/public/social-card.png)](https://github.com/sickn33/agentic-awesome-skills)
-
-
-    # 🌌 Agentic Awesome Skills: 1,958+ Agentic Skills for Claude Code, Gemini CLI,
-    Cursor, Autohand Code, Copilot & More
-
-
-    > **Installable GitHub library of 1,958+ agentic skills for Claude Code, Cursor,
-    Codex CLI, Autohand Code, Gemini CLI, Antigravity, and other AI coding assistants.**
-
-
-    Agentic Awesome Skills is an installable GitHub library and npm installer for
-    reusa'
-  tags: []
-  review_state: auto-curated
-  quantifiable_score: 45
-  quality_score: 37
-  total_score: 82
-  score_detail:
-    stars: 16
-    activity: 15
-    adoption: 10
-    maturity: 4
-  tracking_priority: track
-  last_analyzed: '2026-07-15'
-  benchmark_ref: official-hermes-agent
-  readme_checked: true
-  quality_detail:
-    relevance: 10
-    practicality: 9
-    novelty: 8
-    ecosystem_value: 10
-  llm_summary:
-    zh: 一个拥有1,900+可安装代理技能的庞大精选库，支持多种AI编码助手，并附带安装工具，广受社区欢迎。
-    en: A massive curated library of 1,900+ installable agentic skills for multiple
-      AI coding assistants, with an installer CLI and broad community adoption.
-  recommendation_level: try-now
-  curation_note: 'Auto-selected by scoring rules: source=github, score=82, resource_types=skills,
-    extension, agent-framework, mcp-server, cli-tool.'
-- id: github-alibaba-nlp-deepresearch
-  name: Alibaba-NLP/DeepResearch
-  url: https://github.com/Alibaba-NLP/DeepResearch
-  repo: Alibaba-NLP/DeepResearch
-  source_type: github
-  resource_type:
-  - tutorial
-  target_tools:
-  - trae
-  - hermes-agent
-  - tongyi-lingma
-  - replit
-  summary: Tongyi Deep Research, the Leading Open-source Deep Research Agent
-  i18n:
-    zh:
-      name: Alibaba-NLP/DeepResearch
-      summary: Tongyi Deep Research, the Leading Open-source Deep Research Agent
-    en:
-      name: Alibaba-NLP/DeepResearch
-      summary: Tongyi Deep Research, the Leading Open-source Deep Research Agent
-  status: unknown
-  license: apache-2.0
-  stars: 19661
-  forks: 1504
-  last_updated: '2026-07-15T18:39:35Z'
-  first_seen: '2026-07-14'
-  last_seen: '2026-07-16'
-  maturity: unknown
-  languages:
-  - Python
-  topics:
-  - agent
-  - llm
-  - artificial-intelligence
-  - information-seeking
-  - alibaba
-  - web-agent
-  - deepresearch
-  - tongyi
-  - deep-research
-  readme_preview: '[![MODELS](https://img.shields.io/badge/Models-5EDDD2?style=for-the-badge&logo=huggingface&logoColor=ffffff&labelColor)](https://huggingface.co/Alibaba-NLP/Tongyi-DeepResearch-30B-A3B)
-
-    [![GITHUB](https://img.shields.io/badge/Github-24292F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Alibaba-NLP/DeepResearch)
-
-    [![Blog](https://img.shields.io/badge/Blog-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://tongyi-agent.github.io/blog/introducing-tongyi-deep'
-  tags: []
-  review_state: auto-curated
-  quantifiable_score: 45
-  quality_score: 33
-  total_score: 78
-  score_detail:
-    stars: 16
-    activity: 15
-    adoption: 10
-    maturity: 4
-  tracking_priority: track
-  last_analyzed: '2026-07-15'
-  benchmark_ref: official-hermes-agent
-  readme_checked: true
-  quality_detail:
-    relevance: 9
-    practicality: 9
-    novelty: 7
-    ecosystem_value: 8
-  llm_summary:
-    zh: 阿里巴巴开源深度研究代理，与AI编码工具集成以自动执行研究任务。
-    en: An open-source deep research agent from Alibaba, designed to integrate with
-      AI coding tools for automated research tasks.
-  recommendation_level: watch
-  curation_note: 'Auto-selected by scoring rules: source=github, score=78, resource_types=tutorial.'
-- id: github-baidu-baige-loongflow
-  name: baidu-baige/LoongFlow
-  url: https://github.com/baidu-baige/LoongFlow
-  repo: baidu-baige/LoongFlow
-  source_type: github
-  resource_type:
-  - agent-framework
-  target_tools:
-  - trae
-  - hermes-agent
-  - comate
-  - replit
-  summary: LoongFlow is an expert-grade Agent framework for Loop Engineering. Through
-    a Plan-Execute-Summary loop and structured experiential memory, it enables AI
-    to continuously think, execute, reflect, and evolve across complex software engineering
-  i18n:
-    zh:
-      name: baidu-baige/LoongFlow
-      summary: LoongFlow is an expert-grade Agent framework for Loop Engineering.
-        Through a Plan-Execute-Summary loop and structured experiential memory, it
-        enables AI to continuously think, execute, reflect, and evolve across complex
-        software engineering
-    en:
-      name: baidu-baige/LoongFlow
-      summary: LoongFlow is an expert-grade Agent framework for Loop Engineering.
-        Through a Plan-Execute-Summary loop and structured experiential memory, it
-        enables AI to continuously think, execute, reflect, and evolve across complex
-        software engineering
-  status: unknown
-  license: apache-2.0
-  stars: 451
-  forks: 51
-  last_updated: '2026-07-15T02:29:20Z'
-  first_seen: '2026-07-14'
-  last_seen: '2026-07-16'
-  maturity: unknown
-  languages:
-  - Python
-  topics:
-  - agent
-  - evolutionary-algorithms
-  - llm
-  - multi-agent
-  - baidu
-  - discovery
-  - evolutionary-computation
-  - genetic-algorithm
-  - iterative-methods
-  - iterative-refinement
-  - llm-ensemble
-  - optimize
-  - loongflow
-  - ai
-  - ai-agent
-  - evolve
-  - sota
-  - openevolve-alternative
-  - loop-engineering
-  readme_preview: "[**中文版**](./README_zh.md)\n\nLoongFlow: A Thinking & Learning Framework\
-    \ for Expert-Grade AI Agents.\n\n_Set Creativity Free! LoongFlow turns your expertise\
-    \ into professional AI productivity._\n\nLoongFlow is an open-source **expert-grade\
-    \ Agent development framework**.\n\nEnable Agents to think and learn through the\
-    \ PES paradigm, and accumulate experience through iteration.\n\n    \n    \n \
-    \       \n    \n    \n        \n    \n    \n        \n           \n\n[\U0001F680\
-    \ **Quick Start**](#quick-start) • [**Examples**](#loongflow"
-  tags: []
-  review_state: auto-curated
-  quantifiable_score: 27
-  quality_score: 36
-  total_score: 63
-  score_detail:
-    stars: 4
-    activity: 15
-    adoption: 4
-    maturity: 4
-  tracking_priority: track
-  last_analyzed: '2026-07-15'
-  benchmark_ref: github-continuedev-continue
-  readme_checked: true
-  quality_detail:
-    relevance: 10
-    practicality: 8
-    novelty: 9
-    ecosystem_value: 9
-  llm_summary:
-    zh: 一个专注于循环工程的专业级AI代理框架，通过规划-执行-总结循环和结构化经验记忆实现持续进化。
-    en: A professional-grade agent framework for loop engineering, enabling AI to
-      continuously improve through Plan-Execute-Summary cycles and structured experiential
-      memory.
-  recommendation_level: try-now
-  curation_note: 'Auto-selected by scoring rules: source=github, score=63, resource_types=agent-framework.'
-- id: github-samber-cc-skills-golang
-  name: samber/cc-skills-golang
-  url: https://github.com/samber/cc-skills-golang
-  repo: samber/cc-skills-golang
-  source_type: github
-  resource_type:
-  - skills
-  - agent-framework
-  - extension
-  target_tools:
-  - claude-code
-  - codex-cli
-  - antigravity-cli
-  - opencode
-  - trae
-  - workbuddy-codebuddy
-  - cursor
-  - hermes-agent
-  - github-copilot
-  - windsurf
-  - codegeex
-  - cline
-  - kilo-code
-  - augment-code
-  - replit
-  - openclaw
-  summary: 🧑‍🎨 A collection of Golang agentic skills that works
-  i18n:
-    zh:
-      name: samber/cc-skills-golang
-      summary: 🧑‍🎨 A collection of Golang agentic skills that works
-    en:
-      name: samber/cc-skills-golang
-      summary: 🧑‍🎨 A collection of Golang agentic skills that works
-  status: unknown
-  license: mit
-  stars: 2531
-  forks: 166
-  last_updated: '2026-07-14T08:52:36Z'
-  first_seen: '2026-07-14'
-  last_seen: '2026-07-14'
-  maturity: unknown
-  languages:
-  - Go
-  topics:
-  - agent
-  - ai
-  - antigravity
-  - claude
-  - claude-code
-  - code
-  - codex
-  - coding
-  - copilot
-  - cursor
-  - gemini
-  - opencode
-  - plugin
-  - skills
-  - vibe-coding
-  - openclaw
-  - gemini-cli-extension
-  - agent-skills
-  - skillsmp
-  readme_preview: '# Agent Skills for production-ready Golang projects
-
-
-    AI agent skills are reusable instruction sets that extend your coding assistant
-    with domain-specific expertise, loaded on demand so they don''t bloat your context.
-    This repository covers **Go-specific** skills only (language, testing, security,
-    observability, etc.); for dev workflow skills (git conventions, CI/CD, PR reviews)
-    you''ll want to add a separate skills plugin.
-
-
-    For generic skills, please visit [cc-skills](https://github.com/samber/cc-'
-  tags: []
-  review_state: auto-curated
-  quantifiable_score: 34
-  quality_score: 37
-  total_score: 71
-  score_detail:
-    stars: 8
-    activity: 15
-    adoption: 7
-    maturity: 4
-  tracking_priority: track
-  last_analyzed: '2026-07-15'
-  benchmark_ref: github-continuedev-continue
-  readme_checked: true
-  quality_detail:
-    relevance: 10
-    practicality: 10
-    novelty: 8
-    ecosystem_value: 9
-  llm_summary:
-    zh: 高质量且易于使用的 Golang 专用 AI 代理技能集合，覆盖测试、安全性、可观测性等关键领域，与主流编码助手工具兼容。
-    en: A well-crafted collection of Golang-specific agentic skills for AI coding
-      assistants, covering testing, security, observability, and more.
-  recommendation_level: try-now
-  curation_note: 'Auto-selected by scoring rules: source=github, score=71, resource_types=skills,
-    agent-framework, extension.'
-- id: github-continuedev-continue
-  name: continuedev/continue
-  url: https://github.com/continuedev/continue
-  repo: continuedev/continue
-  source_type: github
-  resource_type:
-  - agent-framework
-  - cli-tool
-  target_tools:
-  - codex-cli
-  - antigravity-cli
-  - opencode
-  - qoder
-  - trae
-  - hermes-agent
-  - cline
-  - continue
-  - replit
-  summary: open-source coding agent
-  i18n:
-    zh:
-      name: continuedev/continue
-      summary: 开源编程代理
-    en:
-      name: continuedev/continue
-      summary: open-source coding agent
-  status: unknown
-  license: apache-2.0
-  stars: 34898
-  forks: 5051
-  last_updated: '2026-07-15T18:58:14Z'
-  first_seen: '2026-07-13'
-  last_seen: '2026-07-16'
-  maturity: unknown
-  languages:
-  - TypeScript
-  topics:
-  - open-source
-  - developer-tools
-  - ai
-  - agent
-  - cli
-  readme_preview: '<h1 align="center">Continue</h1>
-
-
-    <p align="center">Pioneering open-source coding agent</p>
-
-
-    <div align="center">
-
-
-    <a href="https://opensource.org/licenses/Apache-2.0"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg"
-    /></a>
-
-    <a href="https://docs.continue.dev"><img src="https://img.shields.io/badge/Docs-docs.continue.dev-blue"
-    /></a>
-
-    <a href="https://github.com/continuedev/continue/releases"><img src="https://img.shields.io/badge/Changelog-GitHub_Releases-blue"
-    /></a>
-
-
-    </div>
-
-
-    '
-  tags: []
-  review_state: auto-curated
-  quantifiable_score: 45
-  quality_score: 35
-  total_score: 80
-  score_detail:
-    stars: 16
-    activity: 15
-    adoption: 10
-    maturity: 4
-  tracking_priority: track
-  last_analyzed: '2026-07-14'
-  benchmark_ref: official-hermes-agent
-  quality_detail:
-    relevance: 10
-    practicality: 10
-    novelty: 6
-    ecosystem_value: 9
-  llm_summary:
-    zh: 继续代码代理是领先的开源编码代理，提供IDE扩展和CLI工具，支持多种AI模型，拥有庞大的社区和丰富的文档。
-    en: Continue is a leading open-source coding agent offering IDE extensions and
-      CLI tools, with strong community adoption and comprehensive documentation.
-  recommendation_level: try-now
-  curation_note: 'Auto-selected by scoring rules: source=github, score=80, resource_types=agent-framework,
-    cli-tool.'
-- id: github-jsuvic-agent-profile
-  name: jsuvic/agent-profile
-  url: https://github.com/jsuvic/agent-profile
-  repo: jsuvic/agent-profile
-  source_type: github
-  resource_type:
-  - skills
-  - cli-tool
-  - mcp-server
-  target_tools:
-  - claude-code
-  - codex-cli
-  - antigravity-cli
-  - opencode
-  - qoder
-  - cline
-  - tabnine
-  summary: Configure Codex, Claude, and Tabnine to understand your project, follow
-    its workflow, and respect its safety rules.
-  i18n:
-    zh:
-      name: jsuvic/agent-profile
-      summary: Configure Codex, Claude, and Tabnine to understand your project, follow
-        its workflow, and respect its safety rules.
-    en:
-      name: jsuvic/agent-profile
-      summary: Configure Codex, Claude, and Tabnine to understand your project, follow
-        its workflow, and respect its safety rules.
-  status: unknown
-  license: apache-2.0
-  stars: 3
-  forks: 0
-  last_updated: '2026-07-14T09:34:43Z'
-  first_seen: '2026-07-14'
-  last_seen: '2026-07-14'
-  maturity: unknown
-  languages:
-  - TypeScript
-  topics:
-  - ai
-  - claude
-  - claude-skills
-  - cli
-  - codex
-  - codex-skill
-  - coding-agents
-  - compiler
-  - developer-tools
-  - mcp
-  - tabnine
-  readme_preview: '# Agent Profile
-
-
-    One config file for all your AI coding tools.
-
-
-    If you use AI coding tools - Claude Code, Codex, Tabnine - each one wants
-
-    its own setup files: `CLAUDE.md` here, `AGENTS.md` there, separate
-
-    settings, separate skills. Keeping them in sync by hand is tedious, and
-
-    they drift apart until each tool behaves differently.
-
-
-    Agent Profile fixes that. You describe your project once, in one file
-
-    (`ai-profile.yaml`), and it generates the right files for every tool:
-
-    project instructions, reusab'
-  tags: []
-  review_state: auto-curated
-  quantifiable_score: 21
-  quality_score: 35
-  total_score: 56
-  score_detail:
-    stars: 2
-    activity: 15
-    adoption: 0
-    maturity: 4
-  tracking_priority: track
-  last_analyzed: '2026-07-15'
-  benchmark_ref: official-cursor
-  readme_checked: true
-  quality_detail:
-    relevance: 10
-    practicality: 7
-    novelty: 9
-    ecosystem_value: 9
-  llm_summary:
-    zh: 为AI编码工具提供统一配置管理，从单一YAML生成各工具专用指令。
-    en: A unified configuration manager for AI coding tools that generates per-tool
-      instructions from a single YAML file.
-  recommendation_level: try-now
-  curation_note: 'Auto-selected by scoring rules: source=github, score=56, resource_types=skills,
-    cli-tool, mcp-server.'
 - id: github-wshobson-agents
   name: wshobson/agents
   url: https://github.com/wshobson/agents
@@ -3179,9 +4047,9 @@
   readme_preview: '# Agentic Plugin Marketplace
 
 
-    > Production-ready agentic workflow building blocks: **92 plugins**, **199 agents**,
+    > Production-ready agentic workflow building blocks: **94 plugins**, **203 agents**,
 
-    > **162 skills**, **106 commands** — built for Claude Code and consumed natively
+    > **175 skills**, **109 commands** — built for Claude Code and consumed natively
     by
 
     > OpenAI Codex CLI, Cursor, OpenCode, Gemini CLI, and GitHub Copilot from a single
@@ -3190,7 +4058,71 @@
 
     [![Claude Code](https://img.shields.io/badge/Claude%20Code-native-blueviolet)](#claude-code)
     [![Codex CLI](https://img.shields.io/badge/Codex%20CLI-supported-black)](docs/harnesses.md)
-    [![Cursor](http'
+    [![Cursor](https://img.shields.io/badge/Cursor-supported-purple)](docs/harnesses.md)
+    [![OpenCode](https://img.shields.io/badge/OpenCode-supported-green)](docs/harnesses.md)
+    [![Gemini CLI](https://img.shields.io/badge/Gemini%20CLI-supported-blue)](GEMINI.md)
+    [![Copilot](https://img.shields.io/badge/Copilot-supported-lightgrey)](docs/harnesses.md)
+
+
+    > [!NOTE]
+
+    > One source-of-truth (`plugins/`), five harnesses. Each harness gets idiomatic,
+
+    > harness-native artifacts — not lowest-common-denominator translations.
+
+    > See [docs/harnesses.md](docs/harnesses.md) for the capability matrix.
+
+
+    ## Quick start
+
+
+    Pick your harness:
+
+
+    ### Claude Code
+
+
+    ```bash
+
+    /plugin marketplace add wshobson/agents
+
+    /plugin install python-development          # or any of 94 plugins
+
+    ```
+
+
+    [→ Full Claude Code setup, troubleshooting, and plugin catalog](docs/usage.md)
+
+
+    ### Codex CLI · Cursor · OpenCode · Gemini CLI · Copilot
+
+
+    Codex and Cursor install natively from the committed registries (which point at
+    the source `plugins/`):
+
+
+    ```bash
+
+    npx codex-marketplace add wshobson/agents        # Codex; then install individual
+    plugins
+
+    # Cursor: add the marketplace, then `/plugin install <name>` (reads .cursor-plugin/
+    + source)
+
+    ```
+
+
+    Gemini and OpenCode install via clone + generate (the transformed trees are gitignored):
+
+
+    ```bash
+
+    gh repo clone wshobson/agents ~/agents && cd ~/agents
+
+    make generate HARNESS=gemini && gemini extensions install .   # Gemini
+
+    make install-opencode                                          # OpenCode (runs
+    generate + sy'
   tags: []
   review_state: auto-curated
   quantifiable_score: 45
@@ -3214,6 +4146,11 @@
     zh: 一个多工具兼容的智能体插件市场，为多种AI编码助手提供现成的工作流构建块。
     en: A multi-harness agentic plugin marketplace providing production-ready workflow
       building blocks for multiple AI coding assistants.
+  readme_full_checked: true
+  has_readme_full: true
+  retarget_reason: 项目明确描述为多工具插件市场，支持 Claude Code、Codex CLI、Gemini CLI、OpenCode、Cursor
+    和 GitHub Copilot。
+  retargeted_at: '2026-07-17'
   recommendation_level: try-now
   curation_note: 'Auto-selected by scoring rules: source=github, score=84, resource_types=extension,
     agent-framework, cli-tool, skills, rules, mcp-server.'
@@ -3226,6 +4163,10 @@
   - skills
   target_tools:
   - claude-code
+  - codex-cli
+  - cursor
+  - openclaw
+  - hermes-agent
   summary: Huashu Design · HTML-native design skill for Claude Code · Claude Code
     里 HTML 原生的设计 skill · 高保真原型 / 幻灯片 / 动画 + 20 设计哲学 + 5 维评审 + MP4 导出 · Agent-agnostic
   i18n:
@@ -3248,31 +4189,30 @@
   languages:
   - HTML
   topics: []
-  readme_preview: '🌐 中文 · English
-
-
-    # Huashu Design
-
-
-    > *「打字。回车。一份能交付的设计。」*
-
-    > *"Type. Hit enter. A finished design lands in your lap."*
-
-
-    [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
-    [![Agent-Agnostic](https://img.shields.io/badge/Agent-Agnostic-blueviolet)](https://skills.sh)
-
-    [![Skills](https://img.shields.io/badge/skills.sh-Compatible-green)](https://skills.sh)
-
-
-    **在你的 agent 里打一句话，拿回一份能交付的设计。**
-
-
-    3 到 30 分钟，你能 ship 一段**产品发布动画**、一个能点击的 App 原型、一套能编辑的 PPT、一份印刷级的信息图。
-
-
-    不是「AI 做的还行」那种水平——是看起来像大厂设'
+  readme_preview: "<sub>\U0001F310 <b>中文</b> · <a href=\"README.en.md\">English</a></sub>\n\
+    \n<div align=\"center\">\n\n# Huashu Design\n\n> *「打字。回车。一份能交付的设计。」*\n> *\"Type.\
+    \ Hit enter. A finished design lands in your lap.\"*\n\n[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)\n\
+    [![Agent-Agnostic](https://img.shields.io/badge/Agent-Agnostic-blueviolet)](https://skills.sh)\n\
+    [![Skills](https://img.shields.io/badge/skills.sh-Compatible-green)](https://skills.sh)\n\
+    \n<br>\n\n**在你的 agent 里打一句话，拿回一份能交付的设计。**\n\n<br>\n\n3 到 30 分钟，你能 ship 一段**产品发布动画**、一个能点击的\
+    \ App 原型、一套能编辑的 PPT、一份印刷级的信息图。\n\n不是「AI 做的还行」那种水平——是看起来像大厂设计团队做的。给 skill 你的品牌资产（logo、色板、UI\
+    \ 截图），它会读懂你的品牌气质；什么都不给，**三套逻辑顾问 + 40 种 HTML 原生风格库**也能兜底到不出 AI slop。\n\n**你看到这篇\
+    \ README 里的每一个动画，都是 huashu-design 自己做的。** 不是 Figma，不是 AE，就是一句话 prompt + skill\
+    \ 跑通。下次产品发布要做宣传片？现在你也能做。\n\n```\nnpx skills add alchaincyf/huashu-design\n```\n\
+    \n跨 agent 通用——Claude Code、Cursor、Codex、OpenClaw、Hermes 都能装。\n\n> \U0001F4E3 **已改为\
+    \ MIT 协议。** 自 2026-05-14 起本 skill 完全开源（[MIT License](LICENSE)），个人和**商用都免费**，无需事先授权。原「个人使用免费、企业商用需授权」的条款已作废。([查看变更](#license))\n\
+    \n[看效果](#demo-画廊) · [安装](#装上就能用) · [能做什么](#能做什么) · [核心机制](#核心机制) · [和 Claude Design\
+    \ 的关系](#和-claude-design-的关系)\n\n</div>\n\n---\n\n<p align=\"center\">\n  <img\
+    \ src=\"https://github.com/alchaincyf/huashu-design/releases/download/v2.0/hero-animation-v10-en.gif\"\
+    \ alt=\"huashu-design Hero · 打字 → 选方向 → 画廊展开 → 聚焦 → 品牌显形\" width=\"100%\">\n</p>\n\
+    \n<p align=\"center\"><sub>\n  ▲ 25 秒 · Terminal → 4 方向 → Gallery ripple → 4 次\
+    \ Focus → Brand reveal<br>\n  \U0001F449 <a href=\"https://www.huasheng.ai/huashu-design-hero/\"\
+    >访问带音效的 HTML 互动版</a> ·\n  <a href=\"https://github.com/alchaincyf/huashu-design/releases/download/v2.0/hero-animation-v10-en.mp4\"\
+    >下载 MP4（含 BGM+SFX · 10MB）</a>\n</sub></p>\n\n---\n\n## \U0001F4FA 新手教程（花叔亲录）\n\
+    \n不知道怎么用？看花叔录的 huashu-design 上手教程：\n\n<p align=\"center\">\n  <a href=\"https://www.youtube.com/watch?v=m-_BlUdcIvw\"\
+    ><img src=\"https://img.youtube.com/vi/m-_BlUdcIvw/maxresdefault.jpg\" alt=\"\
+    huashu-design 使用教程\" width=\"70%\"></a>\n</p>\n\n<p align=\"center\"><sub>\U0001F449\
+    \ <a href=\"https://www.youtube.com/watch?v=m-_BlUdcIv"
   tags: []
   review_state: auto-curated
   quantifiable_score: 45
@@ -3297,6 +4237,10 @@
     en: A comprehensive HTML-native design skill for Claude Code, enabling high-fidelity
       prototypes, slides, animations, and more, with design philosophies and review
       frameworks, serving as a benchmark design tool in the AI coding agent ecosystem.
+  readme_full_checked: true
+  has_readme_full: true
+  retarget_reason: 项目README明确声明支持Claude Code、Codex CLI、Cursor、OpenClaw、Hermes Agent等工具，且当前标签为claude-code。
+  retargeted_at: '2026-07-17'
   recommendation_level: try-now
   curation_note: 'Auto-selected by scoring rules: source=github, score=84, resource_types=skills.'
 - id: github-alirezarezvani-claude-skills
@@ -3337,7 +4281,7 @@
   forks: 2823
   last_updated: '2026-07-06T15:08:06Z'
   first_seen: '2026-07-13'
-  last_seen: '2026-07-17'
+  last_seen: '2026-07-18'
   maturity: unknown
   languages:
   - Python
@@ -3366,7 +4310,7 @@
     Tool
 
 
-    **355 production-ready Claude Code skills, plugins, and agent skills for 13 AI
+    **362 production-ready Claude Code skills, plugins, and agent skills for 13 AI
     coding tools.**
 
 
@@ -3374,7 +4318,34 @@
     — also works with OpenAI Codex, Gemini CLI, Cursor, and 9 more coding agents.
     Reusable expertise packages covering engineering, DevOps, marketing (incl. AEO
     — Answer Engine Optimization for LLM citation), security (PreToolUse hooks), compliance,
-    C-leve'
+    C-level advisory (incl. founder-mode CFO/CMO/CRO/CPO/COO/CHRO/CISO/GC/CDO/CAIO/CCO/VPE
+    personas + 21 /cs:* slash commands), productivity (capture/email/reflect/weekly-review/deep-work/meetings),
+    an academic research stack (litreview/grants/dossier/patent/syllabus/pulse/notebooklm/deep-research
+    + hybrid router), and enterprise Research Operations (clinical-research/research-finance/market-research/product-research,
+    v2.9.0).
+
+
+    **Works with:** Claude Code · OpenAI Codex · Gemini CLI · OpenClaw · Hermes Agent[^hermes]
+    · Mistral Vibe[^vibe] · Cursor · Aider · Windsurf · Kilo Code · OpenCode · Augment
+    · Antigravity
+
+
+    [^hermes]: Hermes Agent is **BYO-sync tier**: the repo ships a pre-generated `.hermes/skills/claude-skills/`
+    tree, but you run `python scripts/sync-hermes-skills.py` once locally to install
+    into `~/.hermes/skills/`. Uses the same agentskills.io SKILL.md standard — no
+    format conversion.
+
+    [^vibe]: Mistral Vibe is also **BYO-sync tier**: the repo ships a pre-generated
+    `.vibe/skills/claude-skills/` tree, run `./scripts/vibe-install.sh` once locally
+    to install into `~/.vibe/skills/`. Same agentskills.io SKILL.md standard — no
+    format conversion. Docs: <https://docs.mistral.ai/mistral-vibe/agents-skills>.
+
+
+    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
+    [![Skills](https://img.shields.io/badge/Skills-362-brightgreen?style=for-the-badge)](#skills-overview)
+
+    [![Agents](https://img.shields.io/badge/Agents-102-blue?'
   tags: []
   review_state: auto-curated
   quantifiable_score: 45
@@ -3397,7 +4368,116 @@
     zh: 这是一个为多个AI编程代理（如Claude Code、Codex、Cursor等）提供超过350个生产就绪技能和插件的开源库，极具实用价值。
     en: A comprehensive open-source library of over 350 production-ready skills and
       plugins for multiple AI coding agents, highly practical and valuable.
+  has_readme_full: true
+  readme_full_checked: true
+  retarget_reason: 项目明确支持 Claude Code、Codex CLI、Gemini CLI、Cursor、OpenClaw、Hermes
+    Agent、Aider、Windsurf、Kilo Code、OpenCode、Augment 共 11 个工具，并提供安装和转换脚本。
+  retargeted_at: '2026-07-17'
   recommendation_level: try-now
   curation_note: 'Auto-selected by scoring rules: source=github, score=83, resource_types=skills,
     extension, agent-framework, cli-tool, rules.'
+- id: github-obra-superpowers
+  name: obra/superpowers
+  url: https://github.com/obra/superpowers
+  repo: obra/superpowers
+  source_type: github
+  resource_type:
+  - skills
+  - agent-framework
+  target_tools:
+  - claude-code
+  - antigravity-cli
+  - codex-cli
+  - cursor
+  - github-copilot
+  - opencode
+  summary: An agentic skills framework & software development methodology that works.
+  i18n:
+    zh:
+      name: obra/superpowers
+      summary: An agentic skills framework & software development methodology that
+        works.
+    en:
+      name: obra/superpowers
+      summary: An agentic skills framework & software development methodology that
+        works.
+  status: unknown
+  license: mit
+  stars: 255324
+  forks: 22820
+  last_updated: '2026-07-15T19:11:34Z'
+  first_seen: '2026-07-14'
+  last_seen: '2026-07-16'
+  maturity: unknown
+  languages:
+  - Shell
+  topics:
+  - ai
+  - brainstorming
+  - coding
+  - obra
+  - sdlc
+  - skills
+  - superpowers
+  - subagent-driven-development
+  readme_preview: "# Superpowers\n\nSuperpowers is a complete software development\
+    \ methodology for your coding agents, built on top of a set of composable skills\
+    \ and some initial instructions that make sure your agent uses them.\n\n\n## We're\
+    \ Hiring!\n\nWe're hiring someone to help out full time with Superpowers community\
+    \ and code work. \nYou can read about the job at https://primeradiant.com/jobs/superpowers-community-engineer/\n\
+    If this sounds like someone you know, definitely send them our way.\n\n## Quickstart\n\
+    \nGive your agent Superpowers: [Claude Code](#claude-code), [Antigravity](#antigravity),\
+    \ [Codex App](#codex-app), [Codex CLI](#codex-cli), [Cursor](#cursor), [Factory\
+    \ Droid](#factory-droid), [GitHub Copilot CLI](#github-copilot-cli), [Kimi Code](#kimi-code),\
+    \ [OpenCode](#opencode), [Pi](#pi).\n\n## How it works\n\nIt starts from the moment\
+    \ you fire up your coding agent. As soon as it sees that you're building something,\
+    \ it *doesn't* just jump into trying to write code. Instead, it steps back and\
+    \ asks you what you're really trying to do. \n\nOnce it's teased a spec out of\
+    \ the conversation, it shows it to you in chunks short enough to actually read\
+    \ and digest. \n\nAfter you've signed off on the design, your agent puts together\
+    \ an implementation plan that's clear enough for an enthusiastic junior engineer\
+    \ with poor taste, no judgement, no project context, and an aversion to testing\
+    \ to follow. It emphasizes true red/green TDD, YAGNI (You Aren't Gonna Need It),\
+    \ and DRY. \n\nNext up, once you say \"go\", it launches a *subagent-driven-development*\
+    \ process, having agents work through each engineering task, inspecting and reviewing\
+    \ their work, and continuing forward. It's not uncommon for your agent to work\
+    \ autonomously for a couple hours at a time without deviating from the plan you\
+    \ put together.\n\nThere's a bunch more to it, but that's the core of the system.\
+    \ And because the skills trigger automatically, you don't need to do anything\
+    \ special. Your coding agent just has Superpowers.\n\n## Commercial Services\n\
+    \n"
+  tags: []
+  review_state: auto-curated
+  quantifiable_score: 49
+  quality_score: 34
+  total_score: 83
+  score_detail:
+    stars: 20
+    activity: 15
+    adoption: 10
+    maturity: 4
+  tracking_priority: track
+  last_analyzed: '2026-07-15'
+  benchmark_ref: official-hermes-agent
+  quality_detail:
+    relevance: 10
+    practicality: 8
+    novelty: 7
+    ecosystem_value: 9
+  llm_summary:
+    zh: Superpowers 是一个为编码代理设计的技能框架和软件开发方法论。它提供可组合的技能和初始指令，指导代理高效完成软件开发任务。适合使用 Hermes-Agent
+      等 AI 编码工具的开发者。
+    en: Superpowers is a skills framework and software development methodology for
+      coding agents. It provides composable skills and initial instructions to guide
+      agents in efficient software development. Suitable for developers using AI coding
+      tools like Hermes-Agent.
+  readme_full_checked: true
+  has_readme_full: true
+  readme_checked: true
+  retarget_reason: 该项目是一个为AI编码代理提供技能和方法的框架，其README中明确提供了针对Claude Code、Antigravity
+    CLI、Codex CLI、Cursor、GitHub Copilot CLI、OpenCode等工具的安装指南，因此与这些工具直接相关。
+  retargeted_at: '2026-07-17'
+  recommendation_level: try-now
+  curation_note: 'Auto-selected by scoring rules: source=github, score=83, resource_types=skills,
+    agent-framework.'
 

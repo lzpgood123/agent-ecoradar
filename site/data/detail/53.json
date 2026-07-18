@@ -1,0 +1,3542 @@
+[
+  {
+    "id": "github-yigitkonur-cmux-ssh-claude-codex",
+    "name": "yigitkonur/cmux-ssh-claude-codex",
+    "url": "https://github.com/yigitkonur/cmux-ssh-claude-codex",
+    "source_type": "github",
+    "resource_type": [
+      "cli-tool"
+    ],
+    "target_tools": [
+      "claude-code",
+      "codex-cli"
+    ],
+    "summary": "Bridge Claude Code + Codex CLI hooks into cmux workspace tiles. Single bash binary, no daemon.",
+    "i18n": {
+      "zh": {
+        "name": "yigitkonur/cmux-ssh-claude-codex",
+        "summary": "Bridge Claude Code + Codex CLI hooks into cmux workspace tiles. Single bash binary, no daemon."
+      },
+      "en": {
+        "name": "yigitkonur/cmux-ssh-claude-codex",
+        "summary": "Bridge Claude Code + Codex CLI hooks into cmux workspace tiles. Single bash binary, no daemon."
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 49,
+    "quantifiable_score": 17,
+    "quality_score": 32,
+    "tracking_priority": "track",
+    "last_updated": "2026-05-07T03:05:10Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "Shell"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "cc-ssh 是一个将 Claude Code 和 Codex CLI 的 hook 事件桥接到 cmux 工作区瓦片的工具。它使用单一的 bash 二进制文件，无需守护进程，通过轮询日志并更新 cmux 瓦片来提供实时状态反馈。适合使用 cmux 工作区管理器的开发者，希望将 AI 编码代理的状态可视化。",
+      "en": "cc-ssh is a tool that bridges Claude Code and Codex CLI hook events into cmux workspace tiles. It uses a single bash binary with no daemon, polling log files and updating cmux tiles for real-time status feedback. It is suitable for developers using the cmux workspace manager who want to visualize AI coding agent states."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 8,
+      "novelty": 7,
+      "ecosystem_value": 7
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "yigitkonur/cmux-ssh-claude-codex",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-ddddddddwp-codex-light",
+    "name": "ddddddddwp/codex-light",
+    "url": "https://github.com/ddddddddwp/codex-light",
+    "source_type": "github",
+    "resource_type": [
+      "cli-tool"
+    ],
+    "target_tools": [
+      "codex-cli"
+    ],
+    "summary": "Unofficial Win11 top-island status light for Codex CLI hooks and Codex Desktop fallback detection.",
+    "i18n": {
+      "zh": {
+        "name": "ddddddddwp/codex-light",
+        "summary": "Unofficial Win11 top-island status light for Codex CLI hooks and Codex Desktop fallback detection."
+      },
+      "en": {
+        "name": "ddddddddwp/codex-light",
+        "summary": "Unofficial Win11 top-island status light for Codex CLI hooks and Codex Desktop fallback detection."
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 50,
+    "quantifiable_score": 19,
+    "quality_score": 31,
+    "tracking_priority": "track",
+    "last_updated": "2026-06-05T03:24:25Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": "mit",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "Codex Light 是一个非官方的 Windows 11 顶部状态指示器，用于实时显示 Codex CLI 和 Codex Desktop 的工作状态（红绿灯）。它通过监听 Codex CLI 的 hook 事件或轮询进程，将 SessionStart、UserPromptSubmit 等状态映射为 idle、running、waiting、error 等信号，并显示在桌面顶部小岛中。适合在 Windows 上使用 Codex CLI 的开发者，希望获得更直观的运行状态反馈。",
+      "en": "Codex Light is an unofficial Windows 11 top-status indicator that shows the live state of Codex CLI and Codex Desktop via a traffic-light UI. It hooks into Codex CLI events or polls processes to map states like SessionStart, UserPromptSubmit, etc. into idle, running, waiting, error signals. It is designed for Windows developers who use Codex CLI and want a visible status cue on their desktop."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {
+      "relevance": 9,
+      "practicality": 8,
+      "novelty": 6,
+      "ecosystem_value": 8
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "ddddddddwp/codex-light",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-guechen-codex-vscode-review-helper",
+    "name": "GueChen/codex-vscode-review-helper",
+    "url": "https://github.com/GueChen/codex-vscode-review-helper",
+    "source_type": "github",
+    "resource_type": [
+      "extension",
+      "cli-tool"
+    ],
+    "target_tools": [
+      "codex-cli"
+    ],
+    "summary": "Windows Codex CLI hook and VS Code review helper for automatic diff and multi-file review.",
+    "i18n": {
+      "zh": {
+        "name": "GueChen/codex-vscode-review-helper",
+        "summary": "Windows Codex CLI hook and VS Code review helper for automatic diff and multi-file review."
+      },
+      "en": {
+        "name": "GueChen/codex-vscode-review-helper",
+        "summary": "Windows Codex CLI hook and VS Code review helper for automatic diff and multi-file review."
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 46,
+    "quantifiable_score": 19,
+    "quality_score": 27,
+    "tracking_priority": "track",
+    "last_updated": "2026-05-15T11:16:26Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": "mit",
+    "languages": [
+      "PowerShell"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "Codex VS Code Review Helper 是一个为 OpenAI Codex CLI 设计的 Windows 辅助工具，提供自动 diff 和多文件审查面板。核心功能包括自动打开 VS Code 差异视图、支持非 git 目录的快照对比、以及带有接受/拒绝操作的审查面板。适合在 Windows 上使用 Codex CLI 并需要更直观的代码审查体验的开发者。",
+      "en": "Codex VS Code Review Helper is a Windows helper for OpenAI Codex CLI that provides automatic diff and multi-file review panel. It automatically opens VS Code diffs, supports non-git folder snapshots, and offers a review panel with Accept/Refuse actions. Suitable for developers using Codex CLI on Windows who want a more intuitive code review experience."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 7,
+      "novelty": 6,
+      "ecosystem_value": 6
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "GueChen/codex-vscode-review-helper",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-spolwort1970-chatgpt-codex-temporal-awareness-extension",
+    "name": "spolwort1970/chatgpt-codex-temporal-awareness-extension",
+    "url": "https://github.com/spolwort1970/chatgpt-codex-temporal-awareness-extension",
+    "source_type": "github",
+    "resource_type": [
+      "extension",
+      "mcp-server"
+    ],
+    "target_tools": [
+      "codex-cli"
+    ],
+    "summary": "Chrome extension and Codex CLI hook that inject timestamps into conversations with ChatGPT/Codex, curing its temporal blindness limitation.",
+    "i18n": {
+      "zh": {
+        "name": "spolwort1970/chatgpt-codex-temporal-awareness-extension",
+        "summary": "Chrome extension and Codex CLI hook that inject timestamps into conversations with ChatGPT/Codex, curing its temporal blindness limitation."
+      },
+      "en": {
+        "name": "spolwort1970/chatgpt-codex-temporal-awareness-extension",
+        "summary": "Chrome extension and Codex CLI hook that inject timestamps into conversations with ChatGPT/Codex, curing its temporal blindness limitation."
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 40,
+    "quantifiable_score": 14,
+    "quality_score": 26,
+    "tracking_priority": "track",
+    "last_updated": "2026-04-17T17:28:06Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "JavaScript"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "这个项目为ChatGPT和Codex CLI提供时间感知能力，通过Chrome扩展和MCP时间服务器注入当前时间戳。核心功能是解决AI模型在对话中缺乏时间上下文的问题，提升对话准确性。适合使用ChatGPT网页版或Codex CLI进行开发，需要时间感知能力的用户。",
+      "en": "This project provides temporal awareness to ChatGPT and Codex CLI by injecting timestamps via a Chrome extension and an MCP time server. It addresses the lack of temporal context in AI conversations, improving response accuracy. It is suitable for users who use ChatGPT web or Codex CLI and need reliable time grounding."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 12,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 7,
+      "novelty": 5,
+      "ecosystem_value": 6
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "spolwort1970/chatgpt-codex-temporal-awareness-extension",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-sqrt121-claude",
+    "name": "sqrt121/claude",
+    "url": "https://github.com/sqrt121/claude",
+    "source_type": "github",
+    "resource_type": [
+      "skills",
+      "rules"
+    ],
+    "target_tools": [
+      "claude-code",
+      "codex-cli"
+    ],
+    "summary": "Version-controlled Claude Code assets: codex-delegate skill (supervised delegation to GPT-5.5 via Codex CLI), hooks, statusline",
+    "i18n": {
+      "zh": {
+        "name": "sqrt121/claude",
+        "summary": "Version-controlled Claude Code assets: codex-delegate skill (supervised delegation to GPT-5.5 via Codex CLI), hooks, statusline"
+      },
+      "en": {
+        "name": "sqrt121/claude",
+        "summary": "Version-controlled Claude Code assets: codex-delegate skill (supervised delegation to GPT-5.5 via Codex CLI), hooks, statusline"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 42,
+    "quantifiable_score": 17,
+    "quality_score": 25,
+    "tracking_priority": "track",
+    "last_updated": "2026-07-10T09:47:37Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "Shell"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "sqrt121/claude 是一个个人 Claude Code 和 Codex CLI 配置仓库，提供版本控制的技能、钩子和状态栏脚本。核心功能是 codex-delegate 技能，实现通过 Codex CLI 将任务委托给 GPT-5.5，并包含详细的协议和模式。适合需要定制化 Claude Code 工作流并希望集成 Codex CLI 的开发者。",
+      "en": "sqrt121/claude is a personal configuration repository for Claude Code and Codex CLI, providing version-controlled skills, hooks, and statusline scripts. Its core feature is the codex-delegate skill for delegating tasks to GPT-5.5 via Codex CLI with well-defined protocols and schemas. It's suitable for developers who want to customize their Claude Code workflow and integrate Codex CLI."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 6,
+      "novelty": 6,
+      "ecosystem_value": 5
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "sqrt121/claude",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-rushikeshsakharleofficial-gpt-context-mem",
+    "name": "rushikeshsakharleofficial/gpt-context-mem",
+    "url": "https://github.com/rushikeshsakharleofficial/gpt-context-mem",
+    "source_type": "github",
+    "resource_type": [
+      "cli-tool"
+    ],
+    "target_tools": [
+      "codex-cli"
+    ],
+    "summary": "Persistent memory for OpenAI Codex CLI — hooks session lifecycle to compress tool activity into structured observations and replay them as context on every new session",
+    "i18n": {
+      "zh": {
+        "name": "rushikeshsakharleofficial/gpt-context-mem",
+        "summary": "Persistent memory for OpenAI Codex CLI — hooks session lifecycle to compress tool activity into structured observations and replay them as context on every new session"
+      },
+      "en": {
+        "name": "rushikeshsakharleofficial/gpt-context-mem",
+        "summary": "Persistent memory for OpenAI Codex CLI — hooks session lifecycle to compress tool activity into structured observations and replay them as context on every new session"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 52,
+    "quantifiable_score": 19,
+    "quality_score": 33,
+    "tracking_priority": "track",
+    "last_updated": "2026-05-18T08:08:33Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": "mit",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "gpt-context-mem 是一个为 OpenAI Codex CLI 提供持久化记忆的工具。它通过钩子挂载到 Codex 会话生命周期，自动压缩工具活动为结构化观察并注入新会话上下文，帮助 Codex 记住之前的工作。适合需要长时间会话或持续开发的 Codex CLI 用户。",
+      "en": "gpt-context-mem is a persistent memory tool for OpenAI Codex CLI. It hooks into Codex's session lifecycle, compresses tool activity into structured observations, and replays them as context in new sessions, enabling Codex to remember previous work. Suitable for Codex CLI users who need long-running sessions or continuous development."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 9,
+      "novelty": 7,
+      "ecosystem_value": 7
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "rushikeshsakharleofficial/gpt-context-mem",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-lordstyled55-goose-mcp",
+    "name": "lordstyled55/goose-mcp",
+    "url": "https://github.com/lordstyled55/goose-mcp",
+    "source_type": "github",
+    "resource_type": [
+      "mcp-server"
+    ],
+    "target_tools": [
+      "goose"
+    ],
+    "summary": "lordstyled55/goose-mcp",
+    "i18n": {
+      "zh": {
+        "name": "lordstyled55/goose-mcp",
+        "summary": "lordstyled55/goose-mcp"
+      },
+      "en": {
+        "name": "lordstyled55/goose-mcp",
+        "summary": "lordstyled55/goose-mcp"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 41,
+    "quantifiable_score": 10,
+    "quality_score": 31,
+    "tracking_priority": "track",
+    "last_updated": "2025-08-06T00:32:59Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "JavaScript"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "Goose 的子代理 MCP 服务器，通过 Goose CLI 创建专业化 AI 代理团队，支持并行/顺序执行和配方系统。适合使用 Goose 进行复杂开发任务的开发者。",
+      "en": "An MCP server that enables delegating tasks to specialized Goose subagents, supporting parallel/sequential execution and recipe system. Suitable for developers using Goose for complex development tasks."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 8,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 8,
+      "novelty": 6,
+      "ecosystem_value": 7
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "lordstyled55/goose-mcp",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-professordnyc-qanat-goose-mcp",
+    "name": "professordnyc/qanat-goose-mcp",
+    "url": "https://github.com/professordnyc/qanat-goose-mcp",
+    "source_type": "github",
+    "resource_type": [
+      "mcp-server",
+      "extension"
+    ],
+    "target_tools": [
+      "goose"
+    ],
+    "summary": "Qanat Goose MCP Extension is an agent‑based Goose MCP‑UI extension that wraps the Square MCP Server, integrating sandbox catalog/orders with voice and gesture agents for an interactive seller dashboard.",
+    "i18n": {
+      "zh": {
+        "name": "professordnyc/qanat-goose-mcp",
+        "summary": "Qanat Goose MCP Extension is an agent‑based Goose MCP‑UI extension that wraps the Square MCP Server, integrating sandbox catalog/orders with voice and gesture agents for an interactive seller dashboard."
+      },
+      "en": {
+        "name": "professordnyc/qanat-goose-mcp",
+        "summary": "Qanat Goose MCP Extension is an agent‑based Goose MCP‑UI extension that wraps the Square MCP Server, integrating sandbox catalog/orders with voice and gesture agents for an interactive seller dashboard."
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 40,
+    "quantifiable_score": 12,
+    "quality_score": 28,
+    "tracking_priority": "track",
+    "last_updated": "2025-11-22T05:24:31Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": "mit",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "Qanat Goose MCP Extension 是一个基于 Goose Desktop 的 MCP-UI 扩展，它封装了 Square MCP Server，实现了语音和手势交互的卖家仪表盘。核心功能包括通过语音命令刷新目录、查看订单，以及通过手势控制切换视图。适合需要为 Square 卖家构建交互式仪表盘的开发者，以及希望学习 Goose 扩展开发的人。",
+      "en": "Qanat Goose MCP Extension is an agent-based Goose MCP-UI extension that wraps the Square MCP Server, providing voice and gesture control for a seller dashboard. It demonstrates how to build custom MCP-UI extensions for Goose Desktop with interactive UI. Suitable for developers building Square seller tools or exploring Goose extension development."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 8,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {
+      "relevance": 7,
+      "practicality": 8,
+      "novelty": 6,
+      "ecosystem_value": 7
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "professordnyc/qanat-goose-mcp",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-nelsonjingusc-goose-mcp-escrow-server",
+    "name": "nelsonjingusc/goose-mcp-escrow-server",
+    "url": "https://github.com/nelsonjingusc/goose-mcp-escrow-server",
+    "source_type": "github",
+    "resource_type": [
+      "mcp-server"
+    ],
+    "target_tools": [
+      "goose"
+    ],
+    "summary": "Minimal MCP server providing escrow style intent verification and deterministic planning for Goose agents. Supports safe, auditable, and reversible task execution.",
+    "i18n": {
+      "zh": {
+        "name": "nelsonjingusc/goose-mcp-escrow-server",
+        "summary": "Minimal MCP server providing escrow style intent verification and deterministic planning for Goose agents. Supports safe, auditable, and reversible task execution."
+      },
+      "en": {
+        "name": "nelsonjingusc/goose-mcp-escrow-server",
+        "summary": "Minimal MCP server providing escrow style intent verification and deterministic planning for Goose agents. Supports safe, auditable, and reversible task execution."
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 41,
+    "quantifiable_score": 12,
+    "quality_score": 29,
+    "tracking_priority": "track",
+    "last_updated": "2025-11-27T06:20:13Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": "mit",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "Goose MCP Escrow Server 是一个为 Goose 代理设计的 MCP 服务器，提供类似 escrow（托管）的意图验证、确定性规划和可逆执行机制。核心功能包括结构化意图解析、验证规则、计划生成和提交/回滚执行，零外部依赖。适合需要安全、可审计、可逆任务执行的 Goose 代理开发者。",
+      "en": "Goose MCP Escrow Server is a minimal MCP server that provides escrow-style intent verification, deterministic planning, and reversible execution for Goose agents. It features structured intent parsing, verification rules, plan generation, and commit/rollback execution with zero external dependencies. This is suitable for developers building Goose agents that require safe, auditable, and reversible task execution."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 8,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 8,
+      "novelty": 6,
+      "ecosystem_value": 7
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "nelsonjingusc/goose-mcp-escrow-server",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-prashanth7840-downloads-organizer-goose-mcp",
+    "name": "prashanth7840/Downloads-Organizer---Goose-MCP",
+    "url": "https://github.com/prashanth7840/Downloads-Organizer---Goose-MCP",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial",
+      "skills"
+    ],
+    "target_tools": [
+      "goose"
+    ],
+    "summary": "Agentic workflow using Goose (MCP host) + Claude Opus 4.6 that autonomously organized 392 files (~7.2 GB) into a clean 9-folder structure. Self-corrected command errors, generated prioritized cleanup report. Reduced retrieval time from 60 m",
+    "i18n": {
+      "zh": {
+        "name": "prashanth7840/Downloads-Organizer---Goose-MCP",
+        "summary": "Agentic workflow using Goose (MCP host) + Claude Opus 4.6 that autonomously organized 392 files (~7.2 GB) into a clean 9-folder structure. Self-corrected command errors, generated prioritized cleanup report. Reduced retrieval time from 60 m"
+      },
+      "en": {
+        "name": "prashanth7840/Downloads-Organizer---Goose-MCP",
+        "summary": "Agentic workflow using Goose (MCP host) + Claude Opus 4.6 that autonomously organized 392 files (~7.2 GB) into a clean 9-folder structure. Self-corrected command errors, generated prioritized cleanup report. Reduced retrieval time from 60 m"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 32,
+    "quantifiable_score": 12,
+    "quality_score": 20,
+    "tracking_priority": "track",
+    "last_updated": "2026-04-01T16:00:57Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "该项目展示了使用 Goose (MCP宿主) 和 Claude Opus 4.6 构建的自动化下载整理工作流。它能够自主组织数百个文件，自纠正命令错误，并生成清理报告，极大提升了文件检索效率。适合希望了解 Goose 实际应用场景的开发者。",
+      "en": "This project demonstrates an automated download organization workflow using Goose (MCP host) and Claude Opus 4.6. It autonomously organizes hundreds of files, self-corrects command errors, and generates a cleanup report, significantly improving file retrieval efficiency. Suitable for developers looking to understand practical applications of Goose."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 12,
+      "adoption": 0,
+      "maturity": 0
+    },
+    "quality_detail": {
+      "relevance": 7,
+      "practicality": 3,
+      "novelty": 5,
+      "ecosystem_value": 5
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-18",
+    "repo": "prashanth7840/Downloads-Organizer---Goose-MCP",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-sevencat2004-goose-bountypay-scout",
+    "name": "sevencat2004/goose-bountypay-scout",
+    "url": "https://github.com/sevencat2004/goose-bountypay-scout",
+    "source_type": "github",
+    "resource_type": [
+      "mcp-server"
+    ],
+    "target_tools": [
+      "goose"
+    ],
+    "summary": "Goose MCP extension for bounty and grant opportunity triage by collectability, autonomy, and delivery risk",
+    "i18n": {
+      "zh": {
+        "name": "sevencat2004/goose-bountypay-scout",
+        "summary": "Goose MCP extension for bounty and grant opportunity triage by collectability, autonomy, and delivery risk"
+      },
+      "en": {
+        "name": "sevencat2004/goose-bountypay-scout",
+        "summary": "Goose MCP extension for bounty and grant opportunity triage by collectability, autonomy, and delivery risk"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 47,
+    "quantifiable_score": 19,
+    "quality_score": 28,
+    "tracking_priority": "track",
+    "last_updated": "2026-06-03T18:12:43Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": "mit",
+    "languages": [
+      "JavaScript"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "Goose Bounty/Grant Scout MCP是一个为Goose代理设计的MCP扩展，用于评估和排序开源赏金和资助机会。它提供多个工具来评分机会、分析GitHub问题、生成报告，帮助开发者快速识别高支付可能性的任务。适合使用Goose进行自动化任务并希望寻找可行资助机会的开发者。",
+      "en": "Goose Bounty/Grant Scout MCP is an MCP extension for the Goose agent that evaluates and ranks open-source bounty and grant opportunities. It provides multiple tools to score opportunities, analyze GitHub issues, and generate reports, helping developers quickly identify tasks with high payment likelihood. It is suitable for developers using Goose for automation who want to find viable funding opportunities."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {
+      "relevance": 9,
+      "practicality": 7,
+      "novelty": 6,
+      "ecosystem_value": 6
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "sevencat2004/goose-bountypay-scout",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-michaelneale-goose-adversarial-mode",
+    "name": "michaelneale/goose-adversarial-mode",
+    "url": "https://github.com/michaelneale/goose-adversarial-mode",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial",
+      "skills"
+    ],
+    "target_tools": [
+      "goose"
+    ],
+    "summary": "coach player using goose recipes",
+    "i18n": {
+      "zh": {
+        "name": "michaelneale/goose-adversarial-mode",
+        "summary": "coach player using goose recipes"
+      },
+      "en": {
+        "name": "michaelneale/goose-adversarial-mode",
+        "summary": "coach player using goose recipes"
+      }
+    },
+    "stars": 2,
+    "forks": 0,
+    "total_score": 37,
+    "quantifiable_score": 12,
+    "quality_score": 25,
+    "tracking_priority": "track",
+    "last_updated": "2026-01-17T20:17:29Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "Shell"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "Stadium 是一个基于Goose的教练/玩家系统，用于迭代代码开发。它通过Coach和Player两个代理循环工作，Coach审核代码并提供反馈，Player根据反馈实现修改，直到Coach满意。适合使用Goose进行自动化代码开发的开发者。",
+      "en": "Stadium is a coach/player system for iterative code development using Goose agents. It runs two agents in a loop: the Coach reviews code changes and provides feedback, while the Player implements changes based on that feedback. Suitable for developers automating code iteration with Goose."
+    },
+    "score_detail": {
+      "stars": 2,
+      "activity": 8,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 9,
+      "practicality": 5,
+      "novelty": 6,
+      "ecosystem_value": 5
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-18",
+    "repo": "michaelneale/goose-adversarial-mode",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-simonjday-goose-recipes",
+    "name": "simonjday/goose-recipes",
+    "url": "https://github.com/simonjday/goose-recipes",
+    "source_type": "github",
+    "resource_type": [
+      "skills",
+      "tutorial"
+    ],
+    "target_tools": [
+      "goose"
+    ],
+    "summary": "simonjday/goose-recipes",
+    "i18n": {
+      "zh": {
+        "name": "simonjday/goose-recipes",
+        "summary": "simonjday/goose-recipes"
+      },
+      "en": {
+        "name": "simonjday/goose-recipes",
+        "summary": "simonjday/goose-recipes"
+      }
+    },
+    "stars": 1,
+    "forks": 0,
+    "total_score": 51,
+    "quantifiable_score": 19,
+    "quality_score": 32,
+    "tracking_priority": "track",
+    "last_updated": "2026-07-08T03:39:21Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "Shell"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "goose-recipes 是一个为 Goose AI Agent 设计的 Kubernetes 运维配方库，提供了大量可复用的自动化任务脚本（如证书检查、Pod 健康、资源配额审计等）。该项目包含详细的使用说明、模型选择建议和性能优化技巧，非常适合使用 Goose 进行 Kubernetes 集群管理的平台工程师。",
+      "en": "goose-recipes is a library of Kubernetes operations recipes for the Goose AI agent, offering ready-to-use automation for tasks like certificate expiry checks, pod health reviews, and resource quota audits. It includes detailed usage instructions, model selection guidance, and performance optimization tips, making it ideal for platform engineers managing Kubernetes clusters with Goose."
+    },
+    "score_detail": {
+      "stars": 2,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 9,
+      "practicality": 9,
+      "novelty": 6,
+      "ecosystem_value": 8
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "simonjday/goose-recipes",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-shanemcd-goose-test",
+    "name": "shanemcd/goose-test",
+    "url": "https://github.com/shanemcd/goose-test",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "goose"
+    ],
+    "summary": "Assessment and test workflows for Goose recipe orchestration",
+    "i18n": {
+      "zh": {
+        "name": "shanemcd/goose-test",
+        "summary": "Assessment and test workflows for Goose recipe orchestration"
+      },
+      "en": {
+        "name": "shanemcd/goose-test",
+        "summary": "Assessment and test workflows for Goose recipe orchestration"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 41,
+    "quantifiable_score": 14,
+    "quality_score": 27,
+    "tracking_priority": "track",
+    "last_updated": "2026-04-02T19:26:38Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "该项目是一个用于评估 Block Goose 配方编排能力的测试工作流集合。包含代码分析和数据转换两个测试场景，验证子配方委托、结构化输出、技能加载和重试行为。适合需要评估或测试 Goose 能力的开发者。",
+      "en": "This project is a test workflow collection for evaluating Block Goose's recipe orchestration capabilities. It includes two test scenarios, code-analysis and data-transform, to verify sub-recipe delegation, structured output, skill loading, and retry behavior. It is suitable for developers who need to assess or test Goose's capabilities."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 12,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 8,
+      "novelty": 5,
+      "ecosystem_value": 6
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "shanemcd/goose-test",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-nobrien3-comarketing-pcr-recipe",
+    "name": "nobrien3/comarketing-pcr-recipe",
+    "url": "https://github.com/nobrien3/comarketing-pcr-recipe",
+    "source_type": "github",
+    "resource_type": [
+      "skills",
+      "tutorial"
+    ],
+    "target_tools": [
+      "goose"
+    ],
+    "summary": "Afterpay co-marketing Post Campaign Report generator — Goose recipe + template",
+    "i18n": {
+      "zh": {
+        "name": "nobrien3/comarketing-pcr-recipe",
+        "summary": "Afterpay co-marketing Post Campaign Report generator — Goose recipe + template"
+      },
+      "en": {
+        "name": "nobrien3/comarketing-pcr-recipe",
+        "summary": "Afterpay co-marketing Post Campaign Report generator — Goose recipe + template"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 39,
+    "quantifiable_score": 14,
+    "quality_score": 25,
+    "tracking_priority": "track",
+    "last_updated": "2026-03-23T04:30:18Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "JavaScript"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "该项目是一个用于生成 Afterpay 合作营销活动后报告（PCR）网站的 Goose recipe。它整合了 Snowflake 查询、数据计算和网站部署，全程自动化，适用于 Afterpay 内部同事快速生成报告。",
+      "en": "This project is a Goose recipe for generating Afterpay co-marketing Post Campaign Report (PCR) websites. It automates Snowflake queries, data computation, and deployment to Blockcell, designed for Afterpay colleagues to quickly generate reports."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 12,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 7,
+      "novelty": 4,
+      "ecosystem_value": 6
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-18",
+    "repo": "nobrien3/comarketing-pcr-recipe",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-aaalaniz-goose-recipe-shortener",
+    "name": "aaalaniz/goose-recipe-shortener",
+    "url": "https://github.com/aaalaniz/goose-recipe-shortener",
+    "source_type": "github",
+    "resource_type": [
+      "extension"
+    ],
+    "target_tools": [
+      "goose"
+    ],
+    "summary": "Generate a Goose recipe deep link and share with a URL shortener",
+    "i18n": {
+      "zh": {
+        "name": "aaalaniz/goose-recipe-shortener",
+        "summary": "Generate a Goose recipe deep link and share with a URL shortener"
+      },
+      "en": {
+        "name": "aaalaniz/goose-recipe-shortener",
+        "summary": "Generate a Goose recipe deep link and share with a URL shortener"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 35,
+    "quantifiable_score": 8,
+    "quality_score": 27,
+    "tracking_priority": "track",
+    "last_updated": "2025-07-16T11:09:31Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": "mit",
+    "languages": [
+      "JavaScript"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "Goose Recipe Shortener 是一个 GitHub Action 和 Buildkite 插件，用于生成 Goose recipe 的深度链接并映射到短链接。它帮助 recipe 维护者在不改变公开链接的情况下迭代配方，支持 short.io 和自定义短链接服务。适合需要团队协作管理 Goose recipe 的开发者。",
+      "en": "Goose Recipe Shortener is a GitHub Action and Buildkite plugin that generates Goose recipe deep links and maps them to short URLs. It helps recipe maintainers iterate on recipes without changing public-facing links, supporting short.io and custom shorteners. Suitable for teams managing Goose recipes in source control."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 4,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 6,
+      "novelty": 5,
+      "ecosystem_value": 6
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-18",
+    "repo": "aaalaniz/goose-recipe-shortener",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "ci",
+      "goose"
+    ]
+  },
+  {
+    "id": "github-maxamillion-recipe-rust-development-team",
+    "name": "maxamillion/recipe-rust-development-team",
+    "url": "https://github.com/maxamillion/recipe-rust-development-team",
+    "source_type": "github",
+    "resource_type": [
+      "skills"
+    ],
+    "target_tools": [
+      "goose"
+    ],
+    "summary": "Goose Recipe to automatically develop software in rust via a team of subagents.",
+    "i18n": {
+      "zh": {
+        "name": "maxamillion/recipe-rust-development-team",
+        "summary": "Goose Recipe to automatically develop software in rust via a team of subagents."
+      },
+      "en": {
+        "name": "maxamillion/recipe-rust-development-team",
+        "summary": "Goose Recipe to automatically develop software in rust via a team of subagents."
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 44,
+    "quantifiable_score": 14,
+    "quality_score": 30,
+    "tracking_priority": "track",
+    "last_updated": "2026-03-09T20:25:03Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": "mit",
+    "languages": [],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "这是一个针对Goose AI编程代理的Recipe，实现多代理团队协作的Rust开发工作流。它包含架构师、开发者和质量工程师三个角色，通过迭代反馈循环自动生成高质量Rust代码。适合希望使用Goose自动完成Rust项目开发的开发者。",
+      "en": "This is a Goose Recipe that implements a multi-agent workflow for Rust development. It coordinates three personas (Architect, Developer, Quality Engineer) to produce high-quality Rust code through iterative feedback. Suitable for developers using Goose to automate Rust development."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 12,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 9,
+      "practicality": 8,
+      "novelty": 6,
+      "ecosystem_value": 7
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "maxamillion/recipe-rust-development-team",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-cugljc-openclaw-coding-agent",
+    "name": "cugljc/openclaw-coding-agent",
+    "url": "https://github.com/cugljc/openclaw-coding-agent",
+    "source_type": "github",
+    "resource_type": [
+      "extension"
+    ],
+    "target_tools": [
+      "cursor",
+      "claude-code",
+      "codex-cli",
+      "openclaw"
+    ],
+    "summary": "cugljc/openclaw-coding-agent",
+    "i18n": {
+      "zh": {
+        "name": "cugljc/openclaw-coding-agent",
+        "summary": "cugljc/openclaw-coding-agent"
+      },
+      "en": {
+        "name": "cugljc/openclaw-coding-agent",
+        "summary": "cugljc/openclaw-coding-agent"
+      }
+    },
+    "stars": 1,
+    "forks": 0,
+    "total_score": 51,
+    "quantifiable_score": 18,
+    "quality_score": 33,
+    "tracking_priority": "track",
+    "last_updated": "2026-03-23T06:31:30Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": "mit",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "该项目是 OpenClaw 平台的插件，用于将编码任务统一分派给 Cursor CLI、Claude Code 和 Codex 三个主流 AI 编码代理。它提供了多代理路由、会话恢复、MCP 支持、结果持久化和通知等核心功能，并附带详细文档。适合已经使用 OpenClaw 并希望集成多个 AI 编码代理的开发者。",
+      "en": "This project is an OpenClaw plugin that provides a unified interface for dispatching coding tasks to Cursor CLI, Claude Code, and Codex. It features multi-agent routing, session resume, MCP support, result persistence, and notifications, with thorough documentation. It's suitable for developers using OpenClaw who want to integrate multiple AI coding agents."
+    },
+    "score_detail": {
+      "stars": 2,
+      "activity": 12,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 8,
+      "novelty": 7,
+      "ecosystem_value": 8
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "cugljc/openclaw-coding-agent",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-hello-vince-openclaw-coding-agent",
+    "name": "Hello-Vince/openclaw-coding-agent",
+    "url": "https://github.com/Hello-Vince/openclaw-coding-agent",
+    "source_type": "github",
+    "resource_type": [
+      "agent-framework",
+      "cli-tool"
+    ],
+    "target_tools": [
+      "openclaw",
+      "cursor",
+      "kilo-code"
+    ],
+    "summary": "Hello-Vince/openclaw-coding-agent",
+    "i18n": {
+      "zh": {
+        "name": "Hello-Vince/openclaw-coding-agent",
+        "summary": "Hello-Vince/openclaw-coding-agent"
+      },
+      "en": {
+        "name": "Hello-Vince/openclaw-coding-agent",
+        "summary": "Hello-Vince/openclaw-coding-agent"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 46,
+    "quantifiable_score": 14,
+    "quality_score": 32,
+    "tracking_priority": "track",
+    "last_updated": "2026-03-11T15:39:45Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "Shell"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "Hello-Vince/openclaw-coding-agent 是一个开源项目，提供在 Docker 中运行 OpenClaw 作为本地编码代理的完整配置。它集成了 Cursor CLI 和 Kilo Code CLI 作为编码工具，并包含安全加固、自动令牌URL和自动设备配对等便利功能。适合希望快速搭建本地 AI 编码代理的开发者，尤其是已经使用 Cursor 或 Kilo Code 的用户。",
+      "en": "Hello-Vince/openclaw-coding-agent is an open-source project that provides a complete configuration to run OpenClaw as a local coding agent inside Docker. It integrates Cursor CLI and Kilo Code CLI as coding tools, with security hardening, tokenized URLs, and auto device pairing. Suitable for developers who want to quickly set up a local AI coding agent, especially those already using Cursor or Kilo Code."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 12,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 10,
+      "novelty": 5,
+      "ecosystem_value": 7
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "Hello-Vince/openclaw-coding-agent",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-ivanlee1999-openclaw-agent-monitor",
+    "name": "ivanlee1999/openclaw-agent-monitor",
+    "url": "https://github.com/ivanlee1999/openclaw-agent-monitor",
+    "source_type": "github",
+    "resource_type": [
+      "extension"
+    ],
+    "target_tools": [
+      "openclaw"
+    ],
+    "summary": "Catppuccin-themed web dashboard for monitoring OpenClaw Code Agent sessions",
+    "i18n": {
+      "zh": {
+        "name": "ivanlee1999/openclaw-agent-monitor",
+        "summary": "Catppuccin-themed web dashboard for monitoring OpenClaw Code Agent sessions"
+      },
+      "en": {
+        "name": "ivanlee1999/openclaw-agent-monitor",
+        "summary": "Catppuccin-themed web dashboard for monitoring OpenClaw Code Agent sessions"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 42,
+    "quantifiable_score": 14,
+    "quality_score": 28,
+    "tracking_priority": "track",
+    "last_updated": "2026-03-27T23:36:27Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "JavaScript"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "OpenClaw Agent Monitor 是一个专为 OpenClaw Code Agent 设计的 Web 监控仪表盘。它提供实时会话卡片、时间线视图、文件操作摘要和搜索过滤功能，采用 Catppuccin 主题支持亮暗切换。适合使用 OpenClaw 进行编码代理开发的开发者，用于监控和调试代理会话。",
+      "en": "OpenClaw Agent Monitor is a web dashboard designed for monitoring OpenClaw Code Agent sessions. It provides real-time session cards, timeline views, file operation summaries, and search/filter capabilities, with a Catppuccin theme supporting light/dark mode. It is suitable for developers using OpenClaw to monitor and debug their coding agent sessions."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 12,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 9,
+      "novelty": 5,
+      "ecosystem_value": 6
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "ivanlee1999/openclaw-agent-monitor",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-yyyyujiexin-dotcom-openfriday-bench",
+    "name": "yyyyujiexin-dotcom/openfriday-bench",
+    "url": "https://github.com/yyyyujiexin-dotcom/openfriday-bench",
+    "source_type": "github",
+    "resource_type": [
+      "cli-tool"
+    ],
+    "target_tools": [
+      "openclaw"
+    ],
+    "summary": "OpenFriday Bench - Benchmarking system for evaluating LLM models as OpenClaw coding agents",
+    "i18n": {
+      "zh": {
+        "name": "yyyyujiexin-dotcom/openfriday-bench",
+        "summary": "OpenFriday Bench - Benchmarking system for evaluating LLM models as OpenClaw coding agents"
+      },
+      "en": {
+        "name": "yyyyujiexin-dotcom/openfriday-bench",
+        "summary": "OpenFriday Bench - Benchmarking system for evaluating LLM models as OpenClaw coding agents"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 43,
+    "quantifiable_score": 14,
+    "quality_score": 29,
+    "tracking_priority": "track",
+    "last_updated": "2026-04-15T06:30:50Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "OpenFriday Bench 是一个面向 OpenClaw Agent 的评测框架，包含70个任务，覆盖基础能力和5个场景。它提供自动化评分和LLM Judge，用于评估多模型在真实场景下的表现。适合OpenClaw的开发者或研究者评估和对比不同LLM在OpenClaw上的能力。",
+      "en": "OpenFriday Bench is a benchmarking framework for OpenClaw Agent, with 70 tasks covering foundation and 5 scenarios. It provides automated scoring and LLM Judge for evaluating multiple models. Suitable for OpenClaw developers and researchers to assess LLM capabilities."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 12,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 8,
+      "novelty": 7,
+      "ecosystem_value": 6
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "yyyyujiexin-dotcom/openfriday-bench",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-polyphase-labs-polyphase-codeagent-openclaw",
+    "name": "Polyphase-Labs/Polyphase-CodeAgent-OpenClaw",
+    "url": "https://github.com/Polyphase-Labs/Polyphase-CodeAgent-OpenClaw",
+    "source_type": "github",
+    "resource_type": [
+      "skills"
+    ],
+    "target_tools": [
+      "openclaw"
+    ],
+    "summary": "Openclaw Coding agent for Polyphase Engine that can cleanly create feature branches and PRs",
+    "i18n": {
+      "zh": {
+        "name": "Polyphase-Labs/Polyphase-CodeAgent-OpenClaw",
+        "summary": "Openclaw Coding agent for Polyphase Engine that can cleanly create feature branches and PRs"
+      },
+      "en": {
+        "name": "Polyphase-Labs/Polyphase-CodeAgent-OpenClaw",
+        "summary": "Openclaw Coding agent for Polyphase Engine that can cleanly create feature branches and PRs"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 40,
+    "quantifiable_score": 17,
+    "quality_score": 23,
+    "tracking_priority": "track",
+    "last_updated": "2026-05-10T21:48:36Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "Shell"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "这是一个基于OpenClaw为Polyphase Engine构建的自动化编码代理，使用Docker部署。核心功能包括接收自然语言需求、自动创建分支、编写代码、编译并提交PR，适合Polyphase Engine的开发者使用。",
+      "en": "This is an automated coding agent built on OpenClaw for the Polyphase Engine, deployed with Docker. Its core features include accepting natural language requests, creating branches, writing code, compiling, and opening PRs, suitable for Polyphase Engine developers."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 7,
+      "practicality": 8,
+      "novelty": 5,
+      "ecosystem_value": 3
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "Polyphase-Labs/Polyphase-CodeAgent-OpenClaw",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-integritynoble-openclaw-pwm",
+    "name": "integritynoble/openclaw-pwm",
+    "url": "https://github.com/integritynoble/openclaw-pwm",
+    "source_type": "github",
+    "resource_type": [
+      "cli-tool"
+    ],
+    "target_tools": [
+      "openclaw"
+    ],
+    "summary": "OpenClaw coding agent powered by PWM tokens — routes Claude models through the PWM exchange via a custom provider.",
+    "i18n": {
+      "zh": {
+        "name": "integritynoble/openclaw-pwm",
+        "summary": "OpenClaw coding agent powered by PWM tokens — routes Claude models through the PWM exchange via a custom provider."
+      },
+      "en": {
+        "name": "integritynoble/openclaw-pwm",
+        "summary": "OpenClaw coding agent powered by PWM tokens — routes Claude models through the PWM exchange via a custom provider."
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 46,
+    "quantifiable_score": 17,
+    "quality_score": 29,
+    "tracking_priority": "track",
+    "last_updated": "2026-07-10T12:34:29Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "Shell"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "OpenClaw-PWM 是一个包装器，允许 OpenClaw 编码代理通过 PWM 代币交易所使用 Claude 模型。它向 OpenClaw 注入自定义提供者配置，并通过 PWM API 路由请求，从而通过 PWM 余额而不是直接使用 Anthropic 密钥进行计费。适合希望通过 PWM 代币支付 Claude 使用费用并使用 OpenClaw 代理的用户。",
+      "en": "OpenClaw-PWM is a wrapper that allows the OpenClaw coding agent to use Claude models via PWM token exchange. It injects a custom provider configuration into OpenClaw and routes requests through the PWM API, enabling billing through PWM balance instead of direct Anthropic keys. This is useful for users who want to pay for Claude usage via PWM tokens while using the OpenClaw agent."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 8,
+      "novelty": 6,
+      "ecosystem_value": 7
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "integritynoble/openclaw-pwm",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-arijit11-supernova-forge2-edition-1",
+    "name": "Arijit11-supernova/Forge2-Edition-1",
+    "url": "https://github.com/Arijit11-supernova/Forge2-Edition-1",
+    "source_type": "github",
+    "resource_type": [
+      "agent-framework",
+      "tutorial"
+    ],
+    "target_tools": [
+      "openclaw",
+      "hermes-agent"
+    ],
+    "summary": "Multi-agent AI system: Hermes (orchestrator) + OpenClaw (coding agent) wired through Slack. Forge 2 Edition 1 sprint build.",
+    "i18n": {
+      "zh": {
+        "name": "Arijit11-supernova/Forge2-Edition-1",
+        "summary": "Multi-agent AI system: Hermes (orchestrator) + OpenClaw (coding agent) wired through Slack. Forge 2 Edition 1 sprint build."
+      },
+      "en": {
+        "name": "Arijit11-supernova/Forge2-Edition-1",
+        "summary": "Multi-agent AI system: Hermes (orchestrator) + OpenClaw (coding agent) wired through Slack. Forge 2 Edition 1 sprint build."
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 37,
+    "quantifiable_score": 15,
+    "quality_score": 22,
+    "tracking_priority": "track",
+    "last_updated": "2026-06-26T08:10:59Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "Forge 2 Edition 1 是一个多智能体AI系统项目，由Hermes（编排器）和OpenClaw（编码代理）组成，通过Slack进行任务协调。项目提供了完整的架构图、Slack频道设计、设置步骤以及CI/CD配置，适合对多代理协作和AI编码感兴趣的开发者用于学习和实验。",
+      "en": "Forge 2 Edition 1 is a multi-agent AI system project featuring Hermes as orchestrator and OpenClaw as coding agent, wired through Slack. It provides architecture diagrams, Slack channel design, setup instructions, and CI/CD pipeline, suitable for developers interested in multi-agent collaboration and AI coding experimentation."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 0
+    },
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 5,
+      "novelty": 4,
+      "ecosystem_value": 5
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-18",
+    "repo": "Arijit11-supernova/Forge2-Edition-1",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-cbeaulieu-gt-openclaw-cpu-serving-study",
+    "name": "cbeaulieu-gt/openclaw-cpu-serving-study",
+    "url": "https://github.com/cbeaulieu-gt/openclaw-cpu-serving-study",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "openclaw"
+    ],
+    "summary": "A reproducibility-first study: running the openclaw coding agent locally with Qwen3.5-0.8B on consumer CPU hardware — baseline measurement plus four iterative serving-speed optimizations, with a full decision log.",
+    "i18n": {
+      "zh": {
+        "name": "cbeaulieu-gt/openclaw-cpu-serving-study",
+        "summary": "A reproducibility-first study: running the openclaw coding agent locally with Qwen3.5-0.8B on consumer CPU hardware — baseline measurement plus four iterative serving-speed optimizations, with a full decision log."
+      },
+      "en": {
+        "name": "cbeaulieu-gt/openclaw-cpu-serving-study",
+        "summary": "A reproducibility-first study: running the openclaw coding agent locally with Qwen3.5-0.8B on consumer CPU hardware — baseline measurement plus four iterative serving-speed optimizations, with a full decision log."
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 42,
+    "quantifiable_score": 17,
+    "quality_score": 25,
+    "tracking_priority": "track",
+    "last_updated": "2026-07-07T01:04:45Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "该项目是一个可复现性优先的研究，旨在本地CPU上运行openclaw编码代理并优化其服务速度。通过四个迭代优化阶段，提供了详细的决策日志和性能测量，适合希望了解openclaw在消费级CPU上性能优化的开发者。",
+      "en": "This project is a reproducibility-first study on running the openclaw coding agent locally on consumer CPU hardware, with iterative serving-speed optimizations. It provides a full decision log, baseline measurements, and four optimization iterations, making it valuable for developers interested in CPU inference performance for coding agents."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 5,
+      "novelty": 6,
+      "ecosystem_value": 6
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "cbeaulieu-gt/openclaw-cpu-serving-study",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "benchmarking",
+      "coding-agent",
+      "cpu-inference",
+      "gguf",
+      "inference-optimization",
+      "llama-cpp",
+      "llm-inference",
+      "local-llm",
+      "performance-optimization",
+      "quantization",
+      "qwen",
+      "reproducibility"
+    ]
+  },
+  {
+    "id": "github-andrewkoumoudjian-personnal-setup",
+    "name": "andrewkoumoudjian/personnal-setup",
+    "url": "https://github.com/andrewkoumoudjian/personnal-setup",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "opencode"
+    ],
+    "summary": "My personnal opencode/coding agents setup",
+    "i18n": {
+      "zh": {
+        "name": "andrewkoumoudjian/personnal-setup",
+        "summary": "My personnal opencode/coding agents setup"
+      },
+      "en": {
+        "name": "andrewkoumoudjian/personnal-setup",
+        "summary": "My personnal opencode/coding agents setup"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 33,
+    "quantifiable_score": 14,
+    "quality_score": 19,
+    "tracking_priority": "index",
+    "last_updated": "2026-01-19T21:02:14Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "这是一个个人OpenCode/coding agents设置脚本。它安装Homebrew包、复制.opencode配置到用户目录，并安装oh-my-zsh、nvm等开发工具，适合需要快速配置OpenCode环境的开发者。",
+      "en": "A personal setup script for OpenCode/coding agents. It installs Homebrew packages, copies .opencode config, and sets up development tools, suitable for developers who want to quickly configure an OpenCode environment."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 12,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 7,
+      "practicality": 6,
+      "novelty": 2,
+      "ecosystem_value": 4
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-18",
+    "repo": "andrewkoumoudjian/personnal-setup",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-paslestrange-hermes-skills-coding-agents",
+    "name": "Paslestrange/hermes-skills-coding-agents",
+    "url": "https://github.com/Paslestrange/hermes-skills-coding-agents",
+    "source_type": "github",
+    "resource_type": [
+      "skills"
+    ],
+    "target_tools": [
+      "hermes-agent",
+      "antigravity-cli",
+      "opencode"
+    ],
+    "summary": "Hermes Agent skills for Antigravity and OpenCode coding agents",
+    "i18n": {
+      "zh": {
+        "name": "Paslestrange/hermes-skills-coding-agents",
+        "summary": "Hermes Agent skills for Antigravity and OpenCode coding agents"
+      },
+      "en": {
+        "name": "Paslestrange/hermes-skills-coding-agents",
+        "summary": "Hermes Agent skills for Antigravity and OpenCode coding agents"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 42,
+    "quantifiable_score": 15,
+    "quality_score": 27,
+    "tracking_priority": "track",
+    "last_updated": "2026-06-16T12:52:47Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "Hermes Skills: Coding Agents 是一个为 Hermes Agent 提供的技能集合，用于将编码任务委托给 Antigravity 和 OpenCode 代理。它包含针对不同任务（如快速审查、实现、调试）的预定义技能和决策树，帮助用户选择合适的代理。适合希望利用 Hermes Agent 编排多种编码代理的开发者。",
+      "en": "Hermes Skills: Coding Agents is a collection of skills for the Hermes Agent to delegate coding tasks to Antigravity and OpenCode agents. It includes predefined skills and a decision tree for choosing the right agent based on task type, suitable for developers who want to orchestrate multiple coding agents using Hermes."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 0
+    },
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 6,
+      "novelty": 5,
+      "ecosystem_value": 6
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "Paslestrange/hermes-skills-coding-agents",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-drhodes-hello-tool",
+    "name": "drhodes/hello-tool",
+    "url": "https://github.com/drhodes/hello-tool",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "opencode"
+    ],
+    "summary": "getting a tool working with the opencode coding agent.",
+    "i18n": {
+      "zh": {
+        "name": "drhodes/hello-tool",
+        "summary": "getting a tool working with the opencode coding agent."
+      },
+      "en": {
+        "name": "drhodes/hello-tool",
+        "summary": "getting a tool working with the opencode coding agent."
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 32,
+    "quantifiable_score": 17,
+    "quality_score": 15,
+    "tracking_priority": "index",
+    "last_updated": "2026-05-09T02:08:30Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "Hello Tool for OpenCode 是一个为 OpenCode 编码代理创建简单工具的示例项目。它展示了如何使用 @opencode-ai/plugin 框架实现一个“hello world”工具，并包含 TypeScript 和 Python 实现。适合刚接触 OpenCode 工具开发的初学者学习参考。",
+      "en": "Hello Tool for OpenCode is an example project for creating a simple tool for the OpenCode coding agent. It demonstrates how to implement a \"hello world\" tool using the @opencode-ai/plugin framework, with both TypeScript and Python implementations. Suitable for beginners learning OpenCode tool development."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 7,
+      "practicality": 4,
+      "novelty": 1,
+      "ecosystem_value": 3
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-18",
+    "repo": "drhodes/hello-tool",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-cdhainaut-coding-agents-wave-demo",
+    "name": "cdhainaut/coding-agents-wave-demo",
+    "url": "https://github.com/cdhainaut/coding-agents-wave-demo",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "opencode"
+    ],
+    "summary": "OpenCode coding-agent demo: paper excerpt to wave energy resource calculation",
+    "i18n": {
+      "zh": {
+        "name": "cdhainaut/coding-agents-wave-demo",
+        "summary": "OpenCode coding-agent demo: paper excerpt to wave energy resource calculation"
+      },
+      "en": {
+        "name": "cdhainaut/coding-agents-wave-demo",
+        "summary": "OpenCode coding-agent demo: paper excerpt to wave energy resource calculation"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 42,
+    "quantifiable_score": 17,
+    "quality_score": 25,
+    "tracking_priority": "track",
+    "last_updated": "2026-06-30T22:18:11Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "Shell"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "这是一个OpenCode AI编码代理的演示项目，展示从科学论文到代码实现的完整流程。项目包含多代理编排、假设提取、代码生成、测试和报告生成。适合希望了解OpenCode实际用例的开发者或演示者。",
+      "en": "This is a demo project for the OpenCode AI coding agent, showcasing a complete pipeline from scientific paper excerpt to code implementation. It includes multi-agent orchestration, hypothesis extraction, code generation, testing, and report generation. Suitable for developers or presenters wanting to see a practical OpenCode use case."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 7,
+      "novelty": 5,
+      "ecosystem_value": 5
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "cdhainaut/coding-agents-wave-demo",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-koldamartin-opencode-shopper",
+    "name": "koldamartin/Opencode-shopper",
+    "url": "https://github.com/koldamartin/Opencode-shopper",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "opencode"
+    ],
+    "summary": "Opencode coding agent deployed remotly on Google Cloud. Full-stack and infra project",
+    "i18n": {
+      "zh": {
+        "name": "koldamartin/Opencode-shopper",
+        "summary": "Opencode coding agent deployed remotly on Google Cloud. Full-stack and infra project"
+      },
+      "en": {
+        "name": "koldamartin/Opencode-shopper",
+        "summary": "Opencode coding agent deployed remotly on Google Cloud. Full-stack and infra project"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 40,
+    "quantifiable_score": 10,
+    "quality_score": 30,
+    "tracking_priority": "track",
+    "last_updated": "2025-11-27T08:39:48Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "Opencode-shopper 是一个将 OpenCode 编码代理部署到 Google Cloud 的全栈聊天应用示例。项目包含 OpenCode 服务器、Next.js API 代理和 React 前端，并通过 Docker Compose 和 Terraform 提供本地及生产部署方案。适合希望学习 OpenCode 集成与云端部署的开发者。",
+      "en": "Opencode-shopper is a full-stack chat application that deploys the OpenCode coding agent on Google Cloud. It includes an OpenCode server, a Next.js API proxy, and a React frontend, with Docker Compose and Terraform for local and production deployment. Suitable for developers who want to learn how to integrate and deploy OpenCode in a real-world application."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 8,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 9,
+      "practicality": 8,
+      "novelty": 6,
+      "ecosystem_value": 7
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "koldamartin/Opencode-shopper",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-jamiehicks154-memory",
+    "name": "jamiehicks154/memory",
+    "url": "https://github.com/jamiehicks154/memory",
+    "source_type": "github",
+    "resource_type": [
+      "skills"
+    ],
+    "target_tools": [
+      "opencode"
+    ],
+    "summary": "Simple plugin that allows users to save memories using the opencode coding agent ",
+    "i18n": {
+      "zh": {
+        "name": "jamiehicks154/memory",
+        "summary": "Simple plugin that allows users to save memories using the opencode coding agent "
+      },
+      "en": {
+        "name": "jamiehicks154/memory",
+        "summary": "Simple plugin that allows users to save memories using the opencode coding agent "
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 46,
+    "quantifiable_score": 16,
+    "quality_score": 30,
+    "tracking_priority": "track",
+    "last_updated": "2026-03-23T19:02:22Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": "mit",
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "opencode-memory 是一个为 OpenCode 编码代理提供持久化记忆功能的 Bun 原生 SQLite 工具。它支持全局和工作区记忆范围，具备全文搜索、去重更新、日志记录等特性，适合需要跨会话保持用户偏好的 OpenCode 用户。",
+      "en": "opencode-memory is a Bun-native SQLite-backed memory tool for the OpenCode coding agent. It provides persistent memory with global and workspace scopes, full-text search, duplicate-aware upserts, and event logging, suitable for OpenCode users who need cross-session memory."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 12,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 9,
+      "novelty": 6,
+      "ecosystem_value": 7
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "jamiehicks154/memory",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-manikanda-kumar-vllm-vs-openrouter",
+    "name": "manikanda-kumar/vllm-vs-openrouter",
+    "url": "https://github.com/manikanda-kumar/vllm-vs-openrouter",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "opencode"
+    ],
+    "summary": "Evaluate the inference between vLLM and OpenRouter for Code generations and Opencode coding agent use.",
+    "i18n": {
+      "zh": {
+        "name": "manikanda-kumar/vllm-vs-openrouter",
+        "summary": "Evaluate the inference between vLLM and OpenRouter for Code generations and Opencode coding agent use."
+      },
+      "en": {
+        "name": "manikanda-kumar/vllm-vs-openrouter",
+        "summary": "Evaluate the inference between vLLM and OpenRouter for Code generations and Opencode coding agent use."
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 39,
+    "quantifiable_score": 10,
+    "quality_score": 29,
+    "tracking_priority": "track",
+    "last_updated": "2025-10-29T19:56:50Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "该项目是一个用于比较 vLLM 本地推理和 OpenRouter 云端 API 在代码生成和 Opencode 编码代理上的评估框架。包含两个独立的 Streamlit 应用，分别评估代码生成质量和 Opencode 代理行为。适合需要选择推理后端或优化 Opencode 代理性能的开发者。",
+      "en": "This project is an evaluation framework for comparing local vLLM inference and OpenRouter cloud API on code generation and Opencode coding agent tasks. It includes two Streamlit apps for evaluating code generation quality and Opencode agent behavior. Suitable for developers who need to choose inference backends or optimize Opencode agent performance."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 8,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 8,
+      "novelty": 5,
+      "ecosystem_value": 6
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-18",
+    "repo": "manikanda-kumar/vllm-vs-openrouter",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "code-gen",
+      "eval",
+      "gpt-oss",
+      "inference",
+      "opencode",
+      "python",
+      "vllm"
+    ]
+  },
+  {
+    "id": "github-leiverkus-opencode-talk-bridge",
+    "name": "leiverkus/opencode-talk-bridge",
+    "url": "https://github.com/leiverkus/opencode-talk-bridge",
+    "source_type": "github",
+    "resource_type": [
+      "cli-tool"
+    ],
+    "target_tools": [
+      "opencode"
+    ],
+    "summary": "Drive a local OpenCode coding agent from Nextcloud Talk — a polling chat bridge (no webhooks).",
+    "i18n": {
+      "zh": {
+        "name": "leiverkus/opencode-talk-bridge",
+        "summary": "Drive a local OpenCode coding agent from Nextcloud Talk — a polling chat bridge (no webhooks)."
+      },
+      "en": {
+        "name": "leiverkus/opencode-talk-bridge",
+        "summary": "Drive a local OpenCode coding agent from Nextcloud Talk — a polling chat bridge (no webhooks)."
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 52,
+    "quantifiable_score": 19,
+    "quality_score": 33,
+    "tracking_priority": "track",
+    "last_updated": "2026-06-17T18:46:46Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": "mit",
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "opencode-talk-bridge 是一个将 Nextcloud Talk 聊天与本地 OpenCode 编码代理连接起来的桥接工具。它通过轮询方式读取 Talk 消息并转发给 OpenCode 的 HTTP API，再将回复以流式方式返回聊天，支持语音、文件、任务调度等高级功能。适合需要在自托管的 Nextcloud 环境中通过聊天驱动 OpenCode 编程的团队或个人用户。",
+      "en": "opencode-talk-bridge is a polling chat bridge that connects Nextcloud Talk to a local OpenCode coding agent. It forwards Talk messages to OpenCode's HTTP API and streams replies back, with support for voice notes, file attachments, task scheduling, and a permission-based threat model. It is ideal for users who want to drive OpenCode from a self-hosted Nextcloud Talk environment."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 9,
+      "novelty": 6,
+      "ecosystem_value": 8
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "leiverkus/opencode-talk-bridge",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "ai-agent",
+      "bot",
+      "chat-bridge",
+      "chatbot",
+      "coding-agent",
+      "llm",
+      "nextcloud",
+      "nextcloud-talk",
+      "opencode",
+      "python"
+    ]
+  },
+  {
+    "id": "github-shenato-remote-opencode-sandbox",
+    "name": "Shenato/remote-opencode-sandbox",
+    "url": "https://github.com/Shenato/remote-opencode-sandbox",
+    "source_type": "github",
+    "resource_type": [
+      "cli-tool",
+      "tutorial"
+    ],
+    "target_tools": [
+      "opencode"
+    ],
+    "summary": "Your very own locally hosted opencode coding agent which you can communicate with over discord.",
+    "i18n": {
+      "zh": {
+        "name": "Shenato/remote-opencode-sandbox",
+        "summary": "Your very own locally hosted opencode coding agent which you can communicate with over discord."
+      },
+      "en": {
+        "name": "Shenato/remote-opencode-sandbox",
+        "summary": "Your very own locally hosted opencode coding agent which you can communicate with over discord."
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 51,
+    "quantifiable_score": 17,
+    "quality_score": 34,
+    "tracking_priority": "track",
+    "last_updated": "2026-05-12T03:01:55Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "remote-opencode-sandbox 是一个用于在本地 Docker 沙箱中运行 OpenCode 编码代理的工具，并可通过 Discord 远程管理。它提供了安全隔离、多项目支持、模板系统和服务管理，解决了云代理的局限性。适合需要自托管 AI 编码代理并希望从任何地方通过 Discord 控制的开发者。",
+      "en": "remote-opencode-sandbox is a tool for running the OpenCode coding agent in a local Docker sandbox, controllable via Discord. It provides secure isolation, multi-project support, templates, and service management, addressing the limitations of cloud-based agents. It's suitable for developers who want a self-hosted AI coding agent accessible from anywhere via Discord."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 9,
+      "novelty": 7,
+      "ecosystem_value": 8
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "Shenato/remote-opencode-sandbox",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-cibis-agentyard",
+    "name": "cibis/agentyard",
+    "url": "https://github.com/cibis/agentyard",
+    "source_type": "github",
+    "resource_type": [
+      "agent-framework",
+      "tutorial"
+    ],
+    "target_tools": [
+      "opencode",
+      "openclaw"
+    ],
+    "summary": "Self-hosted AI agent orchestration stack — openclaw gateway, opencode coding agent, and paperclip orchestrator on Docker",
+    "i18n": {
+      "zh": {
+        "name": "cibis/agentyard",
+        "summary": "Self-hosted AI agent orchestration stack — openclaw gateway, opencode coding agent, and paperclip orchestrator on Docker"
+      },
+      "en": {
+        "name": "cibis/agentyard",
+        "summary": "Self-hosted AI agent orchestration stack — openclaw gateway, opencode coding agent, and paperclip orchestrator on Docker"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 50,
+    "quantifiable_score": 19,
+    "quality_score": 31,
+    "tracking_priority": "track",
+    "last_updated": "2026-05-24T20:05:34Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": "mit",
+    "languages": [
+      "Shell"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "agentyard 是一个自托管的 AI agent 编排栈，集成了 openclaw、opencode 和 paperclip 三个组件，通过 Docker 提供隔离的 agent 运行环境。它展示了多 agent 协作模式（如投资顾问场景），包含详细的配置、技能和文档，适合需要搭建多 agent 协作系统的开发者参考。",
+      "en": "agentyard is a self-hosted AI agent orchestration stack integrating openclaw, opencode, and paperclip in Docker. It provides a multi-agent collaboration pattern with a real-world example (investment advisory scenario), including detailed configuration, skills, and documentation. It is suitable for developers looking to build multi-agent systems."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {
+      "relevance": 9,
+      "practicality": 8,
+      "novelty": 7,
+      "ecosystem_value": 7
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "cibis/agentyard",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "ai-agents",
+      "anthropic",
+      "aws-bedrock",
+      "claude",
+      "docker",
+      "llm",
+      "openclaw",
+      "opencode",
+      "orchestration",
+      "paperclip",
+      "self-hosted"
+    ]
+  },
+  {
+    "id": "github-fxoz-agent-attack-poc",
+    "name": "fxoz/agent-attack-poc",
+    "url": "https://github.com/fxoz/agent-attack-poc",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "opencode"
+    ],
+    "summary": "Proof of Concept demonstrating how to trivially extract sensitive data as an AI API provider for users of OpenCode/coding agents. Zero prompt injection.",
+    "i18n": {
+      "zh": {
+        "name": "fxoz/agent-attack-poc",
+        "summary": "Proof of Concept demonstrating how to trivially extract sensitive data as an AI API provider for users of OpenCode/coding agents. Zero prompt injection."
+      },
+      "en": {
+        "name": "fxoz/agent-attack-poc",
+        "summary": "Proof of Concept demonstrating how to trivially extract sensitive data as an AI API provider for users of OpenCode/coding agents. Zero prompt injection."
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 45,
+    "quantifiable_score": 17,
+    "quality_score": 28,
+    "tracking_priority": "track",
+    "last_updated": "2026-07-16T14:25:26Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "Agent Attack PoC 是一个安全研究项目，演示如何利用恶意 LLM API 提供商通过 OpenCode 编码代理提取用户敏感数据。它通过搭建本地服务器模拟虚假 API，并利用工具调用机制执行任意命令，从而获取 .env 文件内容。该项目适合 AI 编码代理开发者和安全研究人员，用于理解并防范此类攻击。",
+      "en": "Agent Attack PoC is a security research project demonstrating how a malicious LLM API provider can be used to extract sensitive data from users via coding agents like OpenCode. It sets up a local server that mimics a fake API and exploits tool calling to execute arbitrary commands, such as reading .env files. This project is useful for AI coding agent developers and security researchers to understand and mitigate such attacks."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 9,
+      "practicality": 7,
+      "novelty": 5,
+      "ecosystem_value": 7
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "fxoz/agent-attack-poc",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-robzolkos-opencode-release-command",
+    "name": "robzolkos/opencode-release-command",
+    "url": "https://github.com/robzolkos/opencode-release-command",
+    "source_type": "github",
+    "resource_type": [
+      "skills"
+    ],
+    "target_tools": [
+      "opencode"
+    ],
+    "summary": "OpenCode command for generating press releases of OpenCode changes",
+    "i18n": {
+      "zh": {
+        "name": "robzolkos/opencode-release-command",
+        "summary": "OpenCode command for generating press releases of OpenCode changes"
+      },
+      "en": {
+        "name": "robzolkos/opencode-release-command",
+        "summary": "OpenCode command for generating press releases of OpenCode changes"
+      }
+    },
+    "stars": 2,
+    "forks": 0,
+    "total_score": 42,
+    "quantifiable_score": 14,
+    "quality_score": 28,
+    "tracking_priority": "track",
+    "last_updated": "2026-03-09T07:19:12Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "opencode-release-command 是一个为 OpenCode AI 编码助手定制的命令，用于自动生成开发者风格的新闻稿。它通过 GitHub CLI 获取发布数据、比较版本差异、分类变更并生成幽默且实用的发布说明。适合 OpenCode 的用户和开发者，方便分享项目变更。",
+      "en": "opencode-release-command is a custom command for the OpenCode AI coding assistant that automatically generates developer-focused press releases. It fetches release data via GitHub CLI, compares diffs, categorizes changes, and produces witty summaries. Suitable for OpenCode users and developers who want to share project updates in an engaging way."
+    },
+    "score_detail": {
+      "stars": 2,
+      "activity": 12,
+      "adoption": 0,
+      "maturity": 0
+    },
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 7,
+      "novelty": 6,
+      "ecosystem_value": 5
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "robzolkos/opencode-release-command",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-gerwim-opencode",
+    "name": "gerwim/opencode",
+    "url": "https://github.com/gerwim/opencode",
+    "source_type": "github",
+    "resource_type": [
+      "skills"
+    ],
+    "target_tools": [
+      "opencode"
+    ],
+    "summary": "Opencode commands, skills etcetera",
+    "i18n": {
+      "zh": {
+        "name": "gerwim/opencode",
+        "summary": "Opencode commands, skills etcetera"
+      },
+      "en": {
+        "name": "gerwim/opencode",
+        "summary": "Opencode commands, skills etcetera"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 27,
+    "quantifiable_score": 14,
+    "quality_score": 13,
+    "tracking_priority": "index",
+    "last_updated": "2026-02-09T21:38:18Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": "mit",
+    "languages": [],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "gerwim/opencode 是一个为 OpenCode 工具提供自定义命令、技能等配置的仓库。项目本身暂无实际代码内容，仅通过名称和摘要表明其用途。适合使用 OpenCode 并希望扩展其能力的开发者，但当前缺乏详细文档和示例。",
+      "en": "gerwim/opencode is a repository for custom commands, skills, and configurations for the OpenCode tool. It currently contains no substantive code, only a summary indicating its intended use. Suitable for developers using OpenCode who want to extend its capabilities, but lacks detailed documentation and examples."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 12,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 7,
+      "practicality": 2,
+      "novelty": 2,
+      "ecosystem_value": 2
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-18",
+    "repo": "gerwim/opencode",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-brentkirkland-opencode",
+    "name": "brentkirkland/opencode",
+    "url": "https://github.com/brentkirkland/opencode",
+    "source_type": "github",
+    "resource_type": [
+      "skills"
+    ],
+    "target_tools": [
+      "opencode"
+    ],
+    "summary": "opencode commands and settings",
+    "i18n": {
+      "zh": {
+        "name": "brentkirkland/opencode",
+        "summary": "opencode commands and settings"
+      },
+      "en": {
+        "name": "brentkirkland/opencode",
+        "summary": "opencode commands and settings"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 24,
+    "quantifiable_score": 8,
+    "quality_score": 16,
+    "tracking_priority": "index",
+    "last_updated": "2025-10-01T20:59:29Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "opencode 是一个为 OpenCode AI 助手提供自定义命令的开源项目，包含 /commit、/push、/pr-new 等 Git 工作流命令。项目仅提供 README 文档，无实际代码，Stars 为 0，成熟度低。适合使用 OpenCode 的开发者作为参考来定制自己的命令。",
+      "en": "opencode is an open-source project providing custom commands for the OpenCode AI assistant, including /commit, /push, /pr-new, etc. It only contains a README with no actual code and has 0 stars, indicating low maturity. This may serve as a reference for OpenCode users looking to customize commands."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 8,
+      "adoption": 0,
+      "maturity": 0
+    },
+    "quality_detail": {
+      "relevance": 7,
+      "practicality": 3,
+      "novelty": 3,
+      "ecosystem_value": 3
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-18",
+    "repo": "brentkirkland/opencode",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-gigi206-hackathon-infra-ia",
+    "name": "gigi206/hackathon_infra_ia",
+    "url": "https://github.com/gigi206/hackathon_infra_ia",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "opencode"
+    ],
+    "summary": "OpenCode command reference documentation",
+    "i18n": {
+      "zh": {
+        "name": "gigi206/hackathon_infra_ia",
+        "summary": "OpenCode command reference documentation"
+      },
+      "en": {
+        "name": "gigi206/hackathon_infra_ia",
+        "summary": "OpenCode command reference documentation"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 33,
+    "quantifiable_score": 12,
+    "quality_score": 21,
+    "tracking_priority": "track",
+    "last_updated": "2026-03-25T12:42:15Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "该项目是 OpenCode 终端 AI 编程助手的命令参考文档仓库。它整理了 OpenCode 的配置、CLI 标志、斜杠命令、自定义命令、技能、钩子、插件（包括 Superpowers）以及键盘快捷键等详细信息，适合 OpenCode 用户作为快速查阅手册。",
+      "en": "This project is a command reference documentation repository for the OpenCode terminal-based AI coding assistant. It compiles detailed information on configuration, CLI flags, slash commands, customization, hooks, plugins (including Superpowers), and keyboard shortcuts, making it a handy reference for OpenCode users."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 12,
+      "adoption": 0,
+      "maturity": 0
+    },
+    "quality_detail": {
+      "relevance": 9,
+      "practicality": 6,
+      "novelty": 1,
+      "ecosystem_value": 5
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-18",
+    "repo": "gigi206/hackathon_infra_ia",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-sailing3d-opencode-commands",
+    "name": "sailing3d/opencode-commands",
+    "url": "https://github.com/sailing3d/opencode-commands",
+    "source_type": "github",
+    "resource_type": [
+      "skills",
+      "rules"
+    ],
+    "target_tools": [
+      "opencode"
+    ],
+    "summary": "OpenCode commands for Sailing3D projects",
+    "i18n": {
+      "zh": {
+        "name": "sailing3d/opencode-commands",
+        "summary": "OpenCode commands for Sailing3D projects"
+      },
+      "en": {
+        "name": "sailing3d/opencode-commands",
+        "summary": "OpenCode commands for Sailing3D projects"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 44,
+    "quantifiable_score": 15,
+    "quality_score": 29,
+    "tracking_priority": "track",
+    "last_updated": "2026-06-09T02:35:06Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "sailing3d/opencode-commands 是一个为 OpenCode 设计的命令、技能和代理工具包。它提供了一套标准化的工作流，包括任务管理、计划、构建、文档同步和 Git 操作，通过同步机制跨项目复用。适合使用 OpenCode 的开发者，希望统一项目工作流和提升效率。",
+      "en": "sailing3d/opencode-commands is a toolkit of commands, skills, and agents designed for OpenCode. It provides a standardized workflow including task management, planning, building, document syncing, and Git operations, with a sync mechanism for cross-project reuse. It's suitable for OpenCode users who want to unify project workflows and improve efficiency."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 0
+    },
+    "quality_detail": {
+      "relevance": 9,
+      "practicality": 7,
+      "novelty": 6,
+      "ecosystem_value": 7
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "sailing3d/opencode-commands",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-uriel-loz-opencode-commands",
+    "name": "uriel-loz/opencode-commands",
+    "url": "https://github.com/uriel-loz/opencode-commands",
+    "source_type": "github",
+    "resource_type": [
+      "skills",
+      "rules"
+    ],
+    "target_tools": [
+      "opencode"
+    ],
+    "summary": "stack commands for opencode",
+    "i18n": {
+      "zh": {
+        "name": "uriel-loz/opencode-commands",
+        "summary": "stack commands for opencode"
+      },
+      "en": {
+        "name": "uriel-loz/opencode-commands",
+        "summary": "stack commands for opencode"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 46,
+    "quantifiable_score": 17,
+    "quality_score": 29,
+    "tracking_priority": "track",
+    "last_updated": "2026-06-19T00:22:23Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "opencode-commands 是一个为 OpenCode AI 代理工具提供命令和子代理配置的开源项目。它包含 git commit、engram 集成等操作命令，以及 apply、review、task、verify 等子代理定义，帮助用户通过结构化提示和自动化流程提升 OpenCode 的使用效率。适合使用 OpenCode 进行 AI 编码辅助的开发者。",
+      "en": "opencode-commands is an open-source project that provides commands and sub-agent configurations for the OpenCode AI coding agent tool. It includes operational commands for git commit, engram integration, and sub-agent definitions such as apply, review, task, and verify, helping users enhance OpenCode's efficiency through structured prompts and automated workflows. It is suitable for developers using OpenCode for AI-assisted coding."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 8,
+      "novelty": 5,
+      "ecosystem_value": 6
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "uriel-loz/opencode-commands",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-tp-codingagent-mdxeditorweb-qoder",
+    "name": "TP-CodingAgent/MdxEditorWeb-Qoder",
+    "url": "https://github.com/TP-CodingAgent/MdxEditorWeb-Qoder",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "qoder"
+    ],
+    "summary": "Web application to edit the markdown and mdx content. Develop by Qoder Coding Agent",
+    "i18n": {
+      "zh": {
+        "name": "TP-CodingAgent/MdxEditorWeb-Qoder",
+        "summary": "Web application to edit the markdown and mdx content. Develop by Qoder Coding Agent"
+      },
+      "en": {
+        "name": "TP-CodingAgent/MdxEditorWeb-Qoder",
+        "summary": "Web application to edit the markdown and mdx content. Develop by Qoder Coding Agent"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 34,
+    "quantifiable_score": 10,
+    "quality_score": 24,
+    "tracking_priority": "track",
+    "last_updated": "2025-09-09T16:13:35Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "TypeScript"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "这是一个由Qoder Coding Agent开发的MDX编辑器Web应用，基于Next.js构建。它支持Markdown和MDX编辑，提供实时预览、AI辅助（支持OpenAI、Gemini、OpenRouter）和丰富的编辑功能。适合需要AI增强内容编辑体验的开发者或内容创作者。",
+      "en": "This is an MDX editor web application developed by the Qoder Coding Agent, built with Next.js. It supports Markdown and MDX editing with live preview, AI assistance (via OpenAI, Gemini, OpenRouter), and rich editing features. It is suitable for developers or content creators who need an AI-enhanced content editing experience."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 8,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 6,
+      "practicality": 8,
+      "novelty": 5,
+      "ecosystem_value": 5
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-18",
+    "repo": "TP-CodingAgent/MdxEditorWeb-Qoder",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-jeannie31lee-ai-yingshi-video-hot-skill",
+    "name": "jeannie31lee-ai/yingshi-video-hot-skill",
+    "url": "https://github.com/jeannie31lee-ai/yingshi-video-hot-skill",
+    "source_type": "github",
+    "resource_type": [
+      "skills"
+    ],
+    "target_tools": [
+      "qoder"
+    ],
+    "summary": "抖音热点宝影视类热门视频数据获取工具 - Qoder Skill",
+    "i18n": {
+      "zh": {
+        "name": "jeannie31lee-ai/yingshi-video-hot-skill",
+        "summary": "抖音热点宝影视类热门视频数据获取工具 - Qoder Skill"
+      },
+      "en": {
+        "name": "jeannie31lee-ai/yingshi-video-hot-skill",
+        "summary": "抖音热点宝影视类热门视频数据获取工具 - Qoder Skill"
+      }
+    },
+    "stars": 1,
+    "forks": 0,
+    "total_score": 37,
+    "quantifiable_score": 19,
+    "quality_score": 18,
+    "tracking_priority": "index",
+    "last_updated": "2026-04-21T14:41:58Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "这是一个基于Playwright的抖音热点数据采集工具，可以从抖音热点宝自动获取影视类热门视频排行榜数据并生成Excel报告。它利用浏览器自动化模拟登录和提取数据，适合需要批量获取抖音热门视频数据的运营人员或开发者。",
+      "en": "This is a data scraping tool for Douyin (TikTok China) hot video rankings, using Playwright to automate browser login and data extraction. It generates formatted Excel reports with video titles, heat scores, and engagement metrics. It is suitable for social media analysts and developers needing structured hot video data."
+    },
+    "score_detail": {
+      "stars": 2,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 5,
+      "practicality": 8,
+      "novelty": 2,
+      "ecosystem_value": 3
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-18",
+    "repo": "jeannie31lee-ai/yingshi-video-hot-skill",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-xian-644-qoder-skills",
+    "name": "xian-644/qoder-skills",
+    "url": "https://github.com/xian-644/qoder-skills",
+    "source_type": "github",
+    "resource_type": [
+      "skills"
+    ],
+    "target_tools": [
+      "qoder"
+    ],
+    "summary": "保存我的Qoder skills",
+    "i18n": {
+      "zh": {
+        "name": "xian-644/qoder-skills",
+        "summary": "保存我的Qoder skills"
+      },
+      "en": {
+        "name": "xian-644/qoder-skills",
+        "summary": "保存我的Qoder skills"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 36,
+    "quantifiable_score": 12,
+    "quality_score": 24,
+    "tracking_priority": "track",
+    "last_updated": "2026-04-10T05:46:56Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "Qoder Skills 是一个个人收藏的 Qoder 技能集合仓库，包含 git-commit-workflow 和 image-to-vue 两个技能。这些技能展示了如何为 Qoder 编写自定义 SKILL.md 文件，实现自动化 Git 提交流程和图片转 Vue 组件的功能。适合 Qoder 用户学习技能编写和扩展工具能力。",
+      "en": "Qoder Skills is a personal collection of Qoder skills, including git-commit-workflow and image-to-vue. It demonstrates how to write custom SKILL.md files for Qoder to automate Git commit workflows and convert images to Vue components. Suitable for Qoder users learning skill authoring and extending tool capabilities."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 12,
+      "adoption": 0,
+      "maturity": 0
+    },
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 6,
+      "novelty": 3,
+      "ecosystem_value": 5
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-18",
+    "repo": "xian-644/qoder-skills",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-karsten-hkt-iris-earthquake-download",
+    "name": "karsten-hkt/iris-earthquake-download",
+    "url": "https://github.com/karsten-hkt/iris-earthquake-download",
+    "source_type": "github",
+    "resource_type": [
+      "skills"
+    ],
+    "target_tools": [
+      "qoder"
+    ],
+    "summary": "Qoder Skill: Download earthquake waveform data from IRIS",
+    "i18n": {
+      "zh": {
+        "name": "karsten-hkt/iris-earthquake-download",
+        "summary": "Qoder Skill: Download earthquake waveform data from IRIS"
+      },
+      "en": {
+        "name": "karsten-hkt/iris-earthquake-download",
+        "summary": "Qoder Skill: Download earthquake waveform data from IRIS"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 31,
+    "quantifiable_score": 17,
+    "quality_score": 14,
+    "tracking_priority": "index",
+    "last_updated": "2026-04-20T03:27:19Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "Perl"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "该项目是一个Qoder（AI编码工具）的技能，用于从IRIS下载地震波形数据。核心功能是使用Perl脚本实现自动化数据获取，适合需要在地震数据处理中结合AI Agent的开发者。",
+      "en": "This project is a skill for Qoder (AI coding agent) to download earthquake waveform data from IRIS. It provides a Perl script for automated data retrieval, suitable for developers who want to integrate AI agents into seismology data analysis."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 7,
+      "practicality": 2,
+      "novelty": 3,
+      "ecosystem_value": 2
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-18",
+    "repo": "karsten-hkt/iris-earthquake-download",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-tqc10-qoder-skills",
+    "name": "TQC10/qoder-skills",
+    "url": "https://github.com/TQC10/qoder-skills",
+    "source_type": "github",
+    "resource_type": [
+      "skills"
+    ],
+    "target_tools": [
+      "qoder"
+    ],
+    "summary": "存放skill",
+    "i18n": {
+      "zh": {
+        "name": "TQC10/qoder-skills",
+        "summary": "存放skill"
+      },
+      "en": {
+        "name": "TQC10/qoder-skills",
+        "summary": "存放skill"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 42,
+    "quantifiable_score": 17,
+    "quality_score": 25,
+    "tracking_priority": "track",
+    "last_updated": "2026-05-15T09:30:04Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "Qoder Skills 是一个为 Qoder AI 编程助手定制的自定义 Skill 集合。包含 API 集成测试、PPT 生成和网页访问三个实用技能，每个 Skill 提供详细的配置和示例。适合使用 Qoder 并希望扩展其编码能力的开发者。",
+      "en": "Qoder Skills is a collection of custom skills for the Qoder AI coding assistant, including API testing, PPT generation, and web access. It provides detailed configurations and examples for each skill, suitable for developers who use Qoder and want to extend its coding capabilities."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 6,
+      "novelty": 4,
+      "ecosystem_value": 5
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "TQC10/qoder-skills",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-fotocanvas-qoderwork-skills",
+    "name": "fotocanvas/qoderwork-skills",
+    "url": "https://github.com/fotocanvas/qoderwork-skills",
+    "source_type": "github",
+    "resource_type": [
+      "skills"
+    ],
+    "target_tools": [
+      "qoder"
+    ],
+    "summary": "QoderWork agent skills collection",
+    "i18n": {
+      "zh": {
+        "name": "fotocanvas/qoderwork-skills",
+        "summary": "QoderWork agent skills collection"
+      },
+      "en": {
+        "name": "fotocanvas/qoderwork-skills",
+        "summary": "QoderWork agent skills collection"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 42,
+    "quantifiable_score": 17,
+    "quality_score": 25,
+    "tracking_priority": "track",
+    "last_updated": "2026-07-11T15:54:58Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "QoderWork Skills 是一个为 Qoder 代理收集的可复用技能库，包含创建技能、文档处理、PDF、PPT、XLSX、插件创建等多种常见任务的指令集。适合使用 QoderWork 的开发者通过安装这些技能快速增强代理能力，提高自动化效率。",
+      "en": "QoderWork Skills is a collection of reusable instruction sets for Qoder agents, covering tasks like skill creation, document processing, PDF, PPT, XLSX, plugin creation, and more. It is suitable for developers using QoderWork to quickly enhance their agent's capabilities and improve automation efficiency."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 5,
+      "novelty": 3,
+      "ecosystem_value": 7
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "fotocanvas/qoderwork-skills",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-haroldlhl-qoder-skills",
+    "name": "Haroldlhl/qoder-skills",
+    "url": "https://github.com/Haroldlhl/qoder-skills",
+    "source_type": "github",
+    "resource_type": [
+      "skills"
+    ],
+    "target_tools": [
+      "qoder"
+    ],
+    "summary": "Qoder CLI 自定义 skills 集合",
+    "i18n": {
+      "zh": {
+        "name": "Haroldlhl/qoder-skills",
+        "summary": "Qoder CLI 自定义 skills 集合"
+      },
+      "en": {
+        "name": "Haroldlhl/qoder-skills",
+        "summary": "Qoder CLI 自定义 skills 集合"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 27,
+    "quantifiable_score": 17,
+    "quality_score": 10,
+    "tracking_priority": "index",
+    "last_updated": "2026-07-15T17:44:08Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "Qoder Skills 是 Qoder CLI 的自定义技能集合项目。它旨在为 Qoder CLI 提供扩展技能，但目前项目内容为空，缺乏文档和示例。适合关注 Qoder 生态的开发者，但当前无法使用。",
+      "en": "Qoder Skills is a collection of custom skills for Qoder CLI. It aims to extend Qoder CLI with additional capabilities, but currently the repository is empty with no documentation or examples. Suitable for developers interested in the Qoder ecosystem, but not usable yet."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 0,
+      "novelty": 1,
+      "ecosystem_value": 1
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-18",
+    "repo": "Haroldlhl/qoder-skills",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-valeriypushkar-qoder-skills-golang",
+    "name": "valeriypushkar/qoder-skills-golang",
+    "url": "https://github.com/valeriypushkar/qoder-skills-golang",
+    "source_type": "github",
+    "resource_type": [
+      "skills"
+    ],
+    "target_tools": [
+      "qoder"
+    ],
+    "summary": "valeriypushkar/qoder-skills-golang",
+    "i18n": {
+      "zh": {
+        "name": "valeriypushkar/qoder-skills-golang",
+        "summary": "valeriypushkar/qoder-skills-golang"
+      },
+      "en": {
+        "name": "valeriypushkar/qoder-skills-golang",
+        "summary": "valeriypushkar/qoder-skills-golang"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 51,
+    "quantifiable_score": 19,
+    "quality_score": 32,
+    "tracking_priority": "track",
+    "last_updated": "2026-07-14T08:51:01Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": "mit",
+    "languages": [
+      "Go"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "valeriypushkar/qoder-skills-golang 是一个为 Qoder AI 助手定制的 Go 开发技能集合。它提供了覆盖代码风格、测试、并发、安全、性能等多个领域的详细技能指令，每个技能包含 SKILL.md 和可选的参考文件。适合使用 Qoder 进行 Go 开发的开发者，可显著提升 AI 助手在 Go 项目中的专业性和实用性。",
+      "en": "valeriypushkar/qoder-skills-golang is a collection of Qoder-compatible skills for Go development. It provides detailed skill instructions covering code style, testing, concurrency, security, performance, and more, each with a SKILL.md and optional reference files. It's ideal for developers using Qoder to build Go applications, enhancing the AI assistant's domain-specific expertise."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 9,
+      "novelty": 5,
+      "ecosystem_value": 8
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "valeriypushkar/qoder-skills-golang",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-zzymo123-cyber-push-to-github",
+    "name": "zzymo123-cyber/push-to-github",
+    "url": "https://github.com/zzymo123-cyber/push-to-github",
+    "source_type": "github",
+    "resource_type": [
+      "skills"
+    ],
+    "target_tools": [
+      "qoder"
+    ],
+    "summary": "Qoder Skill - 快速推送本地内容到 GitHub",
+    "i18n": {
+      "zh": {
+        "name": "zzymo123-cyber/push-to-github",
+        "summary": "Qoder Skill - 快速推送本地内容到 GitHub"
+      },
+      "en": {
+        "name": "zzymo123-cyber/push-to-github",
+        "summary": "Qoder Skill - 快速推送本地内容到 GitHub"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 28,
+    "quantifiable_score": 15,
+    "quality_score": 13,
+    "tracking_priority": "index",
+    "last_updated": "2026-05-30T10:36:37Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "这是一个Qoder的Skill，用于快速将本地内容推送到GitHub。项目目前仅包含基本描述，没有实际实现代码。适合希望扩展Qoder功能的开发者参考思路。",
+      "en": "This is a Qoder Skill for quickly pushing local content to GitHub. The project currently only contains a basic description with no actual implementation. It may serve as a reference for developers looking to extend Qoder's capabilities."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 0
+    },
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 1,
+      "novelty": 2,
+      "ecosystem_value": 2
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-18",
+    "repo": "zzymo123-cyber/push-to-github",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  },
+  {
+    "id": "github-zxcalbert-traemcp",
+    "name": "zxcalbert/TraeMCP",
+    "url": "https://github.com/zxcalbert/TraeMCP",
+    "source_type": "github",
+    "resource_type": [
+      "mcp-server",
+      "tutorial"
+    ],
+    "target_tools": [
+      "trae",
+      "openclaw"
+    ],
+    "summary": "MCP Server for Trae CN + OpenClaw 集成火山方舟 AI",
+    "i18n": {
+      "zh": {
+        "name": "zxcalbert/TraeMCP",
+        "summary": "MCP Server for Trae CN + OpenClaw 集成火山方舟 AI"
+      },
+      "en": {
+        "name": "zxcalbert/TraeMCP",
+        "summary": "MCP Server for Trae CN + OpenClaw 集成火山方舟 AI"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 39,
+    "quantifiable_score": 16,
+    "quality_score": 23,
+    "tracking_priority": "track",
+    "last_updated": "2026-03-30T03:54:47Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": "mit",
+    "languages": [
+      "HTML"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "TraeMCP是一个MCP服务器，用于将Trae CN的AI编码能力集成到OpenClaw中。它通过火山方舟API提供聊天、文件读写、命令执行等功能，并提供了详细的配置指南。适合使用OpenClaw且希望调用Trae CN AI模型的开发者。",
+      "en": "TraeMCP is an MCP server that integrates Trae CN's AI coding capabilities into OpenClaw. It provides chat, file read/write, and command execution via Volc Engine API, with a detailed configuration guide. Suitable for developers using OpenClaw who want to leverage Trae CN's AI models."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 12,
+      "adoption": 0,
+      "maturity": 4
+    },
+    "quality_detail": {
+      "relevance": 7,
+      "practicality": 8,
+      "novelty": 3,
+      "ecosystem_value": 5
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-18",
+    "repo": "zxcalbert/TraeMCP",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# 🚀 Trae CN + OpenClaw 集成快速配置指南\n\n## 第一步：获取火山方舟 API Key\n\n1. 访问 [火山方舟 Coding Plan 活动页面](https://www.volcengine.com/activity/codingplan)\n2. 按需订阅套餐（免费试用或付费）\n3. 获取 API Key：https://console.volcengine.com/ark/region:ark+cn-beijing/apikey\n\n## 第二步：配置 API Key\n\n### 方式 A：环境变量（推荐用于测试）\n\n```bash\nexport ANTHROPIC_AUTH_TOKEN=你的API Key\nexport ANTHROPIC_BASE_URL=https://ark.cn-beijing.volces.com/api/coding\nexport ANTHROPIC_MODEL=doubao-seed-2.0-code\n```\n\n### 方式 B：配置文件（推荐用于生产）\n\n```bash\n# 复制配置模板\ncp ~/.qclaw/workspace/trae-cn-mcp/config/api-key.env.example ~/.qclaw/workspace/trae-cn-mcp/config/api-key.env\n\n# 编辑配置文件，填入你的 API Key\nnano ~/.qclaw/workspace/trae-cn-mcp/config/api-key.env\n```\n\n配置文件内容：\n```env\nANTHROPIC_AUTH_TOKEN=你的API Key\nANTHROPIC_BASE_URL=https://ark.cn-beijing.volces.com/api/coding\nANTHROPIC_MODEL=doubao-seed-2.0-code\n```\n\n## 第三步：启动 MCP Server\n\n```bash\n# 方式 1：使用启动脚本\ncd ~/.qclaw/workspace/trae-cn-mcp\n./scripts/start.sh\n\n# 方式 2：直接运行\nNODE_PATH=\"$HOME/.nvm/versions/node/v22.22.1/bin/node\"\n$NODE_PATH ~/.qclaw/workspace/trae-cn-mcp/src/server.js --project ~/编程/invest-diary\n```\n\n## 第四步：测试 MCP Server\n\n> ⚠️ **注意：** 这是一个 **stdio 协议** 的 MCP Server，通过标准输入输出通信，**不监听任何端口**。\n> 不要使用 `nc localhost 8788` 等 TCP 连接方式测试，那会失败。\n\n正确的测试方式是通过管道直接向进程发送 JSON：\n\n```bash\nNODE=\"$HOME/.nvm/versions/node/v22.22.1/bin/node\"\nSERVER=\"$HOME/.qclaw/workspace/trae-cn-mcp/src/server.js\"\n\n# 测试 1：initialize（验证服务器能正常启动并响应）\necho '{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"initialize\",\"params\":{\"protocolVersion\":\"2024-11-05\",\"capabilities\":{},\"clientInfo\":{\"name\":\"test\",\"version\":\"1.0\"}}}' \\\n  | ANTHROPIC_AUTH_TOKEN=你的API Key $NODE $SERVER\n\n# 测试 2：tools/list（验证工具列表）\necho '{\"jsonrpc\":\"2.0\",\"id\":2,\"method\":\"tools/list\",\"params\":{}}' \\\n  | ANTHROPIC_AUTH_TOKEN=你的API Key $NODE $SERVER\n```\n\n**预期输出：**\n```json\n{\"id\":1,\"result\":{\"protocolVersion\":\"2024-11-05\",\"capabilities\":{\"tools\":{},\"resources\":{}},\"serverInfo\":{\"name\":\"trae-cn-mcp\",\"version\":\"1.0.0\"}}}\n```\n\n如果看到上面的 JSON 响应，说明 MCP Server 工作正常。\n\n## 第五步：集成到 OpenClaw\n\n在 OpenClaw 配置文件中添加",
+    "topics": []
+  },
+  {
+    "id": "github-zhqianxin-trae-mcp",
+    "name": "zhqianxin/trae_mcp",
+    "url": "https://github.com/zhqianxin/trae_mcp",
+    "source_type": "github",
+    "resource_type": [
+      "tutorial"
+    ],
+    "target_tools": [
+      "trae"
+    ],
+    "summary": "Trae MCP示例项目",
+    "i18n": {
+      "zh": {
+        "name": "zhqianxin/trae_mcp",
+        "summary": "Trae MCP示例项目"
+      },
+      "en": {
+        "name": "zhqianxin/trae_mcp",
+        "summary": "Trae MCP示例项目"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 23,
+    "quantifiable_score": 8,
+    "quality_score": 15,
+    "tracking_priority": "index",
+    "last_updated": "2025-08-14T04:18:40Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "这是一个Trae MCP的示例项目，用于演示如何使用MCP服务器进行Git和GitHub操作。项目提供了基本的安装步骤和环境配置说明，但缺少实际的代码文件和详细文档。适合刚接触Trae MCP的开发者作为入门参考。",
+      "en": "This is a sample project for Trae MCP, demonstrating how to use an MCP server for Git and GitHub operations. It provides basic installation steps and environment configuration, but lacks actual code files and detailed documentation. Suitable for developers new to Trae MCP as a starting point."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 8,
+      "adoption": 0,
+      "maturity": 0
+    },
+    "quality_detail": {
+      "relevance": 7,
+      "practicality": 3,
+      "novelty": 2,
+      "ecosystem_value": 3
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-18",
+    "repo": "zhqianxin/trae_mcp",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# Trae MCP\n\n## 项目简介\n这是一个使用Trae MCP的示例项目，用于展示如何使用MCP服务器进行Git和GitHub操作。\n\n## 功能特性\n- Git仓库操作\n- GitHub API集成\n- 自动化工作流程\n\n## 开始使用\n\n### 环境要求\n- Git\n- Node.js\n- npm或yarn\n\n### 安装步骤\n1. 克隆仓库\n```bash\ngit clone <repository-url>\ncd trae_mcp\n```\n\n2. 安装依赖\n```bash\nnpm install\n# 或\nyarn install\n```\n\n3. 配置环境变量\n```bash\ncp .env.example .env\n# 编辑.env文件，填入必要的配置信息\n```\n\n## 使用说明\n详细的使用说明和API文档请参考[文档](docs/README.md)。\n\n## 贡献指南\n欢迎提交Pull Request或Issue。\n\n## 许可证\nMIT License",
+    "topics": []
+  },
+  {
+    "id": "github-leon30083-trae-mcp",
+    "name": "leon30083/trae-mcp",
+    "url": "https://github.com/leon30083/trae-mcp",
+    "source_type": "github",
+    "resource_type": [
+      "mcp-server",
+      "tutorial"
+    ],
+    "target_tools": [
+      "trae"
+    ],
+    "summary": "搭配trae使用的mcp工具，个人",
+    "i18n": {
+      "zh": {
+        "name": "leon30083/trae-mcp",
+        "summary": "搭配trae使用的mcp工具，个人"
+      },
+      "en": {
+        "name": "leon30083/trae-mcp",
+        "summary": "搭配trae使用的mcp工具，个人"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 29,
+    "quantifiable_score": 10,
+    "quality_score": 19,
+    "tracking_priority": "index",
+    "last_updated": "2026-01-14T16:35:25Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "JavaScript"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "该项目是一个用于配置和管理 Trae AI 使用的 MCP 工具的仓库。它提供了 trae-openspec-mcp 服务器的启动和配置指南，以及顺序思考工具的目录结构。适合使用 Trae AI 的开发者，用于快速集成 MCP 工具。",
+      "en": "This project is a repository for configuring and managing MCP tools used by Trae AI. It provides startup and configuration guides for the trae-openspec-mcp server, as well as directory structure for Sequential Thinking tools. It is suitable for Trae AI users who want to quickly integrate MCP tools."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 8,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 7,
+      "practicality": 6,
+      "novelty": 2,
+      "ecosystem_value": 4
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-18",
+    "repo": "leon30083/trae-mcp",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# Trae MCP 工作区\n\n该仓库用于集中管理 Trae AI 使用的 MCP 工具与文档。\n\n## 目录结构\n- `Sequential Thinking/`：顺序思考工具目录（待标准化命名）。\n- `trae-openspec-mcp/`：OpenSpec 工具目录，含输出与示例代码。\n- `文件夹说明.md`：统一的工具安装与使用说明。\n\n## 快速开始（trae-openspec-mcp）\n- 启动服务器：`npx -y trae-openspec-mcp`\n- 在 Trae 中配置（片段）：\n  ```json\n  {\n    \"mcpServers\": {\n      \"trae-openspec-mcp\": {\n        \"command\": \"npx\",\n        \"args\": [\"-y\", \"trae-openspec-mcp\"]\n      }\n    }\n  }\n  ```\n- 可用工具：`create_openspec_project`、`generate_openspec_spec`、`optimize_code_by_spec`\n\n## 使用流程\n1. 在本地启动 MCP 服务器。\n2. 在 Trae 中连接到服务器并调用工具。\n3. 将生成的规范与示例输出存放在 `trae-openspec-mcp/output/`。\n\n## 可视化\n```mermaid\nflowchart TD\n  A[本地 MCP 服务器] -->|npx -y trae-openspec-mcp| B[Trae 客户端]\n  B --> C{调用工具}\n  C --> C1[create_openspec_project]\n  C --> C2[generate_openspec_spec]\n  C --> C3[optimize_code_by_spec]\n  C2 --> D[输出: output/]\n  C3 --> D\n```\n\n## 注意事项\n- Git 代理：当前全局代理为 `http://127.0.0.1:7890`。\n- 提交信息：首次提交者设置为 `leon30083 <leon30083@users.noreply.github.com>`。\n- 若需 CI/Release，可后续添加（当前用户反馈不需要）。",
+    "topics": []
+  },
+  {
+    "id": "github-fuqun616-eng-trae-mcp-bridge",
+    "name": "fuqun616-eng/trae-mcp-bridge",
+    "url": "https://github.com/fuqun616-eng/trae-mcp-bridge",
+    "source_type": "github",
+    "resource_type": [
+      "mcp-server"
+    ],
+    "target_tools": [
+      "trae"
+    ],
+    "summary": "MCP Bridge Server - 连接 Operit AI 和 Trae Solo",
+    "i18n": {
+      "zh": {
+        "name": "fuqun616-eng/trae-mcp-bridge",
+        "summary": "MCP Bridge Server - 连接 Operit AI 和 Trae Solo"
+      },
+      "en": {
+        "name": "fuqun616-eng/trae-mcp-bridge",
+        "summary": "MCP Bridge Server - 连接 Operit AI 和 Trae Solo"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 40,
+    "quantifiable_score": 17,
+    "quality_score": 23,
+    "tracking_priority": "track",
+    "last_updated": "2026-05-19T14:52:39Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "JavaScript"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "Trae MCP Bridge 是一个连接 Operit AI 和 Trae Solo 的 MCP 桥接服务器，通过标准 MCP 协议实现任务派发、状态追踪和结果获取。它提供多个 MCP 工具，适合需要在 Operit AI 中调用 Trae Solo 执行编码任务的开发者。",
+      "en": "Trae MCP Bridge is an MCP bridge server connecting Operit AI and Trae Solo, enabling task dispatching, status tracking, and result retrieval via the standard MCP protocol. It provides multiple MCP tools for developers who need to invoke Trae Solo from Operit AI."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 5,
+      "novelty": 5,
+      "ecosystem_value": 5
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "fuqun616-eng/trae-mcp-bridge",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "# Trae MCP Bridge\n\n连接 Operit AI 和 Trae Solo 的 MCP Bridge Server\n\n## 功能特点\n\n- 🔗 **标准 MCP 协议**：完全兼容 Operit 和 Trae Solo\n- 🚀 **任务派发**：将编码任务委派给 Trae Solo 执行\n- 📊 **状态追踪**：实时查询任务执行状态\n- 💾 **结果获取**：获取任务执行结果和输出\n- 🔄 **交互模式**：支持与 Trae Solo 交互式对话\n\n## MCP 工具列表\n\n| 工具名 | 说明 |\n|--------|------|\n| `trae_execute` | 派发编码任务给 Trae Solo |\n| `trae_get_status` | 查询任务执行状态 |\n| `trae_get_result` | 获取任务执行结果 |\n| `trae_interactive` | 交互式对话（高级功能） |\n| `bridge_health` | 健康检查 |\n\n## 系统要求\n\n- Node.js >= 18.0.0\n- Trae Solo CLI 已安装\n- Android 设备（配合 Shizuku 使用）\n\n## 安装步骤\n\n### 1. 克隆仓库\n\n```bash\ngit clone https://github.com/AAswordman/trae-mcp-bridge.git\ncd trae-mcp-bridge\n```\n\n### 2. 安装依赖\n\n```bash\nnpm install\n```\n\n### 3. 编译 TypeScript\n\n```bash\nnpm run build\n```\n\n### 4. 配置路径\n\n编辑 `.trae/mcp.json` 中的路径配置：\n\n```json\n{\n  \"mcpServers\": {\n    \"trae-mcp-bridge\": {\n      \"command\": \"node\",\n      \"args\": [\"dist/index.js\"],\n      \"env\": {\n        \"TRAE_CLI_PATH\": \"/sdcard/Download/trae-agent\",\n        \"TRAE_WORK_DIR\": \"/sdcard/Download/trae-bridge\",\n        \"TRAE_TASK_DIR\": \"/sdcard/Download/trae-bridge/tasks\"\n      }\n    }\n  }\n}\n```\n\n## 在 Operit 中配置\n\n### 方法 1：复制配置文件\n\n将以下配置添加到 Operit 的 MCP 配置中：\n\n```json\n{\n  \"mcpServers\": {\n    \"trae-mcp-bridge\": {\n      \"command\": \"node\",\n      \"args\": [\"/sdcard/Download/trae-mcp-bridge/dist/index.js\"],\n      \"env\": {\n        \"TRAE_CLI_PATH\": \"/sdcard/Download/trae-agent\",\n        \"TRAE_WORK_DIR\": \"/sdcard/Download/trae-bridge\"\n      }\n    }\n  }\n}\n```\n\n### 方法 2：通过 Shizuku 启动\n\n1. 确保 Shizuku 已安装并授权\n2. 在 Operit 中配置 MCP\n3. 使用 Shizuku 启动服务\n\n## 使用示例\n\n### 在 Operit 中使用\n\n```\n帮我用 Trae 创建一个 Python Flask 项目，要求：\n1. 使用 Flask 框架\n2. 实现用户登录功能\n3. 使用 SQLite 数据库\n```\n\nOperit 会自动调用 `trae_execute` 工具派发任务。\n\n### 手动测试\n\n```bash\n# 健康检查\nnode dist/index.js\n\n# 构建并测试\nnpm run build\nnpm start\n```\n\n## 项目结构\n\n```\ntrae-mcp-bridge/\n├── src/\n│   ├── index.ts              # MCP Server 入口\n│   ├── types/\n│   │   └── index.ts          # 类型定义\n│   └── handlers/\n│       └── trae-cli.ts       # Trae CLI 调用封装\n├── .trae/\n│   └── mcp.json ",
+    "topics": []
+  },
+  {
+    "id": "github-bandersnatch0x-design-playbook",
+    "name": "Bandersnatch0x/design-playbook",
+    "url": "https://github.com/Bandersnatch0x/design-playbook",
+    "source_type": "github",
+    "resource_type": [
+      "skills",
+      "rules",
+      "extension"
+    ],
+    "target_tools": [
+      "claude-code",
+      "codex-cli"
+    ],
+    "summary": "Design I/O plugin for Claude Code & coding agents — declarations + contracts that make UI generation constrained, reviewable, and recirculatable. Not a style pack; composes with ui-ux-pro-max + frontend-design.",
+    "i18n": {
+      "zh": {
+        "name": "Bandersnatch0x/design-playbook",
+        "summary": "Design I/O plugin for Claude Code & coding agents — declarations + contracts that make UI generation constrained, reviewable, and recirculatable. Not a style pack; composes with ui-ux-pro-max + frontend-design."
+      },
+      "en": {
+        "name": "Bandersnatch0x/design-playbook",
+        "summary": "Design I/O plugin for Claude Code & coding agents — declarations + contracts that make UI generation constrained, reviewable, and recirculatable. Not a style pack; composes with ui-ux-pro-max + frontend-design."
+      }
+    },
+    "stars": 1,
+    "forks": 0,
+    "total_score": 51,
+    "quantifiable_score": 19,
+    "quality_score": 32,
+    "tracking_priority": "track",
+    "last_updated": "2026-07-17T16:31:36Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [
+      "Python"
+    ],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "design-playbook 是一个面向 Claude Code 和编码代理的设计 I/O 插件，提供声明和契约，使 UI 生成受约束、可审查并可循环。它定义了从规格到评估的管道，包含可选的人机交互复核和 MCP 适配器，支持结构化的设计工作流。适合使用 Claude Code 并希望加强 AI 生成 UI 设计质量和一致性的开发者。",
+      "en": "design-playbook is a Design I/O plugin for Claude Code and coding agents, providing declarations and contracts that make UI generation constrained, reviewable, and recirculatable. It defines a pipeline from spec to evaluation with optional human-in-the-loop and MCP adapters, enabling structured design workflows. This is suitable for developers using Claude Code who want to enforce design quality and consistency in AI-generated UI."
+    },
+    "score_detail": {
+      "stars": 2,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 2
+    },
+    "quality_detail": {
+      "relevance": 10,
+      "practicality": 7,
+      "novelty": 8,
+      "ecosystem_value": 7
+    },
+    "benchmark_ref": "official-cursor",
+    "last_analyzed": "2026-07-18",
+    "repo": "Bandersnatch0x/design-playbook",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": [
+      "agent-skills",
+      "ai-coding",
+      "claude-code",
+      "claude-code-plugin",
+      "design-system",
+      "frontend-design",
+      "spec-driven",
+      "ui-design",
+      "ui-ux",
+      "design-io"
+    ]
+  },
+  {
+    "id": "github-diyangyu2009-portfolio-analysis-skill",
+    "name": "diyangyu2009/portfolio-analysis-skill",
+    "url": "https://github.com/diyangyu2009/portfolio-analysis-skill",
+    "source_type": "github",
+    "resource_type": [
+      "skills"
+    ],
+    "target_tools": [
+      "qoder"
+    ],
+    "summary": "Qoder skill for daily US stock portfolio analysis (实盘分析)",
+    "i18n": {
+      "zh": {
+        "name": "diyangyu2009/portfolio-analysis-skill",
+        "summary": "Qoder skill for daily US stock portfolio analysis (实盘分析)"
+      },
+      "en": {
+        "name": "diyangyu2009/portfolio-analysis-skill",
+        "summary": "Qoder skill for daily US stock portfolio analysis (实盘分析)"
+      }
+    },
+    "stars": 0,
+    "forks": 0,
+    "total_score": 29,
+    "quantifiable_score": 15,
+    "quality_score": 14,
+    "tracking_priority": "index",
+    "last_updated": "2026-07-16T20:32:52Z",
+    "first_seen": "2026-07-18",
+    "last_seen": "2026-07-18",
+    "license": null,
+    "languages": [],
+    "review_state": "auto-indexed",
+    "llm_summary": {
+      "zh": "该项目是一个为Qoder（AI编码代理）开发的技能，用于每日美国股票投资组合分析（实盘分析）。但由于仓库内容为空，缺乏实际可用的代码或文档，目前仅作为一个概念。适合需要使用Qoder进行股票分析的开发者，但需要进一步完善。",
+      "en": "This project is a skill for Qoder (AI coding agent) for daily US stock portfolio analysis. However, the repository appears empty with no code or documentation, so it currently serves only as a concept. It's intended for developers who want to use Qoder for stock analysis, but needs further development."
+    },
+    "score_detail": {
+      "stars": 0,
+      "activity": 15,
+      "adoption": 0,
+      "maturity": 0
+    },
+    "quality_detail": {
+      "relevance": 8,
+      "practicality": 1,
+      "novelty": 2,
+      "ecosystem_value": 3
+    },
+    "benchmark_ref": "github-opencoworkai-open-cowork",
+    "last_analyzed": "2026-07-18",
+    "repo": "diyangyu2009/portfolio-analysis-skill",
+    "tags": [],
+    "maturity": "unknown",
+    "status": "unknown",
+    "readme_preview": "",
+    "topics": []
+  }
+]

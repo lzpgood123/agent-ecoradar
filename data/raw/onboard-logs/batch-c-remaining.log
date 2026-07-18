@@ -1,0 +1,881 @@
+{
+  "results": [
+    {
+      "tool_id": "kiro",
+      "state": "done",
+      "steps": [
+        {
+          "step": "validate",
+          "status": "ok",
+          "detail": "Tool kiro valid"
+        },
+        {
+          "step": "derive_queries",
+          "status": "ok",
+          "detail": "Generated 2 queries for kiro"
+        },
+        {
+          "step": "collect",
+          "status": "ok",
+          "detail": "Collect done: {\"saved\": \"/root/workspace/agent-ecoradar/data/raw/github/2026-07-16\", \"queries\": 2, \"raw_results\": 4, \"details\": 4}\n"
+        },
+        {
+          "step": "normalize",
+          "status": "ok",
+          "detail": "{\"normalized_new\": 304, \"total\": 5159, \"reclassified\": 5159}\n"
+        },
+        {
+          "step": "score",
+          "status": "ok",
+          "detail": "{\"scored\": 5159, \"avg_score\": 59.5, \"max_score\": 90, \"min_score\": 10}\n"
+        },
+        {
+          "step": "finalize",
+          "status": "ok",
+          "detail": "{\"mode\": \"auto-scored\", \"projects\": 5158, \"curated\": 40, \"rejected\": 10, \"curated_github\": 40}\n"
+        },
+        {
+          "step": "reports",
+          "status": "ok",
+          "detail": "{\"reports\": 3, \"projects\": 5158, \"curated\": 40, \"tools\": 31}\n"
+        },
+        {
+          "step": "build",
+          "status": "ok",
+          "detail": "{\"site_data\": \"site/data\", \"reports\": \"site/reports\", \"projects\": 5158, \"slim_projects\": 5158, \"search_index\": 5158, \"detail_index\": 5158, \"detail_chunks\": 52, \"detail_chunk_size\": 100, \"monolithic_de"
+        }
+      ]
+    },
+    {
+      "tool_id": "zed",
+      "state": "done",
+      "steps": [
+        {
+          "step": "validate",
+          "status": "ok",
+          "detail": "Tool zed valid"
+        },
+        {
+          "step": "derive_queries",
+          "status": "ok",
+          "detail": "Generated 1 queries for zed"
+        },
+        {
+          "step": "collect",
+          "status": "ok",
+          "detail": "Collect done: {\"saved\": \"/root/workspace/agent-ecoradar/data/raw/github/2026-07-16\", \"queries\": 1, \"raw_results\": 0, \"details\": 0}\n"
+        },
+        {
+          "step": "normalize",
+          "status": "ok",
+          "detail": "{\"normalized_new\": 304, \"total\": 5159, \"reclassified\": 5159}\n"
+        },
+        {
+          "step": "score",
+          "status": "ok",
+          "detail": "{\"scored\": 5159, \"avg_score\": 59.5, \"max_score\": 90, \"min_score\": 10}\n"
+        },
+        {
+          "step": "finalize",
+          "status": "ok",
+          "detail": "{\"mode\": \"auto-scored\", \"projects\": 5158, \"curated\": 40, \"rejected\": 10, \"curated_github\": 40}\n"
+        },
+        {
+          "step": "reports",
+          "status": "ok",
+          "detail": "{\"reports\": 3, \"projects\": 5158, \"curated\": 40, \"tools\": 31}\n"
+        },
+        {
+          "step": "build",
+          "status": "ok",
+          "detail": "{\"site_data\": \"site/data\", \"reports\": \"site/reports\", \"projects\": 5158, \"slim_projects\": 5158, \"search_index\": 5158, \"detail_index\": 5158, \"detail_chunks\": 52, \"detail_chunk_size\": 100, \"monolithic_de"
+        }
+      ]
+    },
+    {
+      "tool_id": "warp",
+      "state": "done",
+      "steps": [
+        {
+          "step": "validate",
+          "status": "ok",
+          "detail": "Tool warp valid"
+        },
+        {
+          "step": "derive_queries",
+          "status": "ok",
+          "detail": "Generated 1 queries for warp"
+        },
+        {
+          "step": "collect",
+          "status": "ok",
+          "detail": "Collect done: {\"saved\": \"/root/workspace/agent-ecoradar/data/raw/github/2026-07-16\", \"queries\": 1, \"raw_results\": 0, \"details\": 0}\n"
+        },
+        {
+          "step": "normalize",
+          "status": "ok",
+          "detail": "{\"normalized_new\": 304, \"total\": 5159, \"reclassified\": 5159}\n"
+        },
+        {
+          "step": "score",
+          "status": "ok",
+          "detail": "{\"scored\": 5159, \"avg_score\": 59.5, \"max_score\": 90, \"min_score\": 10}\n"
+        },
+        {
+          "step": "finalize",
+          "status": "ok",
+          "detail": "{\"mode\": \"auto-scored\", \"projects\": 5158, \"curated\": 40, \"rejected\": 10, \"curated_github\": 40}\n"
+        },
+        {
+          "step": "reports",
+          "status": "ok",
+          "detail": "{\"reports\": 3, \"projects\": 5158, \"curated\": 40, \"tools\": 31}\n"
+        },
+        {
+          "step": "build",
+          "status": "ok",
+          "detail": "{\"site_data\": \"site/data\", \"reports\": \"site/reports\", \"projects\": 5158, \"slim_projects\": 5158, \"search_index\": 5158, \"detail_index\": 5158, \"detail_chunks\": 52, \"detail_chunk_size\": 100, \"monolithic_de"
+        }
+      ]
+    },
+    {
+      "tool_id": "aider",
+      "state": "done",
+      "steps": [
+        {
+          "step": "validate",
+          "status": "ok",
+          "detail": "Tool aider valid"
+        },
+        {
+          "step": "derive_queries",
+          "status": "ok",
+          "detail": "Generated 1 queries for aider"
+        },
+        {
+          "step": "collect",
+          "status": "ok",
+          "detail": "Collect done: {\"saved\": \"/root/workspace/agent-ecoradar/data/raw/github/2026-07-16\", \"queries\": 1, \"raw_results\": 0, \"details\": 0}\n"
+        },
+        {
+          "step": "normalize",
+          "status": "ok",
+          "detail": "{\"normalized_new\": 304, \"total\": 5159, \"reclassified\": 5159}\n"
+        },
+        {
+          "step": "score",
+          "status": "ok",
+          "detail": "{\"scored\": 5159, \"avg_score\": 59.5, \"max_score\": 90, \"min_score\": 10}\n"
+        },
+        {
+          "step": "finalize",
+          "status": "ok",
+          "detail": "{\"mode\": \"auto-scored\", \"projects\": 5158, \"curated\": 40, \"rejected\": 10, \"curated_github\": 40}\n"
+        },
+        {
+          "step": "reports",
+          "status": "ok",
+          "detail": "{\"reports\": 3, \"projects\": 5158, \"curated\": 40, \"tools\": 31}\n"
+        },
+        {
+          "step": "build",
+          "status": "ok",
+          "detail": "{\"site_data\": \"site/data\", \"reports\": \"site/reports\", \"projects\": 5158, \"slim_projects\": 5158, \"search_index\": 5158, \"detail_index\": 5158, \"detail_chunks\": 52, \"detail_chunk_size\": 100, \"monolithic_de"
+        }
+      ]
+    },
+    {
+      "tool_id": "tongyi-lingma",
+      "state": "done",
+      "steps": [
+        {
+          "step": "validate",
+          "status": "ok",
+          "detail": "Tool tongyi-lingma valid"
+        },
+        {
+          "step": "derive_queries",
+          "status": "ok",
+          "detail": "Generated 2 queries for tongyi-lingma"
+        },
+        {
+          "step": "collect",
+          "status": "ok",
+          "detail": "Collect done: {\"saved\": \"/root/workspace/agent-ecoradar/data/raw/github/2026-07-16\", \"queries\": 2, \"raw_results\": 0, \"details\": 0}\n"
+        },
+        {
+          "step": "normalize",
+          "status": "ok",
+          "detail": "{\"normalized_new\": 304, \"total\": 5159, \"reclassified\": 5159}\n"
+        },
+        {
+          "step": "score",
+          "status": "ok",
+          "detail": "{\"scored\": 5159, \"avg_score\": 59.5, \"max_score\": 90, \"min_score\": 10}\n"
+        },
+        {
+          "step": "finalize",
+          "status": "ok",
+          "detail": "{\"mode\": \"auto-scored\", \"projects\": 5158, \"curated\": 40, \"rejected\": 10, \"curated_github\": 40}\n"
+        },
+        {
+          "step": "reports",
+          "status": "ok",
+          "detail": "{\"reports\": 3, \"projects\": 5158, \"curated\": 40, \"tools\": 31}\n"
+        },
+        {
+          "step": "build",
+          "status": "ok",
+          "detail": "{\"site_data\": \"site/data\", \"reports\": \"site/reports\", \"projects\": 5158, \"slim_projects\": 5158, \"search_index\": 5158, \"detail_index\": 5158, \"detail_chunks\": 52, \"detail_chunk_size\": 100, \"monolithic_de"
+        }
+      ]
+    },
+    {
+      "tool_id": "comate",
+      "state": "done",
+      "steps": [
+        {
+          "step": "validate",
+          "status": "ok",
+          "detail": "Tool comate valid"
+        },
+        {
+          "step": "derive_queries",
+          "status": "ok",
+          "detail": "Generated 2 queries for comate"
+        },
+        {
+          "step": "collect",
+          "status": "ok",
+          "detail": "Collect done: {\"saved\": \"/root/workspace/agent-ecoradar/data/raw/github/2026-07-16\", \"queries\": 2, \"raw_results\": 0, \"details\": 0}\n"
+        },
+        {
+          "step": "normalize",
+          "status": "ok",
+          "detail": "{\"normalized_new\": 304, \"total\": 5159, \"reclassified\": 5159}\n"
+        },
+        {
+          "step": "score",
+          "status": "ok",
+          "detail": "{\"scored\": 5159, \"avg_score\": 59.5, \"max_score\": 90, \"min_score\": 10}\n"
+        },
+        {
+          "step": "finalize",
+          "status": "ok",
+          "detail": "{\"mode\": \"auto-scored\", \"projects\": 5158, \"curated\": 40, \"rejected\": 10, \"curated_github\": 40}\n"
+        },
+        {
+          "step": "reports",
+          "status": "ok",
+          "detail": "{\"reports\": 3, \"projects\": 5158, \"curated\": 40, \"tools\": 31}\n"
+        },
+        {
+          "step": "build",
+          "status": "ok",
+          "detail": "{\"site_data\": \"site/data\", \"reports\": \"site/reports\", \"projects\": 5158, \"slim_projects\": 5158, \"search_index\": 5158, \"detail_index\": 5158, \"detail_chunks\": 52, \"detail_chunk_size\": 100, \"monolithic_de"
+        }
+      ]
+    },
+    {
+      "tool_id": "codegeex",
+      "state": "done",
+      "steps": [
+        {
+          "step": "validate",
+          "status": "ok",
+          "detail": "Tool codegeex valid"
+        },
+        {
+          "step": "derive_queries",
+          "status": "ok",
+          "detail": "Generated 1 queries for codegeex"
+        },
+        {
+          "step": "collect",
+          "status": "ok",
+          "detail": "Collect done: {\"saved\": \"/root/workspace/agent-ecoradar/data/raw/github/2026-07-16\", \"queries\": 1, \"raw_results\": 0, \"details\": 0}\n"
+        },
+        {
+          "step": "normalize",
+          "status": "ok",
+          "detail": "{\"normalized_new\": 304, \"total\": 5159, \"reclassified\": 5159}\n"
+        },
+        {
+          "step": "score",
+          "status": "ok",
+          "detail": "{\"scored\": 5159, \"avg_score\": 59.5, \"max_score\": 90, \"min_score\": 10}\n"
+        },
+        {
+          "step": "finalize",
+          "status": "ok",
+          "detail": "{\"mode\": \"auto-scored\", \"projects\": 5158, \"curated\": 40, \"rejected\": 10, \"curated_github\": 40}\n"
+        },
+        {
+          "step": "reports",
+          "status": "ok",
+          "detail": "{\"reports\": 3, \"projects\": 5158, \"curated\": 40, \"tools\": 31}\n"
+        },
+        {
+          "step": "build",
+          "status": "ok",
+          "detail": "{\"site_data\": \"site/data\", \"reports\": \"site/reports\", \"projects\": 5158, \"slim_projects\": 5158, \"search_index\": 5158, \"detail_index\": 5158, \"detail_chunks\": 52, \"detail_chunk_size\": 100, \"monolithic_de"
+        }
+      ]
+    },
+    {
+      "tool_id": "cline",
+      "state": "done",
+      "steps": [
+        {
+          "step": "validate",
+          "status": "ok",
+          "detail": "Tool cline valid"
+        },
+        {
+          "step": "derive_queries",
+          "status": "ok",
+          "detail": "Generated 1 queries for cline"
+        },
+        {
+          "step": "collect",
+          "status": "ok",
+          "detail": "Collect done: {\"saved\": \"/root/workspace/agent-ecoradar/data/raw/github/2026-07-16\", \"queries\": 1, \"raw_results\": 1, \"details\": 1}\n"
+        },
+        {
+          "step": "normalize",
+          "status": "ok",
+          "detail": "{\"normalized_new\": 305, \"total\": 5160, \"reclassified\": 5160}\n"
+        },
+        {
+          "step": "score",
+          "status": "ok",
+          "detail": "{\"scored\": 5160, \"avg_score\": 59.5, \"max_score\": 90, \"min_score\": 10}\n"
+        },
+        {
+          "step": "finalize",
+          "status": "ok",
+          "detail": "{\"mode\": \"auto-scored\", \"projects\": 5159, \"curated\": 40, \"rejected\": 10, \"curated_github\": 40}\n"
+        },
+        {
+          "step": "reports",
+          "status": "ok",
+          "detail": "{\"reports\": 3, \"projects\": 5159, \"curated\": 40, \"tools\": 31}\n"
+        },
+        {
+          "step": "build",
+          "status": "ok",
+          "detail": "{\"site_data\": \"site/data\", \"reports\": \"site/reports\", \"projects\": 5159, \"slim_projects\": 5159, \"search_index\": 5159, \"detail_index\": 5159, \"detail_chunks\": 52, \"detail_chunk_size\": 100, \"monolithic_de"
+        }
+      ]
+    },
+    {
+      "tool_id": "kilo-code",
+      "state": "done",
+      "steps": [
+        {
+          "step": "validate",
+          "status": "ok",
+          "detail": "Tool kilo-code valid"
+        },
+        {
+          "step": "derive_queries",
+          "status": "ok",
+          "detail": "Generated 1 queries for kilo-code"
+        },
+        {
+          "step": "collect",
+          "status": "ok",
+          "detail": "Collect done: {\"saved\": \"/root/workspace/agent-ecoradar/data/raw/github/2026-07-16\", \"queries\": 1, \"raw_results\": 0, \"details\": 0}\n"
+        },
+        {
+          "step": "normalize",
+          "status": "ok",
+          "detail": "{\"normalized_new\": 305, \"total\": 5160, \"reclassified\": 5160}\n"
+        },
+        {
+          "step": "score",
+          "status": "ok",
+          "detail": "{\"scored\": 5160, \"avg_score\": 59.5, \"max_score\": 90, \"min_score\": 10}\n"
+        },
+        {
+          "step": "finalize",
+          "status": "ok",
+          "detail": "{\"mode\": \"auto-scored\", \"projects\": 5159, \"curated\": 40, \"rejected\": 10, \"curated_github\": 40}\n"
+        },
+        {
+          "step": "reports",
+          "status": "ok",
+          "detail": "{\"reports\": 3, \"projects\": 5159, \"curated\": 40, \"tools\": 31}\n"
+        },
+        {
+          "step": "build",
+          "status": "ok",
+          "detail": "{\"site_data\": \"site/data\", \"reports\": \"site/reports\", \"projects\": 5159, \"slim_projects\": 5159, \"search_index\": 5159, \"detail_index\": 5159, \"detail_chunks\": 52, \"detail_chunk_size\": 100, \"monolithic_de"
+        }
+      ]
+    },
+    {
+      "tool_id": "junie",
+      "state": "done",
+      "steps": [
+        {
+          "step": "validate",
+          "status": "ok",
+          "detail": "Tool junie valid"
+        },
+        {
+          "step": "derive_queries",
+          "status": "ok",
+          "detail": "Generated 2 queries for junie"
+        },
+        {
+          "step": "collect",
+          "status": "ok",
+          "detail": "Collect done: {\"saved\": \"/root/workspace/agent-ecoradar/data/raw/github/2026-07-16\", \"queries\": 2, \"raw_results\": 1, \"details\": 1}\n"
+        },
+        {
+          "step": "normalize",
+          "status": "ok",
+          "detail": "{\"normalized_new\": 306, \"total\": 5161, \"reclassified\": 5161}\n"
+        },
+        {
+          "step": "score",
+          "status": "ok",
+          "detail": "{\"scored\": 5161, \"avg_score\": 59.5, \"max_score\": 90, \"min_score\": 10}\n"
+        },
+        {
+          "step": "finalize",
+          "status": "ok",
+          "detail": "{\"mode\": \"auto-scored\", \"projects\": 5160, \"curated\": 40, \"rejected\": 10, \"curated_github\": 40}\n"
+        },
+        {
+          "step": "reports",
+          "status": "ok",
+          "detail": "{\"reports\": 3, \"projects\": 5160, \"curated\": 40, \"tools\": 31}\n"
+        },
+        {
+          "step": "build",
+          "status": "ok",
+          "detail": "{\"site_data\": \"site/data\", \"reports\": \"site/reports\", \"projects\": 5160, \"slim_projects\": 5160, \"search_index\": 5160, \"detail_index\": 5160, \"detail_chunks\": 52, \"detail_chunk_size\": 100, \"monolithic_de"
+        }
+      ]
+    },
+    {
+      "tool_id": "continue",
+      "state": "done",
+      "steps": [
+        {
+          "step": "validate",
+          "status": "ok",
+          "detail": "Tool continue valid"
+        },
+        {
+          "step": "derive_queries",
+          "status": "ok",
+          "detail": "Generated 1 queries for continue"
+        },
+        {
+          "step": "collect",
+          "status": "ok",
+          "detail": "Collect done: {\"saved\": \"/root/workspace/agent-ecoradar/data/raw/github/2026-07-16\", \"queries\": 1, \"raw_results\": 1, \"details\": 1}\n"
+        },
+        {
+          "step": "normalize",
+          "status": "ok",
+          "detail": "{\"normalized_new\": 307, \"total\": 5162, \"reclassified\": 5162}\n"
+        },
+        {
+          "step": "score",
+          "status": "ok",
+          "detail": "{\"scored\": 5162, \"avg_score\": 59.5, \"max_score\": 90, \"min_score\": 10}\n"
+        },
+        {
+          "step": "finalize",
+          "status": "ok",
+          "detail": "{\"mode\": \"auto-scored\", \"projects\": 5161, \"curated\": 40, \"rejected\": 10, \"curated_github\": 40}\n"
+        },
+        {
+          "step": "reports",
+          "status": "ok",
+          "detail": "{\"reports\": 3, \"projects\": 5161, \"curated\": 40, \"tools\": 31}\n"
+        },
+        {
+          "step": "build",
+          "status": "ok",
+          "detail": "{\"site_data\": \"site/data\", \"reports\": \"site/reports\", \"projects\": 5161, \"slim_projects\": 5161, \"search_index\": 5161, \"detail_index\": 5161, \"detail_chunks\": 52, \"detail_chunk_size\": 100, \"monolithic_de"
+        }
+      ]
+    },
+    {
+      "tool_id": "augment-code",
+      "state": "done",
+      "steps": [
+        {
+          "step": "validate",
+          "status": "ok",
+          "detail": "Tool augment-code valid"
+        },
+        {
+          "step": "derive_queries",
+          "status": "ok",
+          "detail": "Generated 2 queries for augment-code"
+        },
+        {
+          "step": "collect",
+          "status": "ok",
+          "detail": "Collect done: {\"saved\": \"/root/workspace/agent-ecoradar/data/raw/github/2026-07-16\", \"queries\": 2, \"raw_results\": 0, \"details\": 0}\n"
+        },
+        {
+          "step": "normalize",
+          "status": "ok",
+          "detail": "{\"normalized_new\": 307, \"total\": 5162, \"reclassified\": 5162}\n"
+        },
+        {
+          "step": "score",
+          "status": "ok",
+          "detail": "{\"scored\": 5162, \"avg_score\": 59.5, \"max_score\": 90, \"min_score\": 10}\n"
+        },
+        {
+          "step": "finalize",
+          "status": "ok",
+          "detail": "{\"mode\": \"auto-scored\", \"projects\": 5161, \"curated\": 40, \"rejected\": 10, \"curated_github\": 40}\n"
+        },
+        {
+          "step": "reports",
+          "status": "ok",
+          "detail": "{\"reports\": 3, \"projects\": 5161, \"curated\": 40, \"tools\": 31}\n"
+        },
+        {
+          "step": "build",
+          "status": "ok",
+          "detail": "{\"site_data\": \"site/data\", \"reports\": \"site/reports\", \"projects\": 5161, \"slim_projects\": 5161, \"search_index\": 5161, \"detail_index\": 5161, \"detail_chunks\": 52, \"detail_chunk_size\": 100, \"monolithic_de"
+        }
+      ]
+    },
+    {
+      "tool_id": "tabnine",
+      "state": "done",
+      "steps": [
+        {
+          "step": "validate",
+          "status": "ok",
+          "detail": "Tool tabnine valid"
+        },
+        {
+          "step": "derive_queries",
+          "status": "ok",
+          "detail": "Generated 2 queries for tabnine"
+        },
+        {
+          "step": "collect",
+          "status": "ok",
+          "detail": "Collect done: {\"saved\": \"/root/workspace/agent-ecoradar/data/raw/github/2026-07-16\", \"queries\": 2, \"raw_results\": 0, \"details\": 0}\n"
+        },
+        {
+          "step": "normalize",
+          "status": "ok",
+          "detail": "{\"normalized_new\": 307, \"total\": 5162, \"reclassified\": 5162}\n"
+        },
+        {
+          "step": "score",
+          "status": "ok",
+          "detail": "{\"scored\": 5162, \"avg_score\": 59.5, \"max_score\": 90, \"min_score\": 10}\n"
+        },
+        {
+          "step": "finalize",
+          "status": "ok",
+          "detail": "{\"mode\": \"auto-scored\", \"projects\": 5161, \"curated\": 40, \"rejected\": 10, \"curated_github\": 40}\n"
+        },
+        {
+          "step": "reports",
+          "status": "ok",
+          "detail": "{\"reports\": 3, \"projects\": 5161, \"curated\": 40, \"tools\": 31}\n"
+        },
+        {
+          "step": "build",
+          "status": "ok",
+          "detail": "{\"site_data\": \"site/data\", \"reports\": \"site/reports\", \"projects\": 5161, \"slim_projects\": 5161, \"search_index\": 5161, \"detail_index\": 5161, \"detail_chunks\": 52, \"detail_chunk_size\": 100, \"monolithic_de"
+        }
+      ]
+    },
+    {
+      "tool_id": "manus",
+      "state": "done",
+      "steps": [
+        {
+          "step": "validate",
+          "status": "ok",
+          "detail": "Tool manus valid"
+        },
+        {
+          "step": "derive_queries",
+          "status": "ok",
+          "detail": "Generated 2 queries for manus"
+        },
+        {
+          "step": "collect",
+          "status": "ok",
+          "detail": "Collect done: {\"saved\": \"/root/workspace/agent-ecoradar/data/raw/github/2026-07-16\", \"queries\": 2, \"raw_results\": 0, \"details\": 0}\n"
+        },
+        {
+          "step": "normalize",
+          "status": "ok",
+          "detail": "{\"normalized_new\": 307, \"total\": 5162, \"reclassified\": 5162}\n"
+        },
+        {
+          "step": "score",
+          "status": "ok",
+          "detail": "{\"scored\": 5162, \"avg_score\": 59.5, \"max_score\": 90, \"min_score\": 10}\n"
+        },
+        {
+          "step": "finalize",
+          "status": "ok",
+          "detail": "{\"mode\": \"auto-scored\", \"projects\": 5161, \"curated\": 40, \"rejected\": 10, \"curated_github\": 40}\n"
+        },
+        {
+          "step": "reports",
+          "status": "ok",
+          "detail": "{\"reports\": 3, \"projects\": 5161, \"curated\": 40, \"tools\": 31}\n"
+        },
+        {
+          "step": "build",
+          "status": "ok",
+          "detail": "{\"site_data\": \"site/data\", \"reports\": \"site/reports\", \"projects\": 5161, \"slim_projects\": 5161, \"search_index\": 5161, \"detail_index\": 5161, \"detail_chunks\": 52, \"detail_chunk_size\": 100, \"monolithic_de"
+        }
+      ]
+    },
+    {
+      "tool_id": "v0-dev",
+      "state": "done",
+      "steps": [
+        {
+          "step": "validate",
+          "status": "ok",
+          "detail": "Tool v0-dev valid"
+        },
+        {
+          "step": "derive_queries",
+          "status": "ok",
+          "detail": "Generated 2 queries for v0-dev"
+        },
+        {
+          "step": "collect",
+          "status": "ok",
+          "detail": "Collect done: {\"saved\": \"/root/workspace/agent-ecoradar/data/raw/github/2026-07-16\", \"queries\": 2, \"raw_results\": 0, \"details\": 0}\n"
+        },
+        {
+          "step": "normalize",
+          "status": "ok",
+          "detail": "{\"normalized_new\": 307, \"total\": 5162, \"reclassified\": 5162}\n"
+        },
+        {
+          "step": "score",
+          "status": "ok",
+          "detail": "{\"scored\": 5162, \"avg_score\": 59.5, \"max_score\": 90, \"min_score\": 10}\n"
+        },
+        {
+          "step": "finalize",
+          "status": "ok",
+          "detail": "{\"mode\": \"auto-scored\", \"projects\": 5161, \"curated\": 40, \"rejected\": 10, \"curated_github\": 40}\n"
+        },
+        {
+          "step": "reports",
+          "status": "ok",
+          "detail": "{\"reports\": 3, \"projects\": 5161, \"curated\": 40, \"tools\": 31}\n"
+        },
+        {
+          "step": "build",
+          "status": "ok",
+          "detail": "{\"site_data\": \"site/data\", \"reports\": \"site/reports\", \"projects\": 5161, \"slim_projects\": 5161, \"search_index\": 5161, \"detail_index\": 5161, \"detail_chunks\": 52, \"detail_chunk_size\": 100, \"monolithic_de"
+        }
+      ]
+    },
+    {
+      "tool_id": "lovable",
+      "state": "done",
+      "steps": [
+        {
+          "step": "validate",
+          "status": "ok",
+          "detail": "Tool lovable valid"
+        },
+        {
+          "step": "derive_queries",
+          "status": "ok",
+          "detail": "Generated 2 queries for lovable"
+        },
+        {
+          "step": "collect",
+          "status": "ok",
+          "detail": "Collect done: {\"saved\": \"/root/workspace/agent-ecoradar/data/raw/github/2026-07-17\", \"queries\": 2, \"raw_results\": 0, \"details\": 0}\n"
+        },
+        {
+          "step": "normalize",
+          "status": "ok",
+          "detail": "{\"normalized_new\": 307, \"total\": 5162, \"reclassified\": 5162}\n"
+        },
+        {
+          "step": "score",
+          "status": "ok",
+          "detail": "{\"scored\": 5162, \"avg_score\": 59.5, \"max_score\": 90, \"min_score\": 10}\n"
+        },
+        {
+          "step": "finalize",
+          "status": "ok",
+          "detail": "{\"mode\": \"auto-scored\", \"projects\": 5161, \"curated\": 40, \"rejected\": 10, \"curated_github\": 40}\n"
+        },
+        {
+          "step": "reports",
+          "status": "ok",
+          "detail": "{\"reports\": 3, \"projects\": 5161, \"curated\": 40, \"tools\": 31}\n"
+        },
+        {
+          "step": "build",
+          "status": "ok",
+          "detail": "{\"site_data\": \"site/data\", \"reports\": \"site/reports\", \"projects\": 5161, \"slim_projects\": 5161, \"search_index\": 5161, \"detail_index\": 5161, \"detail_chunks\": 52, \"detail_chunk_size\": 100, \"monolithic_de"
+        }
+      ]
+    },
+    {
+      "tool_id": "replit",
+      "state": "done",
+      "steps": [
+        {
+          "step": "validate",
+          "status": "ok",
+          "detail": "Tool replit valid"
+        },
+        {
+          "step": "derive_queries",
+          "status": "ok",
+          "detail": "Generated 2 queries for replit"
+        },
+        {
+          "step": "collect",
+          "status": "ok",
+          "detail": "Collect done: {\"saved\": \"/root/workspace/agent-ecoradar/data/raw/github/2026-07-17\", \"queries\": 2, \"raw_results\": 1, \"details\": 1}\n"
+        },
+        {
+          "step": "normalize",
+          "status": "ok",
+          "detail": "{\"normalized_new\": 308, \"total\": 5163, \"reclassified\": 5163}\n"
+        },
+        {
+          "step": "score",
+          "status": "ok",
+          "detail": "{\"scored\": 5163, \"avg_score\": 59.5, \"max_score\": 90, \"min_score\": 10}\n"
+        },
+        {
+          "step": "finalize",
+          "status": "ok",
+          "detail": "{\"mode\": \"auto-scored\", \"projects\": 5162, \"curated\": 40, \"rejected\": 10, \"curated_github\": 40}\n"
+        },
+        {
+          "step": "reports",
+          "status": "ok",
+          "detail": "{\"reports\": 3, \"projects\": 5162, \"curated\": 40, \"tools\": 31}\n"
+        },
+        {
+          "step": "build",
+          "status": "ok",
+          "detail": "{\"site_data\": \"site/data\", \"reports\": \"site/reports\", \"projects\": 5162, \"slim_projects\": 5162, \"search_index\": 5162, \"detail_index\": 5162, \"detail_chunks\": 52, \"detail_chunk_size\": 100, \"monolithic_de"
+        }
+      ]
+    },
+    {
+      "tool_id": "bolt-new",
+      "state": "done",
+      "steps": [
+        {
+          "step": "validate",
+          "status": "ok",
+          "detail": "Tool bolt-new valid"
+        },
+        {
+          "step": "derive_queries",
+          "status": "ok",
+          "detail": "Generated 1 queries for bolt-new"
+        },
+        {
+          "step": "collect",
+          "status": "ok",
+          "detail": "Collect done: {\"saved\": \"/root/workspace/agent-ecoradar/data/raw/github/2026-07-17\", \"queries\": 1, \"raw_results\": 0, \"details\": 0}\n"
+        },
+        {
+          "step": "normalize",
+          "status": "ok",
+          "detail": "{\"normalized_new\": 308, \"total\": 5163, \"reclassified\": 5163}\n"
+        },
+        {
+          "step": "score",
+          "status": "ok",
+          "detail": "{\"scored\": 5163, \"avg_score\": 59.5, \"max_score\": 90, \"min_score\": 10}\n"
+        },
+        {
+          "step": "finalize",
+          "status": "ok",
+          "detail": "{\"mode\": \"auto-scored\", \"projects\": 5162, \"curated\": 40, \"rejected\": 10, \"curated_github\": 40}\n"
+        },
+        {
+          "step": "reports",
+          "status": "ok",
+          "detail": "{\"reports\": 3, \"projects\": 5162, \"curated\": 40, \"tools\": 31}\n"
+        },
+        {
+          "step": "build",
+          "status": "ok",
+          "detail": "{\"site_data\": \"site/data\", \"reports\": \"site/reports\", \"projects\": 5162, \"slim_projects\": 5162, \"search_index\": 5162, \"detail_index\": 5162, \"detail_chunks\": 52, \"detail_chunk_size\": 100, \"monolithic_de"
+        }
+      ]
+    },
+    {
+      "tool_id": "openclaw",
+      "state": "done",
+      "steps": [
+        {
+          "step": "validate",
+          "status": "ok",
+          "detail": "Tool openclaw valid"
+        },
+        {
+          "step": "derive_queries",
+          "status": "ok",
+          "detail": "Generated 2 queries for openclaw"
+        },
+        {
+          "step": "collect",
+          "status": "ok",
+          "detail": "Collect done: {\"saved\": \"/root/workspace/agent-ecoradar/data/raw/github/2026-07-17\", \"queries\": 2, \"raw_results\": 15, \"details\": 15}\n"
+        },
+        {
+          "step": "normalize",
+          "status": "ok",
+          "detail": "{\"normalized_new\": 322, \"total\": 5176, \"reclassified\": 5176}\n"
+        },
+        {
+          "step": "score",
+          "status": "ok",
+          "detail": "{\"scored\": 5176, \"avg_score\": 59.4, \"max_score\": 90, \"min_score\": 10}\n"
+        },
+        {
+          "step": "finalize",
+          "status": "ok",
+          "detail": "{\"mode\": \"auto-scored\", \"projects\": 5175, \"curated\": 40, \"rejected\": 10, \"curated_github\": 40}\n"
+        },
+        {
+          "step": "reports",
+          "status": "ok",
+          "detail": "{\"reports\": 3, \"projects\": 5175, \"curated\": 40, \"tools\": 31}\n"
+        },
+        {
+          "step": "build",
+          "status": "ok",
+          "detail": "{\"site_data\": \"site/data\", \"reports\": \"site/reports\", \"projects\": 5175, \"slim_projects\": 5175, \"search_index\": 5175, \"detail_index\": 5175, \"detail_chunks\": 52, \"detail_chunk_size\": 100, \"monolithic_de"
+        }
+      ]
+    }
+  ],
+  "total": 19,
+  "done": 19,
+  "failed": 0
+}

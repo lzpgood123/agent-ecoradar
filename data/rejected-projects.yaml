@@ -20,12 +20,13 @@
   stars: 0
   forks: 0
   last_updated: '2025-04-08T19:36:41Z'
-  first_seen: '2026-07-17'
-  last_seen: '2026-07-17'
+  first_seen: '2026-07-18'
+  last_seen: '2026-07-18'
   maturity: unknown
   languages: []
   topics: []
   readme_preview: ''
+  has_readme_full: false
   tags: []
   review_state: auto-rejected
   quantifiable_score: 4
@@ -62,12 +63,13 @@
   stars: 0
   forks: 0
   last_updated: '2025-06-18T17:54:32Z'
-  first_seen: '2026-07-17'
-  last_seen: '2026-07-17'
+  first_seen: '2026-07-18'
+  last_seen: '2026-07-18'
   maturity: unknown
   languages: []
   topics: []
   readme_preview: ''
+  has_readme_full: false
   tags: []
   review_state: auto-rejected
   quantifiable_score: 4
@@ -104,12 +106,13 @@
   stars: 0
   forks: 0
   last_updated: '2025-07-02T01:11:07Z'
-  first_seen: '2026-07-17'
-  last_seen: '2026-07-17'
+  first_seen: '2026-07-18'
+  last_seen: '2026-07-18'
   maturity: unknown
   languages: []
   topics: []
   readme_preview: ''
+  has_readme_full: false
   tags: []
   review_state: auto-rejected
   quantifiable_score: 4
@@ -131,8 +134,7 @@
   source_type: github
   resource_type:
   - mcp-server
-  target_tools:
-  - trae
+  target_tools: []
   summary: 'test trae mcp '
   i18n:
     zh:
@@ -146,12 +148,13 @@
   stars: 0
   forks: 0
   last_updated: '2025-06-09T03:17:08Z'
-  first_seen: '2026-07-17'
-  last_seen: '2026-07-17'
+  first_seen: '2026-07-18'
+  last_seen: '2026-07-18'
   maturity: unknown
   languages: []
   topics: []
   readme_preview: "# trae_mcp\ntest trae mcp \n"
+  has_readme_full: true
   tags: []
   review_state: auto-rejected
   quantifiable_score: 4
@@ -173,8 +176,7 @@
   source_type: github
   resource_type:
   - mcp-server
-  target_tools:
-  - trae
+  target_tools: []
   summary: Repository for Trae AI MCP project
   i18n:
     zh:
@@ -188,12 +190,13 @@
   stars: 0
   forks: 0
   last_updated: '2025-07-03T07:03:04Z'
-  first_seen: '2026-07-17'
-  last_seen: '2026-07-17'
+  first_seen: '2026-07-18'
+  last_seen: '2026-07-18'
   maturity: unknown
   languages: []
   topics: []
   readme_preview: ''
+  has_readme_full: false
   tags: []
   review_state: auto-rejected
   quantifiable_score: 4
@@ -215,8 +218,7 @@
   source_type: github
   resource_type:
   - mcp-server
-  target_tools:
-  - trae
+  target_tools: []
   summary: hugoguo1987/Trae_MCP
   i18n:
     zh:
@@ -230,14 +232,15 @@
   stars: 0
   forks: 0
   last_updated: '2025-04-29T14:18:16Z'
-  first_seen: '2026-07-17'
-  last_seen: '2026-07-17'
+  first_seen: '2026-07-18'
+  last_seen: '2026-07-18'
   maturity: unknown
   languages: []
   topics: []
   readme_preview: '# Trae_MCP
 
     '
+  has_readme_full: true
   tags: []
   review_state: auto-rejected
   quantifiable_score: 4
@@ -274,12 +277,13 @@
   stars: 0
   forks: 0
   last_updated: '2025-05-24T04:27:04Z'
-  first_seen: '2026-07-17'
-  last_seen: '2026-07-17'
+  first_seen: '2026-07-18'
+  last_seen: '2026-07-18'
   maturity: unknown
   languages: []
   topics: []
   readme_preview: ''
+  has_readme_full: false
   tags: []
   review_state: auto-rejected
   quantifiable_score: 6
@@ -301,8 +305,7 @@
   source_type: github
   resource_type:
   - tutorial
-  target_tools:
-  - trae
+  target_tools: []
   summary: 一个用于展示性别分布饼图的项目
   i18n:
     zh:
@@ -316,8 +319,8 @@
   stars: 0
   forks: 0
   last_updated: '2025-05-14T11:50:21Z'
-  first_seen: '2026-07-17'
-  last_seen: '2026-07-17'
+  first_seen: '2026-07-18'
+  last_seen: '2026-07-18'
   maturity: unknown
   languages:
   - HTML
@@ -326,6 +329,7 @@
 
 
     一个用于展示性别分布饼图的项目'
+  has_readme_full: true
   tags: []
   review_state: auto-rejected
   quantifiable_score: 6
@@ -347,8 +351,7 @@
   source_type: github
   resource_type:
   - mcp-server
-  target_tools:
-  - trae
+  target_tools: []
   summary: danielraffel/trae_mcp_servers
   i18n:
     zh:
@@ -362,8 +365,8 @@
   stars: 0
   forks: 0
   last_updated: '2025-05-21T19:54:26Z'
-  first_seen: '2026-07-17'
-  last_seen: '2026-07-17'
+  first_seen: '2026-07-18'
+  last_seen: '2026-07-18'
   maturity: unknown
   languages:
   - Shell
@@ -372,6 +375,7 @@
     \ job with their MCP integration, so I wanted to take a look at how they implemented\
     \ it. I sniffed their protocols and downloaded everything using a simple script.\
     \ \n"
+  has_readme_full: true
   tags: []
   review_state: auto-rejected
   quantifiable_score: 6
@@ -386,34 +390,36 @@
   last_analyzed: null
   benchmark_ref: null
   rejection_reason: 'Auto-rejected: low score (6), archived, or weak relevance.'
-- id: github-wwqicode-blkchain-goose-market-analysis
-  name: wwqicode-blkchain/goose-market-analysis
-  url: https://github.com/wwqicode-blkchain/goose-market-analysis
-  repo: wwqicode-blkchain/goose-market-analysis
+- id: github-unkloud-junie-guidelines
+  name: unkloud/junie-guidelines
+  url: https://github.com/unkloud/junie-guidelines
+  repo: unkloud/junie-guidelines
   source_type: github
   resource_type:
-  - tutorial
+  - extension
+  - agent-framework
   target_tools:
-  - goose
-  summary: Goose recipes for market analysis
+  - junie
+  summary: My guideline for jetbrains junie coding agent
   i18n:
     zh:
-      name: wwqicode-blkchain/goose-market-analysis
-      summary: Goose recipes for market analysis
+      name: unkloud/junie-guidelines
+      summary: My guideline for jetbrains junie coding agent
     en:
-      name: wwqicode-blkchain/goose-market-analysis
-      summary: Goose recipes for market analysis
+      name: unkloud/junie-guidelines
+      summary: My guideline for jetbrains junie coding agent
   status: unknown
   license: null
   stars: 0
-  forks: 0
-  last_updated: '2026-01-05T03:55:14Z'
-  first_seen: '2026-07-17'
-  last_seen: '2026-07-17'
+  forks: null
+  last_updated: '2025-12-06T07:53:44Z'
+  first_seen: '2026-07-18'
+  last_seen: '2026-07-18'
   maturity: unknown
   languages: []
   topics: []
   readme_preview: ''
+  has_readme_full: false
   tags: []
   review_state: auto-rejected
   quantifiable_score: 8

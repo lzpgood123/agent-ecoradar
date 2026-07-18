@@ -10607,4 +10607,110 @@
   tracking_priority: pending
   last_analyzed: null
   benchmark_ref: github-opencoworkai-open-cowork
+- id: github-arlo-ruiz-ccca
+  name: arlo-ruiz/CCCA
+  url: https://github.com/arlo-ruiz/CCCA
+  repo: arlo-ruiz/CCCA
+  source_type: github
+  resource_type:
+  - tutorial
+  target_tools:
+  - claude-code
+  summary: 'AI Coder: Complete Claude Code & Coding Agent Course'
+  i18n:
+    zh:
+      name: arlo-ruiz/CCCA
+      summary: 'AI Coder: Complete Claude Code & Coding Agent Course'
+    en:
+      name: arlo-ruiz/CCCA
+      summary: 'AI Coder: Complete Claude Code & Coding Agent Course'
+  status: unknown
+  license: null
+  stars: 0
+  forks: 0
+  last_updated: '2026-07-17T05:13:59Z'
+  first_seen: '2026-07-18'
+  last_seen: '2026-07-18'
+  maturity: unknown
+  languages: []
+  topics: []
+  readme_preview: ''
+  has_readme_full: false
+  tags: []
+  review_state: auto-indexed
+  quantifiable_score: 15
+  quality_score: 5
+  total_score: 20
+  score_detail:
+    stars: 0
+    activity: 15
+    adoption: 0
+    maturity: 0
+  tracking_priority: reject
+  last_analyzed: '2026-07-18'
+  benchmark_ref: github-opencoworkai-open-cowork
+  quality_detail:
+    relevance: 5
+    practicality: 0
+    novelty: 0
+    ecosystem_value: 0
+  llm_summary:
+    zh: 'CCCA 是一个名为 ''AI Coder: Complete Claude Code & Coding Agent Course'' 的 GitHub
+      仓库，看似一个关于 Claude Code 和 AI 编码代理的课程项目。然而，该仓库目前只有标题和一行描述，没有任何实际内容、代码或文档。目前不适合任何人使用，仅是一个占位或空壳项目。'
+    en: 'CCCA is a GitHub repository named ''AI Coder: Complete Claude Code & Coding
+      Agent Course'', intended as a course on Claude Code and AI coding agents. However,
+      the repo currently contains only a title and a one-line description, with no
+      actual content, code, or documentation. It is not suitable for anyone at this
+      point, serving only as a placeholder or empty shell.'
+- id: github-dwidge-opencode-commands
+  name: dwidge/opencode-commands
+  url: https://github.com/dwidge/opencode-commands
+  repo: dwidge/opencode-commands
+  source_type: github
+  resource_type:
+  - tutorial
+  target_tools: []
+  summary: dwidge/opencode-commands
+  i18n:
+    zh:
+      name: dwidge/opencode-commands
+      summary: dwidge/opencode-commands
+    en:
+      name: dwidge/opencode-commands
+      summary: dwidge/opencode-commands
+  status: unknown
+  license: null
+  stars: 0
+  forks: 0
+  last_updated: '2026-02-21T18:17:02Z'
+  first_seen: '2026-07-18'
+  last_seen: '2026-07-18'
+  maturity: unknown
+  languages: []
+  topics: []
+  readme_preview: ''
+  has_readme_full: false
+  tags: []
+  review_state: auto-indexed
+  quantifiable_score: 12
+  quality_score: 0
+  total_score: 12
+  score_detail:
+    stars: 0
+    activity: 12
+    adoption: 0
+    maturity: 0
+  tracking_priority: reject
+  last_analyzed: '2026-07-18'
+  benchmark_ref: github-qdhenry-claude-code-mcp-manager
+  quality_detail:
+    relevance: 0
+    practicality: 0
+    novelty: 0
+    ecosystem_value: 0
+  llm_summary:
+    zh: 该项目名为 opencode-commands，但仓库为空，无任何代码或文档。无法判断其具体功能或用途。目前不适合任何开发者使用。
+    en: This project named opencode-commands appears to be an empty repository with
+      no code or documentation. Its purpose and functionality cannot be determined.
+      It is not suitable for any developer at this time.
 

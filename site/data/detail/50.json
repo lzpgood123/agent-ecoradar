@@ -3837,7 +3837,7 @@
     "languages": [
       "TypeScript"
     ],
-    "review_state": "auto-curated",
+    "review_state": "auto-indexed",
     "llm_summary": {
       "zh": "为AI编码工具提供统一配置管理，从单一YAML生成各工具专用指令。",
       "en": "A unified configuration manager for AI coding tools that generates per-tool instructions from a single YAML file."
@@ -6141,7 +6141,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-04T23:17:35Z",
     "first_seen": "2026-07-16",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "Shell"
@@ -6205,7 +6205,7 @@
     "tracking_priority": "index",
     "last_updated": "2026-07-13T00:41:23Z",
     "first_seen": "2026-07-16",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "other",
     "languages": [],
     "review_state": "auto-indexed",
@@ -6246,11 +6246,9 @@
     "url": "https://github.com/figma/figma-gemini-cli-extension",
     "source_type": "github",
     "resource_type": [
-      "cli-tool"
+      "extension"
     ],
-    "target_tools": [
-      "antigravity-cli"
-    ],
+    "target_tools": [],
     "summary": "figma/figma-gemini-cli-extension",
     "i18n": {
       "zh": {
@@ -6270,7 +6268,7 @@
     "tracking_priority": "index",
     "last_updated": "2026-05-29T23:26:32Z",
     "first_seen": "2026-07-16",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "apache-2.0",
     "languages": [],
     "review_state": "auto-indexed",
@@ -6330,7 +6328,7 @@
     "tracking_priority": "index",
     "last_updated": "2026-05-24T09:31:21Z",
     "first_seen": "2026-07-16",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "Python"
@@ -6367,7 +6365,8 @@
     "url": "https://github.com/microsoft/Learn-Microsoft-Agent-Framework-with-Foundry-ZavaShop-Supply-Chain-Workshop",
     "source_type": "github",
     "resource_type": [
-      "tutorial"
+      "agent-framework",
+      "cli-tool"
     ],
     "target_tools": [
       "github-copilot"
@@ -6391,7 +6390,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-13T09:47:08Z",
     "first_seen": "2026-07-16",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "Python"
@@ -6428,7 +6427,9 @@
     "url": "https://github.com/doggy8088/cca-mcp-configurator",
     "source_type": "github",
     "resource_type": [
-      "tutorial"
+      "mcp-server",
+      "agent-framework",
+      "cli-tool"
     ],
     "target_tools": [
       "github-copilot"
@@ -6452,7 +6453,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-04-23T11:41:10Z",
     "first_seen": "2026-07-16",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "TypeScript"
@@ -6489,7 +6490,8 @@
     "url": "https://github.com/doggy8088/github-copilot-coding-agent-firewall-switcher-extension",
     "source_type": "github",
     "resource_type": [
-      "extension"
+      "extension",
+      "cli-tool"
     ],
     "target_tools": [
       "github-copilot"
@@ -6513,7 +6515,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-07-11T06:03:03Z",
     "first_seen": "2026-07-16",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "JavaScript"
@@ -6550,7 +6552,8 @@
     "url": "https://github.com/copilot-coding-agent/user-feedback",
     "source_type": "github",
     "resource_type": [
-      "tutorial"
+      "agent-framework",
+      "cli-tool"
     ],
     "target_tools": [
       "github-copilot"
@@ -6574,7 +6577,7 @@
     "tracking_priority": "index",
     "last_updated": "2026-05-09T09:09:26Z",
     "first_seen": "2026-07-16",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [],
     "review_state": "auto-indexed",
@@ -6613,7 +6616,8 @@
     "url": "https://github.com/kevinkwee/github-copilot-squad",
     "source_type": "github",
     "resource_type": [
-      "agent-framework"
+      "agent-framework",
+      "cli-tool"
     ],
     "target_tools": [
       "github-copilot"
@@ -6637,7 +6641,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-06-24T03:30:18Z",
     "first_seen": "2026-07-16",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [],
     "review_state": "auto-indexed",
@@ -6676,7 +6680,7 @@
     "url": "https://github.com/Violet-Bora-Lee/github-copilot-coding-agent-sample",
     "source_type": "github",
     "resource_type": [
-      "tutorial"
+      "cli-tool"
     ],
     "target_tools": [
       "github-copilot"
@@ -6700,7 +6704,7 @@
     "tracking_priority": "index",
     "last_updated": "2025-06-26T01:40:52Z",
     "first_seen": "2026-07-16",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": null,
     "languages": [
       "JavaScript"
@@ -6737,7 +6741,8 @@
     "url": "https://github.com/etechlead/claude-copilot-webhook",
     "source_type": "github",
     "resource_type": [
-      "extension"
+      "agent-framework",
+      "cli-tool"
     ],
     "target_tools": [
       "claude-code",
@@ -6762,7 +6767,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-03-26T22:48:55Z",
     "first_seen": "2026-07-16",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "TypeScript"
@@ -6799,7 +6804,9 @@
     "url": "https://github.com/sigma7863/skills-expand-your-team-with-copilot",
     "source_type": "github",
     "resource_type": [
-      "tutorial"
+      "skills",
+      "agent-framework",
+      "cli-tool"
     ],
     "target_tools": [
       "github-copilot"
@@ -6823,7 +6830,7 @@
     "tracking_priority": "index",
     "last_updated": "2026-07-08T12:40:35Z",
     "first_seen": "2026-07-16",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "JavaScript"
@@ -6860,7 +6867,8 @@
     "url": "https://github.com/microsoft/copilot-agent-schema-mappings-demo",
     "source_type": "github",
     "resource_type": [
-      "tutorial"
+      "agent-framework",
+      "cli-tool"
     ],
     "target_tools": [
       "github-copilot"
@@ -6884,7 +6892,7 @@
     "tracking_priority": "track",
     "last_updated": "2026-01-04T09:22:51Z",
     "first_seen": "2026-07-16",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "license": "mit",
     "languages": [
       "HTML"

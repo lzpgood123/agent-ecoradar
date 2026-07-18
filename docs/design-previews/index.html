@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agent EcoRadar · 设计预览索引</title>
+  <style>
+    :root {
+      --bg: #0B1020; --text: #EEF2FF; --muted: #8E9AB8; --line: rgba(232,236,247,.12); --card: #171E35; --accent: #5EEAD4;
+      --font: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans SC", "PingFang SC", sans-serif;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: var(--font);
+      background:
+        radial-gradient(800px 360px at 10% 0%, rgba(94,234,212,.10), transparent 55%),
+        radial-gradient(700px 360px at 90% 0%, rgba(167,139,250,.10), transparent 50%),
+        #0B1020;
+      color: var(--text);
+      min-height: 100vh;
+      padding: 32px 20px 48px;
+    }
+    .wrap { width: min(1100px, 100%); margin: 0 auto; }
+    h1 { font-size: 28px; letter-spacing: -.03em; margin-bottom: 8px; }
+    .lead { color: var(--muted); max-width: 60ch; margin-bottom: 22px; line-height: 1.6; }
+    .actions { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 22px; }
+    .actions a {
+      display: inline-flex; align-items: center; padding: 10px 14px; border-radius: 999px;
+      text-decoration: none; border: 1px solid var(--line); color: var(--text); background: rgba(255,255,255,.03);
+    }
+    .actions a.primary { background: rgba(94,234,212,.14); border-color: rgba(94,234,212,.35); color: var(--accent); font-weight: 700; }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 12px; }
+    .card {
+      display: block; text-decoration: none; color: inherit;
+      background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.015));
+      border: 1px solid var(--line); border-radius: 18px; padding: 16px;
+      transition: transform .2s ease, border-color .2s ease;
+    }
+    .card:hover { transform: translateY(-2px); border-color: rgba(94,234,212,.3); }
+    .swatch { display: grid; grid-template-columns: 1.4fr .8fr .8fr; height: 42px; border-radius: 12px; overflow: hidden; margin-bottom: 12px; }
+    .swatch i { display: block; }
+    h2 { font-size: 16px; margin-bottom: 6px; }
+    p { color: var(--muted); font-size: 13px; line-height: 1.5; min-height: 3.2em; }
+    .mode {
+      display: inline-block; margin-top: 10px; font-size: 11px; color: var(--accent);
+      border: 1px solid rgba(94,234,212,.25); background: rgba(94,234,212,.08);
+      border-radius: 999px; padding: 3px 8px;
+    }
+    @media (max-width: 720px) { .grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Agent EcoRadar · 设计预览索引</h1>
+    <p class="lead">同一套现站功能架构与产品文案，只换视觉皮肤。当前优先看「柔和创新布局」：围绕 Editorial Light 的浅色柔和系 + 更有趣的页面构造。</p>
+    <div class="actions">
+      <a class="primary" href="ecoradar-soft-innovative-preview.html">打开 柔和创新布局（推荐）</a>
+      <a href="ecoradar-10-styles-preview.html">打开 10 风格主预览</a>
+      <a href="ecoradar-redesign-preview.html">打开 v2 单风格原稿</a>
+    </div>
+    <h2 style="margin:8px 0 12px;font-size:15px;color:var(--muted);font-weight:650;">本轮：柔和靓丽 + 创新构造（8 套）</h2>
+    <div class="grid" style="margin-bottom:28px;">
+      <a class="card" href="ecoradar-soft-innovative-preview.html?theme=ledger-cream">
+        <div class="swatch"><i style="background:#F6F1E8"></i><i style="background:#0F766E"></i><i style="background:#9A3412"></i></div>
+        <h2>01 Ledger Cream</h2>
+        <p>奶油纸 + 青绿/铜棕 · Editorial 延续</p>
+        <span class="mode">light · innovative</span>
+      </a>
+      <a class="card" href="ecoradar-soft-innovative-preview.html?theme=mist-lilac">
+        <div class="swatch"><i style="background:#F4F0F8"></i><i style="background:#7C3AED"></i><i style="background:#DB2777"></i></div>
+        <h2>02 Mist Lilac</h2>
+        <p>薄雾丁香 · 浅紫底 + 紫/玫红</p>
+        <span class="mode">light · innovative</span>
+      </a>
+      <a class="card" href="ecoradar-soft-innovative-preview.html?theme=peach-breeze">
+        <div class="swatch"><i style="background:#FBF3EC"></i><i style="background:#EA580C"></i><i style="background:#0F766E"></i></div>
+        <h2>03 Peach Breeze</h2>
+        <p>蜜桃微风 · 暖杏 + 珊瑚橙/鼠尾草</p>
+        <span class="mode">light · innovative</span>
+      </a>
+      <a class="card" href="ecoradar-soft-innovative-preview.html?theme=celadon-ink">
+        <div class="swatch"><i style="background:#EEF5F1"></i><i style="background:#047857"></i><i style="background:#1D4ED8"></i></div>
+        <h2>04 Celadon Ink</h2>
+        <p>青瓷墨色 · 豆青纸 + 墨绿/靛蓝</p>
+        <span class="mode">light · innovative</span>
+      </a>
+      <a class="card" href="ecoradar-soft-innovative-preview.html?theme=sky-linen">
+        <div class="swatch"><i style="background:#EEF4FA"></i><i style="background:#0284C7"></i><i style="background:#7C3AED"></i></div>
+        <h2>05 Sky Linen</h2>
+        <p>天空亚麻 · 淡天蓝 + 晴空蓝/淡紫</p>
+        <span class="mode">light · innovative</span>
+      </a>
+      <a class="card" href="ecoradar-soft-innovative-preview.html?theme=rose-clay">
+        <div class="swatch"><i style="background:#F8EFEC"></i><i style="background:#BE123C"></i><i style="background:#9A3412"></i></div>
+        <h2>06 Rose Clay</h2>
+        <p>玫瑰陶土 · 粉米纸 + 玫红/陶棕</p>
+        <span class="mode">light · innovative</span>
+      </a>
+      <a class="card" href="ecoradar-soft-innovative-preview.html?theme=matcha-paper">
+        <div class="swatch"><i style="background:#F2F5EA"></i><i style="background:#4D7C0F"></i><i style="background:#A16207"></i></div>
+        <h2>07 Matcha Paper</h2>
+        <p>抹茶纸笺 · 嫩绿 + 抹茶/琥珀</p>
+        <span class="mode">light · innovative</span>
+      </a>
+      <a class="card" href="ecoradar-soft-innovative-preview.html?theme=citrus-fog">
+        <div class="swatch"><i style="background:#F6F4EA"></i><i style="background:#CA8A04"></i><i style="background:#0F766E"></i></div>
+        <h2>08 Citrus Fog</h2>
+        <p>柑橘薄雾 · 浅柠雾 + 金黄/青绿</p>
+        <span class="mode">light · innovative</span>
+      </a>
+    </div>
+    <h2 style="margin:8px 0 12px;font-size:15px;color:var(--muted);font-weight:650;">上一轮：10 风格对照（含深色）</h2>
+    <div class="grid">
+      
+      <a class="card" href="ecoradar-10-styles-preview.html?theme=soft-observatory">
+        <div class="swatch">
+          <i style="background:#0B1020"></i><i style="background:#5EEAD4"></i><i style="background:#A78BFA"></i>
+        </div>
+        <h2>01 Soft Observatory</h2>
+        <p>深蓝夜空 + 薄荷绿/淡紫 · 你认可的 v2 方向</p>
+        <span class="mode">dark</span>
+      </a>
+      <a class="card" href="ecoradar-10-styles-preview.html?theme=warm-paper">
+        <div class="swatch">
+          <i style="background:#1c1917"></i><i style="background:#f59e0b"></i><i style="background:#fbbf24"></i>
+        </div>
+        <h2>02 Warm Paper Dark</h2>
+        <p>现站琥珀暖纸深色 · 对照基线</p>
+        <span class="mode">dark</span>
+      </a>
+      <a class="card" href="ecoradar-10-styles-preview.html?theme=linear-midnight">
+        <div class="swatch">
+          <i style="background:#0A0A0B"></i><i style="background:#8B5CF6"></i><i style="background:#60A5FA"></i>
+        </div>
+        <h2>03 Linear Midnight</h2>
+        <p>近黑 + 靛紫强调 · 克制、锐利、产品工具感</p>
+        <span class="mode">dark</span>
+      </a>
+      <a class="card" href="ecoradar-10-styles-preview.html?theme=aurora-glass">
+        <div class="swatch">
+          <i style="background:#07101F"></i><i style="background:#22D3EE"></i><i style="background:#F472B6"></i>
+        </div>
+        <h2>04 Aurora Glass</h2>
+        <p>毛玻璃 + 青品红极光 · 更亮眼、氛围更强</p>
+        <span class="mode">dark</span>
+      </a>
+      <a class="card" href="ecoradar-10-styles-preview.html?theme=editorial-light">
+        <div class="swatch">
+          <i style="background:#F6F1E8"></i><i style="background:#0F766E"></i><i style="background:#9A3412"></i>
+        </div>
+        <h2>05 Editorial Light</h2>
+        <p>浅色纸感 + 墨色排版 · 长读友好、偏编辑部</p>
+        <span class="mode">light</span>
+      </a>
+      <a class="card" href="ecoradar-10-styles-preview.html?theme=terminal-green">
+        <div class="swatch">
+          <i style="background:#050805"></i><i style="background:#34D399"></i><i style="background:#86EFAC"></i>
+        </div>
+        <h2>06 Terminal Green</h2>
+        <p>CRT 终端绿 · 编码工具原生气质</p>
+        <span class="mode">dark</span>
+      </a>
+      <a class="card" href="ecoradar-10-styles-preview.html?theme=coral-harbor">
+        <div class="swatch">
+          <i style="background:#0E1A24"></i><i style="background:#FF7A59"></i><i style="background:#5EC8E8"></i>
+        </div>
+        <h2>07 Coral Harbor</h2>
+        <p>海港蓝 + 珊瑚橙 · 柔和友好、不霓虹</p>
+        <span class="mode">dark</span>
+      </a>
+      <a class="card" href="ecoradar-10-styles-preview.html?theme=slate-swiss">
+        <div class="swatch">
+          <i style="background:#EEF1F4"></i><i style="background:#2563EB"></i><i style="background:#0F172A"></i>
+        </div>
+        <h2>08 Slate Swiss</h2>
+        <p>浅灰瑞士风 · 高密度、冷静、信息优先</p>
+        <span class="mode">light</span>
+      </a>
+      <a class="card" href="ecoradar-10-styles-preview.html?theme=copper-instrument">
+        <div class="swatch">
+          <i style="background:#140F0C"></i><i style="background:#D97706"></i><i style="background:#FBBF24"></i>
+        </div>
+        <h2>09 Copper Instrument</h2>
+        <p>铜质仪表盘 · 深褐金属感、观测仪器气质</p>
+        <span class="mode">dark</span>
+      </a>
+      <a class="card" href="ecoradar-10-styles-preview.html?theme=sakura-dusk">
+        <div class="swatch">
+          <i style="background:#17111A"></i><i style="background:#F9A8D4"></i><i style="background:#C4B5FD"></i>
+        </div>
+        <h2>10 Sakura Dusk</h2>
+        <p>暮色粉紫 · 柔和、偏产品展示但不甜腻</p>
+        <span class="mode">dark</span>
+      </a>
+    </div>
+  </div>
+</body>
+</html>

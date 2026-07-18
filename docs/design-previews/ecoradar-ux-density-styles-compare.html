@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-style="ledger-cream">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Agent EcoRadar · Ledger Cream + 左栏固定搜索台</title>
+  <style>
+    /* ========== Style tokens ========== */
+    html[data-style="style-b"] {
+      --bg: #1c1917; --bg-grad: linear-gradient(180deg,#24201c,#1c1917);
+      --panel: #2c2825; --panel-2: #35302c; --input: #1a1714;
+      --ink: #faf7f2; --ink-2: #e7e0d6; --muted: #b5aa9c;
+      --line: rgba(255,248,240,.10); --line-strong: rgba(255,248,240,.16);
+      --accent: #f59e0b; --accent-2: #fbbf24; --accent-soft: rgba(245,158,11,.14);
+      --accent-border: rgba(245,158,11,.35); --link: #fcd34d;
+      --shadow: 0 10px 30px rgba(0,0,0,.28);
+      --radius: 16px; --radius-sm: 12px;
+      --page-bg: var(--bg); --banner-bg: #3b2f1e; --banner-ink: #fbbf24;
+      --chart: linear-gradient(180deg,#fbbf24,#f59e0b);
+      --font: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+      --font-display: var(--font);
+      --desk-side: 280px;
+      --soft: #35302c;
+      --score-c: #fbbf24;
+      --type-skills: rgba(251,191,36,.14); --type-skills-ink: #fde68a;
+      --type-cli: rgba(45,212,191,.14); --type-cli-ink: #5eead4;
+      --type-agent: rgba(251,146,60,.14); --type-agent-ink: #fdba74;
+      --type-mcp: rgba(52,211,153,.14); --type-mcp-ink: #6ee7b7;
+    }
+    html[data-style="ledger-cream"] {
+      --bg: #F6F1E8; --bg-grad: linear-gradient(180deg,#FBF7F0,#F6F1E8 40%,#F3EBDF);
+      --panel: #FFFDF8; --panel-2: #F3EEE4; --input: #FFFDF8;
+      --ink: #1C1917; --ink-2: #44403C; --muted: #78716C;
+      --line: rgba(28,25,23,.10); --line-strong: rgba(28,25,23,.16);
+      --accent: #0F766E; --accent-2: #14B8A6; --accent-soft: rgba(15,118,110,.10);
+      --accent-border: rgba(15,118,110,.28); --link: #0F766E;
+      --shadow: 0 14px 40px rgba(28,25,23,.07);
+      --radius: 18px; --radius-sm: 12px;
+      --page-bg: radial-gradient(900px 420px at 8% -8%, rgba(20,184,166,.10), transparent 55%),
+        radial-gradient(700px 360px at 92% 0%, rgba(180,83,9,.08), transparent 50%),
+        linear-gradient(180deg,#FBF7F0,#F6F1E8 40%,#F3EBDF);
+      --banner-bg: rgba(255,253,248,.92); --banner-ink: #44403C;
+      --chart: linear-gradient(180deg, rgba(20,184,166,.85), rgba(180,83,9,.35));
+      --font: system-ui,-apple-system,"Segoe UI",Roboto,"PingFang SC","Noto Sans SC",sans-serif;
+      --font-display: "Iowan Old Style",Palatino,"Songti SC",Georgia,serif;
+      --desk-side: 300px; --soft: #EFE7DA; --score-c: #0F766E;
+      --type-skills: rgba(180,83,9,.10); --type-skills-ink: #9A3412;
+      --type-cli: rgba(15,118,110,.10); --type-cli-ink: #0F766E;
+      --type-agent: rgba(154,52,18,.10); --type-agent-ink: #9A3412;
+      --type-mcp: rgba(20,184,166,.12); --type-mcp-ink: #0F766E;
+    }
+    html[data-style="mist-lilac"] {
+      --bg: #F4F0F8; --bg-grad: linear-gradient(180deg,#FCFAFF,#F4F0F8);
+      --panel: #FCFAFF; --panel-2: #EEE7F7; --input: #FCFAFF;
+      --ink: #1F1630; --ink-2: #4B3F63; --muted: #7C7193;
+      --line: rgba(31,22,48,.10); --line-strong: rgba(31,22,48,.15);
+      --accent: #7C3AED; --accent-2: #A78BFA; --accent-soft: rgba(124,58,237,.10);
+      --accent-border: rgba(124,58,237,.28); --link: #7C3AED;
+      --shadow: 0 14px 40px rgba(49,30,80,.08);
+      --radius: 20px; --radius-sm: 14px;
+      --page-bg: radial-gradient(820px 400px at 12% -6%, rgba(167,139,250,.16), transparent 55%),
+        radial-gradient(700px 360px at 90% 4%, rgba(244,114,182,.12), transparent 50%),
+        linear-gradient(180deg,#FCFAFF,#F4F0F8 50%,#EFE8F8);
+      --banner-bg: rgba(252,250,255,.92); --banner-ink: #4B3F63;
+      --chart: linear-gradient(180deg, rgba(124,58,237,.8), rgba(219,39,119,.3));
+      --font: system-ui,-apple-system,"Segoe UI",Roboto,"PingFang SC",sans-serif;
+      --font-display: Palatino,"Songti SC",Georgia,serif;
+      --desk-side: 300px; --soft: #E8E0F3; --score-c: #7C3AED;
+      --type-skills: rgba(192,38,211,.10); --type-skills-ink: #A21CAF;
+      --type-cli: rgba(124,58,237,.10); --type-cli-ink: #7C3AED;
+      --type-agent: rgba(219,39,119,.10); --type-agent-ink: #DB2777;
+      --type-mcp: rgba(167,139,250,.14); --type-mcp-ink: #6D28D9;
+    }
+    html[data-style="ink-slate"] {
+      --bg: #0f1419; --bg-grad: linear-gradient(180deg,#151b22,#0f1419);
+      --panel: #171d25; --panel-2: #1e2630; --input: #0c1015;
+      --ink: #e8eef6; --ink-2: #c2ccd8; --muted: #8b98a8;
+      --line: rgba(232,238,246,.10); --line-strong: rgba(232,238,246,.16);
+      --accent: #38bdf8; --accent-2: #7dd3fc; --accent-soft: rgba(56,189,248,.12);
+      --accent-border: rgba(56,189,248,.32); --link: #7dd3fc;
+      --shadow: 0 12px 36px rgba(0,0,0,.4);
+      --radius: 14px; --radius-sm: 10px;
+      --page-bg: radial-gradient(800px 360px at 10% 0%, rgba(56,189,248,.08), transparent 55%),
+        radial-gradient(700px 360px at 90% 0%, rgba(167,139,250,.06), transparent 50%),
+        #0f1419;
+      --banner-bg: #15202b; --banner-ink: #7dd3fc;
+      --chart: linear-gradient(180deg,#7dd3fc,#0284c7);
+      --font: system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+      --font-display: var(--font);
+      --desk-side: 280px; --soft: #1e2630; --score-c: #38bdf8;
+      --type-skills: rgba(251,191,36,.12); --type-skills-ink: #fde68a;
+      --type-cli: rgba(45,212,191,.12); --type-cli-ink: #5eead4;
+      --type-agent: rgba(251,146,60,.12); --type-agent-ink: #fdba74;
+      --type-mcp: rgba(56,189,248,.12); --type-mcp-ink: #7dd3fc;
+    }
+    html[data-style="peach-breeze"] {
+      --bg: #FBF3EC; --bg-grad: linear-gradient(180deg,#FFF9F4,#FBF3EC);
+      --panel: #FFF9F4; --panel-2: #F5E6DB; --input: #FFF9F4;
+      --ink: #2A1A14; --ink-2: #5C4338; --muted: #8B6F63;
+      --line: rgba(42,26,20,.10); --line-strong: rgba(42,26,20,.15);
+      --accent: #EA580C; --accent-2: #FB923C; --accent-soft: rgba(234,88,12,.10);
+      --accent-border: rgba(234,88,12,.28); --link: #C2410C;
+      --shadow: 0 14px 40px rgba(80,40,20,.07);
+      --radius: 18px; --radius-sm: 12px;
+      --page-bg: radial-gradient(860px 400px at 10% -8%, rgba(251,146,60,.14), transparent 55%),
+        radial-gradient(720px 360px at 92% 0%, rgba(20,184,166,.10), transparent 50%),
+        linear-gradient(180deg,#FFF9F4,#FBF3EC 45%,#F6E9DF);
+      --banner-bg: rgba(255,249,244,.92); --banner-ink: #5C4338;
+      --chart: linear-gradient(180deg, rgba(234,88,12,.8), rgba(15,118,110,.25));
+      --font: system-ui,-apple-system,"Segoe UI",Roboto,"PingFang SC",sans-serif;
+      --font-display: Palatino,"Songti SC",Georgia,serif;
+      --desk-side: 300px; --soft: #F0DDD0; --score-c: #EA580C;
+      --type-skills: rgba(234,88,12,.10); --type-skills-ink: #C2410C;
+      --type-cli: rgba(15,118,110,.10); --type-cli-ink: #0F766E;
+      --type-agent: rgba(194,65,12,.10); --type-agent-ink: #9A3412;
+      --type-mcp: rgba(20,184,166,.12); --type-mcp-ink: #0F766E;
+    }
+    html[data-style="matcha-paper"] {
+      --bg: #F2F5EA; --bg-grad: linear-gradient(180deg,#FAFBF5,#F2F5EA);
+      --panel: #FAFBF5; --panel-2: #E7EDD9; --input: #FAFBF5;
+      --ink: #1A2412; --ink-2: #445236; --muted: #6E7B5B;
+      --line: rgba(26,36,18,.10); --line-strong: rgba(26,36,18,.15);
+      --accent: #4D7C0F; --accent-2: #84CC16; --accent-soft: rgba(77,124,15,.10);
+      --accent-border: rgba(77,124,15,.28); --link: #3F6212;
+      --shadow: 0 14px 40px rgba(30,40,15,.07);
+      --radius: 16px; --radius-sm: 11px;
+      --page-bg: radial-gradient(820px 400px at 10% -8%, rgba(132,204,22,.12), transparent 55%),
+        radial-gradient(700px 360px at 92% 0%, rgba(202,138,4,.08), transparent 50%),
+        linear-gradient(180deg,#FAFBF5,#F2F5EA 50%,#EAF0DF);
+      --banner-bg: rgba(250,251,245,.92); --banner-ink: #445236;
+      --chart: linear-gradient(180deg, rgba(132,204,22,.85), rgba(77,124,15,.5));
+      --font: system-ui,-apple-system,"Segoe UI",Roboto,"PingFang SC",sans-serif;
+      --font-display: Palatino,"Songti SC",Georgia,serif;
+      --desk-side: 300px; --soft: #DCE5C9; --score-c: #4D7C0F;
+      --type-skills: rgba(202,138,4,.12); --type-skills-ink: #A16207;
+      --type-cli: rgba(77,124,15,.12); --type-cli-ink: #4D7C0F;
+      --type-agent: rgba(161,98,7,.10); --type-agent-ink: #854D0E;
+      --type-mcp: rgba(132,204,22,.14); --type-mcp-ink: #3F6212;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: var(--font);
+      background: var(--page-bg);
+      color: var(--ink);
+      font-size: 14px;
+      line-height: 1.55;
+      min-height: 100vh;
+    }
+    * { scrollbar-width: thin; scrollbar-color: color-mix(in srgb, var(--accent) 40%, transparent) transparent; }
+    *::-webkit-scrollbar { width: 8px; height: 8px; }
+    *::-webkit-scrollbar-thumb { background: color-mix(in srgb, var(--accent) 35%, transparent); border-radius: 999px; }
+
+    .preview-banner {
+      position: sticky; top: 0; z-index: 50;
+      background: var(--banner-bg); color: var(--banner-ink);
+      border-bottom: 1px solid var(--accent-border);
+      text-align: center; font-size: 12px; padding: 9px 14px;
+      backdrop-filter: blur(10px);
+    }
+    .preview-banner strong { color: var(--accent); }
+    .style-dock {
+      position: sticky; top: 38px; z-index: 49;
+      background: color-mix(in srgb, var(--bg) 88%, var(--panel));
+      border-bottom: 1px solid var(--line);
+      backdrop-filter: blur(12px);
+      padding: 10px 0;
+    }
+    .shell { width: min(1320px, calc(100% - 32px)); margin: 0 auto; }
+    .style-dock-label {
+      font-size: 11px; letter-spacing: .08em; text-transform: uppercase;
+      color: var(--muted); margin-bottom: 8px;
+    }
+    .style-tabs { display: flex; flex-wrap: wrap; gap: 6px; }
+    .style-tab {
+      border: 1px solid var(--line); background: var(--panel); color: var(--ink-2);
+      border-radius: 999px; padding: 7px 12px; font-size: 12px; font-weight: 650; cursor: pointer;
+    }
+    .style-tab.active {
+      color: var(--accent); border-color: var(--accent-border);
+      background: var(--accent-soft); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 10%, transparent);
+    }
+    .style-blurb { margin-top: 8px; color: var(--muted); font-size: 12px; }
+
+    header.top { padding: 18px 0 8px; }
+    .topbar { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; align-items: flex-start; }
+    h1 { font-family: var(--font-display); font-size: 24px; font-weight: 700; letter-spacing: -.03em; }
+    .subtitle { color: var(--ink-2); font-size: 13px; max-width: 56ch; margin-top: 4px; }
+
+    .action-row {
+      margin-top: 14px; display: flex; flex-wrap: wrap; align-items: center; gap: 8px;
+      padding: 10px 12px; background: var(--panel); border: 1px solid var(--line);
+      border-radius: var(--radius-sm); box-shadow: var(--shadow);
+    }
+    .action-label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+    .divider { width: 1px; height: 18px; background: var(--line); }
+    .pill-btn, .lang-switch button, .fav-btn {
+      border: 1px solid var(--line); background: var(--input); color: var(--ink-2);
+      border-radius: 999px; padding: 6px 12px; font-size: 12px; font-weight: 600; cursor: pointer;
+    }
+    .lang-switch { display: flex; gap: 6px; }
+    .lang-switch button.active, .pill-btn.active {
+      background: var(--accent-soft); border-color: var(--accent-border); color: var(--accent);
+    }
+    .report-pills { display: flex; gap: 6px; flex-wrap: wrap; }
+
+    .hero-stats {
+      display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 10px; margin-top: 14px;
+    }
+    .hero-stat {
+      background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius-sm);
+      padding: 14px 16px; box-shadow: var(--shadow);
+    }
+    .hero-stat b {
+      display: block; font-size: 26px; font-weight: 700; color: var(--accent);
+      font-variant-numeric: tabular-nums; line-height: 1.15;
+      font-family: var(--font-display);
+    }
+    .hero-stat .muted { font-size: 12px; color: var(--muted); }
+
+    .charts-row {
+      display: grid; grid-template-columns: 1.15fr .85fr; gap: 12px; margin-top: 14px; align-items: stretch;
+    }
+    .chart-card {
+      background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius);
+      padding: 14px; box-shadow: var(--shadow); min-width: 0;
+    }
+    .chart-card-title { font-family: var(--font-display); font-size: 14px; font-weight: 700; }
+    .chart-card-sub { font-size: 11px; color: var(--muted); margin: 2px 0 10px; }
+    .chart-head { display: flex; justify-content: space-between; gap: 8px; align-items: flex-start; }
+    .ghost-btn {
+      border: 1px solid var(--line); background: transparent; color: var(--ink-2);
+      border-radius: 999px; padding: 4px 10px; font-size: 11px; cursor: pointer; white-space: nowrap;
+    }
+    .ghost-btn:hover { border-color: var(--accent-border); color: var(--accent); }
+    .bar-row {
+      display: grid; grid-template-columns: 100px 1fr 40px; gap: 8px; align-items: center;
+      margin-bottom: 6px; font-size: 12px;
+    }
+    .bar-row .label { color: var(--ink-2); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .bar-track { height: 9px; background: var(--soft); border-radius: 999px; overflow: hidden; }
+    .bar-fill { height: 100%; background: linear-gradient(90deg, var(--accent), var(--accent-2)); border-radius: 999px; }
+    .bar-val { color: var(--muted); text-align: right; font-variant-numeric: tabular-nums; font-size: 11px; }
+
+    .hist-wrap { display: grid; grid-template-columns: 34px 1fr; gap: 8px; }
+    .hist-y {
+      display: flex; flex-direction: column; justify-content: space-between; align-items: flex-end;
+      padding: 18px 0 22px; font-size: 10px; color: var(--muted); font-variant-numeric: tabular-nums;
+    }
+    .hist {
+      position: relative; display: flex; align-items: flex-end; gap: 10px;
+      height: 168px; padding: 18px 4px 0; border-bottom: 1px solid var(--line);
+    }
+    .hist-grid {
+      position: absolute; inset: 18px 0 0 0; display: flex; flex-direction: column;
+      justify-content: space-between; pointer-events: none;
+    }
+    .hist-grid span { border-top: 1px dashed color-mix(in srgb, var(--muted) 35%, transparent); }
+    .hist-col {
+      flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end;
+      gap: 4px; height: 100%; position: relative; z-index: 1; min-width: 0;
+    }
+    .hist-bar {
+      width: 100%; max-width: 44px; background: var(--chart);
+      border-radius: 6px 6px 2px 2px; min-height: 4px;
+    }
+    .hist-val { font-size: 11px; color: var(--ink-2); font-weight: 600; font-variant-numeric: tabular-nums; }
+    .hist-lab { position: absolute; bottom: -20px; font-size: 10px; color: var(--muted); white-space: nowrap; }
+
+    main { padding: 18px 0 40px; }
+    section { margin-bottom: 22px; }
+    section h2 {
+      font-family: var(--font-display); font-size: 18px; font-weight: 700;
+      letter-spacing: -.02em; margin-bottom: 4px;
+    }
+    .hint { color: var(--muted); font-size: 12px; margin-bottom: 10px; }
+
+    .discovery-grid {
+      display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 10px;
+    }
+    .discovery-card {
+      background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius);
+      padding: 14px; box-shadow: var(--shadow); min-height: 118px; cursor: pointer;
+      transition: border-color .15s ease, transform .15s ease;
+    }
+    .discovery-card:hover { border-color: var(--accent-border); transform: translateY(-2px); }
+    .score-badge {
+      display: inline-flex; align-items: center; justify-content: center;
+      background: var(--accent-soft); color: var(--score-c); border: 1px solid var(--accent-border);
+      border-radius: 999px; padding: 2px 9px; font-size: 12px; font-weight: 700; margin-right: 6px;
+    }
+    .discovery-card .sum { display: block; margin-top: 6px; color: var(--muted); font-size: 12px; }
+    .pill {
+      display: inline-block; border-radius: 999px; padding: 2px 9px; margin: 2px 2px 0 0;
+      font-size: 11px; font-weight: 500; border: 1px solid var(--line);
+      background: color-mix(in srgb, var(--soft) 70%, var(--panel)); color: var(--ink-2);
+    }
+    .pill-skills { background: var(--type-skills); color: var(--type-skills-ink); border-color: transparent; }
+    .pill-cli { background: var(--type-cli); color: var(--type-cli-ink); border-color: transparent; }
+    .pill-agent { background: var(--type-agent); color: var(--type-agent-ink); border-color: transparent; }
+    .pill-mcp { background: var(--type-mcp); color: var(--type-mcp-ink); border-color: transparent; }
+
+    .zone-tabs {
+      display: flex; gap: 6px; padding: 6px; width: fit-content; margin: 8px 0 16px;
+      background: var(--panel); border: 1px solid var(--line); border-radius: 999px; box-shadow: var(--shadow);
+    }
+    .zone-tabs button {
+      border: 0; background: transparent; color: var(--muted); border-radius: 999px;
+      padding: 8px 16px; font-size: 13px; font-weight: 650; cursor: pointer;
+    }
+    .zone-tabs button.active {
+      background: var(--accent-soft); color: var(--accent);
+      box-shadow: inset 0 0 0 1px var(--accent-border);
+    }
+    .tab-panel[hidden] { display: none !important; }
+
+    /* ===== Soft-innovative search desk: left sticky, right scrolls ===== */
+    .search-desk {
+      display: grid;
+      grid-template-columns: var(--desk-side) 1fr;
+      gap: 12px;
+      align-items: start;
+    }
+    .search-side, .search-main {
+      background: var(--panel); border: 1px solid var(--line); border-radius: calc(var(--radius) + 2px);
+      box-shadow: var(--shadow);
+    }
+    /* 从搜索台起：左栏钉在视口内，不随右侧长列表滚走 */
+    .search-side {
+      position: sticky;
+      top: 96px; /* preview-banner + style-dock */
+      align-self: start;
+      padding: 14px;
+      display: grid;
+      gap: 14px;
+      max-height: calc(100vh - 108px);
+      overflow-y: auto;
+      z-index: 5;
+    }
+    .search-main {
+      padding: 14px;
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+    /* 右侧结果区可独立滚动，表头 sticky */
+    .search-main .table-wrapper {
+      max-height: calc(100vh - 200px);
+      overflow: auto;
+    }
+    .side-block { display: grid; gap: 8px; }
+    .filter-label { font-size: 12px; color: var(--muted); font-weight: 700; }
+    input, select {
+      width: 100%; background: var(--input); border: 1px solid var(--line);
+      border-radius: var(--radius-sm); padding: 10px 12px; color: var(--ink); outline: none;
+    }
+    input:focus, select:focus {
+      border-color: var(--accent-border);
+      box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 12%, transparent);
+    }
+    .tag-group { display: flex; flex-wrap: wrap; gap: 7px; }
+    .tag {
+      border: 1px solid var(--line); background: var(--input); color: var(--ink-2);
+      border-radius: 999px; padding: 6px 10px; font-size: 12px; cursor: pointer;
+    }
+    .tag.active {
+      color: var(--accent); border-color: var(--accent-border); background: var(--accent-soft);
+    }
+    .tag.type-skills { background: var(--type-skills); color: var(--type-skills-ink); border-color: transparent; }
+    .tag.type-cli { background: var(--type-cli); color: var(--type-cli-ink); border-color: transparent; }
+    .tag.type-agent { background: var(--type-agent); color: var(--type-agent-ink); border-color: transparent; }
+    .tag.type-mcp { background: var(--type-mcp); color: var(--type-mcp-ink); border-color: transparent; }
+    .mode-toggle {
+      display: inline-flex; gap: 4px; padding: 4px; border: 1px solid var(--line);
+      border-radius: 999px; background: var(--input); width: fit-content;
+    }
+    .mode-toggle button {
+      border: 0; background: transparent; color: var(--muted); padding: 7px 11px;
+      border-radius: 999px; font-size: 12px; font-weight: 650; cursor: pointer;
+    }
+    .mode-toggle button.active { background: var(--accent-soft); color: var(--accent); }
+    .checks { display: grid; gap: 8px; color: var(--ink-2); font-size: 13px; }
+    .checks label { display: inline-flex; gap: 6px; align-items: center; }
+    .result-count {
+      display: flex; justify-content: space-between; gap: 10px; align-items: center;
+      color: var(--muted); font-size: 13px; margin-bottom: 10px;
+    }
+    .table-wrapper {
+      overflow: auto; border: 1px solid var(--line); border-radius: var(--radius-sm);
+    }
+    table { width: 100%; border-collapse: collapse; min-width: 720px; }
+    th, td {
+      padding: 11px 12px; border-bottom: 1px solid var(--line);
+      text-align: left; vertical-align: top;
+    }
+    th {
+      position: sticky; top: 0;
+      background: color-mix(in srgb, var(--panel) 92%, var(--soft));
+      color: var(--muted); font-size: 12px; font-weight: 700; z-index: 2;
+      box-shadow: 0 1px 0 var(--line);
+    }
+    .project-name { color: var(--link); font-weight: 700; cursor: pointer; font-size: 13px; }
+    .project-name:hover { text-decoration: underline; }
+    .row-summary {
+      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+      overflow: hidden; margin-top: 4px; color: var(--muted); font-size: 12px; max-width: 42ch;
+    }
+    .score-cell { color: var(--score-c); font-weight: 700; font-variant-numeric: tabular-nums; }
+    tr:hover td { background: color-mix(in srgb, var(--soft) 45%, var(--panel)); }
+
+    .tool-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 10px;
+    }
+    .tool-card {
+      background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius-sm);
+      padding: 14px; box-shadow: var(--shadow); cursor: pointer;
+    }
+    .tool-card:hover { border-color: var(--accent-border); }
+    .tool-card h3 { font-size: 13px; font-weight: 650; margin-bottom: 6px; }
+    .tool-stats { font-size: 12px; color: var(--muted); }
+
+    .note {
+      margin-top: 18px; padding: 12px 14px; border: 1px dashed var(--accent-border);
+      background: var(--accent-soft); border-radius: var(--radius-sm);
+      font-size: 12px; color: var(--ink-2);
+    }
+    .note h3 { font-size: 12px; color: var(--accent); margin-bottom: 6px; text-transform: uppercase; letter-spacing: .04em; }
+    .note ul { margin-left: 18px; }
+    .note li { margin: 3px 0; }
+
+    footer {
+      padding: 12px 0 28px; text-align: center; color: var(--muted); font-size: 12px;
+      border-top: 1px solid var(--line);
+    }
+
+    @media (max-width: 1100px) {
+      .charts-row { grid-template-columns: 1fr; }
+      .hero-stats { grid-template-columns: repeat(2, minmax(0,1fr)); }
+      .discovery-grid { grid-template-columns: repeat(3, minmax(0,1fr)); }
+      .search-desk { grid-template-columns: 1fr; }
+      .search-side { position: static; }
+    }
+    @media (max-width: 760px) {
+      .discovery-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
+      .shell { width: min(100% - 24px, 1320px); }
+    }
+  </style>
+</head>
+<body>
+  <div class="preview-banner">
+    <strong>Ledger Cream 默认</strong>
+    · 下半 search desk：<strong>左筛选 sticky 固定</strong> · <strong>右结果区可滚</strong>
+    · 顶栏仍可切换其它风格对比
+    · 假数据 · 非正式站
+  </div>
+
+  <div class="style-dock">
+    <div class="shell">
+      <div class="style-dock-label">切换风格对比</div>
+      <div class="style-tabs" id="styleTabs">
+        <button type="button" class="style-tab" data-style="style-b">A Style B 暖纸深色</button>
+        <button type="button" class="style-tab active" data-style="ledger-cream">B Ledger Cream 奶油纸（已选）</button>
+        <button type="button" class="style-tab" data-style="mist-lilac">C Mist Lilac 薄雾丁香</button>
+        <button type="button" class="style-tab" data-style="ink-slate">D Ink Slate 墨蓝深色</button>
+        <button type="button" class="style-tab" data-style="peach-breeze">E Peach Breeze 蜜桃</button>
+        <button type="button" class="style-tab" data-style="matcha-paper">F Matcha Paper 抹茶纸</button>
+      </div>
+      <p class="style-blurb" id="styleBlurb">B：Ledger Cream · 奶油纸 + 青绿/铜棕 · 已选为产品方向 · 左栏 sticky</p>
+    </div>
+  </div>
+
+  <div class="shell">
+    <header class="top">
+      <div class="topbar">
+        <div>
+          <h1>Agent EcoRadar</h1>
+          <p class="subtitle">智能体生态雷达：自动扫描、评分并索引 AI Coding Agent 生态</p>
+        </div>
+      </div>
+
+      <div class="action-row">
+        <span class="action-label">语言</span>
+        <div class="lang-switch">
+          <button type="button" class="active">中文</button>
+          <button type="button">English</button>
+        </div>
+        <span class="divider"></span>
+        <button type="button" class="fav-btn">导出收藏</button>
+        <span class="divider"></span>
+        <span class="action-label">报告</span>
+        <div class="report-pills">
+          <button type="button" class="pill-btn">推荐榜</button>
+          <button type="button" class="pill-btn">生态周报</button>
+          <button type="button" class="pill-btn">工具对比</button>
+        </div>
+      </div>
+
+      <div class="hero-stats">
+        <div class="hero-stat"><b>5275</b><span class="muted">总记录</span></div>
+        <div class="hero-stat"><b>40</b><span class="muted">推荐</span></div>
+        <div class="hero-stat"><b>31</b><span class="muted">官方工具</span></div>
+        <div class="hero-stat"><b>5244</b><span class="muted">生态项目</span></div>
+      </div>
+
+      <section class="charts-row">
+        <article class="chart-card">
+          <div class="chart-head">
+            <div>
+              <div class="chart-card-title">工具覆盖分布</div>
+              <p class="chart-card-sub">默认 Top 10 · 单位：项目</p>
+            </div>
+            <button type="button" class="ghost-btn" id="chartExpand">展开全部 (31)</button>
+          </div>
+          <div id="toolBars"></div>
+        </article>
+        <article class="chart-card">
+          <div class="chart-card-title">分数分布</div>
+          <p class="chart-card-sub">柱高加高 + 轻量网格 · 单位：项目数</p>
+          <div class="hist-wrap">
+            <div class="hist-y" aria-hidden="true">
+              <span>3000</span><span>2000</span><span>1000</span><span>0</span>
+            </div>
+            <div class="hist">
+              <div class="hist-grid" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+              <div class="hist-col"><span class="hist-val">0</span><div class="hist-bar" style="height:2%"></div><span class="hist-lab">0-20</span></div>
+              <div class="hist-col"><span class="hist-val">212</span><div class="hist-bar" style="height:8%"></div><span class="hist-lab">21-40</span></div>
+              <div class="hist-col"><span class="hist-val">2585</span><div class="hist-bar" style="height:100%"></div><span class="hist-lab">41-60</span></div>
+              <div class="hist-col"><span class="hist-val">2370</span><div class="hist-bar" style="height:92%"></div><span class="hist-lab">61-80</span></div>
+              <div class="hist-col"><span class="hist-val">77</span><div class="hist-bar" style="height:4%"></div><span class="hist-lab">81-100</span></div>
+            </div>
+          </div>
+        </article>
+      </section>
+    </header>
+
+    <main>
+      <section>
+        <h2>最新发现</h2>
+        <p class="hint">Top 12 · 固定列 4/3/2 · 点击卡片开详情（正式站侧栏本轮不改）</p>
+        <div class="discovery-grid" id="discovery"></div>
+      </section>
+
+      <div class="zone-tabs" role="tablist">
+        <button type="button" class="active" id="tabSearch" data-tab="search">搜索</button>
+        <button type="button" id="tabTools" data-tab="tools">工具概览</button>
+      </div>
+
+      <section id="panelSearch" class="tab-panel">
+        <h2>生态项目搜索</h2>
+        <p class="hint sticky-hint">下半 <strong>search desk</strong>：左侧筛选台 <strong>滚动时固定</strong>；右侧结果表可独立滚动（多加了假数据行方便试滚）</p>
+
+        <div class="search-desk">
+          <aside class="search-side">
+            <div class="side-block">
+              <div class="filter-label">搜索</div>
+              <input placeholder="搜索项目名称或描述..." aria-label="Search">
+            </div>
+            <div class="side-block">
+              <div class="filter-label">工具</div>
+              <input type="search" placeholder="搜索工具...">
+              <button type="button" class="ghost-btn">展开全部 (31)</button>
+              <div class="tag-group" id="toolTags"></div>
+            </div>
+            <div class="side-block">
+              <div class="filter-label">类型</div>
+              <div class="tag-group" id="typeTags"></div>
+            </div>
+            <div class="side-block">
+              <div class="mode-toggle">
+                <button type="button" class="active">任一匹配</button>
+                <button type="button">全部匹配</button>
+              </div>
+            </div>
+            <div class="side-block">
+              <div class="filter-label">排序</div>
+              <select>
+                <option>分数</option>
+                <option selected>Stars</option>
+                <option>最近更新</option>
+                <option>名称</option>
+              </select>
+            </div>
+            <div class="checks">
+              <label><input type="checkbox"> 只看推荐</label>
+              <label><input type="checkbox"> 只看最近新增</label>
+              <label><input type="checkbox"> 只看收藏</label>
+            </div>
+          </aside>
+
+          <div class="search-main">
+            <div class="result-count">
+              <span>显示 5244 / 5244</span>
+              <button type="button" class="ghost-btn">清空筛选</button>
+            </div>
+            <div class="table-wrapper">
+              <table>
+                <thead>
+                  <tr>
+                    <th>名称</th>
+                    <th>类型</th>
+                    <th>工具</th>
+                    <th>分数</th>
+                    <th>Stars</th>
+                    <th>链接</th>
+                  </tr>
+                </thead>
+                <tbody id="rows"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="panelTools" class="tab-panel" hidden>
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:10px;">
+          <div>
+            <h2>工具生态概览</h2>
+            <p class="hint">点击卡片 → 切到搜索 Tab + 应用筛选（示意）</p>
+          </div>
+          <button type="button" class="ghost-btn">展开全部 (31)</button>
+        </div>
+        <div class="tool-grid" id="toolOverview"></div>
+      </section>
+
+      <div class="note">
+        <h3>对比说明</h3>
+        <ul>
+          <li><strong>结构统一</strong>：所有风格共用同一套 IA（Header 合并 / Tab / search desk / 表格摘要）</li>
+          <li><strong>下半框</strong>：直接借鉴 <code>ecoradar-soft-innovative-preview.html</code> 的左右分栏 search desk</li>
+          <li><strong>A Style B</strong>：与现站皮肤一致，改布局风险最低</li>
+          <li><strong>B–F</strong>：柔和浅色 / 墨蓝深色等方向；若选浅色系，等于部分放开「锁定 Style B」决策，需你明确批准</li>
+          <li>详情：点表格项目名或发现卡片（本预览仅示意名称可点样式）</li>
+        </ul>
+      </div>
+    </main>
+
+    <footer>本地多风格对比 · 非正式部署 · Agent EcoRadar UX density</footer>
+  </div>
+
+  <script>
+    const BLURBS = {
+      'style-b': 'A：锁定现站 Style B · 深色琥珀 · 零换肤风险最低',
+      'ledger-cream': 'B：Ledger Cream · 奶油纸 + 青绿/铜棕 · soft-innovative 主推荐浅色',
+      'mist-lilac': 'C：Mist Lilac · 薄雾丁香 · 浅紫底 + 紫/玫红',
+      'ink-slate': 'D：Ink Slate · 墨蓝深色 · 仍深色但比 Style B 更冷更「工具」',
+      'peach-breeze': 'E：Peach Breeze · 蜜桃微风 · 暖杏 + 珊瑚橙',
+      'matcha-paper': 'F：Matcha Paper · 抹茶纸 · 低饱和绿系'
+    };
+    const TOOLS = [
+      ['Claude Code', 2297], ['OpenAI Codex CLI', 1802], ['Cline', 980],
+      ['Antigravity CLI', 760], ['OpenCode', 640], ['Cursor', 590],
+      ['Aider', 420], ['Continue', 380], ['Windsurf', 310], ['Gemini CLI', 260]
+    ];
+    const DISCOVERY = [
+      ['obra/superpowers', 91, 'skills', 'Claude Code 技能框架与工作流'],
+      ['openclaw/openclaw', 90, 'agent', '开源 coding agent 运行时'],
+      ['Coleman00/ai-workshop', 88, 'skills', '企业 AI 转型工作坊模板'],
+      ['ramakay/claude-organizer', 86, 'skills', 'Claude 工作流整理'],
+      ['affaan-m/ECC', 84, 'agent', '企业级 coding agent 组件'],
+      ['ultraworkers/claw-code', 83, 'cli', '轻量 CLI coding agent'],
+      ['example/mcp-kit', 77, 'mcp', '常用 MCP 服务器集合'],
+      ['example/cursor-rules', 76, 'skills', 'Cursor 规则模板库'],
+      ['example/cline-ext', 75, 'cli', 'Cline 扩展与配置'],
+      ['example/aider-tips', 74, 'skills', 'Aider 上手教程'],
+      ['example/skills-hub', 73, 'skills', '社区 skills 聚合'],
+      ['example/agent-kit', 72, 'agent', '多工具 agent 编排示例']
+    ];
+    const ROWS = [
+      ['openclaw/openclaw', 'agent', 'Claude Code', 90, '12.4k', '开源 coding agent 运行时，支持插件与多工具路由'],
+      ['obra/superpowers', 'skills', 'Claude Code', 91, '8.1k', 'Claude Code 技能框架，内置规划/审查工作流'],
+      ['affaan-m/ECC', 'agent', 'Cursor', 84, '3.2k', '企业级 coding agent 组件与编排示例'],
+      ['ultraworkers/claw-code', 'cli', 'OpenAI Codex CLI', 83, '2.7k', '终端优先的轻量 coding agent CLI'],
+      ['example/mcp-kit', 'mcp', 'Claude Code', 77, '1.9k', '常用 MCP 服务器集合与示例配置'],
+      ['example/cursor-rules', 'skills', 'Cursor', 76, '1.5k', 'Cursor 规则模板库，便于团队共享'],
+      ['example/cline-ext', 'cli', 'Cline', 75, '1.2k', 'Cline 扩展与配置合集'],
+      ['example/aider-tips', 'skills', 'Aider', 74, '980', 'Aider 上手教程与工作流'],
+      ['example/skills-hub', 'skills', 'Claude Code', 73, '860', '社区 skills 聚合索引'],
+      ['example/agent-kit', 'agent', 'OpenCode', 72, '740', '多工具 agent 编排示例'],
+      ['example/warp-flows', 'cli', 'Warp', 71, '620', '终端工作流与 agent 脚本'],
+      ['example/continue-pack', 'skills', 'Continue', 70, '510', 'Continue 规则与上下文包']
+    ];
+    const TYPE_MAP = { skills: 'Skills', cli: 'CLI 工具', agent: 'Agent 框架', mcp: 'MCP Server' };
+
+    function setStyle(id) {
+      document.documentElement.setAttribute('data-style', id);
+      document.querySelectorAll('.style-tab').forEach(b => b.classList.toggle('active', b.dataset.style === id));
+      document.getElementById('styleBlurb').textContent = BLURBS[id] || '';
+      try { history.replaceState(null, '', '?style=' + id); } catch (_) {}
+    }
+    document.getElementById('styleTabs').addEventListener('click', (e) => {
+      const b = e.target.closest('.style-tab');
+      if (b) setStyle(b.dataset.style);
+    });
+
+    let expanded = false;
+    function renderBars() {
+      const data = expanded ? TOOLS.concat([['Warp', 97], ['Zed', 88]]) : TOOLS;
+      const max = data[0][1];
+      document.getElementById('toolBars').innerHTML = data.map(([n, v]) => `
+        <div class="bar-row">
+          <span class="label">${n}</span>
+          <div class="bar-track"><div class="bar-fill" style="width:${Math.round(v/max*100)}%"></div></div>
+          <span class="bar-val">${v}</span>
+        </div>`).join('');
+      document.getElementById('chartExpand').textContent = expanded ? '收起' : '展开全部 (31)';
+    }
+    document.getElementById('chartExpand').onclick = () => { expanded = !expanded; renderBars(); };
+    renderBars();
+
+    document.getElementById('discovery').innerHTML = DISCOVERY.map(([name, score, type, sum]) => `
+      <div class="discovery-card">
+        <span class="score-badge">${score}</span><b>${name}</b>
+        <span class="sum">${sum}</span>
+        <span class="pill pill-${type}">${TYPE_MAP[type] || type}</span>
+      </div>`).join('');
+
+    document.getElementById('toolTags').innerHTML = TOOLS.slice(0, 8).map(([n], i) =>
+      `<button type="button" class="tag${i === 0 ? ' active' : ''}">${n}</button>`).join('');
+    document.getElementById('typeTags').innerHTML = [
+      ['skills', 'Skills'], ['cli', 'CLI 工具'], ['agent', 'Agent 框架'], ['mcp', 'MCP Server']
+    ].map(([id, label]) => `<button type="button" class="tag type-${id}">${label}</button>`).join('');
+
+    document.getElementById('rows').innerHTML = ROWS.map(([name, type, tool, score, stars, sum]) => `
+      <tr>
+        <td>
+          <div class="project-name">${name}</div>
+          <div class="row-summary">${sum}</div>
+        </td>
+        <td><span class="pill pill-${type}">${TYPE_MAP[type]}</span></td>
+        <td><span class="pill">${tool}</span></td>
+        <td class="score-cell">${score}</td>
+        <td>${stars}</td>
+        <td><a href="#" style="color:var(--link)" onclick="return false">GitHub</a></td>
+      </tr>`).join('');
+
+    document.getElementById('toolOverview').innerHTML = TOOLS.slice(0, 8).map(([n, v]) => `
+      <div class="tool-card" data-tool="${n}">
+        <h3>${n}</h3>
+        <div class="tool-stats">${v} 个项目 · ${Math.max(1, Math.round(v/80))} 推荐</div>
+      </div>`).join('');
+
+    function setTab(tab) {
+      const search = tab === 'search';
+      document.getElementById('tabSearch').classList.toggle('active', search);
+      document.getElementById('tabTools').classList.toggle('active', !search);
+      document.getElementById('panelSearch').hidden = !search;
+      document.getElementById('panelTools').hidden = search;
+    }
+    document.getElementById('tabSearch').onclick = () => setTab('search');
+    document.getElementById('tabTools').onclick = () => setTab('tools');
+    document.getElementById('toolOverview').addEventListener('click', (e) => {
+      if (e.target.closest('.tool-card')) setTab('search');
+    });
+
+    const params = new URLSearchParams(location.search);
+    if (params.get('style') && BLURBS[params.get('style')]) setStyle(params.get('style'));
+    else setStyle('ledger-cream');
+  </script>
+</body>
+</html>
