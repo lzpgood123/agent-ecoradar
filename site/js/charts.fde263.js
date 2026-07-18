@@ -1,6 +1,6 @@
 // site/js/charts.js
 // Native SVG charts for tool overview and score distribution
-// Style B: readable axes, grid, value labels
+// Ledger Cream: readable axes, light Y grid, value labels
 // barChart = horizontal (tool coverage); histogram = vertical buckets
 const SIC_charts = {
   _niceMax(maxVal) {
@@ -68,7 +68,7 @@ const SIC_charts = {
     for (let t = 0; t <= tickCount; t++) {
       const v = Math.round((niceMax * t) / tickCount);
       const x = padL + (chartW * t / tickCount);
-      ticks += '<line x1="' + x + '" y1="' + padT + '" x2="' + x + '" y2="' + (padT + n * rowH) + '" stroke="rgba(255,248,240,0.06)" stroke-width="1"/>' +
+      ticks += '<line x1="' + x + '" y1="' + padT + '" x2="' + x + '" y2="' + (padT + n * rowH) + '" stroke="rgba(28,25,23,0.08)" stroke-width="1"/>' +
         '<text x="' + x + '" y="' + (height - 6) + '" text-anchor="middle" font-size="9" fill="var(--color-text-muted)">' + v + '</text>';
     }
 
@@ -87,7 +87,8 @@ const SIC_charts = {
     const padR = 10;
     const padT = 18;
     const padB = 34;
-    const chartH = 150;
+    const chartH = Math.max(120, Number(options.height) || 168);
+    const showGrid = options.showGrid !== false;
     const barGap = 8;
     const minBarW = 22;
     const maxBarW = 42;
@@ -100,17 +101,17 @@ const SIC_charts = {
     const height = padT + chartH + padB;
     const values = data.map((d) => Number(d.value) || 0);
     const niceMax = this._niceMax(maxVal || Math.max.apply(Math, values.concat([1])));
-    const tickCount = 4;
+    const tickCount = Math.max(2, Number(options.yTicks) || 4);
     const ticks = [];
     for (let t = 0; t <= tickCount; t++) {
       ticks.push(Math.round((niceMax * t) / tickCount));
     }
 
-    const grid = ticks.map((v) => {
+    const grid = showGrid ? ticks.map((v) => {
       const y = padT + chartH - (v / niceMax) * chartH;
-      return '<line x1="' + padL + '" y1="' + y + '" x2="' + (padL + plotW) + '" y2="' + y + '" stroke="rgba(255,248,240,0.08)" stroke-width="1"/>' +
+      return '<line x1="' + padL + '" y1="' + y + '" x2="' + (padL + plotW) + '" y2="' + y + '" stroke="rgba(28,25,23,0.10)" stroke-width="1" stroke-dasharray="3 3"/>' +
         '<text x="' + (padL - 6) + '" y="' + (y + 3) + '" text-anchor="end" font-size="10" fill="var(--color-text-muted)">' + v + '</text>';
-    }).join('');
+    }).join('') : '';
 
     const bars = data.map((d, i) => {
       const val = Math.max(0, Number(d.value) || 0);
@@ -125,14 +126,15 @@ const SIC_charts = {
     }).join('');
 
     const axis =
-      '<line x1="' + padL + '" y1="' + (padT + chartH) + '" x2="' + (padL + plotW) + '" y2="' + (padT + chartH) + '" stroke="rgba(255,248,240,0.16)" stroke-width="1"/>' +
-      '<line x1="' + padL + '" y1="' + padT + '" x2="' + padL + '" y2="' + (padT + chartH) + '" stroke="rgba(255,248,240,0.16)" stroke-width="1"/>';
+      '<line x1="' + padL + '" y1="' + (padT + chartH) + '" x2="' + (padL + plotW) + '" y2="' + (padT + chartH) + '" stroke="rgba(28,25,23,0.16)" stroke-width="1"/>' +
+      '<line x1="' + padL + '" y1="' + padT + '" x2="' + padL + '" y2="' + (padT + chartH) + '" stroke="rgba(28,25,23,0.16)" stroke-width="1"/>';
 
-    return '<svg viewBox="0 0 ' + width + ' ' + height + '" style="width:100%;height:auto;max-height:210px;" role="img" aria-label="' + this._escAttr(options.ariaLabel || 'chart') + '">' + grid + axis + bars + '</svg>';
+    return '<svg viewBox="0 0 ' + width + ' ' + height + '" style="width:100%;height:auto;max-height:' + (chartH + 60) + 'px;" role="img" aria-label="' + this._escAttr(options.ariaLabel || 'chart') + '">' + grid + axis + bars + '</svg>';
   },
 
-  // Score distribution histogram (vertical)
-  histogram(scores) {
+  // Score distribution histogram (vertical); second arg optional options
+  histogram(scores, options) {
+    options = options || {};
     const buckets = [0, 0, 0, 0, 0]; // 0-20, 21-40, 41-60, 61-80, 81-100
     for (const s of scores || []) {
       const v = Number(s) || 0;
@@ -152,7 +154,12 @@ const SIC_charts = {
         { label: '81-100', value: buckets[4] },
       ],
       max,
-      { ariaLabel: 'score distribution' }
+      {
+        height: options.height || 168,
+        showGrid: options.showGrid !== false,
+        yTicks: options.yTicks || 4,
+        ariaLabel: options.ariaLabel || 'score distribution'
+      }
     );
   },
 };

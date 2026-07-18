@@ -186,7 +186,12 @@ const SIC_render = {
       .map(function(p) { return p.total_score || 0; });
     var chartEl = this.$('scoreChart');
     if (chartEl && scores.length > 0) {
-      chartEl.innerHTML = SIC_charts.histogram(scores);
+      chartEl.innerHTML = SIC_charts.histogram(scores, {
+        height: 168,
+        showGrid: true,
+        yTicks: 4,
+        ariaLabel: SIC_i18n.t('scoreChartTitle')
+      });
     }
   },
 
@@ -274,9 +279,14 @@ const SIC_render = {
       var isFav = SIC_data.isFav(p.id);
       var isCurated = curatedIds.has(p.id);
       var maxScore = (p.quality_score > 0) ? 100 : 60;
+      var summary = (self.summaryOf(p) || '').slice(0, 160);
       return '<tr>' +
-        '<td><b class="project-name" data-action="detail" data-id="' + self.esc(p.id) + '">' + self.esc(SIC_i18n.textOf(p, 'name')) + '</b><br>' +
-        '<span class="muted">' + self.esc((self.summaryOf(p) || '').slice(0, 100)) + '</span></td>' +
+        '<td>' +
+          '<div class="project-name" data-action="detail" data-id="' + self.esc(p.id) + '">' +
+            self.esc(SIC_i18n.textOf(p, 'name')) +
+          '</div>' +
+          (summary ? '<div class="row-summary">' + self.esc(summary) + '</div>' : '') +
+        '</td>' +
         '<td>' + self.pills(p.resource_type) + '</td>' +
         '<td>' + self.toolLabels(p.target_tools) + '</td>' +
         '<td><span class="score-badge">' + self.safeNum(p.total_score) + '</span><span class="muted" style="font-size:11px;">/' + maxScore + '</span></td>' +

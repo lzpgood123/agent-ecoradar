@@ -186,7 +186,8 @@ function renderTagButtons() {
     typeContainer.innerHTML = allTypes.map(function(type) {
       var active = SIC_filters.selectedTypes.has(type) ? ' active' : '';
       var label = (SIC_i18n.t('resourceTypes')[type]) || type;
-      return '<button class="tag-btn' + active + '" data-action="type-tag" data-type="' + SIC_render.esc(type) + '">' + SIC_render.esc(label) + '</button>';
+      var typeClass = ' pill-type-' + String(type || 'default').replace(/[^a-z0-9_-]/gi, '-');
+      return '<button class="tag-btn' + typeClass + active + '" data-action="type-tag" data-type="' + SIC_render.esc(type) + '">' + SIC_render.esc(label) + '</button>';
     }).join('');
   }
 

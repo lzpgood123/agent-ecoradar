@@ -10,8 +10,8 @@
   <meta property="og:description" content="自动扫描、评分并索引 AI Coding Agent 生态的持续雷达">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://ecoradar.lzpgood.online/">
-  <meta name="theme-color" content="#1c1917">
-  <link rel="stylesheet" href="styles.8af185.css">
+  <meta name="theme-color" content="#F6F1E8">
+  <link rel="stylesheet" href="styles.28ddfd.css">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -29,20 +29,20 @@
         <h1>Agent EcoRadar</h1>
         <p data-i18n="subtitle">智能体生态雷达：自动扫描、评分并索引 AI Coding Agent 生态</p>
       </div>
+    </div>
+    <!-- Merged action row: language | export | report pills -->
+    <div class="action-row" aria-label="操作行">
       <div class="lang-switch" aria-label="Language switcher">
         <button id="langZh" type="button" aria-pressed="true">中文</button>
         <button id="langEn" type="button" aria-pressed="false">English</button>
       </div>
-    </div>
-    <!-- Export favorites stays in nav; report pills live in independent report-bar -->
-    <nav>
       <button id="exportFav" class="fav-btn" data-i18n="exportFav">导出收藏</button>
       <input id="favExportUrl" type="text" class="fav-export-input" readonly style="display:none;" placeholder="收藏链接">
-    </nav>
-    <div class="report-bar">
-      <a href="#" data-report="curated-top.md" data-i18n="navTop">推荐榜</a>
-      <a href="#" data-report="weekly-report.md" data-i18n="navWeekly">生态周报</a>
-      <a href="#" data-report="tool-comparison.md" data-i18n="navCompare">工具对比</a>
+      <div class="report-pills">
+        <a href="#" data-report="curated-top.md" data-i18n="navTop">推荐榜</a>
+        <a href="#" data-report="weekly-report.md" data-i18n="navWeekly">生态周报</a>
+        <a href="#" data-report="tool-comparison.md" data-i18n="navCompare">工具对比</a>
+      </div>
     </div>
     <div id="metrics" class="hero-stats" aria-label="Statistics"></div>
     <!-- Charts under metrics; keep #toolChart / #scoreChart for existing render.js -->
@@ -181,8 +181,8 @@
   <script src="js/i18n.0c5116.js"></script>
   <script src="js/data.08cf6f.js"></script>
   <script src="js/filters.15962a.js"></script>
-  <script src="js/charts.43cffd.js"></script>
-  <script src="js/render.b1c6f0.js"></script>
-  <script src="js/app.0b53fb.js"></script>
+  <script src="js/charts.fde263.js"></script>
+  <script src="js/render.d4dab3.js"></script>
+  <script src="js/app.e80ecf.js"></script>
 </body>
 </html>
