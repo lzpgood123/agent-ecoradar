@@ -32,7 +32,15 @@ DISK_FAIL_GB = 1.0
 DEPLOY_WARN_HOURS = 48.0
 CRON_STALE_HOURS = 36.0  # daily should run every ~24h
 DEFAULT_WEBROOT_METRICS = Path("/var/www/ecoradar.lzpgood.online/data/metrics.json")
+# Hermes no_agent job outputs: ~/.hermes/cron/output/<job_id>/*.md
 DEFAULT_CRON_OUTPUT = Path.home() / ".hermes" / "cron" / "output"
+# System crontab logs (Aliyun migration): ~/.hermes/cron-output/{daily,llm-daily,weekly,ops}.log
+DEFAULT_SYSTEM_CRON_OUTPUT = Path.home() / ".hermes" / "cron-output"
+SYSTEM_CRON_LOGS = {
+    "daily": "daily.log",
+    "llm_daily": "llm-daily.log",
+    "weekly": "weekly.log",
+}
 
 
 def _now() -> datetime:
@@ -209,11 +217,59 @@ def evaluate_status(signals: dict[str, Any]) -> dict[str, Any]:
     }
 
 
+def _judge_cron_text(text: str) -> bool:
+    """Infer success/failure from Hermes .md or system crontab .log content."""
+    title = text.splitlines()[0] if text else ""
+    lower = text.lower()
+    if "(failed)" in title.lower() or "**status:** fail" in lower:
+        return False
+    if re.search(r'"status"\s*:\s*"FAIL"', text):
+        return False
+    if re.search(r'"status"\s*:\s*"PASS"', text) or "exit=0" in text:
+        return True
+    if "error: workdir not found" in lower or "traceback" in lower:
+        return False
+    if "error" in lower and "returncode" in lower and re.search(
+        r'"returncode"\s*:\s*(?!0\b)\d+', text
+    ):
+        return False if "failed" in lower else True
+    # no_agent / crontab success usually ends without FAILED marker
+    return "(failed)" not in title.lower() and "traceback" not in lower
+
+
+def parse_cron_log_file(
+    path: Path,
+) -> tuple[Optional[bool], Optional[float], Optional[Path]]:
+    """Return (ok, age_hours, path) for a single system crontab log file."""
+    path = Path(path)
+    if not path.is_file():
+        return None, None, None
+    text = path.read_text(encoding="utf-8", errors="replace")
+    mtime = datetime.fromtimestamp(path.stat().st_mtime, tz=timezone.utc)
+    age_hours = (_now() - mtime).total_seconds() / 3600.0
+    if not text.strip():
+        return None, age_hours, path
+    return _judge_cron_text(text), age_hours, path
+
+
 def parse_latest_cron_run(
     cron_output_dir: Path, job_id: str
 ) -> tuple[Optional[bool], Optional[float], Optional[Path]]:
-    """Return (ok, age_hours, path) for the newest .md under job output dir."""
-    job_dir = Path(cron_output_dir) / job_id
+    """Return (ok, age_hours, path) for Hermes job dir or a flat log file.
+
+    Hermes:   cron_output_dir/<job_id>/*.md  (newest)
+    System:   cron_output_dir/<job_id>       when job_id ends with .log
+              or cron_output_dir/<job_id>.log
+    """
+    cron_output_dir = Path(cron_output_dir)
+    # Flat log file (Aliyun system crontab)
+    if job_id.endswith(".log"):
+        return parse_cron_log_file(cron_output_dir / job_id)
+    flat = cron_output_dir / f"{job_id}.log"
+    if flat.is_file():
+        return parse_cron_log_file(flat)
+
+    job_dir = cron_output_dir / job_id
     if not job_dir.is_dir():
         return None, None, None
     files = sorted(job_dir.glob("*.md"), key=lambda p: p.stat().st_mtime, reverse=True)
@@ -223,22 +279,7 @@ def parse_latest_cron_run(
     text = path.read_text(encoding="utf-8", errors="replace")
     mtime = datetime.fromtimestamp(path.stat().st_mtime, tz=timezone.utc)
     age_hours = (_now() - mtime).total_seconds() / 3600.0
-
-    title = text.splitlines()[0] if text else ""
-    lower = text.lower()
-    if "(failed)" in title.lower() or "**status:** fail" in lower:
-        ok = False
-    elif re.search(r'"status"\s*:\s*"PASS"', text) or "exit=0" in text:
-        ok = True
-    elif "error" in lower and "returncode" in lower and re.search(
-        r'"returncode"\s*:\s*(?!0\b)\d+', text
-    ):
-        # any non-zero required step is fail-ish; keep simple: look for FAILED
-        ok = False if "failed" in lower else True
-    else:
-        # no_agent script success usually ends without FAILED marker
-        ok = "(failed)" not in title.lower() and "traceback" not in lower
-    return ok, age_hours, path
+    return _judge_cron_text(text), age_hours, path
 
 
 def parse_quality_gate_from_text(text: str) -> str:
@@ -310,6 +351,7 @@ def collect_signals(
     *,
     root: Path = ROOT,
     cron_output_dir: Path = DEFAULT_CRON_OUTPUT,
+    system_cron_output_dir: Optional[Path] = None,
     job_ids: Optional[dict[str, str]] = None,
     webroot_metrics: Path = DEFAULT_WEBROOT_METRICS,
 ) -> dict[str, Any]:
@@ -317,11 +359,33 @@ def collect_signals(
     if job_ids:
         jobs.update(job_ids)
 
-    daily_ok, daily_age, daily_path = parse_latest_cron_run(cron_output_dir, jobs["daily"])
-    llm_ok, llm_age, llm_path = parse_latest_cron_run(cron_output_dir, jobs["llm_daily"])
+    system_dir = Path(
+        system_cron_output_dir
+        if system_cron_output_dir is not None
+        else os.environ.get("ECORADAR_SYSTEM_CRON_OUTPUT", DEFAULT_SYSTEM_CRON_OUTPUT)
+    )
+
+    def _resolve(role: str) -> tuple[Optional[bool], Optional[float], Optional[Path]]:
+        # 1) Hermes job_id directory / flat id under cron_output_dir
+        ok, age, path = parse_latest_cron_run(cron_output_dir, jobs[role])
+        if ok is not None:
+            return ok, age, path
+        # 2) System crontab log under system_dir (Aliyun)
+        log_name = SYSTEM_CRON_LOGS.get(role)
+        if log_name:
+            sok, sage, spath = parse_cron_log_file(system_dir / log_name)
+            if sok is not None or spath is not None:
+                return sok, sage, spath
+        # 3) Same log name under hermes cron_output_dir (if user points --cron-output there)
+        if log_name:
+            return parse_cron_log_file(Path(cron_output_dir) / log_name)
+        return ok, age, path
+
+    daily_ok, daily_age, daily_path = _resolve("daily")
+    llm_ok, llm_age, llm_path = _resolve("llm_daily")
     # if llm_daily missing, fall back to weekly output
     if llm_ok is None:
-        llm_ok, llm_age, llm_path = parse_latest_cron_run(cron_output_dir, jobs["weekly"])
+        llm_ok, llm_age, llm_path = _resolve("weekly")
 
     qg = "UNKNOWN"
     for p in (daily_path, llm_path):
@@ -343,6 +407,7 @@ def collect_signals(
         "raw_data_exists": (root / "data" / "raw").exists(),
         "snapshots_exists": (root / "data" / "snapshots").exists(),
         "job_ids": jobs,
+        "system_cron_output": str(system_dir),
         "daily_output": str(daily_path) if daily_path else None,
         "llm_output": str(llm_path) if llm_path else None,
     }
@@ -378,7 +443,12 @@ def main(argv: Optional[list[str]] = None) -> int:
     ap.add_argument(
         "--cron-output",
         default=str(DEFAULT_CRON_OUTPUT),
-        help="Hermes cron output 根目录",
+        help="Hermes cron output 根目录（job_id 子目录）",
+    )
+    ap.add_argument(
+        "--system-cron-output",
+        default=str(DEFAULT_SYSTEM_CRON_OUTPUT),
+        help="系统 crontab 日志目录（daily.log / llm-daily.log / weekly.log）",
     )
     ap.add_argument(
         "--metrics",
@@ -390,6 +460,7 @@ def main(argv: Optional[list[str]] = None) -> int:
     signals = collect_signals(
         root=ROOT,
         cron_output_dir=Path(args.cron_output),
+        system_cron_output_dir=Path(args.system_cron_output),
         webroot_metrics=Path(args.metrics),
     )
     doc = build_status_document(signals)

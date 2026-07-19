@@ -178,6 +178,75 @@ class TestCollectSignals:
         assert age is None
         assert path is None
 
+    def test_parse_system_cron_log_success(self, tmp_path):
+        from ops_healthcheck import parse_cron_log_file, parse_latest_cron_run
+
+        log = tmp_path / "daily.log"
+        log.write_text(
+            '=== Deriving queries ===\n{"status": "PASS", "steps": 9, "deploy": false}\n'
+            "Track projects to refresh: 1000\n",
+            encoding="utf-8",
+        )
+        ok, age, path = parse_cron_log_file(log)
+        assert ok is True
+        assert path == log
+        assert age is not None and age >= 0
+
+        # Also via parse_latest_cron_run with .log job id
+        ok2, _age2, path2 = parse_latest_cron_run(tmp_path, "daily.log")
+        assert ok2 is True
+        assert path2 == log
+
+        # And via bare name + .log suffix auto
+        ok3, _age3, path3 = parse_latest_cron_run(tmp_path, "daily")
+        assert ok3 is True
+        assert path3 == log
+
+    def test_parse_system_cron_log_empty_is_missing(self, tmp_path):
+        from ops_healthcheck import parse_cron_log_file
+
+        log = tmp_path / "llm-daily.log"
+        log.write_text("", encoding="utf-8")
+        ok, age, path = parse_cron_log_file(log)
+        assert ok is None
+        assert path == log
+        assert age is not None
+
+    def test_collect_signals_falls_back_to_system_logs(self, tmp_path):
+        from ops_healthcheck import collect_signals
+
+        hermes_dir = tmp_path / "hermes-cron"
+        hermes_dir.mkdir()
+        system_dir = tmp_path / "system-cron"
+        system_dir.mkdir()
+        (system_dir / "daily.log").write_text(
+            '{"status": "PASS", "steps": 9}\nNo tools need onboarding.\n',
+            encoding="utf-8",
+        )
+        # weekly as llm fallback (no llm-daily.log)
+        (system_dir / "weekly.log").write_text(
+            "=== Weekly LLM Analysis Start ===\n"
+            '{"status": "PASS"}\n=== Weekly End ===\n',
+            encoding="utf-8",
+        )
+        root = tmp_path / "proj"
+        (root / "data").mkdir(parents=True)
+        (root / "data" / "seed-tools.yaml").write_text("[]\n", encoding="utf-8")
+        metrics = tmp_path / "metrics.json"
+        metrics.write_text("{}", encoding="utf-8")
+
+        signals = collect_signals(
+            root=root,
+            cron_output_dir=hermes_dir,
+            system_cron_output_dir=system_dir,
+            webroot_metrics=metrics,
+        )
+        assert signals["last_daily_ok"] is True
+        assert signals["last_llm_ok"] is True
+        assert signals["quality_gate"] == "PASS"
+        assert signals["daily_output"] and signals["daily_output"].endswith("daily.log")
+        assert signals["llm_output"] and signals["llm_output"].endswith("weekly.log")
+
     def test_read_llm_degraded_true(self, tmp_path):
         from ops_healthcheck import read_llm_degraded
 
